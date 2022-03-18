@@ -3,7 +3,8 @@ copy cd\orig\addie_1.bin cd\addie_1.bin
 
 del exe\SCPS_101.26
 copy exe\orig\SCPS_101.26 exe\SCPS_101.26
-tools\armips.exe code\addie_vwf.asm
+tools\armips.exe code\addies-assembly.asm
+pause
 
 del  graphics\DATA.CTS
 copy  graphics\orig\DATA.CTS  graphics\DATA.CTS

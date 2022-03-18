@@ -156,6 +156,7 @@
     <ClCompile Include="makefile" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="code\font.h" />
     <ClInclude Include="code\platform.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
