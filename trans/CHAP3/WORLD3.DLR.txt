@@ -1,0 +1,1214 @@
+#VAR(Table, TABLE)
+#ADDTBL("sjis.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", -2148236152, 32)
+#JMP($00024D50)
+
+// PTR : 00000774
+#WRITE(PTR, $0000082C)
+//ねえ、おじさん…
+Say, mister?
+<$00>
+
+// PTR : 00000788
+#WRITE(PTR, $00000830)
+//私は眠っておりませんよ！
+I SAID I WASN'T\nSLEEPING!
+<$00>
+
+// PTR : 000007A4
+#WRITE(PTR, $00000834)
+//本の読みすぎで、\nうたた寝なんてしてませんよ！
+With so many books to\nread, I can't take a nap!
+<$00>
+
+// PTR : 000007D4
+#WRITE(PTR, $00000838)
+//あの…
+Uhm...
+<$00>
+
+// PTR : 000007DC
+#WRITE(PTR, $0000083C)
+//眠って、うつらうつらして、\n職務をおこたってませんよ…
+Sleeping, nodding off,\nnot doing your job...
+<$00>
+
+// PTR : 00000814
+#WRITE(PTR, $00000840)
+//グー
+Zzz...
+<$00>
+
+// PTR : 0000081C
+#WRITE(PTR, $00000844)
+//ダメみたい…ね
+This poor man.
+<$00>
+
+// PTR : 00000EE8
+#WRITE(PTR, $0000101C)
+//ふう、助かったぜ
+Whew! You saved me!
+<$00>
+
+// PTR : 00000EFC
+#WRITE(PTR, $00001020)
+//…って、あんた誰だい？\n図書館の職員じゃねえな
+But who are you?\nObviously not staff.
+<$00>
+
+// PTR : 00000F2C
+#WRITE(PTR, $00001024)
+//帽子をかぶった男の子を\n探してるんだけど…
+No, I'm looking for\na boy wearing a hat.
+<$00>
+
+// PTR : 00000F58
+#WRITE(PTR, $00001028)
+//そいつだ！\n俺を倒していったヤツ！
+Him?! He's the one\nwho knocked me over!
+<$00>
+
+// PTR : 00000F7C
+#WRITE(PTR, $0000102C)
+//どこに行ったかわかる？
+Where did he go?
+<$00>
+
+// PTR : 00000F94
+#WRITE(PTR, $00001030)
+//俺のフトコロから、特別室の鍵を\n奪っていったから、たぶんそこだろ
+He took the vault key\nfrom my breast pocket.
+<$00>
+
+// PTR : 00000FD4
+#WRITE(PTR, $00001034)
+//ほら、マスターキーを貸すから\nそいつをとっちめといてくれよ
+Borrow my master key\nand check the vault.
+<$00>
+
+// PTR : 00001010
+#WRITE(PTR, $00001038)
+//ありがとう
+Thanks!
+<$00>
+
+// PTR : 000011CC
+#WRITE(PTR, $00001214)
+//早く起こしてくれよ！
+Help me up! Quick!
+<$00>
+
+// PTR : 000011E4
+#WRITE(PTR, $00001218)
+//え？どうしよう…
+But how?
+<$00>
+
+// PTR : 000011F8
+#WRITE(PTR, $0000121C)
+//あ！これが、使えそうかな？
+Oh! I'll use this!
+//book -> jack
+<$00>
+
+// PTR : 00001330
+#WRITE(PTR, $00001408)
+//…あー、\nまだ名前を言ってなかったな
+Oh! I forgot to\nintroduce myself.
+<$00>
+
+// PTR : 00001354
+#WRITE(PTR, $0000140C)
+//俺の名前はタブボディ、\nここの副館長だ
+I'm the vice chief\nlibrarian, Mr. Tubbody.
+<$00>
+
+// PTR : 0000137C
+#WRITE(PTR, $00001410)
+//んで、えーと…あんたの名前は…
+And, you are?
+<$00>
+
+// PTR : 0000139C
+#WRITE(PTR, $00001414)
+//アディよ
+Addie!
+<$00>
+
+// PTR : 000013A8
+#WRITE(PTR, $00001418)
+//そう、アディだ！なあ、アディ、\n特別室は廊下に出て右の方だ
+Okay, Addie, the vault is\ndown the hall to the right.
+<$00>
+
+// PTR : 000013E4
+#WRITE(PTR, $0000141C)
+//とっとと、鍵を\n取り返してきてくれ
+Please, get that vault\nkey back at once!
+<$00>
+
+// PTR : 00001474
+#WRITE(PTR, $000015F0)
+//あんた…、俺に聞きたい\nことがありそうだな
+You...want to ask me\nsomething, don't you.
+<$00>
+
+// PTR : 000014A0
+#WRITE(PTR, $000015F4)
+//うん！
+Yes!
+<$00>
+
+// PTR : 000014A8
+#WRITE(PTR, $000015F8)
+//どうして、タルの中に入ってるの？
+Why are you in\na barrel?!
+<$00>
+
+// PTR : 000014CC
+#WRITE(PTR, $000015FC)
+//規則なんだよ！館長が決めた規則！\n詳しいことは館長にでも聞いてくれ
+It's one of our rules!\nAsk the head about it.
+<$00>
+
+// PTR : 00001510
+#WRITE(PTR, $00001600)
+//誰が好きこのんで、\nこんなものの中に…何だよ？
+You thought this is a\nchoice? To what end?!
+<$00>
+
+// PTR : 00001540
+#WRITE(PTR, $00001604)
+//…ひょっとして、出られないとか？
+Then why not come out?
+<$00>
+
+// PTR : 00001564
+#WRITE(PTR, $00001608)
+//あっ、いつでも出られるぜ！\n今は就業中だから、ダメだけどな
+I could at any time,\nbut not on my shift.
+<$00>
+
+// PTR : 000015A0
+#WRITE(PTR, $0000160C)
+//ホントに？
+Seriously?
+<$00>
+
+// PTR : 000015AC
+#WRITE(PTR, $00001610)
+//…規則だからな
+I did say it\nwas a rule.
+<$00>
+
+// PTR : 000015BC
+#WRITE(PTR, $00001614)
+//そんなことはいいから、\n早く鍵を取り返してきてくれ！
+Will that answer suffice?\nNow, go get that key!
+<$00>
+
+// PTR : 00001814
+#WRITE(PTR, $00001898)
+//作家に人権はないのだ！\nうひひー！
+Writers have no rights!\nGyahahaha!
+<$00>
+
+// PTR : 00001838
+#WRITE(PTR, $0000189C)
+//明日になったらできている\nそうに違いない！　ひぃー！
+The deadline's tomorrow!\nWahahaha!
+<$00>
+
+// PTR : 0000186C
+#WRITE(PTR, $000018A0)
+//寝るなー！　寝たら死ぬぞ！\n目を覚ませー！
+Stay up! Stay awake!\nNap now, and perish!
+<$00>
+
+// PTR : 00001DF4
+#WRITE(PTR, $00001F08)
+//あ
+Oh!
+<$00>
+
+// PTR : 00001DF8
+#WRITE(PTR, $00001F0C)
+//やっ
+Hey.
+<$00>
+
+// PTR : 00001E00
+#WRITE(PTR, $00001F10)
+//あら、ジョーカ兄さん
+Hello, Joka.
+<$00>
+
+// PTR : 00001E18
+#WRITE(PTR, $00001F14)
+//どうやらあなたの目的も\n果たせたみたいね、アディ
+Mission accomplished,\nAddie.
+<$00>
+
+// PTR : 00001E48
+#WRITE(PTR, $00001F18)
+//やっと追いつめたわよ
+I finally got you.
+<$00>
+
+// PTR : 00001E60
+#WRITE(PTR, $00001F1C)
+//女の子の君が、男の僕を？まさかぁ
+A girl like you,\ncatching me? Never.
+<$00>
+
+// PTR : 00001E84
+#WRITE(PTR, $00001F20)
+//私、モーゼとケンカして\n負けたこと無いのよ
+I've taken down Moze\nplenty of times.
+<$00>
+
+// PTR : 00001EB0
+#WRITE(PTR, $00001F24)
+//…僕は、ジョーカだってば
+I'm Joka, remember?
+<$00>
+
+// PTR : 00001ECC
+#WRITE(PTR, $00001F28)
+//どうして逃げまわるの？
+Why are you running?
+<$00>
+
+// PTR : 00001EE4
+#WRITE(PTR, $00001F2C)
+//君が追いかけるから
+Because you're\nchasing me!
+<$00>
+
+// PTR : 00001EF8
+#WRITE(PTR, $00001F30)
+//…仲いいのね
+They seem close.
+<$00>
+//どうして、こんなのか
+//What is this thing?
+//bat -> map
+
+#VAR(PTR1, CUSTOMPOINTER)
+#CREATEPTR(PTR1, "LINEAR", -2148236152, 32)
+// PTR : 00000A6C
+#WLB(PTR1, $000035EC)
+#WHB(PTR1, $000035ED)
+#WBB(PTR1, $000035E8)
+#WUB(PTR1, $000035E9)
+//ふふふふ
+Wahahaha!
+<$00>
+
+// PTR : 00000344
+#WLB(PTR1, $00003E58)
+#WHB(PTR1, $00003E59)
+#WBB(PTR1, $00003E54)
+#WUB(PTR1, $00003E55)
+//もう、イヤ！
+Enough with the bugs!
+//snail -> novel
+<$00>
+
+// PTR : 00000354
+#WLB(PTR1, $00003F30)
+#WHB(PTR1, $00003F31)
+#WBB(PTR1, $00003F2C)
+#WUB(PTR1, $00003F2D)
+//気持ち悪いけど…\n何とかしなきゃ
+This can't be good.\nWhat can I do?!
+<$00>
+
+// PTR : 00000374
+#WLB(PTR1, $00003FAC)
+#WHB(PTR1, $00003FAD)
+#WBB(PTR1, $00003FA8)
+#WUB(PTR1, $00003FA9)
+ＳＮＡＩＬ
+<$00>
+
+// PTR : 000003C8
+#WLB(PTR1, $000040CC)
+#WHB(PTR1, $000040CD)
+#WBB(PTR1, $000040C8)
+#WUB(PTR1, $000040C9)
+//ここは右棟の閲覧室よ。静かにね
+Quite, please. The\nright hall is for reading.
+<$00>
+
+// PTR : 00000380
+#WLB(PTR1, $00003FE4)
+#WHB(PTR1, $00003FE5)
+#WBB(PTR1, $00003FE0)
+#WUB(PTR1, $00003FE1)
+#WLB(PTR1, $00004744)
+#WHB(PTR1, $00004745)
+#WBB(PTR1, $00004740)
+#WUB(PTR1, $00004741)
+//左棟・回廊
+Left Hall Corridor
+<$00>
+
+// PTR : 00000430
+#WLB(PTR1, $00004C68)
+#WHB(PTR1, $00004C69)
+#WBB(PTR1, $00004C64)
+#WUB(PTR1, $00004C65)
+//隠れてるんだ\n締め切りに追われててね
+Hiding. I have a\ndeadline coming up.
+<$00>
+
+// PTR : 00000454
+#WLB(PTR1, $00004CBC)
+#WHB(PTR1, $00004CBD)
+#WBB(PTR1, $00004CB8)
+#WUB(PTR1, $00004CB9)
+//締め切り？
+What deadline?
+<$00>
+
+// PTR : 00000460
+#WLB(PTR1, $00004CCC)
+#WHB(PTR1, $00004CCD)
+#WBB(PTR1, $00004CC8)
+#WUB(PTR1, $00004CC9)
+//おじさんのこと誰かに聞かれても、\n知らないって言うんだよ？
+If anyone asks,\nyou saw NOTHING.
+<$00>
+
+// PTR : 00000420
+#WLB(PTR1, $00004C5C)
+#WHB(PTR1, $00004C5D)
+#WBB(PTR1, $00004C58)
+#WUB(PTR1, $00004C59)
+#WLB(PTR1, $000074B8)
+#WHB(PTR1, $000074B9)
+#WBB(PTR1, $000074B4)
+#WUB(PTR1, $000074B5)
+//…何してるの？
+What are you doing?
+<$00>
+
+// PTR : 0000038C
+#WLB(PTR1, $00004108)
+#WHB(PTR1, $00004109)
+#WBB(PTR1, $00004104)
+#WUB(PTR1, $00004105)
+#WLB(PTR1, $00005B10)
+#WHB(PTR1, $00005B11)
+#WBB(PTR1, $00005B0C)
+#WUB(PTR1, $00005B0D)
+#WLB(PTR1, $00006A18)
+#WHB(PTR1, $00006A19)
+#WBB(PTR1, $00006A14)
+#WUB(PTR1, $00006A15)
+#WLB(PTR1, $00010BD8)
+#WHB(PTR1, $00010BD9)
+#WBB(PTR1, $00010BD4)
+#WUB(PTR1, $00010BD5)
+//ジョーカを追いかけるのなら\n早く行ったほうがいいんじゃない？
+If you're after Joka,\nyou'd better hurry!
+<$00>
+
+#VAR(PTR2, CUSTOMPOINTER)
+#CREATEPTR(PTR2, "LINEAR", -2148301688, 32)
+// PTR : 0000049C
+#WLB(PTR2, $00004D80)
+#WHB(PTR2, $00004D81)
+#WBB(PTR2, $00004D7C)
+#WUB(PTR2, $00004D7D)
+//見逃してくれないかなぁ
+Maybe they won't\nfind me here.
+<$00>
+
+// PTR : 000004B4
+#WLB(PTR2, $00004E00)
+#WHB(PTR2, $00004E01)
+#WBB(PTR2, $00004DFC)
+#WUB(PTR2, $00004DFD)
+//に、逃げたほうがいいのかな
+S-should I make\na run for it?
+<$00>
+
+// PTR : 00000530
+#WLB(PTR2, $000054B0)
+#WHB(PTR2, $000054B1)
+#WBB(PTR2, $000054AC)
+#WUB(PTR2, $000054AD)
+//左棟・書棚
+Left Hall Bookshelves
+<$00>
+
+// PTR : 000005C4
+#WLB(PTR2, $0000588C)
+#WHB(PTR2, $0000588D)
+#WBB(PTR2, $00005888)
+#WUB(PTR2, $00005889)
+//…悪趣味！
+You're gross too!
+//spider -> report
+<$00>
+
+// PTR : 000005D0
+#WLB(PTR2, $0000592C)
+#WHB(PTR2, $0000592D)
+#WBB(PTR2, $00005928)
+#WUB(PTR2, $00005929)
+//…もう、ジャマしないでよ！
+Out of my way!
+<$00>
+
+// PTR : 000005EC
+#WLB(PTR2, $000059A8)
+#WHB(PTR2, $000059A9)
+#WBB(PTR2, $000059A4)
+#WUB(PTR2, $000059A5)
+ＳＰＩＤＥＲ
+<$00>
+
+// PTR : 00000610
+#WLB(PTR2, $00005AD4)
+#WHB(PTR2, $00005AD5)
+#WBB(PTR2, $00005AD0)
+#WUB(PTR2, $00005AD1)
+//この先には警備の詰め所があるわ
+Security's that-a way.
+<$00>
+
+// PTR : 000005FC
+#WLB(PTR2, $000059E0)
+#WHB(PTR2, $000059E1)
+#WBB(PTR2, $000059DC)
+#WUB(PTR2, $000059DD)
+#WLB(PTR2, $00006198)
+#WHB(PTR2, $00006199)
+#WBB(PTR2, $00006194)
+#WUB(PTR2, $00006195)
+//左棟・職員エリア
+Left Hall Staff Area
+<$00>
+
+// PTR : 00000678
+#WLB(PTR2, $000068D4)
+#WHB(PTR2, $000068D5)
+#WBB(PTR2, $000068D0)
+#WUB(PTR2, $000068D1)
+//…ジョーカがまだこの図書館の\n中にいるとはあまり思えないわ
+I don't think Joka's\nstill in the library.
+<$00>
+
+// PTR : 000006B4
+#WLB(PTR2, $00006920)
+#WHB(PTR2, $00006921)
+#WBB(PTR2, $0000691C)
+#WUB(PTR2, $0000691D)
+//あなたが追いかけてるのを\nジョーカは知ってるの？
+Does Joka know\nyou're after him?
+<$00>
+
+// PTR : 000006E4
+#WLB(PTR2, $0000696C)
+#WHB(PTR2, $0000696D)
+#WBB(PTR2, $00006968)
+#WUB(PTR2, $00006969)
+//まあ、奥まで調べれば、ジョーカが\nいるかいないかは分かるわね
+The more you look, the\nmore likely you'll find.
+<$00>
+
+// PTR : 00000720
+#WLB(PTR2, $000069B8)
+#WHB(PTR2, $000069B9)
+#WBB(PTR2, $000069B4)
+#WUB(PTR2, $000069B5)
+//さあ、もっと奥まで行ってみましょ
+Now, let's\nhead deeper in.
+<$00>
+
+// PTR : 00000864
+#WLB(PTR2, $00006E94)
+#WHB(PTR2, $00006E95)
+#WBB(PTR2, $00006E90)
+#WUB(PTR2, $00006E91)
+Ｚｚｚ…
+<$00>
+
+// PTR : 0000087C
+#WLB(PTR2, $00007538)
+#WHB(PTR2, $00007539)
+#WBB(PTR2, $00007534)
+#WUB(PTR2, $00007535)
+//左棟・警備員詰所
+Left Hall Security Post
+<$00>
+
+// PTR : 00000918
+#WLB(PTR2, $000079BC)
+#WHB(PTR2, $000079BD)
+#WBB(PTR2, $000079B8)
+#WUB(PTR2, $000079B9)
+//どうして、こんなのが？
+What's going on?!
+<$00>
+
+// PTR : 00000930
+#WLB(PTR2, $00007A5C)
+#WHB(PTR2, $00007A5D)
+#WBB(PTR2, $00007A58)
+#WUB(PTR2, $00007A59)
+//…もう、急いでるのに！
+I don't have\ntime for this!
+<$00>
+
+// PTR : 00000948
+#WLB(PTR2, $00007AD8)
+#WHB(PTR2, $00007AD9)
+#WBB(PTR2, $00007AD4)
+#WUB(PTR2, $00007AD5)
+ＢＡＴ
+<$00>
+
+// PTR : 00000970
+#WLB(PTR2, $00007E40)
+#WHB(PTR2, $00007E41)
+#WBB(PTR2, $00007E3C)
+#WUB(PTR2, $00007E3D)
+//締め切り間近になると、\nいっつもこれだ！
+This always happens\nbefore his deadlines!
+<$00>
+
+// PTR : 00000998
+#WLB(PTR2, $00007EDC)
+#WHB(PTR2, $00007EDD)
+#WBB(PTR2, $00007ED8)
+#WUB(PTR2, $00007ED9)
+//ふう、待ち続けるしか\nないのかな…
+Guess I'll have to wait.
+<$00>
+
+// PTR : 000009BC
+#WLB(PTR2, $00007F10)
+#WHB(PTR2, $00007F11)
+#WBB(PTR2, $00007F0C)
+#WUB(PTR2, $00007F0D)
+//…君、もしかして、\n先生の居場所を知ってるとか？
+Have you seen a man\nhiding around here?
+<$00>
+
+// PTR : 000009EC
+#WLB(PTR2, $00007F68)
+#WHB(PTR2, $00007F69)
+#WBB(PTR2, $00007F64)
+#WUB(PTR2, $00007F65)
+//知ってる
+Yes
+<$00>
+
+// PTR : 000009F8
+#WLB(PTR2, $00007F70)
+#WHB(PTR2, $00007F71)
+#WBB(PTR2, $00007F6C)
+#WUB(PTR2, $00007F6D)
+//知らない
+No
+<$00>
+
+// PTR : 00000A04
+#WLB(PTR2, $00007FF0)
+#WHB(PTR2, $00007FF1)
+#WBB(PTR2, $00007FEC)
+#WUB(PTR2, $00007FED)
+//そんなところに隠れてるのか…
+Back there?\nOh, he would.
+<$00>
+
+// PTR : 00000A24
+#WLB(PTR2, $00008000)
+#WHB(PTR2, $00008001)
+#WBB(PTR2, $00007FFC)
+#WUB(PTR2, $00007FFD)
+//もうちょっと待ってみて、それでも\n帰ってこなかったら、そのときは…
+Imagine if I left him/nhere past closing time.
+<$00>
+
+// PTR : 00000A78
+#WLB(PTR2, $00008294)
+#WHB(PTR2, $00008295)
+#WBB(PTR2, $00008290)
+#WUB(PTR2, $00008291)
+//あ、ゴメンゴメン\nありがとう、お嬢さん
+Aww, sorry.\nThank you, miss.
+<$00>
+
+// PTR : 00000AA0
+#WLB(PTR2, $00008374)
+#WHB(PTR2, $00008375)
+#WBB(PTR2, $00008370)
+#WUB(PTR2, $00008371)
+//ホントかい？
+Really?
+<$00>
+
+// PTR : 00000AB0
+#WLB(PTR2, $00008384)
+#WHB(PTR2, $00008385)
+#WBB(PTR2, $00008380)
+#WUB(PTR2, $00008381)
+//じゃあ、しようがない\n待ち続けるか…
+Well, guess I'll\nkeep waiting.
+<$00>
+
+// PTR : 00000AEC
+#WLB(PTR2, $00008408)
+#WHB(PTR2, $00008409)
+#WBB(PTR2, $00008404)
+#WUB(PTR2, $00008405)
+//今度は向かいの先生が\n逃げちゃってね…
+And now, my other\nwriter ran off.
+<$00>
+
+// PTR : 00000B44
+#WLB(PTR2, $00008414)
+#WHB(PTR2, $00008415)
+#WBB(PTR2, $00008410)
+#WUB(PTR2, $00008411)
+//向かいの先生が\n逃げちゃってね…
+My other writer\nran off.
+<$00>
+
+// PTR : 00000B14
+#WLB(PTR2, $00008424)
+#WHB(PTR2, $00008425)
+#WBB(PTR2, $00008420)
+#WUB(PTR2, $00008421)
+//…まあいいや、こっちの先生を\n増ページにするか…
+Guess I'll increase\nthis writer's page count!
+<$00>
+
+// PTR : 00000A68
+#WLB(PTR2, $00008284)
+#WHB(PTR2, $00008285)
+#WBB(PTR2, $00008280)
+#WUB(PTR2, $00008281)
+#WLB(PTR2, $000086AC)
+#WHB(PTR2, $000086AD)
+#WBB(PTR2, $000086A8)
+#WUB(PTR2, $000086A9)
+//…んふふふふ
+Mweheheheh!
+<$00>
+
+// PTR : 00000B64
+#WLB(PTR2, $000086BC)
+#WHB(PTR2, $000086BD)
+#WBB(PTR2, $000086B8)
+#WUB(PTR2, $000086B9)
+//あ、ゴメンゴメン\nお嬢さん、先生見かけたら教えてね
+Aww, sorry. If you do\nsee him, let me know.
+<$00>
+
+// PTR : 00000AD4
+#WLB(PTR2, $00008764)
+#WHB(PTR2, $00008765)
+#WBB(PTR2, $00008760)
+#WUB(PTR2, $00008761)
+//待つのもラクじゃないね
+Waiting on people\nisn't fun.
+<$00>
+
+// PTR : 00000950
+#WLB(PTR2, $00007B0C)
+#WHB(PTR2, $00007B0D)
+#WBB(PTR2, $00007B08)
+#WUB(PTR2, $00007B09)
+#WLB(PTR2, $00008FE8)
+#WHB(PTR2, $00008FE9)
+#WBB(PTR2, $00008FE4)
+#WUB(PTR2, $00008FE5)
+//左棟・執筆室前
+Left Wing Writing Room Front
+<$00>
+
+// PTR : 00000CC8
+#WLB(PTR2, $00009570)
+#WHB(PTR2, $00009571)
+#WBB(PTR2, $0000956C)
+#WUB(PTR2, $0000956D)
+//出来の悪い人間ほど\nいいわけが多いわよね
+Less work nets more\nexcuses, am I right?
+<$00>
+
+// PTR : 00000D40
+#WLB(PTR2, $000096B0)
+#WHB(PTR2, $000096B1)
+#WBB(PTR2, $000096AC)
+#WUB(PTR2, $000096AD)
+//隣が騒がしくて書けやしない！
+I can't work with\nsuch a noisy neighbor!
+<$00>
+
+// PTR : 00000D60
+#WLB(PTR2, $000096C0)
+#WHB(PTR2, $000096C1)
+#WBB(PTR2, $000096BC)
+#WUB(PTR2, $000096BD)
+//もっとも、隣は副館長の部屋だから\nどなりこめないんだけど…
+The vice chief works next\ndoor, so I can't complain!
+<$00>
+
+// PTR : 00000D9C
+#WLB(PTR2, $0000971C)
+#WHB(PTR2, $0000971D)
+#WBB(PTR2, $00009718)
+#WUB(PTR2, $00009719)
+//ふう、少しは静かになったかな\nうるさいのは相変わらずだけど
+I thought it got quieter,\nbut nope. Still noisy.
+<$00>
+
+// PTR : 00000DD8
+#WLB(PTR2, $00009760)
+#WHB(PTR2, $00009761)
+#WBB(PTR2, $0000975C)
+#WUB(PTR2, $0000975D)
+//うーるー\nさーいー！
+ZIP IT!
+<$00>
+
+// PTR : 00000DEC
+#WLB(PTR2, $00009770)
+#WHB(PTR2, $00009771)
+#WBB(PTR2, $0000976C)
+#WUB(PTR2, $0000976D)
+//こんなところで\n執筆なんかできるかー！
+Can we really write here?!
+<$00>
+
+// PTR : 00000E3C
+#WLB(PTR2, $000097C4)
+#WHB(PTR2, $000097C5)
+#WBB(PTR2, $000097C0)
+#WUB(PTR2, $000097C1)
+//『探さないでください』
+"Don't look for me."
+<$00>
+
+// PTR : 00000E88
+#WLB(PTR2, $0000A100)
+#WHB(PTR2, $0000A101)
+#WBB(PTR2, $0000A0FC)
+#WUB(PTR2, $0000A0FD)
+//おい！誰か今入ってきただろ？\n俺を起こしてくれ！
+Finally, someone came!\nHelp me up!
+<$00>
+
+// PTR : 0000107C
+#WLB(PTR2, $0000A5A0)
+#WHB(PTR2, $0000A5A1)
+#WBB(PTR2, $0000A59C)
+#WUB(PTR2, $0000A59D)
+//なんでこんなのが副館長なのか\nいまだにわからないわ
+I still can't believe\nthat guy's the vice chief.
+<$00>
+
+// PTR : 00001300
+#WLB(PTR2, $0000B2B0)
+#WHB(PTR2, $0000B2B1)
+#WBB(PTR2, $0000B2AC)
+#WUB(PTR2, $0000B2AD)
+//おい、早くしてくれよ！
+Hurry, will you?!
+<$00>
+
+// PTR : 00001660
+#WLB(PTR2, $0000B8C4)
+#WHB(PTR2, $0000B8C5)
+#WBB(PTR2, $0000B8C0)
+#WUB(PTR2, $0000B8C1)
+//おいっ、なんだ\nなんの騒ぎだ！
+Whoa, what's the\nuproar about?
+<$00>
+
+// PTR : 000016A8
+#WLB(PTR2, $0000B914)
+#WHB(PTR2, $0000B915)
+#WBB(PTR2, $0000B910)
+#WUB(PTR2, $0000B911)
+//もう知らないわよ！
+I've no idea!
+<$00>
+
+// PTR : 00001784
+#WLB(PTR2, $0000C4A0)
+#WHB(PTR2, $0000C4A1)
+#WBB(PTR2, $0000C49C)
+#WUB(PTR2, $0000C49D)
+//ここの先生は、すぐ逃げるのよね…
+One of our writers\nmust've gotten away.
+<$00>
+
+// PTR : 000017A8
+#WLB(PTR2, $0000C4BC)
+#WHB(PTR2, $0000C4BD)
+#WBB(PTR2, $0000C4B8)
+#WUB(PTR2, $0000C4B9)
+//アディもあんまり、こういう\n弱い人を責めちゃだめよ
+Don't blame these weaklings\ntoo hard now, Addie.
+<$00>
+
+// PTR : 00000E5C
+#WLB(PTR2, $00009ED0)
+#WHB(PTR2, $00009ED1)
+#WBB(PTR2, $00009ECC)
+#WUB(PTR2, $00009ECD)
+#WLB(PTR2, $0000CC50)
+#WHB(PTR2, $0000CC51)
+#WBB(PTR2, $0000CC4C)
+#WUB(PTR2, $0000CC4D)
+//左棟・執筆室
+Left Wing Writing Room
+<$00>
+
+// PTR : 00001910
+#WLB(PTR2, $0000D560)
+#WHB(PTR2, $0000D561)
+#WBB(PTR2, $0000D55C)
+#WUB(PTR2, $0000D55D)
+・
+<$00>
+
+// PTR : 0000197C
+#WLB(PTR2, $0000D8D0)
+#WHB(PTR2, $0000D8D1)
+#WBB(PTR2, $0000D8CC)
+#WUB(PTR2, $0000D8CD)
+//ジョーカの足止めで\n先に進めないアディ。
+Joka cut off\nAddie's progress.
+<$00>
+
+// PTR : 000019A4
+#WLB(PTR2, $0000D990)
+#WHB(PTR2, $0000D991)
+#WBB(PTR2, $0000D98C)
+#WUB(PTR2, $0000D98D)
+//早く追いかけなきゃ…
+I have to catch\nhim quickly!
+<$00>
+
+// PTR : 000019E4
+#WLB(PTR2, $0000E0F4)
+#WHB(PTR2, $0000E0F5)
+#WBB(PTR2, $0000E0F0)
+#WUB(PTR2, $0000E0F1)
+//左棟・通用路
+Left Wing Passage
+<$00>
+
+// PTR : 000019F4
+#WLB(PTR2, $0000E544)
+#WHB(PTR2, $0000E545)
+#WBB(PTR2, $0000E540)
+#WUB(PTR2, $0000E541)
+//ねえ、アディ\n私の頼みも聞いてくれる？
+Hey, can I ask\nyou a favor?
+<$00>
+
+// PTR : 00001A1C
+#WLB(PTR2, $0000E554)
+#WHB(PTR2, $0000E555)
+#WBB(PTR2, $0000E550)
+#WUB(PTR2, $0000E551)
+//ちょっと、この扉を\n開けてほしいんだけど
+I want you to open\nthis door real quick.
+<$00>
+
+// PTR : 00001A64
+#WLB(PTR2, $0000EF74)
+#WHB(PTR2, $0000EF75)
+#WBB(PTR2, $0000EF70)
+#WUB(PTR2, $0000EF71)
+//これじゃあ、開かないわね
+Weird. It won't open.
+<$00>
+
+// PTR : 00001B14
+#WLB(PTR2, $0000F0B0)
+#WHB(PTR2, $0000F0B1)
+#WBB(PTR2, $0000F0AC)
+#WUB(PTR2, $0000F0AD)
+//スパンコール
+Spangle
+<$00>
+
+// PTR : 00001B60
+#WLB(PTR2, $0000F2AC)
+#WHB(PTR2, $0000F2AD)
+#WBB(PTR2, $0000F2A8)
+#WUB(PTR2, $0000F2A9)
+//鍵まで持ってるの？\nずいぶん準備がいいのね
+Someone looks thrifty.\nDo you have a key?
+<$00>
+
+// PTR : 00001A80
+#WLB(PTR2, $0000EF84)
+#WHB(PTR2, $0000EF85)
+#WBB(PTR2, $0000EF80)
+#WUB(PTR2, $0000EF81)
+#WLB(PTR2, $0000F2BC)
+#WHB(PTR2, $0000F2BD)
+#WBB(PTR2, $0000F2B8)
+#WUB(PTR2, $0000F2B9)
+//でしょ？
+You're sure?
+//spangle -> keyhole
+<$00>
+
+// PTR : 00001B8C
+#WLB(PTR2, $0000F38C)
+#WHB(PTR2, $0000F38D)
+#WBB(PTR2, $0000F388)
+#WUB(PTR2, $0000F389)
+//立派な泥棒になれるわ
+You'd make for\na good thief.
+<$00>
+
+// PTR : 00001C18
+#WLB(PTR2, $0000F5AC)
+#WHB(PTR2, $0000F5AD)
+#WBB(PTR2, $0000F5A8)
+#WUB(PTR2, $0000F5A9)
+//あれ、開かない？
+Aww, why won't\nyou open?
+<$00>
+
+// PTR : 00001C2C
+#WLB(PTR2, $0000F5BC)
+#WHB(PTR2, $0000F5BD)
+#WBB(PTR2, $0000F5B8)
+#WUB(PTR2, $0000F5B9)
+//鍵が閉まってるんでしょ？\n鍵穴だけじゃ、鍵は開かないわ
+It's locked, right?\nMust need a key.
+<$00>
+
+// PTR : 00001C64
+#WLB(PTR2, $0000F64C)
+#WHB(PTR2, $0000F64D)
+#WBB(PTR2, $0000F648)
+#WUB(PTR2, $0000F649)
+//とりあえず、鍵を探してきてよ
+Try finding one.
+<$00>
+
+// PTR : 00001C84
+#WLB(PTR2, $0000F730)
+#WHB(PTR2, $0000F731)
+#WBB(PTR2, $0000F72C)
+#WUB(PTR2, $0000F72D)
+//あなたの頼みは聞いたんだから、\n私の頼みも聞いてくれるわよね
+I've heard your request.\nWill you hear mine?
+<$00>
+
+// PTR : 00001CD8
+#WLB(PTR2, $0000F9A0)
+#WHB(PTR2, $0000F9A1)
+#WBB(PTR2, $0000F99C)
+#WUB(PTR2, $0000F99D)
+//この扉を開けてほしいの
+I want this\ndoor opened.
+<$00>
+
+// PTR : 00001CF0
+#WLB(PTR2, $0000FA18)
+#WHB(PTR2, $0000FA19)
+#WBB(PTR2, $0000FA14)
+#WUB(PTR2, $0000FA15)
+//まだなのかしら？
+Are you not done?
+<$00>
+
+// PTR : 00001CC0
+#WLB(PTR2, $0000F844)
+#WHB(PTR2, $0000F845)
+#WBB(PTR2, $0000F840)
+#WUB(PTR2, $0000F841)
+#WLB(PTR2, $0000FA28)
+#WHB(PTR2, $0000FA29)
+#WBB(PTR2, $0000FA24)
+#WUB(PTR2, $0000FA25)
+//早く鍵を持ってきてよ
+Come back with a key!
+<$00>
+
+// PTR : 00001D20
+#WLB(PTR2, $0000FBFC)
+#WHB(PTR2, $0000FBFD)
+#WBB(PTR2, $0000FBF8)
+#WUB(PTR2, $0000FBF9)
+//やっと、中に入れるわね
+Great! Now we're in!
+<$00>
+
+// PTR : 00001BA4
+#WLB(PTR2, $0000F468)
+#WHB(PTR2, $0000F469)
+#WBB(PTR2, $0000F464)
+#WUB(PTR2, $0000F465)
+#WLB(PTR2, $0000FCC8)
+#WHB(PTR2, $0000FCC9)
+#WBB(PTR2, $0000FCC4)
+#WUB(PTR2, $0000FCC5)
+//もう少しのところで\nジョーカを取り逃したアディ。
+Joka narrowly\ngot away.
+<$00>
+
+// PTR : 00001BD4
+#WLB(PTR2, $0000F510)
+#WHB(PTR2, $0000F511)
+#WBB(PTR2, $0000F50C)
+#WUB(PTR2, $0000F50D)
+#WLB(PTR2, $0000FD70)
+#WHB(PTR2, $0000FD71)
+#WBB(PTR2, $0000FD6C)
+#WUB(PTR2, $0000FD6D)
+//まだ、そう遠くへは\n行ってないはずだわ
+You must'nt get\ntoo far behind.
+<$00>
+
+// PTR : 00001D38
+#WLB(PTR2, $00010750)
+#WHB(PTR2, $00010751)
+#WBB(PTR2, $0001074C)
+#WUB(PTR2, $0001074D)
+//特別室・前
+Suite Front
+<$00>
+
+// PTR : 0000247C
+#WLB(PTR2, $00011BE4)
+#WHB(PTR2, $00011BE5)
+#WBB(PTR2, $00011BE0)
+#WUB(PTR2, $00011BE1)
+//あら、アディ
+So, Addie.
+<$00>
+
+// PTR : 0000248C
+#WLB(PTR2, $00011BF4)
+#WHB(PTR2, $00011BF5)
+#WBB(PTR2, $00011BF0)
+#WUB(PTR2, $00011BF1)
+//こんなところで\nゆっくりしてていいの？
+Is this a safe\nplace to relax?
+<$00>
+
+// PTR : 000024B4
+#WLB(PTR2, $00011C60)
+#WHB(PTR2, $00011C61)
+#WBB(PTR2, $00011C5C)
+#WUB(PTR2, $00011C5D)
+//それとも、私に\nついてきてほしいの？
+Or shall I follow you?
+<$00>
+
+// PTR : 000024D8
+#WLB(PTR2, $00011CAC)
+#WHB(PTR2, $00011CAD)
+#WBB(PTR2, $00011CA8)
+#WUB(PTR2, $00011CA9)
+//やっぱり、私に\nついてきてほしいんでしょ？
+You want me to follow,\nis that it?
+<$00>
+
+// PTR : 00002504
+#WLB(PTR2, $00011D04)
+#WHB(PTR2, $00011D05)
+#WBB(PTR2, $00011D00)
+#WUB(PTR2, $00011D01)
+//お願い
+Please?
+<$00>
+
+// PTR : 0000250C
+#WLB(PTR2, $00011D0C)
+#WHB(PTR2, $00011D0D)
+#WBB(PTR2, $00011D08)
+#WUB(PTR2, $00011D09)
+//冗談でしょ
+How cute!
+<$00>
+
+// PTR : 00002518
+#WLB(PTR2, $00011D28)
+#WHB(PTR2, $00011D29)
+#WBB(PTR2, $00011D24)
+#WUB(PTR2, $00011D25)
+//しようがないわね、\nつきあってあげる
+Well, whatever.\nI can play along.
+<$00>
+
+// PTR : 0000253C
+#WLB(PTR2, $00011E44)
+#WHB(PTR2, $00011E45)
+#WBB(PTR2, $00011E40)
+#WUB(PTR2, $00011E41)
+//人が親切で言って\nあげてるのに…
+That's what nice girls\ndo, after all.
+<$00>
+
+// PTR : 00002584
+#WLB(PTR2, $000128EC)
+#WHB(PTR2, $000128ED)
+#WBB(PTR2, $000128E8)
+#WUB(PTR2, $000128E9)
+//特別室
+Suite
+<$00>
+
+// PTR : 000025A8
+#WLB(PTR2, $00012EAC)
+#WHB(PTR2, $00012EAD)
+#WBB(PTR2, $00012EA8)
+#WUB(PTR2, $00012EA9)
+//左棟・裏口
+Left Wing Backdoor
+<$00>
+
+// PTR : 000004FC
+#WLB(PTR2, $00014404)
+#WHB(PTR2, $00014405)
+#WBB(PTR2, $00014400)
+#WUB(PTR2, $00014401)
+#WLB(PTR2, $000144AC)
+#WHB(PTR2, $000144AD)
+#WBB(PTR2, $000144A8)
+#WUB(PTR2, $000144A9)
+//なによ、ちょっとくらい\n見たっていいじゃない
+What's wrong\nwith me watching?
+<$00>
+
+// PTR : 000018A4
+#WLB(PTR2, $00015B50)
+#WHB(PTR2, $00015B51)
+#WBB(PTR2, $00015B4C)
+#WUB(PTR2, $00015B4D)
+//ひぃー！
+Eek!
+<$00>
+
+#VAR(PTR3, CUSTOMPOINTER)
+#CREATEPTR(PTR3, "LINEAR", -2148367224, 32)
+// PTR : 00004B94
+#WLB(PTR3, $00007874)
+#WHB(PTR3, $00007875)
+#WBB(PTR3, $00007870)
+#WUB(PTR3, $00007871)
+//檍
+Pine
+<$00>
+

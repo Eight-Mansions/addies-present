@@ -1,0 +1,814 @@
+#VAR(Table, TABLE)
+#ADDTBL("sjis.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", -2148236152, 32)
+#JMP($00024C48)
+
+// PTR : 000003B0
+#WRITE(PTR, $000003C4)
+//ここ…
+This place...
+<$00>
+
+// PTR : 000003B8
+#WRITE(PTR, $000003C8)
+//どこ？
+Where am I?
+<$00>
+
+// PTR : 00000DA4
+#WRITE(PTR, $00000F48)
+//おはよう、モーゼ
+Good morning,\nMoze.
+<$00>
+
+// PTR : 00000DB8
+#WRITE(PTR, $00000F4C)
+//話があるの
+I need to talk to you!
+<$00>
+
+// PTR : 00000DC4
+#WRITE(PTR, $00000F50)
+//…登っておいでよ
+Well, come on up!
+<$00>
+
+// PTR : 00000DD8
+#WRITE(PTR, $00000F54)
+//登れたらの話だけど
+If you can.
+<$00>
+
+// PTR : 00000DEC
+#WRITE(PTR, $00000F58)
+//わかったわ
+You asked for it.
+<$00>
+
+// PTR : 00000DF8
+#WRITE(PTR, $00000F5C)
+//はい、これ
+Hold this for me!
+<$00>
+
+// PTR : 00000E04
+#WRITE(PTR, $00000F60)
+//え、ちょっと…
+Woah, hold on!
+<$00>
+
+// PTR : 00000E14
+#WRITE(PTR, $00000F64)
+//木の上から見る風景って、初めて
+This is my first time\ngetting this view.
+<$00>
+
+// PTR : 00000E34
+#WRITE(PTR, $00000F68)
+//…で、話って？
+Yeah? Do you...\nstill want to talk?
+<$00>
+
+// PTR : 00000E44
+#WRITE(PTR, $00000F6C)
+//動いたよ、オルゴール
+Yeah, it's about\nthe music box.
+<$00>
+
+// PTR : 00000E5C
+#WRITE(PTR, $00000F70)
+//ほら
+It's open now!
+<$00>
+
+// PTR : 00000E64
+#WRITE(PTR, $00000F74)
+//ねえ、モーゼ
+See, Moze?
+<$00>
+
+// PTR : 00000E74
+#WRITE(PTR, $00000F78)
+//…壊れたものは、直せばいいのよ
+Anything "broken"\ncan still be fixed.
+<$00>
+
+// PTR : 00000E9C
+#WRITE(PTR, $00000F80)
+//急に何すんだよ！
+What was THAT for?!
+<$00>
+
+// PTR : 00000EB0
+#WRITE(PTR, $00000F84)
+//ねえモーゼ、あなた子供のくせに
+You're a kid!\nYou're flexible!
+<$00>
+
+// PTR : 00000ED0
+#WRITE(PTR, $00000F88)
+//大人のわがままに負けちゃうの？
+Or did you succumb to\nrigid adult life already?
+<$00>
+
+// PTR : 00000EF0
+#WRITE(PTR, $00000F8C)
+//アディ、
+Addie, Addie, Addie.
+<$00>
+
+// PTR : 00000EFC
+#WRITE(PTR, $00000F90)
+//ちょっと用事を思い出したんだ
+You just reminded me,\nI've got work to do.
+<$00>
+
+// PTR : 00000F1C
+#WRITE(PTR, $00000F94)
+//すぐ戻ってくるから
+But I'll be back soon!
+<$00>
+
+// PTR : 00000F30
+#WRITE(PTR, $00000F98)
+//それ、預かっておいて
+Take good care\nof my hat.
+<$00>
+
+// PTR : 00001778
+#WRITE(PTR, $00001954)
+//モーゼ兄さんなら
+If you're looking\nfor Moze...
+<$00>
+
+// PTR : 0000178C
+#WRITE(PTR, $00001958)
+//もう行っちゃったわよ
+He's already gone.
+<$00>
+
+// PTR : 000017A4
+#WRITE(PTR, $0000195C)
+//これを返そうと思って…
+I wanted to\nreturn this.
+<$00>
+
+// PTR : 000017BC
+#WRITE(PTR, $00001960)
+//兄さんがあなたにあげたんでしょ？
+Did my brother\ngive that to you?
+<$00>
+
+// PTR : 000017E0
+#WRITE(PTR, $00001964)
+//わたしは受け取れないわ
+Then I can't accept.
+<$00>
+
+// PTR : 000017F8
+#WRITE(PTR, $00001968)
+//それに、うちにはもう…
+Besides, our home...
+<$00>
+
+// PTR : 00001810
+#WRITE(PTR, $0000196C)
+//…もう、いらないものだから
+...doesn't need it\nanymore.
+<$00>
+
+// PTR : 0000182C
+#WRITE(PTR, $00001970)
+//アディ
+Addie.
+<$00>
+
+// PTR : 00001834
+#WRITE(PTR, $00001974)
+//正直に言うとね…
+If I'm being honest,
+<$00>
+
+// PTR : 00001848
+#WRITE(PTR, $00001978)
+//あなたなら兄さんを\n引き止められるかもって
+if I thought anyone\ncould get him to stay,
+<$00>
+
+// PTR : 00001874
+#WRITE(PTR, $0000197C)
+//思ってたんだけど…
+it would've been you.
+<$00>
+
+// PTR : 00001888
+#WRITE(PTR, $00001980)
+//だって…！
+How could I?!
+<$00>
+
+// PTR : 00001894
+#WRITE(PTR, $00001984)
+//別に責めてるんじゃないの
+I'm not blaming you.
+<$00>
+
+// PTR : 000018B0
+#WRITE(PTR, $00001988)
+//思っていたよりもあなたは、
+You're more adult...
+<$00>
+
+// PTR : 000018CC
+#WRITE(PTR, $0000198C)
+//大人だったんだな、って…
+...than I once thought.
+<$00>
+
+// PTR : 000018E8
+#WRITE(PTR, $00001990)
+//そんなに聞き分けがいいって
+I didn't know you
+<$00>
+
+// PTR : 00001904
+#WRITE(PTR, $00001994)
+//知らなかったから…
+were so reasonable.
+<$00>
+
+// PTR : 00001918
+#WRITE(PTR, $00001998)
+//都合がよすぎるわね
+Or should I say,\n"too realistic".
+<$00>
+
+// PTR : 0000192C
+#WRITE(PTR, $0000199C)
+//ごめんなさい
+...I'm sorry.
+<$00>
+
+// PTR : 0000193C
+#WRITE(PTR, $000019A0)
+//…また、遊びに来てね
+...Come over sometime.
+<$00>
+
+// PTR : 00001F98
+#WRITE(PTR, $00001FD0)
+//これ、なにかしら
+Let's see here...
+<$00>
+
+// PTR : 00001FAC
+#WRITE(PTR, $00001FD4)
+//椅子…？
+This looks\nlike a chair.
+<$00>
+
+// PTR : 00001FB8
+#WRITE(PTR, $00001FD8)
+//にしても、大げさだけど
+An awfully large\none.
+<$00>
+
+// PTR : 0000204C
+#WRITE(PTR, $000020A4)
+//ん？
+Hmm?
+<$00>
+
+// PTR : 00002054
+#WRITE(PTR, $000020A8)
+//なにか書いてあるわ…
+Something's written\nhere.
+<$00>
+
+// PTR : 000003A8
+#WRITE(PTR, $000003C0)
+#WRITE(PTR, $000020AC)
+……
+<$00>
+
+// PTR : 0000206C
+#WRITE(PTR, $000020B0)
+//『訣別する者の名を刻め』？
+"Name the departed"?
+<$00>
+
+// PTR : 00002088
+#WRITE(PTR, $000020B4)
+//なんだか、難しいことばね
+That's unpleasant.
+<$00>
+
+// PTR : 000020DC
+#WRITE(PTR, $00002144)
+//ようするに、名前を\n書けって言ってるのよね
+It wants me to\nenter a name?
+<$00>
+
+// PTR : 00002108
+#WRITE(PTR, $00002148)
+//『訣別』…\nお別れ、って意味かしら
+"Departed"...\n As in, "left".
+<$00>
+
+// PTR : 0000212C
+#WRITE(PTR, $0000214C)
+//…お別れする人の名前…
+The name of someone\nwho left me.
+<$00>
+
+// PTR : 0000244C
+#WRITE(PTR, $00002484)
+//あれ…
+Emmy?
+<$00>
+
+// PTR : 00002454
+#WRITE(PTR, $00002488)
+//見うしなっちゃった…
+I don't see her.
+<$00>
+
+// PTR : 0000246C
+#WRITE(PTR, $0000248C)
+//でも、きっとこの先ね
+She must be\nup ahead.
+<$00>
+
+// PTR : 0000252C
+#WRITE(PTR, $00002554)
+//いない…わね
+She's not here.
+<$00>
+
+// PTR : 0000253C
+#WRITE(PTR, $00002558)
+//…あら？
+Emmy?
+<$00>
+
+// PTR : 00002548
+#WRITE(PTR, $0000255C)
+//誰かいるわ
+Someone's\nup there.
+<$00>
+
+// PTR : 00000E94
+#WRITE(PTR, $00000F7C)
+#WRITE(PTR, $00002624)
+//え？
+Huh?
+<$00>
+
+// PTR : 0000260C
+#WRITE(PTR, $00002628)
+//なんだ…
+What was that?
+<$00>
+
+// PTR : 00002618
+#WRITE(PTR, $0000262C)
+//ジョーカ…
+Joka...
+<$00>
+
+// PTR : 00002674
+#WRITE(PTR, $00002720)
+//さっき、エミィって子みなかった？
+Was that Emmy I saw?
+<$00>
+
+// PTR : 00002698
+#WRITE(PTR, $00002724)
+//どんな子？
+Who?
+<$00>
+
+// PTR : 000026A4
+#WRITE(PTR, $00002728)
+//黒っぽい服で、長い黒髪の子よ
+She has black hair\nand a blue dress.
+<$00>
+
+// PTR : 000026C4
+#WRITE(PTR, $0000272C)
+//なんだ、イライザみたいな子だね
+That sounds like Eliza!
+<$00>
+
+// PTR : 000026E4
+#WRITE(PTR, $00002730)
+//イライザって、誰？
+Who's Eliza?
+<$00>
+
+// PTR : 000026F8
+#WRITE(PTR, $00002734)
+//僕の知り合いさ
+Someone I know.
+<$00>
+
+// PTR : 00002708
+#WRITE(PTR, $00002738)
+//そう。じゃあ違うわね
+Ah, well,\nthat's different.
+<$00>
+
+#VAR(PTR1, CUSTOMPOINTER)
+#CREATEPTR(PTR1, "LINEAR", -2148236152, 32)
+// PTR : 00000324
+#WLB(PTR1, $00004C70)
+#WHB(PTR1, $00004C71)
+#WBB(PTR1, $00004C6C)
+#WUB(PTR1, $00004C6D)
+//次の画面で、クリアデータを\nセーブして下さい
+Save GAME CLEAR data\non the next screen.
+<$00>
+
+// PTR : 00000350
+#WLB(PTR1, $00004C7C)
+#WHB(PTR1, $00004C7D)
+#WBB(PTR1, $00004C78)
+#WUB(PTR1, $00004C79)
+//セーブされなかった場合\nクリアデータは失われます
+If not saved,\nGAME CLEAR will be lost.
+<$00>
+
+// PTR : 000003F0
+#WLB(PTR1, $00005158)
+#WHB(PTR1, $00005159)
+#WBB(PTR1, $00005154)
+#WUB(PTR1, $00005155)
+//目を覚ましたアディ。\nそこは見慣れない風景。
+Addie woke up\nin a mysterious place.
+<$00>
+
+// PTR : 0000041C
+#WLB(PTR1, $0000522C)
+#WHB(PTR1, $0000522D)
+#WBB(PTR1, $00005228)
+#WUB(PTR1, $00005229)
+//…ここ、どこかしら？
+...Where am I?
+<$00>
+
+// PTR : 00000434
+#WLB(PTR1, $000052D8)
+#WHB(PTR1, $000052D9)
+#WBB(PTR1, $000052D4)
+#WUB(PTR1, $000052D5)
+//そう、ここが
+This is it.
+<$00>
+
+// PTR : 00000444
+#WLB(PTR1, $000052E4)
+#WHB(PTR1, $000052E5)
+#WBB(PTR1, $000052E0)
+#WUB(PTR1, $000052E1)
+//わたしが目を覚ました場所
+The place I woke up.
+<$00>
+
+// PTR : 00000460
+#WLB(PTR1, $000053D0)
+#WHB(PTR1, $000053D1)
+#WBB(PTR1, $000053CC)
+#WUB(PTR1, $000053CD)
+//導かれるままに\n始まりの墓を訪れたアディ。
+As if lead there,\nAddie found a tomb.
+<$00>
+
+#VAR(PTR2, CUSTOMPOINTER)
+#CREATEPTR(PTR2, "LINEAR", -2148301688, 32)
+// PTR : 000004C4
+#WLB(PTR2, $0000559C)
+#WHB(PTR2, $0000559D)
+#WBB(PTR2, $00005598)
+#WUB(PTR2, $00005599)
+何もないよ。さ、戻ろう\n街を案内してあげるよ
+<$00>
+
+// PTR : 000004A8
+#WLB(PTR2, $00005584)
+#WHB(PTR2, $00005585)
+#WBB(PTR2, $00005580)
+#WUB(PTR2, $00005581)
+#WLB(PTR2, $000055D8)
+#WHB(PTR2, $000055D9)
+#WBB(PTR2, $000055D4)
+#WUB(PTR2, $000055D5)
+//ここは、ただの古いお墓さ
+This is an old tomb.
+<$00>
+
+// PTR : 00002004
+#WLB(PTR2, $000089E8)
+#WHB(PTR2, $000089E9)
+#WBB(PTR2, $000089E4)
+#WUB(PTR2, $000089E5)
+//でも…なんだか\n悲しい感じもするわね
+But...its sadness\nfeels fresh.
+<$00>
+
+// PTR : 0000215C
+#WLB(PTR2, $00008EA8)
+#WHB(PTR2, $00008EA9)
+#WBB(PTR2, $00008EA4)
+#WUB(PTR2, $00008EA5)
+//ケツベツ、かぁ…
+"Departed", huh.
+<$00>
+
+// PTR : 00002170
+#WLB(PTR2, $00008F18)
+#WHB(PTR2, $00008F19)
+#WBB(PTR2, $00008F14)
+#WUB(PTR2, $00008F15)
+//刻む
+Carve
+//Tomb - ???
+<$00>
+
+// PTR : 00002178
+#WLB(PTR2, $00008F20)
+#WHB(PTR2, $00008F21)
+#WBB(PTR2, $00008F1C)
+#WUB(PTR2, $00008F1D)
+//刻まない
+Don't carve
+<$00>
+
+// PTR : 000021E4
+#WLB(PTR2, $0000900C)
+#WHB(PTR2, $0000900D)
+#WBB(PTR2, $00009008)
+#WUB(PTR2, $00009009)
+//あたし…\nどうしたらいいの
+What should I do?
+<$00>
+
+// PTR : 00002200
+#WLB(PTR2, $00009034)
+#WHB(PTR2, $00009035)
+#WBB(PTR2, $00009030)
+#WUB(PTR2, $00009031)
+//やだ…\nなんだか、こわいわ
+It's funny.\nI'm...scared.
+<$00>
+
+// PTR : 000022A4
+#WLB(PTR2, $00009B14)
+#WHB(PTR2, $00009B15)
+#WBB(PTR2, $00009B10)
+#WUB(PTR2, $00009B11)
+//始まりの墓
+Tomb
+<$00>
+
+// PTR : 000022B0
+#WLB(PTR2, $0000A31C)
+#WHB(PTR2, $0000A31D)
+#WBB(PTR2, $0000A318)
+#WUB(PTR2, $0000A319)
+//あ、エミィ！
+Oh! Emmy!
+<$00>
+
+// PTR : 000022C0
+#WLB(PTR2, $0000A5D4)
+#WHB(PTR2, $0000A5D5)
+#WBB(PTR2, $0000A5D0)
+#WUB(PTR2, $0000A5D1)
+//エミィに似た少女が現れる。\nその少女を追うアディ。
+Addie follows a girl\nwho resembles Emmy.
+<$00>
+
+// PTR : 000022F4
+#WLB(PTR2, $0000A68C)
+#WHB(PTR2, $0000A68D)
+#WBB(PTR2, $0000A688)
+#WUB(PTR2, $0000A689)
+//さっきの女の子、たしかに\nエミィだったと思うんだけど…
+That girl\nhas to be Emmy!
+<$00>
+
+// PTR : 00002370
+#WLB(PTR2, $0000A784)
+#WHB(PTR2, $0000A785)
+#WBB(PTR2, $0000A780)
+#WUB(PTR2, $0000A781)
+//ところで\nきみ、どこから来たの？
+By the way,\nwhere are you from?
+<$00>
+
+// PTR : 00002390
+#WLB(PTR2, $0000A798)
+#WHB(PTR2, $0000A799)
+#WBB(PTR2, $0000A794)
+#WUB(PTR2, $0000A795)
+//さあ、何と言ったらいいのか…
+How should I put this...
+<$00>
+
+// PTR : 000023B0
+#WLB(PTR2, $0000A7D0)
+#WHB(PTR2, $0000A7D1)
+#WBB(PTR2, $0000A7CC)
+#WUB(PTR2, $0000A7CD)
+//迷子なのかい、きみ
+You sound uh, lost.
+<$00>
+
+// PTR : 000023C4
+#WLB(PTR2, $0000AFB0)
+#WHB(PTR2, $0000AFB1)
+#WBB(PTR2, $0000AFAC)
+#WUB(PTR2, $0000AFAD)
+//始まりの墓・入口
+Tomb Entrance
+<$00>
+
+// PTR : 000023D8
+#WLB(PTR2, $0000B46C)
+#WHB(PTR2, $0000B46D)
+#WBB(PTR2, $0000B468)
+#WUB(PTR2, $0000B469)
+//エミィ、待ってよ！
+Emmy, wait!
+<$00>
+
+// PTR : 0000241C
+#WLB(PTR2, $0000C81C)
+#WHB(PTR2, $0000C81D)
+#WBB(PTR2, $0000C818)
+#WUB(PTR2, $0000C819)
+//聞こえないの、待ってってば！
+Can she not hear me?\nEmmy!
+<$00>
+
+// PTR : 0000249C
+#WLB(PTR2, $0000DA84)
+#WHB(PTR2, $0000DA85)
+#WBB(PTR2, $0000DA80)
+#WUB(PTR2, $0000DA81)
+//ログロックっていうのは…
+You see, a loglock...
+<$00>
+
+// PTR : 000024B8
+#WLB(PTR2, $0000DA9C)
+#WHB(PTR2, $0000DA9D)
+#WBB(PTR2, $0000DA98)
+#WUB(PTR2, $0000DA99)
+//何かの配列や組み合わせを\nどうにかするものらしいんだ
+Decodes and reassembles\nwhatever it says.
+<$00>
+
+// PTR : 000024EC
+#WLB(PTR2, $0000DACC)
+#WHB(PTR2, $0000DACD)
+#WBB(PTR2, $0000DAC8)
+#WUB(PTR2, $0000DAC9)
+//僕もよく知らないんだけどね
+I don't understand\nthem fully either.
+<$00>
+
+// PTR : 0000232C
+#WLB(PTR2, $0000A820)
+#WHB(PTR2, $0000A821)
+#WBB(PTR2, $0000A81C)
+#WUB(PTR2, $0000A81D)
+#WLB(PTR2, $0000DB34)
+#WHB(PTR2, $0000DB35)
+#WBB(PTR2, $0000DB30)
+#WUB(PTR2, $0000DB31)
+//街は鐘楼の向こう側だよ。早く行こう
+The town's just across.\nLet's hurry.
+<$00>
+
+// PTR : 00002350
+#WLB(PTR2, $0000A854)
+#WHB(PTR2, $0000A855)
+#WBB(PTR2, $0000A850)
+#WUB(PTR2, $0000A851)
+#WLB(PTR2, $0000DB6C)
+#WHB(PTR2, $0000DB6D)
+#WBB(PTR2, $0000DB68)
+#WUB(PTR2, $0000DB69)
+//この辺りに面白いものはないよ
+There's nothing\ninteresting here.
+<$00>
+
+// PTR : 000023F4
+#WLB(PTR2, $0000C2D0)
+#WHB(PTR2, $0000C2D1)
+#WBB(PTR2, $0000C2CC)
+#WUB(PTR2, $0000C2CD)
+#WLB(PTR2, $0000D21C)
+#WHB(PTR2, $0000D21D)
+#WBB(PTR2, $0000D218)
+#WUB(PTR2, $0000D219)
+#WLB(PTR2, $0000E6B0)
+#WHB(PTR2, $0000E6B1)
+#WBB(PTR2, $0000E6AC)
+#WUB(PTR2, $0000E6AD)
+//峠へ続く道
+Path Area
+<$00>
+
+// PTR : 00002584
+#WLB(PTR2, $0000F104)
+#WHB(PTR2, $0000F105)
+#WBB(PTR2, $0000F100)
+#WUB(PTR2, $0000F101)
+//エミィを見失ったアディは\nとらわれの少年を遠くに望む。
+After losing Emmy, Addie\nsees a boy in a cage.
+<$00>
+
+// PTR : 000025BC
+#WLB(PTR2, $0000F1C4)
+#WHB(PTR2, $0000F1C5)
+#WBB(PTR2, $0000F1C0)
+#WUB(PTR2, $0000F1C1)
+//あの人、\nなんで閉じこめられてるのかしら
+How'd he get\nin there?
+<$00>
+
+// PTR : 00002758
+#WLB(PTR2, $000101E0)
+#WHB(PTR2, $000101E1)
+#WBB(PTR2, $000101DC)
+#WUB(PTR2, $000101DD)
+//峠の上
+Path
+<$00>
+
+// PTR : 00002798
+#WLB(PTR2, $00010584)
+#WHB(PTR2, $00010585)
+#WBB(PTR2, $00010580)
+#WUB(PTR2, $00010581)
+//ねえ、どうして\n鳥かごが鐘になっちゃったの？
+How'd you get locked\nin that cage anyways?
+<$00>
+
+// PTR : 000027C4
+#WLB(PTR2, $00010590)
+#WHB(PTR2, $00010591)
+#WBB(PTR2, $0001058C)
+#WUB(PTR2, $0001058D)
+//え？　ログロックって\nそういうもんじゃないの？
+Hm? You know what\nloglocks do, right?
+<$00>
+
+// PTR : 0000280C
+#WLB(PTR2, $00010F3C)
+#WHB(PTR2, $00010F3D)
+#WBB(PTR2, $00010F38)
+#WUB(PTR2, $00010F39)
+//鐘楼下
+Bell Tower Basement
+<$00>
+
+// PTR : 0000221C
+#WLB(PTR2, $00012000)
+#WHB(PTR2, $00012001)
+#WBB(PTR2, $00011FFC)
+#WUB(PTR2, $00011FFD)
+//暗くて先がよく見えないわ…
+It's dark.\nI can't see too well.
+<$00>
+
+#VAR(PTR3, CUSTOMPOINTER)
+#CREATEPTR(PTR3, "LINEAR", -2148367224, 32)
+// PTR : 00008487
+#WLB(PTR3, $00003A98)
+#WHB(PTR3, $00003A99)
+#WBB(PTR3, $00003A94)
+#WUB(PTR3, $00003A95)
+#WLB(PTR3, $00003BC4)
+#WHB(PTR3, $00003BC5)
+#WBB(PTR3, $00003BC0)
+#WUB(PTR3, $00003BC1)
+#WLB(PTR3, $00003CB0)
+#WHB(PTR3, $00003CB1)
+#WBB(PTR3, $00003CAC)
+#WUB(PTR3, $00003CAD)
+・
+<$00>
+
+// PTR : 00002030
+#WLB(PTR3, $00009EC0)
+#WHB(PTR3, $00009EC1)
+#WBB(PTR3, $00009EBC)
+#WUB(PTR3, $00009EBD)
+・
+<$00>
+

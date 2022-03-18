@@ -1,0 +1,136 @@
+#VAR(Table, TABLE)
+#ADDTBL("sjis.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", -2148236152, 32)
+#JMP($00021D86)
+
+// PTR : 0000032C
+#WRITE(PTR, $00000538)
+//こんな風にあなたと\n音楽を聞いてるのって…
+Listening to music\nlike this with you...
+<$00>
+
+// PTR : 00000358
+#WRITE(PTR, $0000053C)
+２人でお風呂に入ってるみたいね…
+It's like we're\nbathing together.
+<$00>
+
+// PTR : 0000037C
+#WRITE(PTR, $00000540)
+//変な意味じゃないわよっ！
+You know what I meant!
+<$00>
+
+// PTR : 00000398
+#WRITE(PTR, $00000544)
+//音のお風呂みたいな感じだなって
+You know,\nbathing in sound!
+<$00>
+
+// PTR : 000003B8
+#WRITE(PTR, $00000548)
+//言いたかったの
+Oh, I bet, Addie.
+<$00>
+
+// PTR : 000003C8
+#WRITE(PTR, $0000054C)
+//あなたって、意外と詩人なのね
+You do have\na way with words.
+<$00>
+
+// PTR : 000003E8
+#WRITE(PTR, $00000550)
+//人と一緒にお風呂に入ると
+When people take a bath,
+<$00>
+
+// PTR : 00000404
+#WRITE(PTR, $00000554)
+//自分のことが全部\nばれちゃう気がするじゃない？
+they feel really exposed.
+<$00>
+
+// PTR : 00000434
+#WRITE(PTR, $00000558)
+//…そんな感じがしない？
+Don't you feel\nlike that now?
+<$00>
+
+// PTR : 0000044C
+#WRITE(PTR, $0000055C)
+//しないわよ
+Not at all.
+<$00>
+
+// PTR : 00000458
+#WRITE(PTR, $00000560)
+//だって、あなたは今
+And what makes you think
+<$00>
+
+// PTR : 0000046C
+#WRITE(PTR, $00000564)
+//わたしの考えてることが\nわからないでしょ？
+you know what\nI'm feeling?
+<$00>
+
+// PTR : 00000498
+#WRITE(PTR, $00000568)
+//想像はつくわよ
+I was guessing, but,
+<$00>
+
+// PTR : 000004A8
+#WRITE(PTR, $0000056C)
+//ジャマするなって言いたいんでしょ
+now I guess\nI've bugged you.
+<$00>
+
+// PTR : 000004CC
+#WRITE(PTR, $00000570)
+//やっぱりわかってないみたいね
+Wrong again.
+<$00>
+
+// PTR : 000004EC
+#WRITE(PTR, $00000574)
+//え？
+Huh?
+<$00>
+
+// PTR : 000004F4
+#WRITE(PTR, $00000578)
+//あなたのおかげよ、感謝してるわ
+I feel grateful.\nThank you for this.
+<$00>
+
+// PTR : 00000514
+#WRITE(PTR, $0000057C)
+//…わかった？
+Let that "soak" in.
+<$00>
+
+// PTR : 00000524
+#WRITE(PTR, $00000580)
+//調子狂っちゃうわ
+Geez Louise.
+<$00>
+
+#VAR(PTR1, CUSTOMPOINTER)
+#CREATEPTR(PTR1, "LINEAR", -2148236152, 32)
+// PTR : 00000A6C
+#WLB(PTR1, $0000194C)
+#WHB(PTR1, $0000194D)
+#WBB(PTR1, $00001948)
+#WUB(PTR1, $00001949)
+#WLB(PTR1, $00002D10)
+#WHB(PTR1, $00002D11)
+#WBB(PTR1, $00002D0C)
+#WUB(PTR1, $00002D0D)
+//テンプレート
+Template
+<$00>
+

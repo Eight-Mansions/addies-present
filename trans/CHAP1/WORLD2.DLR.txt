@@ -1,0 +1,474 @@
+#VAR(Table, TABLE)
+#ADDTBL("sjis.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", -2148236152, 32)
+#JMP($00021FD2)
+
+// PTR : 000003DC
+#WRITE(PTR, $00000434)
+//どういうことなの、これ？
+Uhm, where\nare we going?
+<$00>
+
+// PTR : 000003F8
+#WRITE(PTR, $00000438)
+//歩きながら話してあげるよ
+On a walk around town,\nas a thank you.
+<$00>
+
+// PTR : 00000414
+#WRITE(PTR, $0000043C)
+//お礼に、街を案内してあげるから
+We can chat while I\ngive you a tour.
+<$00>
+
+// PTR : 00000684
+#WRITE(PTR, $00000918)
+//モーゼ…？
+Moze?!
+<$00>
+
+// PTR : 00000690
+#WRITE(PTR, $0000091C)
+//そんな所で何してるの？
+What are you\ndoing in there?
+<$00>
+
+// PTR : 000006A8
+#WRITE(PTR, $00000920)
+//ねえ！
+Hello?!
+<$00>
+
+// PTR : 000006B0
+#WRITE(PTR, $00000924)
+//モーゼ！
+M-O-Z-E!
+<$00>
+
+// PTR : 000006BC
+#WRITE(PTR, $00000928)
+//もしかして、
+Sorry...
+<$00>
+
+// PTR : 000006CC
+#WRITE(PTR, $0000092C)
+//僕に話しかけてる？
+Were you talking\nto me?
+<$00>
+
+// PTR : 000006E0
+#WRITE(PTR, $00000930)
+女の子に声をかけて\nもらえるのは光栄だけど
+I'm flattered a\ngirl would stop by.
+<$00>
+
+// PTR : 0000070C
+#WRITE(PTR, $00000934)
+//残念なことに\n名前が違うよ
+But, uh, that's\nnot my name.
+<$00>
+
+// PTR : 00000728
+#WRITE(PTR, $00000938)
+//僕の名前はジョーカ
+My name is Joka.
+<$00>
+
+// PTR : 0000073C
+#WRITE(PTR, $0000093C)
+//Ｊ、Ｏ、Ｋ、Ａで
+That's J-O-K-A!
+<$00>
+
+// PTR : 00000750
+#WRITE(PTR, $00000940)
+//ジョーカ
+Joka!
+<$00>
+
+// PTR : 0000075C
+#WRITE(PTR, $00000944)
+//覚えてくれたかな？
+Easy to remember,\nright?
+<$00>
+
+// PTR : 00000770
+#WRITE(PTR, $00000948)
+//ジョーカ…？
+Joka?
+<$00>
+
+// PTR : 00000780
+#WRITE(PTR, $0000094C)
+//驚くぐらいそっくりなの
+But you look\njust like him.
+<$00>
+
+// PTR : 00000798
+#WRITE(PTR, $00000950)
+//私の友達に…あなた
+My...\nfriend, I mean.
+<$00>
+
+// PTR : 000007AC
+#WRITE(PTR, $00000954)
+//まあ、\n名前は覚えてくれたみたいだね
+Well, as long as\n you remember it's me.
+<$00>
+
+// PTR : 000007D0
+#WRITE(PTR, $00000958)
+//じゃあ、僕は今、忙しいので
+I'm busy right now,\nthough.
+<$00>
+
+// PTR : 000007EC
+#WRITE(PTR, $0000095C)
+//また、会えるといいね
+I hope I see\nyou again.
+<$00>
+
+// PTR : 00000804
+#WRITE(PTR, $00000960)
+//まだ、何か用かい？
+Still need something?
+<$00>
+
+// PTR : 00000818
+#WRITE(PTR, $00000964)
+//ねえ、
+Say...
+<$00>
+
+// PTR : 00000820
+#WRITE(PTR, $00000968)
+//それってもしかして…
+That wouldn't\nbe a...
+<$00>
+
+// PTR : 00000838
+#WRITE(PTR, $0000096C)
+//これかい？
+What, this?
+<$00>
+
+// PTR : 00000844
+#WRITE(PTR, $00000970)
+//これはログロックって言うんだ
+It's a loglock.
+<$00>
+
+// PTR : 00000864
+#WRITE(PTR, $00000974)
+//君みたいな子供には
+It might be too\ncomplex for you.
+<$00>
+
+// PTR : 00000878
+#WRITE(PTR, $00000978)
+//扱えない代物さ
+It's not for kids.
+<$00>
+
+// PTR : 00000888
+#WRITE(PTR, $0000097C)
+//もう、いいだろう？
+Did that answer\nyour question?
+<$00>
+
+// PTR : 0000089C
+#WRITE(PTR, $00000980)
+//君がそこにいると
+Now, stop\nwatching me.
+<$00>
+
+// PTR : 000008B0
+#WRITE(PTR, $00000984)
+//気が散るんだ
+I can't concentrate.
+<$00>
+
+// PTR : 000008C0
+#WRITE(PTR, $00000988)
+//…それなら、
+Funny thing is...
+<$00>
+
+// PTR : 000008D0
+#WRITE(PTR, $0000098C)
+//私も持ってるわよ
+I have one too!
+<$00>
+
+// PTR : 000008E4
+#WRITE(PTR, $00000990)
+//まさか
+No way!
+<$00>
+
+// PTR : 000008EC
+#WRITE(PTR, $00000994)
+//貸してちょうだい
+I'll prove it!
+<$00>
+
+// PTR : 00000900
+#WRITE(PTR, $00000998)
+//すぐ解いてあげるから
+I'll solve this\nright now!
+//
+<$00>
+
+// PTR : 00000F5C
+#WRITE(PTR, $00001080)
+//え？
+Huh?
+<$00>
+
+// PTR : 00000F64
+#WRITE(PTR, $00001084)
+//何なの？これ…
+What happened?
+<$00>
+
+// PTR : 00000F74
+#WRITE(PTR, $00001088)
+//どうして…鐘になっちゃったの？
+The cage turned\ninto a bell?
+<$00>
+
+// PTR : 00000F94
+#WRITE(PTR, $0000108C)
+//きゃあ！
+AAH!
+<$00>
+
+// PTR : 00000FA0
+#WRITE(PTR, $00001090)
+//君、すごいよ！
+You're brilliant!
+<$00>
+
+// PTR : 00000FB0
+#WRITE(PTR, $00001094)
+//僕には全然解けなかったのに！
+I couldn't solve it!
+<$00>
+
+// PTR : 00000FD0
+#WRITE(PTR, $00001098)
+//すごく不安だったんだ
+That cage was freaky.
+<$00>
+
+// PTR : 00000FE8
+#WRITE(PTR, $0000109C)
+//もう一生このままじゃないか、って
+I thought I'd never\nget out of there!
+<$00>
+
+// PTR : 0000100C
+#WRITE(PTR, $000010A0)
+//とにかく、ありがとう！\n君のおかげだよ！
+Thanks!\nI owe you one--
+<$00>
+
+// PTR : 00001034
+#WRITE(PTR, $000010A4)
+//…ええと
+Err...
+<$00>
+
+// PTR : 00001040
+#WRITE(PTR, $000010A8)
+//…お名前は？
+What's your name?
+<$00>
+
+// PTR : 00001050
+#WRITE(PTR, $000010AC)
+//…アディ
+...Addie.
+<$00>
+
+// PTR : 0000105C
+#WRITE(PTR, $000010B0)
+//そう！
+Got it!
+<$00>
+
+// PTR : 00001064
+#WRITE(PTR, $000010B4)
+//君のおかげだよ、アディ！
+I owe you one, Addie!
+<$00>
+
+#VAR(PTR1, CUSTOMPOINTER)
+#CREATEPTR(PTR1, "LINEAR", -2148236152, 32)
+// PTR : 000002D0
+#WLB(PTR1, $00002B8C)
+#WHB(PTR1, $00002B8D)
+#WBB(PTR1, $00002B88)
+#WUB(PTR1, $00002B89)
+//まあまあ、そんなにせかさないで
+There's no rush today.
+<$00>
+
+// PTR : 000002F0
+#WLB(PTR1, $00002BB0)
+#WHB(PTR1, $00002BB1)
+#WBB(PTR1, $00002BAC)
+#WUB(PTR1, $00002BAD)
+//僕ら、出会ったばかりだよ。アディ
+We only just met,\nAddie.
+<$00>
+
+// PTR : 00000314
+#WLB(PTR1, $00002BE8)
+#WHB(PTR1, $00002BE9)
+#WBB(PTR1, $00002BE4)
+#WUB(PTR1, $00002BE5)
+//なぜ閉じ込められたかって？
+Why were you trapped\nin that cage?
+<$00>
+
+// PTR : 00000330
+#WLB(PTR1, $00002C00)
+#WHB(PTR1, $00002C01)
+#WBB(PTR1, $00002BFC)
+#WUB(PTR1, $00002BFD)
+意地悪な人にね、無理矢理だよ
+A certain buzzkill\nthrew me in there.
+<$00>
+
+// PTR : 00000350
+#WLB(PTR1, $00002C38)
+#WHB(PTR1, $00002C39)
+#WBB(PTR1, $00002C34)
+#WUB(PTR1, $00002C35)
+//何も悪いことはしてないのにさ
+And I didn't do\nanything wrong!
+<$00>
+
+// PTR : 00000370
+#WLB(PTR1, $00002C8C)
+#WHB(PTR1, $00002C8D)
+#WBB(PTR1, $00002C88)
+#WUB(PTR1, $00002C89)
+//早く街に行こうってば
+Let's get back to town.
+<$00>
+
+// PTR : 00000388
+#WLB(PTR1, $00002CC4)
+#WHB(PTR1, $00002CC5)
+#WBB(PTR1, $00002CC0)
+#WUB(PTR1, $00002CC1)
+//僕はできたら街に戻りたいんだけど
+I'd like to get back\nto town, if possible.
+<$00>
+
+// PTR : 000003B8
+#WLB(PTR1, $000033CC)
+#WHB(PTR1, $000033CD)
+#WBB(PTR1, $000033C8)
+#WUB(PTR1, $000033C9)
+//鐘楼内部・入口
+Bell Tower Entrance
+<$00>
+
+// PTR : 0000044C
+#WLB(PTR1, $00003E10)
+#WHB(PTR1, $00003E11)
+#WBB(PTR1, $00003E0C)
+#WUB(PTR1, $00003E0D)
+//…早くここから立ち去ろうよ
+Let's get out\nof here soon.
+<$00>
+
+// PTR : 00000468
+#WLB(PTR1, $00004528)
+#WHB(PTR1, $00004529)
+#WBB(PTR1, $00004524)
+#WUB(PTR1, $00004525)
+//鐘楼内部・下
+Bell Tower Bottom
+<$00>
+
+// PTR : 00000478
+#WLB(PTR1, $000048F8)
+#WHB(PTR1, $000048F9)
+#WBB(PTR1, $000048F4)
+#WUB(PTR1, $000048F5)
+//モーゼによく似た少年、\nジョーカと出会うアディ。
+And so, Addie met Joka,\na boy who resembles Moze.
+<$00>
+
+#VAR(PTR2, CUSTOMPOINTER)
+#CREATEPTR(PTR2, "LINEAR", -2148301688, 32)
+// PTR : 000004A8
+#WLB(PTR2, $000049A4)
+#WHB(PTR2, $000049A5)
+#WBB(PTR2, $000049A0)
+#WUB(PTR2, $000049A1)
+//ほんとうに、別人なのかしら？\n気持ち悪いぐらいよく似てるわ
+Was he really a stranger?\nThey looked so alike!
+<$00>
+
+// PTR : 00000538
+#WLB(PTR2, $00004B08)
+#WHB(PTR2, $00004B09)
+#WBB(PTR2, $00004B04)
+#WUB(PTR2, $00004B05)
+//ログロックの不思議な力の\nおかげで案内人を得るアディ。
+Thanks to the loglock\nAddie met her guide.
+<$00>
+
+// PTR : 00000570
+#WLB(PTR2, $00004BCC)
+#WHB(PTR2, $00004BCD)
+#WBB(PTR2, $00004BC8)
+#WUB(PTR2, $00004BC9)
+//モーゼ…、じゃなくてジョーカに\nいろいろ聞けば、何かわかるかも…
+It'd help to ask Moze-\nerr, Joka, for info.
+<$00>
+
+// PTR : 000005B0
+#WLB(PTR2, $00004CA4)
+#WHB(PTR2, $00004CA5)
+#WBB(PTR2, $00004CA0)
+#WUB(PTR2, $00004CA1)
+//だから君には無理だってば
+Like I said,\nit's too hard for you!
+<$00>
+
+// PTR : 000014A8
+#WLB(PTR2, $000066FC)
+#WHB(PTR2, $000066FD)
+#WBB(PTR2, $000066F8)
+#WUB(PTR2, $000066F9)
+//まだやるの？\n無理だと思うけど
+Trying again?\nI told you it's hard. 
+<$00>
+
+// PTR : 00001544
+#WLB(PTR2, $00006EB4)
+#WHB(PTR2, $00006EB5)
+#WBB(PTR2, $00006EB0)
+#WUB(PTR2, $00006EB1)
+//鐘楼内部・上
+Bell Tower Top
+<$00>
+
+// PTR : 00001508
+#WLB(PTR2, $0000809C)
+#WHB(PTR2, $0000809D)
+#WBB(PTR2, $00008098)
+#WUB(PTR2, $00008099)
+//つい、鳴らしてみたくなるわね
+I'd love to give\n it a quick ring.
+<$00>
+

@@ -1,0 +1,36 @@
+ENTER
+<$00>
+AREA
+<$00>
+GATE
+<$00>
+MEET
+<$00>
+INC
+<$00>
+ZONE
+<$00>
+Camera is already set %d\n
+<$00>
+[Pushed Motsize=0x%x]\n
+<$00>
+%s\n
+<$00>
+add %d\n
+<$00>
+MIMe Model!\n
+<$00>
+%d:%d(%d) 
+<$00>
+Done    \n
+<$00>
+Play2Walk ... done\n
+<$00>
+\PLAY\%02d\PLY%02d.PSQ
+<$00>
+13249
+<$00>
+\PLAY\34\FTIM3401.LET
+<$00>
+\PLAY\34\3400.MBI
+<$00>

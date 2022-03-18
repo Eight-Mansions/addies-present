@@ -1,0 +1,30 @@
+orig\CHAP0\WORLD1.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 33 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 454 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $24A1E
+|   End: Line 1119  File Position $260C8
++------------------------------------------------------------------------------
+| Script size 5802
+| Bytes Inserted 5802
+|
+| Command Execution Listing
+|   CREATEPTR: 3
+|   WRITE: 114
+|   WUB: 37
+|   WBB: 37
+|   WHB: 37
+|   WLB: 37
+|
+| Pointer Listing
+|   General Pointers Written: 262
++------------------------------------------------------------------------------
+
+Execution time: 493 msecs

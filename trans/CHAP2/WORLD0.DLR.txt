@@ -1,0 +1,22 @@
+ENTER
+<$00>
+AREA
+<$00>
+GATE
+<$00>
+MEET
+<$00>
+INC
+<$00>
+ZONE
+<$00>
+ADDIE
+<$00>
+Addie is not loaded\n
+<$00>
+\DATA\MOT\ADDIE\ASWR.MBI
+<$00>
+debug3
+<$00>
+debug4
+<$00>

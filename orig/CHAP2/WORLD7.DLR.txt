@@ -1,0 +1,156 @@
+#VAR(Table, TABLE)
+#ADDTBL("sjis.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", -2148236152, 32)
+#JMP($00021D86)
+
+// PTR : 0000032C
+#WRITE(PTR, $00000538)
+{start}
+こんな風にあなたと\n音楽を聞いてるのって…
+<$00>
+{end}
+
+// PTR : 00000358
+#WRITE(PTR, $0000053C)
+{start}
+２人でお風呂に入ってるみたいね…
+<$00>
+{end}
+
+// PTR : 0000037C
+#WRITE(PTR, $00000540)
+{start}
+変な意味じゃないわよっ！
+<$00>
+{end}
+
+// PTR : 00000398
+#WRITE(PTR, $00000544)
+{start}
+音のお風呂みたいな感じだなって
+<$00>
+{end}
+
+// PTR : 000003B8
+#WRITE(PTR, $00000548)
+{start}
+言いたかったの
+<$00>
+{end}
+
+// PTR : 000003C8
+#WRITE(PTR, $0000054C)
+{start}
+あなたって、意外と詩人なのね
+<$00>
+{end}
+
+// PTR : 000003E8
+#WRITE(PTR, $00000550)
+{start}
+人と一緒にお風呂に入ると
+<$00>
+{end}
+
+// PTR : 00000404
+#WRITE(PTR, $00000554)
+{start}
+自分のことが全部\nばれちゃう気がするじゃない？
+<$00>
+{end}
+
+// PTR : 00000434
+#WRITE(PTR, $00000558)
+{start}
+…そんな感じがしない？
+<$00>
+{end}
+
+// PTR : 0000044C
+#WRITE(PTR, $0000055C)
+{start}
+しないわよ
+<$00>
+{end}
+
+// PTR : 00000458
+#WRITE(PTR, $00000560)
+{start}
+だって、あなたは今
+<$00>
+{end}
+
+// PTR : 0000046C
+#WRITE(PTR, $00000564)
+{start}
+わたしの考えてることが\nわからないでしょ？
+<$00>
+{end}
+
+// PTR : 00000498
+#WRITE(PTR, $00000568)
+{start}
+想像はつくわよ
+<$00>
+{end}
+
+// PTR : 000004A8
+#WRITE(PTR, $0000056C)
+{start}
+ジャマするなって言いたいんでしょ
+<$00>
+{end}
+
+// PTR : 000004CC
+#WRITE(PTR, $00000570)
+{start}
+やっぱりわかってないみたいね
+<$00>
+{end}
+
+// PTR : 000004EC
+#WRITE(PTR, $00000574)
+{start}
+え？
+<$00>
+{end}
+
+// PTR : 000004F4
+#WRITE(PTR, $00000578)
+{start}
+あなたのおかげよ、感謝してるわ
+<$00>
+{end}
+
+// PTR : 00000514
+#WRITE(PTR, $0000057C)
+{start}
+…わかった？
+<$00>
+{end}
+
+// PTR : 00000524
+#WRITE(PTR, $00000580)
+{start}
+調子狂っちゃうわ
+<$00>
+{end}
+
+#VAR(PTR1, CUSTOMPOINTER)
+#CREATEPTR(PTR1, "LINEAR", -2148236152, 32)
+// PTR : 00000A6C
+#WLB(PTR1, $0000194C)
+#WHB(PTR1, $0000194D)
+#WBB(PTR1, $00001948)
+#WUB(PTR1, $00001949)
+#WLB(PTR1, $00002D10)
+#WHB(PTR1, $00002D11)
+#WBB(PTR1, $00002D0C)
+#WUB(PTR1, $00002D0D)
+{start}
+テンプレート
+<$00>
+{end}
+

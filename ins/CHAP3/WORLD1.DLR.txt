@@ -1,0 +1,1729 @@
+#VAR(Table, TABLE)
+#ADDTBL("sjis.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", -2148236152, 32)
+#JMP($00025858)
+
+// PTR : 0000037C
+#WRITE(PTR, $000003F0)
+{start}
+でも、イライザは\nどこ行っちゃったのかな…
+<$00>
+{end}
+
+// PTR : 000003A8
+#WRITE(PTR, $000003F4)
+{start}
+またあの三人組に頼んでみようかしら
+<$00>
+{end}
+
+// PTR : 000003CC
+#WRITE(PTR, $000003F8)
+{start}
+ジョーカの居場所は\nわかったんだしね
+<$00>
+{end}
+
+// PTR : 0000088C
+#WRITE(PTR, $00000900)
+{start}
+ねえ、アンタさぁ、
+<$00>
+{end}
+
+// PTR : 000008A0
+#WRITE(PTR, $00000904)
+{start}
+ここに立てかけてあった\nホウキを見かけなかった？
+<$00>
+{end}
+
+// PTR : 000008D0
+#WRITE(PTR, $00000908)
+{start}
+知らないわ
+<$00>
+{end}
+
+// PTR : 000008DC
+#WRITE(PTR, $0000090C)
+{start}
+あら、そーお？\nおっかしいわねぇ…
+<$00>
+{end}
+
+// PTR : 0000096C
+#WRITE(PTR, $00000A44)
+{start}
+アンタ、念のために聞くんだけども
+<$00>
+{end}
+
+// PTR : 00000990
+#WRITE(PTR, $00000A48)
+{start}
+あの平べったい帽子をかぶった\n連中と付き合ってないだろうね？
+<$00>
+{end}
+
+// PTR : 000009CC
+#WRITE(PTR, $00000A4C)
+{start}
+やめときなさいな、\nうさんくさい連中とつるむのは
+<$00>
+{end}
+
+// PTR : 000009FC
+#WRITE(PTR, $00000A50)
+{start}
+え？　どうして？
+<$00>
+{end}
+
+// PTR : 00000A10
+#WRITE(PTR, $00000A54)
+{start}
+いいね！つきあわない方が、\nアンタの身のためだよ！
+<$00>
+{end}
+
+// PTR : 00000B24
+#WRITE(PTR, $00000B60)
+{start}
+何か、あるみたい…
+<$00>
+{end}
+
+// PTR : 00000B38
+#WRITE(PTR, $00000B64)
+{start}
+ん？やわらかい…
+<$00>
+{end}
+
+// PTR : 00000B4C
+#WRITE(PTR, $00000B68)
+{start}
+きゃあっ！ヘビ！
+<$00>
+{end}
+
+// PTR : 00000BA0
+#WRITE(PTR, $00000C00)
+{start}
+んま！
+<$00>
+{end}
+
+// PTR : 00000BA8
+#WRITE(PTR, $00000C04)
+{start}
+見つけてくれたのぉ？\nありがと、やっとお掃除できるわあ
+<$00>
+{end}
+
+// PTR : 00000BE0
+#WRITE(PTR, $00000C08)
+{start}
+ほんと、ありがとね\n助かったわあ
+<$00>
+{end}
+
+// PTR : 00000EB0
+#WRITE(PTR, $00000F58)
+{start}
+はい、キャンバス
+<$00>
+{end}
+
+// PTR : 00000ECC
+#WRITE(PTR, $00000F60)
+{start}
+…ゴホン。あのね君、じゃまだよ
+<$00>
+{end}
+
+// PTR : 00000EEC
+#WRITE(PTR, $00000F64)
+{start}
+あなたって、口だけのひとなのね
+<$00>
+{end}
+
+// PTR : 00000F0C
+#WRITE(PTR, $00000F68)
+{start}
+あわわわ…
+<$00>
+{end}
+
+// PTR : 00000F18
+#WRITE(PTR, $00000F6C)
+{start}
+もう、いっそのこと
+<$00>
+{end}
+
+// PTR : 00000F2C
+#WRITE(PTR, $00000F70)
+{start}
+君でいいや。どう？僕の愛の言葉を…
+<$00>
+{end}
+
+// PTR : 00000F50
+#WRITE(PTR, $00000F74)
+{start}
+きゃっ
+<$00>
+{end}
+
+// PTR : 00001084
+#WRITE(PTR, $000010E0)
+{start}
+はい、フルート
+<$00>
+{end}
+
+// PTR : 00000EC4
+#WRITE(PTR, $00000F5C)
+#WRITE(PTR, $000010E4)
+{start}
+………
+<$00>
+{end}
+
+// PTR : 00001094
+#WRITE(PTR, $000010E8)
+{start}
+…ゴホン
+<$00>
+{end}
+
+// PTR : 000010A0
+#WRITE(PTR, $000010EC)
+{start}
+…今ここにキャンバスがあったなら\n僕の心を描き出して見せるのに！
+<$00>
+{end}
+
+// PTR : 00001360
+#WRITE(PTR, $000013A4)
+{start}
+あら、アディ？
+<$00>
+{end}
+
+// PTR : 00001370
+#WRITE(PTR, $000013A8)
+{start}
+ここにいたのね…イライザ
+<$00>
+{end}
+
+// PTR : 0000138C
+#WRITE(PTR, $000013AC)
+{start}
+え？…見てのとおりよ
+<$00>
+{end}
+
+// PTR : 00001564
+#WRITE(PTR, $000018DC)
+{start}
+適当に頼んじゃうわね？
+<$00>
+{end}
+
+// PTR : 0000157C
+#WRITE(PTR, $000018E0)
+{start}
+強引なところまでエミィにそっくりね
+<$00>
+{end}
+
+// PTR : 000015A0
+#WRITE(PTR, $000018E4)
+{start}
+兄さんを追いかけるなら…
+<$00>
+{end}
+
+// PTR : 000015BC
+#WRITE(PTR, $000018E8)
+{start}
+妹の私がいた方が心強いでしょう？
+<$00>
+{end}
+
+// PTR : 000015E0
+#WRITE(PTR, $000018EC)
+{start}
+…まだカンチガイしてるみたいね
+<$00>
+{end}
+
+// PTR : 00001600
+#WRITE(PTR, $000018F0)
+{start}
+はっきりさせておきたいんだけど…
+<$00>
+{end}
+
+// PTR : 00001624
+#WRITE(PTR, $000018F4)
+{start}
+ふぅ…
+<$00>
+{end}
+
+// PTR : 0000162C
+#WRITE(PTR, $000018F8)
+{start}
+照れかくしも度がすぎると\nみっともないわよ
+<$00>
+{end}
+
+// PTR : 00001658
+#WRITE(PTR, $000018FC)
+{start}
+好きで追いかけてるんじゃないわ
+<$00>
+{end}
+
+// PTR : 00001678
+#WRITE(PTR, $00001900)
+{start}
+キライだから追いかけてるの？
+<$00>
+{end}
+
+// PTR : 00001698
+#WRITE(PTR, $00001904)
+{start}
+そういうことじゃなくて…
+<$00>
+{end}
+
+// PTR : 000016B4
+#WRITE(PTR, $00001908)
+{start}
+じゃ、好きだから追いかけてるのね？
+<$00>
+{end}
+
+// PTR : 000016D8
+#WRITE(PTR, $0000190C)
+{start}
+人の話を聞きなさいよ！
+<$00>
+{end}
+
+// PTR : 000016F0
+#WRITE(PTR, $00001910)
+{start}
+落ちついて座りなさいよ
+<$00>
+{end}
+
+// PTR : 00001708
+#WRITE(PTR, $00001914)
+{start}
+…もう、いいわ
+<$00>
+{end}
+
+// PTR : 00001718
+#WRITE(PTR, $00001918)
+{start}
+一人でなんとかするから
+<$00>
+{end}
+
+// PTR : 00001730
+#WRITE(PTR, $0000191C)
+{start}
+お茶、冷めちゃうわよ
+<$00>
+{end}
+
+// PTR : 00001748
+#WRITE(PTR, $00001920)
+{start}
+あなた…
+<$00>
+{end}
+
+// PTR : 00001754
+#WRITE(PTR, $00001924)
+{start}
+ジョーカにだまされてるのよ
+<$00>
+{end}
+
+// PTR : 00001770
+#WRITE(PTR, $00001928)
+{start}
+そんなことないわ
+<$00>
+{end}
+
+// PTR : 00001784
+#WRITE(PTR, $0000192C)
+{start}
+兄さんのやりそうなことくらい\n全部わかってるもの
+<$00>
+{end}
+
+// PTR : 000017B4
+#WRITE(PTR, $00001930)
+{start}
+あんまり退屈だったから
+<$00>
+{end}
+
+// PTR : 000017CC
+#WRITE(PTR, $00001934)
+{start}
+ちょっとからかってみただけよ
+<$00>
+{end}
+
+// PTR : 000017EC
+#WRITE(PTR, $00001938)
+{start}
+…いい性格してるのね
+<$00>
+{end}
+
+// PTR : 00001804
+#WRITE(PTR, $0000193C)
+{start}
+よく言われるわ
+<$00>
+{end}
+
+// PTR : 00001814
+#WRITE(PTR, $00001940)
+{start}
+じゃ、ごちそうさま
+<$00>
+{end}
+
+// PTR : 00001828
+#WRITE(PTR, $00001944)
+{start}
+え？
+<$00>
+{end}
+
+// PTR : 00001830
+#WRITE(PTR, $00001948)
+{start}
+どこに行くの？
+<$00>
+{end}
+
+// PTR : 00001840
+#WRITE(PTR, $0000194C)
+{start}
+図書館よ
+<$00>
+{end}
+
+// PTR : 0000184C
+#WRITE(PTR, $00001950)
+{start}
+本を返さないといけないの
+<$00>
+{end}
+
+// PTR : 00001868
+#WRITE(PTR, $00001954)
+{start}
+ジョーカを見つけたら\nちゃんと教えてくれるの？
+<$00>
+{end}
+
+// PTR : 00001898
+#WRITE(PTR, $00001958)
+{start}
+ええ、安心していいわよ
+<$00>
+{end}
+
+// PTR : 000018B0
+#WRITE(PTR, $0000195C)
+{start}
+愛しのジョーカ様が\nはやく見つかるといいわね
+<$00>
+{end}
+
+// PTR : 00002074
+#WRITE(PTR, $00002170)
+{start}
+…イライザ
+<$00>
+{end}
+
+// PTR : 00002080
+#WRITE(PTR, $00002174)
+{start}
+何も言わないでちょうだい
+<$00>
+{end}
+
+// PTR : 0000209C
+#WRITE(PTR, $00002178)
+{start}
+…だいたい想像がつくから
+<$00>
+{end}
+
+// PTR : 000020B8
+#WRITE(PTR, $0000217C)
+{start}
+これ…
+<$00>
+{end}
+
+// PTR : 000020C0
+#WRITE(PTR, $00002180)
+{start}
+…どういうこと？
+<$00>
+{end}
+
+// PTR : 000020D4
+#WRITE(PTR, $00002184)
+{start}
+ジョーカに返せなかったから…
+<$00>
+{end}
+
+// PTR : 000020F4
+#WRITE(PTR, $00002188)
+{start}
+受け取りたくないわ
+<$00>
+{end}
+
+// PTR : 00002108
+#WRITE(PTR, $0000218C)
+{start}
+…そう
+<$00>
+{end}
+
+// PTR : 00002110
+#WRITE(PTR, $00002190)
+{start}
+だいたい私があげたプレゼント、
+<$00>
+{end}
+
+// PTR : 00002130
+#WRITE(PTR, $00002194)
+{start}
+突き返すなんて…
+<$00>
+{end}
+
+// PTR : 00002144
+#WRITE(PTR, $00002198)
+{start}
+今、何て言ったの？
+<$00>
+{end}
+
+// PTR : 00002158
+#WRITE(PTR, $0000219C)
+{start}
+…この小説のセリフよ
+<$00>
+{end}
+
+// PTR : 00002548
+#WRITE(PTR, $00002624)
+{start}
+そこにポーッて、立たれると\nとっても気が散るんだけど？
+<$00>
+{end}
+
+// PTR : 00002580
+#WRITE(PTR, $00002628)
+{start}
+まあ、いいわ\nねえ、アディ
+<$00>
+{end}
+
+// PTR : 0000259C
+#WRITE(PTR, $0000262C)
+{start}
+なに？
+<$00>
+{end}
+
+// PTR : 000025A4
+#WRITE(PTR, $00002630)
+{start}
+この本、飽きちゃったわ
+<$00>
+{end}
+
+// PTR : 000025BC
+#WRITE(PTR, $00002634)
+{start}
+はあ？
+<$00>
+{end}
+
+// PTR : 000025C4
+#WRITE(PTR, $00002638)
+{start}
+飽きちゃったって言ってるのよ
+<$00>
+{end}
+
+// PTR : 000025E4
+#WRITE(PTR, $0000263C)
+{start}
+…それで？
+<$00>
+{end}
+
+// PTR : 000025F0
+#WRITE(PTR, $00002640)
+{start}
+もう、にぶいわね。ログロックで\n新しい本を出して頂戴
+<$00>
+{end}
+
+// PTR : 00002694
+#WRITE(PTR, $00002708)
+{start}
+ごくろうさま。これで少しは\n退屈せずに済むわ
+<$00>
+{end}
+
+// PTR : 000026C0
+#WRITE(PTR, $0000270C)
+{start}
+あなた、わたしのこと\n何だと思ってるの？
+<$00>
+{end}
+
+// PTR : 000026E8
+#WRITE(PTR, $00002710)
+{start}
+とっても便利だとは\n思ってるわ
+<$00>
+{end}
+
+// PTR : 00001030
+#WRITE(PTR, $00002714)
+{start}
+……
+<$00>
+{end}
+
+// PTR : 00002944
+#WRITE(PTR, $00002B54)
+{start}
+…ねぇ
+<$00>
+{end}
+
+// PTR : 0000294C
+#WRITE(PTR, $00002B58)
+{start}
+あなたよ！
+<$00>
+{end}
+
+// PTR : 00002958
+#WRITE(PTR, $00002B5C)
+{start}
+気が散るからどいてくれない？
+<$00>
+{end}
+
+// PTR : 00002978
+#WRITE(PTR, $00002B60)
+{start}
+ねぇ…ひょっとして\nあなたがアディ？
+<$00>
+{end}
+
+// PTR : 0000299C
+#WRITE(PTR, $00002B64)
+{start}
+そうだけど…
+<$00>
+{end}
+
+// PTR : 000029AC
+#WRITE(PTR, $00002B68)
+{start}
+…あなたの名前は？
+<$00>
+{end}
+
+// PTR : 000029C0
+#WRITE(PTR, $00002B6C)
+{start}
+教えない
+<$00>
+{end}
+
+// PTR : 000029CC
+#WRITE(PTR, $00002B70)
+{start}
+冗談よ
+<$00>
+{end}
+
+// PTR : 000029D4
+#WRITE(PTR, $00002B74)
+{start}
+わたしはイライザ
+<$00>
+{end}
+
+// PTR : 000029E8
+#WRITE(PTR, $00002B78)
+{start}
+よろしくね
+<$00>
+{end}
+
+// PTR : 000029F4
+#WRITE(PTR, $00002B7C)
+{start}
+あなた、わたしのこと知ってるの？
+<$00>
+{end}
+
+// PTR : 00002A18
+#WRITE(PTR, $00002B80)
+{start}
+あなたのことは\nジョーカから聞いてるわ
+<$00>
+{end}
+
+// PTR : 00002A40
+#WRITE(PTR, $00002B84)
+{start}
+ジョーカのこと、\n追いかけてるんですって？
+<$00>
+{end}
+
+// PTR : 00002A6C
+#WRITE(PTR, $00002B88)
+{start}
+あなた、ジョーカの…
+<$00>
+{end}
+
+// PTR : 00002A84
+#WRITE(PTR, $00002B8C)
+{start}
+あ、かんちがいしないでね
+<$00>
+{end}
+
+// PTR : 00002AA0
+#WRITE(PTR, $00002B90)
+{start}
+わたしは彼の妹よ
+<$00>
+{end}
+
+// PTR : 00002AB4
+#WRITE(PTR, $00002B94)
+{start}
+ジョーカがどこにいるか\n知りたいんだけど
+<$00>
+{end}
+
+// PTR : 00002ADC
+#WRITE(PTR, $00002B98)
+{start}
+もう、恋する乙女はせっかちね…
+<$00>
+{end}
+
+// PTR : 00002AFC
+#WRITE(PTR, $00002B9C)
+{start}
+は？
+<$00>
+{end}
+
+// PTR : 00002B04
+#WRITE(PTR, $00002BA0)
+{start}
+こっちの話よ
+<$00>
+{end}
+
+// PTR : 00002B14
+#WRITE(PTR, $00002BA4)
+{start}
+いいわ、一諸についてきて
+<$00>
+{end}
+
+// PTR : 00002B30
+#WRITE(PTR, $00002BA8)
+{start}
+ジョーカのことが\n知りたかったらね…
+<$00>
+{end}
+
+#VAR(PTR1, CUSTOMPOINTER)
+#CREATEPTR(PTR1, "LINEAR", -2148236152, 32)
+// PTR : 00000A6C
+#WLB(PTR1, $000043BC)
+#WHB(PTR1, $000043BD)
+#WBB(PTR1, $000043B8)
+#WUB(PTR1, $000043B9)
+{start}
+うるさいおばさんだと\n思ってるでしょ？
+<$00>
+{end}
+
+// PTR : 00000310
+#WLB(PTR1, $00004BCC)
+#WHB(PTR1, $00004BCD)
+#WBB(PTR1, $00004BC8)
+#WUB(PTR1, $00004BC9)
+{start}
+イライザは図書館に戻っちゃうし…
+<$00>
+{end}
+
+// PTR : 00000334
+#WLB(PTR1, $00004BDC)
+#WHB(PTR1, $00004BDD)
+#WBB(PTR1, $00004BD8)
+#WUB(PTR1, $00004BD9)
+{start}
+手がかりはまるでなし…\nズーのところにでも戻ろうかしら
+<$00>
+{end}
+
+// PTR : 00000458
+#WLB(PTR1, $00005168)
+#WHB(PTR1, $00005169)
+#WBB(PTR1, $00005164)
+#WUB(PTR1, $00005165)
+{start}
+あなた、なんでバーなんかに\n入りびたってるの？
+<$00>
+{end}
+
+// PTR : 00000424
+#WLB(PTR1, $0000552C)
+#WHB(PTR1, $0000552D)
+#WBB(PTR1, $00005528)
+#WUB(PTR1, $00005529)
+{start}
+歩き回って疲れちゃったな\n美術館で涼んでいかない？
+<$00>
+{end}
+
+#VAR(PTR2, CUSTOMPOINTER)
+#CREATEPTR(PTR2, "LINEAR", -2148301688, 32)
+// PTR : 00000488
+#WLB(PTR2, $00005184)
+#WHB(PTR2, $00005185)
+#WBB(PTR2, $00005180)
+#WUB(PTR2, $00005181)
+{start}
+居心地がいいからよ\nあの人、気を使わないから楽だし
+<$00>
+{end}
+
+// PTR : 000004BC
+#WLB(PTR2, $000051C4)
+#WHB(PTR2, $000051C5)
+#WBB(PTR2, $000051C0)
+#WUB(PTR2, $000051C1)
+{start}
+ヒゲもじゃで、ぶっきらぼうで\nわたしはちょっと苦手だわ…
+<$00>
+{end}
+
+// PTR : 000004F4
+#WLB(PTR2, $000051DC)
+#WHB(PTR2, $000051DD)
+#WBB(PTR2, $000051D8)
+#WUB(PTR2, $000051D9)
+{start}
+でも、ああいうトーヘンボクって\nひそかに人気あるじゃない？
+<$00>
+{end}
+
+// PTR : 00000530
+#WLB(PTR2, $00005220)
+#WHB(PTR2, $00005221)
+#WBB(PTR2, $0000521C)
+#WUB(PTR2, $0000521D)
+{start}
+じゃ、あなた\nマスターのこと好きなんだ
+<$00>
+{end}
+
+// PTR : 00000558
+#WLB(PTR2, $00005238)
+#WHB(PTR2, $00005239)
+#WBB(PTR2, $00005234)
+#WUB(PTR2, $00005235)
+{start}
+わたしは違うわよ\n一般的な話をしてるの
+<$00>
+{end}
+
+// PTR : 00000580
+#WLB(PTR2, $0000527C)
+#WHB(PTR2, $0000527D)
+#WBB(PTR2, $00005278)
+#WUB(PTR2, $00005279)
+{start}
+え？　それって変じゃない
+<$00>
+{end}
+
+// PTR : 0000059C
+#WLB(PTR2, $00005298)
+#WHB(PTR2, $00005299)
+#WBB(PTR2, $00005294)
+#WUB(PTR2, $00005295)
+{start}
+…しつこいわね。あなた
+<$00>
+{end}
+
+// PTR : 000005B4
+#WLB(PTR2, $000052DC)
+#WHB(PTR2, $000052DD)
+#WBB(PTR2, $000052D8)
+#WUB(PTR2, $000052D9)
+{start}
+さ、くだらない話はこれくらいにして\n図書館に行くんでしょ
+<$00>
+{end}
+
+// PTR : 000005EC
+#WLB(PTR2, $0000532C)
+#WHB(PTR2, $0000532D)
+#WBB(PTR2, $00005328)
+#WUB(PTR2, $00005329)
+{start}
+図書館に行くんでしょ
+<$00>
+{end}
+
+// PTR : 00000620
+#WLB(PTR2, $000055A8)
+#WHB(PTR2, $000055A9)
+#WBB(PTR2, $000055A4)
+#WUB(PTR2, $000055A5)
+{start}
+色々見て回るのもいいね
+<$00>
+{end}
+
+// PTR : 00000638
+#WLB(PTR2, $000055E8)
+#WHB(PTR2, $000055E9)
+#WBB(PTR2, $000055E4)
+#WUB(PTR2, $000055E5)
+{start}
+ここは、図書館と美術館のある通りさ
+<$00>
+{end}
+
+// PTR : 00000694
+#WLB(PTR2, $00005EA8)
+#WHB(PTR2, $00005EA9)
+#WBB(PTR2, $00005EA4)
+#WUB(PTR2, $00005EA5)
+{start}
+図書館・前
+<$00>
+{end}
+
+// PTR : 000006F0
+#WLB(PTR2, $00006640)
+#WHB(PTR2, $00006641)
+#WBB(PTR2, $0000663C)
+#WUB(PTR2, $0000663D)
+{start}
+いいから黙ってついてらっしゃいよ
+<$00>
+{end}
+
+// PTR : 00000714
+#WLB(PTR2, $000066B8)
+#WHB(PTR2, $000066B9)
+#WBB(PTR2, $000066B4)
+#WUB(PTR2, $000066B5)
+{start}
+さ、こっちよ
+<$00>
+{end}
+
+// PTR : 0000075C
+#WLB(PTR2, $000069BC)
+#WHB(PTR2, $000069BD)
+#WBB(PTR2, $000069B8)
+#WUB(PTR2, $000069B9)
+{start}
+あれが美術館だよ
+<$00>
+{end}
+
+// PTR : 00000788
+#WLB(PTR2, $00006C24)
+#WHB(PTR2, $00006C25)
+#WBB(PTR2, $00006C20)
+#WUB(PTR2, $00006C21)
+{start}
+ここには街の地図があるから\n迷ったときは覗いてみるといいよ
+<$00>
+{end}
+
+// PTR : 00000804
+#WLB(PTR2, $00006EA8)
+#WHB(PTR2, $00006EA9)
+#WBB(PTR2, $00006EA4)
+#WUB(PTR2, $00006EA5)
+{start}
+へえ、こうなってるんだ
+<$00>
+{end}
+
+// PTR : 0000081C
+#WLB(PTR2, $00006EB4)
+#WHB(PTR2, $00006EB5)
+#WBB(PTR2, $00006EB0)
+#WUB(PTR2, $00006EB1)
+{start}
+メモしておこう
+<$00>
+{end}
+
+// PTR : 00000840
+#WLB(PTR2, $00007120)
+#WHB(PTR2, $00007121)
+#WBB(PTR2, $0000711C)
+#WUB(PTR2, $0000711D)
+{start}
+さあ、これでいいわ
+<$00>
+{end}
+
+// PTR : 00000854
+#WLB(PTR2, $0000712C)
+#WHB(PTR2, $0000712D)
+#WBB(PTR2, $00007128)
+#WUB(PTR2, $00007129)
+{start}
+行った所をメモしましょ
+<$00>
+{end}
+
+// PTR : 00000920
+#WLB(PTR2, $0000749C)
+#WHB(PTR2, $0000749D)
+#WBB(PTR2, $00007498)
+#WUB(PTR2, $00007499)
+{start}
+おかしいねえ、このあたりに\n絶対あるはずなんだけど…
+<$00>
+{end}
+
+// PTR : 00000A94
+#WLB(PTR2, $000076E8)
+#WHB(PTR2, $000076E9)
+#WBB(PTR2, $000076E4)
+#WUB(PTR2, $000076E5)
+{start}
+でもね、いつかアンタにも\nわかる日が来るよ…
+<$00>
+{end}
+
+// PTR : 00000B78
+#WLB(PTR2, $00007A28)
+#WHB(PTR2, $00007A29)
+#WBB(PTR2, $00007A24)
+#WUB(PTR2, $00007A25)
+{start}
+ヘビって…大っ嫌い！
+<$00>
+{end}
+
+// PTR : 00000C18
+#WLB(PTR2, $00007D4C)
+#WHB(PTR2, $00007D4D)
+#WBB(PTR2, $00007D48)
+#WUB(PTR2, $00007D49)
+{start}
+あら、ヘビねえ\nかわいいじゃない
+<$00>
+{end}
+
+// PTR : 00000CAC
+#WLB(PTR2, $0000803C)
+#WHB(PTR2, $0000803D)
+#WBB(PTR2, $00008038)
+#WUB(PTR2, $00008039)
+{start}
+どっちにいくのよ
+<$00>
+{end}
+
+// PTR : 00000CD8
+#WLB(PTR2, $00008B08)
+#WHB(PTR2, $00008B09)
+#WBB(PTR2, $00008B04)
+#WUB(PTR2, $00008B05)
+{start}
+美術館前の三叉路
+<$00>
+{end}
+
+// PTR : 000006DC
+#WLB(PTR2, $0000662C)
+#WHB(PTR2, $0000662D)
+#WBB(PTR2, $00006628)
+#WUB(PTR2, $00006629)
+#WLB(PTR2, $00009448)
+#WHB(PTR2, $00009449)
+#WBB(PTR2, $00009444)
+#WUB(PTR2, $00009445)
+{start}
+ねえ、どこに行くの
+<$00>
+{end}
+
+// PTR : 00000D60
+#WLB(PTR2, $00009454)
+#WHB(PTR2, $00009455)
+#WBB(PTR2, $00009450)
+#WUB(PTR2, $00009451)
+{start}
+いいから、いいから
+<$00>
+{end}
+
+// PTR : 00000D74
+#WLB(PTR2, $000094C8)
+#WHB(PTR2, $000094C9)
+#WBB(PTR2, $000094C4)
+#WUB(PTR2, $000094C5)
+{start}
+こっちよ
+<$00>
+{end}
+
+// PTR : 00000D80
+#WLB(PTR2, $00009584)
+#WHB(PTR2, $00009585)
+#WBB(PTR2, $00009580)
+#WUB(PTR2, $00009581)
+{start}
+裏には喫茶店もあるんだ
+<$00>
+{end}
+
+// PTR : 00000D98
+#WLB(PTR2, $000095C8)
+#WHB(PTR2, $000095C9)
+#WBB(PTR2, $000095C4)
+#WUB(PTR2, $000095C5)
+{start}
+この建物が美術館だよ
+<$00>
+{end}
+
+// PTR : 00000DC8
+#WLB(PTR2, $00009840)
+#WHB(PTR2, $00009841)
+#WBB(PTR2, $0000983C)
+#WUB(PTR2, $0000983D)
+{start}
+どこにいくつもりなの
+<$00>
+{end}
+
+// PTR : 00000DE0
+#WLB(PTR2, $00009D8C)
+#WHB(PTR2, $00009D8D)
+#WBB(PTR2, $00009D88)
+#WUB(PTR2, $00009D89)
+{start}
+美術館・前
+<$00>
+{end}
+
+// PTR : 00000E08
+#WLB(PTR2, $0000A328)
+#WHB(PTR2, $0000A329)
+#WBB(PTR2, $0000A324)
+#WUB(PTR2, $0000A325)
+{start}
+さあ、入りましょ
+<$00>
+{end}
+
+// PTR : 00000E1C
+#WLB(PTR2, $0000A3C0)
+#WHB(PTR2, $0000A3C1)
+#WBB(PTR2, $0000A3BC)
+#WUB(PTR2, $0000A3BD)
+{start}
+ここよ
+<$00>
+{end}
+
+// PTR : 00000E24
+#WLB(PTR2, $0000A448)
+#WHB(PTR2, $0000A449)
+#WBB(PTR2, $0000A444)
+#WUB(PTR2, $0000A445)
+{start}
+入りましょう
+<$00>
+{end}
+
+// PTR : 00000E58
+#WLB(PTR2, $0000A5D8)
+#WHB(PTR2, $0000A5D9)
+#WBB(PTR2, $0000A5D4)
+#WUB(PTR2, $0000A5D5)
+{start}
+ああ、君の美しさは\n言葉では表現できない
+<$00>
+{end}
+
+// PTR : 00000F98
+#WLB(PTR2, $0000AFD4)
+#WHB(PTR2, $0000AFD5)
+#WBB(PTR2, $0000AFD0)
+#WUB(PTR2, $0000AFD1)
+{start}
+ああ海風よ、僕の臆病な心を\nいっそ吹き飛ばしておくれ！
+<$00>
+{end}
+
+// PTR : 00000FD0
+#WLB(PTR2, $0000AFE0)
+#WHB(PTR2, $0000AFE1)
+#WBB(PTR2, $0000AFDC)
+#WUB(PTR2, $0000AFDD)
+{start}
+…退屈な口説き文句ね
+<$00>
+{end}
+
+// PTR : 00000FE8
+#WLB(PTR2, $0000AFFC)
+#WHB(PTR2, $0000AFFD)
+#WBB(PTR2, $0000AFF8)
+#WUB(PTR2, $0000AFF9)
+{start}
+…はいはい
+<$00>
+{end}
+
+// PTR : 00000FF4
+#WLB(PTR2, $0000B1A4)
+#WHB(PTR2, $0000B1A5)
+#WBB(PTR2, $0000B1A0)
+#WUB(PTR2, $0000B1A1)
+{start}
+今この手にフルートがあったなら\n君を称える旋律を奏でるのに！
+<$00>
+{end}
+
+// PTR : 0000104C
+#WLB(PTR2, $0000B2D4)
+#WHB(PTR2, $0000B2D5)
+#WBB(PTR2, $0000B2D0)
+#WUB(PTR2, $0000B2D1)
+{start}
+今この手に\nフルートがありさえすれば！
+<$00>
+{end}
+
+// PTR : 00001100
+#WLB(PTR2, $0000B574)
+#WHB(PTR2, $0000B575)
+#WBB(PTR2, $0000B570)
+#WUB(PTR2, $0000B571)
+{start}
+ああ不実な美の女神よ！
+<$00>
+{end}
+
+// PTR : 00001118
+#WLB(PTR2, $0000B580)
+#WHB(PTR2, $0000B581)
+#WBB(PTR2, $0000B57C)
+#WUB(PTR2, $0000B57D)
+{start}
+…犬も食わないわ
+<$00>
+{end}
+
+// PTR : 00001030
+#WLB(PTR2, $0000B1B0)
+#WHB(PTR2, $0000B1B1)
+#WBB(PTR2, $0000B1AC)
+#WUB(PTR2, $0000B1AD)
+#WLB(PTR2, $0000B59C)
+#WHB(PTR2, $0000B59D)
+#WBB(PTR2, $0000B598)
+#WUB(PTR2, $0000B599)
+{start}
+……
+<$00>
+{end}
+
+// PTR : 00001038
+#WLB(PTR2, $0000B2A8)
+#WHB(PTR2, $0000B2A9)
+#WBB(PTR2, $0000B2A4)
+#WUB(PTR2, $0000B2A5)
+#WLB(PTR2, $0000B6B8)
+#WHB(PTR2, $0000B6B9)
+#WBB(PTR2, $0000B6B4)
+#WUB(PTR2, $0000B6B5)
+{start}
+もう一度言おう！
+<$00>
+{end}
+
+// PTR : 0000112C
+#WLB(PTR2, $0000B6E4)
+#WHB(PTR2, $0000B6E5)
+#WBB(PTR2, $0000B6E0)
+#WUB(PTR2, $0000B6E1)
+{start}
+今ここにキャンバスがあったなら\n僕の心を描き出して見せる！
+<$00>
+{end}
+
+// PTR : 00001168
+#WLB(PTR2, $0000B740)
+#WHB(PTR2, $0000B741)
+#WBB(PTR2, $0000B73C)
+#WUB(PTR2, $0000B73D)
+{start}
+どう？僕の愛を受け入れてくれる\n気になったかい？
+<$00>
+{end}
+
+// PTR : 00001274
+#WLB(PTR2, $0000BA74)
+#WHB(PTR2, $0000BA75)
+#WBB(PTR2, $0000BA70)
+#WUB(PTR2, $0000BA71)
+{start}
+帰っちゃうの？
+<$00>
+{end}
+
+// PTR : 00001284
+#WLB(PTR2, $0000BA88)
+#WHB(PTR2, $0000BA89)
+#WBB(PTR2, $0000BA84)
+#WUB(PTR2, $0000BA85)
+{start}
+ジョーカの話、聞きたいんでしょ？
+<$00>
+{end}
+
+// PTR : 000012A8
+#WLB(PTR2, $0000BB9C)
+#WHB(PTR2, $0000BB9D)
+#WBB(PTR2, $0000BB98)
+#WUB(PTR2, $0000BB99)
+{start}
+待ちなさいよ
+<$00>
+{end}
+
+// PTR : 00000C98
+#WLB(PTR2, $00007EE8)
+#WHB(PTR2, $00007EE9)
+#WBB(PTR2, $00007EE4)
+#WUB(PTR2, $00007EE5)
+#WLB(PTR2, $0000BBB0)
+#WHB(PTR2, $0000BBB1)
+#WBB(PTR2, $0000BBAC)
+#WUB(PTR2, $0000BBAD)
+{start}
+そっちじゃないわ
+<$00>
+{end}
+
+// PTR : 000012E8
+#WLB(PTR2, $0000C418)
+#WHB(PTR2, $0000C419)
+#WBB(PTR2, $0000C414)
+#WUB(PTR2, $0000C415)
+{start}
+美術館・入口
+<$00>
+{end}
+
+// PTR : 000013BC
+#WLB(PTR2, $0000D398)
+#WHB(PTR2, $0000D399)
+#WBB(PTR2, $0000D394)
+#WUB(PTR2, $0000D395)
+{start}
+うーん…これからどうしよう
+<$00>
+{end}
+
+// PTR : 000013D8
+#WLB(PTR2, $0000D3A8)
+#WHB(PTR2, $0000D3A9)
+#WBB(PTR2, $0000D3A4)
+#WUB(PTR2, $0000D3A5)
+{start}
+あの子たち\nもうジョーカを見つけたかな
+<$00>
+{end}
+
+// PTR : 00001400
+#WLB(PTR2, $0000D414)
+#WHB(PTR2, $0000D415)
+#WBB(PTR2, $0000D410)
+#WUB(PTR2, $0000D411)
+{start}
+イライザと別れたアディ。\nこれからどうしようか。
+<$00>
+{end}
+
+// PTR : 00001430
+#WLB(PTR2, $0000D4C0)
+#WHB(PTR2, $0000D4C1)
+#WBB(PTR2, $0000D4BC)
+#WUB(PTR2, $0000D4BD)
+{start}
+ランドリーの方は\nどうなってるかな…
+<$00>
+{end}
+
+// PTR : 00001454
+#WLB(PTR2, $0000D570)
+#WHB(PTR2, $0000D571)
+#WBB(PTR2, $0000D56C)
+#WUB(PTR2, $0000D56D)
+{start}
+まぁ、座りましょうよ
+<$00>
+{end}
+
+// PTR : 0000146C
+#WLB(PTR2, $0000D6B8)
+#WHB(PTR2, $0000D6B9)
+#WBB(PTR2, $0000D6B4)
+#WUB(PTR2, $0000D6B5)
+{start}
+…さびれ気味だけどね
+<$00>
+{end}
+
+// PTR : 00001484
+#WLB(PTR2, $0000D6F4)
+#WHB(PTR2, $0000D6F5)
+#WBB(PTR2, $0000D6F0)
+#WUB(PTR2, $0000D6F1)
+{start}
+ここがテラスの喫茶店さ
+<$00>
+{end}
+
+// PTR : 00002300
+#WLB(PTR2, $0000EE2C)
+#WHB(PTR2, $0000EE2D)
+#WBB(PTR2, $0000EE28)
+#WUB(PTR2, $0000EE29)
+{start}
+・
+<$00>
+{end}
+
+// PTR : 00002664
+#WLB(PTR2, $0000F5DC)
+#WHB(PTR2, $0000F5DD)
+#WBB(PTR2, $0000F5D8)
+#WUB(PTR2, $0000F5D9)
+{start}
+やる気になってくれたのかしら？
+<$00>
+{end}
+
+// PTR : 00002728
+#WLB(PTR2, $0000FA40)
+#WHB(PTR2, $0000FA41)
+#WBB(PTR2, $0000FA3C)
+#WUB(PTR2, $0000FA3D)
+{start}
+やっぱり、ちょっとだけ\n…退屈だわ
+<$00>
+{end}
+
+// PTR : 00002790
+#WLB(PTR2, $000100E0)
+#WHB(PTR2, $000100E1)
+#WBB(PTR2, $000100DC)
+#WUB(PTR2, $000100DD)
+{start}
+美術館・テラス
+<$00>
+{end}
+
+// PTR : 00002818
+#WLB(PTR2, $00010A58)
+#WHB(PTR2, $00010A59)
+#WBB(PTR2, $00010A54)
+#WUB(PTR2, $00010A55)
+{start}
+あ…エミィ？
+<$00>
+{end}
+
+// PTR : 00002828
+#WLB(PTR2, $00010A64)
+#WHB(PTR2, $00010A65)
+#WBB(PTR2, $00010A60)
+#WUB(PTR2, $00010A61)
+{start}
+うーん、でもまた\n人ちがいってこともありうるし…
+<$00>
+{end}
+
+// PTR : 00002858
+#WLB(PTR2, $00010B7C)
+#WHB(PTR2, $00010B7D)
+#WBB(PTR2, $00010B78)
+#WUB(PTR2, $00010B79)
+{start}
+アディ、こっちよ
+<$00>
+{end}
+
+// PTR : 00000770
+#WLB(PTR2, $00006A0C)
+#WHB(PTR2, $00006A0D)
+#WBB(PTR2, $00006A08)
+#WUB(PTR2, $00006A09)
+#WLB(PTR2, $00010BFC)
+#WHB(PTR2, $00010BFD)
+#WBB(PTR2, $00010BF8)
+#WUB(PTR2, $00010BF9)
+{start}
+どう？見ていかない？
+<$00>
+{end}
+
+// PTR : 0000286C
+#WLB(PTR2, $00010CB4)
+#WHB(PTR2, $00010CB5)
+#WBB(PTR2, $00010CB0)
+#WUB(PTR2, $00010CB1)
+{start}
+あ、ここに出るんだ
+<$00>
+{end}
+
+// PTR : 00002880
+#WLB(PTR2, $00010CC0)
+#WHB(PTR2, $00010CC1)
+#WBB(PTR2, $00010CBC)
+#WUB(PTR2, $00010CBD)
+{start}
+さ、こっちよ。喫茶店があるの
+<$00>
+{end}
+
+// PTR : 000028A0
+#WLB(PTR2, $00010DFC)
+#WHB(PTR2, $00010DFD)
+#WBB(PTR2, $00010DF8)
+#WUB(PTR2, $00010DF9)
+{start}
+あら？　猫の鳴き声
+<$00>
+{end}
+
+// PTR : 000028B4
+#WLB(PTR2, $00010E0C)
+#WHB(PTR2, $00010E0D)
+#WBB(PTR2, $00010E08)
+#WUB(PTR2, $00010E09)
+{start}
+どこかしら
+<$00>
+{end}
+
+// PTR : 000031B4
+#WLB(PTR2, $00012158)
+#WHB(PTR2, $00012159)
+#WBB(PTR2, $00012154)
+#WUB(PTR2, $00012155)
+{start}
+あ、こんなところにいたの…
+<$00>
+{end}
+
+// PTR : 000031D0
+#WLB(PTR2, $00012168)
+#WHB(PTR2, $00012169)
+#WBB(PTR2, $00012164)
+#WUB(PTR2, $00012165)
+{start}
+あなたがミュウね？
+<$00>
+{end}
+
+// PTR : 000031E4
+#WLB(PTR2, $0001220C)
+#WHB(PTR2, $0001220D)
+#WBB(PTR2, $00012208)
+#WUB(PTR2, $00012209)
+{start}
+何かないかしら…\nあ、これが使えるかな？
+<$00>
+{end}
+
+// PTR : 0000320C
+#WLB(PTR2, $00012288)
+#WHB(PTR2, $00012289)
+#WBB(PTR2, $00012284)
+#WUB(PTR2, $00012285)
+{start}
+逃げないで\n待ってるのよ
+<$00>
+{end}
+
+// PTR : 00003224
+#WLB(PTR2, $00012328)
+#WHB(PTR2, $00012329)
+#WBB(PTR2, $00012324)
+#WUB(PTR2, $00012325)
+{start}
+お腹すいてるんでしょ
+<$00>
+{end}
+
+// PTR : 0000323C
+#WLB(PTR2, $00012338)
+#WHB(PTR2, $00012339)
+#WBB(PTR2, $00012334)
+#WUB(PTR2, $00012335)
+{start}
+ほら、お魚よ
+<$00>
+{end}
+
+// PTR : 0000324C
+#WLB(PTR2, $00012764)
+#WHB(PTR2, $00012765)
+#WBB(PTR2, $00012760)
+#WUB(PTR2, $00012761)
+{start}
+…あ、失敗
+<$00>
+{end}
+
+// PTR : 00003298
+#WLB(PTR2, $00012868)
+#WHB(PTR2, $00012869)
+#WBB(PTR2, $00012864)
+#WUB(PTR2, $00012865)
+{start}
+どこにいくの。早く来なさいよ
+<$00>
+{end}
+
+// PTR : 000032B8
+#WLB(PTR2, $00012874)
+#WHB(PTR2, $00012875)
+#WBB(PTR2, $00012870)
+#WUB(PTR2, $00012871)
+{start}
+寄り道する方がいけないと思うわ
+<$00>
+{end}
+
+// PTR : 000032D8
+#WLB(PTR2, $00012B34)
+#WHB(PTR2, $00012B35)
+#WBB(PTR2, $00012B30)
+#WUB(PTR2, $00012B31)
+{start}
+どこにいくのよ
+<$00>
+{end}
+
+// PTR : 000032E8
+#WLB(PTR2, $00012B40)
+#WHB(PTR2, $00012B41)
+#WBB(PTR2, $00012B3C)
+#WUB(PTR2, $00012B3D)
+{start}
+ここから行けばよかったんじゃない
+<$00>
+{end}
+
+// PTR : 0000330C
+#WLB(PTR2, $00012CAC)
+#WHB(PTR2, $00012CAD)
+#WBB(PTR2, $00012CA8)
+#WUB(PTR2, $00012CA9)
+{start}
+…向こう側から\n柵で閉じられてるみたい
+<$00>
+{end}
+
+// PTR : 00003358
+#WLB(PTR2, $00013760)
+#WHB(PTR2, $00013761)
+#WBB(PTR2, $0001375C)
+#WUB(PTR2, $0001375D)
+{start}
+美術館・裏口
+<$00>
+{end}
+
+// PTR : 000033FC
+#WLB(PTR2, $00013D00)
+#WHB(PTR2, $00013D01)
+#WBB(PTR2, $00013CFC)
+#WUB(PTR2, $00013CFD)
+{start}
+エミィに似た少女は\nイライザという名の少女だった。
+<$00>
+{end}
+
+// PTR : 00003430
+#WLB(PTR2, $00013DAC)
+#WHB(PTR2, $00013DAD)
+#WBB(PTR2, $00013DA8)
+#WUB(PTR2, $00013DA9)
+{start}
+ジョーカの妹だなんて、\nますますエミィそっくり！
+<$00>
+{end}
+

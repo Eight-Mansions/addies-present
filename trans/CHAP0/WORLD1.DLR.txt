@@ -1,0 +1,878 @@
+#VAR(Table, TABLE)
+#ADDTBL("sjis.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", -2148236152, 32)
+#JMP($00024A1E)
+
+// PTR : 0000030C
+#WRITE(PTR, $0000034C)
+//めずらしいわね\nあなたが遊びに来るなんて
+This is rare, Emmy.\nYou don't stop by very often.
+<$00>
+
+// PTR : 00000334
+#WRITE(PTR, $00000350)
+//殺風景な部屋ね
+Because your room's gloomy!
+<$00>
+
+// PTR : 0000068C
+#WRITE(PTR, $00000774)
+//エミィ…
+Emmy?
+<$00>
+
+// PTR : 00000698
+#WRITE(PTR, $00000778)
+//アディ、今日が誕生日でしょ
+Happy birthday, Addie!
+<$00>
+
+// PTR : 000006B4
+#WRITE(PTR, $0000077C)
+//はい、これあげるわ
+This is for you!
+<$00>
+
+// PTR : 000006C8
+#WRITE(PTR, $00000780)
+//これってログロックじゃない？
+Is that a loglock?
+<$00>
+
+// PTR : 000006E8
+#WRITE(PTR, $00000784)
+//あんなに大事にしてたのに…
+But you shouldn't have!
+<$00>
+
+// PTR : 00000704
+#WRITE(PTR, $00000788)
+//いらないの？
+And why not?
+<$00>
+
+// PTR : 00000714
+#WRITE(PTR, $0000078C)
+//ううん、ありがとう
+Err-! Thank you.
+<$00>
+
+// PTR : 00000728
+#WRITE(PTR, $00000790)
+//…でも急にどうしたの？
+I'm just surprised.
+<$00>
+
+// PTR : 00000740
+#WRITE(PTR, $00000794)
+//…ねぇ、あがってもいい？
+Then, do you like it?
+<$00>
+
+// PTR : 0000075C
+#WRITE(PTR, $00000798)
+//え？
+Huh?
+<$00>
+
+// PTR : 00000764
+#WRITE(PTR, $0000079C)
+//ああ、いいわよ
+Yes! Very much!
+<$00>
+
+// PTR : 00000ADC
+#WRITE(PTR, $00000BA4)
+//難しくなきゃいいけど
+I hope it's not hard.
+<$00>
+
+// PTR : 00000AF4
+#WRITE(PTR, $00000BA8)
+//ええと、抜いたりひねったり…
+Hmm, just rotate and...
+<$00>
+
+// PTR : 00000B14
+#WRITE(PTR, $00000BAC)
+//…回したり、\nひっくり返したり…
+Rotate, slide, exchange...
+<$00>
+
+// PTR : 00000B34
+#WRITE(PTR, $00000BB0)
+//で、ルールは…
+Oh, there's rules?
+<$00>
+
+// PTR : 00000B44
+#WRITE(PTR, $00000BB4)
+//…わからなくなったら、\n説明書を読み直せばいいか
+I'll have to review this\nif I get confused.
+<$00>
+
+// PTR : 00000B74
+#WRITE(PTR, $00000BB8)
+//（□ボタンで説明書を\n呼び出すことができます）
+(Review the manual with\nthe □ button.)
+<$00>
+
+// PTR : 00000F10
+#WRITE(PTR, $000012CC)
+//モーゼ、どうしたの？
+Moze!\nWhat are you doing?
+<$00>
+
+// PTR : 00000F28
+#WRITE(PTR, $000012D0)
+//今日誕生日だったよね？アディ
+Today's your birthday,\nright, Addie?
+<$00>
+
+// PTR : 00000F48
+#WRITE(PTR, $000012D4)
+//プレゼント持って来たんだ
+I got you a present.
+<$00>
+
+// PTR : 00000F64
+#WRITE(PTR, $000012D8)
+//何でこんな時間に？
+Why are you up so late?
+<$00>
+
+// PTR : 00000F78
+#WRITE(PTR, $000012DC)
+//明日にはもう引越しちゃうから
+I was getting ready\nfor the move tomorrow.
+<$00>
+
+// PTR : 00000F98
+#WRITE(PTR, $000012E0)
+//そうなの…
+Oh, right.
+<$00>
+
+// PTR : 00000FA4
+#WRITE(PTR, $000012E4)
+//…モーゼは、お母さんに\nついていくのね
+Your mom went ahead of you.
+<$00>
+
+// PTR : 00000FCC
+#WRITE(PTR, $000012E8)
+//一人きりじゃ、かわいそうだからね…
+I feel bad, leaving\nher alone so long.
+<$00>
+
+// PTR : 00000FF0
+#WRITE(PTR, $000012EC)
+//エミィは父さんとここに残るってさ
+But Emmy's staying\nhere with Dad.
+<$00>
+
+// PTR : 00001014
+#WRITE(PTR, $000012F0)
+//わが妹ながらさっぱりしたもんだよ
+She'll keep him in order.
+<$00>
+
+// PTR : 00001038
+#WRITE(PTR, $000012F4)
+//…これはオルゴール？
+So, a music box?
+<$00>
+
+// PTR : 00001050
+#WRITE(PTR, $000012F8)
+//そうだよ
+Yessiree!
+<$00>
+
+// PTR : 0000105C
+#WRITE(PTR, $000012FC)
+//フタが開かないけどね
+The lid doesn't open!
+<$00>
+
+// PTR : 00001074
+#WRITE(PTR, $00001300)
+//え？じゃあ鳴らないじゃない
+What? Then how\ndoes it play?
+<$00>
+
+// PTR : 00001090
+#WRITE(PTR, $00001304)
+//うん、鳴らないよ
+It doesn't!
+<$00>
+
+// PTR : 000010A4
+#WRITE(PTR, $00001308)
+//…いやがらせ？
+...Is this a prank?
+<$00>
+
+// PTR : 000010B4
+#WRITE(PTR, $0000130C)
+//ふう…
+Women, women,\nwomen.
+<$00>
+
+// PTR : 000010BC
+#WRITE(PTR, $00001310)
+//いいかい？そのオルゴールはね
+I told you,\nit's a music box!
+<$00>
+
+// PTR : 000010DC
+#WRITE(PTR, $00001314)
+//閉じ込められた音楽を
+But it's a very\nkind music box,
+<$00>
+
+// PTR : 000010F4
+#WRITE(PTR, $00001318)
+//逃がしてあげた心優しい箱なんだ
+so it let the music\ntrapped inside fly away!
+<$00>
+
+// PTR : 00001114
+#WRITE(PTR, $0000131C)
+//結局こわれてるってことでしょ？
+So it IS broken!
+<$00>
+
+// PTR : 00001134
+#WRITE(PTR, $00001320)
+//アディはまだまだ子供だねぇ
+You're such a kid, Addie.
+<$00>
+
+// PTR : 00001150
+#WRITE(PTR, $00001324)
+//自転車にも乗れないくせに\n子供なんて言わないでくれる？
+Says you! You can't\neven ride a bike!
+<$00>
+
+// PTR : 00001188
+#WRITE(PTR, $00001328)
+//木のぼりも出来ないんだから\nアディはまだ子供じゃないか
+And you can't climb a\ntree, you little kid!
+<$00>
+
+// PTR : 000011C0
+#WRITE(PTR, $0000132C)
+//木登りなんてするほうが子供なのよ！
+KIDS! CLIMB! THE TREES!
+<$00>
+
+// PTR : 000011E4
+#WRITE(PTR, $00001330)
+//…そのオルゴールはね
+That music box...
+<$00>
+
+// PTR : 000011FC
+#WRITE(PTR, $00001334)
+//父さんが母さんにあげた\n初めてのプレゼントなんだ
+It's the first gift\nDad ever gave Mom.
+<$00>
+
+// PTR : 0000122C
+#WRITE(PTR, $00001338)
+//何度も直そうとしたけどダメだった
+I tried fixing it a\nbunch of times,
+<$00>
+
+// PTR : 00001250
+#WRITE(PTR, $0000133C)
+//…だからもういいんだ
+but it didn't work out.
+<$00>
+
+// PTR : 00001268
+#WRITE(PTR, $00001340)
+//父さんも母さんも\n忘れちゃってるみたいだし
+Dad and Mom both\nforgot about it.
+<$00>
+
+// PTR : 00001294
+#WRITE(PTR, $00001344)
+//お別れの記念にアディにあげるよ
+So, I want you to have\nit to remember me by.
+<$00>
+
+// PTR : 000012B4
+#WRITE(PTR, $00001348)
+//じゃあね
+Sweet dreams!
+<$00>
+
+// PTR : 000012C0
+#WRITE(PTR, $0000134C)
+//…モーゼ
+Oh, Moze.
+<$00>
+
+// PTR : 00001B34
+#WRITE(PTR, $00001C80)
+//まずは練習問題から
+First, let's\njust play around.
+<$00>
+
+// PTR : 00000CEC
+#WRITE(PTR, $00001C84)
+//やってみようかな
+Doesn't hurt to\nget a feel for it.
+<$00>
+
+// PTR : 00001B48
+#WRITE(PTR, $00001C88)
+//じゃあ、これから…
+Well, then...
+//自動車 to ネコ, Car to Cat
+<$00>
+
+// PTR : 00001B5C
+#WRITE(PTR, $00001C8C)
+#WRITE(PTR, $00001D60)
+//次は、と…
+Okay, what's next?
+<$00>
+
+// PTR : 00001B68
+#WRITE(PTR, $00001C90)
+#WRITE(PTR, $00001D64)
+//これにしよう
+Let's try this one!
+//jaw to jam, あご to ジャム
+<$00>
+
+// PTR : 00001B78
+#WRITE(PTR, $00001C94)
+#WRITE(PTR, $00001D68)
+#WRITE(PTR, $00001E04)
+//ん、なるほどね
+Okay, I get this!
+<$00>
+
+// PTR : 00001B88
+#WRITE(PTR, $00001C98)
+#WRITE(PTR, $00001D6C)
+#WRITE(PTR, $00001E08)
+//あ、“回転”とは違うんだ…
+Oh! "Rotate" does\nsomething else.
+//シカ   ビール, deer to beer
+<$00>
+
+// PTR : 00001BA4
+#WRITE(PTR, $00001C9C)
+#WRITE(PTR, $00001D70)
+#WRITE(PTR, $00001E0C)
+#WRITE(PTR, $00001E84)
+//なぁんだ、簡単じゃない\nどんどん進んじゃおう
+That was tricky!\nLet's move on.
+<$00>
+
+// PTR : 00001BD0
+#WRITE(PTR, $00001CA0)
+#WRITE(PTR, $00001D74)
+#WRITE(PTR, $00001E10)
+#WRITE(PTR, $00001E88)
+//…う、難しそうかな
+...This looks hard.
+//鳥かご cage to bell 鐘,
+<$00>
+
+// PTR : 00001D44
+#WRITE(PTR, $00001D5C)
+#WRITE(PTR, $00001E00)
+#WRITE(PTR, $00001E80)
+#WRITE(PTR, $00001EE0)
+//…もう一回やってみよう
+Let's try once more!
+<$00>
+
+// PTR : 00001BE4
+#WRITE(PTR, $00001CA4)
+#WRITE(PTR, $00001D78)
+#WRITE(PTR, $00001E14)
+#WRITE(PTR, $00001E8C)
+#WRITE(PTR, $00001EE4)
+//ちょっと難しかったかも…
+These are a bit hard.
+<$00>
+
+// PTR : 00001C00
+#WRITE(PTR, $00001CA8)
+#WRITE(PTR, $00001D7C)
+#WRITE(PTR, $00001E18)
+#WRITE(PTR, $00001E90)
+#WRITE(PTR, $00001EE8)
+//（練習問題を続けたい場合は、\n方向キー左・右で問題を選べます）
+(To keep practicing,\npress left or right.)
+<$00>
+
+// PTR : 00001C40
+#WRITE(PTR, $00001CAC)
+#WRITE(PTR, $00001D80)
+#WRITE(PTR, $00001E1C)
+#WRITE(PTR, $00001E94)
+#WRITE(PTR, $00001EEC)
+//（練習問題を終了したい場合は、\n□ボタンで説明書を閉じて下さい）
+(To stop practicing, press the □ button.)
+<$00>
+
+// PTR : 00001F14
+#WRITE(PTR, $00001F70)
+//さて
+Let's see!
+<$00>
+
+// PTR : 00001F40
+#WRITE(PTR, $00001F68)
+#WRITE(PTR, $00001FDC)
+//これって…
+A real, live\nloglock...
+<$00>
+
+// PTR : 00001F4C
+#WRITE(PTR, $00001F6C)
+#WRITE(PTR, $00001FE0)
+//ずっとほしかったのよね…
+I've always wanted one!
+<$00>
+
+// PTR : 00001FC0
+#WRITE(PTR, $00001FE4)
+//説明書がないと、まだ不安ね
+These instructions\nare intense.
+<$00>
+
+// PTR : 00002124
+#WRITE(PTR, $00002168)
+//…エミィ、何かあったの？
+So, Emmy...\nIs something wrong?
+<$00>
+
+// PTR : 00002140
+#WRITE(PTR, $0000216C)
+//別に、あなたに\n話すようなことじゃないわ
+Besides you talking?\nNot really.
+<$00>
+
+// PTR : 000021A4
+#WRITE(PTR, $00002214)
+//ねえ、アディ
+Hey, Addie.
+<$00>
+
+// PTR : 000021B4
+#WRITE(PTR, $00002218)
+//兄さんは、もう来たの？
+Did my big\nbrother come see you?
+<$00>
+
+// PTR : 000021CC
+#WRITE(PTR, $0000221C)
+//モーゼなら、今日は来てないわ
+Moze? No, not today.
+<$00>
+
+// PTR : 000021EC
+#WRITE(PTR, $00002220)
+//何か大事な用事があるんだって
+Must have something\nmore important to do.
+<$00>
+
+// PTR : 0000220C
+#WRITE(PTR, $00002224)
+//そう…
+Really...
+<$00>
+
+// PTR : 000022B4
+#WRITE(PTR, $0000234C)
+//やっぱり、帰るわ
+I guess I'll go home.
+<$00>
+
+// PTR : 000022C8
+#WRITE(PTR, $00002350)
+//食事のしたくを\nしないといけないし
+I have to go help with supper.
+<$00>
+
+// PTR : 000022EC
+#WRITE(PTR, $00002354)
+//え？　エミィが食事のしたく？
+Wow, you're cooking at home?
+<$00>
+
+// PTR : 0000230C
+#WRITE(PTR, $00002358)
+//…母さんがもう、引っ越したから
+...Yeah. Mom moved already.
+<$00>
+
+// PTR : 00000344
+#WRITE(PTR, $00000354)
+#WRITE(PTR, $00002170)
+#WRITE(PTR, $0000235C)
+……
+<$00>
+
+// PTR : 0000232C
+#WRITE(PTR, $00002360)
+//…そうなんだ
+...That's right.
+<$00>
+
+// PTR : 0000233C
+#WRITE(PTR, $00002364)
+//下まで送るわ
+I can walk you out!
+<$00>
+
+#VAR(PTR1, CUSTOMPOINTER)
+#CREATEPTR(PTR1, "LINEAR", -2148236152, 32)
+// PTR : 00000388
+#WLB(PTR1, $000040B0)
+#WHB(PTR1, $000040B1)
+#WBB(PTR1, $000040AC)
+#WUB(PTR1, $000040AD)
+//じゃあ、また明日
+See you tomorrow!
+<$00>
+
+// PTR : 0000039C
+#WLB(PTR1, $000040BC)
+#WHB(PTR1, $000040BD)
+#WBB(PTR1, $000040B8)
+#WUB(PTR1, $000040B9)
+//さてと
+Whew.
+<$00>
+
+// PTR : 000003A4
+#WLB(PTR1, $000043DC)
+#WHB(PTR1, $000043DD)
+#WBB(PTR1, $000043D8)
+#WUB(PTR1, $000043D9)
+//エミィが帰った後。\n机の上に転がるプレゼント。
+Emmy left her\npresent on the desk.
+<$00>
+
+// PTR : 000003D4
+#WLB(PTR1, $000044BC)
+#WHB(PTR1, $000044BD)
+#WBB(PTR1, $000044B8)
+#WUB(PTR1, $000044B9)
+//エミィがプレゼントをくれるなんて…
+Emmy gave me a present.
+<$00>
+
+// PTR : 00000410
+#WLB(PTR1, $000048AC)
+#WHB(PTR1, $000048AD)
+#WBB(PTR1, $000048A8)
+#WUB(PTR1, $000048A9)
+//うわぁっ！
+Wow!
+<$00>
+
+#VAR(PTR2, CUSTOMPOINTER)
+#CREATEPTR(PTR2, "LINEAR", -2148301688, 32)
+// PTR : 00000624
+#WLB(PTR2, $00005078)
+#WHB(PTR2, $00005079)
+#WBB(PTR2, $00005074)
+#WUB(PTR2, $00005075)
+//８歳だったアディが
+It was the night
+<$00>
+
+// PTR : 00000638
+#WLB(PTR2, $00005084)
+#WHB(PTR2, $00005085)
+#WBB(PTR2, $00005080)
+#WUB(PTR2, $00005081)
+//９回目の誕生日をむかえた日のこと
+of Addie's 9th birthday.
+<$00>
+
+// PTR : 00000AA8
+#WLB(PTR2, $00005A6C)
+#WHB(PTR2, $00005A6D)
+#WBB(PTR2, $00005A68)
+#WUB(PTR2, $00005A69)
+//これがログロックの説明書ね
+This is the Loglock manual!
+<$00>
+
+// PTR : 00000C10
+#WLB(PTR2, $00005E40)
+#WHB(PTR2, $00005E41)
+#WBB(PTR2, $00005E3C)
+#WUB(PTR2, $00005E3D)
+//ああ、それ？
+What's this?
+<$00>
+
+// PTR : 00000C20
+#WLB(PTR2, $00005E4C)
+#WHB(PTR2, $00005E4D)
+#WBB(PTR2, $00005E48)
+#WUB(PTR2, $00005E49)
+//ログロックの説明書よ
+It's a loglock manual!
+<$00>
+
+// PTR : 00000C38
+#WLB(PTR2, $00005FB0)
+#WHB(PTR2, $00005FB1)
+#WBB(PTR2, $00005FAC)
+#WUB(PTR2, $00005FAD)
+//はやくログロックで遊びたいのは\nわかるけど、
+I'm sure you want\nto play now,
+<$00>
+
+// PTR : 00000C64
+#WLB(PTR2, $00005FBC)
+#WHB(PTR2, $00005FBD)
+#WBB(PTR2, $00005FB8)
+#WUB(PTR2, $00005FB9)
+//わたしが帰ってからでもいいでしょ？
+but after I leave, okay?
+<$00>
+
+// PTR : 00000CA4
+#WLB(PTR2, $00006184)
+#WHB(PTR2, $00006185)
+#WBB(PTR2, $00006180)
+#WUB(PTR2, $00006181)
+//あ、エミィに本を返さなきゃ
+Ah! I have books\nto return to Emmy.
+<$00>
+
+// PTR : 00000CC0
+#WLB(PTR2, $00006210)
+#WHB(PTR2, $00006211)
+#WBB(PTR2, $0000620C)
+#WUB(PTR2, $0000620D)
+//…明日でいいか
+Maybe tomorrow?
+<$00>
+
+// PTR : 00000CD0
+#WLB(PTR2, $000062E0)
+#WHB(PTR2, $000062E1)
+#WBB(PTR2, $000062DC)
+#WUB(PTR2, $000062DD)
+//…ちょっとだけログロック
+Actually...
+<$00>
+
+// PTR : 00000CEC
+#WLB(PTR2, $000062EC)
+#WHB(PTR2, $000062ED)
+#WBB(PTR2, $000062E8)
+#WUB(PTR2, $000062E9)
+//やってみようかな
+Let's try the loglock\nout a little.
+<$00>
+
+// PTR : 00000D00
+#WLB(PTR2, $00006314)
+#WHB(PTR2, $00006315)
+#WBB(PTR2, $00006310)
+#WUB(PTR2, $00006311)
+//…なんかくやしいなあ
+How vexing!
+<$00>
+
+// PTR : 00000D18
+#WLB(PTR2, $00006320)
+#WHB(PTR2, $00006321)
+#WBB(PTR2, $0000631C)
+#WUB(PTR2, $0000631D)
+//もう少し、やってみよう
+Let's try some more.
+<$00>
+
+// PTR : 00000D58
+#WLB(PTR2, $00006560)
+#WHB(PTR2, $00006561)
+#WBB(PTR2, $0000655C)
+#WUB(PTR2, $0000655D)
+//アディが誕生日を迎えた夜。\n近所に住むエミィの訪問。
+On the night of Addie's\nbirthday, Emmy visits.
+<$00>
+
+// PTR : 00000D8C
+#WLB(PTR2, $00006620)
+#WHB(PTR2, $00006621)
+#WBB(PTR2, $0000661C)
+#WUB(PTR2, $0000661D)
+//こんな夜遅くにエミィが？\n…どうしたのかしら
+Emmy, at this hour?\nWhat's going on?
+<$00>
+
+// PTR : 00000DC4
+#WLB(PTR2, $00006CA0)
+#WHB(PTR2, $00006CA1)
+#WBB(PTR2, $00006C9C)
+#WUB(PTR2, $00006C9D)
+//アディの部屋・入口
+Addie's Room Entrance
+<$00>
+
+// PTR : 00000E1C
+#WLB(PTR2, $00007748)
+#WHB(PTR2, $00007749)
+#WBB(PTR2, $00007744)
+#WUB(PTR2, $00007745)
+//その夜
+That night...
+<$00>
+
+// PTR : 00000E24
+#WLB(PTR2, $00007754)
+#WHB(PTR2, $00007755)
+#WBB(PTR2, $00007750)
+#WUB(PTR2, $00007751)
+//アディはおかしな夢を見ました
+Addie had a\nstrange dream.
+<$00>
+
+// PTR : 00001F14
+#WLB(PTR2, $00009208)
+#WHB(PTR2, $00009209)
+#WBB(PTR2, $00009204)
+#WUB(PTR2, $00009205)
+//さて
+Well!
+<$00>
+
+// PTR : 00001F98
+#WLB(PTR2, $00009784)
+#WHB(PTR2, $00009785)
+#WBB(PTR2, $00009780)
+#WUB(PTR2, $00009781)
+//ふう…。\nちょっと、休憩
+Hmph, maybe a\nbreak will help.
+<$00>
+
+// PTR : 00001FF4
+#WLB(PTR2, $00009BB8)
+#WHB(PTR2, $00009BB9)
+#WBB(PTR2, $00009BB4)
+#WUB(PTR2, $00009BB5)
+//説明書はどこだっけ…
+Where's the\nmanual...?
+<$00>
+
+// PTR : 0000200C
+#WLB(PTR2, $00009CC4)
+#WHB(PTR2, $00009CC5)
+#WBB(PTR2, $00009CC0)
+#WUB(PTR2, $00009CC1)
+//それ、結構よくできたパズルよ
+That was a\npretty good puzzle!
+<$00>
+
+// PTR : 0000202C
+#WLB(PTR2, $00009CD0)
+#WHB(PTR2, $00009CD1)
+#WBB(PTR2, $00009CCC)
+#WUB(PTR2, $00009CCD)
+//私はもう飽きちゃったけど
+Well, now\nI'm tired.
+<$00>
+
+// PTR : 00002048
+#WLB(PTR2, $00009E60)
+#WHB(PTR2, $00009E61)
+#WBB(PTR2, $00009E5C)
+#WUB(PTR2, $00009E5D)
+//ねえ、お客さまが\n来てるっていうのに、
+How can someone\nplay with toys
+<$00>
+
+// PTR : 00002070
+#WLB(PTR2, $00009E6C)
+#WHB(PTR2, $00009E6D)
+#WBB(PTR2, $00009E68)
+#WUB(PTR2, $00009E69)
+//おもちゃで遊ぶって、どうなの？
+when there are guests?
+<$00>
+
+// PTR : 00002100
+#WLB(PTR2, $0000A6F8)
+#WHB(PTR2, $0000A6F9)
+#WBB(PTR2, $0000A6F4)
+#WUB(PTR2, $0000A6F5)
+//アディの部屋・机
+Addie's Room Desk
+<$00>
+
+// PTR : 00002258
+#WLB(PTR2, $0000B418)
+#WHB(PTR2, $0000B419)
+#WBB(PTR2, $0000B414)
+#WUB(PTR2, $0000B415)
+//今日のあなた、なにか変よ
+You're acting strange today.
+<$00>
+
+// PTR : 00002274
+#WLB(PTR2, $0000B424)
+#WHB(PTR2, $0000B425)
+#WBB(PTR2, $0000B420)
+#WUB(PTR2, $0000B421)
+//…そうかもね
+...Perhaps.
+<$00>
+
+// PTR : 00000C88
+#WLB(PTR2, $0000C67C)
+#WHB(PTR2, $0000C67D)
+#WBB(PTR2, $0000C678)
+#WUB(PTR2, $0000C679)
+//…ちょっとしおれてきたかも
+The plant's wilting some.
+<$00>
+
+// PTR : 00002090
+#WLB(PTR2, $0000CA28)
+#WHB(PTR2, $0000CA29)
+#WBB(PTR2, $0000CA24)
+#WUB(PTR2, $0000CA25)
+//モーゼ、今日は来そうにないわね\nもうこんなに遅いし
+It's so late, I doubt\nMoze will stop by.
+<$00>
+
+// PTR : 000020C4
+#WLB(PTR2, $0000CAA8)
+#WHB(PTR2, $0000CAA9)
+#WBB(PTR2, $0000CAA4)
+#WUB(PTR2, $0000CAA5)
+//やっぱり、寝る前にちょっと…
+It's almost time for bed.
+<$00>
+
+#VAR(PTR3, CUSTOMPOINTER)
+#CREATEPTR(PTR3, "LINEAR", -2148367224, 32)
+// PTR : 00000FD0
+#WLB(PTR3, $0000389C)
+#WHB(PTR3, $0000389D)
+#WBB(PTR3, $00003898)
+#WUB(PTR3, $00003899)
+//きりじゃ、かわいそうだからね…
+It's a shame\nI have to stop.
+<$00>
+

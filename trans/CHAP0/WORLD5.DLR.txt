@@ -1,0 +1,36 @@
+#VAR(Table, TABLE)
+#ADDTBL("sjis.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", -2148236152, 32)
+#JMP($00022250)
+
+// PTR : 000002DC
+#WRITE(PTR, $00000348)
+//“驚きのギミック”
+"Marvelous fine mechanism!"
+<$00>
+
+// PTR : 000002F0
+#WRITE(PTR, $0000034C)
+//“滑らかな操作感覚”
+"Extra-smooth playability!"
+<$00>
+// PTR : 00000308
+#WRITE(PTR, $00000350)
+//“パズルは歯ごたえ十分！”
+"The puzzle dazzles you!"
+<$00>
+
+// PTR : 00000324
+#WRITE(PTR, $00000354)
+//“ログロック！！”
+"Loglock!"
+<$00>
+
+// PTR : 00000338
+#WRITE(PTR, $00000358)
+//…欲しいなあ
+I want one too!
+<$00>
+

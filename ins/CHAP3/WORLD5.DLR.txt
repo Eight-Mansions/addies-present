@@ -1,0 +1,1135 @@
+#VAR(Table, TABLE)
+#ADDTBL("sjis.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", -2148236152, 32)
+#JMP($000257A2)
+
+// PTR : 00000978
+#WRITE(PTR, $000009B4)
+{start}
+あら、白紙
+<$00>
+{end}
+
+// PTR : 00000984
+#WRITE(PTR, $000009B8)
+{start}
+さびしいなあ
+<$00>
+{end}
+
+// PTR : 00000994
+#WRITE(PTR, $000009BC)
+{start}
+そうだ、風景を描いちゃおう！
+<$00>
+{end}
+
+// PTR : 00000A44
+#WRITE(PTR, $00000AA0)
+{start}
+われながら、けっさくだわ
+<$00>
+{end}
+
+// PTR : 00000A60
+#WRITE(PTR, $00000AA4)
+{start}
+勝手に落書きされちゃ\n困るんだがね
+<$00>
+{end}
+
+// PTR : 00000A84
+#WRITE(PTR, $00000AA8)
+{start}
+…でも、なかなかいい絵だね
+<$00>
+{end}
+
+// PTR : 00000BB8
+#WRITE(PTR, $00000C34)
+{start}
+ねえ、いいかげん\nジョーカのこと、教えてくれない
+<$00>
+{end}
+
+// PTR : 00000BE8
+#WRITE(PTR, $00000C38)
+{start}
+もう、せっかちね
+<$00>
+{end}
+
+// PTR : 00000BFC
+#WRITE(PTR, $00000C3C)
+{start}
+いいわ、そろそろ出ましょ
+<$00>
+{end}
+
+// PTR : 00000C18
+#WRITE(PTR, $00000C40)
+{start}
+お茶でもごちそうして頂戴
+<$00>
+{end}
+
+// PTR : 00000CA8
+#WRITE(PTR, $00000D00)
+{start}
+ねえ
+<$00>
+{end}
+
+// PTR : 00000CB0
+#WRITE(PTR, $00000D04)
+{start}
+このまっくろな絵のどこがいいの
+<$00>
+{end}
+
+// PTR : 00000CD0
+#WRITE(PTR, $00000D08)
+{start}
+あなたが芸術オンチなのは
+<$00>
+{end}
+
+// PTR : 00000CEC
+#WRITE(PTR, $00000D0C)
+{start}
+よく分かったわ
+<$00>
+{end}
+
+// PTR : 00000CFC
+#WRITE(PTR, $00000D10)
+{start}
+…
+<$00>
+{end}
+
+// PTR : 00000D28
+#WRITE(PTR, $00000E50)
+{start}
+“第四小節”
+<$00>
+{end}
+
+// PTR : 00000DE0
+#WRITE(PTR, $00000E54)
+{start}
+この絵なんだがね
+<$00>
+{end}
+
+// PTR : 00000DF4
+#WRITE(PTR, $00000E58)
+{start}
+どうも私には何が描いてあるか\n分からないんだ
+<$00>
+{end}
+
+// PTR : 00000E20
+#WRITE(PTR, $00000E5C)
+{start}
+目が悪くなってきたのかな
+<$00>
+{end}
+
+// PTR : 00000E3C
+#WRITE(PTR, $00000E60)
+{start}
+時計、持ってる？
+<$00>
+{end}
+
+// PTR : 000012C8
+#WRITE(PTR, $00001358)
+{start}
+これじゃ通れないわ。近道なのに
+<$00>
+{end}
+
+// PTR : 000012E8
+#WRITE(PTR, $0000135C)
+{start}
+近道があるってことは\n回り道もあるんじゃない
+<$00>
+{end}
+
+// PTR : 00001314
+#WRITE(PTR, $00001360)
+{start}
+…見てみたいのよ
+<$00>
+{end}
+
+// PTR : 00001328
+#WRITE(PTR, $00001364)
+{start}
+え？　何を？
+<$00>
+{end}
+
+// PTR : 00001338
+#WRITE(PTR, $00001368)
+{start}
+使えるんでしょ？　ログロックを
+<$00>
+{end}
+
+// PTR : 000014A4
+#WRITE(PTR, $000018C8)
+{start}
+何してるの？ジョーカ
+<$00>
+{end}
+
+// PTR : 000014BC
+#WRITE(PTR, $000018CC)
+{start}
+君はそっちを探してよ
+<$00>
+{end}
+
+// PTR : 000014D4
+#WRITE(PTR, $000018D0)
+{start}
+何を？
+<$00>
+{end}
+
+// PTR : 000014DC
+#WRITE(PTR, $000018D4)
+{start}
+これっくらいの銀の歯車
+<$00>
+{end}
+
+// PTR : 000014F4
+#WRITE(PTR, $000018D8)
+{start}
+ずいぶんと、おおざっぱね
+<$00>
+{end}
+
+// PTR : 00001510
+#WRITE(PTR, $000018DC)
+{start}
+あ、この歯車かしら
+<$00>
+{end}
+
+// PTR : 00001524
+#WRITE(PTR, $000018E0)
+{start}
+きゃあ！
+<$00>
+{end}
+
+// PTR : 00001530
+#WRITE(PTR, $000018E4)
+{start}
+銀の歯車は、ここにはないぞ
+<$00>
+{end}
+
+// PTR : 0000154C
+#WRITE(PTR, $000018E8)
+{start}
+ズー！
+<$00>
+{end}
+
+// PTR : 00001554
+#WRITE(PTR, $000018EC)
+{start}
+ジョーカ！
+<$00>
+{end}
+
+// PTR : 00001560
+#WRITE(PTR, $000018F0)
+{start}
+もう逃がさんぞ！
+<$00>
+{end}
+
+// PTR : 00001574
+#WRITE(PTR, $000018F4)
+{start}
+アディ！
+<$00>
+{end}
+
+// PTR : 00001580
+#WRITE(PTR, $000018F8)
+{start}
+あとは任せたぞ！
+<$00>
+{end}
+
+// PTR : 00001594
+#WRITE(PTR, $000018FC)
+{start}
+こらっ！待たんか！
+<$00>
+{end}
+
+// PTR : 000015A8
+#WRITE(PTR, $00001900)
+{start}
+ほう…
+<$00>
+{end}
+
+// PTR : 000015B0
+#WRITE(PTR, $00001904)
+{start}
+するとお前さんは、
+<$00>
+{end}
+
+// PTR : 000015C4
+#WRITE(PTR, $00001908)
+{start}
+あの小僧を逃がしておきながら、
+<$00>
+{end}
+
+// PTR : 000015E4
+#WRITE(PTR, $0000190C)
+{start}
+奴とはなんの関係もないと\n言いはるんじゃな？
+<$00>
+{end}
+
+// PTR : 00001610
+#WRITE(PTR, $00001910)
+{start}
+ん～、関係あるような…
+<$00>
+{end}
+
+// PTR : 00001628
+#WRITE(PTR, $00001914)
+{start}
+関係ないような…
+<$00>
+{end}
+
+// PTR : 0000163C
+#WRITE(PTR, $00001918)
+{start}
+はっきりせんかぁっ！
+<$00>
+{end}
+
+// PTR : 00001654
+#WRITE(PTR, $0000191C)
+{start}
+近頃、奇怪なことばかり起きとって
+<$00>
+{end}
+
+// PTR : 00001678
+#WRITE(PTR, $00001920)
+{start}
+ただでさえイライラしとるんじゃ！
+<$00>
+{end}
+
+// PTR : 0000169C
+#WRITE(PTR, $00001924)
+{start}
+洗濯屋組合と図書館の連中が
+<$00>
+{end}
+
+// PTR : 000016B8
+#WRITE(PTR, $00001928)
+{start}
+少しは静かになった矢先に…
+<$00>
+{end}
+
+// PTR : 000016D4
+#WRITE(PTR, $0000192C)
+{start}
+あの小僧も、お前さんも
+<$00>
+{end}
+
+// PTR : 000016EC
+#WRITE(PTR, $00001930)
+{start}
+いったい何者なんじゃ？
+<$00>
+{end}
+
+// PTR : 00001704
+#WRITE(PTR, $00001934)
+{start}
+わたしはアディよ
+<$00>
+{end}
+
+// PTR : 00001718
+#WRITE(PTR, $00001938)
+{start}
+…名前なんぞ聞いとらんよ。
+<$00>
+{end}
+
+// PTR : 00001734
+#WRITE(PTR, $0000193C)
+{start}
+まぁいい\nアディ…
+<$00>
+{end}
+
+// PTR : 00001748
+#WRITE(PTR, $00001940)
+{start}
+結局、お前さんがあの小僧を\n鐘楼から逃がしたんじゃな？
+<$00>
+{end}
+
+// PTR : 00001780
+#WRITE(PTR, $00001944)
+{start}
+…うん
+<$00>
+{end}
+
+// PTR : 00001788
+#WRITE(PTR, $00001948)
+{start}
+ならば、わしに協力せい
+<$00>
+{end}
+
+// PTR : 000017A0
+#WRITE(PTR, $0000194C)
+{start}
+わが一族に代々つたわる
+<$00>
+{end}
+
+// PTR : 000017B8
+#WRITE(PTR, $00001950)
+{start}
+大小２枚の銀の歯車…
+<$00>
+{end}
+
+// PTR : 000017D0
+#WRITE(PTR, $00001954)
+{start}
+銀の歯車？
+<$00>
+{end}
+
+// PTR : 000017DC
+#WRITE(PTR, $00001958)
+{start}
+そのうちの片方を、
+<$00>
+{end}
+
+// PTR : 000017F0
+#WRITE(PTR, $0000195C)
+{start}
+あ奴めが奪っていったんじゃ！
+<$00>
+{end}
+
+// PTR : 00001810
+#WRITE(PTR, $00001960)
+{start}
+だからジョーカを閉じこめたの？
+<$00>
+{end}
+
+// PTR : 00001830
+#WRITE(PTR, $00001964)
+{start}
+話の腰を折るな…
+<$00>
+{end}
+
+// PTR : 00001844
+#WRITE(PTR, $00001968)
+{start}
+とにかくお前さんは、
+<$00>
+{end}
+
+// PTR : 0000185C
+#WRITE(PTR, $0000196C)
+{start}
+一刻も早くあ奴を見つけるんじゃ
+<$00>
+{end}
+
+// PTR : 0000187C
+#WRITE(PTR, $00001970)
+{start}
+そして見つけしだい\nすぐに知らせてくれぃ
+<$00>
+{end}
+
+// PTR : 000018A4
+#WRITE(PTR, $00001974)
+{start}
+…よもや、
+<$00>
+{end}
+
+// PTR : 000018B0
+#WRITE(PTR, $00001978)
+{start}
+いやとは言うまいな？
+<$00>
+{end}
+
+// PTR : 00000724
+#WRITE(PTR, $0002562C)
+{start}
+あの、イライザ？さっき\nジョーカの妹だっていってたけど
+<$00>
+{end}
+
+// PTR : 00000700
+#WRITE(PTR, $00025630)
+{start}
+心配しなくてもいいわ。本当だから
+<$00>
+{end}
+
+// PTR : 000006DC
+#WRITE(PTR, $00025634)
+{start}
+あなたって、見かけによらないのね
+<$00>
+{end}
+
+// PTR : 000006CC
+#WRITE(PTR, $00025638)
+{start}
+なんのこと？
+<$00>
+{end}
+
+// PTR : 000006A0
+#WRITE(PTR, $0002563C)
+{start}
+こんな所まで追いかけてくるなんて\n情熱的よね
+<$00>
+{end}
+
+// PTR : 00000698
+#WRITE(PTR, $00025640)
+{start}
+……
+<$00>
+{end}
+
+// PTR : 00000678
+#WRITE(PTR, $00025644)
+{start}
+あなた、なにか勘違いしてない？
+<$00>
+{end}
+
+// PTR : 0000065C
+#WRITE(PTR, $00025648)
+{start}
+いいのよ、ごまかさなくても
+<$00>
+{end}
+
+// PTR : 00000640
+#WRITE(PTR, $0002564C)
+{start}
+ねえ、ここに何しにきたの？
+<$00>
+{end}
+
+// PTR : 00000620
+#WRITE(PTR, $00025650)
+{start}
+ちょっと絵が見たくなったのよ
+<$00>
+{end}
+
+// PTR : 00000604
+#WRITE(PTR, $00025654)
+{start}
+あなたって、自分勝手な人ね
+<$00>
+{end}
+
+// PTR : 000005F4
+#WRITE(PTR, $00025658)
+{start}
+よく言われるわ
+<$00>
+{end}
+
+// PTR : 000005C4
+#WRITE(PTR, $0002565C)
+{start}
+あなたって、人違いするくせが\nあるんですってね
+<$00>
+{end}
+
+// PTR : 000005B0
+#WRITE(PTR, $00025660)
+{start}
+だれに聞いたの？
+<$00>
+{end}
+
+// PTR : 00000574
+#WRITE(PTR, $00025664)
+{start}
+ジョーカがモーゼで、私がエミィ？\nよく似た兄妹がいたものね
+<$00>
+{end}
+
+// PTR : 00000560
+#WRITE(PTR, $00025668)
+{start}
+あいつに聞いたのね
+<$00>
+{end}
+
+// PTR : 00000540
+#WRITE(PTR, $0002566C)
+{start}
+さあ、そろそろ奥に進みましょ
+<$00>
+{end}
+
+// PTR : 00000530
+#WRITE(PTR, $00025674)
+{start}
+奥に進みましょ
+<$00>
+{end}
+
+#VAR(PTR1, CUSTOMPOINTER)
+#CREATEPTR(PTR1, "LINEAR", -2148236152, 32)
+// PTR : 00000A6C
+#WLB(PTR1, $000031A4)
+#WHB(PTR1, $000031A5)
+#WBB(PTR1, $000031A0)
+#WUB(PTR1, $000031A1)
+{start}
+されちゃ\n困るんだがね
+<$00>
+{end}
+
+// PTR : 00000310
+#WLB(PTR1, $00003910)
+#WHB(PTR1, $00003911)
+#WBB(PTR1, $0000390C)
+#WUB(PTR1, $0000390D)
+{start}
+ここって…
+<$00>
+{end}
+
+// PTR : 0000031C
+#WLB(PTR1, $00003920)
+#WHB(PTR1, $00003921)
+#WBB(PTR1, $0000391C)
+#WUB(PTR1, $0000391D)
+{start}
+美術館よ。そんなことも知らないの
+<$00>
+{end}
+
+// PTR : 00000340
+#WLB(PTR1, $000039BC)
+#WHB(PTR1, $000039BD)
+#WBB(PTR1, $000039B8)
+#WUB(PTR1, $000039B9)
+{start}
+なぜ、ここに？
+<$00>
+{end}
+
+// PTR : 00000350
+#WLB(PTR1, $000039CC)
+#WHB(PTR1, $000039CD)
+#WBB(PTR1, $000039C8)
+#WUB(PTR1, $000039C9)
+{start}
+教えてあげない
+<$00>
+{end}
+
+// PTR : 00000360
+#WLB(PTR1, $00003C4C)
+#WHB(PTR1, $00003C4D)
+#WBB(PTR1, $00003C48)
+#WUB(PTR1, $00003C49)
+{start}
+…冗談よ
+<$00>
+{end}
+
+// PTR : 0000036C
+#WLB(PTR1, $00003CD8)
+#WHB(PTR1, $00003CD9)
+#WBB(PTR1, $00003CD4)
+#WUB(PTR1, $00003CD5)
+{start}
+イライザに美術館を\n案内してもらうアディ。
+<$00>
+{end}
+
+// PTR : 00000398
+#WLB(PTR1, $00003DA8)
+#WHB(PTR1, $00003DA9)
+#WBB(PTR1, $00003DA4)
+#WUB(PTR1, $00003DA5)
+{start}
+ちょっと強引なところも\nエミィに似てる気がするわ
+<$00>
+{end}
+
+// PTR : 000003C8
+#WLB(PTR1, $00003E80)
+#WHB(PTR1, $00003E81)
+#WBB(PTR1, $00003E7C)
+#WUB(PTR1, $00003E7D)
+{start}
+こんなところで\nぼやぼやしてるつもり？
+<$00>
+{end}
+
+// PTR : 0000043C
+#WLB(PTR1, $00004158)
+#WHB(PTR1, $00004159)
+#WBB(PTR1, $00004154)
+#WUB(PTR1, $00004155)
+{start}
+“設計図”
+<$00>
+{end}
+
+// PTR : 00000460
+#WLB(PTR1, $00004348)
+#WHB(PTR1, $00004349)
+#WBB(PTR1, $00004344)
+#WUB(PTR1, $00004345)
+{start}
+ちょっと、どこへ行くの？
+<$00>
+{end}
+
+// PTR : 0000047C
+#WLB(PTR1, $00004350)
+#WHB(PTR1, $00004351)
+#WBB(PTR1, $0000434C)
+#WUB(PTR1, $0000434D)
+{start}
+わたしに聞くことが\nあるんじゃなかった？
+<$00>
+{end}
+
+#VAR(PTR2, CUSTOMPOINTER)
+#CREATEPTR(PTR2, "LINEAR", -2148301688, 32)
+// PTR : 000004B0
+#WLB(PTR2, $00004930)
+#WHB(PTR2, $00004931)
+#WBB(PTR2, $0000492C)
+#WUB(PTR2, $0000492D)
+{start}
+美術館・ロビー
+<$00>
+{end}
+
+// PTR : 0000075C
+#WLB(PTR2, $00004DD8)
+#WHB(PTR2, $00004DD9)
+#WBB(PTR2, $00004DD4)
+#WUB(PTR2, $00004DD5)
+{start}
+もっと奥へ行こうよ
+<$00>
+{end}
+
+// PTR : 00000790
+#WLB(PTR2, $00005084)
+#WHB(PTR2, $00005085)
+#WBB(PTR2, $00005080)
+#WUB(PTR2, $00005081)
+{start}
+あなたにこの芸術が分かる？
+<$00>
+{end}
+
+// PTR : 00000808
+#WLB(PTR2, $0000562C)
+#WHB(PTR2, $0000562D)
+#WBB(PTR2, $00005628)
+#WUB(PTR2, $00005629)
+{start}
+美術館・彫刻展示室
+<$00>
+{end}
+
+// PTR : 0000081C
+#WLB(PTR2, $000059D4)
+#WHB(PTR2, $000059D5)
+#WBB(PTR2, $000059D0)
+#WUB(PTR2, $000059D1)
+{start}
+もう少し奥へ行かない？
+<$00>
+{end}
+
+// PTR : 0000085C
+#WLB(PTR2, $00005CFC)
+#WHB(PTR2, $00005CFD)
+#WBB(PTR2, $00005CF8)
+#WUB(PTR2, $00005CF9)
+{start}
+“第一小節”
+<$00>
+{end}
+
+// PTR : 00000884
+#WLB(PTR2, $00005F00)
+#WHB(PTR2, $00005F01)
+#WBB(PTR2, $00005EFC)
+#WUB(PTR2, $00005EFD)
+{start}
+“第二小節”
+<$00>
+{end}
+
+// PTR : 000008AC
+#WLB(PTR2, $00006104)
+#WHB(PTR2, $00006105)
+#WBB(PTR2, $00006100)
+#WUB(PTR2, $00006101)
+{start}
+“第三小節”
+<$00>
+{end}
+
+// PTR : 000008E8
+#WLB(PTR2, $00006EC4)
+#WHB(PTR2, $00006EC5)
+#WBB(PTR2, $00006EC0)
+#WUB(PTR2, $00006EC1)
+{start}
+落書きは困るが、なかなかいい絵だね
+<$00>
+{end}
+
+// PTR : 00000928
+#WLB(PTR2, $00006F58)
+#WHB(PTR2, $00006F59)
+#WBB(PTR2, $00006F54)
+#WUB(PTR2, $00006F55)
+{start}
+もうちょっと奥へ行ってみようよ
+<$00>
+{end}
+
+// PTR : 00000B38
+#WLB(PTR2, $00007E94)
+#WHB(PTR2, $00007E95)
+#WBB(PTR2, $00007E90)
+#WUB(PTR2, $00007E91)
+{start}
+美術館・絵画補修室
+<$00>
+{end}
+
+// PTR : 00000C54
+#WLB(PTR2, $00008A34)
+#WHB(PTR2, $00008A35)
+#WBB(PTR2, $00008A30)
+#WUB(PTR2, $00008A31)
+{start}
+この先におもしろいのがあるんだ
+<$00>
+{end}
+
+// PTR : 00000D50
+#WLB(PTR2, $000090CC)
+#WHB(PTR2, $000090CD)
+#WBB(PTR2, $000090C8)
+#WUB(PTR2, $000090C9)
+{start}
+ただの黒い画面が\nこんなに魅力的だったとは
+<$00>
+{end}
+
+// PTR : 00000D7C
+#WLB(PTR2, $000090DC)
+#WHB(PTR2, $000090DD)
+#WBB(PTR2, $000090D8)
+#WUB(PTR2, $000090D9)
+{start}
+知らなかったよ
+<$00>
+{end}
+
+// PTR : 00000D8C
+#WLB(PTR2, $00009140)
+#WHB(PTR2, $00009141)
+#WBB(PTR2, $0000913C)
+#WUB(PTR2, $0000913D)
+{start}
+そういうもんかしら…？
+<$00>
+{end}
+
+// PTR : 00000E8C
+#WLB(PTR2, $000094FC)
+#WHB(PTR2, $000094FD)
+#WBB(PTR2, $000094F8)
+#WUB(PTR2, $000094F9)
+{start}
+もう一度時計を貸して？
+<$00>
+{end}
+
+// PTR : 00000F70
+#WLB(PTR2, $00009790)
+#WHB(PTR2, $00009791)
+#WBB(PTR2, $0000978C)
+#WUB(PTR2, $0000978D)
+{start}
+どれ…？
+<$00>
+{end}
+
+// PTR : 00000F7C
+#WLB(PTR2, $000099F4)
+#WHB(PTR2, $000099F5)
+#WBB(PTR2, $000099F0)
+#WUB(PTR2, $000099F1)
+{start}
+ほう、よく見える
+<$00>
+{end}
+
+// PTR : 00000F90
+#WLB(PTR2, $00009A04)
+#WHB(PTR2, $00009A05)
+#WBB(PTR2, $00009A00)
+#WUB(PTR2, $00009A01)
+{start}
+…おじさん\nこの絵がなんだかわかるの？
+<$00>
+{end}
+
+// PTR : 00000FB8
+#WLB(PTR2, $00009A64)
+#WHB(PTR2, $00009A65)
+#WBB(PTR2, $00009A60)
+#WUB(PTR2, $00009A61)
+{start}
+いや、分からないよ
+<$00>
+{end}
+
+// PTR : 00000FCC
+#WLB(PTR2, $00009A74)
+#WHB(PTR2, $00009A75)
+#WBB(PTR2, $00009A70)
+#WUB(PTR2, $00009A71)
+{start}
+でも、時計もなくなったことだし\n時間を忘れてじっくり考えるよ
+<$00>
+{end}
+
+// PTR : 00001008
+#WLB(PTR2, $00009AEC)
+#WHB(PTR2, $00009AED)
+#WBB(PTR2, $00009AE8)
+#WUB(PTR2, $00009AE9)
+{start}
+まあ、いいさ
+<$00>
+{end}
+
+// PTR : 00001018
+#WLB(PTR2, $00009AFC)
+#WHB(PTR2, $00009AFD)
+#WBB(PTR2, $00009AF8)
+#WUB(PTR2, $00009AF9)
+{start}
+その気持ちだけでも嬉しいよ\nありがとう
+<$00>
+{end}
+
+// PTR : 00000D28
+#WLB(PTR2, $00008F54)
+#WHB(PTR2, $00008F55)
+#WBB(PTR2, $00008F50)
+#WUB(PTR2, $00008F51)
+#WLB(PTR2, $00009DC8)
+#WHB(PTR2, $00009DC9)
+#WBB(PTR2, $00009DC4)
+#WUB(PTR2, $00009DC5)
+{start}
+“第四小節”
+<$00>
+{end}
+
+// PTR : 000008D4
+#WLB(PTR2, $00006A10)
+#WHB(PTR2, $00006A11)
+#WBB(PTR2, $00006A0C)
+#WUB(PTR2, $00006A0D)
+#WLB(PTR2, $0000A720)
+#WHB(PTR2, $0000A721)
+#WBB(PTR2, $0000A71C)
+#WUB(PTR2, $0000A71D)
+{start}
+美術館・絵画展示室
+<$00>
+{end}
+
+// PTR : 00001188
+#WLB(PTR2, $0000AD48)
+#WHB(PTR2, $0000AD49)
+#WBB(PTR2, $0000AD44)
+#WUB(PTR2, $0000AD45)
+{start}
+へえ…面白いのね
+<$00>
+{end}
+
+// PTR : 0000119C
+#WLB(PTR2, $0000ADDC)
+#WHB(PTR2, $0000ADDD)
+#WBB(PTR2, $0000ADD8)
+#WUB(PTR2, $0000ADD9)
+{start}
+いきましょ。喉がかわいちゃったわ
+<$00>
+{end}
+
+// PTR : 000011C0
+#WLB(PTR2, $0000AE88)
+#WHB(PTR2, $0000AE89)
+#WBB(PTR2, $0000AE84)
+#WUB(PTR2, $0000AE85)
+{start}
+だめね
+<$00>
+{end}
+
+// PTR : 000011C8
+#WLB(PTR2, $0000AEEC)
+#WHB(PTR2, $0000AEED)
+#WBB(PTR2, $0000AEE8)
+#WUB(PTR2, $0000AEE9)
+{start}
+はやくお茶にしたいのに
+<$00>
+{end}
+
+// PTR : 000011E0
+#WLB(PTR2, $0000AF80)
+#WHB(PTR2, $0000AF81)
+#WBB(PTR2, $0000AF7C)
+#WUB(PTR2, $0000AF7D)
+{start}
+そんなに難しいものなの？
+<$00>
+{end}
+
+// PTR : 000011FC
+#WLB(PTR2, $0000AFD4)
+#WHB(PTR2, $0000AFD5)
+#WBB(PTR2, $0000AFD0)
+#WUB(PTR2, $0000AFD1)
+{start}
+ジョーカ兄さんに聞いたのと違うわ
+<$00>
+{end}
+
+// PTR : 0000123C
+#WLB(PTR2, $0000B4AC)
+#WHB(PTR2, $0000B4AD)
+#WBB(PTR2, $0000B4A8)
+#WUB(PTR2, $0000B4A9)
+{start}
+なんだかホコリっぽいわね
+<$00>
+{end}
+
+// PTR : 00001258
+#WLB(PTR2, $0000B520)
+#WHB(PTR2, $0000B521)
+#WBB(PTR2, $0000B51C)
+#WUB(PTR2, $0000B51D)
+{start}
+ジョーカを探すことを条件に、\nズーはアディを解放する。
+<$00>
+{end}
+
+// PTR : 00001290
+#WLB(PTR2, $0000B5E4)
+#WHB(PTR2, $0000B5E5)
+#WBB(PTR2, $0000B5E0)
+#WUB(PTR2, $0000B5E1)
+{start}
+たぶん、ジョーカは街の中よね
+<$00>
+{end}
+
+// PTR : 00001380
+#WLB(PTR2, $0000BD4C)
+#WHB(PTR2, $0000BD4D)
+#WBB(PTR2, $0000BD48)
+#WUB(PTR2, $0000BD49)
+{start}
+早くしないと\nお茶のおいしい時間が過ぎちゃうわ
+<$00>
+{end}
+
+// PTR : 00002218
+#WLB(PTR2, $0000D634)
+#WHB(PTR2, $0000D635)
+#WBB(PTR2, $0000D630)
+#WUB(PTR2, $0000D631)
+{start}
+美術館・倉庫
+<$00>
+{end}
+
+// PTR : 000021BC
+#WLB(PTR2, $0000F738)
+#WHB(PTR2, $0000F739)
+#WBB(PTR2, $0000F734)
+#WUB(PTR2, $0000F735)
+{start}
+さあ、早く片づけてみせて
+<$00>
+{end}
+
+// PTR : 000021D8
+#WLB(PTR2, $0000F788)
+#WHB(PTR2, $0000F789)
+#WBB(PTR2, $0000F784)
+#WUB(PTR2, $0000F785)
+{start}
+これは、銀の歯車じゃ\nないってわけよね…
+<$00>
+{end}
+
