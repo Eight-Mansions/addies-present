@@ -107,3 +107,30 @@ int GetLetterWidth(const u32 letter)
 		return 0x0F;
 	}
 }
+
+int GetSentenceWidth(const char* text, int length)
+{
+	int textWidth = 0;
+	for (int i = 0; i < length; i++) // There is also a check for <$09> but not sure what that does... maybe breaks too?
+	{
+		int letter = 0;
+		if (text[i] > 0x80)
+		{  letter = (text[i] << 0x8) + text[i + 1];
+			i++;
+		}
+		else
+		{
+			letter = text[i] + 0x824F;
+		}
+
+		textWidth += GetLetterWidth(letter);
+	}
+	return textWidth;
+}
+
+int GetYForCentering(const char* text, u32 length)
+{
+	u32 textwidth = GetSentenceWidth(text, length);
+
+	return (int)((256 >> 1) - (textwidth >> 1)); // 256 is the width of text box texture
+}
