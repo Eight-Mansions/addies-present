@@ -1,10 +1,10 @@
 orig\CHAP0\WORLD1.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 32 msecs
+Parsing summary: 31 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 470 msecs
+Insertion summary: 454 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -27,4 +27,657 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 262
 +------------------------------------------------------------------------------
 
-Execution time: 507 msecs
+Execution time: 489 msecs
+orig\CHAP0\WORLD2.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 10 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 412 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $46AC
+|   End: Line 269  File Position $492B
++------------------------------------------------------------------------------
+| Script size 639
+| Bytes Inserted 639
+|
+| Command Execution Listing
+|   CREATEPTR: 2
+|   WRITE: 12
+|   WUB: 19
+|   WBB: 19
+|   WHB: 19
+|   WLB: 19
+|
+| Pointer Listing
+|   General Pointers Written: 88
++------------------------------------------------------------------------------
+
+Execution time: 426 msecs
+orig\CHAP0\WORLD3.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 1 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 403 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $574C
+|   End: Line 35  File Position $5777
++------------------------------------------------------------------------------
+| Script size 43
+| Bytes Inserted 43
+|
+| Command Execution Listing
+|   CREATEPTR: 1
+|   WUB: 3
+|   WBB: 3
+|   WHB: 3
+|   WLB: 3
+|
+| Pointer Listing
+|   General Pointers Written: 12
++------------------------------------------------------------------------------
+
+Execution time: 410 msecs
+orig\CHAP0\WORLD5.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 2 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 410 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $22250
+|   End: Line 44  File Position $222B3
++------------------------------------------------------------------------------
+| Script size 99
+| Bytes Inserted 99
+|
+| Command Execution Listing
+|   WRITE: 5
+|
+| Pointer Listing
+|   General Pointers Written: 5
++------------------------------------------------------------------------------
+
+Execution time: 416 msecs
+orig\CHAP1\WORLD1.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 29 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 444 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $24C48
+|   End: Line 928  File Position $255C8
++------------------------------------------------------------------------------
+| Script size 2432
+| Bytes Inserted 2432
+|
+| Command Execution Listing
+|   CREATEPTR: 3
+|   WRITE: 71
+|   WUB: 47
+|   WBB: 47
+|   WHB: 47
+|   WLB: 47
+|
+| Pointer Listing
+|   General Pointers Written: 259
++------------------------------------------------------------------------------
+
+Execution time: 482 msecs
+orig\CHAP1\WORLD2.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 16 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 422 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $21FD2
+|   End: Line 543  File Position $225C1
++------------------------------------------------------------------------------
+| Script size 1519
+| Bytes Inserted 1519
+|
+| Command Execution Listing
+|   CREATEPTR: 2
+|   WRITE: 50
+|   WUB: 18
+|   WBB: 18
+|   WHB: 18
+|   WLB: 18
+|
+| Pointer Listing
+|   General Pointers Written: 122
++------------------------------------------------------------------------------
+
+Execution time: 442 msecs
+orig\CHAP1\WORLD3.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 66 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 474 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $246EE
+|   End: Line 2075  File Position $25F08
++------------------------------------------------------------------------------
+| Script size 6170
+| Bytes Inserted 6170
+|
+| Command Execution Listing
+|   CREATEPTR: 2
+|   WRITE: 124
+|   WUB: 132
+|   WBB: 132
+|   WHB: 132
+|   WLB: 132
+|
+| Pointer Listing
+|   General Pointers Written: 652
++------------------------------------------------------------------------------
+
+Execution time: 553 msecs
+orig\CHAP1\WORLD4.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 8 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 404 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $149EA
+|   End: Line 189  File Position $14B3C
++------------------------------------------------------------------------------
+| Script size 338
+| Bytes Inserted 338
+|
+| Command Execution Listing
+|   CREATEPTR: 2
+|   WUB: 20
+|   WBB: 20
+|   WHB: 20
+|   WLB: 20
+|
+| Pointer Listing
+|   General Pointers Written: 80
++------------------------------------------------------------------------------
+
+Execution time: 418 msecs
+orig\CHAP1\WORLD5.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 43 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 445 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $23A84
+|   End: Line 1378  File Position $24826
++------------------------------------------------------------------------------
+| Script size 3490
+| Bytes Inserted 3490
+|
+| Command Execution Listing
+|   CREATEPTR: 3
+|   WRITE: 105
+|   WUB: 76
+|   WBB: 76
+|   WHB: 76
+|   WLB: 76
+|
+| Pointer Listing
+|   General Pointers Written: 409
++------------------------------------------------------------------------------
+
+Execution time: 497 msecs
+orig\CHAP2\WORLD1.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 95 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 495 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $24FAC
+|   End: Line 2869  File Position $27301
++------------------------------------------------------------------------------
+| Script size 9045
+| Bytes Inserted 9045
+|
+| Command Execution Listing
+|   CREATEPTR: 2
+|   WRITE: 134
+|   WUB: 205
+|   WBB: 205
+|   WHB: 205
+|   WLB: 205
+|
+| Pointer Listing
+|   General Pointers Written: 954
++------------------------------------------------------------------------------
+
+Execution time: 602 msecs
+orig\CHAP2\WORLD2.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 52 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 454 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $24778
+|   End: Line 1680  File Position $25AAC
++------------------------------------------------------------------------------
+| Script size 4916
+| Bytes Inserted 4916
+|
+| Command Execution Listing
+|   CREATEPTR: 3
+|   WRITE: 115
+|   WUB: 92
+|   WBB: 92
+|   WHB: 92
+|   WLB: 92
+|
+| Pointer Listing
+|   General Pointers Written: 483
++------------------------------------------------------------------------------
+
+Execution time: 515 msecs
+orig\CHAP2\WORLD3.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 42 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 441 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $23C3E
+|   End: Line 1292  File Position $24C0E
++------------------------------------------------------------------------------
+| Script size 4048
+| Bytes Inserted 4048
+|
+| Command Execution Listing
+|   CREATEPTR: 3
+|   WRITE: 77
+|   WUB: 81
+|   WBB: 81
+|   WHB: 81
+|   WLB: 81
+|
+| Pointer Listing
+|   General Pointers Written: 401
++------------------------------------------------------------------------------
+
+Execution time: 493 msecs
+orig\CHAP2\WORLD4.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 63 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 467 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $24D48
+|   End: Line 2033  File Position $2662C
++------------------------------------------------------------------------------
+| Script size 6372
+| Bytes Inserted 6372
+|
+| Command Execution Listing
+|   CREATEPTR: 2
+|   WRITE: 138
+|   WUB: 112
+|   WBB: 112
+|   WHB: 112
+|   WLB: 112
+|
+| Pointer Listing
+|   General Pointers Written: 586
++------------------------------------------------------------------------------
+
+Execution time: 539 msecs
+orig\CHAP2\WORLD5.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 45 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 449 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $2495C
+|   End: Line 1447  File Position $25B40
++------------------------------------------------------------------------------
+| Script size 4580
+| Bytes Inserted 4580
+|
+| Command Execution Listing
+|   CREATEPTR: 3
+|   WRITE: 132
+|   WUB: 70
+|   WBB: 70
+|   WHB: 70
+|   WLB: 70
+|
+| Pointer Listing
+|   General Pointers Written: 412
++------------------------------------------------------------------------------
+
+Execution time: 504 msecs
+orig\CHAP2\WORLD6.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 16 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 413 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $1CB8C
+|   End: Line 470  File Position $1D1B5
++------------------------------------------------------------------------------
+| Script size 1577
+| Bytes Inserted 1577
+|
+| Command Execution Listing
+|   CREATEPTR: 2
+|   WRITE: 19
+|   WUB: 33
+|   WBB: 33
+|   WHB: 33
+|   WLB: 33
+|
+| Pointer Listing
+|   General Pointers Written: 151
++------------------------------------------------------------------------------
+
+Execution time: 433 msecs
+orig\CHAP2\WORLD7.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 5 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 401 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $21D86
+|   End: Line 158  File Position $21F77
++------------------------------------------------------------------------------
+| Script size 497
+| Bytes Inserted 497
+|
+| Command Execution Listing
+|   CREATEPTR: 1
+|   WRITE: 19
+|   WUB: 2
+|   WBB: 2
+|   WHB: 2
+|   WLB: 2
+|
+| Pointer Listing
+|   General Pointers Written: 27
++------------------------------------------------------------------------------
+
+Execution time: 410 msecs
+orig\CHAP2\WORLD8.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 4 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 402 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $21F86
+|   End: Line 154  File Position $22177
++------------------------------------------------------------------------------
+| Script size 497
+| Bytes Inserted 497
+|
+| Command Execution Listing
+|   CREATEPTR: 1
+|   WRITE: 19
+|   WUB: 1
+|   WBB: 1
+|   WHB: 1
+|   WLB: 1
+|
+| Pointer Listing
+|   General Pointers Written: 23
++------------------------------------------------------------------------------
+
+Execution time: 411 msecs
+orig\CHAP2\WORLD9.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 4 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 400 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $21DDA
+|   End: Line 154  File Position $21FCB
++------------------------------------------------------------------------------
+| Script size 497
+| Bytes Inserted 497
+|
+| Command Execution Listing
+|   CREATEPTR: 1
+|   WRITE: 19
+|   WUB: 1
+|   WBB: 1
+|   WHB: 1
+|   WLB: 1
+|
+| Pointer Listing
+|   General Pointers Written: 23
++------------------------------------------------------------------------------
+
+Execution time: 408 msecs
+orig\CHAP3\WORLD1.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 53 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 461 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $25858
+|   End: Line 1731  File Position $26D24
++------------------------------------------------------------------------------
+| Script size 5324
+| Bytes Inserted 5324
+|
+| Command Execution Listing
+|   CREATEPTR: 2
+|   WRITE: 112
+|   WUB: 97
+|   WBB: 97
+|   WHB: 97
+|   WLB: 97
+|
+| Pointer Listing
+|   General Pointers Written: 500
++------------------------------------------------------------------------------
+
+Execution time: 525 msecs
+orig\CHAP3\WORLD2.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 40 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 438 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $2504E
+|   End: Line 1204  File Position $25F5B
++------------------------------------------------------------------------------
+| Script size 3853
+| Bytes Inserted 3853
+|
+| Command Execution Listing
+|   CREATEPTR: 2
+|   WRITE: 51
+|   WUB: 90
+|   WBB: 90
+|   WHB: 90
+|   WLB: 90
+|
+| Pointer Listing
+|   General Pointers Written: 411
++------------------------------------------------------------------------------
+
+Execution time: 488 msecs
+orig\CHAP3\WORLD3.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 46 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 443 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $24D50
+|   End: Line 1357  File Position $25D9C
++------------------------------------------------------------------------------
+| Script size 4172
+| Bytes Inserted 4172
+|
+| Command Execution Listing
+|   CREATEPTR: 3
+|   WRITE: 48
+|   WUB: 109
+|   WBB: 109
+|   WHB: 109
+|   WLB: 109
+|
+| Pointer Listing
+|   General Pointers Written: 484
++------------------------------------------------------------------------------
+
+Execution time: 499 msecs
+orig\CHAP3\WORLD4.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 30 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 424 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $25916
+|   End: Line 934  File Position $265B8
++------------------------------------------------------------------------------
+| Script size 3234
+| Bytes Inserted 3234
+|
+| Command Execution Listing
+|   CREATEPTR: 2
+|   WRITE: 63
+|   WUB: 54
+|   WBB: 54
+|   WHB: 54
+|   WLB: 54
+|
+| Pointer Listing
+|   General Pointers Written: 279
++------------------------------------------------------------------------------
+
+Execution time: 464 msecs
+orig\CHAP3\WORLD5.DLR 
+Atlas 1.11 by Klarth
+
+Parsing summary: 33 msecs
+Parsing - 0 error(s), 0 warning(s)
+
+Insertion summary: 424 msecs
+Insertion - 0 error(s), 0 warning(s)
+
++------------------------------------------------------------------------------
+| Total
+|   Start: Line 6  File Position $257A2
+|   End: Line 1137  File Position $264BC
++------------------------------------------------------------------------------
+| Script size 3354
+| Bytes Inserted 3354
+|
+| Command Execution Listing
+|   CREATEPTR: 2
+|   WRITE: 88
+|   WUB: 52
+|   WBB: 52
+|   WHB: 52
+|   WLB: 52
+|
+| Pointer Listing
+|   General Pointers Written: 296
++------------------------------------------------------------------------------
+
+Execution time: 467 msecs
