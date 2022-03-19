@@ -108,12 +108,16 @@ int GetLetterWidth(const u32 letter)
 	}
 }
 
-int GetSentenceWidth(const char* text, int length)
+int GetSentenceWidth(const char* text, u32 length)
 {
 	int textWidth = 0;
 	for (int i = 0; i < length; i++) // There is also a check for <$09> but not sure what that does... maybe breaks too?
 	{
 		int letter = 0;
+		
+		if (text[i] == 0x0A || text[i] == 0x00)
+			break;
+
 		if (text[i] > 0x80)
 		{  letter = (text[i] << 0x8) + text[i + 1];
 			i++;

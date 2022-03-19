@@ -1,16 +1,16 @@
 orig\CHAP0\WORLD1.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 33 msecs
+Parsing summary: 32 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 454 msecs
+Insertion summary: 470 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $24A1E
-|   End: Line 1119  File Position $260C8
+|   End: Line 880  File Position $260C8
 +------------------------------------------------------------------------------
 | Script size 5802
 | Bytes Inserted 5802
@@ -27,4 +27,4 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 262
 +------------------------------------------------------------------------------
 
-Execution time: 493 msecs
+Execution time: 507 msecs
