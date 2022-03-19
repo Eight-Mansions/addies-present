@@ -93,26 +93,31 @@ I'll show you!
 // PTR : 00000A0C
 #WRITE(PTR, $00000A88)
 よ、最近よくうろついてる嬢ちゃん
+Yo, you've been loitering here a lot lately, young lady.
 <$00>
 
 // PTR : 00000A30
 #WRITE(PTR, $00000A8C)
 男でも探してんのかい？
+Ya searching for a man perhaps?
 <$00>
 
 // PTR : 00000A48
 #WRITE(PTR, $00000A90)
 うるさいわね！
+Ugh, buzz off!
 <$00>
 
 // PTR : 00000A58
 #WRITE(PTR, $00000A94)
 おっ、図星だねぇ？
+Oh ho, was I right?
 <$00>
 
 // PTR : 00000A6C
 #WRITE(PTR, $00000A98)
 嫌われたねぇ、ケッケッケッ
+Ahh, she hates me, hehehe.
 <$00>
 
 // PTR : 00000AF8
@@ -178,16 +183,19 @@ Hehe! Yeah. Doesn't\nmean I want to!
 // PTR : 00000DF8
 #WRITE(PTR, $00000EC8)
 えっ！？
+W-what the!?
 <$00>
 
 // PTR : 00000E04
 #WRITE(PTR, $00000ECC)
 こ、これどっから持ってきた？
+W-where did this come from?
 <$00>
 
 // PTR : 00000E24
 #WRITE(PTR, $00000ED0)
 あなたの家からに\n決まってるじゃない
+From your house, of course.
 <$00>
 
 // PTR : 00000E50
@@ -655,56 +663,67 @@ Thank you, Den!
 // PTR : 00002C78
 #WRITE(PTR, $00002D64)
 ウィノたちに聞いたの。ジョーカを\n探してくれたの、あなただったのね
+I heard it from the Laundry Bros. You're looking for Joka for me.
 <$00>
 
 // PTR : 00002CBC
 #WRITE(PTR, $00002D68)
 なぁんだ…ばれちまったか
+Ahh, you found out...
 <$00>
 
 // PTR : 00002CD8
 #WRITE(PTR, $00002D6C)
 まったく、悪いことの\nできねえ連中だな、あいつらは
+Man, those guys couldn't be bad if they tried.
 <$00>
 
 // PTR : 00002D0C
 #WRITE(PTR, $00002D70)
 ま、自立心があるのはいいことさ
+Well, it's good they're so self-reliant.
 <$00>
 
 // PTR : 00002D2C
 #WRITE(PTR, $00002D74)
 じりつしん？
+Self-reliant?
 <$00>
 
 // PTR : 00002D3C
 #WRITE(PTR, $00002D78)
 アディはまだまだお子さまだねぇ
+You're still a child Addie, you'll get there.
 <$00>
 
 // PTR : 00002E04
 #WRITE(PTR, $00002F50)
 どうした？　しけた面してるな
+What's with the gloomy face?
 <$00>
 
 // PTR : 00002E24
 #WRITE(PTR, $00002F54)
 ジョーカは見つかったのかい？
+Still can't find Joka?
 <$00>
 
 // PTR : 00002E44
 #WRITE(PTR, $00002F58)
 こらしめてやったか？
+Were you yelled at?
 <$00>
 
 // PTR : 00002E5C
 #WRITE(PTR, $00002F5C)
 じゃあ、もう\n言うことはないわけだ
+Well, guess we're done chatting then.
 <$00>
 
 // PTR : 00002E80
 #WRITE(PTR, $00002F60)
 でも、ジョーカが\n気になることを言ってたの
+But, Joka said something interesting.
 <$00>
 
 // PTR : 00002EAC
@@ -716,46 +735,55 @@ I went to see\nthe chief librarian.
 // PTR : 00002ED4
 #WRITE(PTR, $00002F68)
 ジョーカってやつは、根性曲がりの\nホラ吹き野郎だったんだろ？
+Joka, he's that villainous braggart guy, right?
 <$00>
 
 // PTR : 00002F10
 #WRITE(PTR, $00002F6C)
 そんなやつの言うこと\n聞くことはねえじゃねえか
+Why would you listened to what someone like him said?
 <$00>
 
 // PTR : 00002F40
 #WRITE(PTR, $00002F70)
 確かに、そうね
+Yeah, that's a good point.
 <$00>
 
 // PTR : 00002FE0
 #WRITE(PTR, $000030E4)
 お、ちょうどいいところに来たな\n探してたんだ
+Oh, you came at a good time. I'm trying to search around.
 <$00>
 
 // PTR : 0000300C
 #WRITE(PTR, $000030E8)
 お前、この部屋の\n鍵を持ってないか？
+Do you have a key to this room?
 <$00>
 
 // PTR : 00003030
 #WRITE(PTR, $000030EC)
 わたしが？
+Me?
 <$00>
 
 // PTR : 0000303C
 #WRITE(PTR, $000030F0)
 お前に渡したままだろ？\n初めて会ったとき
+I gave it to you, when we first me.
 <$00>
 
 // PTR : 00003064
 #WRITE(PTR, $000030F4)
 あれ？　そうだったっけ？
+Huh? Did you?
 <$00>
 
 // PTR : 00003080
 #WRITE(PTR, $000030F8)
 あ、これだわ\nはい、返すわね
+Ah, here it is. Here ya go.
 <$00>
 
 // PTR : 00000E48
@@ -769,16 +797,20 @@ I went to see\nthe chief librarian.
 // PTR : 0000309C
 #WRITE(PTR, $00003100)
 …鍵を返されると\nせつない気持ちになるな
+…it's kinda sad, giving back a key.
+//アリア：分かる。。。
 <$00>
 
 // PTR : 000030C4
 #WRITE(PTR, $00003104)
 どうして？
+Why?
 <$00>
 
 // PTR : 000030D0
 #WRITE(PTR, $00003108)
 ま、いずれわかるさ
+You'll learn someday.
 <$00>
 
 #VAR(PTR1, CUSTOMPOINTER)
@@ -802,6 +834,7 @@ It's getting hot. Let's\ncool off in the museum.
 #WBB(PTR1, $00005E0C)
 #WUB(PTR1, $00005E0D)
 これじゃ進めないよ
+I can't get through like this.
 <$00>
 
 // PTR : 00000328
@@ -814,6 +847,7 @@ It's getting hot. Let's\ncool off in the museum.
 #WBB(PTR1, $00005F6C)
 #WUB(PTR1, $00005F6D)
 この地下道は、裏通りと大通りを\nつないでるんだ
+This underpass connects Main Street with the Back Alley.
 <$00>
 
 // PTR : 00000358
@@ -856,6 +890,7 @@ Underpass
 #WBB(PTR1, $0000C240)
 #WUB(PTR1, $0000C241)
 嫌われたねぇ、ケッケッケッ
+Ahh, she hates me, hehehe.
 <$00>
 
 // PTR : 00000360
@@ -864,6 +899,7 @@ Underpass
 #WBB(PTR1, $00015E74)
 #WUB(PTR1, $00015E75)
 なにしてるんだよ。逃げられちまう
+What're you doing? They're getting away!
 <$00>
 
 #VAR(PTR2, CUSTOMPOINTER)
@@ -900,7 +936,7 @@ Let's hurry.
 #WBB(PTR2, $00007080)
 #WUB(PTR2, $00007081)
 //あの三兄弟、\nウィノ・リノ・ジノの三人は、
-There siblings:\nWino, Reno and Gino.
+Those siblings:\nWino, Reno and Gino.
 <$00>
 
 // PTR : 000006C4
@@ -918,6 +954,7 @@ Those kids are\n"the Laundry Bros."
 #WBB(PTR2, $00007894)
 #WUB(PTR2, $00007895)
 ジョーカを探している\nジノと出会ったアディ。
+Addie ran into Gino, whose looking for Joka.
 <$00>
 
 // PTR : 000008B0
@@ -926,6 +963,7 @@ Those kids are\n"the Laundry Bros."
 #WBB(PTR2, $00007970)
 #WUB(PTR2, $00007971)
 ジノってちょっと\n頼りないのよね
+Gino's not really reliable, is he?
 <$00>
 
 // PTR : 000008D0
@@ -934,6 +972,7 @@ Those kids are\n"the Laundry Bros."
 #WBB(PTR2, $00007A84)
 #WUB(PTR2, $00007A85)
 そこの地下道は大通りまで通じてるよ
+That underpass connects to the Main Street.
 <$00>
 
 // PTR : 000008FC
@@ -969,6 +1008,7 @@ but he passed\naway only recently.
 #WBB(PTR2, $000089C8)
 #WUB(PTR2, $000089C9)
 そろそろ大通りのほうに戻りたいな
+I'd like to get back to the Main Street.
 <$00>
 
 // PTR : 000009A0
@@ -977,6 +1017,7 @@ but he passed\naway only recently.
 #WBB(PTR2, $00008A04)
 #WUB(PTR2, $00008A05)
 この辺は裏通りだよ。\nそろそろ戻りたいな
+The Back Alley's around here. I'd like to get back.
 <$00>
 
 // PTR : 000009C8
@@ -994,6 +1035,7 @@ Library Backdoor
 #WBB(PTR2, $00009EA8)
 #WUB(PTR2, $00009EA9)
 ケッケッケッ…
+Hehehe…
 <$00>
 
 // PTR : 00000BDC
@@ -1002,6 +1044,7 @@ Library Backdoor
 #WBB(PTR2, $0000A154)
 #WUB(PTR2, $0000A155)
 どうよ\nお使いしてくれる気になった？
+How's about it? Decided to help me out?
 <$00>
 
 // PTR : 00000C08
@@ -1010,7 +1053,7 @@ Library Backdoor
 #WBB(PTR2, $0000A1E0)
 #WUB(PTR2, $0000A1E1)
 //やだ
-Nope
+Nope.
 <$00>
 
 // PTR : 00000C10
@@ -1019,6 +1062,7 @@ Nope
 #WBB(PTR2, $0000A200)
 #WUB(PTR2, $0000A201)
 あ、そう。ケケケ
+Ah, I see. Hehehe.
 <$00>
 
 // PTR : 00000D2C
@@ -1027,6 +1071,7 @@ Nope
 #WBB(PTR2, $0000A590)
 #WUB(PTR2, $0000A591)
 子供たちのことを知っている\n怪しい男に出会った。
+I met a strange man who knew about the kids.
 <$00>
 
 // PTR : 00000D5C
@@ -1035,6 +1080,7 @@ Nope
 #WBB(PTR2, $0000A63C)
 #WUB(PTR2, $0000A63D)
 たのみごと聞いたら\nちゃんと教えてくれるのかしら…
+If I listen to his favor, maybe he'll talk…
 <$00>
 
 // PTR : 00000D90
@@ -1043,6 +1089,7 @@ Nope
 #WBB(PTR2, $0000A6EC)
 #WUB(PTR2, $0000A6ED)
 連中のこと知りたかったら\nクシをお願いね、嬢ちゃん
+If ya want to know about them, then get me a comb, young lady.
 <$00>
 
 // PTR : 00000F50
@@ -1051,6 +1098,7 @@ Nope
 #WBB(PTR2, $0000ABC4)
 #WUB(PTR2, $0000ABC5)
 ひとつめの頼まれごとを済ませ\n男の元へ行ったアディ。
+Addie went back to the man after finishing his initial request.
 <$00>
 
 // PTR : 00000FA4
@@ -1059,6 +1107,7 @@ Nope
 #WBB(PTR2, $0000ACF0)
 #WUB(PTR2, $0000ACF1)
 連中のこと知りたかったら\n宝石を…ケッケッケッ\n
+If ya want to know about them, then a jewel... hehehe.
 <$00>
 
 // PTR : 00000FD4
@@ -1067,6 +1116,7 @@ Nope
 #WBB(PTR2, $0000AD00)
 #WUB(PTR2, $0000AD01)
 俺の部屋に超クールな\nブレスレットがあるはずだからよぉ
+There should be a super cool bracelet sitting in my room.
 <$00>
 
 // PTR : 00001144
@@ -1075,6 +1125,7 @@ Nope
 #WBB(PTR2, $0000B1DC)
 #WUB(PTR2, $0000B1DD)
 ようやく男から\n子供たちのことを聞いた。
+He finally spilled the beans on the kids.
 <$00>
 
 // PTR : 0000116C
@@ -1083,6 +1134,7 @@ Nope
 #WBB(PTR2, $0000B2A8)
 #WUB(PTR2, $0000B2A9)
 あの子たちの力に\nなってあげられないかしら…
+I wonder if I could help out those kids...
 <$00>
 
 // PTR : 00001378
@@ -1091,6 +1143,7 @@ Nope
 #WBB(PTR2, $0000B7B0)
 #WUB(PTR2, $0000B7B1)
 老人からの情報を頼りに\nバーへ向かうことに。
+Now that I got the info from the old guy, I should head to the bar.
 <$00>
 
 // PTR : 000013A4
@@ -1099,6 +1152,7 @@ Nope
 #WBB(PTR2, $0000B88C)
 #WUB(PTR2, $0000B88D)
 えーと…\nバーってどこだったかしら
+Um... And just where is the bar...?
 <$00>
 
 // PTR : 000014BC
@@ -1107,6 +1161,7 @@ Nope
 #WBB(PTR2, $0000BB18)
 #WUB(PTR2, $0000BB19)
 …ひへはははふはっへひはっはー！
+…hehhehaahephhahaha!!
 <$00>
 
 // PTR : 000014E0
@@ -1115,6 +1170,7 @@ Nope
 #WBB(PTR2, $0000BB28)
 #WUB(PTR2, $0000BB29)
 え？なんて言ったの？
+Huh? What was that again?
 <$00>
 
 // PTR : 000014F8
@@ -1123,6 +1179,7 @@ Nope
 #WBB(PTR2, $0000BBD0)
 #WUB(PTR2, $0000BBD1)
 ははは、ひへはほはふひへ\nひはっはんはほ…
+Hahaha, hehehhohophheeehahaha...
 <$00>
 
 // PTR : 00001524
@@ -1131,6 +1188,7 @@ Nope
 #WBB(PTR2, $0000BBE0)
 #WUB(PTR2, $0000BBE1)
 …うーん
+…righty then.
 <$00>
 
 // PTR : 00001530
@@ -1139,6 +1197,7 @@ Nope
 #WBB(PTR2, $0000BC54)
 #WUB(PTR2, $0000BC55)
 あ、これちょっと借りるわね？
+Um, I'm just gonna borrow this, okay?
 <$00>
 
 // PTR : 00001550
@@ -1147,6 +1206,7 @@ Nope
 #WBB(PTR2, $0000BC64)
 #WUB(PTR2, $0000BC65)
 ほは！
+Hyouwa!
 <$00>
 
 // PTR : 00001558
@@ -1155,6 +1215,7 @@ Nope
 #WBB(PTR2, $0000BCF0)
 #WUB(PTR2, $0000BCF1)
 ふは？
+Fwhowa?
 <$00>
 
 // PTR : 00001560
@@ -1163,6 +1224,7 @@ Nope
 #WBB(PTR2, $0000BD60)
 #WUB(PTR2, $0000BD61)
 ん、まともにしゃべれるわい\n入れ歯が無くなって難儀しとったよ
+Bleh, I can talk normal like. Just hard without them dentures.
 <$00>
 
 // PTR : 0000159C
@@ -1171,6 +1233,7 @@ Nope
 #WBB(PTR2, $0000BD70)
 #WUB(PTR2, $0000BD71)
 そのことには礼を\n言っておくが、ところで…
+You should have said something earlier...
 <$00>
 
 // PTR : 000015C8
@@ -1179,6 +1242,7 @@ Nope
 #WBB(PTR2, $0000BDC8)
 #WUB(PTR2, $0000BDC9)
 …わしの財布は？
+…so about my wallet?
 <$00>
 
 // PTR : 000015DC
@@ -1187,6 +1251,7 @@ Nope
 #WBB(PTR2, $0000BDD8)
 #WUB(PTR2, $0000BDD9)
 さあ…？
+Who know…?
 <$00>
 
 // PTR : 000015E8
@@ -1195,6 +1260,7 @@ Nope
 #WBB(PTR2, $0000BFE0)
 #WUB(PTR2, $0000BFE1)
 ほはんほー！
+Hwoahou!
 <$00>
 
 // PTR : 000015F8
@@ -1203,6 +1269,7 @@ Nope
 #WBB(PTR2, $0000C02C)
 #WUB(PTR2, $0000C02D)
 わしの財布…
+My wallet…
 <$00>
 
 // PTR : 00001608
@@ -1211,6 +1278,7 @@ Nope
 #WBB(PTR2, $0000C03C)
 #WUB(PTR2, $0000C03D)
 …どこいったのかしらね？
+…where could it be?
 <$00>
 
 // PTR : 00001624
@@ -1219,6 +1287,7 @@ Nope
 #WBB(PTR2, $0000C30C)
 #WUB(PTR2, $0000C30D)
 最近、耳が遠くてのう
+My hearing's shot as of late.
 <$00>
 
 // PTR : 00001654
@@ -1245,6 +1314,7 @@ Back Road
 #WBB(PTR2, $0000DAA8)
 #WUB(PTR2, $0000DAA9)
 ここは行き止まり。ねえ、戻ろうよ
+It's a dead end. Let's head back
 <$00>
 
 // PTR : 00002034
@@ -1297,6 +1367,7 @@ Let's track\nwhere we've been.
 #WBB(PTR2, $0000F5C8)
 #WUB(PTR2, $0000F5C9)
 なあ、あんたを女と見込んで\n聞くんだけどさ
+Hey, I wanted to ask you something as a girl.
 <$00>
 
 // PTR : 000022C0
@@ -1305,6 +1376,7 @@ Let's track\nwhere we've been.
 #WBB(PTR2, $0000F5D8)
 #WUB(PTR2, $0000F5D9)
 …笑わないって約束する？
+…you promise you won't laugh?
 <$00>
 
 // PTR : 00000C00
@@ -1326,6 +1398,7 @@ Okay
 #WBB(PTR2, $0000F638)
 #WUB(PTR2, $0000F639)
 笑う
+Laughs
 <$00>
 
 // PTR : 000022E4
@@ -1334,6 +1407,7 @@ Okay
 #WBB(PTR2, $0000F65C)
 #WUB(PTR2, $0000F65D)
 じゃあ、いいよ\nジャマしたね
+Well then, sorry to bother you.
 <$00>
 
 // PTR : 00002300
@@ -1342,6 +1416,7 @@ Okay
 #WBB(PTR2, $0000F6D4)
 #WUB(PTR2, $0000F6D5)
 あたしでも似合うかな、その…\nスカートはいたりするの
+Do you think it suits me? W-wearing skirts I mean.
 <$00>
 
 // PTR : 00002334
@@ -1350,6 +1425,7 @@ Okay
 #WBB(PTR2, $0000F74C)
 #WUB(PTR2, $0000F74D)
 笑わないって言ったじゃん！\nもういいよ！
+I said don't laugh! Just never mind!
 <$00>
 
 // PTR : 0000235C
@@ -1358,6 +1434,7 @@ Okay
 #WBB(PTR2, $0000F9DC)
 #WUB(PTR2, $0000F9DD)
 ホントに？　本当にそう思う？
+Really? You really think that?
 <$00>
 
 // PTR : 0000237C
@@ -1366,6 +1443,7 @@ Okay
 #WBB(PTR2, $0000FA4C)
 #WUB(PTR2, $0000FA4D)
 こっちは真剣なんだ！\nもういいよ！
+I'm serious! Just never mind!
 <$00>
 
 // PTR : 000023A0
@@ -1374,6 +1452,7 @@ Okay
 #WBB(PTR2, $0000FDA8)
 #WUB(PTR2, $0000FDA9)
 じゃあ、挑戦してみるよ！\nありがとう！
+I-I'll try it out then! Thank you!
 <$00>
 
 // PTR : 000023C8
@@ -1382,6 +1461,7 @@ Okay
 #WBB(PTR2, $0000FE3C)
 #WUB(PTR2, $0000FE3D)
 いざ買うとなると\nちょっと、ね
+W-when I get the courage to buy one…
 <$00>
 
 // PTR : 000023E8
@@ -1390,6 +1470,7 @@ Okay
 #WBB(PTR2, $0000FEA0)
 #WUB(PTR2, $0000FEA1)
 もういいよ、あっち行ってくれよ
+I'm fine now, go over there please.
 <$00>
 
 // PTR : 00002408
@@ -1398,6 +1479,7 @@ Okay
 #WBB(PTR2, $000100E4)
 #WUB(PTR2, $000100E5)
 お留守かしら
+Maybe they're out.
 <$00>
 
 // PTR : 00002450
@@ -1524,6 +1606,7 @@ This should work\njust fine!
 #WBB(PTR2, $00012244)
 #WUB(PTR2, $00012245)
 ちょっと、やり直し
+Once more with feeling.
 <$00>
 
 // PTR : 00002690
@@ -1605,6 +1688,7 @@ Jewel
 #WBB(PTR2, $000133BC)
 #WUB(PTR2, $000133BD)
 デンからの情報で\nイライザを探しにいくアディ。
+After hearing from Den, Addie left to search for Eliza.
 <$00>
 
 // PTR : 00002B70
@@ -1613,6 +1697,7 @@ Jewel
 #WBB(PTR2, $000134F4)
 #WUB(PTR2, $000134F5)
 …ああ、ひもじい
+…ugh, I'm starving.
 <$00>
 
 // PTR : 00002B84
@@ -1639,6 +1724,7 @@ Ain't polite to\neat in front of guests.
 #WBB(PTR2, $000139F4)
 #WUB(PTR2, $000139F5)
 よう、探し物は見つかったかい？
+Yo, find what you're looking for?
 <$00>
 
 // PTR : 00002BFC
@@ -1647,6 +1733,7 @@ Ain't polite to\neat in front of guests.
 #WBB(PTR2, $0001431C)
 #WUB(PTR2, $0001431D)
 もう帰りな、アディ
+Don't leave already, Addie!
 <$00>
 
 // PTR : 00002C10
@@ -1655,6 +1742,7 @@ Ain't polite to\neat in front of guests.
 #WBB(PTR2, $0001432C)
 #WUB(PTR2, $0001432D)
 俺はこう見えても\nけっこう忙しいんだ
+I might not look it, but I'm a fairly busy chap.
 <$00>
 
 // PTR : 000031CC
@@ -1681,6 +1769,7 @@ The light's out still?\nSomeone, fix this...
 #WBB(PTR2, $00016360)
 #WUB(PTR2, $00016361)
 ズサンだなあ\nこっちだけしか、直してない…
+How sloppy. I can only fix this…
 <$00>
 
 // PTR : 00000654
@@ -1689,6 +1778,7 @@ The light's out still?\nSomeone, fix this...
 #WBB(PTR2, $000163BC)
 #WUB(PTR2, $000163BD)
 いつものことながら、どうして\nこんなに確認事項が多いんだ…
+There's nothing special going on, why do so many need checking…?
 <$00>
 
 // PTR : 00002284
@@ -1697,5 +1787,6 @@ The light's out still?\nSomeone, fix this...
 #WBB(PTR2, $00017514)
 #WUB(PTR2, $00017515)
 閉まってるわね
+It's closed.
 <$00>
 

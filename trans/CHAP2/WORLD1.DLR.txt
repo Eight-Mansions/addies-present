@@ -86,7 +86,7 @@ I'll try\nsomewhere else!
 // PTR : 00000854
 #WRITE(PTR, $000008B8)
 //はあ、なんだか\nわけわかんなくなっちゃった
-I'll never\nunderstand boys, will I.
+I'll never\nunderstand boys, will I?
 <$00>
 
 // PTR : 00000880
@@ -98,41 +98,49 @@ On that note,\nI should talk to Zoo.
 // PTR : 00000BB8
 #WRITE(PTR, $00000C38)
 あれ？　あれ？　…まいったな
+I... Uh... Well then.
 <$00>
 
 // PTR : 00000BD8
 #WRITE(PTR, $00000C3C)
 どうしたの？
+What's wrong?
 <$00>
 
 // PTR : 00000BE8
 #WRITE(PTR, $00000C40)
 手品を練習してるんだけど\nなかなかこのロープを
+I'm practicing a magic trick, but I *just*
 <$00>
 
 // PTR : 00000C18
 #WRITE(PTR, $00000C44)
 バラに変えることができないんだ
+can't get this rope to turn into a rose.
 <$00>
 
 // PTR : 00000C9C
 #WRITE(PTR, $00000D00)
 えいっ、と…\nこれでいい？
+Well, um... How about this?
 <$00>
 
 // PTR : 00000CB8
 #WRITE(PTR, $00000D04)
 君、すごいなあ。でも
+Woah, you're amazing! But it's not
 <$00>
 
 // PTR : 00000CD0
 #WRITE(PTR, $00000D08)
 これじゃ僕の練習にならないよ
+practice for me if you do it.
 <$00>
 
 // PTR : 00000CF0
 #WRITE(PTR, $00000D0C)
 それもそうね
+Ah, that's true.
 <$00>
 
 // PTR : 00000DD0
@@ -162,7 +170,7 @@ Hm, well.\nI guess I am.
 // PTR : 00000E2C
 #WRITE(PTR, $00000EEC)
 //どんな人？
-On whom?
+For whom?
 <$00>
 
 // PTR : 00000E38
@@ -343,16 +351,19 @@ By making him suspicious\nof two kids loitering.
 // PTR : 000016E8
 #WRITE(PTR, $00001748)
 ずいぶん、仕事をさせてくれるのね
+They really gave us a lot of work, huh?
 <$00>
 
 // PTR : 0000170C
 #WRITE(PTR, $0000174C)
 乗りかかった船だ\nこうなったら、最後まで頼む
+It's the ship we're taking. We're counting on you till the end!
 <$00>
 
 // PTR : 00001738
 #WRITE(PTR, $00001750)
 まったく、もう
+Like, really??
 <$00>
 
 // PTR : 000017C0
@@ -490,16 +501,19 @@ So, you'll stay here?\nGreat!
 // PTR : 0000203C
 #WRITE(PTR, $00002078)
 あっ、こら、じゃまするなって…
+Ah, now it's a problem...
 <$00>
 
 // PTR : 0000205C
 #WRITE(PTR, $0000207C)
 …あっ、開かない！
+...ugh, it won't open!
 <$00>
 
 // PTR : 00002070
 #WRITE(PTR, $00002080)
 わー！
+Oー!
 <$00>
 
 // PTR : 00002378
@@ -542,7 +556,7 @@ Ugh, fine!\nLet me see it.
 // PTR : 00002D94
 #WRITE(PTR, $00002DEC)
 //はい、メロン
-Here' your melon!
+Here's your melon!
 <$00>
 
 // PTR : 00002DA4
@@ -560,87 +574,103 @@ Thank you, young lady!\nDo come again!
 // PTR : 00003138
 #WRITE(PTR, $000031D4)
 よう、嬢ちゃん！\nキウイはどうだい！　キウイ！
+Hey young lady! How's about a kiwi? Kiwi!
 <$00>
 
 // PTR : 00003168
 #WRITE(PTR, $000031D8)
 あれ、このゴツゴツしてるの…、
+Oh? What's this rough thing...?
 <$00>
 
 // PTR : 00003188
 #WRITE(PTR, $000031DC)
 爆弾みてえに硬いのが、\n美味いんだよ…なんつってな！
+It might be hard like a bomb, but it's delicious... Probably!
 <$00>
 
 // PTR : 000031BC
 #WRITE(PTR, $000031E0)
 これ…、爆弾じゃない！
+Wait... this IS a bomb!
 <$00>
 
 // PTR : 00003234
 #WRITE(PTR, $00003298)
 ふぅ、何でこんなものが\n混じってるんだ？
+Wow, why is something like THIS mixed in here?
 <$00>
 
 // PTR : 0000325C
 #WRITE(PTR, $0000329C)
 それは、こっちのセリフよ
+That's what I wanted to ask!
 <$00>
 
 // PTR : 00003278
 #WRITE(PTR, $000032A0)
 とにかくありがとよ、嬢ちゃん！
+Either way, thanks young lady!
 <$00>
 
 // PTR : 00003738
 #WRITE(PTR, $000037D4)
 お、らっしゃい！\n嬢ちゃん、リンゴはどうだい？
+Oh, welcome young lady! How's an apple sound?
 <$00>
 
 // PTR : 00003768
 #WRITE(PTR, $000037D8)
 …ずいぶん、硬そうなリンゴね
+...this is a rather hard apple.
 <$00>
 
 // PTR : 00003788
 #WRITE(PTR, $000037DC)
 たまに石が混ざってんだ…\nなんつってな！冗談だ、冗談！
+Sometimes rocks get mixed in, or something... I'm joking! It's a joke!
 <$00>
 
 // PTR : 000037C0
 #WRITE(PTR, $000037E0)
 …混ざってるわよ？
+...they get mixed in?
 <$00>
 
 // PTR : 00003848
 #WRITE(PTR, $000038C8)
 はい、ちゃんとしたリンゴよ
+This is a perfectly normal apple. Yup!
 <$00>
 
 // PTR : 00003864
 #WRITE(PTR, $000038CC)
 こいつぁ参った！\nそれは嬢ちゃんにやるよ！
+I can't win! I'll give this to you, young lady!
 <$00>
 
 // PTR : 00003890
 #WRITE(PTR, $000038D0)
 ほんと？ありがとう！
+Really? Thanks!
 <$00>
 
 // PTR : 000038A8
 #WRITE(PTR, $000038D4)
 その代わり、また来てくれよ！
+In return, come back again!
 <$00>
 
 // PTR : 00003930
 #WRITE(PTR, $000039D0)
 よう、嬢ちゃん！\n果物どうだい！
+Hey, young lady! How's about some fruit?
 <$00>
 
 // PTR : 00003950
 #WRITE(PTR, $000039D4)
 //…え？　えーと\n今はいらないわ
-Business? Uhm...\nNo, not right now.
+...huh? Uhm...\nNo, not right now.
 <$00>
 
 // PTR : 00003970
@@ -658,71 +688,85 @@ D-don't worry\nabout us, sir!
 // PTR : 00001158
 #WRITE(PTR, $00024058)
 ちょっと、見えないよ！
+W-wait, I can't see!
 <$00>
 
 // PTR : 00001148
 #WRITE(PTR, $0002405C)
 すごいね、アレ
+Wow, that's amazing.
 <$00>
 
 // PTR : 00001134
 #WRITE(PTR, $00024060)
 うまいもんだなぁ
+Impressive~
 <$00>
 
 // PTR : 00001110
 #WRITE(PTR, $00024064)
 火の粉がたまに\n飛んでくるんだよね…
+The sparks keep popping off now and then…
 <$00>
 
 // PTR : 00001108
 #WRITE(PTR, $00024068)
 熱っ！
+Hot!
 <$00>
 
 // PTR : 00001100
 #WRITE(PTR, $0002406C)
 わぁ…
+Ahh...
 <$00>
 
 // PTR : 000010E8
 #WRITE(PTR, $00024070)
 オレにもできそうだな
+Even I could probably do it.
 <$00>
 
 // PTR : 00002500
 #WRITE(PTR, $00024274)
 あの、わたしに何か用？
+Um, did you need something?
 <$00>
 
 // PTR : 000024E8
 #WRITE(PTR, $00024278)
 なんでついてくるの？
+Why are you following me?
 <$00>
 
 // PTR : 000024D4
 #WRITE(PTR, $0002427C)
 用があるんでしょ？
+There's something you want, right?
 <$00>
 
 // PTR : 000024C8
 #WRITE(PTR, $00024280)
 何なのよ！
+What is it!?
 <$00>
 
 // PTR : 000024B4
 #WRITE(PTR, $00024284)
 怒るわよ？もう！
+You're pissing me off, okay!?
 <$00>
 
 // PTR : 000024A4
 #WRITE(PTR, $00024288)
 ついてこないで
+Don't follow me!
 <$00>
 
 // PTR : 00002490
 #WRITE(PTR, $0002428C)
 もう、知らない！
+Ugh, buzz off!!
 <$00>
 
 #VAR(PTR1, CUSTOMPOINTER)
@@ -742,6 +786,7 @@ Up this slope\nis Cape Town.
 #WBB(PTR1, $00004360)
 #WUB(PTR1, $00004361)
 なんてことするのよ！
+Good lord!
 <$00>
 
 // PTR : 000000F0
@@ -750,6 +795,7 @@ Up this slope\nis Cape Town.
 #WBB(PTR1, $00004370)
 #WUB(PTR1, $00004371)
 だから、なにがさ
+Like, what's the big deal?
 <$00>
 
 // PTR : 00000104
@@ -758,6 +804,7 @@ Up this slope\nis Cape Town.
 #WBB(PTR1, $000043B8)
 #WUB(PTR1, $000043B9)
 けっとばすなんて…\nかわいそうじゃない！
+How could you kick it so hard...? I feel bad for it!
 <$00>
 
 // PTR : 0000012C
@@ -766,6 +813,7 @@ Up this slope\nis Cape Town.
 #WBB(PTR1, $000043C8)
 #WUB(PTR1, $000043C9)
 かわいそう？\nどうして？
+Feel bad? Why?
 <$00>
 
 // PTR : 00000144
@@ -774,6 +822,7 @@ Up this slope\nis Cape Town.
 #WBB(PTR1, $00004404)
 #WUB(PTR1, $00004405)
 もういいよ、早く行こう
+It's fine, let's just hurry.
 <$00>
 
 // PTR : 0000017C
@@ -826,6 +875,7 @@ Use the loglock, Addie!
 #WBB(PTR1, $00004E94)
 #WUB(PTR1, $00004E95)
 ジョーカの案内で街を散策。\n観光気分のアディ。
+Checking the city with Joka's intel. Addie feels like sightseeing.
 <$00>
 
 // PTR : 00000324
@@ -834,6 +884,7 @@ Use the loglock, Addie!
 #WBB(PTR1, $00004FCC)
 #WUB(PTR1, $00004FCD)
 ちぇ、へたくそ
+Ugh, how shitty.
 <$00>
 
 // PTR : 00000334
@@ -842,6 +893,7 @@ Use the loglock, Addie!
 #WBB(PTR1, $00005020)
 #WUB(PTR1, $00005021)
 …やっぱり、どいてくれないのね
+...it's not moving for us, is it?
 <$00>
 
 // PTR : 000003C8
@@ -878,6 +930,7 @@ I'll change you back.
 #WBB(PTR1, $000052D4)
 #WUB(PTR1, $000052D5)
 今度こそ…
+This time...
 <$00>
 
 // PTR : 00000450
@@ -950,6 +1003,7 @@ Cape Town Entrance
 #WBB(PTR2, $00006958)
 #WUB(PTR2, $00006959)
 街へ戻った途端\nジョーカに出くわすアディ。
+Addie ran into Joka the moment she got back.
 <$00>
 
 // PTR : 000006C4
@@ -958,6 +1012,7 @@ Cape Town Entrance
 #WBB(PTR2, $000073B0)
 #WUB(PTR2, $000073B1)
 デンの情報を頼りに\nバーへ向かうアディ。
+Den's info is reliable. Let's go to the bar, Addie.
 <$00>
 
 // PTR : 000006EC
@@ -966,6 +1021,7 @@ Cape Town Entrance
 #WBB(PTR2, $0000747C)
 #WUB(PTR2, $0000747D)
 マスターに聞けば\nわかるかしら
+Maybe the barkeep will know if we ask.
 <$00>
 
 // PTR : 00000774
@@ -1095,6 +1151,7 @@ Yeah, I'll show him.
 #WBB(PTR2, $0000964C)
 #WUB(PTR2, $0000964D)
 ところで、アディ、先を急がない？
+Hey, Addie, shouldn't we hurry?
 <$00>
 
 // PTR : 00000AD4
@@ -1103,6 +1160,7 @@ Yeah, I'll show him.
 #WBB(PTR2, $00009668)
 #WUB(PTR2, $00009669)
 話は歩きながらでもできるわ
+We can talk while walking, you know.
 <$00>
 
 // PTR : 00000AF0
@@ -1111,6 +1169,7 @@ Yeah, I'll show him.
 #WBB(PTR2, $000096A4)
 #WUB(PTR2, $000096A5)
 話は歩きながらしましょ
+Okay, let's walk and talk then.
 <$00>
 
 // PTR : 00000C74
@@ -1119,6 +1178,7 @@ Yeah, I'll show him.
 #WBB(PTR2, $00009C7C)
 #WUB(PTR2, $00009C7D)
 どうするつもりだい？
+What do you plan on doing?
 <$00>
 
 // PTR : 00000D40
@@ -1127,6 +1187,7 @@ Yeah, I'll show him.
 #WBB(PTR2, $00009EF0)
 #WUB(PTR2, $00009EF1)
 まあ、気長にやってみるよ
+Eh, I'll take it at my own pace.
 <$00>
 
 // PTR : 00000F50
@@ -1180,6 +1241,7 @@ Keep looking, Addie-o!
 #WBB(PTR2, $0000E10C)
 #WUB(PTR2, $0000E10D)
 あんたもしつこいね。だめだって
+You're really persistent. I said no!
 <$00>
 
 // PTR : 00001680
@@ -1188,6 +1250,7 @@ Keep looking, Addie-o!
 #WBB(PTR2, $0000E19C)
 #WUB(PTR2, $0000E19D)
 だから、じゃますんなって\n言ってるだろ！？
+Like I said, you're a bother!
 <$00>
 
 // PTR : 000016AC
@@ -1196,6 +1259,7 @@ Keep looking, Addie-o!
 #WBB(PTR2, $0000E1AC)
 #WUB(PTR2, $0000E1AD)
 さっさと失せなよ！
+Buzz off!
 <$00>
 
 // PTR : 000016C0
@@ -1213,6 +1277,7 @@ Back there is the bar.
 #WBB(PTR2, $0000E890)
 #WUB(PTR2, $0000E891)
 まあ、頼む
+Well, counting on you.
 <$00>
 
 // PTR : 000018C0
@@ -1221,6 +1286,7 @@ Back there is the bar.
 #WBB(PTR2, $0000EBC0)
 #WUB(PTR2, $0000EBC1)
 マスターの話によれば\nイライザはバーの中に。
+According to the barkeep, Eliza's inside.
 <$00>
 
 // PTR : 00001904
@@ -1265,6 +1331,7 @@ No one knows\nwhat she's thinking.
 #WBB(PTR2, $0000F0D8)
 #WUB(PTR2, $0000F0D9)
 じゃまだから、あっちいって
+You're a bother, go over there.
 <$00>
 
 // PTR : 00001AB8
@@ -1336,6 +1403,7 @@ Now, I can take\na load off in peace.
 #WBB(PTR2, $0000F46C)
 #WUB(PTR2, $0000F46D)
 なにごそごそやってんだよ
+What're you sneaking around for?
 <$00>
 
 // PTR : 00001C34
@@ -1362,6 +1430,7 @@ Come back with your\n"BF" in a few years.
 #WBB(PTR2, $0000F88C)
 #WUB(PTR2, $0000F88D)
 そこにいると危ないぞ
+It's dangerous in there.
 <$00>
 
 // PTR : 00001F44
@@ -1370,6 +1439,7 @@ Come back with your\n"BF" in a few years.
 #WBB(PTR2, $0000FDAC)
 #WUB(PTR2, $0000FDAD)
 結局、バーに\nジョーカはいなかった。
+In the end, Joka wasn't in the bar.
 <$00>
 
 // PTR : 00001F68
@@ -1378,6 +1448,7 @@ Come back with your\n"BF" in a few years.
 #WBB(PTR2, $0000FE6C)
 #WUB(PTR2, $0000FE6D)
 一度、ズーに報告しなきゃ…
+I'll have to ask Zoo...
 <$00>
 
 // PTR : 00001F84
@@ -1438,6 +1509,7 @@ Even if I was open,\nno kids allowed.
 #WBB(PTR2, $00010610)
 #WUB(PTR2, $00010611)
 …まだ開いてないわね
+...we're not open yet.
 <$00>
 
 // PTR : 00001FF4
@@ -1446,6 +1518,7 @@ Even if I was open,\nno kids allowed.
 #WBB(PTR2, $00010698)
 #WUB(PTR2, $00010699)
 開店の準備が残ってるんだ
+We still have prep work to do.
 <$00>
 
 // PTR : 00002010
@@ -1454,6 +1527,7 @@ Even if I was open,\nno kids allowed.
 #WBB(PTR2, $000106A8)
 #WUB(PTR2, $000106A9)
 これ以上じゃませんでくれ
+Please stop bothering us.
 <$00>
 
 // PTR : 000020C8
@@ -1538,6 +1612,7 @@ Great, let's go!
 #WBB(PTR2, $00013268)
 #WUB(PTR2, $00013269)
 どうにかしてよ
+We need to get it down somehow.
 <$00>
 
 // PTR : 00002470
@@ -1554,6 +1629,7 @@ Great, let's go!
 #WBB(PTR2, $000133D0)
 #WUB(PTR2, $000133D1)
 バーへ急がないと！
+We need to hurry to the bar!
 <$00>
 
 // PTR : 0000252C
@@ -1697,6 +1773,7 @@ DESPICABLE!
 #WBB(PTR2, $00013DB8)
 #WUB(PTR2, $00013DB9)
 …もう、しようがないなあ
+...well, guess that's our only option.
 <$00>
 
 // PTR : 000028A8
@@ -1705,6 +1782,7 @@ DESPICABLE!
 #WBB(PTR2, $00014088)
 #WUB(PTR2, $00014089)
 臭くて、気が散っちゃうわ
+It stinks, I got distracted.
 <$00>
 
 // PTR : 00002894
@@ -1717,6 +1795,7 @@ DESPICABLE!
 #WBB(PTR2, $00014174)
 #WUB(PTR2, $00014175)
 …まだ複雑な気持ち
+...I don't know how I feel about this.
 <$00>
 
 // PTR : 000028C4
@@ -1725,6 +1804,8 @@ DESPICABLE!
 #WBB(PTR2, $000143D8)
 #WUB(PTR2, $000143D9)
 アディは不審な\n少年に尾行される。
+Addie's tailing the suspicious boy.
+
 <$00>
 
 // PTR : 000028E8
@@ -1733,6 +1814,7 @@ DESPICABLE!
 #WBB(PTR2, $00014490)
 #WUB(PTR2, $00014491)
 用があるなら、言えばいいのに…
+If you need something, you can just say it, you know...
 <$00>
 
 // PTR : 0000247C
@@ -1869,6 +1951,7 @@ What can I\nsell you today?
 #WBB(PTR2, $000167B0)
 #WUB(PTR2, $000167B1)
 どうだい、嬢ちゃん
+How is it, young lady?
 <$00>
 
 // PTR : 00002B68
@@ -1877,6 +1960,7 @@ What can I\nsell you today?
 #WBB(PTR2, $000167C0)
 #WUB(PTR2, $000167C1)
 たまにはなんか買わねえかい？
+Couldn't you buy something one of these times?
 <$00>
 
 // PTR : 00002BAC
@@ -1885,6 +1969,7 @@ What can I\nsell you today?
 #WBB(PTR2, $000167E0)
 #WUB(PTR2, $000167E1)
 また後で来てくれよな！
+Come back again later!
 <$00>
 
 // PTR : 00002C8C
@@ -1939,6 +2024,7 @@ Now, that I can do!
 #WBB(PTR2, $00016D40)
 #WUB(PTR2, $00016D41)
 嬢ちゃん、別にさ、\nムリしなくてもいいんだぜ？
+Hey lady, you really shouldn't push yourself so hard.
 <$00>
 
 // PTR : 00002E04
@@ -1947,6 +2033,7 @@ Now, that I can do!
 #WBB(PTR2, $00016F78)
 #WUB(PTR2, $00016F79)
 ありがとさん\n気持ちだけ受け取っておくよ
+It's okay, but I appreciate your concern.
 <$00>
 
 // PTR : 00002E2C
@@ -1955,6 +2042,7 @@ Now, that I can do!
 #WBB(PTR2, $00016F88)
 #WUB(PTR2, $00016F89)
 うーん…
+Um...
 <$00>
 
 // PTR : 00002E60
@@ -1963,6 +2051,8 @@ Now, that I can do!
 #WBB(PTR2, $000170C4)
 #WUB(PTR2, $000170C5)
 まあ、家でカカアと\n食べることにするさ！
+Well, I'll eat at home with Kakaa then!
+//Is Kakaa a person?
 <$00>
 
 // PTR : 00002E88
@@ -1971,6 +2061,7 @@ Now, that I can do!
 #WBB(PTR2, $000170D4)
 #WUB(PTR2, $000170D5)
 あれえ…
+Hmm...?
 <$00>
 
 // PTR : 00002E94
@@ -1979,6 +2070,7 @@ Now, that I can do!
 #WBB(PTR2, $000170F0)
 #WUB(PTR2, $000170F1)
 調子の悪いときは誰にでもあらあ！\n気にすんな！
+Everyone feels off at some point, don't worry!
 <$00>
 
 // PTR : 00002EC4
@@ -1987,6 +2079,7 @@ Now, that I can do!
 #WBB(PTR2, $00017104)
 #WUB(PTR2, $00017105)
 だから、その、\nムリしなくてもいいんだぜ？
+So, like, don't push yourself, okay?
 <$00>
 
 // PTR : 00002F98
@@ -1995,6 +2088,7 @@ Now, that I can do!
 #WBB(PTR2, $000173E0)
 #WUB(PTR2, $000173E1)
 よう、嬢ちゃん！\n梅の実はどうだい？
+Hey, young lady! How's an apricot sound?
 <$00>
 
 // PTR : 00002FBC
@@ -2003,6 +2097,7 @@ Now, that I can do!
 #WBB(PTR2, $000173F0)
 #WUB(PTR2, $000173F1)
 貝みたいにかたくて\nぴちぴちした梅の実だぜ？
+They're hard like shellfish but bursting with flavor!
 <$00>
 
 // PTR : 00002FE8
@@ -2011,6 +2106,7 @@ Now, that I can do!
 #WBB(PTR2, $00017460)
 #WUB(PTR2, $00017461)
 これ、貝じゃない？
+Isn't this actually a shellfish?
 <$00>
 
 // PTR : 00002FFC
@@ -2019,6 +2115,7 @@ Now, that I can do!
 #WBB(PTR2, $000175B4)
 #WUB(PTR2, $000175B5)
 何か磯臭いにおいが\nしてたんだよな…
+I mean, it even smells like the sea...
 <$00>
 
 // PTR : 00003020
@@ -2027,6 +2124,7 @@ Now, that I can do!
 #WBB(PTR2, $00017610)
 #WUB(PTR2, $00017611)
 梅の実って、これでしょ
+Isn't that an apricot?
 <$00>
 
 // PTR : 00003038
@@ -2035,6 +2133,7 @@ Now, that I can do!
 #WBB(PTR2, $00017620)
 #WUB(PTR2, $00017621)
 いや、まいったな！\nどこで紛れこんじまったのかね
+Ahh, you got it me! How did I get them mixed up...
 <$00>
 
 // PTR : 00003068
@@ -2043,6 +2142,7 @@ Now, that I can do!
 #WBB(PTR2, $000176A0)
 #WUB(PTR2, $000176A1)
 まあ、いいや！\nありがとよ！
+Eitherway, thank you!
 <$00>
 
 // PTR : 000031F4
@@ -2051,6 +2151,7 @@ Now, that I can do!
 #WBB(PTR2, $00017C08)
 #WUB(PTR2, $00017C09)
 じょ、嬢ちゃんかい？\nこいつ、何とかなんねえか？
+T-the young lady? She'll manage on her own somehow.
 <$00>
 
 // PTR : 000032CC
@@ -2059,6 +2160,7 @@ Now, that I can do!
 #WBB(PTR2, $00017F08)
 #WUB(PTR2, $00017F09)
 おいおい、物騒だなあ！
+Hey hey, that's dangerous!
 <$00>
 
 // PTR : 000032E4
@@ -2067,6 +2169,7 @@ Now, that I can do!
 #WBB(PTR2, $00017F14)
 #WUB(PTR2, $00017F15)
 物騒なのは、\nおじさんのお店でしょ！
+What's dangerous is this old guy's shop!
 <$00>
 
 // PTR : 00003308
@@ -2075,6 +2178,7 @@ Now, that I can do!
 #WBB(PTR2, $00017F2C)
 #WUB(PTR2, $00017F2D)
 おいおい、勘弁してくれよー
+Hey hey, cut me some slack!
 <$00>
 
 // PTR : 00003324
@@ -2083,6 +2187,7 @@ Now, that I can do!
 #WBB(PTR2, $00017F38)
 #WUB(PTR2, $00017F39)
 もう！
+No!
 <$00>
 
 // PTR : 000033CC
@@ -2091,6 +2196,7 @@ Now, that I can do!
 #WBB(PTR2, $000181F4)
 #WUB(PTR2, $000181F5)
 よう、嬢ちゃん！\nイチジクどうだい？
+Hey, young lady! How about some figs?
 <$00>
 
 // PTR : 000033F0
@@ -2099,6 +2205,7 @@ Now, that I can do!
 #WBB(PTR2, $00018204)
 #WUB(PTR2, $00018205)
 卵みたいにつやつやで\nきれいなイチジクだ！
+They're beautiful figs that shine like eggs!
 <$00>
 
 // PTR : 0000341C
@@ -2107,6 +2214,7 @@ Now, that I can do!
 #WBB(PTR2, $0001828C)
 #WUB(PTR2, $0001828D)
 どうせまた卵なんでしょ？\nさ、早く貸して
+It's just an egg, right? Hurry and give it here.
 <$00>
 
 // PTR : 00003444
@@ -2115,6 +2223,7 @@ Now, that I can do!
 #WBB(PTR2, $000182C0)
 #WUB(PTR2, $000182C1)
 もう一回やってみるわ
+I'll try one more time.
 <$00>
 
 // PTR : 0000345C
@@ -2123,6 +2232,7 @@ Now, that I can do!
 #WBB(PTR2, $0001840C)
 #WUB(PTR2, $0001840D)
 これがイチジクでしょ？
+This is a fig, right?
 <$00>
 
 // PTR : 00003474
@@ -2131,6 +2241,7 @@ Now, that I can do!
 #WBB(PTR2, $00018454)
 #WUB(PTR2, $00018455)
 嬢ちゃんにはかなわねえなあ！
+I can never win against you!
 <$00>
 
 // PTR : 00003494
@@ -2139,6 +2250,7 @@ Now, that I can do!
 #WBB(PTR2, $00018464)
 #WUB(PTR2, $00018465)
 次もまたよろしくな！
+Counting on you next time too!
 <$00>
 
 // PTR : 00003558
@@ -2147,6 +2259,7 @@ Now, that I can do!
 #WBB(PTR2, $00018794)
 #WUB(PTR2, $00018795)
 よう、嬢ちゃん！ぴかぴかの\nトウモロコシはどうだい？
+Hey, young lady! How about some sparkling corn?
 <$00>
 
 // PTR : 0000358C
@@ -2155,6 +2268,7 @@ Now, that I can do!
 #WBB(PTR2, $000187A4)
 #WUB(PTR2, $000187A5)
 ホントにぴかぴかしてる…
+It's actually sparkling...
 <$00>
 
 // PTR : 000035A8
@@ -2163,6 +2277,7 @@ Now, that I can do!
 #WBB(PTR2, $000188B0)
 #WUB(PTR2, $000188B1)
 黄金色のぴかぴかトウモロコシだ！\nさあ、どうだい！
+It's golden, sparkling corn! Now, how about it!
 <$00>
 
 // PTR : 000035DC
@@ -2171,6 +2286,7 @@ Now, that I can do!
 #WBB(PTR2, $000188C0)
 #WUB(PTR2, $000188C1)
 これ…、黄金よ！
+This... is gold!
 <$00>
 
 // PTR : 000035F0
@@ -2179,6 +2295,7 @@ Now, that I can do!
 #WBB(PTR2, $00018948)
 #WUB(PTR2, $00018949)
 ほら、嬢ちゃんも忙しいんだろ？\nムリすんなって…
+Hey, you're busy right? Don't let me keep you.
 <$00>
 
 // PTR : 00003620
@@ -2187,6 +2304,7 @@ Now, that I can do!
 #WBB(PTR2, $000189A4)
 #WUB(PTR2, $000189A5)
 はい、トウモロコシよ！
+Yup, it's corn!
 <$00>
 
 // PTR : 00003638
@@ -2195,6 +2313,7 @@ Now, that I can do!
 #WBB(PTR2, $000189B4)
 #WUB(PTR2, $000189B5)
 おじさん別に、黄金でもよかった…
+Sorry that it's not gold, old man...
 <$00>
 
 // PTR : 0000365C
@@ -2203,6 +2322,7 @@ Now, that I can do!
 #WBB(PTR2, $00018A4C)
 #WUB(PTR2, $00018A4D)
 …いやいや、次もまたよろしくな！
+...s'okay, come back next time!
 <$00>
 
 // PTR : 0000380C
@@ -2211,6 +2331,7 @@ Now, that I can do!
 #WBB(PTR2, $00018EAC)
 #WUB(PTR2, $00018EAD)
 また、挑戦しに来たのかい？\nしぶといねえ！
+Did you come to challenge me again? Tenacious, eh?
 <$00>
 
 // PTR : 000038E8
@@ -2219,6 +2340,8 @@ Now, that I can do!
 #WBB(PTR2, $000190F0)
 #WUB(PTR2, $000190F1)
 ま、石だって混ざりたい時も\nあるんだろう、気にすんな！
+Eh, sometimes you just want to drink poison, you know?
+//lit: Sometimes a rock wants to mingle
 <$00>
 
 // PTR : 00003A28
@@ -2227,6 +2350,7 @@ Now, that I can do!
 #WBB(PTR2, $0001972C)
 #WUB(PTR2, $0001972D)
 ちっ
+Tsk
 <$00>
 
 // PTR : 00003A38
@@ -2235,6 +2359,7 @@ Now, that I can do!
 #WBB(PTR2, $0001A064)
 #WUB(PTR2, $0001A065)
 大通り
+Main Street
 <$00>
 
 // PTR : 00003A78
@@ -2324,6 +2449,7 @@ All right,\nback to business!
 #WBB(PTR2, $0001B340)
 #WUB(PTR2, $0001B341)
 イライザと別れた後\nリノに出会ったアディ。
+After parting with Eliza, Addie ran into Reno.
 <$00>
 
 // PTR : 00003B88
@@ -2332,6 +2458,7 @@ All right,\nback to business!
 #WBB(PTR2, $0001B414)
 #WUB(PTR2, $0001B415)
 ジョーカがランドリーへ？\n何しに行ったのかしら
+Joka's heading towards Laundry Bros? I wonder what for.
 <$00>
 
 // PTR : 00003BF0
@@ -2340,6 +2467,7 @@ All right,\nback to business!
 #WBB(PTR2, $0001BDE4)
 #WUB(PTR2, $0001BDE5)
 ちぇっ、そっちか…
+Tsk, that one, huh...
 <$00>
 
 // PTR : 00003C04
@@ -2374,6 +2502,7 @@ Wow!
 #WBB(PTR2, $0001E534)
 #WUB(PTR2, $0001E535)
 バーはそっちじゃないって
+The bar isn't that direction.
 <$00>
 
 // PTR : 00001BEC
@@ -2400,6 +2529,7 @@ will be good as new!\nJust you watch!
 #WBB(PTR2, $0001EB4C)
 #WUB(PTR2, $0001EB4D)
 しばらく水をやらなかったんだが…
+It seems the plants haven't been watered for a while, but
 <$00>
 
 // PTR : 00001D84
@@ -2408,6 +2538,7 @@ will be good as new!\nJust you watch!
 #WBB(PTR2, $0001EB5C)
 #WUB(PTR2, $0001EB5D)
 意外とがんばってくれるもんだな\n花ってのは
+they've been doing surprisingly well without it.
 <$00>
 
 // PTR : 00001DB0
@@ -2416,5 +2547,6 @@ will be good as new!\nJust you watch!
 #WBB(PTR2, $0001EBB8)
 #WUB(PTR2, $0001EBB9)
 水のやりすぎってのも\nよくないらしいな
+I should be careful not to overwater them then.
 <$00>
 
