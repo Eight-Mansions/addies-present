@@ -635,7 +635,7 @@ Back there?\nOh, he would.
 #WBB(PTR2, $00007FFC)
 #WUB(PTR2, $00007FFD)
 //もうちょっと待ってみて、それでも\n帰ってこなかったら、そのときは…
-Imagine if I left him/nhere past closing time.
+Imagine if I left him\nhere past closing time.
 <$00>
 
 // PTR : 00000A78

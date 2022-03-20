@@ -1755,7 +1755,7 @@ Splash...?\nEWWE!
 #WBB(PTR2, $00013A34)
 #WUB(PTR2, $00013A35)
 //Ç±ÇÒÇ»Ç∆Ç±ÇÎÇ≈\nâΩÇ‚Ç¡ÇƒÇÈÇÃÇÊÅAÇ‡Ç§ÅI
-Why are you doing/nthat out here?!
+Why are you doing\nthat out here?!
 <$00>
 
 // PTR : 00002798

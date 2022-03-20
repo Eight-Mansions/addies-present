@@ -249,7 +249,7 @@ Can't you tell?
 // PTR : 00001078
 #WRITE(PTR, $00001164)
 //ÇæÇ©ÇÁå©ÇΩÇ≠Ç»Ç¢ÇÃÇ¡ÅI
-Not if I'm/nnot looking!
+Not if I'm\nnot looking!
 <$00>
 
 // PTR : 00001090
