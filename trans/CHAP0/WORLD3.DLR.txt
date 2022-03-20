@@ -20,12 +20,15 @@
 \n\n
 <$00>
 
+
 // PTR : 00000258
 #WLB(PTR1, $000014E4)
 #WHB(PTR1, $000014E5)
 #WBB(PTR1, $000014E0)
 #WUB(PTR1, $000014E1)
+
 //終了するにはセレクトを押してくだ\nさい。
 Press SELECT to close.
 <$00>
+
 

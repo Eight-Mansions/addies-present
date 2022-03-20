@@ -11,7 +11,6 @@
 //このキャプションはアディの色
 Addie's font color.
 <$00>
-{end}
 
 // PTR : 00000144
 #WRITE(PTR, $00000298)
@@ -19,7 +18,6 @@ Addie's font color.
 //このキャプションはイライザの色
 Eliza's font color.
 <$00>
-{end}
 
 // PTR : 00000164
 #WRITE(PTR, $0000029C)
@@ -27,7 +25,6 @@ Eliza's font color.
 //このキャプションはジョーカの色
 Joka's font color.
 <$00>
-{end}
 
 // PTR : 00000184
 #WRITE(PTR, $000002A0)
@@ -35,7 +32,6 @@ Joka's font color.
 //このキャプションはズーの色
 Zoo's font color.
 <$00>
-{end}
 
 // PTR : 000001A0
 #WRITE(PTR, $000002A4)
@@ -43,7 +39,6 @@ Zoo's font color.
 //このキャプションはウィノの色
 Wino's font color.
 <$00>
-{end}
 
 // PTR : 000001C0
 #WRITE(PTR, $000002A8)
@@ -51,7 +46,6 @@ Wino's font color.
 //このキャプションはリノの色
 Reno's font color.
 <$00>
-{end}
 
 // PTR : 000001DC
 #WRITE(PTR, $000002AC)
@@ -59,7 +53,6 @@ Reno's font color.
 //このキャプションはジノの色
 Gino's font color.
 <$00>
-{end}
 
 // PTR : 000001F8
 #WRITE(PTR, $000002B0)
@@ -67,7 +60,6 @@ Gino's font color.
 //このキャプションはデンの色
 Den's font color.
 <$00>
-{end}
 
 // PTR : 00000214
 #WRITE(PTR, $000002B4)
@@ -75,7 +67,6 @@ Den's font color.
 //このキャプションはムッシューの色
 Monsieur's font color.
 <$00>
-{end}
 
 // PTR : 00000238
 #WRITE(PTR, $000002B8)
@@ -83,7 +74,6 @@ Monsieur's font color.
 //このキャプションはバケヘの色
 Buckethead's font color.
 <$00>
-{end}
 
 // PTR : 00000258
 #WRITE(PTR, $000002BC)
@@ -91,7 +81,6 @@ Buckethead's font color.
 //このキャプションはマスターの色
 The barkeeps's font color.
 <$00>
-{end}
 
 // PTR : 00000278
 #WRITE(PTR, $000002C0)
@@ -99,7 +88,6 @@ The barkeeps's font color.
 //このキャプションはピアの色
 Pia's font color.
 <$00>
-{end}
 
 #VAR(PTR1, CUSTOMPOINTER)
 #CREATEPTR(PTR1, "LINEAR", -2148236152, 32)
@@ -110,9 +98,8 @@ Pia's font color.
 #WUB(PTR1, $00000865)
 
 //なんでこんなところで寝ていたの？\n思い出せない…
-Why was I sleeping here?\nI forgot.
+Did I fall asleep here?\nI don't remember...
 <$00>
-{end}
 
 // PTR : 0000039C
 #WLB(PTR1, $00001B64)
@@ -123,7 +110,6 @@ Why was I sleeping here?\nI forgot.
 //…うーん。
 ...Oh dear.
 <$00>
-{end}
 
 // PTR : 000003A8
 #WLB(PTR1, $00001B70)
@@ -132,9 +118,8 @@ Why was I sleeping here?\nI forgot.
 #WUB(PTR1, $00001B6D)
 
 //見覚えないなぁ
-I haven't the foggiest.
+I haven't the foggiest!
 <$00>
-{end}
 
 // PTR : 000003B8
 #WLB(PTR1, $000021C4)
@@ -145,7 +130,6 @@ I haven't the foggiest.
 //あら？あれは何かしら…。
 Oh? What's that there?
 <$00>
-{end}
 
 // PTR : 00000384
 #WLB(PTR1, $000018D4)
@@ -168,7 +152,6 @@ Oh? What's that there?
 //デバッグ
 Debug
 <$00>
-{end}
 
 // PTR : 00000470
 #WLB(PTR1, $000042B0)
@@ -179,7 +162,6 @@ Debug
 //ちょっと早くしてくんないかな？
 Can I go\neven faster?
 <$00>
-{end}
 
 #VAR(PTR2, CUSTOMPOINTER)
 #CREATEPTR(PTR2, "LINEAR", -2148301688, 32)
@@ -192,7 +174,6 @@ Can I go\neven faster?
 //え？
 Huh?
 <$00>
-{end}
 
 // PTR : 000004F8
 #WLB(PTR2, $00002B84)
@@ -203,7 +184,6 @@ Huh?
 //わからないのかい？\n残念、僕にもわからない。
 Don't get it?\nSadly, I don't either.
 <$00>
-{end}
 
 // PTR : 00000524
 #WLB(PTR2, $00002B90)
@@ -214,7 +194,6 @@ Don't get it?\nSadly, I don't either.
 //どうしてもわからないなら、\n適当にいじるのも手だよ。
 When unsure, it\nnever hurts to play around.
 <$00>
-{end}
 
 // PTR : 000004DC
 #WLB(PTR2, $000044CC)
@@ -225,7 +204,6 @@ When unsure, it\nnever hurts to play around.
 //ガンダム
 Gundam
 <$00>
-{end}
 
 // PTR : 000004E8
 #WLB(PTR2, $000044D4)
@@ -236,7 +214,6 @@ Gundam
 //ドム
 Dom
 <$00>
-{end}
 
 // PTR : 000004F0
 #WLB(PTR2, $000044DC)
@@ -247,7 +224,6 @@ Dom
 //ザク
 Zack
 <$00>
-{end}
 
 // PTR : 000004AC
 #WLB(PTR2, $00004528)
@@ -255,9 +231,9 @@ Zack
 #WBB(PTR2, $00004524)
 #WUB(PTR2, $00004525)
 
-ＺＺ
+//ＺＺ
+ZZ
 <$00>
-{end}
 
 // PTR : 000004B4
 #WLB(PTR2, $00004534)
@@ -268,7 +244,6 @@ Zack
 //リック
 Rick
 <$00>
-{end}
 
 // PTR : 000004BC
 #WLB(PTR2, $0000453C)
@@ -279,7 +254,6 @@ Rick
 //プロトタイプ
 Prototype
 <$00>
-{end}
 
 // PTR : 000004D4
 #WLB(PTR2, $0000454C)
@@ -290,5 +264,4 @@ Prototype
 //ドズル
 Dozle
 <$00>
-{end}
 

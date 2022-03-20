@@ -21,7 +21,7 @@ How sad.
 #WRITE(PTR, $000009BC)
 //そうだ、風景を描いちゃおう！
 I know! Let's draw\nsomething scenic!
-//canvas -> scenic
+//canvas to scenic
 <$00>
 
 // PTR : 00000A44
@@ -63,7 +63,7 @@ Okay, we can leave.
 // PTR : 00000C18
 #WRITE(PTR, $00000C40)
 //お茶でもごちそうして頂戴
-I could use\na tea break.
+I could use a tea break.
 <$00>
 
 // PTR : 00000CA8
@@ -81,13 +81,13 @@ You like this black\ncanvas, don't you?
 // PTR : 00000CD0
 #WRITE(PTR, $00000D08)
 //あなたが芸術オンチなのは
-You've got an\neye for art.
+You have a fine\neye for art.
 <$00>
 
 // PTR : 00000CEC
 #WRITE(PTR, $00000D0C)
 //よく分かったわ
-I can tell!
+I could tell right away!
 <$00>
 
 // PTR : 00000CFC
@@ -99,7 +99,7 @@ I can tell!
 // PTR : 00000D28
 #WRITE(PTR, $00000E50)
 //“第四小節”
-"m. 4"
+"M. 4"
 <$00>
 
 // PTR : 00000DE0
@@ -141,7 +141,7 @@ Of course we can't\nleave so easel-y.
 // PTR : 00001314
 #WRITE(PTR, $00001360)
 //…見てみたいのよ
-Think you can\nfix this?
+Think you can fix this?
 <$00>
 
 // PTR : 00001328
@@ -153,14 +153,14 @@ Fix this how?
 // PTR : 00001338
 #WRITE(PTR, $00001368)
 //使えるんでしょ？　ログロックを
-Can't you tell?\nWith the loglock!
+Oh, you know.\nWith the Loglock!
 //fence to easel
 <$00>
 
 // PTR : 000014A4
 #WRITE(PTR, $000018C8)
 //何してるの？ジョーカ
-What are you doing,\nJoka?
+What are you doing, Joka?
 <$00>
 
 // PTR : 000014BC
@@ -178,13 +178,13 @@ For what?
 // PTR : 000014DC
 #WRITE(PTR, $000018D4)
 //これっくらいの銀の歯車
-A silver gear\nthiiiis big.
+A silver gear.\nIt'll be thiiis big!
 <$00>
 
 // PTR : 000014F4
 #WRITE(PTR, $000018D8)
 //ずいぶんと、おおざっぱね
-That's not specific.
+That's nooot specific!
 <$00>
 
 // PTR : 00001510
@@ -202,7 +202,7 @@ Aaah!
 // PTR : 00001530
 #WRITE(PTR, $000018E4)
 //銀の歯車は、ここにはないぞ
-You'll find no silver\ngears here!
+There are no silver\ngears for YOU here!
 <$00>
 
 // PTR : 0000154C
@@ -220,7 +220,7 @@ Joka!
 // PTR : 00001560
 #WRITE(PTR, $000018F0)
 //もう逃がさんぞ！
-Out of the cage,\nare you?
+Out of your cage,\nare you?
 <$00>
 
 // PTR : 00001574
@@ -238,19 +238,19 @@ Hang in there!
 // PTR : 00001594
 #WRITE(PTR, $000018FC)
 //こらっ！待たんか！
-Why you-! Wait!
+Why you...\nWAIT!
 <$00>
 
 // PTR : 000015A8
 #WRITE(PTR, $00001900)
 //ほう…
-Hmph...
+Hmph!
 <$00>
 
 // PTR : 000015B0
 #WRITE(PTR, $00001904)
 するとお前さんは、
-You were there with him,
+If you were there with him,
 <$00>
 
 // PTR : 000015C4
@@ -262,13 +262,13 @@ and you helped him escape,
 // PTR : 000015E4
 #WRITE(PTR, $0000190C)
 //奴とはなんの関係もないと\n言いはるんじゃな？
-but you say you're not\nin cahoots with him?!
+how are you not in\ncahoots with him?!
 <$00>
 
 // PTR : 00001610
 #WRITE(PTR, $00001910)
 //ん～、関係あるような…
-Hah! You MUST be\nconnected somehow!
+Yes, you MUST be\nconnected somehow!
 <$00>
 
 // PTR : 00001628
@@ -286,61 +286,61 @@ I'm certain of it!
 // PTR : 00001654
 #WRITE(PTR, $0000191C)
 //近頃、奇怪なことばかり起きとって
-There's no other explanation
+There's no other explanation!
 <$00>
 
 // PTR : 00001678
 #WRITE(PTR, $00001920)
 //ただでさえイライラしとるんじゃ！
-for all the bizarre\nincidents lately!
+This town's falling\napart because of him!
 <$00>
 
 // PTR : 0000169C
 #WRITE(PTR, $00001924)
 //洗濯屋組合と図書館の連中が
-Just when the\nLaundry Bros.,
+First the laundromat,\nthen the library...
 <$00>
 
 // PTR : 000016B8
 #WRITE(PTR, $00001928)
 //少しは静かになった矢先に…
-and the library\nwere calming down...
+Thing's were finally\nsettling down too!
 <$00>
 
 // PTR : 000016D4
 #WRITE(PTR, $0000192C)
 //あの小僧も、お前さんも
-You and that boy!
+Who could do such a thing?!
 <$00>
 
 // PTR : 000016EC
 #WRITE(PTR, $00001930)
 //いったい何者なんじゃ？
-Who are you?!
+Who would help such a boy?!
 <$00>
 
 // PTR : 00001704
 #WRITE(PTR, $00001934)
 //わたしはアディよ
-I'm Addie.
+Well, I'm Addie.
 <$00>
 
 // PTR : 00001718
 #WRITE(PTR, $00001938)
 //…名前なんぞ聞いとらんよ。
-I don't mean your name!
+That was RHETORICAL!
 <$00>
 
 // PTR : 00001734
 #WRITE(PTR, $0000193C)
 //まぁいい\nアディ…
-So. Addie.\nIs it true...
+...Fine, Addie.\nTell me...
 <$00>
 
 // PTR : 00001748
 #WRITE(PTR, $00001940)
 //結局、お前さんがあの小僧を\n鐘楼から逃がしたんじゃな？
-you helped the boy\nescape the bell tower?
+Did you help him\nescape the bell tower?
 <$00>
 
 // PTR : 00001780
@@ -352,19 +352,19 @@ you helped the boy\nescape the bell tower?
 // PTR : 00001788
 #WRITE(PTR, $00001948)
 //ならば、わしに協力せい
-If so, then maybe\nyou can help me.
+I see. Maybe you\ncan help me.
 <$00>
 
 // PTR : 000017A0
 #WRITE(PTR, $0000194C)
 //わが一族に代々つたわる
-Reclaim my precious heirlooms,
+Reclaim my precious heirlooms:
 <$00>
 
 // PTR : 000017B8
 #WRITE(PTR, $00001950)
 //大小２枚の銀の歯車…
-my two silver gears!
+the two silver gears!
 <$00>
 
 // PTR : 000017D0
@@ -376,13 +376,13 @@ Silver gears?
 // PTR : 000017DC
 #WRITE(PTR, $00001958)
 //そのうちの片方を、
-That boy already
+Yes. I had a pair,
 <$00>
 
 // PTR : 000017F0
 #WRITE(PTR, $0000195C)
 //あ奴めが奪っていったんじゃ！
-took one in the pair!
+but your friend stole one.
 <$00>
 
 // PTR : 00001810
@@ -394,13 +394,13 @@ Is that why you\nlocked him up?
 // PTR : 00001830
 #WRITE(PTR, $00001964)
 //話の腰を折るな…
-Don't interrupt.
+Don't chime in!
 <$00>
 
 // PTR : 00001844
 #WRITE(PTR, $00001968)
 //とにかくお前さんは、
-Anyways...
+Anyways!
 <$00>
 
 // PTR : 0000185C
@@ -412,7 +412,7 @@ You're to find the boy
 // PTR : 0000187C
 #WRITE(PTR, $00001970)
 //そして見つけしだい\nすぐに知らせてくれぃ
-and let me know\nthe second you do!
+and report back the\nvery second you do!
 <$00>
 
 // PTR : 000018A4
@@ -448,18 +448,18 @@ You're the one\nwho's hard to believe.
 // PTR : 000006CC
 #WRITE(PTR, $00025638)
 //なんのこと？
-For what?!
+What for?!
 <$00>
 
 // PTR : 000006A0
 #WRITE(PTR, $0002563C)
 //こんな所まで追いかけてくるなんて\n情熱的よね
-For going so far just\nto ask about a boy.
+For going so far just\nto ask about a boy!
 <$00>
 
 // PTR : 00000698
 #WRITE(PTR, $00025640)
-……
+......
 <$00>
 
 // PTR : 00000678
@@ -471,7 +471,7 @@ I must look\nlike a sucker.
 // PTR : 0000065C
 #WRITE(PTR, $00025648)
 //いいのよ、ごまかさなくても
-Maybe, but that's\nokay too.
+Yeah, but that's okay.
 <$00>
 
 // PTR : 00000640
@@ -489,7 +489,7 @@ I wanted to look\nat some art, is all.
 // PTR : 00000604
 #WRITE(PTR, $00025654)
 //あなたって、自分勝手な人ね
-Wow, I really\nam a sucker.
+Wow, I really\nam a sucker!
 <$00>
 
 // PTR : 000005F4
@@ -513,13 +513,13 @@ Who did I mix up?
 // PTR : 00000574
 #WRITE(PTR, $00025664)
 //ジョーカがモーゼで、私がエミィ？\nよく似た兄妹がいたものね
-Joka, Moze? Me, Emmy?\nTwo siblings pairs?
+Any siblings, apparently.\nJoka, Moze. Me, Emmy...
 <$00>
 
 // PTR : 00000560
 #WRITE(PTR, $00025668)
 //あいつに聞いたのね
-Joka spoke with\nyou since, I see.
+Joka told you about\nyou that, huh.
 <$00>
 
 // PTR : 00000540
@@ -542,7 +542,7 @@ We'll head\nout the back.
 #WBB(PTR1, $000031A0)
 #WUB(PTR1, $000031A1)
 //されちゃ\n困るんだがね
-Ah, that's no good.
+Ah, that won't do.
 <$00>
 
 // PTR : 00000310
@@ -688,7 +688,7 @@ Museum Sculpture Exhibit
 #WBB(PTR2, $000059D0)
 #WUB(PTR2, $000059D1)
 //もう少し奥へ行かない？
-Just a little more,\nokay?
+Just a little more, okay?
 <$00>
 
 // PTR : 0000085C
@@ -697,7 +697,7 @@ Just a little more,\nokay?
 #WBB(PTR2, $00005CF8)
 #WUB(PTR2, $00005CF9)
 //“第一小節”
-"m. 1"
+"M. 1"
 <$00>
 
 // PTR : 00000884
@@ -706,7 +706,7 @@ Just a little more,\nokay?
 #WBB(PTR2, $00005EFC)
 #WUB(PTR2, $00005EFD)
 //“第二小節”
-"m. 2"
+"M. 2"
 <$00>
 
 // PTR : 000008AC
@@ -715,7 +715,7 @@ Just a little more,\nokay?
 #WBB(PTR2, $00006100)
 #WUB(PTR2, $00006101)
 //“第三小節”
-"m. 3"
+"M. 3"
 <$00>
 
 // PTR : 000008E8
@@ -724,7 +724,7 @@ Just a little more,\nokay?
 #WBB(PTR2, $00006EC0)
 #WUB(PTR2, $00006EC1)
 //落書きは困るが、なかなかいい絵だね
-Graffiti is wrong,\nbut your art is lovely.
+Graffiti is illegal,\nbut your art is lovely!
 <$00>
 
 // PTR : 00000928
@@ -751,7 +751,7 @@ Museum Repair Room
 #WBB(PTR2, $00008A30)
 #WUB(PTR2, $00008A31)
 //この先におもしろいのがあるんだ
-There's something cool\ndown this way.
+There's something neat\ndown this way.
 <$00>
 
 // PTR : 00000D50
@@ -814,7 +814,7 @@ Wow, this is\nmuch better!
 #WBB(PTR2, $00009A00)
 #WUB(PTR2, $00009A01)
 //…おじさん\nこの絵がなんだかわかるの？
-Do you know what\nthis painting is of now?
+Now do you know what\nthis painting is of?
 <$00>
 
 // PTR : 00000FB8
@@ -832,7 +832,7 @@ Nope! But,\nwithout my watch...
 #WBB(PTR2, $00009A70)
 #WUB(PTR2, $00009A71)
 //でも、時計もなくなったことだし\n時間を忘れてじっくり考えるよ
-I can take my\ntime and wonder.
+I can take my time\npondering about it.
 <$00>
 
 // PTR : 00001008
@@ -863,7 +863,7 @@ The feeling alone is\nnice, thank you.
 #WBB(PTR2, $00009DC4)
 #WUB(PTR2, $00009DC5)
 //“第四小節”
-"m. 4"
+"M. 4"
 <$00>
 
 // PTR : 000008D4
@@ -948,7 +948,7 @@ It's so grimey here.
 #WBB(PTR2, $0000B51C)
 #WUB(PTR2, $0000B51D)
 //ジョーカを探すことを条件に、\nズーはアディを解放する。
-Zoo let's Addie go\nin exchange for Joka.
+Zoo lets Addie go in\nexchange for her help.
 <$00>
 
 // PTR : 00001290
@@ -957,7 +957,7 @@ Zoo let's Addie go\nin exchange for Joka.
 #WBB(PTR2, $0000B5E0)
 #WUB(PTR2, $0000B5E1)
 //たぶん、ジョーカは街の中よね
-Maybe Joka\nis in the town.
+Maybe Addie can find\nJoka somewhere in town.
 <$00>
 
 // PTR : 00001380
@@ -966,7 +966,7 @@ Maybe Joka\nis in the town.
 #WBB(PTR2, $0000BD48)
 #WUB(PTR2, $0000BD49)
 //早くしないと\nお茶のおいしい時間が過ぎちゃうわ
-If we're not fast,\nwell miss tea time!
+If we're not fast,\nwe'll miss tea time!
 <$00>
 
 // PTR : 00002218
@@ -984,7 +984,7 @@ Museum Storage
 #WBB(PTR2, $0000F734)
 #WUB(PTR2, $0000F735)
 //さあ、早く片づけてみせて
-Let's take care\nof this quickly.
+Let's take care\nof this quickly!
 <$00>
 
 // PTR : 000021D8

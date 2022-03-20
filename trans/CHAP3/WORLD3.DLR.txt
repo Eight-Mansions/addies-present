@@ -56,7 +56,7 @@ Whew! You saved me!
 // PTR : 00000EFC
 #WRITE(PTR, $00001020)
 //…って、あんた誰だい？\n図書館の職員じゃねえな
-But who are you?\nObviously not staff.
+But who are you?\nNot library staff, obviously.
 <$00>
 
 // PTR : 00000F2C
@@ -68,13 +68,13 @@ No, I'm looking for\na boy wearing a hat.
 // PTR : 00000F58
 #WRITE(PTR, $00001028)
 //そいつだ！\n俺を倒していったヤツ！
-Him?! He's the one\nwho knocked me over!
+That's HIM! The boy\nwho knocked me over!
 <$00>
 
 // PTR : 00000F7C
 #WRITE(PTR, $0000102C)
 //どこに行ったかわかる？
-Where did he go?
+Where did he go?!
 <$00>
 
 // PTR : 00000F94
@@ -86,7 +86,7 @@ He took the vault key\nfrom my breast pocket.
 // PTR : 00000FD4
 #WRITE(PTR, $00001034)
 //ほら、マスターキーを貸すから\nそいつをとっちめといてくれよ
-Borrow my master key\nand check the vault.
+Borrow this master key\nand check the vault.
 <$00>
 
 // PTR : 00001010
@@ -111,7 +111,7 @@ But how?
 #WRITE(PTR, $0000121C)
 //あ！これが、使えそうかな？
 Oh! I'll use this!
-//book -> jack
+//book - jack
 <$00>
 
 // PTR : 00001330
@@ -123,7 +123,7 @@ Oh! I forgot to\nintroduce myself.
 // PTR : 00001354
 #WRITE(PTR, $0000140C)
 //俺の名前はタブボディ、\nここの副館長だ
-I'm the vice chief\nlibrarian, Mr. Tubbody.
+I'm the vice-head\nlibrarian, Mr. Tubbody.
 <$00>
 
 // PTR : 0000137C
@@ -147,7 +147,7 @@ Okay, Addie, the vault is\ndown the hall to the right.
 // PTR : 000013E4
 #WRITE(PTR, $0000141C)
 //とっとと、鍵を\n取り返してきてくれ
-Please, get that vault\nkey back at once!
+Get that vault key back\nfrom the boy at once!
 <$00>
 
 // PTR : 00001474
@@ -165,7 +165,7 @@ Yes!
 // PTR : 000014A8
 #WRITE(PTR, $000015F8)
 //どうして、タルの中に入ってるの？
-Why are you in\na barrel?!
+Why are you in\na tub?
 <$00>
 
 // PTR : 000014CC
@@ -177,19 +177,19 @@ It's one of our rules!\nAsk the head about it.
 // PTR : 00001510
 #WRITE(PTR, $00001600)
 //誰が好きこのんで、\nこんなものの中に…何だよ？
-You thought this is a\nchoice? To what end?!
+You thought this was\na choice? To what end?!
 <$00>
 
 // PTR : 00001540
 #WRITE(PTR, $00001604)
 //…ひょっとして、出られないとか？
-Then why not come out?
+Can you not climb out?
 <$00>
 
 // PTR : 00001564
 #WRITE(PTR, $00001608)
 //あっ、いつでも出られるぜ！\n今は就業中だから、ダメだけどな
-I could at any time,\nbut not on my shift.
+I could at any time,\njust not on my shift.
 <$00>
 
 // PTR : 000015A0
@@ -225,7 +225,7 @@ The deadline's tomorrow!\nWahahaha!
 // PTR : 0000186C
 #WRITE(PTR, $000018A0)
 //寝るなー！　寝たら死ぬぞ！\n目を覚ませー！
-Stay up! Stay awake!\nNap now, and perish!
+Stay up! Stay sharp!\nNap now, and perish!
 <$00>
 
 // PTR : 00001DF4
@@ -295,7 +295,7 @@ They seem close.
 <$00>
 //どうして、こんなのか
 //What is this thing?
-//bat -> map
+//bat - map
 
 #VAR(PTR1, CUSTOMPOINTER)
 #CREATEPTR(PTR1, "LINEAR", -2148236152, 32)
@@ -315,7 +315,7 @@ Wahahaha!
 #WUB(PTR1, $00003E55)
 //もう、イヤ！
 Enough with the bugs!
-//snail -> novel
+//snail - novel
 <$00>
 
 // PTR : 00000354
@@ -332,7 +332,7 @@ This can't be good.\nWhat can I do?!
 #WHB(PTR1, $00003FAD)
 #WBB(PTR1, $00003FA8)
 #WUB(PTR1, $00003FA9)
-ＳＮＡＩＬ
+SNAIL
 <$00>
 
 // PTR : 000003C8
@@ -341,7 +341,7 @@ This can't be good.\nWhat can I do?!
 #WBB(PTR1, $000040C8)
 #WUB(PTR1, $000040C9)
 //ここは右棟の閲覧室よ。静かにね
-Quite, please. The\nright hall is for reading.
+Quite, please. The right hall\nis a place for reading.
 <$00>
 
 // PTR : 00000380
@@ -435,7 +435,7 @@ Maybe they won't\nfind me here.
 #WBB(PTR2, $00004DFC)
 #WUB(PTR2, $00004DFD)
 //に、逃げたほうがいいのかな
-S-should I make\na run for it?
+Should I make\na run for it?
 <$00>
 
 // PTR : 00000530
@@ -454,7 +454,7 @@ Left Hall Bookshelves
 #WUB(PTR2, $00005889)
 //…悪趣味！
 You're gross too!
-//spider -> report
+//spider - report
 <$00>
 
 // PTR : 000005D0
@@ -471,7 +471,7 @@ Out of my way!
 #WHB(PTR2, $000059A9)
 #WBB(PTR2, $000059A4)
 #WUB(PTR2, $000059A5)
-ＳＰＩＤＥＲ
+SPIDER
 <$00>
 
 // PTR : 00000610
@@ -626,7 +626,7 @@ No
 #WBB(PTR2, $00007FEC)
 #WUB(PTR2, $00007FED)
 //そんなところに隠れてるのか…
-Back there?\nOh, he would.
+Back there?\nOh, he would...
 <$00>
 
 // PTR : 00000A24
@@ -635,7 +635,7 @@ Back there?\nOh, he would.
 #WBB(PTR2, $00007FFC)
 #WUB(PTR2, $00007FFD)
 //もうちょっと待ってみて、それでも\n帰ってこなかったら、そのときは…
-Imagine if I left him\nhere past closing time.
+Imagine if I left him/nhere past closing time.
 <$00>
 
 // PTR : 00000A78
@@ -760,7 +760,7 @@ I can't work with\nsuch a noisy neighbor!
 #WBB(PTR2, $000096BC)
 #WUB(PTR2, $000096BD)
 //もっとも、隣は副館長の部屋だから\nどなりこめないんだけど…
-The vice chief works next\ndoor, so I can't complain!
+The vice-head works next\ndoor, so I can't complain!
 <$00>
 
 // PTR : 00000D9C
@@ -814,7 +814,7 @@ Finally, someone came!\nHelp me up!
 #WBB(PTR2, $0000A59C)
 #WUB(PTR2, $0000A59D)
 //なんでこんなのが副館長なのか\nいまだにわからないわ
-I still can't believe\nthat guy's the vice chief.
+I still can't believe\nthat guy's the vice-head.
 <$00>
 
 // PTR : 00001300
@@ -966,7 +966,7 @@ Someone looks thrifty.\nDo you have a key?
 #WUB(PTR2, $0000F2B9)
 //でしょ？
 You're sure?
-//spangle -> keyhole
+//spangle - keyhole
 <$00>
 
 // PTR : 00001B8C
@@ -1158,7 +1158,7 @@ Well, whatever.\nI can play along.
 #WBB(PTR2, $00011E40)
 #WUB(PTR2, $00011E41)
 //人が親切で言って\nあげてるのに…
-That's what nice girls\ndo, after all.
+That's what nice\ngirls do, after all.
 <$00>
 
 // PTR : 00002584

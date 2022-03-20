@@ -268,7 +268,7 @@ The clothes are\non that table.
 #WBB(PTR2, $000020D8)
 #WUB(PTR2, $000020D9)
 //どうしたの？　いそいでたんでしょ
-If all's well, you\nshould head out.
+If all's well,\nyou should head out.
 <$00>
 
 // PTR : 00000664
@@ -277,7 +277,7 @@ If all's well, you\nshould head out.
 #WBB(PTR2, $000020F8)
 #WUB(PTR2, $000020F9)
 //はやくバーに行くのよ
-You're needed at the bar.
+I'll bet you're needed\nat the bar.
 <$00>
 
 // PTR : 0000067C
@@ -286,7 +286,7 @@ You're needed at the bar.
 #WBB(PTR2, $0000213C)
 #WUB(PTR2, $0000213D)
 まあまあ、息を切らして
-Oh dear, you\nlook out of breath.
+Oh dear,\nyou're out of breath!
 <$00>
 
 // PTR : 00000694
@@ -340,7 +340,7 @@ Any time, dear.
 #WBB(PTR2, $00002400)
 #WUB(PTR2, $00002401)
 //ごめんなさいね\n次の仕事を仕上げなきゃいけないの
-I have to get back to\nmy next commission.
+I have to start on\nmy next commission.
 <$00>
 
 // PTR : 00000734
@@ -376,7 +376,7 @@ His clothes are\non the table.
 #WBB(PTR2, $00002970)
 #WUB(PTR2, $00002971)
 //じゃあ、アディ\nあの人によろしくね
-Oh! And tell him\nI said hello!
+Oh! And give him\nmy regards!
 <$00>
 
 // PTR : 000007B0
@@ -403,7 +403,7 @@ With clothes in hand,\nAddie left for the bar.
 #WBB(PTR2, $00003594)
 #WUB(PTR2, $00003595)
 //いったい、\n誰の服なのかしら？
-Oh? And who's are these?!
+Oh? And whose are these?!
 <$00>
 
 // PTR : 0000084C

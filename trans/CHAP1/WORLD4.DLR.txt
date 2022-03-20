@@ -96,8 +96,8 @@ Yep, Joka locked it,
 #WBB(PTR2, $000035D8)
 #WUB(PTR2, $000035D9)
 //ÇµÇÂÇ§Ç™Ç»Ç¢ÅAÇ‚ÇÈÇ©
-but I'll loglock it!
-//doorway -> curtain
+but I'll LOGLOCK it!
+//doorway - curtain
 <$00>
 
 // PTR : 000005F0
@@ -106,7 +106,7 @@ but I'll loglock it!
 #WBB(PTR2, $0000382C)
 #WUB(PTR2, $0000382D)
 //ëÅÇ≠ÇµÇ»Ç¢Ç∆Åc
-There's no time...
+There's no time!
 <$00>
 
 // PTR : 00000574

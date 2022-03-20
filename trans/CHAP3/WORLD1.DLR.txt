@@ -26,13 +26,13 @@ They might even have\nmore on Joka!
 // PTR : 0000088C
 #WRITE(PTR, $00000900)
 //ねえ、アンタさぁ、
-Pardon me,\nbut do you know...
+Pardon me, miss.
 <$00>
 
 // PTR : 000008A0
 #WRITE(PTR, $00000904)
 //ここに立てかけてあった\nホウキを見かけなかった？
-...what happened to\nthe broom that was here?
+Do you know what happened\nto the broom that was here?
 <$00>
 
 // PTR : 000008D0
@@ -44,7 +44,7 @@ Sorry, no.
 // PTR : 000008DC
 #WRITE(PTR, $0000090C)
 //あら、そーお？\nおっかしいわねぇ…
-You don't, don't you?\nInteresting.
+You don't, do you?\nInteresting.
 <$00>
 
 // PTR : 0000096C
@@ -56,7 +56,7 @@ Listen, you wouldn't\nhappen to be...
 // PTR : 00000990
 #WRITE(PTR, $00000A48)
 //あの平べったい帽子をかぶった\n連中と付き合ってないだろうね？
-...friends with any\nnaughty boys, right?
+...friends with any\nnaughty boys, would you?
 <$00>
 
 // PTR : 000009CC
@@ -74,19 +74,19 @@ But why not?
 // PTR : 00000A10
 #WRITE(PTR, $00000A54)
 //いいね！つきあわない方が、\nアンタの身のためだよ！
-Just don't, okay?\nFor your own sake!
+Just don't, okay?\nIt's for your own good!
 <$00>
 
 // PTR : 00000B24
 #WRITE(PTR, $00000B60)
 //何か、あるみたい…
-Something's\nin there.
+Something's in there.
 <$00>
 
 // PTR : 00000B38
 #WRITE(PTR, $00000B64)
 //ん？やわらかい…
-Hm?\nIt's so soft...
+Hm? It's so soft...
 <$00>
 
 // PTR : 00000B4C
@@ -105,7 +105,7 @@ Why!
 // PTR : 00000BA8
 #WRITE(PTR, $00000C04)
 //見つけてくれたのぉ？\nありがと、やっとお掃除できるわあ
-You found it for me?\nNow I can clean!
+You found it for me?\nYes! Now I can clean!
 <$00>
 
 // PTR : 00000BE0
@@ -147,7 +147,7 @@ Good going, kid.
 // PTR : 00000F2C
 #WRITE(PTR, $00000F70)
 //君でいいや。どう？僕の愛の言葉を…
-Eh, onto the next!\nSo, little lady...
+Eh, on to the next!\nSo, uh, little lady...
 <$00>
 
 // PTR : 00000F50
@@ -178,7 +178,7 @@ Here's your flute!
 // PTR : 000010A0
 #WRITE(PTR, $000010EC)
 //…今ここにキャンバスがあったなら\n僕の心を描き出して見せるのに！
-I'd praise you in art,\nhad I a canvas.
+I'd praise you in art,\nhad I a canvas!
 //fascia -> canvas
 <$00>
 
@@ -191,7 +191,7 @@ What's up, Addie?
 // PTR : 00001370
 #WRITE(PTR, $000013A8)
 ここにいたのね…イライザ
-Oh, it's you. Eliza.
+Oh, it's you, Eliza.
 <$00>
 
 // PTR : 0000138C
@@ -251,19 +251,19 @@ Being a lapdog will\nget you nowhere.
 // PTR : 00001658
 #WRITE(PTR, $000018FC)
 //好きで追いかけてるんじゃないわ
-I'm not following you\nbecause I want to.
+I'm not following you\nbecause I want to!
 <$00>
 
 // PTR : 00001678
 #WRITE(PTR, $00001900)
 //キライだから追いかけてるの？
-What, then you hate me?
+Oh, so you hate me?
 <$00>
 
 // PTR : 00001698
 #WRITE(PTR, $00001904)
 //そういうことじゃなくて…
-It's not like that!
+I didn't say that!
 <$00>
 
 // PTR : 000016B4
@@ -275,7 +275,7 @@ So, you like me then?
 // PTR : 000016D8
 #WRITE(PTR, $0000190C)
 //人の話を聞きなさいよ！
-Maybe if you\ntalked nice!
+Maybe if you\ntalked nice.
 <$00>
 
 // PTR : 000016F0
@@ -419,7 +419,7 @@ I can already imagine
 // PTR : 000020B8
 #WRITE(PTR, $0000217C)
 //これ…
-what this is about.
+how you feel about that.
 <$00>
 
 // PTR : 000020C0
@@ -467,19 +467,19 @@ Huh? What'd you say?
 // PTR : 00002158
 #WRITE(PTR, $0000219C)
 //…この小説のセリフよ
-Nothing.\nA line from this book.
+Nothing. Just a line\nfrom this book.
 <$00>
 
 // PTR : 00002548
 #WRITE(PTR, $00002624)
 //そこにポーッて、立たれると\nとっても気が散るんだけど？
-Nothing like a good book\nto keep you on your toes.
+LEave it to a good book\nto keep you on your toes.
 <$00>
 
 // PTR : 00002580
 #WRITE(PTR, $00002628)
 //まあ、いいわ\nねえ、アディ
-But you know\nwhat's funny, Addie?
+Anyways, you know\nwhat's funny, Addie?
 <$00>
 
 // PTR : 0000259C
@@ -515,13 +515,13 @@ Meaning...
 // PTR : 000025F0
 #WRITE(PTR, $00002640)
 //もう、にぶいわね。ログロックで\n新しい本を出して頂戴
-"Meaning," use the loglock\nto make a better book.
+"Meaning," use the Loglock\nto make a better book.
 <$00>
 
 // PTR : 00002694
 #WRITE(PTR, $00002708)
 //ごくろうさま。これで少しは\n退屈せずに済むわ
-Much appreciated.\nThis will entertain me some.
+Much appreciated. This is\nfar more entertaining.
 <$00>
 
 // PTR : 000026C0
@@ -563,7 +563,7 @@ If you don't mind,\nI'm trying to read.
 // PTR : 00002978
 #WRITE(PTR, $00002B60)
 //ねぇ…ひょっとして\nあなたがアディ？
-You must be Addie,\nright?
+You must be Addie.
 <$00>
 
 // PTR : 0000299C
@@ -617,13 +617,13 @@ Joka told me\nabout you.
 // PTR : 00002A40
 #WRITE(PTR, $00002B84)
 //ジョーカのこと、\n追いかけてるんですって？
-You're after him\nnow, I take it.
+I assume you're\nlooking for him.
 <$00>
 
 // PTR : 00002A6C
 #WRITE(PTR, $00002B88)
 //あなた、ジョーカの…
-Wait, are you his--
+Wait, are you his...
 <$00>
 
 // PTR : 00002A84
@@ -641,13 +641,13 @@ I'm his sister.
 // PTR : 00002AB4
 #WRITE(PTR, $00002B94)
 //ジョーカがどこにいるか\n知りたいんだけど
-Do you know where he is?
+But you know where he is?
 <$00>
 
 // PTR : 00002ADC
 #WRITE(PTR, $00002B98)
 //もう、恋する乙女はせっかちね…
-Hah! Someone IS\nhead over heels!
+My, my. SOMEONE's\nhead over heels.
 <$00>
 
 // PTR : 00002AFC
@@ -729,7 +729,7 @@ It's getting hot. Let's\ncool off in the museum.
 #WBB(PTR2, $00005180)
 #WUB(PTR2, $00005181)
 //居心地がいいからよ\nあの人、気を使わないから楽だし
-To relax. The barkeep\nis too blah to fuss.
+To relax. The barkeep\nis too "blah" to fuss.
 <$00>
 
 // PTR : 000004BC
@@ -747,7 +747,7 @@ Bearded tough guys are\nnot my cup of tea.
 #WBB(PTR2, $000051D8)
 #WUB(PTR2, $000051D9)
 //でも、ああいうトーヘンボクって\nひそかに人気あるじゃない？
-Everyone likes\nthem, deep down.
+Everyone likes them,\ndeep down.
 <$00>
 
 // PTR : 00000530
@@ -756,7 +756,7 @@ Everyone likes\nthem, deep down.
 #WBB(PTR2, $0000521C)
 #WUB(PTR2, $0000521D)
 //じゃ、あなた\nマスターのこと好きなんだ
-No, you just have a\ncrush on that guy.
+No, you just have\na crush on that guy.
 <$00>
 
 // PTR : 00000558
@@ -765,7 +765,7 @@ No, you just have a\ncrush on that guy.
 #WBB(PTR2, $00005234)
 #WUB(PTR2, $00005235)
 //わたしは違うわよ\n一般的な話をしてるの
-I didn't say me!\nI said everyone!
+I didn't say me!\nI said "everyone"!
 <$00>
 
 // PTR : 00000580
@@ -774,7 +774,7 @@ I didn't say me!\nI said everyone!
 #WBB(PTR2, $00005278)
 #WUB(PTR2, $00005279)
 //え？　それって変じゃない
-What, no one's\njudging!
+What's wrong?\nNo one's judging!
 <$00>
 
 // PTR : 0000059C
@@ -936,7 +936,7 @@ Man, I hate snakes!
 #WBB(PTR2, $00007D48)
 #WUB(PTR2, $00007D49)
 //あら、ヘビねえ\nかわいいじゃない
-Oh! A snake?\nHow...cute...
+Oh! A snake?\nHow...cute?
 <$00>
 
 // PTR : 00000CAC
@@ -1094,7 +1094,7 @@ Oh, how the sea breeze\ntears my feeble heart!
 #WUB(PTR2, $0000B1A1)
 //今この手にフルートがあったなら\n君を称える旋律を奏でるのに！
 I'd praise you in song,\nhad I a flute.
-//shell -> flute
+//shell - flute
 <$00>
 
 // PTR : 0000104C
@@ -1121,7 +1121,7 @@ Oh, she of\nmalicious beauty!
 #WBB(PTR2, $0000B57C)
 #WUB(PTR2, $0000B57D)
 //…犬も食わないわ
-Not if you were\nthe last man on earth.
+Not if you were\nthe last man on earth!
 <$00>
 
 // PTR : 00001030
@@ -1250,7 +1250,7 @@ Addie split from Eliza.\nWhere to next?
 #WBB(PTR2, $0000D4BC)
 #WUB(PTR2, $0000D4BD)
 //ランドリーの方は\nどうなってるかな…
-What about the\nlaundromat?
+How about\nthe laundromat?
 <$00>
 
 // PTR : 00001454
@@ -1303,7 +1303,7 @@ Are you inspired now?
 #WBB(PTR2, $0000FA3C)
 #WUB(PTR2, $0000FA3D)
 //やっぱり、ちょっとだけ\n…退屈だわ
-It's okay. It's...\nstill a bit boring.
+It's okay. Just...\na little gloomy.
 <$00>
 
 // PTR : 00002790
@@ -1330,7 +1330,7 @@ Emmy?!
 #WBB(PTR2, $00010A60)
 #WUB(PTR2, $00010A61)
 //うーん、でもまた\n人ちがいってこともありうるし…
-Wait, this could be\nanother lookalike.
+Wait, this could be\nanother look-alike.
 <$00>
 
 // PTR : 00002858
@@ -1370,7 +1370,7 @@ Ah! We're outside!
 #WBB(PTR2, $00010CBC)
 #WUB(PTR2, $00010CBD)
 //さ、こっちよ。喫茶店があるの
-There's a cafe\nthis way.
+There's a cafe\ndown this way.
 <$00>
 
 // PTR : 000028A0
@@ -1415,8 +1415,8 @@ You must be Mr. Meow.
 #WBB(PTR2, $00012208)
 #WUB(PTR2, $00012209)
 //何かないかしら…\nあ、これが使えるかな？
-You're hungry, right?\nLet's get you down.
-//leaf -> fish
+I bet you're hungry.\nLet's get you down.
+//leaf - fish
 <$00>
 
 // PTR : 0000320C
@@ -1425,7 +1425,7 @@ You're hungry, right?\nLet's get you down.
 #WBB(PTR2, $00012284)
 #WUB(PTR2, $00012285)
 //逃げないで\n待ってるのよ
-Don't run off.\nWait!
+Don't run off.\nPlease, wait!
 <$00>
 
 // PTR : 00003224
@@ -1524,6 +1524,6 @@ The girl named Eliza\nstrongly resembles Emmy.
 #WBB(PTR2, $00013DA8)
 #WUB(PTR2, $00013DA9)
 //ジョーカの妹だなんて、\nますますエミィそっくり！
-Funny enough, she's\nalso Joka's little sister!
+Funny enough, she's also\nJoka's little sister!
 <$00>
 

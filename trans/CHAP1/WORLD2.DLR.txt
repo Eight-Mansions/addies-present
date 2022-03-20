@@ -14,13 +14,13 @@ Uhm, where\nare we going?
 // PTR : 000003F8
 #WRITE(PTR, $00000438)
 //歩きながら話してあげるよ
-On a walk around town,\nas a thank you.
+On a walk around town,\nas a "thank you".
 <$00>
 
 // PTR : 00000414
 #WRITE(PTR, $0000043C)
 //お礼に、街を案内してあげるから
-We can chat while I\ngive you a tour.
+We can chat while\nI give you a tour.
 <$00>
 
 // PTR : 00000684
@@ -68,7 +68,7 @@ I'm flattered a\ngirl would stop by.
 // PTR : 0000070C
 #WRITE(PTR, $00000934)
 //残念なことに\n名前が違うよ
-But, uh, that's\nnot my name.
+But, uh, Moze's\nnot my name.
 <$00>
 
 // PTR : 00000728
@@ -80,7 +80,7 @@ My name is Joka.
 // PTR : 0000073C
 #WRITE(PTR, $0000093C)
 //Ｊ、Ｏ、Ｋ、Ａで
-That's J-O-K-A!
+J-O-K-A.
 <$00>
 
 // PTR : 00000750
@@ -92,7 +92,7 @@ Joka!
 // PTR : 0000075C
 #WRITE(PTR, $00000944)
 //覚えてくれたかな？
-Easy to remember,\nright?
+Easy to remember, right?
 <$00>
 
 // PTR : 00000770
@@ -104,7 +104,7 @@ Joka?
 // PTR : 00000780
 #WRITE(PTR, $0000094C)
 //驚くぐらいそっくりなの
-But you look\njust like him.
+But you look\njust like Moze.
 <$00>
 
 // PTR : 00000798
@@ -116,7 +116,7 @@ My...\nfriend, I mean.
 // PTR : 000007AC
 #WRITE(PTR, $00000954)
 //まあ、\n名前は覚えてくれたみたいだね
-Well, as long as\n you remember it's me.
+Well, as long as\nyou remember it's me.
 <$00>
 
 // PTR : 000007D0
@@ -158,7 +158,7 @@ What, this?
 // PTR : 00000844
 #WRITE(PTR, $00000970)
 //これはログロックって言うんだ
-It's a loglock.
+It's a Loglock.
 <$00>
 
 // PTR : 00000864
@@ -182,7 +182,7 @@ Did that answer\nyour question?
 // PTR : 0000089C
 #WRITE(PTR, $00000980)
 //君がそこにいると
-Now, stop\nwatching me.
+Now, stop watching me.
 <$00>
 
 // PTR : 000008B0
@@ -194,7 +194,7 @@ I can't concentrate.
 // PTR : 000008C0
 #WRITE(PTR, $00000988)
 //…それなら、
-Funny thing is...
+As a matter of fact,
 <$00>
 
 // PTR : 000008D0
@@ -212,7 +212,7 @@ No way!
 // PTR : 000008EC
 #WRITE(PTR, $00000994)
 //貸してちょうだい
-I'll prove it!
+Here, let me try.
 <$00>
 
 // PTR : 00000900
@@ -273,7 +273,7 @@ I thought I'd never\nget out of there!
 // PTR : 0000100C
 #WRITE(PTR, $000010A0)
 //とにかく、ありがとう！\n君のおかげだよ！
-Thanks!\nI owe you one--
+Thanks!\nI owe you one!
 <$00>
 
 // PTR : 00001034
@@ -350,7 +350,7 @@ A certain buzzkill\nthrew me in there.
 #WBB(PTR1, $00002C34)
 #WUB(PTR1, $00002C35)
 //何も悪いことはしてないのにさ
-And I didn't do\nanything wrong!
+It's not like I\ndid anything wrong!
 <$00>
 
 // PTR : 00000370
@@ -404,7 +404,7 @@ Bell Tower Bottom
 #WBB(PTR1, $000048F4)
 #WUB(PTR1, $000048F5)
 //モーゼによく似た少年、\nジョーカと出会うアディ。
-And so, Addie met Joka,\na boy who resembles Moze.
+And so, Addie met Joka,\na boy who resembled Moze.
 <$00>
 
 #VAR(PTR2, CUSTOMPOINTER)
@@ -415,7 +415,7 @@ And so, Addie met Joka,\na boy who resembles Moze.
 #WBB(PTR2, $000049A0)
 #WUB(PTR2, $000049A1)
 //ほんとうに、別人なのかしら？\n気持ち悪いぐらいよく似てるわ
-Was he really a stranger?\nThey looked so alike!
+Is he really not Moze?\nThey look so alike!
 <$00>
 
 // PTR : 00000538
@@ -424,7 +424,7 @@ Was he really a stranger?\nThey looked so alike!
 #WBB(PTR2, $00004B04)
 #WUB(PTR2, $00004B05)
 //ログロックの不思議な力の\nおかげで案内人を得るアディ。
-Thanks to the loglock\nAddie met her guide.
+Thanks to the Loglock,\nAddie found her guide.
 <$00>
 
 // PTR : 00000570
@@ -433,7 +433,7 @@ Thanks to the loglock\nAddie met her guide.
 #WBB(PTR2, $00004BC8)
 #WUB(PTR2, $00004BC9)
 //モーゼ…、じゃなくてジョーカに\nいろいろ聞けば、何かわかるかも…
-It'd help to ask Moze-\nerr, Joka, for info.
+It'd help to ask Moze,\nI mean, Joka, for info.
 <$00>
 
 // PTR : 000005B0
@@ -469,6 +469,6 @@ Bell Tower Top
 #WBB(PTR2, $00008098)
 #WUB(PTR2, $00008099)
 //つい、鳴らしてみたくなるわね
-I'd love to give\n it a quick ring.
+I'd love to give\nthat bell a quick ring.
 <$00>
 

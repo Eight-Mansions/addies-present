@@ -14,7 +14,7 @@ The area up ahead\nis for readers,
 // PTR : 00000318
 #WRITE(PTR, $0000040C)
 //ちなみに向こう側の棟は、\n“書く人”のための場所さ
-and the opposite\nbuilding is for writers.
+and the opposite building/nis for writers.
 <$00>
 
 // PTR : 00000310
@@ -51,7 +51,7 @@ Did a boy in a hat\ncome this way?
 // PTR : 000003EC
 #WRITE(PTR, $00000424)
 //…来なかったと思うよ
-Not...that I know of.
+Sorry, not that I know of.
 <$00>
 
 // PTR : 00000BE4
@@ -63,31 +63,31 @@ Can I help you?
 // PTR : 00000BF8
 #WRITE(PTR, $00000C80)
 //館長室はここ？
-Is the chief\nlibrarian here?
+Is the head\nlibrarian here?
 <$00>
 
 // PTR : 00000C08
 #WRITE(PTR, $00000C84)
 //そうですが、館長はめったに\n人にお会いになりません
-Yes, but the chief\nrarely takes visitors.
+Yes, but the head\nrarely takes visitors.
 <$00>
 
 // PTR : 00000C3C
 #WRITE(PTR, $00000C88)
 //大事な用なの
-It's important.
+What if it's important?
 <$00>
 
 // PTR : 00000C4C
 #WRITE(PTR, $00000C8C)
 //では…少しだけですよ\nそれと、お静かにねがいます
-Well, if you're quick\nand quiet, he might.
+Well, if you're quick\nand keep your voice down...
 <$00>
 
 // PTR : 00000CC4
 #WRITE(PTR, $00000DAC)
 //ねえ、あの館長さん、なんで\nバケツなんかかぶってるの？
-Why does the chief\nlibrarian wear a bucket?
+Why does the head\nlibrarian wear a bucket?
 <$00>
 
 // PTR : 00000CFC
@@ -111,7 +111,7 @@ It must amplify\nhis sight.
 // PTR : 00000D64
 #WRITE(PTR, $00000DBC)
 //でも、バケツで目もふさがれちゃうわ
-But a bucket\ncovers eyes too.
+But a bucket would\ncover his eyes too!
 <$00>
 
 // PTR : 00000D88
@@ -129,31 +129,31 @@ Oh, okay.
 // PTR : 00000E5C
 #WRITE(PTR, $00000EF8)
 //あなたが、ここの館長さん？
-Are you the\nchief librarian?
+Are you\nthe head librarian?
 <$00>
 
 // PTR : 00000E78
 #WRITE(PTR, $00000EFC)
 //いかにも、私が\n館長のバケットヘッドだ
-Correct, I am\nMr. Buckethead.
+Correct,\nI am Mr. Buckethead.
 <$00>
 
 // PTR : 00000EA0
 #WRITE(PTR, $00000F00)
 //…なんで、バケツかぶってるの？
-Is that why you're\nwearing a bucket?
+Because you're\nwearing a bucket?
 <$00>
 
 // PTR : 00000EC0
 #WRITE(PTR, $00000F04)
 //そんなことを質問するために\nわざわざここまで来たのかね？
-Is that what you\ncame to discuss?
+Is that al you\ncame to discuss?
 <$00>
 
 // PTR : 00000FCC
 #WRITE(PTR, $0000118C)
 //…そうか、あの少年は\n歯車になったか
-Hm, this is about\nthe boy with the gears.
+Ah, this is about\nthe boy with the gears.
 <$00>
 
 // PTR : 00000FF0
@@ -189,7 +189,7 @@ B-But...he...!
 // PTR : 00001078
 #WRITE(PTR, $000011A4)
 //とりとめのない思いを\n私にぶつけるな
-I don't care for\nrambling either.
+Arguing about the past\nwill do nothing to change it.
 <$00>
 
 // PTR : 0000109C
@@ -207,7 +207,7 @@ You're right.
 // PTR : 000010D8
 #WRITE(PTR, $000011B0)
 //邪魔して、ごめんなさい
-Sorry to bother you.
+I'm sorry I bothered you.
 <$00>
 
 // PTR : 000010F0
@@ -231,7 +231,7 @@ Where you woke up.
 // PTR : 00001134
 #WRITE(PTR, $000011C0)
 //落ち着いたら、訪ねてみるといい
-Once you're settled,\nyou should visit it.
+Once you're ready,\nyou should visit it.
 <$00>
 
 // PTR : 00001154
@@ -285,13 +285,13 @@ I only need my\nsight to read.
 // PTR : 000015D0
 #WRITE(PTR, $0000177C)
 //ここから見えるのは\nインクの黒と紙の白のみ
-This lets me focus\nonly on the pages-
+This lets me focus/nonly on the pages,
 <$00>
 
 // PTR : 000015FC
 #WRITE(PTR, $00001780)
 //この対照的な二色が\n織りなすマンダラ模様こそは
-the mandala of\nblack ink on white paper,
+the mandala of black\nink on white paper,
 <$00>
 
 // PTR : 0000162C
@@ -327,13 +327,13 @@ Now, to elaborate on\nthe work's origins...
 // PTR : 00001744
 #WRITE(PTR, $00001798)
 //…失礼
--Ah! Sorry.
+...Ah! Sorry.
 <$00>
 
 // PTR : 0000174C
 #WRITE(PTR, $0000179C)
 //お前には必要のない\n知識だったようだな
-Life's too short to\nlisten to me ramble, no?
+Life's too short to\nlisten to me ramble.
 <$00>
 
 // PTR : 000017FC
@@ -345,7 +345,7 @@ Hey, about Joka...
 // PTR : 0000181C
 #WRITE(PTR, $000018F8)
 //いつのまにかログロックを\n持ってたけど、ひょっとして…
-Where did he get\nhis loglock?
+Where did he get\nhis Loglock?
 <$00>
 
 // PTR : 00001854
@@ -363,7 +363,7 @@ Actually,\nI gave it to him.
 // PTR : 0000188C
 #WRITE(PTR, $00001904)
 //望まれれば\n私は誰にでも分け与える
-"Ask, and ye shall\nreceive," I always say.
+"Ask, and ye shall receive,"\nI always say.
 <$00>
 
 // PTR : 000018B0
@@ -375,7 +375,7 @@ Sadly, the one thing\nyou asked for is gone.
 // PTR : 000018DC
 #WRITE(PTR, $0000190C)
 //…さあ、もう行くがいい
-Sorry. You should\nprobably go soon.
+Sorry.\nYou should probably go soon.
 <$00>
 
 #VAR(PTR1, CUSTOMPOINTER)
@@ -404,7 +404,7 @@ Sorry. You should\nprobably go soon.
 #WBB(PTR1, $0000345C)
 #WUB(PTR1, $0000345D)
 //人の心を読むのは難しいね…
-Mind reading\nis difficult.
+Mind reading is difficult!
 <$00>
 
 #VAR(PTR2, CUSTOMPOINTER)
@@ -442,7 +442,7 @@ You're very\ncrushed and sad!
 #WBB(PTR2, $00003538)
 #WUB(PTR2, $00003539)
 //…あなた…\nすごく、ヤな人だわ
-Can't say I'm a fan.
+...I can't say I'm a fan.
 <$00>
 
 // PTR : 00000514
@@ -451,7 +451,7 @@ Can't say I'm a fan.
 #WBB(PTR2, $00003548)
 #WUB(PTR2, $00003549)
 //あ、あれ？　怒ったの？\nご、ごめん、そんなつもりじゃ…
-Wait, did I upset you?\nI didn't mean to!
+Wait, did I upset you?\nSorry, I didn't mean it.
 <$00>
 
 // PTR : 0000054C
@@ -460,7 +460,7 @@ Wait, did I upset you?\nI didn't mean to!
 #WBB(PTR2, $000037C0)
 #WUB(PTR2, $000037C1)
 //…あれ？　僕は今、\n君が怒ったということがわかった…
-Now I can\ntell you're upset.
+Aww, I can tell\nyou're upset now.
 <$00>
 
 // PTR : 00000580
@@ -478,7 +478,7 @@ I wasn't reading your mind.
 #WBB(PTR2, $0000387C)
 #WUB(PTR2, $0000387D)
 //人の心を読むのって、
-But even then,\nwhat if
+But even then,\nwhat if...
 <$00>
 
 // PTR : 000005B8
@@ -487,7 +487,7 @@ But even then,\nwhat if
 #WBB(PTR2, $00003888)
 #WUB(PTR2, $00003889)
 //ひょっとして\nあんまり、意味ないのかな…
-mind reading\nwasn't so bad?
+mind reading\nWASN'T so bad?
 <$00>
 
 // PTR : 000005F8
@@ -505,7 +505,7 @@ Right Hall Corridor
 #WBB(PTR2, $000041E0)
 #WUB(PTR2, $000041E1)
 //昇進がかかってるんだ\nジャマしないでくれない？
-Don't bug me, kid!\nI'm getting promoted!
+Don't bug me, kid!\nI'm getting PROMOTED!
 <$00>
 
 // PTR : 00000674
@@ -523,7 +523,7 @@ Promoted?
 #WBB(PTR2, $00004274)
 #WUB(PTR2, $00004275)
 //昇進したら\n個室がもらえるんだけど、
-If I get promoted, I\nget my own bathroom stall!
+If I get promoted,\nI get my OWN bathroom stall!
 <$00>
 
 // PTR : 000006A0
@@ -532,7 +532,7 @@ If I get promoted, I\nget my own bathroom stall!
 #WBB(PTR2, $00004284)
 #WUB(PTR2, $00004285)
 //そのためには、ここにある蔵書を\n全部読まなければならないんだ
-I can read all the books\nI want in there!
+I can read ALL the books\nI want in there!
 <$00>
 
 // PTR : 000006DC
@@ -541,7 +541,7 @@ I can read all the books\nI want in there!
 #WBB(PTR2, $000044F0)
 #WUB(PTR2, $000044F1)
 //と、いうことで、\nジャマしないでくれる？
-So, like I said,\ndon't bug me!
+So, like I said,\nDON'T bug me!
 <$00>
 
 // PTR : 00000704
@@ -636,7 +636,7 @@ It's just like when\nJoka was here last time.
 #WUB(PTR2, $000067B5)
 //だいたい、ジョーカは\n人に迷惑かけすぎなのよ！
 A prank like this is\nnot good for people.
-//swan -> book
+//swan to book
 <$00>
 
 // PTR : 000008C8
@@ -663,7 +663,7 @@ Why would Joka...
 #WBB(PTR2, $000068F0)
 #WUB(PTR2, $000068F1)
 //ジョーカ…
-Joka...
+Oh, Joka...
 <$00>
 
 // PTR : 00000844
@@ -710,7 +710,7 @@ Right Hall Quiet Room
 #WBB(PTR2, $0000856C)
 #WUB(PTR2, $0000856D)
 //この先は館長室です
-This way's the\nchieflibrarian's office.
+The head librarian's\noffice is this way.
 <$00>
 
 // PTR : 00000B6C
@@ -749,7 +749,7 @@ Right Hall Passage
 #WBB(PTR2, $000093BC)
 #WUB(PTR2, $000093BD)
 //館長室・前
-Chief Librarian's Office Front
+Head Librarian's Office Front
 <$00>
 
 // PTR : 00000DE4
@@ -776,7 +776,7 @@ Do you need to\nsee the head again?
 #WBB(PTR2, $0000A144)
 #WUB(PTR2, $0000A145)
 //館長室・扉
-Chief Librarian's Office Door
+Head Librarian's Office Door
 <$00>
 
 // PTR : 00000F18
@@ -785,7 +785,7 @@ Chief Librarian's Office Door
 #WBB(PTR2, $0000A618)
 #WUB(PTR2, $0000A619)
 //バケットヘッドから\n話を聞いたアディ。
-Addie spoke with\nChief Buckethead.
+Addie spoke with\nMr. Buckethead.
 <$00>
 
 // PTR : 00000F40
@@ -805,6 +805,7 @@ A tomb? In the place\nwhere I woke up?
 //…………。
 //…………
 ......
+.........
 <$00>
 
 // PTR : 00001998
@@ -813,7 +814,7 @@ A tomb? In the place\nwhere I woke up?
 #WBB(PTR2, $0000BFB4)
 #WUB(PTR2, $0000BFB5)
 //館長室
-Chief Librarian's Office
+Head Librarian's Office
 <$00>
 
 // PTR : 000019BC

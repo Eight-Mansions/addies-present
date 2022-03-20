@@ -26,14 +26,14 @@ A lighter?\nWho left this here?
 // PTR : 0000055C
 #WRITE(PTR, $00000590)
 //少し明るくなったけど…
-At least it helps some.
+At least it does something.
 <$00>
 
 // PTR : 00000574
 #WRITE(PTR, $00000594)
 //あ、そうだわ！
 Oh! I know!
-//lighter -> firefly
+//lighter - firefly
 <$00>
 
 // PTR : 000007CC
@@ -57,13 +57,13 @@ Huh?
 // PTR : 000007DC
 #WRITE(PTR, $000008A0)
 //きゃあ！
-Hellllp!
+Heeelp!
 <$00>
 
 // PTR : 000007E8
 #WRITE(PTR, $000008A4)
 //オルゴールの上だったんだ、ここ…
-This is the top\nof the music box?
+Is this the top\nof the music box?
 <$00>
 
 // PTR : 0000080C
@@ -81,7 +81,7 @@ The town turns as it plays.\nIs this really...
 // PTR : 00000858
 #WRITE(PTR, $000008B0)
 //「世界の終わり」を告げる\nオルゴール！
-...the music box that turns\nthe world back?
+...the music box that\nturns the world back?
 <$00>
 
 // PTR : 00000880
@@ -106,7 +106,7 @@ I hope I don't have\nto go down this hole,
 #WRITE(PTR, $00000D5C)
 //…しかたなさそうね
 but we'll find out.
-//necktie -> parasol
+//necktie - parasol
 <$00>
 
 // PTR : 00001268
@@ -154,7 +154,7 @@ Oh!
 // PTR : 00001300
 #WRITE(PTR, $00001798)
 //今、動かしてみせるから
-And now, it's time\nto move!
+And now,\nit's time to move!
 <$00>
 
 // PTR : 00001318
@@ -208,13 +208,13 @@ What do you mean?
 // PTR : 00001394
 #WRITE(PTR, $000017BC)
 //部品がたりないのさ
-It's missing a part
+It's missing a part.
 <$00>
 
 // PTR : 000013A8
 #WRITE(PTR, $000017C0)
 //二つの銀の歯車をつなぐ
-that connects the\n2 silver gears.
+A little gear that\nconnects the larger two.
 <$00>
 
 // PTR : 000013C0
@@ -226,19 +226,19 @@ One last gear...
 // PTR : 000013D8
 #WRITE(PTR, $000017C8)
 //それって…
-And without it,
+And without it...
 <$00>
 
 // PTR : 000013E4
 #WRITE(PTR, $000017CC)
 //…この機械は動かないってこと？
-this machine\ncan't be unfinished?
+...this machine won't work?
 <$00>
 
 // PTR : 00001404
 #WRITE(PTR, $000017D0)
 //このままではね
-At this rate, yeah.
+At this rate, no.
 <$00>
 
 // PTR : 00001414
@@ -256,7 +256,7 @@ What I don't have in parts
 // PTR : 0000146C
 #WRITE(PTR, $000017DC)
 //意地をはってないで\nもう帰りましょうよ
-I make up for in resolve.
+I make up for in resolve!
 <$00>
 
 // PTR : 00001494
@@ -286,7 +286,7 @@ What are you saying?
 // PTR : 00001508
 #WRITE(PTR, $000017F0)
 君の助けが必要だから\nここで待ってたんだ
-I waited here because\nI need your help.
+I waited here because\nI needed your help.
 <$00>
 
 // PTR : 00001530
@@ -298,13 +298,13 @@ Addie.
 // PTR : 0000153C
 #WRITE(PTR, $000017F8)
 君のログロックの力で
-Use your loglock.\n
+Use your Logock.
 <$00>
 
 // PTR : 00001554
 #WRITE(PTR, $000017FC)
 //僕を「歯車」に変えてくれないか？
-Turn me into a gear.
+Turn me into that gear.
 <$00>
 
 // PTR : 00001578
@@ -316,7 +316,7 @@ What?!\nNo, I refuse!
 // PTR : 00001598
 #WRITE(PTR, $00001804)
 //あなたの手伝いもしたくないし
-Turn a human being into\nsome...some thing?!
+Turn a human being into\nsome...some THING?!
 <$00>
 
 // PTR : 000015B8
@@ -334,13 +334,13 @@ But if you don't,
 // PTR : 000015F4
 #WRITE(PTR, $00001810)
 //このオルゴールは動かない
-The music box won't turn.
+the music box won't turn.
 <$00>
 
 // PTR : 00001610
 #WRITE(PTR, $00001814)
 //どうして？
-So what?!
+So what if it doesn't?!
 <$00>
 
 // PTR : 0000161C
@@ -352,25 +352,25 @@ Why go this far?!
 // PTR : 0000163C
 #WRITE(PTR, $0000181C)
 //離れ離れになってかみ合わない
-I have to connect the
+I have to reconnect them.
 <$00>
 
 // PTR : 0000165C
 #WRITE(PTR, $00001820)
 //この銀の歯車を結びつけるのは
-gears that were seperated.
+The gears that have\nseperated.
 <$00>
 
 // PTR : 0000167C
 #WRITE(PTR, $00001824)
 //やっぱり僕の役目だったんだよ
-This is the role\nI was given.
+It was my job to\nbring us together!
 <$00>
 
 // PTR : 0000169C
 #WRITE(PTR, $00001828)
 //…え？
-...Given?
+..."Us"?
 <$00>
 
 // PTR : 000016A4
@@ -400,13 +400,13 @@ Dad and Mom together.
 // PTR : 000016EC
 #WRITE(PTR, $0000183C)
 //オルゴールが鳴らないのは…
-But the music box\nwouldn't work!
+But the music box\nwouldn't WORK!
 <$00>
 
 // PTR : 00001708
 #WRITE(PTR, $00001840)
 //僕があきらめたからなんだ…
-Because I gave up on it!
+Because I GAVE UP on it!
 <$00>
 
 // PTR : 00001724
@@ -418,19 +418,19 @@ But now, for sure,\nI...
 // PTR : 00001744
 #WRITE(PTR, $00001848)
 //あなた…
-Is that you,
+Moze.
 <$00>
 
 // PTR : 00001750
 #WRITE(PTR, $0000184C)
 //…モーゼ？
-Moze?
+It's you.
 <$00>
 
 // PTR : 0000175C
 #WRITE(PTR, $00001850)
 //…僕は、
-No,
+No.
 <$00>
 
 // PTR : 00001768
@@ -478,13 +478,13 @@ Wait, Addie.
 // PTR : 000025A4
 #WRITE(PTR, $00002884)
 //以前に図書館で会ったよね？
-You remember the\nlibrary, right?
+You remember\nthe library, right?
 <$00>
 
 // PTR : 000025C0
 #WRITE(PTR, $00002888)
 //あそこの館長が教えてくれたんだ
-It was the chief\nlibrarian who said,
+It was the chief\nlibrarian who told me,
 <$00>
 
 // PTR : 000025E0
@@ -496,7 +496,7 @@ It was the chief\nlibrarian who said,
 // PTR : 000025F4
 #WRITE(PTR, $00002890)
 //この壊れたオルゴールを\n動かせるかもしれないって…
-you might just fix\nthat music box."
+maybe you can fix\nthat music box."
 <$00>
 
 // PTR : 00002628
@@ -508,13 +508,13 @@ But if you did that,
 // PTR : 00002648
 #WRITE(PTR, $00002898)
 //こんな物騒なモノなんて、
-there'd be no one left
+there'd be no one left.
 <$00>
 
 // PTR : 00002664
 #WRITE(PTR, $0000289C)
 //誰も動かすはずないわ
-to turn it for!
+No one would turn it.
 <$00>
 
 // PTR : 0000267C
@@ -610,7 +610,7 @@ But who knew the\nworld itself was a music box?
 // PTR : 000027E8
 #WRITE(PTR, $000028DC)
 //…そのことは本当に\n知らんかったぞ
-I wasn't geared for that!
+I wasn't geared\nto hear that!
 <$00>
 
 // PTR : 0000280C
@@ -695,7 +695,7 @@ I can't do anything\nwith this.
 #WHB(PTR2, $000069B9)
 #WBB(PTR2, $000069B4)
 #WUB(PTR2, $000069B5)
-ＬＩＧＨＴＥＲ
+LIGHTER
 <$00>
 
 // PTR : 00000618
@@ -713,7 +713,7 @@ A gate?
 #WBB(PTR2, $00006BF4)
 #WUB(PTR2, $00006BF5)
 //…何かしら、これ
-What's this,\nI wonder?
+What's this, I wonder?
 <$00>
 
 // PTR : 00000608
@@ -802,7 +802,7 @@ Joka's necktie?
 #WBB(PTR2, $000096C0)
 #WUB(PTR2, $000096C1)
 //ネクタイ
-Necktie
+NECKTIE
 <$00>
 
 // PTR : 00000D80
@@ -947,7 +947,7 @@ Please, Addie.
 #WBB(PTR2, $0000CAB8)
 #WUB(PTR2, $0000CAB9)
 //ジョーカは最深部で\nアディを待っていた。
-Joka awaits Addie\nin the core.
+Joka waited for Addie\nin the core.
 <$00>
 
 // PTR : 000010AC
@@ -965,7 +965,7 @@ Joka turned\ninto a gear.
 #WBB(PTR2, $0000CC34)
 #WUB(PTR2, $0000CC35)
 //ジョーカがいなくなっても\n街は変わりなかった。
-The town didn't change\nwith Joka gone.
+The town didn't change\nafter Joka left.
 <$00>
 
 // PTR : 00001104
@@ -974,7 +974,7 @@ The town didn't change\nwith Joka gone.
 #WBB(PTR2, $0000CD10)
 #WUB(PTR2, $0000CD11)
 //そうだ…\n図書館の館長に会わなきゃ…
-I have to see\nthe chief librarian.
+I have to see\nthe head librarian.
 <$00>
 
 // PTR : 00001128
@@ -982,7 +982,7 @@ I have to see\nthe chief librarian.
 #WHB(PTR2, $0000CD8D)
 #WBB(PTR2, $0000CD88)
 #WUB(PTR2, $0000CD89)
-ＪＯＫＡ
+JOKA
 <$00>
 
 // PTR : 00002DCC
@@ -1126,7 +1126,7 @@ What is this?\nIt's huge!
 #WBB(PTR3, $00005248)
 #WUB(PTR3, $00005249)
 //ことよ？
-Is this...?
+What's this?
 <$00>
 
 // PTR : 00001670
@@ -1139,7 +1139,7 @@ Is this...?
 #WBB(PTR3, $000115A4)
 #WUB(PTR3, $000115A5)
 //けるのは
-Putting my foot down.
+I'm putting my foot down.
 <$00>
 
 // PTR : 00008487

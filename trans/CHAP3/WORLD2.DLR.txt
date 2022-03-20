@@ -8,7 +8,7 @@
 // PTR : 000002E0
 #WRITE(PTR, $0000032C)
 //あ、ここは、ちょっと…
-Uh, about this\nplace, Addie...
+Uhm, about this place,\nAddie...
 <$00>
 
 // PTR : 000002F8
@@ -68,7 +68,7 @@ Oh.
 // PTR : 000008E4
 #WRITE(PTR, $00000B5C)
 //結局逃げられちゃったわね
-So, Joka did run away.
+So, Joka did get away.
 <$00>
 
 // PTR : 00000900
@@ -80,7 +80,7 @@ But that couldn't\nbe helped.
 // PTR : 00000920
 #WRITE(PTR, $00000B64)
 //あなたが…
-Yes it could.
+Yes it could've!
 <$00>
 
 // PTR : 0000092C
@@ -110,7 +110,7 @@ You should have helped!
 // PTR : 000009B4
 #WRITE(PTR, $00000B78)
 //あなた、ちょっと\nあつかましいんじゃない？
-Hmph, now you're cheeky.
+Hmph, someone's\nawfully bold.
 <$00>
 
 // PTR : 000009E0
@@ -164,13 +164,13 @@ No, Eliza. I'm sorry.
 // PTR : 00000AF8
 #WRITE(PTR, $00000B9C)
 //…わかってくれればいいの\n素直なあなたは、とっても好きよ
-It's fine. I just wish\nyou'd think better of me.
+...It's fine. I just wish\nyou'd think better of me.
 <$00>
 
 // PTR : 00000B30
 #WRITE(PTR, $00000BA0)
 //…あなたに好かれても\nちっともうれしくないわ
-I do, Eliza. I just\nwish you'd notice.
+I do, Eliza.\nI'm just upset.
 <$00>
 
 // PTR : 00000EE8
@@ -182,7 +182,7 @@ I need a card?
 // PTR : 00000EF8
 #WRITE(PTR, $00000F4C)
 //お持ちでないのですね
-You don't have\none, I take it?
+You don't have one,\nI take it?
 <$00>
 
 // PTR : 00000F10
@@ -219,7 +219,7 @@ And she'll be my\nplus-one.
 // PTR : 0000101C
 #WRITE(PTR, $0000107C)
 //会員規約第４７条９項にて\n一名の同伴が認められます
-According to Article 47,\nP. 9 of the Terms of Membership...
+According to Article 47,\nP. 9 of our Terms of Membership...
 <$00>
 
 // PTR : 00001050
@@ -251,7 +251,7 @@ Don't I need a card?
 // PTR : 0000113C
 #WRITE(PTR, $00001180)
 //館長からあなたをお通しするように\n申しつけられております
-The chief librarian\nmade an exception.
+The head librarian\nmade an exception.
 <$00>
 
 // PTR : 000012CC
@@ -293,7 +293,7 @@ Something tells me\nyou'll be a while.
 // PTR : 00001784
 #WRITE(PTR, $000017A4)
 //あとは勝手になさい
-Let's meet up\nlater, okay?
+Let's meet up later,\nokay?
 <$00>
 
 #VAR(PTR1, CUSTOMPOINTER)
@@ -340,7 +340,7 @@ Why do you visit\nthe bar so much?
 #WBB(PTR1, $0000379C)
 #WUB(PTR1, $0000379D)
 //居心地がいいからよ\nあの人、気を使わないから楽だし
-To relax. The barkeep\nis too blah to fuss.
+To relax. The barkeep\nis too "blah" to fuss.
 <$00>
 
 #VAR(PTR2, CUSTOMPOINTER)
@@ -360,7 +360,7 @@ Bearded tough guys are\nnot my cup of tea.
 #WBB(PTR2, $000037F4)
 #WUB(PTR2, $000037F5)
 //でも、ああいうトーヘンボクって\nひそかに人気あるじゃない？
-Everyone likes\nthem, deep down.
+Everyone likes them,\ndeep down.
 <$00>
 
 // PTR : 00000528
@@ -378,7 +378,7 @@ No, you just have a\ncrush on that guy.
 #WBB(PTR2, $00003850)
 #WUB(PTR2, $00003851)
 //わたしは違うわよ\n一般的な話をしてるの
-I didn't say me!\nI said everyone!
+I didn't say me!\nI said "everyone"!
 <$00>
 
 // PTR : 00000578
@@ -387,7 +387,7 @@ I didn't say me!\nI said everyone!
 #WBB(PTR2, $00003894)
 #WUB(PTR2, $00003895)
 //え？　それって変じゃない
-What, no one's\njudging!
+What's wrong?\nNo one's judging!
 <$00>
 
 // PTR : 00000594
@@ -450,7 +450,7 @@ To keep knowledge\nout of the wrong hands.
 #WBB(PTR2, $00004790)
 #WUB(PTR2, $00004791)
 //きっとその人、いやな奴だわ
-The head chief\nsounds mean.
+The head librarian\nsounds mean.
 <$00>
 
 // PTR : 00000804
@@ -459,7 +459,7 @@ The head chief\nsounds mean.
 #WBB(PTR2, $000047AC)
 #WUB(PTR2, $000047AD)
 //それは分からないけど\n変わり者なのは確からしいわよ
-I don't get it either,\nbut he is odd.
+I don't know about that,\nbut he IS odd.
 <$00>
 
 // PTR : 00000838
@@ -486,7 +486,7 @@ Wait, what?!
 #WBB(PTR2, $0000565C)
 #WUB(PTR2, $0000565D)
 //お持ちでないのですね
-You don't have\none, do you?
+You don't have one,\ndo you?
 <$00>
 
 // PTR : 00000F98
@@ -557,7 +557,7 @@ You may not enter\nwithout a library card.
 #WBB(PTR2, $0000613C)
 #WUB(PTR2, $0000613D)
 ちょっと！受付が先よ
-Wait! Reception\nfirst, please.
+Wait!\nReception first, please.
 <$00>
 
 // PTR : 00001210
@@ -629,7 +629,7 @@ Ohhh...
 #WUB(PTR2, $0000751D)
 //え？　…ホタル？
 A giant firefly?
-//firefly -> journal
+//firefly - journal
 <$00>
 
 // PTR : 0000136C
@@ -763,7 +763,7 @@ FIREFLY
 #WHB(PTR2, $00007F05)
 #WBB(PTR2, $00007F00)
 #WUB(PTR2, $00007F01)
-！！！
+!!!
 <$00>
 
 // PTR : 0000150C
@@ -840,7 +840,7 @@ What's that floating?
 #WUB(PTR2, $000094ED)
 //ひっ！
 Eek!
-//specter -> sundial
+//specter - sundial
 <$00>
 
 // PTR : 000017CC
@@ -884,7 +884,7 @@ This is creepy. It's\nputting me on edge.
 #WHB(PTR2, $000099ED)
 #WBB(PTR2, $000099E8)
 #WUB(PTR2, $000099E9)
-ＳＰＥＣＴＥＲ
+SPECTER
 <$00>
 
 // PTR : 00001874

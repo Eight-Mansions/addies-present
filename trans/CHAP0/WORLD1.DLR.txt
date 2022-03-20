@@ -38,7 +38,7 @@ This is for you!
 // PTR : 000006C8
 #WRITE(PTR, $00000780)
 //これってログロックじゃない？
-Is that a loglock?
+Is that a Loglock?
 <$00>
 
 // PTR : 000006E8
@@ -56,7 +56,7 @@ And why not?
 // PTR : 00000714
 #WRITE(PTR, $0000078C)
 //ううん、ありがとう
-Err-! Thank you.
+Eep! No, I mean...
 <$00>
 
 // PTR : 00000728
@@ -80,7 +80,7 @@ Huh?
 // PTR : 00000764
 #WRITE(PTR, $0000079C)
 //ああ、いいわよ
-Yes! Very much!
+I love it! Thank you!
 <$00>
 
 // PTR : 00000ADC
@@ -92,7 +92,7 @@ I hope it's not hard.
 // PTR : 00000AF4
 #WRITE(PTR, $00000BA8)
 //ええと、抜いたりひねったり…
-Hmm, just rotate and...
+So, the "rings" pull out...
 <$00>
 
 // PTR : 00000B14
@@ -110,19 +110,19 @@ Oh, there's rules?
 // PTR : 00000B44
 #WRITE(PTR, $00000BB4)
 //…わからなくなったら、\n説明書を読み直せばいいか
-I'll have to review this\nif I get confused.
+I'll have to review this\nin case I get lost.
 <$00>
 
 // PTR : 00000B74
 #WRITE(PTR, $00000BB8)
 //（□ボタンで説明書を\n呼び出すことができます）
-(Review the manual with\nthe □ button.)
+(Open the Users' Guide\nwith the □ button.)
 <$00>
 
 // PTR : 00000F10
 #WRITE(PTR, $000012CC)
 //モーゼ、どうしたの？
-Moze!\nWhat are you doing?
+Moze!\nWhat are you doing?!
 <$00>
 
 // PTR : 00000F28
@@ -152,19 +152,19 @@ I was getting ready\nfor the move tomorrow.
 // PTR : 00000F98
 #WRITE(PTR, $000012E0)
 //そうなの…
-Oh, right.
+Oh. Right...
 <$00>
 
 // PTR : 00000FA4
 #WRITE(PTR, $000012E4)
 //…モーゼは、お母さんに\nついていくのね
-Your mom went ahead of you.
+Emmy said your mom\nmoved out first.
 <$00>
 
 // PTR : 00000FCC
 #WRITE(PTR, $000012E8)
 //一人きりじゃ、かわいそうだからね…
-I feel bad, leaving\nher alone so long.
+I feel bad, leaving\nMom alone this long.
 <$00>
 
 // PTR : 00000FF0
@@ -182,7 +182,7 @@ She'll keep him in order.
 // PTR : 00001038
 #WRITE(PTR, $000012F4)
 //…これはオルゴール？
-So, a music box?
+So, it's a music box?
 <$00>
 
 // PTR : 00001050
@@ -218,7 +218,7 @@ It doesn't!
 // PTR : 000010B4
 #WRITE(PTR, $0000130C)
 //ふう…
-Women, women,\nwomen.
+Women, women, women.
 <$00>
 
 // PTR : 000010BC
@@ -230,13 +230,13 @@ I told you,\nit's a music box!
 // PTR : 000010DC
 #WRITE(PTR, $00001314)
 //閉じ込められた音楽を
-But it's a very\nkind music box,
+But it's a very...\npolite music box
 <$00>
 
 // PTR : 000010F4
 #WRITE(PTR, $00001318)
 //逃がしてあげた心優しい箱なんだ
-so it let the music\ntrapped inside fly away!
+that, uh, let the trapped\nmusic inside it fly away!
 <$00>
 
 // PTR : 00001114
@@ -260,7 +260,7 @@ Says you! You can't\neven ride a bike!
 // PTR : 00001188
 #WRITE(PTR, $00001328)
 //木のぼりも出来ないんだから\nアディはまだ子供じゃないか
-And you can't climb a\ntree, you little kid!
+And you can't climb\na tree, you KID!
 <$00>
 
 // PTR : 000011C0
@@ -284,13 +284,13 @@ It's the first gift\nDad ever gave Mom.
 // PTR : 0000122C
 #WRITE(PTR, $00001338)
 //何度も直そうとしたけどダメだった
-I tried fixing it a\nbunch of times,
+I tried fixing it\na bunch of times,
 <$00>
 
 // PTR : 00001250
 #WRITE(PTR, $0000133C)
 //…だからもういいんだ
-but it didn't work out.
+but it never worked out.
 <$00>
 
 // PTR : 00001268
@@ -320,7 +320,7 @@ Oh, Moze.
 // PTR : 00001B34
 #WRITE(PTR, $00001C80)
 //まずは練習問題から
-First, let's\njust play around.
+Let's just tinker\nwith it, first.
 <$00>
 
 // PTR : 00000CEC
@@ -403,7 +403,7 @@ Let's try once more!
 #WRITE(PTR, $00001E8C)
 #WRITE(PTR, $00001EE4)
 //ちょっと難しかったかも…
-These are a bit hard.
+These are a little tricky.
 <$00>
 
 // PTR : 00001C00
@@ -436,7 +436,7 @@ Let's see!
 #WRITE(PTR, $00001F68)
 #WRITE(PTR, $00001FDC)
 //これって…
-A real, live\nloglock...
+A real, live\nLoglock...
 <$00>
 
 // PTR : 00001F4C
@@ -449,7 +449,7 @@ I've always wanted one!
 // PTR : 00001FC0
 #WRITE(PTR, $00001FE4)
 //説明書がないと、まだ不安ね
-These instructions\nare intense.
+These instructions\nare complicated.
 <$00>
 
 // PTR : 00002124
@@ -461,7 +461,7 @@ So, Emmy...\nIs something wrong?
 // PTR : 00002140
 #WRITE(PTR, $0000216C)
 //別に、あなたに\n話すようなことじゃないわ
-Besides you talking?\nNot really.
+Nothing worth talking\nabout, really.
 <$00>
 
 // PTR : 000021A4
@@ -473,7 +473,7 @@ Hey, Addie.
 // PTR : 000021B4
 #WRITE(PTR, $00002218)
 //兄さんは、もう来たの？
-Did my big\nbrother come see you?
+Did my big brother \ncome see you?
 <$00>
 
 // PTR : 000021CC
@@ -485,13 +485,13 @@ Moze? No, not today.
 // PTR : 000021EC
 #WRITE(PTR, $00002220)
 //何か大事な用事があるんだって
-Must have something\nmore important to do.
+Must've had something\nmore important to do.
 <$00>
 
 // PTR : 0000220C
 #WRITE(PTR, $00002224)
 //そう…
-Really...
+I see...
 <$00>
 
 // PTR : 000022B4
@@ -503,7 +503,7 @@ I guess I'll go home.
 // PTR : 000022C8
 #WRITE(PTR, $00002350)
 //食事のしたくを\nしないといけないし
-I have to go help with supper.
+I have to help with supper.
 <$00>
 
 // PTR : 000022EC
@@ -515,26 +515,27 @@ Wow, you're cooking at home?
 // PTR : 0000230C
 #WRITE(PTR, $00002358)
 //…母さんがもう、引っ越したから
-...Yeah. Mom moved already.
+That's right. Mom moved already.
 <$00>
 
 // PTR : 00000344
 #WRITE(PTR, $00000354)
 #WRITE(PTR, $00002170)
 #WRITE(PTR, $0000235C)
-……
+//……
+...
 <$00>
 
 // PTR : 0000232C
 #WRITE(PTR, $00002360)
 //…そうなんだ
-...That's right.
+Oh, right.
 <$00>
 
 // PTR : 0000233C
 #WRITE(PTR, $00002364)
 //下まで送るわ
-I can walk you out!
+Here, I'll walk you out!
 <$00>
 
 #VAR(PTR1, CUSTOMPOINTER)
@@ -563,7 +564,7 @@ Whew.
 #WBB(PTR1, $000043D8)
 #WUB(PTR1, $000043D9)
 //エミィが帰った後。\n机の上に転がるプレゼント。
-Emmy left her\npresent on the desk.
+Emmy left. The Loglock\nsat on Addie's desk.
 <$00>
 
 // PTR : 000003D4
@@ -572,7 +573,7 @@ Emmy left her\npresent on the desk.
 #WBB(PTR1, $000044B8)
 #WUB(PTR1, $000044B9)
 //エミィがプレゼントをくれるなんて…
-Emmy gave me a present.
+This is a present from Emmy.
 <$00>
 
 // PTR : 00000410
@@ -610,7 +611,7 @@ of Addie's 9th birthday.
 #WBB(PTR2, $00005A68)
 #WUB(PTR2, $00005A69)
 //これがログロックの説明書ね
-This is the Loglock manual!
+This is the Locklock\nUsers' Guide!
 <$00>
 
 // PTR : 00000C10
@@ -628,7 +629,7 @@ What's this?
 #WBB(PTR2, $00005E48)
 #WUB(PTR2, $00005E49)
 //ログロックの説明書よ
-It's a loglock manual!
+This is the Locklock\nUsers' Guide!
 <$00>
 
 // PTR : 00000C38
@@ -637,7 +638,7 @@ It's a loglock manual!
 #WBB(PTR2, $00005FAC)
 #WUB(PTR2, $00005FAD)
 //はやくログロックで遊びたいのは\nわかるけど、
-I'm sure you want\nto play now,
+I'm glad you want\nto play with the Loglock,
 <$00>
 
 // PTR : 00000C64
@@ -646,7 +647,7 @@ I'm sure you want\nto play now,
 #WBB(PTR2, $00005FB8)
 #WUB(PTR2, $00005FB9)
 //わたしが帰ってからでもいいでしょ？
-but after I leave, okay?
+but wait until after\nI leave, okay?
 <$00>
 
 // PTR : 00000CA4
@@ -664,7 +665,7 @@ Ah! I have books\nto return to Emmy.
 #WBB(PTR2, $0000620C)
 #WUB(PTR2, $0000620D)
 //…明日でいいか
-Maybe tomorrow?
+I'll take them over\ntomorrow.
 <$00>
 
 // PTR : 00000CD0
@@ -682,7 +683,7 @@ Actually...
 #WBB(PTR2, $000062E8)
 #WUB(PTR2, $000062E9)
 //やってみようかな
-Let's try the loglock\nout a little.
+Let's try the Loglock\nout a little.
 <$00>
 
 // PTR : 00000D00
@@ -691,7 +692,7 @@ Let's try the loglock\nout a little.
 #WBB(PTR2, $00006310)
 #WUB(PTR2, $00006311)
 //…なんかくやしいなあ
-How vexing!
+It's twisting my brain!
 <$00>
 
 // PTR : 00000D18
@@ -709,7 +710,7 @@ Let's try some more.
 #WBB(PTR2, $0000655C)
 #WUB(PTR2, $0000655D)
 //アディが誕生日を迎えた夜。\n近所に住むエミィの訪問。
-On the night of Addie's\nbirthday, Emmy visits.
+Emmy visited Addie on\nthe night of her birthday.
 <$00>
 
 // PTR : 00000D8C
@@ -763,7 +764,7 @@ Well!
 #WBB(PTR2, $00009780)
 #WUB(PTR2, $00009781)
 //ふう…。\nちょっと、休憩
-Hmph, maybe a\nbreak will help.
+Hmph, maybe taking\na break will help.
 <$00>
 
 // PTR : 00001FF4
@@ -772,7 +773,7 @@ Hmph, maybe a\nbreak will help.
 #WBB(PTR2, $00009BB4)
 #WUB(PTR2, $00009BB5)
 //説明書はどこだっけ…
-Where's the\nmanual...?
+Where's that\nUsers' Guide...?
 <$00>
 
 // PTR : 0000200C
@@ -799,7 +800,7 @@ Well, now\nI'm tired.
 #WBB(PTR2, $00009E5C)
 #WUB(PTR2, $00009E5D)
 //ねえ、お客さまが\n来てるっていうのに、
-How can someone\nplay with toys
+Is now really a good\ntime to play with that?
 <$00>
 
 // PTR : 00002070
@@ -808,7 +809,7 @@ How can someone\nplay with toys
 #WBB(PTR2, $00009E68)
 #WUB(PTR2, $00009E69)
 //おもちゃで遊ぶって、どうなの？
-when there are guests?
+I'm still here, you know.
 <$00>
 
 // PTR : 00002100

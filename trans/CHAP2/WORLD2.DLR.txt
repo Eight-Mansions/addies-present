@@ -39,7 +39,7 @@ Oh, just this worm.\nWanna see?
 #WRITE(PTR, $00000748)
 //え！　ミミズ？
 Oh! Okay?
-//worm -> line
+//worm - line
 <$00>
 
 // PTR : 00000788
@@ -63,7 +63,7 @@ Heigh-ho!
 // PTR : 000007E4
 #WRITE(PTR, $00000840)
 //えーと…予備の釣り糸\n…まだ持ってるかい？
-Uh-oh...Can you make\nme some more line?
+Uh-oh! Can you make\nsome more line for me?
 <$00>
 
 // PTR : 00000810
@@ -231,7 +231,7 @@ The end of the...
 // PTR : 00001018
 #WRITE(PTR, $00001158)
 //ちょっと！なにやってるのよ！？
-Hold on!\nWhat are doing!
+Hold on!\nWhat are doing?!
 <$00>
 
 // PTR : 00001038
@@ -249,7 +249,7 @@ Can't you tell?
 // PTR : 00001078
 #WRITE(PTR, $00001164)
 //だから見たくないのっ！
-Not if I'm\nnot looking!
+Not if I'm/nnot looking!
 <$00>
 
 // PTR : 00001090
@@ -273,7 +273,7 @@ I change quick.
 // PTR : 000010D4
 #WRITE(PTR, $00001174)
 //まったく…
-Ugh, boys...
+Ick, boys...
 <$00>
 
 // PTR : 000010E0
@@ -285,7 +285,7 @@ They never have\nany shame.
 // PTR : 000010FC
 #WRITE(PTR, $0000117C)
 //…ねぇジョーカ、まだなの？
-Have you changed\nyet, Joka?
+Are you done yet, Joka?
 <$00>
 
 // PTR : 000007D4
@@ -299,7 +299,7 @@ Have you changed\nyet, Joka?
 #WRITE(PTR, $00001144)
 #WRITE(PTR, $00001184)
 //ねぇ…
-Hey...
+Hey!
 <$00>
 
 // PTR : 00000E94
@@ -329,7 +329,7 @@ Nope! (Chomp!)
 
 // PTR : 0000183C
 #WRITE(PTR, $000018E4)
-……
+......
 <$00>
 
 // PTR : 00001844
@@ -360,7 +360,7 @@ Come on, just one!
 #WRITE(PTR, $000018F8)
 //あうう…\nせっかくのおやつタイムが…
 Ugh, fine...\nBon appetit!
-//cookie -> button
+//cookie - button
 <$00>
 
 // PTR : 00001968
@@ -378,7 +378,7 @@ Nope.
 // PTR : 00001984
 #WRITE(PTR, $00001998)
 //やっぱり…
-I get it...
+I get it.
 <$00>
 
 // PTR : 00001CC4
@@ -426,7 +426,7 @@ Oh dear...
 // PTR : 00001DB0
 #WRITE(PTR, $00001DD4)
 //いいよもう。ちぇ
-You'll be fine.\nJust sayin'.
+You'll be fine.\nI'm only sayin'.
 <$00>
 
 // PTR : 00001D9C
@@ -452,13 +452,13 @@ What's wrong?\nYou don't look so good.
 // PTR : 00001E68
 #WRITE(PTR, $00001F2C)
 //うん…兄貴にね、洗濯物を\n取ってくるまで帰ってくるなって
-I wasn't going to\ngo home without laundry.
+I wasn't going\nhome without laundry.
 <$00>
 
 // PTR : 00001EA0
 #WRITE(PTR, $00001F30)
 //言われてるんだ…
-That's what I told\nmy big brother.
+That's what I promised\nmy big brother.
 <$00>
 
 // PTR : 00001EB4
@@ -596,7 +596,7 @@ you'll cough up\nyourlaundry.
 // PTR : 00002630
 #WRITE(PTR, $000026B0)
 //はあ？
-H-Hold on!
+Hold on!
 <$00>
 
 // PTR : 00002638
@@ -614,7 +614,7 @@ Yeah, your clothes\nare clearly dirty!
 // PTR : 00002674
 #WRITE(PTR, $000026BC)
 //…別に、汚れてないわよ
-...Are not.
+...Are not!
 <$00>
 
 // PTR : 0000268C
@@ -805,7 +805,7 @@ This is my happy place.\nI come here to relax.
 #WBB(PTR2, $00005FFC)
 #WUB(PTR2, $00005FFD)
 //しっ！　静かに…\nここの魚は敏感なんだ…
-Ssh! The fish are\nonto me!
+Shh!\nThe fish are onto me!
 <$00>
 
 // PTR : 00000764
@@ -823,7 +823,7 @@ Oh, earthworm...
 #WBB(PTR2, $0000687C)
 #WUB(PTR2, $0000687D)
 //やっぱり触りたくないわ…
-I don't wanna\ndo you wrong,
+I never meant\nto do you wrong,
 <$00>
 
 // PTR : 0000087C
@@ -832,7 +832,7 @@ I don't wanna\ndo you wrong,
 #WBB(PTR2, $000068D4)
 #WUB(PTR2, $000068D5)
 釣り糸の無い釣り竿って\nただの棒だよな…
-but a rod without bait\nis just a stick.
+but a rod without bait\nis just a stick!
 <$00>
 
 // PTR : 000008A4
@@ -841,7 +841,7 @@ but a rod without bait\nis just a stick.
 #WBB(PTR2, $000068FC)
 #WUB(PTR2, $000068FD)
 //釣り糸をたらしているだけで\nずいぶんと幸せなもんだね
-I hope you're having fun,\ndangling about.
+I hope you're having fun,\ndangling your last.
 <$00>
 
 // PTR : 00000938
@@ -868,7 +868,7 @@ Hey, Wino.
 #WBB(PTR2, $0000777C)
 #WUB(PTR2, $0000777D)
 //…つまで手間どってんだ！
-Check these\ndoozies out, guys!
+Check these doozies out!
 <$00>
 
 // PTR : 000009EC
@@ -877,7 +877,7 @@ Check these\ndoozies out, guys!
 #WBB(PTR2, $00007788)
 #WUB(PTR2, $00007789)
 //…らず汚れるもんだろう！
-Pee-eww! Those are\ndir-ir-irty!
+PEE-EWW!\nThose are dir-ir-irty!
 <$00>
 
 // PTR : 00000A28
@@ -976,7 +976,7 @@ Excuse you?
 #WBB(PTR2, $00009264)
 #WUB(PTR2, $00009265)
 //ここは洗濯屋だよ
-This is the\nlaundromat.
+This is the laundromat.
 <$00>
 
 // PTR : 00000DC8
@@ -1039,7 +1039,7 @@ My poor snacks...
 #WBB(PTR2, $0000A8B4)
 #WUB(PTR2, $0000A8B5)
 //ランドリーでボタンを手に入れ\n材料が全部そろった。
-With the buttons,\nwe have all the materials.
+With that button,\nwe have all the materials.
 <$00>
 
 // PTR : 000017A0
@@ -1205,7 +1205,7 @@ But I can't\nlet you through.
 #WBB(PTR2, $0000C638)
 #WUB(PTR2, $0000C639)
 //ジョーカからオルゴールの\n話を聞いたアディ。
-Joka tells Addie\nabout the music box.
+Joka told Addie\nabout the music box.
 <$00>
 
 // PTR : 00001B94

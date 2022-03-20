@@ -90,13 +90,13 @@ Hmm, jazz sounds nice!
 // PTR : 0000060C
 #WRITE(PTR, $0000078C)
 //じゃあ、私は外で一服してるよ
-I'm going out\nfor a break.
+I'm going out\nfor a spell.
 <$00>
 
 // PTR : 0000062C
 #WRITE(PTR, $00000790)
 //後は頼むぞ
-Fix what you\ncan, Addie.
+Fix what you can.
 <$00>
 
 // PTR : 00000638
@@ -120,13 +120,13 @@ The musical instruments\nall around the bar.
 // PTR : 0000068C
 #WRITE(PTR, $000007A0)
 ステージも楽屋もこの通りよ
-I want you to\nuse the loglock
+I want you to\nuse the Loglock
 <$00>
 
 // PTR : 000006A8
 #WRITE(PTR, $000007A4)
 //これを、ログロックで\n直してほしいの
-and turn stuff\nback to normal.
+and return the objects\nin this room to normal.
 <$00>
 
 // PTR : 000006CC
@@ -162,7 +162,7 @@ Yes, for my birthday.
 // PTR : 00000750
 #WRITE(PTR, $000007BC)
 //ほんとうにあなた、いい性格ね
-Wow, you really\nare fancy!
+Wow, you really\nARE fancy!
 <$00>
 
 // PTR : 00000770
@@ -171,15 +171,14 @@ Wow, you really\nare fancy!
 I'd say so.\nWell, break a leg!
 <$00>
 
-//bowl -> drum
-//yam -> sax
-//cactus -> guitar
-//chest -> cello
-//stove -> piano
-//melon -> viola
-//desk -> bass
-//papaya -> violin
-
+//bowl - drum
+//yam - sax
+//cactus - guitar
+//chest - cello
+//stove - piano
+//melon - viola
+//desk - bass
+//papaya - violin
 
 // PTR : 0000082C
 #WRITE(PTR, $00000870)
@@ -358,7 +357,7 @@ Huh? For what?
 // PTR : 00000D40
 #WRITE(PTR, $00000EA8)
 //私の誕生日を祝いに\n来てくれたんでしょ
-My birthday, of course.
+For my birthday,\nof course.
 <$00>
 
 // PTR : 00000D68
@@ -483,13 +482,13 @@ Then can I help\nwith cleanup?
 // PTR : 00001784
 #WRITE(PTR, $00001838)
 //いらないもの？　なんでまた
-Cleanup?\nWell, I guess...
+Cleanup?\nWell, I guess.
 <$00>
 
 // PTR : 000017A0
 #WRITE(PTR, $0000183C)
 //服を作るためよ、お願い
-Just being resourceful.
+Just being resourceful!
 <$00>
 
 // PTR : 000017B8
@@ -508,7 +507,7 @@ A wine bottle?
 #WRITE(PTR, $00001848)
 //お前さんのやることは変わってるな
 One man's trash,\nanother man's treasure.
-//bottle -> bobbin
+//bottle - bobbin
 <$00>
 
 // PTR : 000019C8
@@ -532,7 +531,7 @@ Reno said something\nabout it.
 // PTR : 00001A34
 #WRITE(PTR, $00001AC4)
 //洗濯屋のガキどもか！
-Of course it was...
+Of course they did...
 <$00>
 
 // PTR : 00001A4C
@@ -544,7 +543,7 @@ I don't know where\nReno get's those ideas,
 // PTR : 00001A74
 #WRITE(PTR, $00001ACC)
 //あいつにオルゴールをやっただけで\nなんでそこまで言われにゃならん！
-All I did was give\nher a music box.
+All I did was give\nPia a music box.
 <$00>
 
 // PTR : 00001CA0
@@ -567,13 +566,13 @@ And lose it?\nNo way!
 
 // PTR : 00001D08
 #WRITE(PTR, $00001D88)
-……
+......
 <$00>
 
 // PTR : 00001D10
 #WRITE(PTR, $00001D8C)
 //でも、ついていってあげる\nことはできるわ
-But I'll get you\nin as a plus-one.
+But I'll get you\nin as my plus-one.
 <$00>
 
 // PTR : 00000A10
@@ -586,19 +585,19 @@ Huh?
 // PTR : 00001D38
 #WRITE(PTR, $00001D94)
 //いっしょには入れるはずよ
-They should let\nus in together.
+They should let us\nwalk in together.
 <$00>
 
 // PTR : 00001D54
 #WRITE(PTR, $00001D98)
 //借りたい本もあるし\nいっしょに行きましょ
-There's a book I\nwant to borrow anyways.
+There's a book I'd\nlike to borrow anyways.
 <$00>
 
 // PTR : 0000207C
 #WRITE(PTR, $000021C4)
 //大事な用事があるのよ
-Please, this\nis important!
+Please, it's important!
 <$00>
 
 // PTR : 00002094
@@ -646,7 +645,7 @@ Go to the tailor at\nthe end of the alley.
 // PTR : 00002188
 #WRITE(PTR, $000021E4)
 //注文してある服をとってくるんだ
-Speak to Pia and\npick up my clothes order.
+Speak to Pia and\npick up my commission.
 <$00>
 
 // PTR : 000021A8
@@ -670,7 +669,7 @@ No need to yell.\nI hear you.
 // PTR : 000023D0
 #WRITE(PTR, $00002468)
 //あの、マスター、ここにジョーカ…
-Oh, sorry!\nI came to ask a-
+Oh, sorry!\nI came to ask about...
 <$00>
 
 // PTR : 000023F4
@@ -833,7 +832,7 @@ After the concert,\nJoka fled the bar.
 #WBB(PTR2, $00006398)
 #WUB(PTR2, $00006399)
 //裏通りの仕立屋だ
-The tailor's in\nthe alleyway.
+The tailor is in\nthe alleyway.
 <$00>
 
 // PTR : 00000AD8
@@ -913,7 +912,7 @@ Voila! A bobbin!
 #WBB(PTR2, $00007B18)
 #WUB(PTR2, $00007B19)
 //ほう。たいしたもんだ
-Huh! I'd be darned!
+Huh! I'll be darned!
 <$00>
 
 // PTR : 000014B4
@@ -1178,7 +1177,7 @@ Oh! Yes, the clothes!
 #WBB(PTR2, $0000A4BC)
 #WUB(PTR2, $0000A4BD)
 //おかしなものに変わった\n楽器を直すことに。
-Turning the strange objects\nback into instruments...
+Can those strange objects\nturn back into instruments?
 <$00>
 
 // PTR : 00001B54
@@ -1191,7 +1190,7 @@ Turning the strange objects\nback into instruments...
 #WBB(PTR2, $0000A590)
 #WUB(PTR2, $0000A591)
 //うーん、いくつなおせば\n演奏ができるのかしら
-What we all can play\ndepends on the it.
+What music we get to play\ndepends on the it!
 <$00>
 
 // PTR : 00001FB4
@@ -1278,6 +1277,6 @@ Maybe he left\nfor Zoo's house!
 #WBB(PTR3, $0000DB78)
 #WUB(PTR3, $0000DB79)
 //って\nいったいどこかしら
-I mean, who knows?!
+I mean, who knows?
 <$00>
 

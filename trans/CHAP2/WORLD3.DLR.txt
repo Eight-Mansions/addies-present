@@ -14,7 +14,7 @@ Hey!\nA customer!
 // PTR : 00000380
 #WRITE(PTR, $0000042C)
 //いいな、洗濯物を引き受けるまで\n戻ってくるなよ！
-Okay bros, go get\nus more laundry!
+Okay, bros, go get\nus more laundry!
 <$00>
 
 // PTR : 000003B0
@@ -44,7 +44,7 @@ Sorry you had\nto see that.
 // PTR : 00000414
 #WRITE(PTR, $00000440)
 //何か用かい？　客人
-What'll it be,\nma'am?
+What'll it be, ma'am?
 <$00>
 
 // PTR : 00000490
@@ -116,7 +116,7 @@ In the name of\nthe Laundry Bros.,
 // PTR : 00000690
 #WRITE(PTR, $000006D4)
 //ジョーカの居所を洗ってやるぜ！
-We'll find ol' Joka\nand flush him out!
+we'll find ol' Joka\nand flush him out!
 <$00>
 
 // PTR : 000007B0
@@ -128,13 +128,13 @@ Heya, Addie!\nHow's the Joka hunt?
 // PTR : 000007DC
 #WRITE(PTR, $00000894)
 //ジョーカはもういいわ\n別の人をさがして
-On hold for now.\nInstead...
+On hold for right now.
 <$00>
 
 // PTR : 00000804
 #WRITE(PTR, $00000898)
 //イライザって子なんだけど…
-I'm looking for Eliza.
+I need to find Eliza.
 <$00>
 
 // PTR : 00000660
@@ -175,7 +175,7 @@ I need a little help.
 #WRITE(PTR, $00000FE4)
 //まずは…これを頼むよ
 First, we need soap.
-//coal -> soap
+//coal - soap
 <$00>
 
 // PTR : 00000FAC
@@ -188,14 +188,14 @@ Next, dryer sheets.
 // PTR : 00000FBC
 #WRITE(PTR, $00000FEC)
 //次はこれ
-Anyways,\nsome diapers.
+Next, we need diapers.
 <$00>
 
 // PTR : 00000FC8
 #WRITE(PTR, $00000FF0)
 //ごめん\nあとこれだけたのむよ
 Sorry. All I need\nnow is a mantle.
-//ginkgo ->mantle
+//ginkgo -mantle
 <$00>
 
 // PTR : 00001004
@@ -225,7 +225,7 @@ It's "Boss"!
 // PTR : 00001228
 #WRITE(PTR, $0000127C)
 //ボ、ボス！
-S-Sorry, Boss!
+Sorry, Boss!
 <$00>
 
 // PTR : 00001234
@@ -256,19 +256,19 @@ Stop calling me that\non the clock!
 // PTR : 0000137C
 #WRITE(PTR, $000013DC)
 //…で、どうした？
-...Okay, what.
+Okay, what?
 <$00>
 
 // PTR : 00001390
 #WRITE(PTR, $000013E0)
 //あ、あのね\n街の方にいるらしいんだけど…
-Uhm, uh, this search\nmight a wash.
+Uhm, uh, this search\nmight be a wash.
 <$00>
 
 // PTR : 000013B8
 #WRITE(PTR, $000013E4)
 //…もっときちんと洗ってこい
-but I'll keep running!
+But I'll keep running!
 <$00>
 
 // PTR : 000014F0
@@ -292,19 +292,19 @@ Yeah.
 // PTR : 00001524
 #WRITE(PTR, $0000164C)
 //しようがない、また\nデンのアニさんに頼るしかないか…
-It's okay. Den will\nknow for sure.
+It's okay.\nDen will definitely know!
 <$00>
 
 // PTR : 00001558
 #WRITE(PTR, $00001650)
 //え？
-"For sure"?
+"Definitely?"
 <$00>
 
 // PTR : 00001560
 #WRITE(PTR, $00001654)
 //どうして、初めから\nそうしなかったの？
-Then why not ask\nhim from the start?
+Why didn't you\nask him sooner?
 <$00>
 
 // PTR : 00001588
@@ -316,13 +316,13 @@ Kids have to learn\nself-reliance, no?
 // PTR : 000015B0
 #WRITE(PTR, $0000165C)
 //わたし、けっこう\n急いでるんだけど…
-This was urgent, Wino.
+This was URGENT, Wino!
 <$00>
 
 // PTR : 000015D4
 #WRITE(PTR, $00001660)
 //え？　急ぎなの？　そういうことは\n前もって言ってくれないと
-Ack! It was? Then why\nnot say so sooner?!
+Ack! It was? Why didn't\nyou say so sooner?
 <$00>
 
 // PTR : 00001610
@@ -376,7 +376,7 @@ This slot machine\nis actually a pump.
 // PTR : 00001C00
 #WRITE(PTR, $00001C90)
 //まずここから水をくみ出さないと\n動かないんだけど、
-It's busted, so\nwe can't get water.
+It's busted, so\nwe can't draw water.
 <$00>
 
 // PTR : 00001C34
@@ -448,7 +448,7 @@ Deal. You want to try?\nBe my guest.
 #WBB(PTR1, $00002EA0)
 #WUB(PTR1, $00002EA1)
 //ね、あねご\n今のところイケているネタはないよ
-No news yet,\nAddie-o.
+No news yet, Addie-o.
 <$00>
 
 // PTR : 000002E4
@@ -457,7 +457,7 @@ No news yet,\nAddie-o.
 #WBB(PTR1, $00003B94)
 #WUB(PTR1, $00003B95)
 //ジョーカとかいう洗い物の居場所は\n弟たちにあたらせてる
-My brothers ran\ncycles all over town.
+My siblings ran\ncycles all over town.
 <$00>
 
 // PTR : 0000031C
@@ -531,7 +531,7 @@ Addie met three siblings\ndedicated to laundry.
 #WBB(PTR2, $00005138)
 #WUB(PTR2, $00005139)
 //ポンプを直したお礼に\nジョーカを探してもらうことに。
-Thanks for helping\nwith the pump.
+If the pump's fixed, maybe\nwe can look for Joka together.
 <$00>
 
 // PTR : 00000750
@@ -549,7 +549,8 @@ The trio's looking for Joka.\nWhy not take a break?
 #WBB(PTR2, $00005838)
 #WUB(PTR2, $00005839)
 //イライザ探しを頼むかわりに\n洗濯物を直すことに。
-Why not follow\nafter Eliza later?
+I should wait before
+nfinding Eliza.
 <$00>
 
 // PTR : 00000910
@@ -558,7 +559,7 @@ Why not follow\nafter Eliza later?
 #WBB(PTR2, $000058E0)
 #WUB(PTR2, $000058E1)
 //これでイライザがみつかるなら\nお安いご用だわ
-It might pay off\nto help with laundry.
+It might pay to\nhelp the Laundry Bros.
 <$00>
 
 // PTR : 0000093C
@@ -612,7 +613,7 @@ We saw Joka!\nHe was leaving town!
 #WBB(PTR2, $00005C44)
 #WUB(PTR2, $00005C45)
 //…あなたは何をやってるの？
-...What are you doing?
+What are you doing?
 <$00>
 
 // PTR : 00000A18
@@ -621,7 +622,7 @@ We saw Joka!\nHe was leaving town!
 #WBB(PTR2, $00005CE4)
 #WUB(PTR2, $00005CE5)
 //プロの洗濯屋の\n道のりはけわしいねぇ
-The road of a laundry-\nman is a long one.
+The road of the laundryman\nis indeed a long one.
 <$00>
 
 // PTR : 00000A3C
@@ -702,7 +703,7 @@ Sorry, I wasn't thinking.
 #WBB(PTR2, $0000613C)
 #WUB(PTR2, $0000613D)
 //兄ちゃん、それって…
-Come on, Bro...
+Come on, bro...
 <$00>
 
 // PTR : 00000BAC
@@ -900,7 +901,7 @@ Mantle
 #WBB(PTR2, $00009ED8)
 #WUB(PTR2, $00009ED9)
 //結局、イライザは見つからず\nデンに会いにいくことに。
-With Eliza MIA,\nAddie went to see Den.
+With Eliza missing,\nAddie went to see Den.
 <$00>
 
 // PTR : 000016C4
@@ -909,7 +910,7 @@ With Eliza MIA,\nAddie went to see Den.
 #WBB(PTR2, $00009F94)
 #WUB(PTR2, $00009F95)
 //最初からデンのところに\n行けばよかったわ
-Should have asked Den\nfrom the very beginning...
+I should have asked Den\nfrom the start...
 <$00>
 
 // PTR : 00000F80
@@ -993,7 +994,7 @@ They might have\nnews on Joka.
 #WBB(PTR2, $0000A418)
 #WUB(PTR2, $0000A419)
 //家長の威厳をたもつのは\n意外に大変なんだ
-Wino's holding for at\nthe laundromat. Must be tough.
+Wino's holding fort at\nthe laundromat. Must be tough.
 <$00>
 
 // PTR : 00001874

@@ -26,7 +26,7 @@ You know what I meant!
 // PTR : 00000398
 #WRITE(PTR, $00000544)
 //‰¹‚Ì‚¨•—˜C‚Ý‚½‚¢‚ÈŠ´‚¶‚¾‚È‚Á‚Ä
-You know,\nbathing in sound!
+You know,\nbathing in sound?
 <$00>
 
 // PTR : 000003B8

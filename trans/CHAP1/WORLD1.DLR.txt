@@ -20,7 +20,7 @@ Where am I?
 // PTR : 00000DA4
 #WRITE(PTR, $00000F48)
 //おはよう、モーゼ
-Good morning,\nMoze.
+Good morning, Moze.
 <$00>
 
 // PTR : 00000DB8
@@ -38,7 +38,7 @@ Well, come on up!
 // PTR : 00000DD8
 #WRITE(PTR, $00000F54)
 //登れたらの話だけど
-If you can.
+If you can!
 <$00>
 
 // PTR : 00000DEC
@@ -56,7 +56,7 @@ Hold this for me!
 // PTR : 00000E04
 #WRITE(PTR, $00000F60)
 //え、ちょっと…
-Woah, hold on!
+Woah, wait up!
 <$00>
 
 // PTR : 00000E14
@@ -74,13 +74,13 @@ Yeah? Do you...\nstill want to talk?
 // PTR : 00000E44
 #WRITE(PTR, $00000F6C)
 //動いたよ、オルゴール
-Yeah, it's about\nthe music box.
+I do! It's about\nthe music box.
 <$00>
 
 // PTR : 00000E5C
 #WRITE(PTR, $00000F70)
 //ほら
-It's open now!
+Look!
 <$00>
 
 // PTR : 00000E64
@@ -110,7 +110,7 @@ You're a kid!\nYou're flexible!
 // PTR : 00000ED0
 #WRITE(PTR, $00000F88)
 //大人のわがままに負けちゃうの？
-Or did you succumb to\nrigid adult life already?
+Or have you succumbed to\nrigid adult life already?
 <$00>
 
 // PTR : 00000EF0
@@ -218,7 +218,7 @@ I'm not blaming you.
 // PTR : 000018B0
 #WRITE(PTR, $00001988)
 //思っていたよりもあなたは、
-You're more adult...
+You're just more adult...
 <$00>
 
 // PTR : 000018CC
@@ -272,7 +272,7 @@ This looks\nlike a chair.
 // PTR : 00001FB8
 #WRITE(PTR, $00001FD8)
 //にしても、大げさだけど
-An awfully large\none.
+An awfully large one.
 <$00>
 
 // PTR : 0000204C
@@ -284,13 +284,13 @@ Hmm?
 // PTR : 00002054
 #WRITE(PTR, $000020A8)
 //なにか書いてあるわ…
-Something's written\nhere.
+Something's written here.
 <$00>
 
 // PTR : 000003A8
 #WRITE(PTR, $000003C0)
 #WRITE(PTR, $000020AC)
-……
+......
 <$00>
 
 // PTR : 0000206C
@@ -437,7 +437,7 @@ Save GAME CLEAR data\non the next screen.
 #WBB(PTR1, $00004C78)
 #WUB(PTR1, $00004C79)
 //セーブされなかった場合\nクリアデータは失われます
-If not saved,\nGAME CLEAR will be lost.
+If not saved,\nprogress will be lost.
 <$00>
 
 // PTR : 000003F0
@@ -482,7 +482,7 @@ The place I woke up.
 #WBB(PTR1, $000053CC)
 #WUB(PTR1, $000053CD)
 //導かれるままに\n始まりの墓を訪れたアディ。
-As if lead there,\nAddie found a tomb.
+As if led there,\nAddie found a tomb.
 <$00>
 
 #VAR(PTR2, CUSTOMPOINTER)
@@ -493,6 +493,7 @@ As if lead there,\nAddie found a tomb.
 #WBB(PTR2, $00005598)
 #WUB(PTR2, $00005599)
 何もないよ。さ、戻ろう\n街を案内してあげるよ
+Let's head back to town.\nI'll give you the tour!
 <$00>
 
 // PTR : 000004A8
@@ -514,7 +515,7 @@ This is an old tomb.
 #WBB(PTR2, $000089E4)
 #WUB(PTR2, $000089E5)
 //でも…なんだか\n悲しい感じもするわね
-But...its sadness\nfeels fresh.
+Only, its sadness\nfeels fresh.
 <$00>
 
 // PTR : 0000215C
@@ -523,7 +524,7 @@ But...its sadness\nfeels fresh.
 #WBB(PTR2, $00008EA4)
 #WUB(PTR2, $00008EA5)
 //ケツベツ、かぁ…
-"Departed", huh.
+"Departed," huh.
 <$00>
 
 // PTR : 00002170
@@ -587,7 +588,7 @@ Oh! Emmy!
 #WBB(PTR2, $0000A5D0)
 #WUB(PTR2, $0000A5D1)
 //エミィに似た少女が現れる。\nその少女を追うアディ。
-Addie follows a girl\nwho resembles Emmy.
+Addie followed a girl\nwho resembled Emmy.
 <$00>
 
 // PTR : 000022F4
@@ -623,7 +624,7 @@ How should I put this...
 #WBB(PTR2, $0000A7CC)
 #WUB(PTR2, $0000A7CD)
 //迷子なのかい、きみ
-You sound uh, lost.
+You sound, uh, lost.
 <$00>
 
 // PTR : 000023C4
@@ -659,7 +660,7 @@ Can she not hear me?\nEmmy!
 #WBB(PTR2, $0000DA80)
 #WUB(PTR2, $0000DA81)
 //ログロックっていうのは…
-You see, a loglock...
+You see, Loglocks...
 <$00>
 
 // PTR : 000024B8
@@ -668,7 +669,7 @@ You see, a loglock...
 #WBB(PTR2, $0000DA98)
 #WUB(PTR2, $0000DA99)
 //何かの配列や組み合わせを\nどうにかするものらしいんだ
-Decodes and reassembles\nwhatever it says.
+Decode and reassemble\nwhatever they say.
 <$00>
 
 // PTR : 000024EC
@@ -729,7 +730,7 @@ Path Area
 #WBB(PTR2, $0000F100)
 #WUB(PTR2, $0000F101)
 //エミィを見失ったアディは\nとらわれの少年を遠くに望む。
-After losing Emmy, Addie\nsees a boy in a cage.
+After she lost Emmy,\nAddie found a boy in a cage.
 <$00>
 
 // PTR : 000025BC
@@ -738,7 +739,7 @@ After losing Emmy, Addie\nsees a boy in a cage.
 #WBB(PTR2, $0000F1C0)
 #WUB(PTR2, $0000F1C1)
 //あの人、\nなんで閉じこめられてるのかしら
-How'd he get\nin there?
+How'd he get there?
 <$00>
 
 // PTR : 00002758
@@ -765,7 +766,7 @@ How'd you get locked\nin that cage anyways?
 #WBB(PTR2, $0001058C)
 #WUB(PTR2, $0001058D)
 //え？　ログロックって\nそういうもんじゃないの？
-Hm? You know what\nloglocks do, right?
+Hm? You know what\nLoglocks do, right?
 <$00>
 
 // PTR : 0000280C
