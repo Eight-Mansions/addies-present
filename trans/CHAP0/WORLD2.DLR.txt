@@ -222,7 +222,7 @@ Dom
 #WUB(PTR2, $000044D9)
 
 //ÉUÉN
-Zack
+Zaku
 <$00>
 
 // PTR : 000004AC
