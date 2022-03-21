@@ -15,22 +15,17 @@ tools\addie_font_insert.exe graphics\font\punctuation.bin graphics\font\punctuat
 tools\psx-mode2.exe cd\addie_1.bin /DATA.CTS graphics\DATA.CTS
 tools\psx-mode2.exe cd\addie_1.bin /SCPS_101.26 exe\SCPS_101.26
 
-
-tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP0/WORLD0.DLR ins\CHAP0\WORLD0.DLR
 tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP0/WORLD1.DLR ins\CHAP0\WORLD1.DLR
 tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP0/WORLD2.DLR ins\CHAP0\WORLD2.DLR
 tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP0/WORLD3.DLR ins\CHAP0\WORLD3.DLR
-tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP0/WORLD4.DLR ins\CHAP0\WORLD4.DLR
 tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP0/WORLD5.DLR ins\CHAP0\WORLD5.DLR
 
-tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP1/WORLD0.DLR ins\CHAP1\WORLD0.DLR
 tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP1/WORLD1.DLR ins\CHAP1\WORLD1.DLR
 tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP1/WORLD2.DLR ins\CHAP1\WORLD2.DLR
 tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP1/WORLD3.DLR ins\CHAP1\WORLD3.DLR
 tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP1/WORLD4.DLR ins\CHAP1\WORLD4.DLR
 tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP1/WORLD5.DLR ins\CHAP1\WORLD5.DLR
 
-tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP2/WORLD0.DLR ins\CHAP2\WORLD0.DLR
 tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP2/WORLD1.DLR ins\CHAP2\WORLD1.DLR
 tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP2/WORLD2.DLR ins\CHAP2\WORLD2.DLR
 tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP2/WORLD3.DLR ins\CHAP2\WORLD3.DLR
@@ -41,7 +36,6 @@ tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP2/WORLD7.DLR ins\CHAP2\WORLD7.
 tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP2/WORLD8.DLR ins\CHAP2\WORLD8.DLR
 tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP2/WORLD9.DLR ins\CHAP2\WORLD9.DLR
 
-tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP3/WORLD0.DLR ins\CHAP3\WORLD0.DLR
 tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP3/WORLD1.DLR ins\CHAP3\WORLD1.DLR
 tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP3/WORLD2.DLR ins\CHAP3\WORLD2.DLR
 tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP3/WORLD3.DLR ins\CHAP3\WORLD3.DLR
