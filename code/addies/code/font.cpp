@@ -99,7 +99,12 @@ const u8 widths[] = {
 
 int GetLetterWidth(const u32 letter)
 {
-	if (letter >= 0x824F && letter <= 0x82AA)
+	if (letter >= 0x10 && letter <= 80)
+	{
+		u32 idx = letter - 0x10;
+		return widths[idx];
+	}
+	else if (letter >= 0x824F && letter <= 0x82AA)
 	{
 		u32 idx = letter - 0x824F;
 		return widths[idx];
@@ -126,7 +131,7 @@ int GetSentenceWidth(const char* text, u32 length)
 		}
 		else
 		{
-			letter = text[i] + 0x824F;
+			letter = text[i] + 0x823F;
 		}
 
 		textWidth += GetLetterWidth(letter);

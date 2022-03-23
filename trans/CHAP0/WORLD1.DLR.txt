@@ -5,6 +5,8 @@
 #CREATEPTR(PTR, "LINEAR", -2148236152, 32)
 #JMP($00024A1E)
 
+#STRINGALIGN(2)
+
 // PTR : 0000030C
 #WRITE(PTR, $0000034C)
 //めずらしいわね\nあなたが遊びに来るなんて
@@ -713,24 +715,6 @@ Let's try some more.
 Emmy visited Addie on\nthe night of her birthday.
 <$00>
 
-// PTR : 00000D8C
-#WLB(PTR2, $00006620)
-#WHB(PTR2, $00006621)
-#WBB(PTR2, $0000661C)
-#WUB(PTR2, $0000661D)
-//こんな夜遅くにエミィが？\n…どうしたのかしら
-Emmy, at this hour?\nWhat's going on?
-<$00>
-
-// PTR : 00000DC4
-#WLB(PTR2, $00006CA0)
-#WHB(PTR2, $00006CA1)
-#WBB(PTR2, $00006C9C)
-#WUB(PTR2, $00006C9D)
-//アディの部屋・入口
-Addie's Room Entrance
-<$00>
-
 // PTR : 00000E1C
 #WLB(PTR2, $00007748)
 #WHB(PTR2, $00007749)
@@ -812,15 +796,6 @@ Is now really a good\ntime to play with that?
 I'm still here, you know.
 <$00>
 
-// PTR : 00002100
-#WLB(PTR2, $0000A6F8)
-#WHB(PTR2, $0000A6F9)
-#WBB(PTR2, $0000A6F4)
-#WUB(PTR2, $0000A6F5)
-//アディの部屋・机
-Addie's Room Desk
-<$00>
-
 // PTR : 00002258
 #WLB(PTR2, $0000B418)
 #WHB(PTR2, $0000B419)
@@ -877,3 +852,31 @@ It's almost time for bed.
 It's a shame\nI have to stop.
 <$00>
 
+#STRINGALIGN(4)
+
+// PTR : 00000D8C
+#WLB(PTR2, $00006620)
+#WHB(PTR2, $00006621)
+#WBB(PTR2, $0000661C)
+#WUB(PTR2, $0000661D)
+//こんな夜遅くにエミィが？\n…どうしたのかしら
+Emmy, at this hour?\nWhat's going on?
+<$00>
+
+// PTR : 00000DC4
+#WLB(PTR2, $00006CA0)
+#WHB(PTR2, $00006CA1)
+#WBB(PTR2, $00006C9C)
+#WUB(PTR2, $00006C9D)
+//アディの部屋・入口
+Addie's Room Entrance
+<$00>
+
+// PTR : 00002100
+#WLB(PTR2, $0000A6F8)
+#WHB(PTR2, $0000A6F9)
+#WBB(PTR2, $0000A6F4)
+#WUB(PTR2, $0000A6F5)
+//アディの部屋・机
+Addie's Room Desk
+<$00>

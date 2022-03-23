@@ -5,6 +5,8 @@
 #CREATEPTR(PTR, "LINEAR", -2148236152, 32)
 #JMP($000246EE)
 
+#STRINGALIGN(2)
+
 // PTR : 00000430
 #WRITE(PTR, $000004A8)
 //ビロードの布は手に入ったけど\nボタンと糸は、ないのよね？

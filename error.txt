@@ -1,19 +1,19 @@
 orig\CHAP0\WORLD1.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 30 msecs
+Parsing summary: 32 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 472 msecs
+Insertion summary: 499 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $24A1E
-|   End: Line 881  File Position $26224
+|   End: Line 883  File Position $25677
 +------------------------------------------------------------------------------
-| Script size 6150
-| Bytes Inserted 6150
+| Script size 3161
+| Bytes Inserted 3161
 |
 | Command Execution Listing
 |   CREATEPTR: 3
@@ -22,28 +22,29 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 37
 |   WHB: 37
 |   WLB: 37
+|   STRINGALIGN: 2
 |
 | Pointer Listing
 |   General Pointers Written: 262
 +------------------------------------------------------------------------------
 
-Execution time: 506 msecs
+Execution time: 549 msecs
 orig\CHAP0\WORLD2.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 12 msecs
+Parsing summary: 11 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 432 msecs
+Insertion summary: 440 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $46AC
-|   End: Line 268  File Position $4A78
+|   End: Line 270  File Position $48A2
 +------------------------------------------------------------------------------
-| Script size 972
-| Bytes Inserted 972
+| Script size 502
+| Bytes Inserted 502
 |
 | Command Execution Listing
 |   CREATEPTR: 2
@@ -52,28 +53,29 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 19
 |   WHB: 19
 |   WLB: 19
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 88
 +------------------------------------------------------------------------------
 
-Execution time: 449 msecs
+Execution time: 475 msecs
 orig\CHAP0\WORLD3.DLR 
 Atlas 1.11 by Klarth
 
 Parsing summary: 1 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 414 msecs
+Insertion summary: 431 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $574C
-|   End: Line 22  File Position $5779
+|   End: Line 24  File Position $5763
 +------------------------------------------------------------------------------
-| Script size 45
-| Bytes Inserted 45
+| Script size 23
+| Bytes Inserted 23
 |
 | Command Execution Listing
 |   CREATEPTR: 1
@@ -81,53 +83,55 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 1
 |   WHB: 1
 |   WLB: 1
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 4
 +------------------------------------------------------------------------------
 
-Execution time: 422 msecs
+Execution time: 448 msecs
 orig\CHAP0\WORLD5.DLR 
 Atlas 1.11 by Klarth
 
 Parsing summary: 1 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 411 msecs
+Insertion summary: 423 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $22250
-|   End: Line 39  File Position $2231F
+|   End: Line 41  File Position $222BA
 +------------------------------------------------------------------------------
-| Script size 207
-| Bytes Inserted 207
+| Script size 106
+| Bytes Inserted 106
 |
 | Command Execution Listing
 |   WRITE: 5
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 5
 +------------------------------------------------------------------------------
 
-Execution time: 418 msecs
+Execution time: 435 msecs
 orig\CHAP1\WORLD1.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 28 msecs
+Parsing summary: 30 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 480 msecs
+Insertion summary: 455 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $24C48
-|   End: Line 817  File Position $25F33
+|   End: Line 819  File Position $25620
 +------------------------------------------------------------------------------
-| Script size 4843
-| Bytes Inserted 4843
+| Script size 2520
+| Bytes Inserted 2520
 |
 | Command Execution Listing
 |   CREATEPTR: 3
@@ -136,28 +140,29 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 47
 |   WHB: 47
 |   WLB: 47
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 259
 +------------------------------------------------------------------------------
 
-Execution time: 512 msecs
+Execution time: 498 msecs
 orig\CHAP1\WORLD2.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 15 msecs
+Parsing summary: 16 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 452 msecs
+Insertion summary: 443 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $21FD2
-|   End: Line 476  File Position $22C35
+|   End: Line 478  File Position $22658
 +------------------------------------------------------------------------------
-| Script size 3171
-| Bytes Inserted 3171
+| Script size 1670
+| Bytes Inserted 1670
 |
 | Command Execution Listing
 |   CREATEPTR: 2
@@ -166,28 +171,29 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 18
 |   WHB: 18
 |   WLB: 18
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 122
 +------------------------------------------------------------------------------
 
-Execution time: 472 msecs
+Execution time: 473 msecs
 orig\CHAP1\WORLD3.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 78 msecs
+Parsing summary: 69 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 513 msecs
+Insertion summary: 500 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $246EE
-|   End: Line 1841  File Position $2732C
+|   End: Line 1843  File Position $25DFB
 +------------------------------------------------------------------------------
-| Script size 11326
-| Bytes Inserted 11326
+| Script size 5901
+| Bytes Inserted 5901
 |
 | Command Execution Listing
 |   CREATEPTR: 2
@@ -196,28 +202,29 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 132
 |   WHB: 132
 |   WLB: 132
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 652
 +------------------------------------------------------------------------------
 
-Execution time: 599 msecs
+Execution time: 589 msecs
 orig\CHAP1\WORLD4.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 7 msecs
+Parsing summary: 8 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 413 msecs
+Insertion summary: 427 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $149EA
-|   End: Line 174  File Position $14CCB
+|   End: Line 176  File Position $14B69
 +------------------------------------------------------------------------------
-| Script size 737
-| Bytes Inserted 737
+| Script size 383
+| Bytes Inserted 383
 |
 | Command Execution Listing
 |   CREATEPTR: 2
@@ -225,28 +232,29 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 20
 |   WHB: 20
 |   WLB: 20
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 80
 +------------------------------------------------------------------------------
 
-Execution time: 428 msecs
+Execution time: 449 msecs
 orig\CHAP1\WORLD5.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 42 msecs
+Parsing summary: 43 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 470 msecs
+Insertion summary: 479 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $23A84
-|   End: Line 1218  File Position $25572
+|   End: Line 1220  File Position $248A6
 +------------------------------------------------------------------------------
-| Script size 6894
-| Bytes Inserted 6894
+| Script size 3618
+| Bytes Inserted 3618
 |
 | Command Execution Listing
 |   CREATEPTR: 3
@@ -255,28 +263,29 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 76
 |   WHB: 76
 |   WLB: 76
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 409
 +------------------------------------------------------------------------------
 
-Execution time: 516 msecs
+Execution time: 535 msecs
 orig\CHAP2\WORLD1.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 95 msecs
+Parsing summary: 99 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 549 msecs
+Insertion summary: 553 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $24FAC
-|   End: Line 2552  File Position $2954C
+|   End: Line 2554  File Position $273F9
 +------------------------------------------------------------------------------
-| Script size 17824
-| Bytes Inserted 17824
+| Script size 9293
+| Bytes Inserted 9293
 |
 | Command Execution Listing
 |   CREATEPTR: 2
@@ -285,28 +294,29 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 205
 |   WHB: 205
 |   WLB: 205
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 954
 +------------------------------------------------------------------------------
 
-Execution time: 650 msecs
+Execution time: 666 msecs
 orig\CHAP2\WORLD2.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 51 msecs
+Parsing summary: 52 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 491 msecs
+Insertion summary: 486 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $24778
-|   End: Line 1483  File Position $26BC8
+|   End: Line 1485  File Position $25A5E
 +------------------------------------------------------------------------------
-| Script size 9296
-| Bytes Inserted 9296
+| Script size 4838
+| Bytes Inserted 4838
 |
 | Command Execution Listing
 |   CREATEPTR: 3
@@ -315,28 +325,29 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 92
 |   WHB: 92
 |   WLB: 92
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 483
 +------------------------------------------------------------------------------
 
-Execution time: 546 msecs
+Execution time: 551 msecs
 orig\CHAP2\WORLD3.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 41 msecs
+Parsing summary: 43 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 460 msecs
+Insertion summary: 462 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $23C3E
-|   End: Line 1149  File Position $25904
+|   End: Line 1151  File Position $24B11
 +------------------------------------------------------------------------------
-| Script size 7366
-| Bytes Inserted 7366
+| Script size 3795
+| Bytes Inserted 3795
 |
 | Command Execution Listing
 |   CREATEPTR: 3
@@ -345,28 +356,29 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 81
 |   WHB: 81
 |   WLB: 81
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 401
 +------------------------------------------------------------------------------
 
-Execution time: 506 msecs
+Execution time: 519 msecs
 orig\CHAP2\WORLD4.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 64 msecs
+Parsing summary: 66 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 515 msecs
+Insertion summary: 513 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $24D48
-|   End: Line 1794  File Position $28022
+|   End: Line 1796  File Position $26846
 +------------------------------------------------------------------------------
-| Script size 13018
-| Bytes Inserted 13018
+| Script size 6910
+| Bytes Inserted 6910
 |
 | Command Execution Listing
 |   CREATEPTR: 2
@@ -375,28 +387,29 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 112
 |   WHB: 112
 |   WLB: 112
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 586
 +------------------------------------------------------------------------------
 
-Execution time: 583 msecs
+Execution time: 593 msecs
 orig\CHAP2\WORLD5.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 44 msecs
+Parsing summary: 46 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 481 msecs
+Insertion summary: 470 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $2495C
-|   End: Line 1284  File Position $26B87
+|   End: Line 1286  File Position $25B42
 +------------------------------------------------------------------------------
-| Script size 8747
-| Bytes Inserted 8747
+| Script size 4582
+| Bytes Inserted 4582
 |
 | Command Execution Listing
 |   CREATEPTR: 3
@@ -405,28 +418,29 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 70
 |   WHB: 70
 |   WLB: 70
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 412
 +------------------------------------------------------------------------------
 
-Execution time: 530 msecs
+Execution time: 528 msecs
 orig\CHAP2\WORLD6.DLR 
 Atlas 1.11 by Klarth
 
 Parsing summary: 16 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 431 msecs
+Insertion summary: 442 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $1CB8C
-|   End: Line 419  File Position $1D7F7
+|   End: Line 421  File Position $1D20C
 +------------------------------------------------------------------------------
-| Script size 3179
-| Bytes Inserted 3179
+| Script size 1664
+| Bytes Inserted 1664
 |
 | Command Execution Listing
 |   CREATEPTR: 2
@@ -435,28 +449,29 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 33
 |   WHB: 33
 |   WLB: 33
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 151
 +------------------------------------------------------------------------------
 
-Execution time: 451 msecs
+Execution time: 471 msecs
 orig\CHAP2\WORLD7.DLR 
 Atlas 1.11 by Klarth
 
 Parsing summary: 5 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 407 msecs
+Insertion summary: 421 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $21D86
-|   End: Line 138  File Position $2212E
+|   End: Line 140  File Position $21F78
 +------------------------------------------------------------------------------
-| Script size 936
-| Bytes Inserted 936
+| Script size 498
+| Bytes Inserted 498
 |
 | Command Execution Listing
 |   CREATEPTR: 1
@@ -465,28 +480,29 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 2
 |   WHB: 2
 |   WLB: 2
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 27
 +------------------------------------------------------------------------------
 
-Execution time: 416 msecs
+Execution time: 438 msecs
 orig\CHAP2\WORLD8.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 4 msecs
+Parsing summary: 5 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 406 msecs
+Insertion summary: 424 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $21F86
-|   End: Line 134  File Position $2230E
+|   End: Line 136  File Position $22158
 +------------------------------------------------------------------------------
-| Script size 904
-| Bytes Inserted 904
+| Script size 466
+| Bytes Inserted 466
 |
 | Command Execution Listing
 |   CREATEPTR: 1
@@ -495,28 +511,29 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 1
 |   WHB: 1
 |   WLB: 1
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 23
 +------------------------------------------------------------------------------
 
-Execution time: 414 msecs
+Execution time: 442 msecs
 orig\CHAP2\WORLD9.DLR 
 Atlas 1.11 by Klarth
 
 Parsing summary: 4 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 407 msecs
+Insertion summary: 418 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $21DDA
-|   End: Line 134  File Position $22162
+|   End: Line 136  File Position $21FAC
 +------------------------------------------------------------------------------
-| Script size 904
-| Bytes Inserted 904
+| Script size 466
+| Bytes Inserted 466
 |
 | Command Execution Listing
 |   CREATEPTR: 1
@@ -525,28 +542,29 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 1
 |   WHB: 1
 |   WLB: 1
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 23
 +------------------------------------------------------------------------------
 
-Execution time: 415 msecs
+Execution time: 434 msecs
 orig\CHAP3\WORLD1.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 52 msecs
+Parsing summary: 53 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 474 msecs
+Insertion summary: 468 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $25858
-|   End: Line 1531  File Position $27E7C
+|   End: Line 1533  File Position $26C07
 +------------------------------------------------------------------------------
-| Script size 9764
-| Bytes Inserted 9764
+| Script size 5039
+| Bytes Inserted 5039
 |
 | Command Execution Listing
 |   CREATEPTR: 2
@@ -555,28 +573,29 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 97
 |   WHB: 97
 |   WLB: 97
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 500
 +------------------------------------------------------------------------------
 
-Execution time: 532 msecs
+Execution time: 535 msecs
 orig\CHAP3\WORLD2.DLR 
 Atlas 1.11 by Klarth
 
 Parsing summary: 40 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 477 msecs
+Insertion summary: 455 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $2504E
-|   End: Line 1074  File Position $26C15
+|   End: Line 1076  File Position $25EA2
 +------------------------------------------------------------------------------
-| Script size 7111
-| Bytes Inserted 7111
+| Script size 3668
+| Bytes Inserted 3668
 |
 | Command Execution Listing
 |   CREATEPTR: 2
@@ -585,28 +604,29 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 90
 |   WHB: 90
 |   WLB: 90
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 411
 +------------------------------------------------------------------------------
 
-Execution time: 521 msecs
+Execution time: 507 msecs
 orig\CHAP3\WORLD3.DLR 
 Atlas 1.11 by Klarth
 
 Parsing summary: 47 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 465 msecs
+Insertion summary: 460 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $24D50
-|   End: Line 1216  File Position $26A01
+|   End: Line 1218  File Position $25C1D
 +------------------------------------------------------------------------------
-| Script size 7345
-| Bytes Inserted 7345
+| Script size 3789
+| Bytes Inserted 3789
 |
 | Command Execution Listing
 |   CREATEPTR: 3
@@ -615,28 +635,29 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 109
 |   WHB: 109
 |   WLB: 109
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 484
 +------------------------------------------------------------------------------
 
-Execution time: 517 msecs
+Execution time: 521 msecs
 orig\CHAP3\WORLD4.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 31 msecs
+Parsing summary: 30 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 463 msecs
+Insertion summary: 437 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $25916
-|   End: Line 830  File Position $271DA
+|   End: Line 832  File Position $265CE
 +------------------------------------------------------------------------------
-| Script size 6340
-| Bytes Inserted 6340
+| Script size 3256
+| Bytes Inserted 3256
 |
 | Command Execution Listing
 |   CREATEPTR: 2
@@ -645,28 +666,29 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 54
 |   WHB: 54
 |   WLB: 54
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 279
 +------------------------------------------------------------------------------
 
-Execution time: 500 msecs
+Execution time: 479 msecs
 orig\CHAP3\WORLD5.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 34 msecs
+Parsing summary: 33 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 454 msecs
+Insertion summary: 437 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $257A2
-|   End: Line 1000  File Position $27248
+|   End: Line 1002  File Position $26564
 +------------------------------------------------------------------------------
-| Script size 6822
-| Bytes Inserted 6822
+| Script size 3522
+| Bytes Inserted 3522
 |
 | Command Execution Listing
 |   CREATEPTR: 2
@@ -675,9 +697,10 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 52
 |   WHB: 52
 |   WLB: 52
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 296
 +------------------------------------------------------------------------------
 
-Execution time: 494 msecs
+Execution time: 484 msecs

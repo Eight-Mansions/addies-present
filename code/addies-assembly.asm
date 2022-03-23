@@ -3,6 +3,9 @@
 
 .org 0x8004b9f8
 	nop		; Don't clear my good space
+	
+.org 0x8005f880
+	j loadLetter
 
 .org 0x8005f9bc
 	;ADDU    0000001e (s0), 0000001e (s0), 0000000f (s5),
@@ -62,6 +65,39 @@ get_sentence_width_for_second_line:
 	addiu sp, 8
 	j 0x8005f9c4
 	addu s0, r0, v0 ; It expects the length of the line in t1
+	
+loadLetter:
+	lbu    v0, 0(s2)
+	nop
+	andi v1, v0, 0xFF
+	beq v1, t1, is_09 ; 0x09 is set to t1 when we jump to this code
+    nop
+	addiu v0, r0, 0x0A
+	bne v1, v0, not_newline
+	addu a0, s6, r0
+	j 0x8005f8a0 ; Run newline code
+not_newline:
+	nop
+	sltiu  v0, v1, 0x0080
+	beq v0, r0, sjis
+	nop
+	addiu v1, v1, 0x823f
+	addu v0, r0, v1
+	srl v1, v1, 0x08
+	b done
+	sb v1, 0x10(sp)
+sjis:
+	addiu s3, s3, 1 ; Checks against length.  Increase again for SJIS
+	addiu s2, s2, 1 ; Increase again for SJIS
+	sb v1, 0x10(sp) ; Store regardless if "ascii" or sjis
+	lb v0, 0(s2)
+	;sb v0, 0x11(sp) ; This will execute when we jump back
+done:
+	j 0x8005f97c
+	nop
+is_09: ; I have NO IDEA what this is
+	j 0x8005f964
+	sb v0, 0x10(sp)
 
 cur_width:
 	.dw 0
