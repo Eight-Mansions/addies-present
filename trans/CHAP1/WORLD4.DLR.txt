@@ -5,11 +5,10 @@
 #CREATEPTR(PTR, "LINEAR", -2148236152, 32)
 #JMP($000149EA)
 
-#STRINGALIGN(2)
-
 #VAR(PTR1, CUSTOMPOINTER)
 #CREATEPTR(PTR1, "LINEAR", -2148236152, 32)
 // PTR : 000002B8
+#JMP($000002B8)
 #WLB(PTR1, $00001F28)
 #WHB(PTR1, $00001F29)
 #WBB(PTR1, $00001F24)
@@ -18,7 +17,9 @@
 Zoo's House Rear
 <$00>
 
+#WARN($000002C6, "@000002C6)
 // PTR : 000002CC
+#JMP($000002CC)
 #WLB(PTR1, $00002100)
 #WHB(PTR1, $00002101)
 #WBB(PTR1, $000020FC)
@@ -27,7 +28,9 @@ Zoo's House Rear
 Wow!
 <$00>
 
+#WARN($000002D2, "@000002D2)
 // PTR : 000002D4
+#JMP($000002D4)
 #WLB(PTR1, $00002110)
 #WHB(PTR1, $00002111)
 #WBB(PTR1, $0000210C)
@@ -36,7 +39,9 @@ Wow!
 It's all so vast!
 <$00>
 
+#WARN($000002DC, "@000002DC)
 // PTR : 000002E0
+#JMP($000002E0)
 #WLB(PTR1, $000021B0)
 #WHB(PTR1, $000021B1)
 #WBB(PTR1, $000021AC)
@@ -45,7 +50,9 @@ It's all so vast!
 Beyond the locked door\nwas a wide field.
 <$00>
 
+#WARN($00000313, "@00000313)
 // PTR : 00000364
+#JMP($00000364)
 #WLB(PTR1, $00002B7C)
 #WHB(PTR1, $00002B7D)
 #WBB(PTR1, $00002B78)
@@ -54,9 +61,11 @@ Beyond the locked door\nwas a wide field.
 Conductor's Hall Field
 <$00>
 
+#WARN($00000376, "@00000376)
 #VAR(PTR2, CUSTOMPOINTER)
 #CREATEPTR(PTR2, "LINEAR", -2148301688, 32)
 // PTR : 000004EC
+#JMP($000004EC)
 #WLB(PTR2, $000032E4)
 #WHB(PTR2, $000032E5)
 #WBB(PTR2, $000032E0)
@@ -65,16 +74,20 @@ Conductor's Hall Field
 Doorway
 <$00>
 
+#WARN($00000376, "@00000376)
 // PTR : 00000518
+#JMP($00000518)
 #WLB(PTR2, $000034B8)
 #WHB(PTR2, $000034B9)
 #WBB(PTR2, $000034B4)
 #WUB(PTR2, $000034B5)
-ÅcïœÇ»åöï®
+//ÅcïœÇ»åöï®
 This building is strange.
 <$00>
 
+#WARN($00000522, "@00000522)
 // PTR : 00000524
+#JMP($00000524)
 #WLB(PTR2, $000034C8)
 #WHB(PTR2, $000034C9)
 #WBB(PTR2, $000034C4)
@@ -83,7 +96,9 @@ This building is strange.
 This must be where\nthe conductor's hall is.
 <$00>
 
+#WARN($0000053C, "@0000053C)
 // PTR : 00000540
+#JMP($00000540)
 #WLB(PTR2, $000035CC)
 #WHB(PTR2, $000035CD)
 #WBB(PTR2, $000035C8)
@@ -92,7 +107,9 @@ This must be where\nthe conductor's hall is.
 Yep, Joka locked it,
 <$00>
 
+#WARN($00000558, "@00000558)
 // PTR : 0000055C
+#JMP($0000055C)
 #WLB(PTR2, $000035DC)
 #WHB(PTR2, $000035DD)
 #WBB(PTR2, $000035D8)
@@ -102,7 +119,9 @@ but I'll LOGLOCK it!
 //doorway - curtain
 <$00>
 
+#WARN($00000570, "@00000570)
 // PTR : 000005F0
+#JMP($000005F0)
 #WLB(PTR2, $00003830)
 #WHB(PTR2, $00003831)
 #WBB(PTR2, $0000382C)
@@ -111,7 +130,9 @@ but I'll LOGLOCK it!
 There's no time!
 <$00>
 
+#WARN($000005FE, "@000005FE)
 // PTR : 00000574
+#JMP($00000574)
 #WLB(PTR2, $000036A0)
 #WHB(PTR2, $000036A1)
 #WBB(PTR2, $0000369C)
@@ -124,7 +145,9 @@ There's no time!
 All right, in we go.
 <$00>
 
+#WARN($00000582, "@00000582)
 // PTR : 000005A4
+#JMP($000005A4)
 #WLB(PTR2, $00003730)
 #WHB(PTR2, $00003731)
 #WBB(PTR2, $0000372C)
@@ -137,7 +160,9 @@ All right, in we go.
 Was that...really Joka?
 <$00>
 
+#WARN($000005C4, "@000005C4)
 // PTR : 00000584
+#JMP($00000584)
 #WLB(PTR2, $00003744)
 #WHB(PTR2, $00003745)
 #WBB(PTR2, $00003740)
@@ -150,7 +175,9 @@ Was that...really Joka?
 Addie opened the door.
 <$00>
 
+#WARN($000005A2, "@000005A2)
 // PTR : 000005C8
+#JMP($000005C8)
 #WLB(PTR2, $0000380C)
 #WHB(PTR2, $0000380D)
 #WBB(PTR2, $00003808)
@@ -163,7 +190,9 @@ Addie opened the door.
 If I don't hurry,\nJoka will get away!
 <$00>
 
+#WARN($000005EF, "@000005EF)
 // PTR : 00000600
+#JMP($00000600)
 #WLB(PTR2, $00004150)
 #WHB(PTR2, $00004151)
 #WBB(PTR2, $0000414C)
@@ -172,3 +201,4 @@ If I don't hurry,\nJoka will get away!
 Conductor's Hall Entrance
 <$00>
 
+#WARN($0000060E, "@0000060E)
