@@ -6,149 +6,148 @@
 #JMP($000046AC)
 
 // PTR : 00000124
-#JMP($00000124)
 #WRITE(PTR, $00000294)
+{start}
 //このキャプションはアディの色
 Addie's font color.
 <$00>
+{end}
 
-#WARN($00000140, "@00000140)
 // PTR : 00000144
-#JMP($00000144)
 #WRITE(PTR, $00000298)
+{start}
 //このキャプションはイライザの色
 Eliza's font color.
 <$00>
+{end}
 
-#WARN($00000162, "@00000162)
 // PTR : 00000164
-#JMP($00000164)
 #WRITE(PTR, $0000029C)
+{start}
 //このキャプションはジョーカの色
 Joka's font color.
 <$00>
+{end}
 
-#WARN($00000182, "@00000182)
 // PTR : 00000184
-#JMP($00000184)
 #WRITE(PTR, $000002A0)
+{start}
 //このキャプションはズーの色
 Zoo's font color.
 <$00>
+{end}
 
-#WARN($0000019E, "@0000019E)
 // PTR : 000001A0
-#JMP($000001A0)
 #WRITE(PTR, $000002A4)
+{start}
 //このキャプションはウィノの色
 Wino's font color.
 <$00>
+{end}
 
-#WARN($000001BC, "@000001BC)
 // PTR : 000001C0
-#JMP($000001C0)
 #WRITE(PTR, $000002A8)
+{start}
 //このキャプションはリノの色
 Reno's font color.
 <$00>
+{end}
 
-#WARN($000001DA, "@000001DA)
 // PTR : 000001DC
-#JMP($000001DC)
 #WRITE(PTR, $000002AC)
+{start}
 //このキャプションはジノの色
 Gino's font color.
 <$00>
+{end}
 
-#WARN($000001F6, "@000001F6)
 // PTR : 000001F8
-#JMP($000001F8)
 #WRITE(PTR, $000002B0)
+{start}
 //このキャプションはデンの色
 Den's font color.
 <$00>
+{end}
 
-#WARN($00000212, "@00000212)
 // PTR : 00000214
-#JMP($00000214)
 #WRITE(PTR, $000002B4)
+{start}
 //このキャプションはムッシューの色
 Monsieur's font color.
 <$00>
+{end}
 
-#WARN($00000234, "@00000234)
 // PTR : 00000238
-#JMP($00000238)
 #WRITE(PTR, $000002B8)
+{start}
 //このキャプションはバケヘの色
 Buckethead's font color.
 <$00>
+{end}
 
-#WARN($00000254, "@00000254)
 // PTR : 00000258
-#JMP($00000258)
 #WRITE(PTR, $000002BC)
+{start}
 //このキャプションはマスターの色
 The barkeeps's font color.
 <$00>
+{end}
 
-#WARN($00000276, "@00000276)
 // PTR : 00000278
-#JMP($00000278)
 #WRITE(PTR, $000002C0)
+{start}
 //このキャプションはピアの色
 Pia's font color.
 <$00>
+{end}
 
-#WARN($00000292, "@00000292)
 #VAR(PTR1, CUSTOMPOINTER)
 #CREATEPTR(PTR1, "LINEAR", -2148236152, 32)
 // PTR : 000000D8
-#JMP($000000D8)
 #WLB(PTR1, $00000868)
 #WHB(PTR1, $00000869)
 #WBB(PTR1, $00000864)
 #WUB(PTR1, $00000865)
+{start}
 //なんでこんなところで寝ていたの？\n思い出せない…
 Did I fall asleep here?\nI don't remember...
 <$00>
+{end}
 
-#WARN($00000107, "@00000107)
 // PTR : 0000039C
-#JMP($0000039C)
 #WLB(PTR1, $00001B64)
 #WHB(PTR1, $00001B65)
 #WBB(PTR1, $00001B60)
 #WUB(PTR1, $00001B61)
+{start}
 //…うーん。
 ...Oh dear.
 <$00>
+{end}
 
-#WARN($000003A6, "@000003A6)
 // PTR : 000003A8
-#JMP($000003A8)
 #WLB(PTR1, $00001B70)
 #WHB(PTR1, $00001B71)
 #WBB(PTR1, $00001B6C)
 #WUB(PTR1, $00001B6D)
+{start}
 //見覚えないなぁ
 I haven't the foggiest!
 <$00>
+{end}
 
-#WARN($000003B6, "@000003B6)
 // PTR : 000003B8
-#JMP($000003B8)
 #WLB(PTR1, $000021C4)
 #WHB(PTR1, $000021C5)
 #WBB(PTR1, $000021C0)
 #WUB(PTR1, $000021C1)
+{start}
 //あら？あれは何かしら…。
 Oh? What's that there?
 <$00>
+{end}
 
-#WARN($000003D0, "@000003D0)
 // PTR : 00000384
-#JMP($00000384)
 #WLB(PTR1, $000018D4)
 #WHB(PTR1, $000018D5)
 #WBB(PTR1, $000018D0)
@@ -165,133 +164,132 @@ Oh? What's that there?
 #WHB(PTR1, $00003151)
 #WBB(PTR1, $0000314C)
 #WUB(PTR1, $0000314D)
+{start}
 //デバッグ
 Debug
 <$00>
+{end}
 
-#WARN($0000038C, "@0000038C)
 // PTR : 00000470
-#JMP($00000470)
 #WLB(PTR1, $000042B0)
 #WHB(PTR1, $000042B1)
 #WBB(PTR1, $000042AC)
 #WUB(PTR1, $000042AD)
+{start}
 //ちょっと早くしてくんないかな？
 Can I go\neven faster?
 <$00>
+{end}
 
-#WARN($0000048E, "@0000048E)
 #VAR(PTR2, CUSTOMPOINTER)
 #CREATEPTR(PTR2, "LINEAR", -2148301688, 32)
 // PTR : 00000490
-#JMP($00000490)
 #WLB(PTR2, $00002AA8)
 #WHB(PTR2, $00002AA9)
 #WBB(PTR2, $00002AA4)
 #WUB(PTR2, $00002AA5)
+{start}
 //え？
 Huh?
 <$00>
+{end}
 
-#WARN($00000494, "@00000494)
 // PTR : 000004F8
-#JMP($000004F8)
 #WLB(PTR2, $00002B84)
 #WHB(PTR2, $00002B85)
 #WBB(PTR2, $00002B80)
 #WUB(PTR2, $00002B81)
+{start}
 //わからないのかい？\n残念、僕にもわからない。
 Don't get it?\nSadly, I don't either.
 <$00>
+{end}
 
-#WARN($00000523, "@00000523)
 // PTR : 00000524
-#JMP($00000524)
 #WLB(PTR2, $00002B90)
 #WHB(PTR2, $00002B91)
 #WBB(PTR2, $00002B8C)
 #WUB(PTR2, $00002B8D)
+{start}
 //どうしてもわからないなら、\n適当にいじるのも手だよ。
 When unsure, it\nnever hurts to play around.
 <$00>
+{end}
 
-#WARN($00000557, "@00000557)
 // PTR : 000004DC
-#JMP($000004DC)
 #WLB(PTR2, $000044CC)
 #WHB(PTR2, $000044CD)
 #WBB(PTR2, $000044C8)
 #WUB(PTR2, $000044C9)
+{start}
 //ガンダム
 Gundam
 <$00>
+{end}
 
-#WARN($000004E4, "@000004E4)
 // PTR : 000004E8
-#JMP($000004E8)
 #WLB(PTR2, $000044D4)
 #WHB(PTR2, $000044D5)
 #WBB(PTR2, $000044D0)
 #WUB(PTR2, $000044D1)
+{start}
 //ドム
 Dom
 <$00>
+{end}
 
-#WARN($000004EC, "@000004EC)
 // PTR : 000004F0
-#JMP($000004F0)
 #WLB(PTR2, $000044DC)
 #WHB(PTR2, $000044DD)
 #WBB(PTR2, $000044D8)
 #WUB(PTR2, $000044D9)
+{start}
 //ザク
 Zaku
 <$00>
+{end}
 
-#WARN($000004F4, "@000004F4)
 // PTR : 000004AC
-#JMP($000004AC)
 #WLB(PTR2, $00004528)
 #WHB(PTR2, $00004529)
 #WBB(PTR2, $00004524)
 #WUB(PTR2, $00004525)
-
+{start}
 //ＺＺ
 ZZ
 <$00>
+{end}
 
-#WARN($000004F4, "@000004F4)
 // PTR : 000004B4
-#JMP($000004B4)
 #WLB(PTR2, $00004534)
 #WHB(PTR2, $00004535)
 #WBB(PTR2, $00004530)
 #WUB(PTR2, $00004531)
+{start}
 //リック
 Rick
 <$00>
+{end}
 
-#WARN($000004BA, "@000004BA)
 // PTR : 000004BC
-#JMP($000004BC)
 #WLB(PTR2, $0000453C)
 #WHB(PTR2, $0000453D)
 #WBB(PTR2, $00004538)
 #WUB(PTR2, $00004539)
-
+{start}
 //プロトタイプ
 Prototype
 <$00>
+{end}
 
-#WARN($000004BA, "@000004BA)
 // PTR : 000004D4
-#JMP($000004D4)
 #WLB(PTR2, $0000454C)
 #WHB(PTR2, $0000454D)
 #WBB(PTR2, $00004548)
 #WUB(PTR2, $00004549)
+{start}
 //ドズル
 Dozle
 <$00>
+{end}
 
-#WARN($000004DA, "@000004DA)

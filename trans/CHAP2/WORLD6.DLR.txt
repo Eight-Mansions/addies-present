@@ -6,273 +6,272 @@
 #JMP($0001CB8C)
 
 // PTR : 000000B8
-#JMP($000000B8)
 #WRITE(PTR, $000001BC)
+{start}
 //それで、どうすればいいの？
 So, what can\nI help with?
 <$00>
+{end}
 
-#WARN($000000D2, "@000000D2)
 // PTR : 000000D4
-#JMP($000000D4)
 #WRITE(PTR, $000001C0)
+{start}
 //ビロードの布と、ボタンと、\n糸が足りないの
 Well, I need velvet,\na bobbin and a button.
 <$00>
+{end}
 
-#WARN($000000FD, "@000000FD)
 // PTR : 00000100
-#JMP($00000100)
 #WRITE(PTR, $000001C4)
+{start}
 //街を出て、鐘楼に向かう途中で\nムッシューっていう人がやっている
 En route to the bell\ntower outside of town,
 <$00>
+{end}
 
-#WARN($0000013D, "@0000013D)
 // PTR : 00000140
-#JMP($00000140)
 #WRITE(PTR, $000001C8)
+{start}
 //露店があるの\nそこに行けば手に入ると思うわ
 there's a stall run\nby a man called "Monsieur".
 <$00>
+{end}
 
-#WARN($00000169, "@00000169)
 // PTR : 0000016C
-#JMP($0000016C)
 #WRITE(PTR, $000001CC)
+{start}
 //お金は？
 Do you want me\nto shop, ma'am?
 <$00>
+{end}
 
-#WARN($00000174, "@00000174)
 // PTR : 00000178
-#JMP($00000178)
 #WRITE(PTR, $000001D0)
+{start}
 //ピアにつけておいてと言って
 The name's Pia,\nand yes.
 <$00>
+{end}
 
-#WARN($00000192, "@00000192)
 // PTR : 00000194
-#JMP($00000194)
 #WRITE(PTR, $000001D4)
+{start}
 //わかったわ。ビロードの布と\nボタンと糸ね
 Okay. And it's velvet,\nbobbin, button, right?.
 <$00>
+{end}
 
-#WARN($000001BB, "@000001BB)
 // PTR : 00000258
-#JMP($00000258)
 #WRITE(PTR, $000002A4)
+{start}
 //ああ、アディ、
 Welcome back, Addie.
 <$00>
+{end}
 
-#WARN($00000266, "@00000266)
 // PTR : 00000268
-#JMP($00000268)
 #WRITE(PTR, $000002A8)
+{start}
 //服できたわよ。机の上にあるわ
 His clothes are\non the table.
 <$00>
+{end}
 
-#WARN($00000284, "@00000284)
 // PTR : 00000288
-#JMP($00000288)
 #WRITE(PTR, $000002AC)
+{start}
 //はやくあの人に届けてあげて
 Take them straight\nto the bar.
 <$00>
+{end}
 
-#WARN($000002A2, "@000002A2)
 // PTR : 0000030C
-#JMP($0000030C)
 #WRITE(PTR, $0000036C)
+{start}
 //ごめんなさいピア\nビロードの布しかなかったわ
 I'm sorry, Pia.\nHe only had velvet.
 <$00>
+{end}
 
-#WARN($00000337, "@00000337)
 // PTR : 00000338
-#JMP($00000338)
 #WRITE(PTR, $00000370)
+{start}
 //ええっ？\nそれじゃあ服は作れないわよ
 He said that?\nThen how will I finish?
 <$00>
+{end}
 
-#WARN($0000035B, "@0000035B)
 // PTR : 0000035C
-#JMP($0000035C)
 #WRITE(PTR, $00000374)
+{start}
 //困ったわねぇ…
 Talk about\nhitting a snag.
 <$00>
+{end}
 
-#WARN($0000036A, "@0000036A)
 // PTR : 000003D8
-#JMP($000003D8)
 #WRITE(PTR, $00000430)
+{start}
 //ピア、糸が手に入ったわよ
 Here's a bobbin, Pia!
 <$00>
+{end}
 
-#WARN($000003F0, "@000003F0)
 // PTR : 000003F4
-#JMP($000003F4)
 #WRITE(PTR, $00000434)
+{start}
 //まあ、すごい！助かるわ
 Thanks! It's perfect!
 <$00>
+{end}
 
-#WARN($0000040A, "@0000040A)
 // PTR : 0000040C
-#JMP($0000040C)
 #WRITE(PTR, $00000438)
+{start}
 //でも、まだボタンが足りないのよね
 Sadly, I do\nneed a button.
 <$00>
+{end}
 
-#WARN($0000042C, "@0000042C)
 // PTR : 0000053C
-#JMP($0000053C)
 #WRITE(PTR, $000005AC)
+{start}
 //ああ、アディ、待ってたのよ
 Addie! You're back!
 <$00>
+{end}
 
-#WARN($00000556, "@00000556)
 // PTR : 00000558
-#JMP($00000558)
 #WRITE(PTR, $000005B0)
+{start}
 //助かったわ　アディはいい子ねえ
 You saved me again,\nyou darling.
 <$00>
+{end}
 
-#WARN($00000576, "@00000576)
 // PTR : 00000578
-#JMP($00000578)
 #WRITE(PTR, $000005B4)
+{start}
 //じゃあ、さっさと仕上げちゃうわ\nしばらく外で遊んでて
 Go play outside\nwhile I finish up.
 <$00>
+{end}
 
-#WARN($000005AB, "@000005AB)
 #VAR(PTR1, CUSTOMPOINTER)
 #CREATEPTR(PTR1, "LINEAR", -2148236152, 32)
 // PTR : 000001F4
-#JMP($000001F4)
 #WLB(PTR1, $00000F1C)
 #WHB(PTR1, $00000F1D)
 #WBB(PTR1, $00000F18)
 #WUB(PTR1, $00000F19)
+{start}
 //服の完成のために\n材料を取りに行くよう頼まれた。
 We need more materials\nto finish the clothes..
 <$00>
+{end}
 
-#WARN($00000223, "@00000223)
 // PTR : 00000224
-#JMP($00000224)
 #WLB(PTR1, $00000FC4)
 #WHB(PTR1, $00000FC5)
 #WBB(PTR1, $00000FC0)
 #WUB(PTR1, $00000FC1)
+{start}
 //街の外にあるのが\nムッシューの店ね
 Monsieur's shop is\nright outside town.
 <$00>
+{end}
 
-#WARN($00000245, "@00000245)
 // PTR : 000002BC
-#JMP($000002BC)
 #WLB(PTR1, $00001264)
 #WHB(PTR1, $00001265)
 #WBB(PTR1, $00001260)
 #WUB(PTR1, $00001261)
+{start}
 //しばらくして\nピアのところへ戻ったアディ。
 After much walking,\nAddie returned to Pia.
 <$00>
+{end}
 
-#WARN($000002E5, "@000002E5)
 // PTR : 000002E8
-#JMP($000002E8)
 #WLB(PTR1, $00001330)
 #WHB(PTR1, $00001331)
 #WBB(PTR1, $0000132C)
 #WUB(PTR1, $0000132D)
+{start}
 //やっと服ができたわ
 Ready, at last!
 <$00>
+{end}
 
-#WARN($000002FA, "@000002FA)
 // PTR : 00000384
-#JMP($00000384)
 #WLB(PTR1, $00001694)
 #WHB(PTR1, $00001695)
 #WBB(PTR1, $00001690)
 #WUB(PTR1, $00001691)
+{start}
 //服の材料がなくて\nどうしようもない。
 I can't work\nwithout materials.
 <$00>
+{end}
 
-#WARN($000003A7, "@000003A7)
 // PTR : 000003A8
-#JMP($000003A8)
 #WLB(PTR1, $0000174C)
 #WHB(PTR1, $0000174D)
 #WBB(PTR1, $00001748)
 #WUB(PTR1, $00001749)
+{start}
 //やだなぁ\nマスター怒らないかしら
 Oh, I don't want\nto disappoint him!
 <$00>
+{end}
 
-#WARN($000003C7, "@000003C7)
 // PTR : 00000448
-#JMP($00000448)
 #WLB(PTR1, $000019BC)
 #WHB(PTR1, $000019BD)
 #WBB(PTR1, $000019B8)
 #WUB(PTR1, $000019B9)
+{start}
 //服を作るために\nあとボタンが必要だ。
 I need more buttons\nfor these clothes.
 <$00>
+{end}
 
-#WARN($0000046B, "@0000046B)
 // PTR : 0000046C
-#JMP($0000046C)
 #WLB(PTR1, $00001A78)
 #WHB(PTR1, $00001A79)
 #WBB(PTR1, $00001A74)
 #WUB(PTR1, $00001A75)
+{start}
 //もう、マスターのところくらい\n自分で行けばいいのに
 I'd rather go myself,\nbut please tell him.
 <$00>
+{end}
 
-#WARN($0000049D, "@0000049D)
 #VAR(PTR2, CUSTOMPOINTER)
 #CREATEPTR(PTR2, "LINEAR", -2148301688, 32)
 // PTR : 000004A0
-#JMP($000004A0)
 #WLB(PTR2, $00001B2C)
 #WHB(PTR2, $00001B2D)
 #WBB(PTR2, $00001B28)
 #WUB(PTR2, $00001B29)
+{start}
 //服ができるのは\nしばらく先になりそうだと、
 These could take\na while to finish,
 <$00>
+{end}
 
-#WARN($000004C9, "@000004C9)
 // PTR : 000004F0
-#JMP($000004F0)
 #WLB(PTR2, $00001C74)
 #WHB(PTR2, $00001C75)
 #WBB(PTR2, $00001C70)
 #WUB(PTR2, $00001C71)
+{start}
 //やっぱり服ができるのは\nしばらく先になりそうだと、
 These could still take\na while to finish,
 <$00>
+{end}
 
-#WARN($00000521, "@00000521)
 // PTR : 000004CC
-#JMP($000004CC)
 #WLB(PTR2, $00001B38)
 #WHB(PTR2, $00001B39)
 #WBB(PTR2, $00001B34)
@@ -281,240 +280,240 @@ These could still take\na while to finish,
 #WHB(PTR2, $00001C81)
 #WBB(PTR2, $00001C7C)
 #WUB(PTR2, $00001C7D)
+{start}
 //マスターに伝えてもらえないかしら
 so maybe head\nback to the bar.
 <$00>
-#WARN($000004EC, "@000004EC)
+{end}
 
 // PTR : 000005C4
-#JMP($000005C4)
 #WLB(PTR2, $00001F04)
 #WHB(PTR2, $00001F05)
 #WBB(PTR2, $00001F00)
 #WUB(PTR2, $00001F01)
+{start}
 //服ができるまで\n少し待つことに。
 It'll still be a wait\nbefore the clothes are done.
 <$00>
+{end}
 
-#WARN($000004EC, "@000004EC)
 // PTR : 000005E4
-#JMP($000005E4)
 #WLB(PTR2, $00001F90)
 #WHB(PTR2, $00001F91)
 #WBB(PTR2, $00001F8C)
 #WUB(PTR2, $00001F8D)
+{start}
 //まだできないのかしら…
 I still can't,\ncan I...
 <$00>
+{end}
 
-#WARN($000005FA, "@000005FA)
 // PTR : 000005FC
-#JMP($000005FC)
 #WLB(PTR2, $00002010)
 #WHB(PTR2, $00002011)
 #WBB(PTR2, $0000200C)
 #WUB(PTR2, $0000200D)
+{start}
 //ちょっと、待ってぇ
 Just a little longer.
 <$00>
+{end}
 
-#WARN($0000060E, "@0000060E)
 // PTR : 00000610
-#JMP($00000610)
 #WLB(PTR2, $00002074)
 #WHB(PTR2, $00002075)
 #WBB(PTR2, $00002070)
 #WUB(PTR2, $00002071)
+{start}
 //服はそこの机の上にあるわ\nちゃんと持っていってね
 The clothes are\non that table.
 <$00>
+{end}
 
-#WARN($0000063F, "@0000063F)
 // PTR : 00000640
-#JMP($00000640)
 #WLB(PTR2, $000020DC)
 #WHB(PTR2, $000020DD)
 #WBB(PTR2, $000020D8)
 #WUB(PTR2, $000020D9)
+{start}
 //どうしたの？　いそいでたんでしょ
 If all's well,\nyou should head out.
 <$00>
+{end}
 
-#WARN($00000660, "@00000660)
 // PTR : 00000664
-#JMP($00000664)
 #WLB(PTR2, $000020FC)
 #WHB(PTR2, $000020FD)
 #WBB(PTR2, $000020F8)
 #WUB(PTR2, $000020F9)
+{start}
 //はやくバーに行くのよ
 I'll bet you're needed\nat the bar.
 <$00>
+{end}
 
-#WARN($00000678, "@00000678)
 // PTR : 0000067C
-#JMP($0000067C)
 #WLB(PTR2, $00002140)
 #WHB(PTR2, $00002141)
 #WBB(PTR2, $0000213C)
 #WUB(PTR2, $0000213D)
-//まあまあ、息を切らして
+{start}
 まあまあ、息を切らして
 Oh dear,\nyou're out of breath!
 <$00>
+{end}
 
-#WARN($00000692, "@00000692)
 // PTR : 00000694
-#JMP($00000694)
 #WLB(PTR2, $00002160)
 #WHB(PTR2, $00002161)
 #WBB(PTR2, $0000215C)
 #WUB(PTR2, $0000215D)
+{start}
 //いそがしい子ねえ
 What a busy\ngirl you are!
 <$00>
+{end}
 
-#WARN($00000692, "@00000692)
 // PTR : 000006A8
-#JMP($000006A8)
 #WLB(PTR2, $000021B0)
 #WHB(PTR2, $000021B1)
 #WBB(PTR2, $000021AC)
 #WUB(PTR2, $000021AD)
+{start}
 //ビロードの布と、ボタンと糸よ
 I need velvet,\na bobbin and a button.
 <$00>
+{end}
 
-#WARN($000006C4, "@000006C4)
 // PTR : 000006C8
-#JMP($000006C8)
 #WLB(PTR2, $000021BC)
 #WHB(PTR2, $000021BD)
 #WBB(PTR2, $000021B8)
 #WUB(PTR2, $000021B9)
+{start}
 //よろしくね、アディ
 I'm counting on you!
 <$00>
+{end}
 
-#WARN($000006DA, "@000006DA)
 // PTR : 000006DC
-#JMP($000006DC)
 #WLB(PTR2, $000022F0)
 #WHB(PTR2, $000022F1)
 #WBB(PTR2, $000022EC)
 #WUB(PTR2, $000022ED)
+{start}
 //お茶、ごちそうさま
 Thanks for the tea.
 <$00>
+{end}
 
-#WARN($000006EE, "@000006EE)
 // PTR : 000006F0
-#JMP($000006F0)
 #WLB(PTR2, $000022FC)
 #WHB(PTR2, $000022FD)
 #WBB(PTR2, $000022F8)
 #WUB(PTR2, $000022F9)
+{start}
 //どういたしまして
 Any time, dear.
 <$00>
+{end}
 
-#WARN($00000700, "@00000700)
 // PTR : 00000704
-#JMP($00000704)
 #WLB(PTR2, $00002404)
 #WHB(PTR2, $00002405)
 #WBB(PTR2, $00002400)
 #WUB(PTR2, $00002401)
+{start}
 //ごめんなさいね\n次の仕事を仕上げなきゃいけないの
 I have to start on\nmy next commission.
 <$00>
+{end}
 
-#WARN($00000733, "@00000733)
 // PTR : 00000734
-#JMP($00000734)
 #WLB(PTR2, $00002424)
 #WHB(PTR2, $00002425)
 #WBB(PTR2, $00002420)
 #WUB(PTR2, $00002421)
+{start}
 //またあとで遊んであげるわね
 Let's chat later, okay?
 <$00>
+{end}
 
-#WARN($0000074E, "@0000074E)
 // PTR : 00000750
-#JMP($00000750)
 #WLB(PTR2, $000025D8)
 #WHB(PTR2, $000025D9)
 #WBB(PTR2, $000025D4)
 #WUB(PTR2, $000025D5)
+{start}
 //ちょっと、服を忘れていく気？
 Forgetting something?
 <$00>
+{end}
 
-#WARN($0000076C, "@0000076C)
 // PTR : 00000770
-#JMP($00000770)
 #WLB(PTR2, $000025E8)
 #WHB(PTR2, $000025E9)
 #WBB(PTR2, $000025E4)
 #WUB(PTR2, $000025E5)
+{start}
 //その机の上よ
 His clothes are\non the table.
 <$00>
+{end}
 
-#WARN($0000077C, "@0000077C)
 // PTR : 00000780
-#JMP($00000780)
 #WLB(PTR2, $00002974)
 #WHB(PTR2, $00002975)
 #WBB(PTR2, $00002970)
 #WUB(PTR2, $00002971)
+{start}
 //じゃあ、アディ\nあの人によろしくね
 Oh! And give him\nmy regards!
 <$00>
+{end}
 
-#WARN($000007A1, "@000007A1)
 // PTR : 000007B0
-#JMP($000007B0)
 #WLB(PTR2, $000030A8)
 #WHB(PTR2, $000030A9)
 #WBB(PTR2, $000030A4)
 #WUB(PTR2, $000030A5)
+{start}
 //仕立屋内・入口
 Tailor Front
 <$00>
+{end}
 
-#WARN($000007BE, "@000007BE)
 // PTR : 000007C4
-#JMP($000007C4)
 #WLB(PTR2, $000034D0)
 #WHB(PTR2, $000034D1)
 #WBB(PTR2, $000034CC)
 #WUB(PTR2, $000034CD)
-//完成した服を持って\nバーへ向かうアディ。
+{start}
+完成した服を持って\nバーへ向かうアディ。
 With clothes in hand,\nAddie left for the bar.
 <$00>
+{end}
 
-#WARN($000007EB, "@000007EB)
 // PTR : 000007EC
-#JMP($000007EC)
 #WLB(PTR2, $00003598)
 #WHB(PTR2, $00003599)
 #WBB(PTR2, $00003594)
 #WUB(PTR2, $00003595)
+{start}
 //いったい、\n誰の服なのかしら？
 Oh? And whose are these?!
 <$00>
+{end}
 
-#WARN($00000809, "@00000809)
 // PTR : 0000084C
-#JMP($0000084C)
 #WLB(PTR2, $000039C8)
 #WHB(PTR2, $000039C9)
 #WBB(PTR2, $000039C4)
 #WUB(PTR2, $000039C5)
+{start}
 //仕立屋内・奥
 Tailor Rear
 <$00>
+{end}
 
-#WARN($00000858, "@00000858)

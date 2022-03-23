@@ -6,167 +6,167 @@
 #JMP($00021F86)
 
 // PTR : 00000330
-#JMP($00000330)
 #WRITE(PTR, $0000053C)
+{start}
 //こんな風にあなたと\n音楽を聞いてるのって…
 Listening to music\nlike this with you...
 <$00>
+{end}
 
-#WARN($00000359, "@00000359)
 // PTR : 0000035C
-#JMP($0000035C)
 #WRITE(PTR, $00000540)
+{start}
 //２人でお風呂に入ってるみたいね…
 It's like we're\nbathing together.
 <$00>
+{end}
 
-#WARN($0000037C, "@0000037C)
 // PTR : 00000380
-#JMP($00000380)
 #WRITE(PTR, $00000544)
+{start}
 //変な意味じゃないわよっ！
 You know what I meant!
 <$00>
+{end}
 
-#WARN($00000398, "@00000398)
 // PTR : 0000039C
-#JMP($0000039C)
 #WRITE(PTR, $00000548)
+{start}
 //音のお風呂みたいな感じだなって
 You know,\nbathing in sound?
 <$00>
+{end}
 
-#WARN($000003BA, "@000003BA)
 // PTR : 000003BC
-#JMP($000003BC)
 #WRITE(PTR, $0000054C)
+{start}
 //言いたかったの
 Oh, I bet, Addie.
 <$00>
+{end}
 
-#WARN($000003CA, "@000003CA)
 // PTR : 000003CC
-#JMP($000003CC)
 #WRITE(PTR, $00000550)
+{start}
 //あなたって、意外と詩人なのね
 You do have\na way with words.
 <$00>
+{end}
 
-#WARN($000003E8, "@000003E8)
 // PTR : 000003EC
-#JMP($000003EC)
 #WRITE(PTR, $00000554)
+{start}
 //人と一緒にお風呂に入ると
 When people take a bath,
 <$00>
+{end}
 
-#WARN($00000404, "@00000404)
 // PTR : 00000408
-#JMP($00000408)
 #WRITE(PTR, $00000558)
+{start}
 //自分のことが全部\nばれちゃう気がするじゃない？
 they feel really exposed.
 <$00>
+{end}
 
-#WARN($00000435, "@00000435)
 // PTR : 00000438
-#JMP($00000438)
 #WRITE(PTR, $0000055C)
+{start}
 //…そんな感じがしない？
 Don't you feel\nlike that now?
 <$00>
+{end}
 
-#WARN($0000044E, "@0000044E)
 // PTR : 00000450
-#JMP($00000450)
 #WRITE(PTR, $00000560)
+{start}
 //しないわよ
 Not at all.
 <$00>
+{end}
 
-#WARN($0000045A, "@0000045A)
 // PTR : 0000045C
-#JMP($0000045C)
 #WRITE(PTR, $00000564)
+{start}
 //だって、あなたは今
 And what makes you think
 <$00>
+{end}
 
-#WARN($0000046E, "@0000046E)
 // PTR : 00000470
-#JMP($00000470)
 #WRITE(PTR, $00000568)
+{start}
 //わたしの考えてることが\nわからないでしょ？
 you know what\nI'm feeling?
 <$00>
+{end}
 
-#WARN($00000499, "@00000499)
 // PTR : 0000049C
-#JMP($0000049C)
 #WRITE(PTR, $0000056C)
+{start}
 //想像はつくわよ
 I was guessing, but,
 <$00>
+{end}
 
-#WARN($000004AA, "@000004AA)
 // PTR : 000004AC
-#JMP($000004AC)
 #WRITE(PTR, $00000570)
+{start}
 //ジャマするなって言いたいんでしょ
 now I guess\nI've bugged you.
 <$00>
+{end}
 
-#WARN($000004CC, "@000004CC)
 // PTR : 000004D0
-#JMP($000004D0)
 #WRITE(PTR, $00000574)
+{start}
 //やっぱりわかってないみたいね
 Wrong again.
 <$00>
+{end}
 
-#WARN($000004EC, "@000004EC)
 // PTR : 000004F0
-#JMP($000004F0)
 #WRITE(PTR, $00000578)
+{start}
 //え？
 Huh?
 <$00>
+{end}
 
-#WARN($000004F4, "@000004F4)
 // PTR : 000004F8
-#JMP($000004F8)
 #WRITE(PTR, $0000057C)
+{start}
 //あなたのおかげよ、感謝してるわ
 I feel grateful.\nThank you for this.
 <$00>
+{end}
 
-#WARN($00000516, "@00000516)
 // PTR : 00000518
-#JMP($00000518)
 #WRITE(PTR, $00000580)
+{start}
 //…わかった？
 Let that "soak" in.
 <$00>
+{end}
 
-#WARN($00000524, "@00000524)
 // PTR : 00000528
-#JMP($00000528)
 #WRITE(PTR, $00000584)
+{start}
 //調子狂っちゃうわ
 Geez Louise.
 <$00>
+{end}
 
-#WARN($00000538, "@00000538)
 #VAR(PTR2, CUSTOMPOINTER)
 #CREATEPTR(PTR2, "LINEAR", -2148301688, 32)
 // PTR : 00000AD8
-#JMP($00000AD8)
 #WLB(PTR2, $00002E8C)
 #WHB(PTR2, $00002E8D)
 #WBB(PTR2, $00002E88)
 #WUB(PTR2, $00002E89)
+{start}
 //テンプレート
 Template
 <$00>
+{end}
 
-#WARN($00000AE4, "@00000AE4)

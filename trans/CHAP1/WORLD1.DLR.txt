@@ -6,653 +6,651 @@
 #JMP($00024C48)
 
 // PTR : 000003B0
-#JMP($000003B0)
 #WRITE(PTR, $000003C4)
+{start}
 //ここ…
 This place...
 <$00>
+{end}
 
-#WARN($000003B6, "@000003B6)
 // PTR : 000003B8
-#JMP($000003B8)
 #WRITE(PTR, $000003C8)
+{start}
 //どこ？
 Where am I?
 <$00>
+{end}
 
-#WARN($000003BE, "@000003BE)
 // PTR : 00000DA4
-#JMP($00000DA4)
 #WRITE(PTR, $00000F48)
+{start}
 //おはよう、モーゼ
 Good morning, Moze.
 <$00>
+{end}
 
-#WARN($00000DB4, "@00000DB4)
 // PTR : 00000DB8
-#JMP($00000DB8)
 #WRITE(PTR, $00000F4C)
+{start}
 //話があるの
 I need to talk to you!
 <$00>
+{end}
 
-#WARN($00000DC2, "@00000DC2)
 // PTR : 00000DC4
-#JMP($00000DC4)
 #WRITE(PTR, $00000F50)
+{start}
 //…登っておいでよ
 Well, come on up!
 <$00>
+{end}
 
-#WARN($00000DD4, "@00000DD4)
 // PTR : 00000DD8
-#JMP($00000DD8)
 #WRITE(PTR, $00000F54)
+{start}
 //登れたらの話だけど
 If you can!
 <$00>
+{end}
 
-#WARN($00000DEA, "@00000DEA)
 // PTR : 00000DEC
-#JMP($00000DEC)
 #WRITE(PTR, $00000F58)
+{start}
 //わかったわ
 You asked for it.
 <$00>
+{end}
 
-#WARN($00000DF6, "@00000DF6)
 // PTR : 00000DF8
-#JMP($00000DF8)
 #WRITE(PTR, $00000F5C)
+{start}
 //はい、これ
 Hold this for me!
 <$00>
+{end}
 
-#WARN($00000E02, "@00000E02)
 // PTR : 00000E04
-#JMP($00000E04)
 #WRITE(PTR, $00000F60)
+{start}
 //え、ちょっと…
 Woah, wait up!
 <$00>
+{end}
 
-#WARN($00000E12, "@00000E12)
 // PTR : 00000E14
-#JMP($00000E14)
 #WRITE(PTR, $00000F64)
+{start}
 //木の上から見る風景って、初めて
 This is my first time\ngetting this view.
 <$00>
+{end}
 
-#WARN($00000E32, "@00000E32)
 // PTR : 00000E34
-#JMP($00000E34)
 #WRITE(PTR, $00000F68)
+{start}
 //…で、話って？
 Yeah? Do you...\nstill want to talk?
 <$00>
+{end}
 
-#WARN($00000E42, "@00000E42)
 // PTR : 00000E44
-#JMP($00000E44)
 #WRITE(PTR, $00000F6C)
+{start}
 //動いたよ、オルゴール
 I do! It's about\nthe music box.
 <$00>
+{end}
 
-#WARN($00000E58, "@00000E58)
 // PTR : 00000E5C
-#JMP($00000E5C)
 #WRITE(PTR, $00000F70)
+{start}
 //ほら
 Look!
 <$00>
+{end}
 
-#WARN($00000E60, "@00000E60)
 // PTR : 00000E64
-#JMP($00000E64)
 #WRITE(PTR, $00000F74)
+{start}
 //ねえ、モーゼ
 See, Moze?
 <$00>
+{end}
 
-#WARN($00000E70, "@00000E70)
 // PTR : 00000E74
-#JMP($00000E74)
 #WRITE(PTR, $00000F78)
+{start}
 //…壊れたものは、直せばいいのよ
 Anything "broken"\ncan still be fixed.
 <$00>
+{end}
 
-#WARN($00000E92, "@00000E92)
 // PTR : 00000E9C
-#JMP($00000E9C)
 #WRITE(PTR, $00000F80)
+{start}
 //急に何すんだよ！
 What was THAT for?!
 <$00>
+{end}
 
-#WARN($00000EAC, "@00000EAC)
 // PTR : 00000EB0
-#JMP($00000EB0)
 #WRITE(PTR, $00000F84)
+{start}
 //ねえモーゼ、あなた子供のくせに
 You're a kid!\nYou're flexible!
 <$00>
+{end}
 
-#WARN($00000ECE, "@00000ECE)
 // PTR : 00000ED0
-#JMP($00000ED0)
 #WRITE(PTR, $00000F88)
+{start}
 //大人のわがままに負けちゃうの？
 Or have you succumbed to\nrigid adult life already?
 <$00>
+{end}
 
-#WARN($00000EEE, "@00000EEE)
 // PTR : 00000EF0
-#JMP($00000EF0)
 #WRITE(PTR, $00000F8C)
+{start}
 //アディ、
 Addie, Addie, Addie.
 <$00>
+{end}
 
-#WARN($00000EF8, "@00000EF8)
 // PTR : 00000EFC
-#JMP($00000EFC)
 #WRITE(PTR, $00000F90)
+{start}
 //ちょっと用事を思い出したんだ
 You just reminded me,\nI've got work to do.
 <$00>
+{end}
 
-#WARN($00000F18, "@00000F18)
 // PTR : 00000F1C
-#JMP($00000F1C)
 #WRITE(PTR, $00000F94)
+{start}
 //すぐ戻ってくるから
 But I'll be back soon!
 <$00>
+{end}
 
-#WARN($00000F2E, "@00000F2E)
 // PTR : 00000F30
-#JMP($00000F30)
 #WRITE(PTR, $00000F98)
+{start}
 //それ、預かっておいて
 Take good care\nof my hat.
 <$00>
+{end}
 
-#WARN($00000F44, "@00000F44)
 // PTR : 00001778
-#JMP($00001778)
 #WRITE(PTR, $00001954)
+{start}
 //モーゼ兄さんなら
 If you're looking\nfor Moze...
 <$00>
+{end}
 
-#WARN($00001788, "@00001788)
 // PTR : 0000178C
-#JMP($0000178C)
 #WRITE(PTR, $00001958)
+{start}
 //もう行っちゃったわよ
 He's already gone.
 <$00>
+{end}
 
-#WARN($000017A0, "@000017A0)
 // PTR : 000017A4
-#JMP($000017A4)
 #WRITE(PTR, $0000195C)
+{start}
 //これを返そうと思って…
 I wanted to\nreturn this.
 <$00>
+{end}
 
-#WARN($000017BA, "@000017BA)
 // PTR : 000017BC
-#JMP($000017BC)
 #WRITE(PTR, $00001960)
+{start}
 //兄さんがあなたにあげたんでしょ？
 Did my brother\ngive that to you?
 <$00>
+{end}
 
-#WARN($000017DC, "@000017DC)
 // PTR : 000017E0
-#JMP($000017E0)
 #WRITE(PTR, $00001964)
+{start}
 //わたしは受け取れないわ
 Then I can't accept.
 <$00>
+{end}
 
-#WARN($000017F6, "@000017F6)
 // PTR : 000017F8
-#JMP($000017F8)
 #WRITE(PTR, $00001968)
+{start}
 //それに、うちにはもう…
 Besides, our home...
 <$00>
+{end}
 
-#WARN($0000180E, "@0000180E)
 // PTR : 00001810
-#JMP($00001810)
 #WRITE(PTR, $0000196C)
+{start}
 //…もう、いらないものだから
 ...doesn't need it\nanymore.
 <$00>
+{end}
 
-#WARN($0000182A, "@0000182A)
 // PTR : 0000182C
-#JMP($0000182C)
 #WRITE(PTR, $00001970)
+{start}
 //アディ
 Addie.
 <$00>
+{end}
 
-#WARN($00001832, "@00001832)
 // PTR : 00001834
-#JMP($00001834)
 #WRITE(PTR, $00001974)
+{start}
 //正直に言うとね…
 If I'm being honest,
 <$00>
+{end}
 
-#WARN($00001844, "@00001844)
 // PTR : 00001848
-#JMP($00001848)
 #WRITE(PTR, $00001978)
+{start}
 //あなたなら兄さんを\n引き止められるかもって
 if I thought anyone\ncould get him to stay,
 <$00>
+{end}
 
-#WARN($00001871, "@00001871)
 // PTR : 00001874
-#JMP($00001874)
 #WRITE(PTR, $0000197C)
+{start}
 //思ってたんだけど…
 it would've been you.
 <$00>
+{end}
 
-#WARN($00001886, "@00001886)
 // PTR : 00001888
-#JMP($00001888)
 #WRITE(PTR, $00001980)
+{start}
 //だって…！
 How could I?!
 <$00>
+{end}
 
-#WARN($00001892, "@00001892)
 // PTR : 00001894
-#JMP($00001894)
 #WRITE(PTR, $00001984)
+{start}
 //別に責めてるんじゃないの
 I'm not blaming you.
 <$00>
+{end}
 
-#WARN($000018AC, "@000018AC)
 // PTR : 000018B0
-#JMP($000018B0)
 #WRITE(PTR, $00001988)
+{start}
 //思っていたよりもあなたは、
 You're just more adult...
 <$00>
+{end}
 
-#WARN($000018CA, "@000018CA)
 // PTR : 000018CC
-#JMP($000018CC)
 #WRITE(PTR, $0000198C)
+{start}
 //大人だったんだな、って…
 ...than I once thought.
 <$00>
+{end}
 
-#WARN($000018E4, "@000018E4)
 // PTR : 000018E8
-#JMP($000018E8)
 #WRITE(PTR, $00001990)
+{start}
 //そんなに聞き分けがいいって
 I didn't know you
 <$00>
+{end}
 
-#WARN($00001902, "@00001902)
 // PTR : 00001904
-#JMP($00001904)
 #WRITE(PTR, $00001994)
+{start}
 //知らなかったから…
 were so reasonable.
 <$00>
+{end}
 
-#WARN($00001916, "@00001916)
 // PTR : 00001918
-#JMP($00001918)
 #WRITE(PTR, $00001998)
+{start}
 //都合がよすぎるわね
 Or should I say,\n"too realistic".
 <$00>
+{end}
 
-#WARN($0000192A, "@0000192A)
 // PTR : 0000192C
-#JMP($0000192C)
 #WRITE(PTR, $0000199C)
+{start}
 //ごめんなさい
 ...I'm sorry.
 <$00>
+{end}
 
-#WARN($00001938, "@00001938)
 // PTR : 0000193C
-#JMP($0000193C)
 #WRITE(PTR, $000019A0)
+{start}
 //…また、遊びに来てね
 ...Come over sometime.
 <$00>
+{end}
 
-#WARN($00001950, "@00001950)
 // PTR : 00001F98
-#JMP($00001F98)
 #WRITE(PTR, $00001FD0)
+{start}
 //これ、なにかしら
 Let's see here...
 <$00>
+{end}
 
-#WARN($00001FA8, "@00001FA8)
 // PTR : 00001FAC
-#JMP($00001FAC)
 #WRITE(PTR, $00001FD4)
+{start}
 //椅子…？
 This looks\nlike a chair.
 <$00>
+{end}
 
-#WARN($00001FB4, "@00001FB4)
 // PTR : 00001FB8
-#JMP($00001FB8)
 #WRITE(PTR, $00001FD8)
+{start}
 //にしても、大げさだけど
 An awfully large one.
 <$00>
+{end}
 
-#WARN($00001FCE, "@00001FCE)
 // PTR : 0000204C
-#JMP($0000204C)
 #WRITE(PTR, $000020A4)
+{start}
 //ん？
 Hmm?
 <$00>
+{end}
 
-#WARN($00002050, "@00002050)
 // PTR : 00002054
-#JMP($00002054)
 #WRITE(PTR, $000020A8)
+{start}
 //なにか書いてあるわ…
 Something's written here.
 <$00>
+{end}
 
-#WARN($00002068, "@00002068)
 // PTR : 000003A8
-#JMP($000003A8)
 #WRITE(PTR, $000003C0)
 #WRITE(PTR, $000020AC)
-//……
+{start}
 ......
 <$00>
+{end}
 
-#WARN($000003AC, "@000003AC)
 // PTR : 0000206C
-#JMP($0000206C)
 #WRITE(PTR, $000020B0)
+{start}
 //『訣別する者の名を刻め』？
 "Name the departed"?
 <$00>
+{end}
 
-#WARN($00002086, "@00002086)
 // PTR : 00002088
-#JMP($00002088)
 #WRITE(PTR, $000020B4)
+{start}
 //なんだか、難しいことばね
 That's unpleasant.
 <$00>
+{end}
 
-#WARN($000020A0, "@000020A0)
 // PTR : 000020DC
-#JMP($000020DC)
 #WRITE(PTR, $00002144)
+{start}
 //ようするに、名前を\n書けって言ってるのよね
 It wants me to\nenter a name?
 <$00>
+{end}
 
-#WARN($00002105, "@00002105)
 // PTR : 00002108
-#JMP($00002108)
 #WRITE(PTR, $00002148)
+{start}
 //『訣別』…\nお別れ、って意味かしら
 "Departed"...\n As in, "left".
 <$00>
+{end}
 
-#WARN($00002129, "@00002129)
 // PTR : 0000212C
-#JMP($0000212C)
 #WRITE(PTR, $0000214C)
+{start}
 //…お別れする人の名前…
 The name of someone\nwho left me.
 <$00>
+{end}
 
-#WARN($00002142, "@00002142)
 // PTR : 0000244C
-#JMP($0000244C)
 #WRITE(PTR, $00002484)
+{start}
 //あれ…
 Emmy?
 <$00>
+{end}
 
-#WARN($00002452, "@00002452)
 // PTR : 00002454
-#JMP($00002454)
 #WRITE(PTR, $00002488)
+{start}
 //見うしなっちゃった…
 I don't see her.
 <$00>
+{end}
 
-#WARN($00002468, "@00002468)
 // PTR : 0000246C
-#JMP($0000246C)
 #WRITE(PTR, $0000248C)
+{start}
 //でも、きっとこの先ね
 She must be\nup ahead.
 <$00>
+{end}
 
-#WARN($00002480, "@00002480)
 // PTR : 0000252C
-#JMP($0000252C)
 #WRITE(PTR, $00002554)
+{start}
 //いない…わね
 She's not here.
 <$00>
+{end}
 
-#WARN($00002538, "@00002538)
 // PTR : 0000253C
-#JMP($0000253C)
 #WRITE(PTR, $00002558)
+{start}
 //…あら？
 Emmy?
 <$00>
+{end}
 
-#WARN($00002544, "@00002544)
 // PTR : 00002548
-#JMP($00002548)
 #WRITE(PTR, $0000255C)
+{start}
 //誰かいるわ
 Someone's\nup there.
 <$00>
+{end}
 
-#WARN($00002552, "@00002552)
 // PTR : 00000E94
-#JMP($00000E94)
 #WRITE(PTR, $00000F7C)
 #WRITE(PTR, $00002624)
+{start}
 //え？
 Huh?
 <$00>
+{end}
 
-#WARN($00000E98, "@00000E98)
 // PTR : 0000260C
-#JMP($0000260C)
 #WRITE(PTR, $00002628)
+{start}
 //なんだ…
 What was that?
 <$00>
+{end}
 
-#WARN($00002614, "@00002614)
 // PTR : 00002618
-#JMP($00002618)
 #WRITE(PTR, $0000262C)
+{start}
 //ジョーカ…
 Joka...
 <$00>
+{end}
 
-#WARN($00002622, "@00002622)
 // PTR : 00002674
-#JMP($00002674)
 #WRITE(PTR, $00002720)
+{start}
 //さっき、エミィって子みなかった？
 Was that Emmy I saw?
 <$00>
+{end}
 
-#WARN($00002694, "@00002694)
 // PTR : 00002698
-#JMP($00002698)
 #WRITE(PTR, $00002724)
+{start}
 //どんな子？
 Who?
 <$00>
+{end}
 
-#WARN($000026A2, "@000026A2)
 // PTR : 000026A4
-#JMP($000026A4)
 #WRITE(PTR, $00002728)
+{start}
 //黒っぽい服で、長い黒髪の子よ
 She has black hair\nand a blue dress.
 <$00>
+{end}
 
-#WARN($000026C0, "@000026C0)
 // PTR : 000026C4
-#JMP($000026C4)
 #WRITE(PTR, $0000272C)
+{start}
 //なんだ、イライザみたいな子だね
 That sounds like Eliza!
 <$00>
+{end}
 
-#WARN($000026E2, "@000026E2)
 // PTR : 000026E4
-#JMP($000026E4)
 #WRITE(PTR, $00002730)
+{start}
 //イライザって、誰？
 Who's Eliza?
 <$00>
+{end}
 
-#WARN($000026F6, "@000026F6)
 // PTR : 000026F8
-#JMP($000026F8)
 #WRITE(PTR, $00002734)
+{start}
 //僕の知り合いさ
 Someone I know.
 <$00>
+{end}
 
-#WARN($00002706, "@00002706)
 // PTR : 00002708
-#JMP($00002708)
 #WRITE(PTR, $00002738)
+{start}
 //そう。じゃあ違うわね
 Ah, well,\nthat's different.
 <$00>
+{end}
 
-#WARN($0000271C, "@0000271C)
 #VAR(PTR1, CUSTOMPOINTER)
 #CREATEPTR(PTR1, "LINEAR", -2148236152, 32)
 // PTR : 00000324
-#JMP($00000324)
 #WLB(PTR1, $00004C70)
 #WHB(PTR1, $00004C71)
 #WBB(PTR1, $00004C6C)
 #WUB(PTR1, $00004C6D)
+{start}
 //次の画面で、クリアデータを\nセーブして下さい
 Save GAME CLEAR data\non the next screen.
 <$00>
+{end}
 
-#WARN($0000034F, "@0000034F)
 // PTR : 00000350
-#JMP($00000350)
 #WLB(PTR1, $00004C7C)
 #WHB(PTR1, $00004C7D)
 #WBB(PTR1, $00004C78)
 #WUB(PTR1, $00004C79)
+{start}
 //セーブされなかった場合\nクリアデータは失われます
 If not saved,\nprogress will be lost.
 <$00>
+{end}
 
-#WARN($0000037F, "@0000037F)
 // PTR : 000003F0
-#JMP($000003F0)
 #WLB(PTR1, $00005158)
 #WHB(PTR1, $00005159)
 #WBB(PTR1, $00005154)
 #WUB(PTR1, $00005155)
+{start}
 //目を覚ましたアディ。\nそこは見慣れない風景。
 Addie woke up\nin a mysterious place.
 <$00>
+{end}
 
-#WARN($0000041B, "@0000041B)
 // PTR : 0000041C
-#JMP($0000041C)
 #WLB(PTR1, $0000522C)
 #WHB(PTR1, $0000522D)
 #WBB(PTR1, $00005228)
 #WUB(PTR1, $00005229)
+{start}
 //…ここ、どこかしら？
 ...Where am I?
 <$00>
+{end}
 
-#WARN($00000430, "@00000430)
 // PTR : 00000434
-#JMP($00000434)
 #WLB(PTR1, $000052D8)
 #WHB(PTR1, $000052D9)
 #WBB(PTR1, $000052D4)
 #WUB(PTR1, $000052D5)
+{start}
 //そう、ここが
 This is it.
 <$00>
+{end}
 
-#WARN($00000440, "@00000440)
 // PTR : 00000444
-#JMP($00000444)
 #WLB(PTR1, $000052E4)
 #WHB(PTR1, $000052E5)
 #WBB(PTR1, $000052E0)
 #WUB(PTR1, $000052E1)
+{start}
 //わたしが目を覚ました場所
 The place I woke up.
 <$00>
+{end}
 
-#WARN($0000045C, "@0000045C)
 // PTR : 00000460
-#JMP($00000460)
 #WLB(PTR1, $000053D0)
 #WHB(PTR1, $000053D1)
 #WBB(PTR1, $000053CC)
 #WUB(PTR1, $000053CD)
+{start}
 //導かれるままに\n始まりの墓を訪れたアディ。
 As if led there,\nAddie found a tomb.
 <$00>
+{end}
 
-#WARN($00000489, "@00000489)
 #VAR(PTR2, CUSTOMPOINTER)
 #CREATEPTR(PTR2, "LINEAR", -2148301688, 32)
 // PTR : 000004C4
-#JMP($000004C4)
 #WLB(PTR2, $0000559C)
 #WHB(PTR2, $0000559D)
 #WBB(PTR2, $00005598)
 #WUB(PTR2, $00005599)
-//何もないよ。さ、戻ろう\n街を案内してあげるよ
+{start}
+何もないよ。さ、戻ろう\n街を案内してあげるよ
 Let's head back to town.\nI'll give you the tour!
 <$00>
+{end}
 
-#WARN($000004EF, "@000004EF)
 // PTR : 000004A8
-#JMP($000004A8)
 #WLB(PTR2, $00005584)
 #WHB(PTR2, $00005585)
 #WBB(PTR2, $00005580)
@@ -661,223 +659,223 @@ Let's head back to town.\nI'll give you the tour!
 #WHB(PTR2, $000055D9)
 #WBB(PTR2, $000055D4)
 #WUB(PTR2, $000055D5)
+{start}
 //ここは、ただの古いお墓さ
 This is an old tomb.
 <$00>
+{end}
 
-#WARN($000004C0, "@000004C0)
 // PTR : 00002004
-#JMP($00002004)
 #WLB(PTR2, $000089E8)
 #WHB(PTR2, $000089E9)
 #WBB(PTR2, $000089E4)
 #WUB(PTR2, $000089E5)
+{start}
 //でも…なんだか\n悲しい感じもするわね
 Only, its sadness\nfeels fresh.
 <$00>
+{end}
 
-#WARN($00002027, "@00002027)
 // PTR : 0000215C
-#JMP($0000215C)
 #WLB(PTR2, $00008EA8)
 #WHB(PTR2, $00008EA9)
 #WBB(PTR2, $00008EA4)
 #WUB(PTR2, $00008EA5)
+{start}
 //ケツベツ、かぁ…
 "Departed," huh.
 <$00>
+{end}
 
-#WARN($0000216C, "@0000216C)
 // PTR : 00002170
-#JMP($00002170)
 #WLB(PTR2, $00008F18)
 #WHB(PTR2, $00008F19)
 #WBB(PTR2, $00008F14)
 #WUB(PTR2, $00008F15)
+{start}
 //刻む
 Carve
 //Tomb - ???
 <$00>
+{end}
 
-#WARN($00002174, "@00002174)
 // PTR : 00002178
-#JMP($00002178)
 #WLB(PTR2, $00008F20)
 #WHB(PTR2, $00008F21)
 #WBB(PTR2, $00008F1C)
 #WUB(PTR2, $00008F1D)
+{start}
 //刻まない
 Don't carve
 <$00>
+{end}
 
-#WARN($00002180, "@00002180)
 // PTR : 000021E4
-#JMP($000021E4)
 #WLB(PTR2, $0000900C)
 #WHB(PTR2, $0000900D)
 #WBB(PTR2, $00009008)
 #WUB(PTR2, $00009009)
+{start}
 //あたし…\nどうしたらいいの
 What should I do?
 <$00>
+{end}
 
-#WARN($000021FD, "@000021FD)
 // PTR : 00002200
-#JMP($00002200)
 #WLB(PTR2, $00009034)
 #WHB(PTR2, $00009035)
 #WBB(PTR2, $00009030)
 #WUB(PTR2, $00009031)
+{start}
 //やだ…\nなんだか、こわいわ
 It's funny.\nI'm...scared.
 <$00>
+{end}
 
-#WARN($00002219, "@00002219)
 // PTR : 000022A4
-#JMP($000022A4)
 #WLB(PTR2, $00009B14)
 #WHB(PTR2, $00009B15)
 #WBB(PTR2, $00009B10)
 #WUB(PTR2, $00009B11)
+{start}
 //始まりの墓
 Tomb
 <$00>
+{end}
 
-#WARN($000022AE, "@000022AE)
 // PTR : 000022B0
-#JMP($000022B0)
 #WLB(PTR2, $0000A31C)
 #WHB(PTR2, $0000A31D)
 #WBB(PTR2, $0000A318)
 #WUB(PTR2, $0000A319)
+{start}
 //あ、エミィ！
 Oh! Emmy!
 <$00>
+{end}
 
-#WARN($000022BC, "@000022BC)
 // PTR : 000022C0
-#JMP($000022C0)
 #WLB(PTR2, $0000A5D4)
 #WHB(PTR2, $0000A5D5)
 #WBB(PTR2, $0000A5D0)
 #WUB(PTR2, $0000A5D1)
+{start}
 //エミィに似た少女が現れる。\nその少女を追うアディ。
 Addie followed a girl\nwho resembled Emmy.
 <$00>
+{end}
 
-#WARN($000022F1, "@000022F1)
 // PTR : 000022F4
-#JMP($000022F4)
 #WLB(PTR2, $0000A68C)
 #WHB(PTR2, $0000A68D)
 #WBB(PTR2, $0000A688)
 #WUB(PTR2, $0000A689)
+{start}
 //さっきの女の子、たしかに\nエミィだったと思うんだけど…
 That girl\nhas to be Emmy!
 <$00>
+{end}
 
-#WARN($00002329, "@00002329)
 // PTR : 00002370
-#JMP($00002370)
 #WLB(PTR2, $0000A784)
 #WHB(PTR2, $0000A785)
 #WBB(PTR2, $0000A780)
 #WUB(PTR2, $0000A781)
+{start}
 //ところで\nきみ、どこから来たの？
 By the way,\nwhere are you from?
 <$00>
+{end}
 
-#WARN($0000238F, "@0000238F)
 // PTR : 00002390
-#JMP($00002390)
 #WLB(PTR2, $0000A798)
 #WHB(PTR2, $0000A799)
 #WBB(PTR2, $0000A794)
 #WUB(PTR2, $0000A795)
+{start}
 //さあ、何と言ったらいいのか…
 How should I put this...
 <$00>
+{end}
 
-#WARN($000023AC, "@000023AC)
 // PTR : 000023B0
-#JMP($000023B0)
 #WLB(PTR2, $0000A7D0)
 #WHB(PTR2, $0000A7D1)
 #WBB(PTR2, $0000A7CC)
 #WUB(PTR2, $0000A7CD)
+{start}
 //迷子なのかい、きみ
 You sound, uh, lost.
 <$00>
+{end}
 
-#WARN($000023C2, "@000023C2)
 // PTR : 000023C4
-#JMP($000023C4)
 #WLB(PTR2, $0000AFB0)
 #WHB(PTR2, $0000AFB1)
 #WBB(PTR2, $0000AFAC)
 #WUB(PTR2, $0000AFAD)
+{start}
 //始まりの墓・入口
 Tomb Entrance
 <$00>
+{end}
 
-#WARN($000023D4, "@000023D4)
 // PTR : 000023D8
-#JMP($000023D8)
 #WLB(PTR2, $0000B46C)
 #WHB(PTR2, $0000B46D)
 #WBB(PTR2, $0000B468)
 #WUB(PTR2, $0000B469)
+{start}
 //エミィ、待ってよ！
 Emmy, wait!
 <$00>
+{end}
 
-#WARN($000023EA, "@000023EA)
 // PTR : 0000241C
-#JMP($0000241C)
 #WLB(PTR2, $0000C81C)
 #WHB(PTR2, $0000C81D)
 #WBB(PTR2, $0000C818)
 #WUB(PTR2, $0000C819)
+{start}
 //聞こえないの、待ってってば！
 Can she not hear me?\nEmmy!
 <$00>
+{end}
 
-#WARN($00002438, "@00002438)
 // PTR : 0000249C
-#JMP($0000249C)
 #WLB(PTR2, $0000DA84)
 #WHB(PTR2, $0000DA85)
 #WBB(PTR2, $0000DA80)
 #WUB(PTR2, $0000DA81)
+{start}
 //ログロックっていうのは…
 You see, Loglocks...
 <$00>
+{end}
 
-#WARN($000024B4, "@000024B4)
 // PTR : 000024B8
-#JMP($000024B8)
 #WLB(PTR2, $0000DA9C)
 #WHB(PTR2, $0000DA9D)
 #WBB(PTR2, $0000DA98)
 #WUB(PTR2, $0000DA99)
+{start}
 //何かの配列や組み合わせを\nどうにかするものらしいんだ
 Decode and reassemble\nwhatever they say.
 <$00>
+{end}
 
-#WARN($000024EB, "@000024EB)
 // PTR : 000024EC
-#JMP($000024EC)
 #WLB(PTR2, $0000DACC)
 #WHB(PTR2, $0000DACD)
 #WBB(PTR2, $0000DAC8)
 #WUB(PTR2, $0000DAC9)
+{start}
 //僕もよく知らないんだけどね
 I don't understand\nthem fully either.
 <$00>
+{end}
 
-#WARN($00002506, "@00002506)
 // PTR : 0000232C
-#JMP($0000232C)
 #WLB(PTR2, $0000A820)
 #WHB(PTR2, $0000A821)
 #WBB(PTR2, $0000A81C)
@@ -886,13 +884,13 @@ I don't understand\nthem fully either.
 #WHB(PTR2, $0000DB35)
 #WBB(PTR2, $0000DB30)
 #WUB(PTR2, $0000DB31)
+{start}
 //街は鐘楼の向こう側だよ。早く行こう
 The town's just across.\nLet's hurry.
 <$00>
+{end}
 
-#WARN($00002506, "@00002506)
 // PTR : 00002350
-#JMP($00002350)
 #WLB(PTR2, $0000A854)
 #WHB(PTR2, $0000A855)
 #WBB(PTR2, $0000A850)
@@ -901,13 +899,13 @@ The town's just across.\nLet's hurry.
 #WHB(PTR2, $0000DB6D)
 #WBB(PTR2, $0000DB68)
 #WUB(PTR2, $0000DB69)
+{start}
 //この辺りに面白いものはないよ
 There's nothing\ninteresting here.
 <$00>
+{end}
 
-#WARN($0000236C, "@0000236C)
 // PTR : 000023F4
-#JMP($000023F4)
 #WLB(PTR2, $0000C2D0)
 #WHB(PTR2, $0000C2D1)
 #WBB(PTR2, $0000C2CC)
@@ -920,88 +918,116 @@ There's nothing\ninteresting here.
 #WHB(PTR2, $0000E6B1)
 #WBB(PTR2, $0000E6AC)
 #WUB(PTR2, $0000E6AD)
+{start}
 //峠へ続く道
 Path Area
 <$00>
+{end}
 
-#WARN($000023FE, "@000023FE)
 // PTR : 00002584
-#JMP($00002584)
 #WLB(PTR2, $0000F104)
 #WHB(PTR2, $0000F105)
 #WBB(PTR2, $0000F100)
 #WUB(PTR2, $0000F101)
+{start}
 //エミィを見失ったアディは\nとらわれの少年を遠くに望む。
 After she lost Emmy,\nAddie found a boy in a cage.
 <$00>
+{end}
 
-#WARN($000025B9, "@000025B9)
 // PTR : 000025BC
-#JMP($000025BC)
 #WLB(PTR2, $0000F1C4)
 #WHB(PTR2, $0000F1C5)
 #WBB(PTR2, $0000F1C0)
 #WUB(PTR2, $0000F1C1)
+{start}
 //あの人、\nなんで閉じこめられてるのかしら
 How'd he get there?
 <$00>
+{end}
 
-#WARN($000025E3, "@000025E3)
 // PTR : 00002758
-#JMP($00002758)
 #WLB(PTR2, $000101E0)
 #WHB(PTR2, $000101E1)
 #WBB(PTR2, $000101DC)
 #WUB(PTR2, $000101DD)
+{start}
 //峠の上
 Path
 <$00>
+{end}
 
-#WARN($0000275E, "@0000275E)
 // PTR : 00002798
-#JMP($00002798)
 #WLB(PTR2, $00010584)
 #WHB(PTR2, $00010585)
 #WBB(PTR2, $00010580)
 #WUB(PTR2, $00010581)
+{start}
 //ねえ、どうして\n鳥かごが鐘になっちゃったの？
 How'd you get locked\nin that cage anyways?
 <$00>
+{end}
 
-#WARN($000027C3, "@000027C3)
 // PTR : 000027C4
-#JMP($000027C4)
 #WLB(PTR2, $00010590)
 #WHB(PTR2, $00010591)
 #WBB(PTR2, $0001058C)
 #WUB(PTR2, $0001058D)
+{start}
 //え？　ログロックって\nそういうもんじゃないの？
 Hm? You know what\nLoglocks do, right?
 <$00>
+{end}
 
-#WARN($000027F1, "@000027F1)
 // PTR : 0000280C
-#JMP($0000280C)
 #WLB(PTR2, $00010F3C)
 #WHB(PTR2, $00010F3D)
 #WBB(PTR2, $00010F38)
 #WUB(PTR2, $00010F39)
+{start}
 //鐘楼下
 Bell Tower Basement
 <$00>
+{end}
 
-#WARN($00002812, "@00002812)
 // PTR : 0000221C
-#JMP($0000221C)
 #WLB(PTR2, $00012000)
 #WHB(PTR2, $00012001)
 #WBB(PTR2, $00011FFC)
 #WUB(PTR2, $00011FFD)
+{start}
 //暗くて先がよく見えないわ…
 It's dark.\nI can't see too well.
 <$00>
+{end}
 
-#WARN($00002812, "@00002812)
 #VAR(PTR3, CUSTOMPOINTER)
 #CREATEPTR(PTR3, "LINEAR", -2148367224, 32)
+// PTR : 00008487
+#WLB(PTR3, $00003A98)
+#WHB(PTR3, $00003A99)
+#WBB(PTR3, $00003A94)
+#WUB(PTR3, $00003A95)
+#WLB(PTR3, $00003BC4)
+#WHB(PTR3, $00003BC5)
+#WBB(PTR3, $00003BC0)
+#WUB(PTR3, $00003BC1)
+#WLB(PTR3, $00003CB0)
+#WHB(PTR3, $00003CB1)
+#WBB(PTR3, $00003CAC)
+#WUB(PTR3, $00003CAD)
+{start}
+・
+<$00>
+{end}
+
+// PTR : 00002030
+#WLB(PTR3, $00009EC0)
+#WHB(PTR3, $00009EC1)
+#WBB(PTR3, $00009EBC)
+#WUB(PTR3, $00009EBD)
+{start}
+・
+<$00>
+{end}
 

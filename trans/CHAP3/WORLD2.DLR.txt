@@ -5,298 +5,392 @@
 #CREATEPTR(PTR, "LINEAR", -2148236152, 32)
 #JMP($0002504E)
 
-#STRINGALIGN(2)
-
 // PTR : 000002E0
 #WRITE(PTR, $0000032C)
+{start}
 //あ、ここは、ちょっと…
 Uhm, about this place,\nAddie...
 <$00>
+{end}
 
 // PTR : 000002F8
 #WRITE(PTR, $00000330)
+{start}
 //何かあるの？
 Is it spooky?
 <$00>
+{end}
 
 // PTR : 00000308
 #WRITE(PTR, $00000334)
+{start}
 //いや、別に…
 Not per se.\nJust, uh...
 <$00>
+{end}
 
 // PTR : 00000318
 #WRITE(PTR, $00000338)
+{start}
 //ほら、もう行こうよ
 Eh, let's move on.
 <$00>
+{end}
 
 // PTR : 0000037C
 #WRITE(PTR, $000003E8)
+{start}
 //そういえば…
 You know...
 <$00>
+{end}
 
 // PTR : 0000038C
 #WRITE(PTR, $000003EC)
+{start}
 //イライザが、図書館に本を\n返しに行くっていってたわ
 Eliza mentioned\ngoing to the library,
 <$00>
+{end}
 
 // PTR : 000003C0
 #WRITE(PTR, $000003F0)
+{start}
 //イライザは図書カードを\n持ってるのね！
 which means she has\na library card!
 <$00>
+{end}
 
 // PTR : 000006A4
 #WRITE(PTR, $000006F8)
+{start}
 //ねえ、帽子をかぶった子が\n通らなかった？
 Excuse me, did a boy\nin a hat pass by here?
 <$00>
+{end}
 
 // PTR : 000006CC
 #WRITE(PTR, $000006FC)
+{start}
 //ええ、ずっと前に\n退館なさいました
 Yes, but he left\na while ago.
 <$00>
+{end}
 
 // PTR : 000006F0
 #WRITE(PTR, $00000700)
+{start}
 //…そう
 Oh.
 <$00>
+{end}
 
 // PTR : 000008E4
 #WRITE(PTR, $00000B5C)
+{start}
 //結局逃げられちゃったわね
 So, Joka did get away.
 <$00>
+{end}
 
 // PTR : 00000900
 #WRITE(PTR, $00000B60)
+{start}
 //兄さん、逃げ足だけは速いから…
 But that couldn't\nbe helped.
 <$00>
+{end}
 
 // PTR : 00000920
 #WRITE(PTR, $00000B64)
+{start}
 //あなたが…
 Yes it could've!
 <$00>
+{end}
 
 // PTR : 0000092C
 #WRITE(PTR, $00000B68)
+{start}
 //あなたも手伝ってくれれば…
 YOU could have helped.
 <$00>
+{end}
 
 // PTR : 00000948
 #WRITE(PTR, $00000B6C)
+{start}
 //ちょっと待ってよ\n兄さんに逃げられたからって
 Now, hold on!\nHE'S the one who ran,
 <$00>
+{end}
 
 // PTR : 00000974
 #WRITE(PTR, $00000B70)
+{start}
 //…私のせいにするのは\nやめてほしいわ
 so don't you\ngo blaming me.
 <$00>
+{end}
 
 // PTR : 00000998
 #WRITE(PTR, $00000B74)
+{start}
 //でも、手伝ってくれるって…
 You should have helped!
 <$00>
+{end}
 
 // PTR : 000009B4
 #WRITE(PTR, $00000B78)
+{start}
 //あなた、ちょっと\nあつかましいんじゃない？
 Hmph, someone's\nawfully bold.
 <$00>
+{end}
 
 // PTR : 000009E0
 #WRITE(PTR, $00000B7C)
+{start}
 //誰のおかげで、図書館に\n入れたと思ってるの？
 Who helped you into\nthe library, again?
 <$00>
+{end}
 
 // PTR : 00000A0C
 #WRITE(PTR, $00000B80)
+{start}
 //文句を言われる\nスジアイはないわ
 You've no right to\ntake this out on me.
 <$00>
+{end}
 
 // PTR : 00000A2C
 #WRITE(PTR, $00000B84)
+{start}
 //でも、あの部屋から\n逃がさなければ…
 If only you tried\nto stop Joka too,
 <$00>
+{end}
 
 // PTR : 00000A50
 #WRITE(PTR, $00000B88)
+{start}
 //捕まえることもできたのに…
 I might've caught him.
 <$00>
+{end}
 
 // PTR : 00000A6C
 #WRITE(PTR, $00000B8C)
+{start}
 //じゃあ、もうやめるわ\nこれ以上は迷惑そうだし
 Well! Perhaps I'd better\nstay out of your way.
 <$00>
+{end}
 
 // PTR : 00000A98
 #WRITE(PTR, $00000B90)
+{start}
 //え！そういうわけじゃ…
 What?!\nNo, I didn't mean...
 <$00>
+{end}
 
 // PTR : 00000AB0
 #WRITE(PTR, $00000B94)
+{start}
 //不愉快な思いをしてまで\n協力するつもりはないわ
 I wouldn't want to\nmake matters worse!
 <$00>
+{end}
 
 // PTR : 00000AE0
 #WRITE(PTR, $00000B98)
+{start}
 //あ…、ごめんなさい…
 No, Eliza. I'm sorry.
 <$00>
+{end}
 
 // PTR : 00000AF8
 #WRITE(PTR, $00000B9C)
+{start}
 //…わかってくれればいいの\n素直なあなたは、とっても好きよ
 ...It's fine. I just wish\nyou'd think better of me.
 <$00>
+{end}
 
 // PTR : 00000B30
 #WRITE(PTR, $00000BA0)
+{start}
 //…あなたに好かれても\nちっともうれしくないわ
 I do, Eliza.\nI'm just upset.
 <$00>
+{end}
 
 // PTR : 00000EE8
 #WRITE(PTR, $00000F48)
+{start}
 //…なに、それ？
 I need a card?
 <$00>
+{end}
 
 // PTR : 00000EF8
 #WRITE(PTR, $00000F4C)
+{start}
 //お持ちでないのですね
 You don't have one,\nI take it?
 <$00>
+{end}
 
 // PTR : 00000F10
 #WRITE(PTR, $00000F50)
+{start}
 //図書カードをお持ちでない方は\nご入館できません
 You may not enter\nwithout a library card.
 <$00>
+{end}
 
 // PTR : 00000ECC
 #WRITE(PTR, $00000F44)
 #WRITE(PTR, $0000106C)
+{start}
 //図書カードをご提示ください
 Please present\nyour library card.
 <$00>
+{end}
 
 // PTR : 00000FDC
 #WRITE(PTR, $00001070)
+{start}
 //はい
 Here.
 <$00>
+{end}
 
 // PTR : 00000FE4
 #WRITE(PTR, $00001074)
+{start}
 //確かにご提示いただきました
 Thank you, dear.
 <$00>
+{end}
 
 // PTR : 00001000
 #WRITE(PTR, $00001078)
+{start}
 //この子もいっしょに入るわよ
 And she'll be my\nplus-one.
 <$00>
+{end}
 
 // PTR : 0000101C
 #WRITE(PTR, $0000107C)
+{start}
 //会員規約第４７条９項にて\n一名の同伴が認められます
 According to Article 47,\nP. 9 of our Terms of Membership...
 <$00>
+{end}
 
 // PTR : 00001050
 #WRITE(PTR, $00001080)
+{start}
 //どうぞ、お通りください
 ...that is allowed!\nYou two may enter!
 <$00>
+{end}
 
 // PTR : 00000EB8
 #WRITE(PTR, $00000F40)
 #WRITE(PTR, $00001068)
 #WRITE(PTR, $00001174)
+{start}
 //図書館へようこそ
 Welcome to the library.
 <$00>
+{end}
 
 // PTR : 00001110
 #WRITE(PTR, $00001178)
+{start}
 //どうぞ入館下さい
 Enjoy your stay.
 <$00>
+{end}
 
 // PTR : 00001124
 #WRITE(PTR, $0000117C)
+{start}
 //…カードはいらないの？
 Don't I need a card?
 <$00>
+{end}
 
 // PTR : 0000113C
 #WRITE(PTR, $00001180)
+{start}
 //館長からあなたをお通しするように\n申しつけられております
 The head librarian\nmade an exception.
 <$00>
+{end}
 
 // PTR : 000012CC
 #WRITE(PTR, $00001308)
+{start}
 //本がたくさん…
 So many books.
 <$00>
+{end}
 
 // PTR : 000012DC
 #WRITE(PTR, $0000130C)
+{start}
 //図書館だから当然でしょ？
 Duh, it's a library.
 <$00>
+{end}
 
 // PTR : 000012F8
 #WRITE(PTR, $00001310)
+{start}
 //さ、行くわよ
 Let's look.
 <$00>
+{end}
 
 // PTR : 0000172C
 #WRITE(PTR, $00001798)
+{start}
 //ねえ、イライザ！\n何、これ？
 Hey, Eliza!\nWhat's this?
 <$00>
+{end}
 
 // PTR : 00001748
 #WRITE(PTR, $0000179C)
+{start}
 //見ればわかるでしょ？
 What does it look like?
 <$00>
+{end}
 
 // PTR : 00001760
 #WRITE(PTR, $000017A0)
+{start}
 //あなたといっしょだと、疲れちゃう
 Something tells me\nyou'll be a while.
 <$00>
+{end}
 
 // PTR : 00001784
 #WRITE(PTR, $000017A4)
+{start}
 //あとは勝手になさい
 Let's meet up later,\nokay?
 <$00>
+{end}
 
 #VAR(PTR1, CUSTOMPOINTER)
 #CREATEPTR(PTR1, "LINEAR", -2148236152, 32)
@@ -305,45 +399,55 @@ Let's meet up later,\nokay?
 #WHB(PTR1, $00002A45)
 #WBB(PTR1, $00002A40)
 #WUB(PTR1, $00002A41)
+{start}
 //じゃあ、もうやめるわ\nこれ以上は迷惑そうだし
 Well! Perhaps I'd better\nstay out of your way.
 <$00>
+{end}
 
 // PTR : 00000400
 #WLB(PTR1, $000035A0)
 #WHB(PTR1, $000035A1)
 #WBB(PTR1, $0000359C)
 #WUB(PTR1, $0000359D)
+{start}
 //ジョーカを追いかけたが\n図書館に入れないアディ。
 Addie chased Joka, but\ncouldn't enter the library.
 <$00>
+{end}
 
 // PTR : 00000430
 #WLB(PTR1, $00003644)
 #WHB(PTR1, $00003645)
 #WBB(PTR1, $00003640)
 #WUB(PTR1, $00003641)
+{start}
 //イライザの居場所さえ分かれば…
 Maybe Eliza could help...
 <$00>
+{end}
 
 // PTR : 00000450
 #WLB(PTR1, $00003784)
 #WHB(PTR1, $00003785)
 #WBB(PTR1, $00003780)
 #WUB(PTR1, $00003781)
+{start}
 //あなた、なんでバーなんかに\n入りびたってるの？
 Why do you visit\nthe bar so much?
 <$00>
+{end}
 
 // PTR : 00000480
 #WLB(PTR1, $000037A0)
 #WHB(PTR1, $000037A1)
 #WBB(PTR1, $0000379C)
 #WUB(PTR1, $0000379D)
+{start}
 //居心地がいいからよ\nあの人、気を使わないから楽だし
 To relax. The barkeep\nis too "blah" to fuss.
 <$00>
+{end}
 
 #VAR(PTR2, CUSTOMPOINTER)
 #CREATEPTR(PTR2, "LINEAR", -2148301688, 32)
@@ -352,171 +456,209 @@ To relax. The barkeep\nis too "blah" to fuss.
 #WHB(PTR2, $000037E1)
 #WBB(PTR2, $000037DC)
 #WUB(PTR2, $000037DD)
+{start}
 //ヒゲもじゃで、ぶっきらぼうで\nわたしはちょっと苦手だわ…
 Bearded tough guys are\nnot my cup of tea.
 <$00>
+{end}
 
 // PTR : 000004EC
 #WLB(PTR2, $000037F8)
 #WHB(PTR2, $000037F9)
 #WBB(PTR2, $000037F4)
 #WUB(PTR2, $000037F5)
+{start}
 //でも、ああいうトーヘンボクって\nひそかに人気あるじゃない？
 Everyone likes them,\ndeep down.
 <$00>
+{end}
 
 // PTR : 00000528
 #WLB(PTR2, $0000383C)
 #WHB(PTR2, $0000383D)
 #WBB(PTR2, $00003838)
 #WUB(PTR2, $00003839)
+{start}
 //じゃ、あなた\nマスターのこと好きなんだ
 No, you just have a\ncrush on that guy.
 <$00>
+{end}
 
 // PTR : 00000550
 #WLB(PTR2, $00003854)
 #WHB(PTR2, $00003855)
 #WBB(PTR2, $00003850)
 #WUB(PTR2, $00003851)
+{start}
 //わたしは違うわよ\n一般的な話をしてるの
 I didn't say me!\nI said "everyone"!
 <$00>
+{end}
 
 // PTR : 00000578
 #WLB(PTR2, $00003898)
 #WHB(PTR2, $00003899)
 #WBB(PTR2, $00003894)
 #WUB(PTR2, $00003895)
+{start}
 //え？　それって変じゃない
 What's wrong?\nNo one's judging!
 <$00>
+{end}
 
 // PTR : 00000594
 #WLB(PTR2, $000038B4)
 #WHB(PTR2, $000038B5)
 #WBB(PTR2, $000038B0)
 #WUB(PTR2, $000038B1)
+{start}
 //…しつこいわね。あなた
 If you don't drop it...
 <$00>
+{end}
 
 // PTR : 000005AC
 #WLB(PTR2, $000038F8)
 #WHB(PTR2, $000038F9)
 #WBB(PTR2, $000038F4)
 #WUB(PTR2, $000038F5)
+{start}
 //さ、くだらない話はこれくらいにして\n図書館に行くんでしょ
 Ahem! Enough silly chat.\nWe're here.
 <$00>
+{end}
 
 // PTR : 000005E4
 #WLB(PTR2, $00003948)
 #WHB(PTR2, $00003949)
 #WBB(PTR2, $00003944)
 #WUB(PTR2, $00003945)
+{start}
 //図書館に行くんでしょ
 Let's enter the library.
 <$00>
+{end}
 
 // PTR : 0000063C
 #WLB(PTR2, $00003D50)
 #WHB(PTR2, $00003D51)
 #WBB(PTR2, $00003D4C)
 #WUB(PTR2, $00003D4D)
+{start}
 //図書館・入口
 Library Entrance
 <$00>
+{end}
 
 // PTR : 00000780
 #WLB(PTR2, $00004714)
 #WHB(PTR2, $00004715)
 #WBB(PTR2, $00004710)
 #WUB(PTR2, $00004711)
+{start}
 //あの図書カードってもの、頭に来るわ
 Why's the library card\nrule so strict here?
 <$00>
+{end}
 
 // PTR : 000007A4
 #WLB(PTR2, $00004730)
 #WHB(PTR2, $00004731)
 #WBB(PTR2, $0000472C)
 #WUB(PTR2, $0000472D)
+{start}
 //今の館長さんが始めたものらしいわ\n不心得者が知識に接しないようにって
 To keep knowledge\nout of the wrong hands.
 <$00>
+{end}
 
 // PTR : 000007E8
 #WLB(PTR2, $00004794)
 #WHB(PTR2, $00004795)
 #WBB(PTR2, $00004790)
 #WUB(PTR2, $00004791)
+{start}
 //きっとその人、いやな奴だわ
 The head librarian\nsounds mean.
 <$00>
+{end}
 
 // PTR : 00000804
 #WLB(PTR2, $000047B0)
 #WHB(PTR2, $000047B1)
 #WBB(PTR2, $000047AC)
 #WUB(PTR2, $000047AD)
+{start}
 //それは分からないけど\n変わり者なのは確からしいわよ
 I don't know about that,\nbut he IS odd.
 <$00>
+{end}
 
 // PTR : 00000838
 #WLB(PTR2, $000047FC)
 #WHB(PTR2, $000047FD)
 #WBB(PTR2, $000047F8)
 #WUB(PTR2, $000047F9)
+{start}
 //さあ、喋ってないで先に進みましょ\nジョーカを探しに来たんでしょ
 We're here for business,\nright? For Joka?
 <$00>
+{end}
 
 // PTR : 00000F84
 #WLB(PTR2, $00005604)
 #WHB(PTR2, $00005605)
 #WBB(PTR2, $00005600)
 #WUB(PTR2, $00005601)
+{start}
 //…なによ、ケチ！
 Wait, what?!
 <$00>
+{end}
 
 // PTR : 00000EF8
 #WLB(PTR2, $00005660)
 #WHB(PTR2, $00005661)
 #WBB(PTR2, $0000565C)
 #WUB(PTR2, $0000565D)
+{start}
 //お持ちでないのですね
 You don't have one,\ndo you?
 <$00>
+{end}
 
 // PTR : 00000F98
 #WLB(PTR2, $00005704)
 #WHB(PTR2, $00005705)
 #WBB(PTR2, $00005700)
 #WUB(PTR2, $00005701)
+{start}
 //……
 ......
 <$00>
+{end}
 
 // PTR : 000010A0
 #WLB(PTR2, $00005B4C)
 #WHB(PTR2, $00005B4D)
 #WBB(PTR2, $00005B48)
 #WUB(PTR2, $00005B49)
+{start}
 //広い図書館の中で\nいろんなものに出会う。
 This library is huge,\nand full of wild things.
 <$00>
+{end}
 
 // PTR : 000010C8
 #WLB(PTR2, $00005C18)
 #WHB(PTR2, $00005C19)
 #WBB(PTR2, $00005C14)
 #WUB(PTR2, $00005C15)
+{start}
 //変なところ…\nジョーカはどこかしら
 Where is Joka in\nthis strange place?
 <$00>
+{end}
 
 // PTR : 00000ECC
 #WLB(PTR2, $000055F4)
@@ -531,45 +673,55 @@ Where is Joka in\nthis strange place?
 #WHB(PTR2, $00005CA1)
 #WBB(PTR2, $00005C9C)
 #WUB(PTR2, $00005C9D)
+{start}
 //図書カードをご提示ください
 Please present\nyour library card.
 <$00>
+{end}
 
 // PTR : 000010EC
 #WLB(PTR2, $00005E98)
 #WHB(PTR2, $00005E99)
 #WBB(PTR2, $00005E94)
 #WUB(PTR2, $00005E95)
+{start}
 //どうぞごゆっくり
 Enjoy your stay.
 <$00>
+{end}
 
 // PTR : 00000F10
 #WLB(PTR2, $00006054)
 #WHB(PTR2, $00006055)
 #WBB(PTR2, $00006050)
 #WUB(PTR2, $00006051)
+{start}
 //図書カードをお持ちでない方は\nご入館できません
 You may not enter\nwithout a library card.
 <$00>
+{end}
 
 // PTR : 000011F8
 #WLB(PTR2, $00006140)
 #WHB(PTR2, $00006141)
 #WBB(PTR2, $0000613C)
 #WUB(PTR2, $0000613D)
+{start}
 ちょっと！受付が先よ
 Wait!\nReception first, please.
 <$00>
+{end}
 
 // PTR : 00001210
 #WLB(PTR2, $0000645C)
 #WHB(PTR2, $0000645D)
 #WBB(PTR2, $00006458)
 #WUB(PTR2, $00006459)
+{start}
 //ちょっと、何やってるの\nもう行くわよ
 What are you doing?\nLet's go, please.
 <$00>
+{end}
 
 // PTR : 0000072C
 #WLB(PTR2, $00004508)
@@ -580,9 +732,11 @@ What are you doing?\nLet's go, please.
 #WHB(PTR2, $00006555)
 #WBB(PTR2, $00006550)
 #WUB(PTR2, $00006551)
+{start}
 //図書館前で\nイライザと別れたアディ。
 Addie followed Eliza\ninto the library.
 <$00>
+{end}
 
 // PTR : 00000750
 #WLB(PTR2, $000045C4)
@@ -593,225 +747,275 @@ Addie followed Eliza\ninto the library.
 #WHB(PTR2, $00006615)
 #WBB(PTR2, $00006610)
 #WUB(PTR2, $00006611)
+{start}
 //あと少しでジョーカを\nつかまえられると思ったのに
 If only we found\nJoka soon...
 <$00>
+{end}
 
 // PTR : 0000123C
 #WLB(PTR2, $00006C4C)
 #WHB(PTR2, $00006C4D)
 #WBB(PTR2, $00006C48)
 #WUB(PTR2, $00006C49)
+{start}
 //図書館・受付
 Library Reception
 <$00>
+{end}
 
 // PTR : 00001320
 #WLB(PTR2, $0000744C)
 #WHB(PTR2, $0000744D)
 #WBB(PTR2, $00007448)
 #WUB(PTR2, $00007449)
+{start}
 //ダメ！　これだけはダメ！
 Nope!\nNot going near it!
 <$00>
+{end}
 
 // PTR : 0000133C
 #WLB(PTR2, $00007458)
 #WHB(PTR2, $00007459)
 #WBB(PTR2, $00007454)
 #WUB(PTR2, $00007455)
+{start}
 //え？
 Ohhh...
 <$00>
+{end}
 
 // PTR : 00001344
 #WLB(PTR2, $00007520)
 #WHB(PTR2, $00007521)
 #WBB(PTR2, $0000751C)
 #WUB(PTR2, $0000751D)
+{start}
 //え？　…ホタル？
 A giant firefly?
 //firefly - journal
 <$00>
+{end}
 
 // PTR : 0000136C
 #WLB(PTR2, $00007644)
 #WHB(PTR2, $00007645)
 #WBB(PTR2, $00007640)
 #WUB(PTR2, $00007641)
+{start}
 //その手には乗らないわよ
 There's no\nswatting that.
 <$00>
+{end}
 
 // PTR : 00001384
 #WLB(PTR2, $000076C0)
 #WHB(PTR2, $000076C1)
 #WBB(PTR2, $000076BC)
 #WUB(PTR2, $000076BD)
+{start}
 //じゃあ、ずっとそうしてるの？
 What do I usually do?
 <$00>
+{end}
 
 // PTR : 000013A4
 #WLB(PTR2, $000076D0)
 #WHB(PTR2, $000076D1)
 #WBB(PTR2, $000076CC)
 #WUB(PTR2, $000076CD)
+{start}
 //…いないわね
 ...No dice.
 <$00>
+{end}
 
 // PTR : 000013B4
 #WLB(PTR2, $00007990)
 #WHB(PTR2, $00007991)
 #WBB(PTR2, $0000798C)
 #WUB(PTR2, $0000798D)
+{start}
 //さ、行きましょ…
 Okay, let's go.
 <$00>
+{end}
 
 // PTR : 000013C8
 #WLB(PTR2, $000079A0)
 #WHB(PTR2, $000079A1)
 #WBB(PTR2, $0000799C)
 #WUB(PTR2, $0000799D)
+{start}
 //そうね
 Right.
 <$00>
+{end}
 
 // PTR : 000013D0
 #WLB(PTR2, $00007A34)
 #WHB(PTR2, $00007A35)
 #WBB(PTR2, $00007A30)
 #WUB(PTR2, $00007A31)
+{start}
 //ふう…
 Goodness...
 <$00>
+{end}
 
 // PTR : 000013D8
 #WLB(PTR2, $00007A44)
 #WHB(PTR2, $00007A45)
 #WBB(PTR2, $00007A40)
 #WUB(PTR2, $00007A41)
+{start}
 //どう？　ジョーカ兄さんは\n見つかった？
 How's the hunt for\nmy brother going?
 <$00>
+{end}
 
 // PTR : 00001400
 #WLB(PTR2, $00007B18)
 #WHB(PTR2, $00007B19)
 #WBB(PTR2, $00007B14)
 #WUB(PTR2, $00007B15)
+{start}
 //もう、出て行っちゃった\nのかもしれないわね
 He must be\nlong gone by now.
 <$00>
+{end}
 
 // PTR : 0000142C
 #WLB(PTR2, $00007B28)
 #WHB(PTR2, $00007B29)
 #WBB(PTR2, $00007B24)
 #WUB(PTR2, $00007B25)
+{start}
 //受付の人に聞いてみたら？
 We should ask\nthe receptionist.
 <$00>
+{end}
 
 // PTR : 00001448
 #WLB(PTR2, $00007BAC)
 #WHB(PTR2, $00007BAD)
 #WBB(PTR2, $00007BA8)
 #WUB(PTR2, $00007BA9)
+{start}
 //そうね…
 Oh, yeah...
 <$00>
+{end}
 
 // PTR : 00001454
 #WLB(PTR2, $00007C50)
 #WHB(PTR2, $00007C51)
 #WBB(PTR2, $00007C4C)
 #WUB(PTR2, $00007C4D)
+{start}
 //イライザって、もしかして…\nホタル、嫌い？
 Eliza, do fireflies\nfreak you out?
 <$00>
+{end}
 
 // PTR : 00001480
 #WLB(PTR2, $00007C5C)
 #WHB(PTR2, $00007C5D)
 #WBB(PTR2, $00007C58)
 #WUB(PTR2, $00007C59)
+{start}
 //そんなわけないでしょ！　早く\n何とかしないと承知しないわよ
 N-Not at all!\nWe're just in a hurry.
 <$00>
+{end}
 
 // PTR : 000014BC
 #WLB(PTR2, $00007D4C)
 #WHB(PTR2, $00007D4D)
 #WBB(PTR2, $00007D48)
 #WUB(PTR2, $00007D49)
+{start}
 //大きなホタルって\n気持ち悪いのね…
 Mmmm, a giant firefly\nis pretty gross.
 <$00>
+{end}
 
 // PTR : 000014E0
 #WLB(PTR2, $00007DA4)
 #WHB(PTR2, $00007DA5)
 #WBB(PTR2, $00007DA0)
 #WUB(PTR2, $00007DA1)
+{start}
 //ＦＩＲＥＦＲＹ
 FIREFLY
 <$00>
+{end}
 
 // PTR : 00001504
 #WLB(PTR2, $00007F04)
 #WHB(PTR2, $00007F05)
 #WBB(PTR2, $00007F00)
 #WUB(PTR2, $00007F01)
+{start}
 !!!
 <$00>
+{end}
 
 // PTR : 0000150C
 #WLB(PTR2, $00007F18)
 #WHB(PTR2, $00007F19)
 #WBB(PTR2, $00007F14)
 #WUB(PTR2, $00007F15)
+{start}
 //ほら、早く行きましょ
 Here, let's hurry.
 <$00>
+{end}
 
 // PTR : 000015B8
 #WLB(PTR2, $000081B0)
 #WHB(PTR2, $000081B1)
 #WBB(PTR2, $000081AC)
 #WUB(PTR2, $000081AD)
+{start}
 //ちょっとアディ、どこ行くのよ
 Wait, Addie.\nWhere are you going?
 <$00>
+{end}
 
 // PTR : 000015D8
 #WLB(PTR2, $000081C0)
 #WHB(PTR2, $000081C1)
 #WBB(PTR2, $000081BC)
 #WUB(PTR2, $000081BD)
+{start}
 //勝手に帰るなんて許さないわよ
 I can't leave on my own.
 <$00>
+{end}
 
 // PTR : 000015F8
 #WLB(PTR2, $000082C4)
 #WHB(PTR2, $000082C5)
 #WBB(PTR2, $000082C0)
 #WUB(PTR2, $000082C1)
+{start}
 //勝手に出るわけにはいかないわ
 I can't leave on my own.
 <$00>
+{end}
 
 // PTR : 00001618
 #WLB(PTR2, $000082D4)
 #WHB(PTR2, $000082D5)
 #WBB(PTR2, $000082D0)
 #WUB(PTR2, $000082D1)
+{start}
 //イライザがいないと入れないし…
 Not without Eliza.
 <$00>
+{end}
 
 // PTR : 000014F0
 #WLB(PTR2, $00007DE8)
@@ -822,108 +1026,132 @@ Not without Eliza.
 #WHB(PTR2, $00008AB1)
 #WBB(PTR2, $00008AAC)
 #WUB(PTR2, $00008AAD)
+{start}
 //図書館・一般エリア
 Library General Area
 <$00>
+{end}
 
 // PTR : 000017B8
 #WLB(PTR2, $000094E0)
 #WHB(PTR2, $000094E1)
 #WBB(PTR2, $000094DC)
 #WUB(PTR2, $000094DD)
+{start}
 //…えっ？
 What's that floating?
 <$00>
+{end}
 
 // PTR : 000017C4
 #WLB(PTR2, $000094F0)
 #WHB(PTR2, $000094F1)
 #WBB(PTR2, $000094EC)
 #WUB(PTR2, $000094ED)
+{start}
 //ひっ！
 Eek!
 //specter - sundial
 <$00>
+{end}
 
 // PTR : 000017CC
 #WLB(PTR2, $0000965C)
 #WHB(PTR2, $0000965D)
 #WBB(PTR2, $00009658)
 #WUB(PTR2, $00009659)
+{start}
 //はあ、こわかった…
 Phew! How scary!
 <$00>
+{end}
 
 // PTR : 000017E0
 #WLB(PTR2, $0000966C)
 #WHB(PTR2, $0000966D)
 #WBB(PTR2, $00009668)
 #WUB(PTR2, $00009669)
+{start}
 //…ねえ！　帽子をかぶった\n男の子はどっちに行ったの？
 The boy with the hat!\nWhich way did he go?
 <$00>
+{end}
 
 // PTR : 00001814
 #WLB(PTR2, $000098F4)
 #WHB(PTR2, $000098F5)
 #WBB(PTR2, $000098F0)
 #WUB(PTR2, $000098F1)
+{start}
 //受付の方ね！　わかったわ！
 Back to reception?\nOkay, thanks!
 <$00>
+{end}
 
 // PTR : 00001830
 #WLB(PTR2, $0000995C)
 #WHB(PTR2, $0000995D)
 #WBB(PTR2, $00009958)
 #WUB(PTR2, $00009959)
+{start}
 //恐いけど…\nだんだん腹が立ってきたわ
 This is creepy. It's\nputting me on edge.
 <$00>
+{end}
 
 // PTR : 00001854
 #WLB(PTR2, $000099EC)
 #WHB(PTR2, $000099ED)
 #WBB(PTR2, $000099E8)
 #WUB(PTR2, $000099E9)
+{start}
 SPECTER
 <$00>
+{end}
 
 // PTR : 00001874
 #WLB(PTR2, $00009B40)
 #WHB(PTR2, $00009B41)
 #WBB(PTR2, $00009B3C)
 #WUB(PTR2, $00009B3D)
+{start}
 //影を混ぜんな！\n時間が読めなくなるだろ！
 Don't step there!\nI can't read the time!
 <$00>
+{end}
 
 // PTR : 0000189C
 #WLB(PTR2, $00009B74)
 #WHB(PTR2, $00009B75)
 #WBB(PTR2, $00009B70)
 #WUB(PTR2, $00009B71)
+{start}
 //だから、踏むなっつってんだろ！
 Y-YOU STOP THAT!
 <$00>
+{end}
 
 // PTR : 000018BC
 #WLB(PTR2, $00009D68)
 #WHB(PTR2, $00009D69)
 #WBB(PTR2, $00009D64)
 #WUB(PTR2, $00009D65)
+{start}
 //ここで右棟と左棟に別れるの
 There are right\nand left wings.
 <$00>
+{end}
 
 // PTR : 000018D8
 #WLB(PTR2, $00009DB0)
 #WHB(PTR2, $00009DB1)
 #WBB(PTR2, $00009DAC)
 #WUB(PTR2, $00009DAD)
+{start}
 //言っておくけど、ジョーカがどちらに\n行ったかなんて知らないわよ
 But who knows\nwhich one Joka's in!
 <$00>
+{end}
 
 // PTR : 00001524
 #WLB(PTR2, $00007F68)
@@ -934,108 +1162,132 @@ But who knows\nwhich one Joka's in!
 #WHB(PTR2, $00009DE9)
 #WBB(PTR2, $00009DE4)
 #WUB(PTR2, $00009DE5)
+{start}
 //ジョーカを追いかけるのなら\n早く行ったほうがいいんじゃない？
 If I want to catch him,\nI'd better thing fast.
 <$00>
+{end}
 
 // PTR : 00001958
 #WLB(PTR2, $0000A008)
 #WHB(PTR2, $0000A009)
 #WBB(PTR2, $0000A004)
 #WUB(PTR2, $0000A005)
+{start}
 //…さっきはどなって、ごめんネ
 ...Forgive my outburst,
 <$00>
+{end}
 
 // PTR : 00001978
 #WLB(PTR2, $0000A018)
 #WHB(PTR2, $0000A019)
 #WBB(PTR2, $0000A014)
 #WUB(PTR2, $0000A015)
+{start}
 //…でも、影はぜったいに\n踏まないでネ
 but also, DON'T\ndo that again!
 <$00>
+{end}
 
 // PTR : 000019B8
 #WLB(PTR2, $0000A0E0)
 #WHB(PTR2, $0000A0E1)
 #WBB(PTR2, $0000A0DC)
 #WUB(PTR2, $0000A0DD)
+{start}
 //ねえ、これは何？
 What is this thing?
 <$00>
+{end}
 
 // PTR : 000019CC
 #WLB(PTR2, $0000A13C)
 #WHB(PTR2, $0000A13D)
 #WBB(PTR2, $0000A138)
 #WUB(PTR2, $0000A139)
+{start}
 //…これは日時計でネ
 It's a sundial.
 <$00>
+{end}
 
 // PTR : 000019E0
 #WLB(PTR2, $0000A14C)
 #WHB(PTR2, $0000A14D)
 #WBB(PTR2, $0000A148)
 #WUB(PTR2, $0000A149)
+{start}
 //…この影で時間を読むのが、\n僕の役目なの
 I can read the shadows\nand tell you the time.
 <$00>
+{end}
 
 // PTR : 00001A24
 #WLB(PTR2, $0000A1DC)
 #WHB(PTR2, $0000A1DD)
 #WBB(PTR2, $0000A1D8)
 #WUB(PTR2, $0000A1D9)
+{start}
 //その仕事って、楽しいの？
 This is your job?\nIs it entertaining?
 <$00>
+{end}
 
 // PTR : 00001A40
 #WLB(PTR2, $0000A1EC)
 #WHB(PTR2, $0000A1ED)
 #WBB(PTR2, $0000A1E8)
 #WUB(PTR2, $0000A1E9)
+{start}
 //…影はね、\nいつも違う表情を見せるからネ
 In a way. No two\nshadows are the same.
 <$00>
+{end}
 
 // PTR : 00001A68
 #WLB(PTR2, $0000A244)
 #WHB(PTR2, $0000A245)
 #WBB(PTR2, $0000A240)
 #WUB(PTR2, $0000A241)
+{start}
 //…この面白さときたら\nもう、本なんて読めなくてネ
 It's like I don't\neven need books!
 <$00>
+{end}
 
 // PTR : 00001A98
 #WLB(PTR2, $0000A254)
 #WHB(PTR2, $0000A255)
 #WBB(PTR2, $0000A250)
 #WUB(PTR2, $0000A251)
+{start}
 //ふうん…
 Hmmm...
 <$00>
+{end}
 
 // PTR : 00001AA4
 #WLB(PTR2, $0000A2D4)
 #WHB(PTR2, $0000A2D5)
 #WBB(PTR2, $0000A2D0)
 #WUB(PTR2, $0000A2D1)
+{start}
 //…影を踏むのだけはやめてネ？
 Don't step on\nthe shadow, okay?
 <$00>
+{end}
 
 // PTR : 00001AC4
 #WLB(PTR2, $0000A374)
 #WHB(PTR2, $0000A375)
 #WBB(PTR2, $0000A370)
 #WUB(PTR2, $0000A371)
+{start}
 //ジョーカが行ったのは\n受付の方だわ
 Joka went\nto reception.
 <$00>
+{end}
 
 // PTR : 00001864
 #WLB(PTR2, $00009A30)
@@ -1046,18 +1298,22 @@ Joka went\nto reception.
 #WHB(PTR2, $0000B075)
 #WBB(PTR2, $0000B070)
 #WUB(PTR2, $0000B071)
+{start}
 //図書館・三叉路
 Library Tri-cross
 <$00>
+{end}
 
 // PTR : 00000618
 #WLB(PTR2, $0000BE60)
 #WHB(PTR2, $0000BE61)
 #WBB(PTR2, $0000BE5C)
 #WUB(PTR2, $0000BE5D)
+{start}
 //もう行こうよ
 Let's go soon.
 <$00>
+{end}
 
 // PTR : 00001358
 #WLB(PTR2, $00007634)
@@ -1068,7 +1324,9 @@ Let's go soon.
 #WHB(PTR2, $0000CA8D)
 #WBB(PTR2, $0000CA88)
 #WUB(PTR2, $0000CA89)
+{start}
 //もう、いないわよ？
 It's gone now, see?
 <$00>
+{end}
 

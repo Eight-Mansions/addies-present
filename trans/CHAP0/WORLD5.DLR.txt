@@ -6,42 +6,42 @@
 #JMP($00022250)
 
 // PTR : 000002DC
-#JMP($000002DC)
 #WRITE(PTR, $00000348)
+{start}
 //“驚きのギミック”
 "MARVELOUS fine mechanism!"
 <$00>
+{end}
 
-#WARN($000002EE, "@000002EE)
 // PTR : 000002F0
-#JMP($000002F0)
 #WRITE(PTR, $0000034C)
+{start}
 //“滑らかな操作感覚”
 "EXTRA-smooth playability!"
 <$00>
+{end}
 
-#WARN($00000304, "@00000304)
 // PTR : 00000308
-#JMP($00000308)
 #WRITE(PTR, $00000350)
+{start}
 //“パズルは歯ごたえ十分！”
 "The puzzle dazzles YOU!"
 <$00>
+{end}
 
-#WARN($00000322, "@00000322)
 // PTR : 00000324
-#JMP($00000324)
 #WRITE(PTR, $00000354)
+{start}
 //“ログロック！！”
 "LOGLOCK!"
 <$00>
+{end}
 
-#WARN($00000336, "@00000336)
 // PTR : 00000338
-#JMP($00000338)
 #WRITE(PTR, $00000358)
+{start}
 //…欲しいなあ
 I want THAT!
 <$00>
+{end}
 
-#WARN($00000344, "@00000344)
