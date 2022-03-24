@@ -12,55 +12,45 @@
 #WHB(PTR1, $00001F29)
 #WBB(PTR1, $00001F24)
 #WUB(PTR1, $00001F25)
-{start}
 //ズーの庵・裏口
 Zoo's House Rear
 <$00>
-{end}
 
 // PTR : 000002CC
 #WLB(PTR1, $00002100)
 #WHB(PTR1, $00002101)
 #WBB(PTR1, $000020FC)
 #WUB(PTR1, $000020FD)
-{start}
 //…わあ
 Wow!
 <$00>
-{end}
 
 // PTR : 000002D4
 #WLB(PTR1, $00002110)
 #WHB(PTR1, $00002111)
 #WBB(PTR1, $0000210C)
 #WUB(PTR1, $0000210D)
-{start}
 //広いのね
 It's all so vast!
 <$00>
-{end}
 
 // PTR : 000002E0
 #WLB(PTR1, $000021B0)
 #WHB(PTR1, $000021B1)
 #WBB(PTR1, $000021AC)
 #WUB(PTR1, $000021AD)
-{start}
 //封印された扉の外には\nとても広い野原が広がっていた。
 Beyond the locked door\nwas a wide field.
 <$00>
-{end}
 
 // PTR : 00000364
 #WLB(PTR1, $00002B7C)
 #WHB(PTR1, $00002B7D)
 #WBB(PTR1, $00002B78)
 #WUB(PTR1, $00002B79)
-{start}
 //管理人室へ続く草原
 Conductor's Hall Field
 <$00>
-{end}
 
 #VAR(PTR2, CUSTOMPOINTER)
 #CREATEPTR(PTR2, "LINEAR", -2148301688, 32)
@@ -69,67 +59,55 @@ Conductor's Hall Field
 #WHB(PTR2, $000032E5)
 #WBB(PTR2, $000032E0)
 #WUB(PTR2, $000032E1)
-{start}
 //門戸
 Doorway
 <$00>
-{end}
 
 // PTR : 00000518
 #WLB(PTR2, $000034B8)
 #WHB(PTR2, $000034B9)
 #WBB(PTR2, $000034B4)
 #WUB(PTR2, $000034B5)
-{start}
 …変な建物
 This building is strange.
 <$00>
-{end}
 
 // PTR : 00000524
 #WLB(PTR2, $000034C8)
 #WHB(PTR2, $000034C9)
 #WBB(PTR2, $000034C4)
 #WUB(PTR2, $000034C5)
-{start}
 //これが管理人室なのかしら
 This must be where\nthe conductor's hall is.
 <$00>
-{end}
 
 // PTR : 00000540
 #WLB(PTR2, $000035CC)
 #WHB(PTR2, $000035CD)
 #WBB(PTR2, $000035C8)
 #WUB(PTR2, $000035C9)
-{start}
 //やっぱり、開かないわよね
 Yep, Joka locked it,
 <$00>
-{end}
 
 // PTR : 0000055C
 #WLB(PTR2, $000035DC)
 #WHB(PTR2, $000035DD)
 #WBB(PTR2, $000035D8)
 #WUB(PTR2, $000035D9)
-{start}
 //しょうがない、やるか
 but I'll LOGLOCK it!
 //doorway - curtain
 <$00>
-{end}
 
 // PTR : 000005F0
 #WLB(PTR2, $00003830)
 #WHB(PTR2, $00003831)
 #WBB(PTR2, $0000382C)
 #WUB(PTR2, $0000382D)
-{start}
 //早くしないと…
 There's no time!
 <$00>
-{end}
 
 // PTR : 00000574
 #WLB(PTR2, $000036A0)
@@ -140,11 +118,9 @@ There's no time!
 #WHB(PTR2, $000038D9)
 #WBB(PTR2, $000038D4)
 #WUB(PTR2, $000038D5)
-{start}
 //さあ、行くわよ
 All right, in we go.
 <$00>
-{end}
 
 // PTR : 000005A4
 #WLB(PTR2, $00003730)
@@ -155,11 +131,9 @@ All right, in we go.
 #WHB(PTR2, $00003959)
 #WBB(PTR2, $00003954)
 #WUB(PTR2, $00003955)
-{start}
 //ほんとにこの先に、ジョーカが…？
 Was that...really Joka?
 <$00>
-{end}
 
 // PTR : 00000584
 #WLB(PTR2, $00003744)
@@ -170,11 +144,9 @@ Was that...really Joka?
 #WHB(PTR2, $0000396D)
 #WBB(PTR2, $00003968)
 #WUB(PTR2, $00003969)
-{start}
 //アディは管理人室の扉を開いた。
 Addie opened the door.
 <$00>
-{end}
 
 // PTR : 000005C8
 #WLB(PTR2, $0000380C)
@@ -185,20 +157,16 @@ Addie opened the door.
 #WHB(PTR2, $00003A35)
 #WBB(PTR2, $00003A30)
 #WUB(PTR2, $00003A31)
-{start}
 //急がないと、ジョーカに\n逃げられちゃうわ
 If I don't hurry,\nJoka will get away!
 <$00>
-{end}
 
 // PTR : 00000600
 #WLB(PTR2, $00004150)
 #WHB(PTR2, $00004151)
 #WBB(PTR2, $0000414C)
 #WUB(PTR2, $0000414D)
-{start}
 //管理人室・入口
 Conductor's Hall Entrance
 <$00>
-{end}
 

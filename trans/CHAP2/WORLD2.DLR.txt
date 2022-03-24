@@ -7,881 +7,663 @@
 
 // PTR : 00000670
 #WRITE(PTR, $00000734)
-{start}
 //釣れますかあ？
 You catch anything?
 <$00>
-{end}
 
 // PTR : 00000680
 #WRITE(PTR, $00000738)
-{start}
 //ん？　ああ、それがね\n釣り糸が切れちまってね…
 Me? Nah, my line\ncut off.
 <$00>
-{end}
 
 // PTR : 000006B0
 #WRITE(PTR, $0000073C)
-{start}
 //代わりの糸も忘れちゃったし\nそろそろ帰ろうかな、って
 I forgot to bring\nmy extra line, too.
 <$00>
-{end}
 
 // PTR : 000006E4
 #WRITE(PTR, $00000740)
-{start}
 //ねえ、おじさん\n他に何か持ってないの？
 What did you\nbring then, mister?
 <$00>
-{end}
 
 // PTR : 0000070C
 #WRITE(PTR, $00000744)
-{start}
 //ん？　餌のミミズなら…
 Oh, just this worm.\nWanna see?
 <$00>
-{end}
 
 // PTR : 00000724
 #WRITE(PTR, $00000748)
-{start}
 //え！　ミミズ？
 Oh! Okay?
 //worm - line
 <$00>
-{end}
 
 // PTR : 00000788
 #WRITE(PTR, $00000830)
-{start}
 //おお！　くれるのかい？\nありがとう！
 Wow, is that for me?\nThank you!
 <$00>
-{end}
 
 // PTR : 000007AC
 #WRITE(PTR, $00000834)
-{start}
 //じゃあ、さっそく！
 Without further ado...
 <$00>
-{end}
 
 // PTR : 000007C0
 #WRITE(PTR, $00000838)
-{start}
 //ん、よいしょおっ！
 Heigh-ho!
 <$00>
-{end}
 
 // PTR : 000007E4
 #WRITE(PTR, $00000840)
-{start}
 //えーと…予備の釣り糸\n…まだ持ってるかい？
 Uh-oh! Can you make\nsome more line for me?
 <$00>
-{end}
 
 // PTR : 00000810
 #WRITE(PTR, $00000844)
-{start}
 //ごめん、急用ができちゃったの！
 Sorry! I gotta go!
 <$00>
-{end}
 
 // PTR : 00000AE4
 #WRITE(PTR, $00000B98)
-{start}
 //さて、お嬢ちゃんは\n連中に何の用だい？
 But what do you\nwant with gangsters?
 <$00>
-{end}
 
 // PTR : 00000B0C
 #WRITE(PTR, $00000B9C)
-{start}
 //話がしたいの
 I just want to talk.
 <$00>
-{end}
 
 // PTR : 00000B1C
 #WRITE(PTR, $00000BA0)
-{start}
 //私を紹介してくれない？
 Could you\nintroduce me?
 <$00>
-{end}
 
 // PTR : 00000B34
 #WRITE(PTR, $00000BA4)
-{start}
 //…わかった、待ってな
 Sure, kid.\nWait right here.
 <$00>
-{end}
 
 // PTR : 00000B4C
 #WRITE(PTR, $00000BA8)
-{start}
 //話はつけたぜ
 All right, you're in.
 <$00>
-{end}
 
 // PTR : 00000B5C
 #WRITE(PTR, $00000BAC)
-{start}
 //じゃ、俺はもう帰るぜ
 I'm gonna go.
 <$00>
-{end}
 
 // PTR : 00000B74
 #WRITE(PTR, $00000BB0)
-{start}
 //…あのブレスレット、返しとけよ！
 You take that bracelet\nback where you found it!
 <$00>
-{end}
 
 // PTR : 00000BF4
 #WRITE(PTR, $00000CAC)
-{start}
 //あぁ！　どいてどいて！
 Hey, what\nbrings you here?
 <$00>
-{end}
 
 // PTR : 00000C0C
 #WRITE(PTR, $00000CB0)
-{start}
 //ちょっ、ちょっと！\nこっちにジョーカが来なかった？
 Hang on, I heard\nJoka was around here!
 <$00>
-{end}
 
 // PTR : 00000C40
 #WRITE(PTR, $00000CB4)
-{start}
 //こっちには来てないよ！
 No, haven't seen him,\nbut I've gotta run.
 <$00>
-{end}
 
 // PTR : 00000C58
 #WRITE(PTR, $00000CB8)
-{start}
 //今、人手が足りなくて\nてんてこまいなんだよ！　じゃ！
 We've got loads of\nwork to do. Ciao!
 <$00>
-{end}
 
 // PTR : 00000C8C
 #WRITE(PTR, $00000CBC)
-{start}
 //…やっぱり、あてにならないなあ
 These three are\nsomething else.
 <$00>
-{end}
 
 // PTR : 00000EA0
 #WRITE(PTR, $0000111C)
-{start}
 //やあアディ、ごきげんいかが？
 Heya, Addie!\nWhat's spinnin'?
 <$00>
-{end}
 
 // PTR : 00000EC0
 #WRITE(PTR, $00001120)
-{start}
 //言うことはそれだけ？
 Is that all you\nhave to say?
 <$00>
-{end}
 
 // PTR : 00000ED8
 #WRITE(PTR, $00001124)
-{start}
 //ちょっと待っててよ
 Shhh...
 <$00>
-{end}
 
 // PTR : 00000EEC
 #WRITE(PTR, $00001128)
-{start}
 //洗濯物がかわくまでね
 My clothes would like\nto dry in peace.
 <$00>
-{end}
 
 // PTR : 00000F04
 #WRITE(PTR, $0000112C)
-{start}
 //ちっとも反省してないみたいね
 Yeah, like you care\nabout "peace"!
 <$00>
-{end}
 
 // PTR : 00000F24
 #WRITE(PTR, $00001130)
-{start}
 //そうだね
 Me? Nah.
 <$00>
-{end}
 
 // PTR : 00000F30
 #WRITE(PTR, $00001134)
-{start}
 //それよりも…
 But really, Addie?
 <$00>
-{end}
 
 // PTR : 00000F40
 #WRITE(PTR, $00001138)
-{start}
 //あのズーじいさんと\n仲良くしてるんだってね？
 Are you really friends\nwith Zoo now?
 <$00>
-{end}
 
 // PTR : 00000F6C
 #WRITE(PTR, $0000113C)
-{start}
 //あなたには関係ないわ
 Why do you care?
 <$00>
-{end}
 
 // PTR : 00000F84
 #WRITE(PTR, $00001140)
-{start}
 //まあね
 Guess I don't.
 <$00>
-{end}
 
 // PTR : 00000F94
 #WRITE(PTR, $00001148)
-{start}
 //ズーの歯車なんか盗んで\nいったい何に使うの？
 Why did you steal\nZoo's gear, anyway?
 <$00>
-{end}
 
 // PTR : 00000FC0
 #WRITE(PTR, $0000114C)
-{start}
 //オルゴールを鳴らすんだ…
 To fix a music box.
 <$00>
-{end}
 
 // PTR : 00000FDC
 #WRITE(PTR, $00001150)
-{start}
 //「世界の終わり」を告げる\nオルゴールをね…
 The music box that\nturns the world back.
 <$00>
-{end}
 
 // PTR : 00001008
 #WRITE(PTR, $00001154)
-{start}
 //どういうこ…
 The end of the...
 <$00>
-{end}
 
 // PTR : 00001018
 #WRITE(PTR, $00001158)
-{start}
 //ちょっと！なにやってるのよ！？
 Hold on!\nWhat are doing?!
 <$00>
-{end}
 
 // PTR : 00001038
 #WRITE(PTR, $0000115C)
-{start}
 //服がかわいたから\nきがえてるんだよ…
 Getting changed, duh!
 <$00>
-{end}
 
 // PTR : 0000105C
 #WRITE(PTR, $00001160)
-{start}
 //見ればわかるじゃないか…
 Can't you tell?
 <$00>
-{end}
 
 // PTR : 00001078
 #WRITE(PTR, $00001164)
-{start}
 //だから見たくないのっ！
 Not if I'm/nnot looking!
 <$00>
-{end}
 
 // PTR : 00001090
 #WRITE(PTR, $00001168)
-{start}
 //どうしてそこで脱ぐのよ？！
 Are you really doing\nthat out here?!
 <$00>
-{end}
 
 // PTR : 000010AC
 #WRITE(PTR, $0000116C)
-{start}
 //まあまあ
 It'll be fine!
 <$00>
-{end}
 
 // PTR : 000010B8
 #WRITE(PTR, $00001170)
-{start}
 //すぐに着替えちゃうからさ…
 I change quick.
 <$00>
-{end}
 
 // PTR : 000010D4
 #WRITE(PTR, $00001174)
-{start}
 //まったく…
 Ick, boys...
 <$00>
-{end}
 
 // PTR : 000010E0
 #WRITE(PTR, $00001178)
-{start}
 //どういう神経してるのよ…
 They never have\nany shame.
 <$00>
-{end}
 
 // PTR : 000010FC
 #WRITE(PTR, $0000117C)
-{start}
 //…ねぇジョーカ、まだなの？
 Are you done yet, Joka?
 <$00>
-{end}
 
 // PTR : 000007D4
 #WRITE(PTR, $0000083C)
 #WRITE(PTR, $00001180)
-{start}
 //…ジョーカ？
 ...Joka?
 <$00>
-{end}
 
 // PTR : 00000F8C
 #WRITE(PTR, $00001144)
 #WRITE(PTR, $00001184)
-{start}
 //ねぇ…
 Hey!
 <$00>
-{end}
 
 // PTR : 00000E94
 #WRITE(PTR, $00001118)
 #WRITE(PTR, $00001188)
-{start}
 //ジョーカ！
 Joka!
 <$00>
-{end}
 
 // PTR : 000017DC
 #WRITE(PTR, $000018D8)
-{start}
 //あ、アディのあねご\n兄ちゃんたちは今いないよ
 Hey, Addie-o! (Chomp!)\nYou by yourself too?
 <$00>
-{end}
 
 // PTR : 00001808
 #WRITE(PTR, $000018DC)
-{start}
 //ねえジノ、洋服のボタンって\n余ってないかしら
 Yeah. Gino, do you\nhave any spare buttons?
 <$00>
-{end}
 
 // PTR : 00001834
 #WRITE(PTR, $000018E0)
-{start}
 //ないよ
 Nope! (Chomp!)
 <$00>
-{end}
 
 // PTR : 0000183C
 #WRITE(PTR, $000018E4)
-{start}
 ......
 <$00>
-{end}
 
 // PTR : 00001844
 #WRITE(PTR, $000018E8)
-{start}
 //あなたが今食べてるのは、なに？
 What are you\neating? Cookies?
 <$00>
-{end}
 
 // PTR : 00001864
 #WRITE(PTR, $000018EC)
-{start}
 //それでいいわ\nわたしにちょうだい
 Can I have one?
 <$00>
-{end}
 
 // PTR : 00001884
 #WRITE(PTR, $000018F0)
-{start}
 //え、だってこれ、おれのおやつ…
 No way! My cookies!
 <$00>
-{end}
 
 // PTR : 000018A4
 #WRITE(PTR, $000018F4)
-{start}
 //よこしなさい
 Come on, just one!
 <$00>
-{end}
 
 // PTR : 000018B4
 #WRITE(PTR, $000018F8)
-{start}
 //あうう…\nせっかくのおやつタイムが…
 Ugh, fine...\nBon appetit!
 //cookie - button
 <$00>
-{end}
 
 // PTR : 00001968
 #WRITE(PTR, $00001990)
-{start}
 //勘弁してくれない？
 Will you ever\nforgive me?
 <$00>
-{end}
 
 // PTR : 0000197C
 #WRITE(PTR, $00001994)
-{start}
 //だめ
 Nope.
 <$00>
-{end}
 
 // PTR : 00001984
 #WRITE(PTR, $00001998)
-{start}
 //やっぱり…
 I get it.
 <$00>
-{end}
 
 // PTR : 00001CC4
 #WRITE(PTR, $00001D6C)
-{start}
 //どう？　いい眺めでしょ
 Nice view, huh?
 <$00>
-{end}
 
 // PTR : 00001CDC
 #WRITE(PTR, $00001D70)
-{start}
 //ねえ、アディ
 Hey, Addie.
 <$00>
-{end}
 
 // PTR : 00001CEC
 #WRITE(PTR, $00001D74)
-{start}
 //ぼくが閉じこめられてたわけ\n知りたい？
 Want to know why\nI was locked up?
 <$00>
-{end}
 
 // PTR : 00001D14
 #WRITE(PTR, $00001D78)
-{start}
 //ズーってやつなんだよ、犯人は
 It's because of Zoo.
 <$00>
-{end}
 
 // PTR : 00001D34
 #WRITE(PTR, $00001D7C)
-{start}
 //とにかく横暴なやつでさぁ
 He hates horseplay.
 <$00>
-{end}
 
 // PTR : 00001D50
 #WRITE(PTR, $00001D80)
-{start}
 //君も気をつけたほうがいいよ
 You should be\ncareful too.
 <$00>
-{end}
 
 // PTR : 00001DA0
 #WRITE(PTR, $00001DD0)
-{start}
 //ひどいなあ…
 Oh dear...
 <$00>
-{end}
 
 // PTR : 00001DB0
 #WRITE(PTR, $00001DD4)
-{start}
 //いいよもう。ちぇ
 You'll be fine.\nI'm only sayin'.
 <$00>
-{end}
 
 // PTR : 00001D9C
 #WRITE(PTR, $00001DC4)
 #WRITE(PTR, $00001DC8)
 #WRITE(PTR, $00001DCC)
 #WRITE(PTR, $00001DD8)
-{start}
 　
 <$00>
-{end}
 
 // PTR : 00001E38
 #WRITE(PTR, $00001F24)
-{start}
 //あ、アディのあねご
 Hey, Addie-o!
 <$00>
-{end}
 
 // PTR : 00001E4C
 #WRITE(PTR, $00001F28)
-{start}
 //どうしたの？　元気ないわね
 What's wrong?\nYou don't look so good.
 <$00>
-{end}
 
 // PTR : 00001E68
 #WRITE(PTR, $00001F2C)
-{start}
 //うん…兄貴にね、洗濯物を\n取ってくるまで帰ってくるなって
 I wasn't going\nhome without laundry.
 <$00>
-{end}
 
 // PTR : 00001EA0
 #WRITE(PTR, $00001F30)
-{start}
 //言われてるんだ…
 That's what I promised\nmy big brother.
 <$00>
-{end}
 
 // PTR : 00001EB4
 #WRITE(PTR, $00001F34)
-{start}
 //どうしよう、おれ…\n今晩も晩メシ抜きかも
 What'll I do if\nnight falls before then?
 <$00>
-{end}
 
 // PTR : 00001EDC
 #WRITE(PTR, $00001F38)
-{start}
 //ジノ、今日のおやつ、出しなさいよ
 Gino, do you have\nany snacks today?
 <$00>
-{end}
 
 // PTR : 00001F00
 #WRITE(PTR, $00001F3C)
-{start}
 //え？　え？
 Huh? What?
 <$00>
-{end}
 
 // PTR : 00001F0C
 #WRITE(PTR, $00001F40)
-{start}
 //いいから
 Okay.
 <$00>
-{end}
 
 // PTR : 00001F18
 #WRITE(PTR, $00001F44)
-{start}
 //あうう…
 Brrr!
 <$00>
-{end}
 
 // PTR : 00002048
 #WRITE(PTR, $000020B0)
-{start}
 //これでいい？
 Will this do?
 <$00>
-{end}
 
 // PTR : 00002058
 #WRITE(PTR, $000020B4)
-{start}
 //うん！
 Sure!
 <$00>
-{end}
 
 // PTR : 00002060
 #WRITE(PTR, $000020B8)
-{start}
 //でも…おれのおやつ…
 But...my snack...
 <$00>
-{end}
 
 // PTR : 00002078
 #WRITE(PTR, $000020BC)
-{start}
 //いいから、早く行きなさいよ
 It's okay.\nJust hurry.
 <$00>
-{end}
 
 // PTR : 00002094
 #WRITE(PTR, $000020C0)
-{start}
 //うん、ありがとう、あねご
 Yeah.\nThanks, Addy-o.
 <$00>
-{end}
 
 // PTR : 000022DC
 #WRITE(PTR, $000023DC)
-{start}
 //どうしたの？
 What's wrong,\nlittle girl?
 <$00>
-{end}
 
 // PTR : 000022EC
 #WRITE(PTR, $000023E0)
-{start}
 //うちのミュウが迷子になっちゃったの
 Mr. Meow is missing!
 <$00>
-{end}
 
 // PTR : 00002310
 #WRITE(PTR, $000023E4)
-{start}
 //ミュウって、…猫の名前？
 Is Mr. Meow...\na cat's name?
 <$00>
-{end}
 
 // PTR : 0000232C
 #WRITE(PTR, $000023E8)
-{start}
 //うん…おねえちゃん\nミュウを探してくれない？
 Yeah. Can you find\nmy kitty for me?
 <$00>
-{end}
 
 // PTR : 00002358
 #WRITE(PTR, $000023EC)
-{start}
 //どんな猫なの？
 What does it\nlook like?
 <$00>
-{end}
 
 // PTR : 00002368
 #WRITE(PTR, $000023F0)
-{start}
 //真っ白な猫なの\nきっと今ごろ、おなかすかせてるわ…
 White, like snow.\nHe must be so hungry...
 <$00>
-{end}
 
 // PTR : 0000239C
 #WRITE(PTR, $000023F4)
-{start}
 //わかったわ、まかせて
 Understood.\nLeave it to me!
 <$00>
-{end}
 
 // PTR : 000023B4
 #WRITE(PTR, $000023F8)
-{start}
 //見つけたら教えてね\nここで待ってるから
 Okay!\nI'll wait right here.
 <$00>
-{end}
 
 // PTR : 000025EC
 #WRITE(PTR, $000026A0)
-{start}
 //待ちな
 Stop right there.
 <$00>
-{end}
 
 // PTR : 000025F4
 #WRITE(PTR, $000026A4)
-{start}
 //な、なによ…
 Who, me?
 <$00>
-{end}
 
 // PTR : 00002604
 #WRITE(PTR, $000026A8)
-{start}
 //命が惜しければ…
 If you value\nyour life,
 <$00>
-{end}
 
 // PTR : 00002618
 #WRITE(PTR, $000026AC)
-{start}
 //洗濯物をよこすんだね
 you'll cough up\nyourlaundry.
 <$00>
-{end}
 
 // PTR : 00002630
 #WRITE(PTR, $000026B0)
-{start}
 //はあ？
 Hold on!
 <$00>
-{end}
 
 // PTR : 00002638
 #WRITE(PTR, $000026B4)
-{start}
 //せんたく…もの？
 My...laundry?
 <$00>
-{end}
 
 // PTR : 0000264C
 #WRITE(PTR, $000026B8)
-{start}
 なあ、汚れてるんだろ？\nはっきりしろよ！
 Yeah, your clothes\nare clearly dirty!
 <$00>
-{end}
 
 // PTR : 00002674
 #WRITE(PTR, $000026BC)
-{start}
 //…別に、汚れてないわよ
 ...Are not!
 <$00>
-{end}
 
 // PTR : 0000268C
 #WRITE(PTR, $000026C0)
-{start}
 //それなら、いいよ…
 Well, okay...
 <$00>
-{end}
 
 // PTR : 00002280
 #WRITE(PTR, $0002467C)
-{start}
 //あの、わたしに何か用？
 Uh, can I help you?
 <$00>
-{end}
 
 // PTR : 00002268
 #WRITE(PTR, $00024680)
-{start}
 //なんでついてくるの？
 Are you following me?
 <$00>
-{end}
 
 // PTR : 00002254
 #WRITE(PTR, $00024684)
-{start}
 //用があるんでしょ？
 What for?
 <$00>
-{end}
 
 // PTR : 00002248
 #WRITE(PTR, $00024688)
-{start}
 何なのよ！
 What do you want?!
 <$00>
-{end}
 
 // PTR : 00002234
 #WRITE(PTR, $0002468C)
-{start}
 //怒るわよ？もう！
 What, are you mad?
 <$00>
-{end}
 
 // PTR : 00002224
 #WRITE(PTR, $00024690)
-{start}
 //ついてこないで
 Well, duh! Shoo!
 <$00>
-{end}
 
 // PTR : 00002210
 #WRITE(PTR, $00024694)
-{start}
 //もう、知らない！
 Fine, whatever!
 <$00>
-{end}
 
 #VAR(PTR1, CUSTOMPOINTER)
 #CREATEPTR(PTR1, "LINEAR", -2148236152, 32)
@@ -890,99 +672,81 @@ Fine, whatever!
 #WHB(PTR1, $000037BD)
 #WBB(PTR1, $000037B8)
 #WUB(PTR1, $000037B9)
-{start}
 //なのかしら、この子たち
 Where'd those boys go?
 <$00>
-{end}
 
 // PTR : 000002AC
 #WLB(PTR1, $00003E74)
 #WHB(PTR1, $00003E75)
 #WBB(PTR1, $00003E70)
 #WUB(PTR1, $00003E71)
-{start}
 //アディは不審な\n少年に尾行される。
 Addie was followed\nby a suspicious boy.
 <$00>
-{end}
 
 // PTR : 00000338
 #WLB(PTR1, $000042A8)
 #WHB(PTR1, $000042A9)
 #WBB(PTR1, $000042A4)
 #WUB(PTR1, $000042A5)
-{start}
 //まだ、橋のあたりにいるはず…
 He should still be\nnear the bridge.
 <$00>
-{end}
 
 // PTR : 00000358
 #WLB(PTR1, $00004514)
 #WHB(PTR1, $00004515)
 #WBB(PTR1, $00004510)
 #WUB(PTR1, $00004511)
-{start}
 //川に流されていくジョーカを\nアディは再び追いかける。
 Addie followed Joka\ndown the river.
 <$00>
-{end}
 
 // PTR : 0000038C
 #WLB(PTR1, $000045D4)
 #WHB(PTR1, $000045D5)
 #WBB(PTR1, $000045D0)
 #WUB(PTR1, $000045D1)
-{start}
 //急いで川のそばを探せば\nジョーカを捕まえられるわ！
 If we search near water,\nwe might find him!
 <$00>
-{end}
 
 // PTR : 000003C0
 #WLB(PTR1, $00004684)
 #WHB(PTR1, $00004685)
 #WBB(PTR1, $00004680)
 #WUB(PTR1, $00004681)
-{start}
 //以来、勢力図は狭まる一方\nまさに瀬戸際よ
 All I know is,\nin Copper Town...
 <$00>
-{end}
 
 // PTR : 000003E8
 #WLB(PTR1, $00004690)
 #WHB(PTR1, $00004691)
 #WBB(PTR1, $0000468C)
 #WUB(PTR1, $0000468D)
-{start}
 //俺もほっとけなくて、\n何くれと面倒見てるんだがね…
 ...the laundromat turf\nwars are neck-and-neck.
 <$00>
-{end}
 
 // PTR : 0000041C
 #WLB(PTR1, $00004858)
 #WHB(PTR1, $00004859)
 #WBB(PTR1, $00004854)
 #WUB(PTR1, $00004855)
-{start}
 //歩き回って疲れちゃったな\n美術館で涼んでいかない？
 It's getting hot. Let's\ncool off in the museum.
 <$00>
-{end}
 
 // PTR : 0000046C
 #WLB(PTR1, $00004B4C)
 #WHB(PTR1, $00004B4D)
 #WBB(PTR1, $00004B48)
 #WUB(PTR1, $00004B49)
-{start}
 //ここは行き止まりさ。もう戻ろうよ
 A dead end.\nLet's go back.
 <$00>
-{end}
 
 // PTR : 00000450
 #WLB(PTR1, $00004A10)
@@ -993,11 +757,9 @@ A dead end.\nLet's go back.
 #WHB(PTR1, $0001173D)
 #WBB(PTR1, $00011738)
 #WUB(PTR1, $00011739)
-{start}
 //もうこの辺は街のはずれだよ
 This is the\nedge of town.
 <$00>
-{end}
 
 #VAR(PTR2, CUSTOMPOINTER)
 #CREATEPTR(PTR2, "LINEAR", -2148301688, 32)
@@ -1006,517 +768,423 @@ This is the\nedge of town.
 #WHB(PTR2, $00005669)
 #WBB(PTR2, $00005664)
 #WUB(PTR2, $00005665)
-{start}
 //橋の向こう側
 Bridge End
 <$00>
-{end}
 
 // PTR : 00000508
 #WLB(PTR2, $00005B34)
 #WHB(PTR2, $00005B35)
 #WBB(PTR2, $00005B30)
 #WUB(PTR2, $00005B31)
-{start}
 //…ふう
 ...Hmph.
 <$00>
-{end}
 
 // PTR : 00000510
 #WLB(PTR2, $00005B44)
 #WHB(PTR2, $00005B45)
 #WBB(PTR2, $00005B40)
 #WUB(PTR2, $00005B41)
-{start}
 //ジョーカったら、\nどこに消えたのかしら
 If I were Joka,\nwhere would I go?
 <$00>
-{end}
 
 // PTR : 00000538
 #WLB(PTR2, $00005C94)
 #WHB(PTR2, $00005C95)
 #WBB(PTR2, $00005C90)
 #WUB(PTR2, $00005C91)
-{start}
 //ここは僕のお気に入りでね\nよくここで、のんびりするんだ
 This is my happy place.\nI come here to relax.
 <$00>
-{end}
 
 // PTR : 00000630
 #WLB(PTR2, $00006000)
 #WHB(PTR2, $00006001)
 #WBB(PTR2, $00005FFC)
 #WUB(PTR2, $00005FFD)
-{start}
 //しっ！　静かに…\nここの魚は敏感なんだ…
 Shh!\nThe fish are onto me!
 <$00>
-{end}
 
 // PTR : 00000764
 #WLB(PTR2, $000062B0)
 #WHB(PTR2, $000062B1)
 #WBB(PTR2, $000062AC)
 #WUB(PTR2, $000062AD)
-{start}
 //…ミミズ
 Oh, earthworm...
 <$00>
-{end}
 
 // PTR : 00000860
 #WLB(PTR2, $00006880)
 #WHB(PTR2, $00006881)
 #WBB(PTR2, $0000687C)
 #WUB(PTR2, $0000687D)
-{start}
 //やっぱり触りたくないわ…
 I never meant\nto do you wrong,
 <$00>
-{end}
 
 // PTR : 0000087C
 #WLB(PTR2, $000068D8)
 #WHB(PTR2, $000068D9)
 #WBB(PTR2, $000068D4)
 #WUB(PTR2, $000068D5)
-{start}
 釣り糸の無い釣り竿って\nただの棒だよな…
 but a rod without bait\nis just a stick!
 <$00>
-{end}
 
 // PTR : 000008A4
 #WLB(PTR2, $00006900)
 #WHB(PTR2, $00006901)
 #WBB(PTR2, $000068FC)
 #WUB(PTR2, $000068FD)
-{start}
 //釣り糸をたらしているだけで\nずいぶんと幸せなもんだね
 I hope you're having fun,\ndangling your last.
 <$00>
-{end}
 
 // PTR : 00000938
 #WLB(PTR2, $00006F98)
 #WHB(PTR2, $00006F99)
 #WBB(PTR2, $00006F94)
 #WUB(PTR2, $00006F95)
-{start}
 //対岸
 Opposite Bank
 <$00>
-{end}
 
 // PTR : 000009C4
 #WLB(PTR2, $0000766C)
 #WHB(PTR2, $0000766D)
 #WBB(PTR2, $00007668)
 #WUB(PTR2, $00007669)
-{start}
 //あ、ウィノ
 Hey, Wino.
 <$00>
-{end}
 
 // PTR : 000009D0
 #WLB(PTR2, $00007780)
 #WHB(PTR2, $00007781)
 #WBB(PTR2, $0000777C)
 #WUB(PTR2, $0000777D)
-{start}
 //…つまで手間どってんだ！
 Check these doozies out!
 <$00>
-{end}
 
 // PTR : 000009EC
 #WLB(PTR2, $0000778C)
 #WHB(PTR2, $0000778D)
 #WBB(PTR2, $00007788)
 #WUB(PTR2, $00007789)
-{start}
 //…らず汚れるもんだろう！
 PEE-EWW!\nThose are dir-ir-irty!
 <$00>
-{end}
 
 // PTR : 00000A28
 #WLB(PTR2, $000078A4)
 #WHB(PTR2, $000078A5)
 #WBB(PTR2, $000078A0)
 #WUB(PTR2, $000078A1)
-{start}
 //ふう…
 Phew...
 <$00>
-{end}
 
 // PTR : 00000A30
 #WLB(PTR2, $000078B4)
 #WHB(PTR2, $000078B5)
 #WBB(PTR2, $000078B0)
 #WUB(PTR2, $000078B1)
-{start}
 //どこかでちょっと休もうかな
 I should take\na break somewhere
 <$00>
-{end}
 
 // PTR : 00000A68
 #WLB(PTR2, $00007BEC)
 #WHB(PTR2, $00007BED)
 #WBB(PTR2, $00007BE8)
 #WUB(PTR2, $00007BE9)
-{start}
 //なんなのかしら、この子たち
 Where'd those boys go?
 <$00>
-{end}
 
 // PTR : 00000A84
 #WLB(PTR2, $00007E58)
 #WHB(PTR2, $00007E59)
 #WBB(PTR2, $00007E54)
 #WUB(PTR2, $00007E55)
-{start}
 //この街にくわしそうだから\n何か知ってるかも…
 Their street smarts\nmay come in handy.
 <$00>
-{end}
 
 // PTR : 00000CD4
 #WLB(PTR2, $00008DE8)
 #WHB(PTR2, $00008DE9)
 #WBB(PTR2, $00008DE4)
 #WUB(PTR2, $00008DE5)
-{start}
 //ジョーカなんて見かけていない\nと、ウィノは告げた。
 Wino said he\nhadn't seen Joka.
 <$00>
-{end}
 
 // PTR : 00000D08
 #WLB(PTR2, $00008EA0)
 #WHB(PTR2, $00008EA1)
 #WBB(PTR2, $00008E9C)
 #WUB(PTR2, $00008E9D)
-{start}
 //ランドリーの方に行ったのは\n間違いないみたいだけど…
 But I swore he was\nheaded that way...
 <$00>
-{end}
 
 // PTR : 00000D3C
 #WLB(PTR2, $00009000)
 #WHB(PTR2, $00009001)
 #WBB(PTR2, $00008FFC)
 #WUB(PTR2, $00008FFD)
-{start}
 //世界の終わりを告げるオルゴール…
 A music box that\nturns the world back?
 <$00>
-{end}
 
 // PTR : 00000D60
 #WLB(PTR2, $00009010)
 #WHB(PTR2, $00009011)
 #WBB(PTR2, $0000900C)
 #WUB(PTR2, $0000900D)
-{start}
 //ズーに、知らせなきゃ…
 Zoo would\nknow about that.
 <$00>
-{end}
 
 // PTR : 00000D78
 #WLB(PTR2, $000091F4)
 #WHB(PTR2, $000091F5)
 #WBB(PTR2, $000091F0)
 #WUB(PTR2, $000091F1)
-{start}
 //あねごはいつも\nおれのおやつをとっていくよね
 She takes my candy,\nshe takes my cookie...
 <$00>
-{end}
 
 // PTR : 00000DA4
 #WLB(PTR2, $00009208)
 #WHB(PTR2, $00009209)
 #WBB(PTR2, $00009204)
 #WUB(PTR2, $00009205)
-{start}
 //何か言った？
 Excuse you?
 <$00>
-{end}
 
 // PTR : 00000DB4
 #WLB(PTR2, $00009268)
 #WHB(PTR2, $00009269)
 #WBB(PTR2, $00009264)
 #WUB(PTR2, $00009265)
-{start}
 //ここは洗濯屋だよ
 This is the laundromat.
 <$00>
-{end}
 
 // PTR : 00000DC8
 #WLB(PTR2, $000092AC)
 #WHB(PTR2, $000092AD)
 #WBB(PTR2, $000092A8)
 #WUB(PTR2, $000092A9)
-{start}
 //感じ悪いね、あいつ
 It's super creepy.
 <$00>
-{end}
 
 // PTR : 00000DDC
 #WLB(PTR2, $0000952C)
 #WHB(PTR2, $0000952D)
 #WBB(PTR2, $00009528)
 #WUB(PTR2, $00009529)
-{start}
 //中に入んなよ
 Don't go in.
 <$00>
-{end}
 
 // PTR : 00001650
 #WLB(PTR2, $0000A364)
 #WHB(PTR2, $0000A365)
 #WBB(PTR2, $0000A360)
 #WUB(PTR2, $0000A361)
-{start}
 //悪いねぇ、今ここ留守してんのよ
 Too bad, everyone's\nout right now.
 <$00>
-{end}
 
 // PTR : 00001670
 #WLB(PTR2, $0000A370)
 #WHB(PTR2, $0000A371)
 #WBB(PTR2, $0000A36C)
 #WUB(PTR2, $0000A36D)
-{start}
 //またにしてくれや、ケケッ
 Maybe next time,\nhurr hurr.
 <$00>
-{end}
 
 // PTR : 00001740
 #WLB(PTR2, $0000A788)
 #WHB(PTR2, $0000A789)
 #WBB(PTR2, $0000A784)
 #WUB(PTR2, $0000A785)
-{start}
 //これでボタンも手に入ったわ
 And now, it's a button!
 <$00>
-{end}
 
 // PTR : 0000175C
 #WLB(PTR2, $0000A794)
 #WHB(PTR2, $0000A795)
 #WBB(PTR2, $0000A790)
 #WUB(PTR2, $0000A791)
-{start}
 //おれのおやつ…
 My poor snacks...
 <$00>
-{end}
 
 // PTR : 0000176C
 #WLB(PTR2, $0000A8B8)
 #WHB(PTR2, $0000A8B9)
 #WBB(PTR2, $0000A8B4)
 #WUB(PTR2, $0000A8B5)
-{start}
 //ランドリーでボタンを手に入れ\n材料が全部そろった。
 With that button,\nwe have all the materials.
 <$00>
-{end}
 
 // PTR : 000017A0
 #WLB(PTR2, $0000A97C)
 #WHB(PTR2, $0000A97D)
 #WBB(PTR2, $0000A978)
 #WUB(PTR2, $0000A979)
-{start}
 //ピア、きっと喜ぶわ
 Pia will be thrilled!
 <$00>
-{end}
 
 // PTR : 00001920
 #WLB(PTR2, $0000AE88)
 #WHB(PTR2, $0000AE89)
 #WBB(PTR2, $0000AE84)
 #WUB(PTR2, $0000AE85)
-{start}
 //これ、いらないの…？
 Don't you need this?
 <$00>
-{end}
 
 // PTR : 00001938
 #WLB(PTR2, $0000AE94)
 #WHB(PTR2, $0000AE95)
 #WBB(PTR2, $0000AE90)
 #WUB(PTR2, $0000AE91)
-{start}
 //ひとまず、あずけとくわ
 Keep it for now.
 <$00>
-{end}
 
 // PTR : 000019A8
 #WLB(PTR2, $0000B230)
 #WHB(PTR2, $0000B231)
 #WBB(PTR2, $0000B22C)
 #WUB(PTR2, $0000B22D)
-{start}
 //もう、あきらめてくれる…？
 What, you giving up?
 <$00>
-{end}
 
 // PTR : 000019C4
 #WLB(PTR2, $0000B23C)
 #WHB(PTR2, $0000B23D)
 #WBB(PTR2, $0000B238)
 #WUB(PTR2, $0000B239)
-{start}
 //ひとまず、よ
 For now.
 <$00>
-{end}
 
 // PTR : 000019E8
 #WLB(PTR2, $0000B410)
 #WHB(PTR2, $0000B411)
 #WBB(PTR2, $0000B40C)
 #WUB(PTR2, $0000B40D)
-{start}
 //へえ、こうなってるんだ
 That's a lot of info!
 <$00>
-{end}
 
 // PTR : 00001A00
 #WLB(PTR2, $0000B41C)
 #WHB(PTR2, $0000B41D)
 #WBB(PTR2, $0000B418)
 #WUB(PTR2, $0000B419)
-{start}
 //メモしておこう
 I should take notes.
 <$00>
-{end}
 
 // PTR : 00001A24
 #WLB(PTR2, $0000B688)
 #WHB(PTR2, $0000B689)
 #WBB(PTR2, $0000B684)
 #WUB(PTR2, $0000B685)
-{start}
 //さあ、これでいいわ
 There. That'll do!
 <$00>
-{end}
 
 // PTR : 00001A38
 #WLB(PTR2, $0000B694)
 #WHB(PTR2, $0000B695)
 #WBB(PTR2, $0000B690)
 #WUB(PTR2, $0000B691)
-{start}
 //行った所をメモしましょ
 Let's track\nwhere we've been.
 <$00>
-{end}
 
 // PTR : 00001A60
 #WLB(PTR2, $0000B7F4)
 #WHB(PTR2, $0000B7F5)
 #WBB(PTR2, $0000B7F0)
 #WUB(PTR2, $0000B7F1)
-{start}
 //あんたを待ってたんだよ
 I was hoping I'd\nsee you!
 <$00>
-{end}
 
 // PTR : 00001A78
 #WLB(PTR2, $0000B804)
 #WHB(PTR2, $0000B805)
 #WBB(PTR2, $0000B800)
 #WUB(PTR2, $0000B801)
-{start}
 //ジョーカは見つかったの？
 Any word on Joka?
 <$00>
-{end}
 
 // PTR : 00001AB0
 #WLB(PTR2, $0000B898)
 #WHB(PTR2, $0000B899)
 #WBB(PTR2, $0000B894)
 #WUB(PTR2, $0000B895)
-{start}
 //立ち話もなんだから、中へどうぞ
 I'll tell you inside.
 <$00>
-{end}
 
 // PTR : 00001AD0
 #WLB(PTR2, $0000BB8C)
 #WHB(PTR2, $0000BB8D)
 #WBB(PTR2, $0000BB88)
 #WUB(PTR2, $0000BB89)
-{start}
 //…ランドリーに入っていったのって
 ...They went into\nthe laundromat.
 <$00>
-{end}
 
 // PTR : 00001AF4
 #WLB(PTR2, $0000BB94)
 #WHB(PTR2, $0000BB95)
 #WBB(PTR2, $0000BB90)
 #WUB(PTR2, $0000BB91)
-{start}
 //ジョーカよね
 Joka, is it?
 <$00>
-{end}
 
 // PTR : 00001B04
 #WLB(PTR2, $0000C0B4)
 #WHB(PTR2, $0000C0B5)
 #WBB(PTR2, $0000C0B0)
 #WUB(PTR2, $0000C0B1)
-{start}
 //…今の
 Just now...
 <$00>
-{end}
 
 // PTR : 00001B0C
 #WLB(PTR2, $0000C0BC)
 #WHB(PTR2, $0000C0BD)
 #WBB(PTR2, $0000C0B8)
 #WUB(PTR2, $0000C0B9)
-{start}
 //たしかに、ジョーカだったような…
 Yeah, that\ncould've been him.
 <$00>
-{end}
 
 // PTR : 00000998
 #WLB(PTR2, $000075BC)
@@ -1527,121 +1195,99 @@ Yeah, that\ncould've been him.
 #WHB(PTR2, $0000C5AD)
 #WBB(PTR2, $0000C5A8)
 #WUB(PTR2, $0000C5A9)
-{start}
 //おっとぉ\nお通りいただくわけにはいかないぜ
 But I can't\nlet you through.
 <$00>
-{end}
 
 // PTR : 00001B30
 #WLB(PTR2, $0000C63C)
 #WHB(PTR2, $0000C63D)
 #WBB(PTR2, $0000C638)
 #WUB(PTR2, $0000C639)
-{start}
 //ジョーカからオルゴールの\n話を聞いたアディ。
 Joka told Addie\nabout the music box.
 <$00>
-{end}
 
 // PTR : 00001B94
 #WLB(PTR2, $0000D444)
 #WHB(PTR2, $0000D445)
 #WBB(PTR2, $0000D440)
 #WUB(PTR2, $0000D441)
-{start}
 //ランドリー・前
 Laundromat Front
 <$00>
-{end}
 
 // PTR : 00001CA0
 #WLB(PTR2, $0000E18C)
 #WHB(PTR2, $0000E18D)
 #WBB(PTR2, $0000E188)
 #WUB(PTR2, $0000E189)
-{start}
 //岬へ続く道
 Cape Path
 <$00>
-{end}
 
 // PTR : 00001DF8
 #WLB(PTR2, $0000EE1C)
 #WHB(PTR2, $0000EE1D)
 #WBB(PTR2, $0000EE18)
 #WUB(PTR2, $0000EE19)
-{start}
 //うん
 Yeah.
 <$00>
-{end}
 
 // PTR : 00001E00
 #WLB(PTR2, $0000EE24)
 #WHB(PTR2, $0000EE25)
 #WBB(PTR2, $0000EE20)
 #WUB(PTR2, $0000EE21)
-{start}
 //別に
 Well...
 <$00>
-{end}
 
 // PTR : 00001F6C
 #WLB(PTR2, $0000F740)
 #WHB(PTR2, $0000F741)
 #WBB(PTR2, $0000F73C)
 #WUB(PTR2, $0000F73D)
-{start}
 //まだやるの？
 Try again?
 <$00>
-{end}
 
 // PTR : 00002154
 #WLB(PTR2, $00010968)
 #WHB(PTR2, $00010969)
 #WBB(PTR2, $00010964)
 #WUB(PTR2, $00010965)
-{start}
 //岬の先
 Beyond the Cape
 <$00>
-{end}
 
 // PTR : 000021AC
 #WLB(PTR2, $000112A4)
 #WHB(PTR2, $000112A5)
 #WBB(PTR2, $000112A0)
 #WUB(PTR2, $000112A1)
-{start}
 //あ、ミュウ！
 Mr. Meow!
 <$00>
-{end}
 
 // PTR : 000021BC
 #WLB(PTR2, $000114F0)
 #WHB(PTR2, $000114F1)
 #WBB(PTR2, $000114EC)
 #WUB(PTR2, $000114ED)
-{start}
 //長男のウィノががんばって\n洗濯を切り盛りしているけれど、
 Wino, the eldest, is\nguarding their turf.
 <$00>
-{end}
 
 // PTR : 000021F4
 #WLB(PTR2, $000114FC)
 #WHB(PTR2, $000114FD)
 #WBB(PTR2, $000114F8)
 #WUB(PTR2, $000114F9)
-{start}
 //悪いことは続くもんでね…
 But that's an\nuphill struggle.
 <$00>
-{end}
 
 // PTR : 00000490
 #WLB(PTR2, $00004C60)
@@ -1652,11 +1298,9 @@ But that's an\nuphill struggle.
 #WHB(PTR2, $00011855)
 #WBB(PTR2, $00011850)
 #WUB(PTR2, $00011851)
-{start}
 //大通りのほうに戻りたいな
 I'd like to get\nback to Main Street.
 <$00>
-{end}
 
 // PTR : 0000241C
 #WLB(PTR2, $00012238)
@@ -1667,176 +1311,144 @@ I'd like to get\nback to Main Street.
 #WHB(PTR2, $00012271)
 #WBB(PTR2, $0001226C)
 #WUB(PTR2, $0001226D)
-{start}
 //ミュウは、高いところが好きなの
 Mr. Meow loves heights.
 <$00>
-{end}
 
 // PTR : 0000243C
 #WLB(PTR2, $000122A8)
 #WHB(PTR2, $000122A9)
 #WBB(PTR2, $000122A4)
 #WUB(PTR2, $000122A5)
-{start}
 //お願い、早く探して
 Please, find him soon.
 <$00>
-{end}
 
 // PTR : 00002450
 #WLB(PTR2, $00012300)
 #WHB(PTR2, $00012301)
 #WBB(PTR2, $000122FC)
 #WUB(PTR2, $000122FD)
-{start}
 //ミュウが帰ってきたの！\nどうもありがとう、おねえちゃん！
 Mr. Meow's back!\nThank you again!
 <$00>
-{end}
 
 // PTR : 00002488
 #WLB(PTR2, $00012310)
 #WHB(PTR2, $00012311)
 #WBB(PTR2, $0001230C)
 #WUB(PTR2, $0001230D)
-{start}
 //よかったね
 My pleasure!
 <$00>
-{end}
 
 // PTR : 00002494
 #WLB(PTR2, $00012384)
 #WHB(PTR2, $00012385)
 #WBB(PTR2, $00012380)
 #WUB(PTR2, $00012381)
-{start}
 //行こ、ミュウ！
 Let's go, Mr. Meow!
 <$00>
-{end}
 
 // PTR : 000024A4
 #WLB(PTR2, $00012564)
 #WHB(PTR2, $00012565)
 #WBB(PTR2, $00012560)
 #WUB(PTR2, $00012561)
-{start}
 //あーあ、もう少しだったのに…
 Aww, just\na little more...
 <$00>
-{end}
 
 // PTR : 00002500
 #WLB(PTR2, $000130C8)
 #WHB(PTR2, $000130C9)
 #WBB(PTR2, $000130C4)
 #WUB(PTR2, $000130C5)
-{start}
 //橋へ続く道
 Road to Bridge
 <$00>
-{end}
 
 // PTR : 00002580
 #WLB(PTR2, $0001442C)
 #WHB(PTR2, $0001442D)
 #WBB(PTR2, $00014428)
 #WUB(PTR2, $00014429)
-{start}
 //いない…ずっと先の方に\n流れちゃったのかしら？
 Did Joka go downstream?\nBut to where?
 <$00>
-{end}
 
 // PTR : 00002720
 #WLB(PTR2, $00014B08)
 #WHB(PTR2, $00014B09)
 #WBB(PTR2, $00014B04)
 #WUB(PTR2, $00014B05)
-{start}
 //奇妙な２人組に\n呼び止められたアディ。
 Addie was stopped\nby a strange duo.
 <$00>
-{end}
 
 // PTR : 00002748
 #WLB(PTR2, $00014BC4)
 #WHB(PTR2, $00014BC5)
 #WBB(PTR2, $00014BC0)
 #WUB(PTR2, $00014BC1)
-{start}
 //洗濯物って、どういうことかしら
 Laundry?\nWhat's that about?
 <$00>
-{end}
 
 // PTR : 00002768
 #WLB(PTR2, $00014C98)
 #WHB(PTR2, $00014C99)
 #WBB(PTR2, $00014C94)
 #WUB(PTR2, $00014C95)
-{start}
 //『ランドリー』が壊れちまったのよ
 Their laundromat\nbroke down,
 <$00>
-{end}
 
 // PTR : 0000278C
 #WLB(PTR2, $00014CA4)
 #WHB(PTR2, $00014CA5)
 #WBB(PTR2, $00014CA0)
 #WUB(PTR2, $00014CA1)
-{start}
 //連中の切り札の洗濯マシーンさ
 but they aren't\nwashed up yet.
 <$00>
-{end}
 
 // PTR : 000027EC
 #WLB(PTR2, $00015650)
 #WHB(PTR2, $00015651)
 #WBB(PTR2, $0001564C)
 #WUB(PTR2, $0001564D)
-{start}
 //橋の上
 On the Bridge
 <$00>
-{end}
 
 // PTR : 000008D8
 #WLB(PTR2, $00016A34)
 #WHB(PTR2, $00016A35)
 #WBB(PTR2, $00016A30)
 #WUB(PTR2, $00016A31)
-{start}
 //誰かが気持ちよさそうに\n昼寝してる…
 Someone's resting easy.
 <$00>
-{end}
 
 // PTR : 000008FC
 #WLB(PTR2, $00016A40)
 #WHB(PTR2, $00016A41)
 #WBB(PTR2, $00016A3C)
 #WUB(PTR2, $00016A3D)
-{start}
 //何だか追いかけるのに\n疲れちゃったな…
 Chasing everyone\naround is exhausting!
 <$00>
-{end}
 
 // PTR : 00000924
 #WLB(PTR2, $00016B28)
 #WHB(PTR2, $00016B29)
 #WBB(PTR2, $00016B24)
 #WUB(PTR2, $00016B25)
-{start}
 //あ！魚？
 Ah! Fish!
 <$00>
-{end}
 
 #VAR(PTR3, CUSTOMPOINTER)
 #CREATEPTR(PTR3, "LINEAR", -2148367224, 32)
@@ -1845,31 +1457,25 @@ Ah! Fish!
 #WHB(PTR3, $00011431)
 #WBB(PTR3, $0001142C)
 #WUB(PTR3, $0001142D)
-{start}
 //せなきゃ…
 All right...
 <$00>
-{end}
 
 // PTR : 00000EE4
 #WLB(PTR3, $0001156C)
 #WHB(PTR3, $0001156D)
 #WBB(PTR3, $00011568)
 #WUB(PTR3, $00011569)
-{start}
 //ててよ
 Go!
 <$00>
-{end}
 
 // PTR : 00001E44
 #WLB(PTR3, $00012418)
 #WHB(PTR3, $00012419)
 #WBB(PTR3, $00012414)
 #WUB(PTR3, $00012415)
-{start}
 //あねご
 Addie-o!
 <$00>
-{end}
 

@@ -7,155 +7,117 @@
 
 // PTR : 0000032C
 #WRITE(PTR, $00000538)
-{start}
 //こんな風にあなたと\n音楽を聞いてるのって…
 Listening to music\nlike this with you...
 <$00>
-{end}
 
 // PTR : 00000358
 #WRITE(PTR, $0000053C)
-{start}
 ２人でお風呂に入ってるみたいね…
 It's like we're\nbathing together.
 <$00>
-{end}
 
 // PTR : 0000037C
 #WRITE(PTR, $00000540)
-{start}
 //変な意味じゃないわよっ！
 You know what I meant!
 <$00>
-{end}
 
 // PTR : 00000398
 #WRITE(PTR, $00000544)
-{start}
 //音のお風呂みたいな感じだなって
 You know,\nbathing in sound?
 <$00>
-{end}
 
 // PTR : 000003B8
 #WRITE(PTR, $00000548)
-{start}
 //言いたかったの
 Oh, I bet, Addie.
 <$00>
-{end}
 
 // PTR : 000003C8
 #WRITE(PTR, $0000054C)
-{start}
 //あなたって、意外と詩人なのね
 You do have\na way with words.
 <$00>
-{end}
 
 // PTR : 000003E8
 #WRITE(PTR, $00000550)
-{start}
 //人と一緒にお風呂に入ると
 When people take a bath,
 <$00>
-{end}
 
 // PTR : 00000404
 #WRITE(PTR, $00000554)
-{start}
 //自分のことが全部\nばれちゃう気がするじゃない？
 they feel really exposed.
 <$00>
-{end}
 
 // PTR : 00000434
 #WRITE(PTR, $00000558)
-{start}
 //…そんな感じがしない？
 Don't you feel\nlike that now?
 <$00>
-{end}
 
 // PTR : 0000044C
 #WRITE(PTR, $0000055C)
-{start}
 //しないわよ
 Not at all.
 <$00>
-{end}
 
 // PTR : 00000458
 #WRITE(PTR, $00000560)
-{start}
 //だって、あなたは今
 And what makes you think
 <$00>
-{end}
 
 // PTR : 0000046C
 #WRITE(PTR, $00000564)
-{start}
 //わたしの考えてることが\nわからないでしょ？
 you know what\nI'm feeling?
 <$00>
-{end}
 
 // PTR : 00000498
 #WRITE(PTR, $00000568)
-{start}
 //想像はつくわよ
 I was guessing, but,
 <$00>
-{end}
 
 // PTR : 000004A8
 #WRITE(PTR, $0000056C)
-{start}
 //ジャマするなって言いたいんでしょ
 now I guess\nI've bugged you.
 <$00>
-{end}
 
 // PTR : 000004CC
 #WRITE(PTR, $00000570)
-{start}
 //やっぱりわかってないみたいね
 Wrong again.
 <$00>
-{end}
 
 // PTR : 000004EC
 #WRITE(PTR, $00000574)
-{start}
 //え？
 Huh?
 <$00>
-{end}
 
 // PTR : 000004F4
 #WRITE(PTR, $00000578)
-{start}
 //あなたのおかげよ、感謝してるわ
 I feel grateful.\nThank you for this.
 <$00>
-{end}
 
 // PTR : 00000514
 #WRITE(PTR, $0000057C)
-{start}
 //…わかった？
 Let that "soak" in.
 <$00>
-{end}
 
 // PTR : 00000524
 #WRITE(PTR, $00000580)
-{start}
 //調子狂っちゃうわ
 Geez Louise.
 <$00>
-{end}
 
 #VAR(PTR1, CUSTOMPOINTER)
 #CREATEPTR(PTR1, "LINEAR", -2148236152, 32)
@@ -168,9 +130,7 @@ Geez Louise.
 #WHB(PTR1, $00002D11)
 #WBB(PTR1, $00002D0C)
 #WUB(PTR1, $00002D0D)
-{start}
 //テンプレート
 Template
 <$00>
-{end}
 

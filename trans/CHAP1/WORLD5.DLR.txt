@@ -7,845 +7,635 @@
 
 // PTR : 00000514
 #WRITE(PTR, $00000584)
-{start}
 //きゃっ！
 Aah!
 <$00>
-{end}
 
 // PTR : 00000520
 #WRITE(PTR, $00000588)
-{start}
 //急に暗くなっちゃった…
 Everything went dark.
 <$00>
-{end}
 
 // PTR : 00000538
 #WRITE(PTR, $0000058C)
-{start}
 //あら？これ…ライター？\n誰のだろう…
 A lighter?\nWho left this here?
 <$00>
-{end}
 
 // PTR : 0000055C
 #WRITE(PTR, $00000590)
-{start}
 //少し明るくなったけど…
 At least it does something.
 <$00>
-{end}
 
 // PTR : 00000574
 #WRITE(PTR, $00000594)
-{start}
 //あ、そうだわ！
 Oh! I know!
 //lighter - firefly
 <$00>
-{end}
 
 // PTR : 000007CC
 #WRITE(PTR, $00000894)
-{start}
 //…よし
 Okay!
 <$00>
-{end}
 
 // PTR : 000007D4
 #WRITE(PTR, $00000898)
-{start}
 //えい
 Addie-oop!
 <$00>
-{end}
 
 // PTR : 0000074C
 #WRITE(PTR, $0000089C)
-{start}
 //あら？
 Huh?
 <$00>
-{end}
 
 // PTR : 000007DC
 #WRITE(PTR, $000008A0)
-{start}
 //きゃあ！
 Heeelp!
 <$00>
-{end}
 
 // PTR : 000007E8
 #WRITE(PTR, $000008A4)
-{start}
 //オルゴールの上だったんだ、ここ…
 Is this the top\nof the music box?
 <$00>
-{end}
 
 // PTR : 0000080C
 #WRITE(PTR, $000008A8)
-{start}
 //岬の街そっくりの…
 It looks just\nlike Cape Town!
 <$00>
-{end}
 
 // PTR : 00000820
 #WRITE(PTR, $000008AC)
-{start}
 //街がオルゴールみたいに回って…\n音を鳴らす板に弾かれて…
 The town turns as it plays.\nIs this really...
 <$00>
-{end}
 
 // PTR : 00000858
 #WRITE(PTR, $000008B0)
-{start}
 //「世界の終わり」を告げる\nオルゴール！
 ...the music box that\nturns the world back?
 <$00>
-{end}
 
 // PTR : 00000880
 #WRITE(PTR, $000008B4)
-{start}
 //ジョーカのズボン…
 Joka's pants.
 <$00>
-{end}
 
 // PTR : 00000D00
 #WRITE(PTR, $00000D54)
-{start}
 //ジョーカのネクタイ…
 Joka's necktie.
 <$00>
-{end}
 
 // PTR : 00000D18
 #WRITE(PTR, $00000D58)
-{start}
 //…認めたくないけど\nこの穴の中なのかしら
 I hope I don't have\nto go down this hole,
 <$00>
-{end}
 
 // PTR : 00000D40
 #WRITE(PTR, $00000D5C)
-{start}
 //…しかたなさそうね
 but we'll find out.
 //necktie - parasol
 <$00>
-{end}
 
 // PTR : 00001268
 #WRITE(PTR, $0000177C)
-{start}
 //ここが終点だよ、アディ
 You've reached the\nlast stop, Addie.
 <$00>
-{end}
 
 // PTR : 00001280
 #WRITE(PTR, $00001780)
-{start}
 //それは自転車？
 Is that a bicycle?
 <$00>
-{end}
 
 // PTR : 00001290
 #WRITE(PTR, $00001784)
-{start}
 //そう、この自転車で…
 Yeah! With this bike,
 <$00>
-{end}
 
 // PTR : 000012A8
 #WRITE(PTR, $00001788)
-{start}
 //このオルゴールを動かすのさ
 I'll start the music box!
 <$00>
-{end}
 
 // PTR : 000012C4
 #WRITE(PTR, $0000178C)
-{start}
 //銀の歯車はどこなの？
 But where are\nthe silver gears?
 <$00>
-{end}
 
 // PTR : 000012DC
 #WRITE(PTR, $00001790)
-{start}
 //この自転車をよく見てごらん
 You're looking at them!
 <$00>
-{end}
 
 // PTR : 000012F8
 #WRITE(PTR, $00001794)
-{start}
 //あ！
 Oh!
 <$00>
-{end}
 
 // PTR : 00001300
 #WRITE(PTR, $00001798)
-{start}
 //今、動かしてみせるから
 And now,\nit's time to move!
 <$00>
-{end}
 
 // PTR : 00001318
 #WRITE(PTR, $0000179C)
-{start}
 //ダメよ！
 No, don't!
 <$00>
-{end}
 
 // PTR : 00001324
 #WRITE(PTR, $000017A0)
-{start}
 //もう遅いよ
 Too late.
 <$00>
-{end}
 
 // PTR : 00001330
 #WRITE(PTR, $000017A4)
-{start}
 //きゃぁ！
 Nooo!
 <$00>
-{end}
 
 // PTR : 0000133C
 #WRITE(PTR, $000017A8)
-{start}
 //なんてね…
 What's wrong?
 <$00>
-{end}
 
 // PTR : 00001348
 #WRITE(PTR, $000017AC)
-{start}
 //大丈夫だよ
 It's all right.
 <$00>
-{end}
 
 // PTR : 00001354
 #WRITE(PTR, $000017B0)
-{start}
 //このままでは…
 At this rate,
 <$00>
-{end}
 
 // PTR : 00001364
 #WRITE(PTR, $000017B4)
-{start}
 //このままでは、まだ動かない
 At this rate,\nit still won't work.
 <$00>
-{end}
 
 // PTR : 00001380
 #WRITE(PTR, $000017B8)
-{start}
 //どういうことよ？
 What do you mean?
 <$00>
-{end}
 
 // PTR : 00001394
 #WRITE(PTR, $000017BC)
-{start}
 //部品がたりないのさ
 It's missing a part.
 <$00>
-{end}
 
 // PTR : 000013A8
 #WRITE(PTR, $000017C0)
-{start}
 //二つの銀の歯車をつなぐ
 A little gear that\nconnects the larger two.
 <$00>
-{end}
 
 // PTR : 000013C0
 #WRITE(PTR, $000017C4)
-{start}
 //もう一枚の歯車がね…
 One last gear...
 <$00>
-{end}
 
 // PTR : 000013D8
 #WRITE(PTR, $000017C8)
-{start}
 //それって…
 And without it...
 <$00>
-{end}
 
 // PTR : 000013E4
 #WRITE(PTR, $000017CC)
-{start}
 //…この機械は動かないってこと？
 ...this machine won't work?
 <$00>
-{end}
 
 // PTR : 00001404
 #WRITE(PTR, $000017D0)
-{start}
 //このままではね
 At this rate, no.
 <$00>
-{end}
 
 // PTR : 00001414
 #WRITE(PTR, $000017D4)
-{start}
 //…でも僕はまだ\nあきらめたわけじゃないよ
 But I won't give\nup that easily!
 <$00>
-{end}
 
 // PTR : 0000143C
 #WRITE(PTR, $000017D8)
-{start}
 //だって部品がないんじゃ\nどうしようもないじゃない
 What I don't have in parts
 <$00>
-{end}
 
 // PTR : 0000146C
 #WRITE(PTR, $000017DC)
-{start}
 //意地をはってないで\nもう帰りましょうよ
 I make up for in resolve!
 <$00>
-{end}
 
 // PTR : 00001494
 #WRITE(PTR, $000017E0)
-{start}
 //ちゃんとあやまれば\nズーだってきっと許してくれるわ
 And if I don't mess up,\neven Zoo will forgive me!
 <$00>
-{end}
 
 // PTR : 000014C8
 #WRITE(PTR, $000017E4)
-{start}
 //部品はあるんだよ
 The gear's right\nhere, Addie.
 <$00>
-{end}
 
 // PTR : 000014DC
 #WRITE(PTR, $000017E8)
-{start}
 //それは、この僕さ
 It's me.
 <$00>
-{end}
 
 // PTR : 000014F0
 #WRITE(PTR, $000017EC)
-{start}
 //…なにを言ってるの？
 What are you saying?
 <$00>
-{end}
 
 // PTR : 00001508
 #WRITE(PTR, $000017F0)
-{start}
 君の助けが必要だから\nここで待ってたんだ
 I waited here because\nI needed your help.
 <$00>
-{end}
 
 // PTR : 00001530
 #WRITE(PTR, $000017F4)
-{start}
 //…アディ
 Addie.
 <$00>
-{end}
 
 // PTR : 0000153C
 #WRITE(PTR, $000017F8)
-{start}
 君のログロックの力で
 Use your Logock.
 <$00>
-{end}
 
 // PTR : 00001554
 #WRITE(PTR, $000017FC)
-{start}
 //僕を「歯車」に変えてくれないか？
 Turn me into that gear.
 <$00>
-{end}
 
 // PTR : 00001578
 #WRITE(PTR, $00001800)
-{start}
 //なにを言ってるの？お断りよ！
 What?!\nNo, I refuse!
 <$00>
-{end}
 
 // PTR : 00001598
 #WRITE(PTR, $00001804)
-{start}
 //あなたの手伝いもしたくないし
 Turn a human being into\nsome...some THING?!
 <$00>
-{end}
 
 // PTR : 000015B8
 #WRITE(PTR, $00001808)
-{start}
 //人をモノに変えるなんて絶対イヤっ！
 How could you\nask me that?!
 <$00>
-{end}
 
 // PTR : 000015DC
 #WRITE(PTR, $0000180C)
-{start}
 //でも、そうしないと…
 But if you don't,
 <$00>
-{end}
 
 // PTR : 000015F4
 #WRITE(PTR, $00001810)
-{start}
 //このオルゴールは動かない
 the music box won't turn.
 <$00>
-{end}
 
 // PTR : 00001610
 #WRITE(PTR, $00001814)
-{start}
 //どうして？
 So what if it doesn't?!
 <$00>
-{end}
 
 // PTR : 0000161C
 #WRITE(PTR, $00001818)
-{start}
 //どうして、そこまでするのよ！
 Why go this far?!
 <$00>
-{end}
 
 // PTR : 0000163C
 #WRITE(PTR, $0000181C)
-{start}
 //離れ離れになってかみ合わない
 I have to reconnect them.
 <$00>
-{end}
 
 // PTR : 0000165C
 #WRITE(PTR, $00001820)
-{start}
 //この銀の歯車を結びつけるのは
 The gears that have\nseperated.
 <$00>
-{end}
 
 // PTR : 0000167C
 #WRITE(PTR, $00001824)
-{start}
 //やっぱり僕の役目だったんだよ
 It was my job to\nbring us together!
 <$00>
-{end}
 
 // PTR : 0000169C
 #WRITE(PTR, $00001828)
-{start}
 //…え？
 ..."Us"?
 <$00>
-{end}
 
 // PTR : 000016A4
 #WRITE(PTR, $0000182C)
-{start}
 //…父さんと
 I was supposed...
 <$00>
-{end}
 
 // PTR : 000016B0
 #WRITE(PTR, $00001830)
-{start}
 //父さんと母さんをつなぐのは…
 I was supposed to keep...
 <$00>
-{end}
 
 // PTR : 000016D0
 #WRITE(PTR, $00001834)
-{start}
 //僕なんだ…
 Dad and Mom together.
 <$00>
-{end}
 
 // PTR : 000016DC
 #WRITE(PTR, $00001838)
-{start}
 //…ジョーカ？
 ...Joka?
 <$00>
-{end}
 
 // PTR : 000016EC
 #WRITE(PTR, $0000183C)
-{start}
 //オルゴールが鳴らないのは…
 But the music box\nwouldn't WORK!
 <$00>
-{end}
 
 // PTR : 00001708
 #WRITE(PTR, $00001840)
-{start}
 //僕があきらめたからなんだ…
 Because I GAVE UP on it!
 <$00>
-{end}
 
 // PTR : 00001724
 #WRITE(PTR, $00001844)
-{start}
 //オルゴールが鳴れば、きっと…
 But now, for sure,\nI...
 <$00>
-{end}
 
 // PTR : 00001744
 #WRITE(PTR, $00001848)
-{start}
 //あなた…
 Moze.
 <$00>
-{end}
 
 // PTR : 00001750
 #WRITE(PTR, $0000184C)
-{start}
 //…モーゼ？
 It's you.
 <$00>
-{end}
 
 // PTR : 0000175C
 #WRITE(PTR, $00001850)
-{start}
 //…僕は、
 No.
 <$00>
-{end}
 
 // PTR : 00001768
 #WRITE(PTR, $00001854)
-{start}
 //…僕はジョーカだよ
 I'm still Joka.
 <$00>
-{end}
 
 // PTR : 0000253C
 #WRITE(PTR, $0000286C)
-{start}
 //上手だね。
 It was you, Addie.
 <$00>
-{end}
 
 // PTR : 00002548
 #WRITE(PTR, $00002870)
-{start}
 //え？
 What?
 <$00>
-{end}
 
 // PTR : 00002550
 #WRITE(PTR, $00002874)
-{start}
 やっぱり君の方が、僕より上手だ
 It was you who was\nalways one step ahead of me.
 <$00>
-{end}
 
 // PTR : 00002570
 #WRITE(PTR, $00002878)
-{start}
 //どうしたの？
 Aren't you happy?
 <$00>
-{end}
 
 // PTR : 00002580
 #WRITE(PTR, $0000287C)
-{start}
 //やっぱり嫌だよ…
 How could I be?!
 <$00>
-{end}
 
 // PTR : 00002594
 #WRITE(PTR, $00002880)
-{start}
 //ねえ、アディ
 Wait, Addie.
 <$00>
-{end}
 
 // PTR : 000025A4
 #WRITE(PTR, $00002884)
-{start}
 //以前に図書館で会ったよね？
 You remember\nthe library, right?
 <$00>
-{end}
 
 // PTR : 000025C0
 #WRITE(PTR, $00002888)
-{start}
 //あそこの館長が教えてくれたんだ
 It was the chief\nlibrarian who told me,
 <$00>
-{end}
 
 // PTR : 000025E0
 #WRITE(PTR, $0000288C)
-{start}
 //僕が歯車になれば…
 "If you become a gear,
 <$00>
-{end}
 
 // PTR : 000025F4
 #WRITE(PTR, $00002890)
-{start}
 //この壊れたオルゴールを\n動かせるかもしれないって…
 maybe you can fix\nthat music box."
 <$00>
-{end}
 
 // PTR : 00002628
 #WRITE(PTR, $00002894)
-{start}
 //でも…あなたが歯車になったら
 But if you did that,
 <$00>
-{end}
 
 // PTR : 00002648
 #WRITE(PTR, $00002898)
-{start}
 //こんな物騒なモノなんて、
 there'd be no one left.
 <$00>
-{end}
 
 // PTR : 00002664
 #WRITE(PTR, $0000289C)
-{start}
 //誰も動かすはずないわ
 No one would turn it.
 <$00>
-{end}
 
 // PTR : 0000267C
 #WRITE(PTR, $000028A0)
-{start}
 //…そうかもしれないね
 Probably not,
 <$00>
-{end}
 
 // PTR : 00002694
 #WRITE(PTR, $000028A4)
-{start}
 //でも、
 but nothing
 <$00>
-{end}
 
 // PTR : 0000269C
 #WRITE(PTR, $000028A8)
-{start}
 //動かないと決まったわけじゃない
 is set in stone.
 <$00>
-{end}
 
 // PTR : 000026BC
 #WRITE(PTR, $000028AC)
-{start}
 //ねぇ、ジョーカ
 Hey. Joka?
 <$00>
-{end}
 
 // PTR : 000026CC
 #WRITE(PTR, $000028B0)
-{start}
 //最後に一つだけ教えて…
 One last thing.
 <$00>
-{end}
 
 // PTR : 000026E4
 #WRITE(PTR, $000028B4)
-{start}
 もし、オルゴールの部品が\n足りていたとして
 If you had all the parts\nand fixed the box,
 <$00>
-{end}
 
 // PTR : 00002710
 #WRITE(PTR, $000028B8)
-{start}
 //あなたは本当に動かせたの？
 could you REALLY\nget it turning?
 <$00>
-{end}
 
 // PTR : 0000272C
 #WRITE(PTR, $000028BC)
-{start}
 //どういうこと？
 What do you mean?
 <$00>
-{end}
 
 // PTR : 0000273C
 #WRITE(PTR, $000028C0)
-{start}
 //モーゼは自転車に乗れなかったわ
 Moze doesn't know\nhow to ride a bike.
 <$00>
-{end}
 
 // PTR : 0000275C
 #WRITE(PTR, $000028C4)
-{start}
 //…奇遇だね
 That's funny.
 <$00>
-{end}
 
 // PTR : 00002768
 #WRITE(PTR, $000028C8)
-{start}
 //実は僕も乗れないんだ
 I can't ride\nbikes either.
 <$00>
-{end}
 
 // PTR : 00002780
 #WRITE(PTR, $000028CC)
-{start}
 //そうか！
 Really now?
 <$00>
-{end}
 
 // PTR : 0000278C
 #WRITE(PTR, $000028D0)
-{start}
 //そうかそうか！
 Yes, I see now!
 <$00>
-{end}
 
 // PTR : 0000279C
 #WRITE(PTR, $000028D4)
-{start}
 //いや、よくやってくれたな
 Well done!
 <$00>
-{end}
 
 // PTR : 000027B8
 #WRITE(PTR, $000028D8)
-{start}
 //しかし、よもやこの世界が\nオルゴールだったとは…
 But who knew the\nworld itself was a music box?
 <$00>
-{end}
 
 // PTR : 000027E8
 #WRITE(PTR, $000028DC)
-{start}
 //…そのことは本当に\n知らんかったぞ
 I wasn't geared\nto hear that!
 <$00>
-{end}
 
 // PTR : 0000280C
 #WRITE(PTR, $000028E0)
-{start}
 //ともかく！
 Anyways!
 <$00>
-{end}
 
 // PTR : 00002818
 #WRITE(PTR, $000028E4)
-{start}
 //あの小僧が歯車になったのなら
 If that boy's a gear now,
 <$00>
-{end}
 
 // PTR : 00002838
 #WRITE(PTR, $000028E8)
-{start}
 //もう心配の種はなにもない！
 we have nothing\nto worry about!
 <$00>
-{end}
 
 // PTR : 00002854
 #WRITE(PTR, $000028EC)
-{start}
 //お前さんのおかげで…
 All thanks to you!
 <$00>
-{end}
 
 #VAR(PTR1, CUSTOMPOINTER)
 #CREATEPTR(PTR1, "LINEAR", -2148236152, 32)
@@ -854,33 +644,27 @@ All thanks to you!
 #WHB(PTR1, $000050BD)
 #WBB(PTR1, $000050B8)
 #WUB(PTR1, $000050B9)
-{start}
 //管理人室・廊下
 Conductor's Hall Path
 <$00>
-{end}
 
 // PTR : 000003DC
 #WLB(PTR1, $0000578C)
 #WHB(PTR1, $0000578D)
 #WBB(PTR1, $00005788)
 #WUB(PTR1, $00005789)
-{start}
 //管理人室・ハシゴ
 Conductor's Hall Ladder
 <$00>
-{end}
 
 // PTR : 000003CC
 #WLB(PTR1, $0001172C)
 #WHB(PTR1, $0001172D)
 #WBB(PTR1, $00011728)
 #WUB(PTR1, $00011729)
-{start}
 //歯車だらけね
 It's full of gears.
 <$00>
-{end}
 
 #VAR(PTR2, CUSTOMPOINTER)
 #CREATEPTR(PTR2, "LINEAR", -2148301688, 32)
@@ -889,11 +673,9 @@ It's full of gears.
 #WHB(PTR2, $000068B5)
 #WBB(PTR2, $000068B0)
 #WUB(PTR2, $000068B1)
-{start}
 //…ここ、どこかしら
 Good. Now,\nwhere am I?
 <$00>
-{end}
 
 // PTR : 000004B4
 #WLB(PTR2, $00006428)
@@ -904,43 +686,35 @@ Good. Now,\nwhere am I?
 #WHB(PTR2, $00006941)
 #WBB(PTR2, $0000693C)
 #WUB(PTR2, $0000693D)
-{start}
 //このままじゃ何もできないわ…
 I can't do anything\nwith this.
 <$00>
-{end}
 
 // PTR : 000005F8
 #WLB(PTR2, $000069B8)
 #WHB(PTR2, $000069B9)
 #WBB(PTR2, $000069B4)
 #WUB(PTR2, $000069B5)
-{start}
 LIGHTER
 <$00>
-{end}
 
 // PTR : 00000618
 #WLB(PTR2, $00006B18)
 #WHB(PTR2, $00006B19)
 #WBB(PTR2, $00006B14)
 #WUB(PTR2, $00006B15)
-{start}
 //門…？
 A gate?
 <$00>
-{end}
 
 // PTR : 00000620
 #WLB(PTR2, $00006BF8)
 #WHB(PTR2, $00006BF9)
 #WBB(PTR2, $00006BF4)
 #WUB(PTR2, $00006BF5)
-{start}
 //…何かしら、これ
 What's this, I wonder?
 <$00>
-{end}
 
 // PTR : 00000608
 #WLB(PTR2, $00006A20)
@@ -951,22 +725,18 @@ What's this, I wonder?
 #WHB(PTR2, $00007739)
 #WBB(PTR2, $00007734)
 #WUB(PTR2, $00007735)
-{start}
 //銅板の街・墓
 Copper Town Tomb
 <$00>
-{end}
 
 // PTR : 000006A8
 #WLB(PTR2, $0000797C)
 #WHB(PTR2, $0000797D)
 #WBB(PTR2, $00007978)
 #WUB(PTR2, $00007979)
-{start}
 //ペラペラの…家？
 Flimsy...houses?
 <$00>
-{end}
 
 // PTR : 00000634
 #WLB(PTR2, $00006CC4)
@@ -977,307 +747,251 @@ Flimsy...houses?
 #WHB(PTR2, $00007A5D)
 #WBB(PTR2, $00007A58)
 #WUB(PTR2, $00007A59)
-{start}
 //ヤシの木みたいな…
 A palm tree standee.
 <$00>
-{end}
 
 // PTR : 000006EC
 #WLB(PTR2, $00008254)
 #WHB(PTR2, $00008255)
 #WBB(PTR2, $00008250)
 #WUB(PTR2, $00008251)
-{start}
 //銅板の街・鐘楼
 Copper Town Bell Tower
 <$00>
-{end}
 
 // PTR : 00000718
 #WLB(PTR2, $000084F8)
 #WHB(PTR2, $000084F9)
 #WBB(PTR2, $000084F4)
 #WUB(PTR2, $000084F5)
-{start}
 //この辺、風がすごいわ…
 I feel a strong breeze.
 <$00>
-{end}
 
 // PTR : 0000074C
 #WLB(PTR2, $00008684)
 #WHB(PTR2, $00008685)
 #WBB(PTR2, $00008680)
 #WUB(PTR2, $00008681)
-{start}
 //あら？
 Oh?
 <$00>
-{end}
 
 // PTR : 00000754
 #WLB(PTR2, $00008694)
 #WHB(PTR2, $00008695)
 #WBB(PTR2, $00008690)
 #WUB(PTR2, $00008691)
-{start}
 //…ここから風が吹き上げてるのね
 The breeze is blowing\nupward through the floor.
 <$00>
-{end}
 
 // PTR : 00000C20
 #WLB(PTR2, $00009600)
 #WHB(PTR2, $00009601)
 #WBB(PTR2, $000095FC)
 #WUB(PTR2, $000095FD)
-{start}
 //ジョーカのネクタイ…？
 Joka's necktie?
 <$00>
-{end}
 
 // PTR : 00000CC0
 #WLB(PTR2, $000096C4)
 #WHB(PTR2, $000096C5)
 #WBB(PTR2, $000096C0)
 #WUB(PTR2, $000096C1)
-{start}
 //ネクタイ
 NECKTIE
 <$00>
-{end}
 
 // PTR : 00000D80
 #WLB(PTR2, $00009B4C)
 #WHB(PTR2, $00009B4D)
 #WBB(PTR2, $00009B48)
 #WUB(PTR2, $00009B49)
-{start}
 //まあ、この中に\nいるとは限らないし…
 Geez, they're everywhere...
 <$00>
-{end}
 
 // PTR : 00000DA4
 #WLB(PTR2, $00009B60)
 #WHB(PTR2, $00009B61)
 #WBB(PTR2, $00009B5C)
 #WUB(PTR2, $00009B5D)
-{start}
 //…決心つかないわ
 I can't figure it out.
 <$00>
-{end}
 
 // PTR : 00000DD0
 #WLB(PTR2, $00009C60)
 #WHB(PTR2, $00009C61)
 #WBB(PTR2, $00009C5C)
 #WUB(PTR2, $00009C5D)
-{start}
 //こんなにジャマなものが多いと\nジョーカを探すなんて無理だわ…
 I'll never get\naround all these walls.
 <$00>
-{end}
 
 // PTR : 00000E0C
 #WLB(PTR2, $00009CC4)
 #WHB(PTR2, $00009CC5)
 #WBB(PTR2, $00009CC0)
 #WUB(PTR2, $00009CC1)
-{start}
 //こっちには行ってなさそう…かな？\nジョーカの服も見あたらないし…
 I might have to use\nsomething of Joka's.
 <$00>
-{end}
 
 // PTR : 00000E60
 #WLB(PTR2, $0000AAB8)
 #WHB(PTR2, $0000AAB9)
 #WBB(PTR2, $0000AAB4)
 #WUB(PTR2, $0000AAB5)
-{start}
 //銅板の街・大通り
 Copper Town Main Street
 <$00>
-{end}
 
 // PTR : 00000E90
 #WLB(PTR2, $0000AD60)
 #WHB(PTR2, $0000AD61)
 #WBB(PTR2, $0000AD5C)
 #WUB(PTR2, $0000AD5D)
-{start}
 //ジョーカの服が散らかってる…
 His clothes are everywhere.
 <$00>
-{end}
 
 // PTR : 00000F48
 #WLB(PTR2, $0000AEB4)
 #WHB(PTR2, $0000AEB5)
 #WBB(PTR2, $0000AEB0)
 #WUB(PTR2, $0000AEB1)
-{start}
 //高い…わね
 We're so high up.
 <$00>
-{end}
 
 // PTR : 00000F54
 #WLB(PTR2, $0000B4AC)
 #WHB(PTR2, $0000B4AD)
 #WBB(PTR2, $0000B4A8)
 #WUB(PTR2, $0000B4A9)
-{start}
 //銅板の街・岬の先
 Copper Town Cape Path
 <$00>
-{end}
 
 // PTR : 00000F84
 #WLB(PTR2, $0000B744)
 #WHB(PTR2, $0000B745)
 #WBB(PTR2, $0000B740)
 #WUB(PTR2, $0000B741)
-{start}
 //（没シーン）
 (Death scene)
 <$00>
-{end}
 
 // PTR : 00000F94
 #WLB(PTR2, $0000BB40)
 #WHB(PTR2, $0000BB41)
 #WBB(PTR2, $0000BB3C)
 #WUB(PTR2, $0000BB3D)
-{start}
 //ふう
 Gee.
 <$00>
-{end}
 
 // PTR : 00000F9C
 #WLB(PTR2, $0000BB50)
 #WHB(PTR2, $0000BB51)
 #WBB(PTR2, $0000BB4C)
 #WUB(PTR2, $0000BB4D)
-{start}
 //…本当にオルゴールなのね
 It really is\na music box.
 <$00>
-{end}
 
 // PTR : 0000102C
 #WLB(PTR2, $0000C824)
 #WHB(PTR2, $0000C825)
 #WBB(PTR2, $0000C820)
 #WUB(PTR2, $0000C821)
-{start}
 //いつものようにやればいいんだよ
 We'll take this\none step at a time.
 <$00>
-{end}
 
 // PTR : 0000104C
 #WLB(PTR2, $0000C948)
 #WHB(PTR2, $0000C949)
 #WBB(PTR2, $0000C944)
 #WUB(PTR2, $0000C945)
-{start}
 //待ってたよ、アディ
 I'm here, Addie.
 <$00>
-{end}
 
 // PTR : 00001060
 #WLB(PTR2, $0000C954)
 #WHB(PTR2, $0000C955)
 #WBB(PTR2, $0000C950)
 #WUB(PTR2, $0000C951)
-{start}
 //ジョーカ！！
 Joka!
 <$00>
-{end}
 
 // PTR : 00001070
 #WLB(PTR2, $0000CA78)
 #WHB(PTR2, $0000CA79)
 #WBB(PTR2, $0000CA74)
 #WUB(PTR2, $0000CA75)
-{start}
 //…さ、頼むよ\nアディ
 Please, Addie.
 //Joka - Gear
 <$00>
-{end}
 
 // PTR : 00001084
 #WLB(PTR2, $0000CABC)
 #WHB(PTR2, $0000CABD)
 #WBB(PTR2, $0000CAB8)
 #WUB(PTR2, $0000CAB9)
-{start}
 //ジョーカは最深部で\nアディを待っていた。
 Joka waited for Addie\nin the core.
 <$00>
-{end}
 
 // PTR : 000010AC
 #WLB(PTR2, $0000CB88)
 #WHB(PTR2, $0000CB89)
 #WBB(PTR2, $0000CB84)
 #WUB(PTR2, $0000CB85)
-{start}
 //ジョーカが自分を\n歯車にしてくれって…
 Joka turned\ninto a gear.
 <$00>
-{end}
 
 // PTR : 000010D4
 #WLB(PTR2, $0000CC38)
 #WHB(PTR2, $0000CC39)
 #WBB(PTR2, $0000CC34)
 #WUB(PTR2, $0000CC35)
-{start}
 //ジョーカがいなくなっても\n街は変わりなかった。
 The town didn't change\nafter Joka left.
 <$00>
-{end}
 
 // PTR : 00001104
 #WLB(PTR2, $0000CD14)
 #WHB(PTR2, $0000CD15)
 #WBB(PTR2, $0000CD10)
 #WUB(PTR2, $0000CD11)
-{start}
 //そうだ…\n図書館の館長に会わなきゃ…
 I have to see\nthe head librarian.
 <$00>
-{end}
 
 // PTR : 00001128
 #WLB(PTR2, $0000CD8C)
 #WHB(PTR2, $0000CD8D)
 #WBB(PTR2, $0000CD88)
 #WUB(PTR2, $0000CD89)
-{start}
 JOKA
 <$00>
-{end}
 
 // PTR : 00002DCC
 #WLB(PTR2, $0000E684)
 #WHB(PTR2, $0000E685)
 #WBB(PTR2, $0000E680)
 #WUB(PTR2, $0000E681)
-{start}
 ・
 <$00>
-{end}
 
 // PTR : 00000FE8
 #WLB(PTR2, $0000C644)
@@ -1292,143 +1006,117 @@ JOKA
 #WHB(PTR2, $00010255)
 #WBB(PTR2, $00010250)
 #WUB(PTR2, $00010251)
-{start}
 //オンバン中枢
 Gramophone Core
 <$00>
-{end}
 
 // PTR : 00000648
 #WLB(PTR2, $00011C84)
 #WHB(PTR2, $00011C85)
 #WBB(PTR2, $00011C80)
 #WUB(PTR2, $00011C81)
-{start}
 //これ、ジョーカが着てた服…
 Joka wore this shirt.
 <$00>
-{end}
 
 // PTR : 00000664
 #WLB(PTR2, $00011C90)
 #WHB(PTR2, $00011C91)
 #WBB(PTR2, $00011C8C)
 #WUB(PTR2, $00011C8D)
-{start}
 //こっちの方に来たのは\n間違いなさそうね
 That proves\nhe was here.
 <$00>
-{end}
 
 // PTR : 000006BC
 #WLB(PTR2, $00012124)
 #WHB(PTR2, $00012125)
 #WBB(PTR2, $00012120)
 #WUB(PTR2, $00012121)
-{start}
 //…ジョーカの帽子
 Joka's hat.
 <$00>
-{end}
 
 // PTR : 000006D0
 #WLB(PTR2, $00012130)
 #WHB(PTR2, $00012131)
 #WBB(PTR2, $0001212C)
 #WUB(PTR2, $0001212D)
-{start}
 //それにしても行儀が悪いわね
 Who raised him to\nlitter like this?
 <$00>
-{end}
 
 // PTR : 00000EB0
 #WLB(PTR2, $00012948)
 #WHB(PTR2, $00012949)
 #WBB(PTR2, $00012944)
 #WUB(PTR2, $00012945)
-{start}
 //ジョーカ…ここに来たのね
 He was here.
 <$00>
-{end}
 
 // PTR : 00000ECC
 #WLB(PTR2, $000129C4)
 #WHB(PTR2, $000129C5)
 #WBB(PTR2, $000129C0)
 #WUB(PTR2, $000129C1)
-{start}
 //このシャツ…
 Joka's shirt.
 <$00>
-{end}
 
 // PTR : 00000EDC
 #WLB(PTR2, $000129D0)
 #WHB(PTR2, $000129D1)
 #WBB(PTR2, $000129CC)
 #WUB(PTR2, $000129CD)
-{start}
 //なんか、汗くさい…
 It's all sweaty!
 <$00>
-{end}
 
 // PTR : 00000EF0
 #WLB(PTR2, $00012A60)
 #WHB(PTR2, $00012A61)
 #WBB(PTR2, $00012A5C)
 #WUB(PTR2, $00012A5D)
-{start}
 //うーん…
 Hmmm...
 <$00>
-{end}
 
 // PTR : 00000EFC
 #WLB(PTR2, $00012A68)
 #WHB(PTR2, $00012A69)
 #WBB(PTR2, $00012A64)
 #WUB(PTR2, $00012A65)
-{start}
 //どうして、靴だけ\nそろえて置いたのかしら？
 Surely, he kept\nhis shoes?
 <$00>
-{end}
 
 // PTR : 00000F28
 #WLB(PTR2, $00012B28)
 #WHB(PTR2, $00012B29)
 #WBB(PTR2, $00012B24)
 #WUB(PTR2, $00012B25)
-{start}
 //向こうには誰もいそうにないわね
 Looks like\nno one's home.
 <$00>
-{end}
 
 // PTR : 00000FB8
 #WLB(PTR2, $00012E5C)
 #WHB(PTR2, $00012E5D)
 #WBB(PTR2, $00012E58)
 #WUB(PTR2, $00012E59)
-{start}
 //どうやって動くのかしら…
 I wonder how it works.
 <$00>
-{end}
 
 // PTR : 00000FD4
 #WLB(PTR2, $00012EA8)
 #WHB(PTR2, $00012EA9)
 #WBB(PTR2, $00012EA4)
 #WUB(PTR2, $00012EA5)
-{start}
 //大きい！何これ？
 What is this?\nIt's huge!
 <$00>
-{end}
 
 #VAR(PTR3, CUSTOMPOINTER)
 #CREATEPTR(PTR3, "LINEAR", -2148367224, 32)
@@ -1437,11 +1125,9 @@ What is this?\nIt's huge!
 #WHB(PTR3, $0000524D)
 #WBB(PTR3, $00005248)
 #WUB(PTR3, $00005249)
-{start}
 //ことよ？
 What's this?
 <$00>
-{end}
 
 // PTR : 00001670
 #WLB(PTR3, $0000B888)
@@ -1452,11 +1138,9 @@ What's this?
 #WHB(PTR3, $000115A9)
 #WBB(PTR3, $000115A4)
 #WUB(PTR3, $000115A5)
-{start}
 //けるのは
 I'm putting my foot down.
 <$00>
-{end}
 
 // PTR : 00008487
 #WLB(PTR3, $00004498)
@@ -1527,8 +1211,6 @@ I'm putting my foot down.
 #WHB(PTR3, $00012705)
 #WBB(PTR3, $00012700)
 #WUB(PTR3, $00012701)
-{start}
 ・
 <$00>
-{end}
 
