@@ -32,18 +32,6 @@ Retry ○/Users' Guide □/\nMenu START
 
 
 #WARN($00000930, "@00000930")
-//P: 00000930
-#JMP($00000930)
-#WLB(PTR1, $00008940)
-#WHB(PTR1, $00008941)
-#WBB(PTR1, $00008944)
-#WUB(PTR1, $00008945)
-//前回のあらまし。\nこのデータは古いです
-Summary from last time.\n(This data is out-of-date.)
-<$00>
-
-
-#WARN($00000956, "@00000956")
 //P: 00000978
 #JMP($00000978)
 #WRITE(PTR, $00074F04)
@@ -105,19 +93,6 @@ Designate auto or manual\ndemonstrations.
 
 
 #WARN($00000A7A, "@00000A7A")
-//P: 00000A4E
-#JMP($00000A4E)
-#WLB(PTR1, $000275FC)
-#WHB(PTR1, $000275FD)
-#WBB(PTR1, $00027600)
-#WUB(PTR1, $00027601)
-//示を自動で進め\nるか手動送りするか選びます。
-//trash
-trash1
-<$00>
-
-
-#WARN($00000A7A, "@00000A7A")
 //P: 00000A7C
 #JMP($00000A7C)
 #WRITE(PTR, $00074EF0)
@@ -156,74 +131,6 @@ Move D-Pad＋×/Talk ○/\nMenu START
 #WRITE(PTR, $0007E364)
 //上・下…ファイル選択／左・右…Ｙ\nＥＳ・ＮＯ／○…決定／×…戻る
 Find File Up＋Down/\nSelect Left＋Right/Confirm ○/Cancel ×
-<$00>
-
-
-#WARN($000018FC, "@000018FC")
-//P: 000018C0
-#JMP($000018C0)
-#WLB(PTR1, $00029650)
-#WHB(PTR1, $00029651)
-#WBB(PTR1, $00029654)
-#WUB(PTR1, $00029655)
-//下…ファイル選択／左・右…Ｙ\nＥＳ・ＮＯ／○…決定／×…戻る
-//trash
-trash2
-<$00>
-
-
-#WARN($000018FC, "@000018FC")
-//P: 000018C4
-#JMP($000018C4)
-#WLB(PTR1, $00029660)
-#WHB(PTR1, $00029661)
-#WBB(PTR1, $00029664)
-#WUB(PTR1, $00029665)
-#WLB(PTR1, $0002E018)
-#WHB(PTR1, $0002E019)
-#WBB(PTR1, $0002E01C)
-#WUB(PTR1, $0002E01D)
-//ファイル選択／左・右…Ｙ\nＥＳ・ＮＯ／○…決定／×…戻る
-//trash
-trash3
-<$00>
-
-
-#WARN($000018FC, "@000018FC")
-//P: 000018C8
-#JMP($000018C8)
-#WLB(PTR1, $00029670)
-#WHB(PTR1, $00029671)
-#WBB(PTR1, $00029674)
-#WUB(PTR1, $00029675)
-//イル選択／左・右…Ｙ\nＥＳ・ＮＯ／○…決定／×…戻る
-//trash
-trash4
-<$00>
-
-
-#WARN($000018FC, "@000018FC")
-//P: 000018CC
-#JMP($000018CC)
-#WLB(PTR1, $0000F320)
-#WHB(PTR1, $0000F321)
-#WBB(PTR1, $0000F324)
-#WUB(PTR1, $0000F325)
-#WLB(PTR1, $000297AC)
-#WHB(PTR1, $000297AD)
-#WBB(PTR1, $000297B0)
-#WUB(PTR1, $000297B1)
-#WLB(PTR1, $0002980C)
-#WHB(PTR1, $0002980D)
-#WBB(PTR1, $00029810)
-#WUB(PTR1, $00029811)
-#WLB(PTR1, $00029A58)
-#WHB(PTR1, $00029A59)
-#WBB(PTR1, $00029A5C)
-#WUB(PTR1, $00029A5D)
-//選択／左・右…Ｙ\nＥＳ・ＮＯ／○…決定／×…戻る
-//trash
-trash5
 <$00>
 
 
@@ -595,19 +502,7 @@ We can't solve puzzles\nwithout a Loglock!
 <$00>
 
 
-//#WARN($0000249E, "@0000249E")
-//P: 000024A0
-//#JMP($000024A0)
-#WLB(PTR1, $00024190)
-#WHB(PTR1, $00024191)
-#WBB(PTR1, $00024194)
-#WUB(PTR1, $00024195)
-//たしか、この問題は…
-Let's see this puzzle...
-<$00>
-
-
-#WARN($000024B5, "@000024B5")
+#WARN($000024B5, "@$000024B5")
 //P: 00003240
 #JMP($00003240)
 #WRITE(PTR, $0008817C)
@@ -724,28 +619,7 @@ Demo: In Ring 1, press the\nD-Pad DOWN. (HE→IF)
 <$00>
 
 
-//#WARN($000033D3, "@000033D3")
-//P: 000033D4
-//#JMP($000033D4)
-#WRITE(PTR, $00088148)
-//スタートボタンからＱＵＩＴで終了
-Press START and QUIT to exit.
-<$00>
-
-
-#WARN($000033F5, "@000033F5")
-//P: 00003434
-#JMP($00003434)
-#WLB(PTR1, $00031C6C)
-#WHB(PTR1, $00031C6D)
-#WBB(PTR1, $00031C70)
-#WUB(PTR1, $00031C71)
-//レコード以下で解いて下さい\n（セレクトボタンで解答例）
-Solves puzzles with your move count\nBELOW the Record! (SELECT: Demo)
-<$00>
-
-
-#WARN($0000346A, "@0000346A")
+#WARN($000033F5, "@$000033F5")
 //P: 0000348C
 #JMP($0000348C)
 #WLB(PTR1, $00031CD4)
@@ -758,18 +632,6 @@ REDO: Replicate the last move.
 
 
 #WARN($000034AB, "@000034AB")
-//P: 000034F8
-#JMP($000034F8)
-#WLB(PTR1, $00005CAC)
-#WHB(PTR1, $00005CAD)
-#WBB(PTR1, $00005CB0)
-#WUB(PTR1, $00005CB1)
-//れたトータルスコアは戻りません
-Total score will not\nbe restored.
-<$00>
-
-
-#WARN($00003517, "@00003517")
 //P: 00003584
 #JMP($00003584)
 #WLB(PTR1, $00032EB8)
@@ -1081,24 +943,6 @@ You can adjust linked rings\nvia removal("Exchange").
 <$00>
 
 
-//#WARN($00003BFE, "@00003BFE")
-//P: 00003C00
-//#JMP($00003C00)
-#WRITE(PTR, $00088228)
-//方向キーの上・下で\nリングはスライドします
-D-Pad Up+Down:\nSlides a ring.
-<$00>
-
-
-//#WARN($00003C2A, "@00003C2A")
-//P: 00003C2C
-//#JMP($00003C2C)
-#WRITE(PTR, $00088224)
-//ＲＥＳＴＡＲＴを選択すると\n問題が初期状態に戻ります
-"Restart" puts the puzzle\nback in its original state.
-<$00>
-
-
 #WARN($00003C60, "@00003C60")
 //P: 00005324
 #JMP($00005324)
@@ -1236,5 +1080,83 @@ Redo
 Undo
 <$00>
 
+////!!! Extra Space !!!
+#JMP($00088F00)
 
-#WARN($0009375F, "@0009375F")
+//P: 00000930
+//#JMP($00000930)
+#WLB(PTR1, $00008940)
+#WHB(PTR1, $00008941)
+#WBB(PTR1, $00008944)
+#WUB(PTR1, $00008945)
+//前回のあらまし。\nこのデータは古いです
+Summary from last time.\n(This data is out-of-date.)
+<$00>
+
+
+//#WARN($00000956, "@00000956")
+//P: 000024A0
+//#JMP($000024A0)
+#WLB(PTR1, $00024190)
+#WHB(PTR1, $00024191)
+#WBB(PTR1, $00024194)
+#WUB(PTR1, $00024195)
+//たしか、この問題は…
+Let's see this puzzle...
+<$00>
+
+
+//#WARN($000024B5, "@000024B5")
+//P: 000033D4
+//#JMP($000033D4)
+#WRITE(PTR, $00088148)
+//スタートボタンからＱＵＩＴで終了
+Press START and QUIT to exit.
+<$00>
+
+
+//#WARN($000033F5, "@000033F5")
+//P: 00003434
+#JMP($00003434)
+//#WLB(PTR1, $00031C6C)
+#WHB(PTR1, $00031C6D)
+#WBB(PTR1, $00031C70)
+#WUB(PTR1, $00031C71)
+//レコード以下で解いて下さい\n（セレクトボタンで解答例）
+Solves puzzles with your move count\nBELOW the Record! (SELECT: Demo)
+<$00>
+
+
+//#WARN($0000346A, "@0000346A")
+//P: 000034F8
+//#JMP($000034F8)
+#WLB(PTR1, $00005CAC)
+#WHB(PTR1, $00005CAD)
+#WBB(PTR1, $00005CB0)
+#WUB(PTR1, $00005CB1)
+//れたトータルスコアは戻りません
+Total score will not\nbe restored.
+<$00>
+
+
+//#WARN($00003517, "@00003517")
+//P: 00003C00
+//#JMP($00003C00)
+#WRITE(PTR, $00088228)
+//方向キーの上・下で\nリングはスライドします
+D-Pad Up+Down:\nSlides a ring.
+<$00>
+
+
+//#WARN($00003C2A, "@00003C2A")
+//P: 00003C2C
+//#JMP($00003C2C)
+#WRITE(PTR, $00088224)
+//ＲＥＳＴＡＲＴを選択すると\n問題が初期状態に戻ります
+"Restart" puts the puzzle\nback in its original state.
+<$00>
+
+
+//#WARN($00003C60, "@00003C60")
+
+#WARN($00089200, "@$00089200")
