@@ -4,6 +4,9 @@
 #VAR(PTR, CUSTOMPOINTER)
 #CREATEPTR(PTR, "LINEAR", -2147547136, 32)
 
+#VAR(PTR1, CUSTOMPOINTER)
+#CREATEPTR(PTR1, "LINEAR", -2147547136, 32)
+
 //P: 00000888
 #JMP($00000888)
 #WLB(PTR1, $00006D18)
@@ -15,7 +18,7 @@ Retry Åõ/Users' Guide Å†/\nMenu START
 <$00>
 
 
-#WARN($000008C2, "@000008C2)
+#WARN($000008C2, "@000008C2")
 //P: 0000090C
 #JMP($0000090C)
 #WLB(PTR1, $00008938)
@@ -26,7 +29,7 @@ Retry Åõ/Users' Guide Å†/\nMenu START
 <$00>
 
 
-#WARN($00000930, "@00000930)
+#WARN($00000930, "@00000930")
 //P: 00000930
 #JMP($00000930)
 #WLB(PTR1, $00008940)
@@ -38,7 +41,7 @@ Summary from last time.\n(This data is out-of-date.)
 <$00>
 
 
-#WARN($00000956, "@00000956)
+#WARN($00000956, "@00000956")
 //P: 00000978
 #JMP($00000978)
 #WRITE(PTR, $00074F04)
@@ -47,7 +50,7 @@ Turn vibration on/off.
 <$00>
 
 
-#WARN($0000099E, "@0000099E)
+#WARN($0000099E, "@0000099E")
 //P: 000009A0
 #JMP($000009A0)
 #WRITE(PTR, $00074F00)
@@ -56,7 +59,7 @@ Designate auto or manual\nswitch to Analog Mode.
 <$00>
 
 
-#WARN($000009DC, "@000009DC)
+#WARN($000009DC, "@000009DC")
 //P: 000009DC
 #JMP($000009DC)
 #WRITE(PTR, $00074EFC)
@@ -65,7 +68,7 @@ Adjust game volume.\n("0"= No audio)
 <$00>
 
 
-#WARN($00000A0C, "@00000A0C)
+#WARN($00000A0C, "@00000A0C")
 //P: 00000A0C
 #JMP($00000A0C)
 #WRITE(PTR, $00074EF8)
@@ -74,7 +77,7 @@ Designate audio output.
 <$00>
 
 
-#WARN($00000A3C, "@00000A3C)
+#WARN($00000A3C, "@00000A3C")
 //P: 00000A3C
 #JMP($00000A3C)
 #WRITE(PTR, $00074EF4)
@@ -83,7 +86,7 @@ Designate auto or manual\ntext progression.
 <$00>
 
 
-#WARN($00000A7A, "@00000A7A)
+#WARN($00000A7A, "@00000A7A")
 //P: 00000A4C
 #JMP($00000A4C)
 #WLB(PTR1, $00023C98)
@@ -99,7 +102,7 @@ Designate auto or manual\ndemonstrations.
 <$00>
 
 
-#WARN($00000A7A, "@00000A7A)
+#WARN($00000A7A, "@00000A7A")
 //P: 00000A4E
 #JMP($00000A4E)
 #WLB(PTR1, $000275FC)
@@ -112,7 +115,7 @@ trash1
 <$00>
 
 
-#WARN($00000A7A, "@00000A7A)
+#WARN($00000A7A, "@00000A7A")
 //P: 00000A7C
 #JMP($00000A7C)
 #WRITE(PTR, $00074EF0)
@@ -121,7 +124,7 @@ Screen adjust: Confirm Åõ/\nCancel Å~/Default Å¢
 <$00>
 
 
-#WARN($00000ABA, "@00000ABA)
+#WARN($00000ABA, "@00000ABA")
 //P: 00000B08
 #JMP($00000B08)
 #WLB(PTR1, $0009274E)
@@ -133,7 +136,7 @@ Move D-PadÅ{Å~/Talk Åõ/\nMenu START
 <$00>
 
 
-#WARN($00000B36, "@00000B36)
+#WARN($00000B36, "@00000B36")
 //P: 00001804
 #JMP($00001804)
 #WLB(PTR1, $0001AF78)
@@ -145,7 +148,7 @@ Move D-PadÅ{Å~/Talk Åõ/\nMenu START
 <$00>
 
 
-#WARN($00001846, "@00001846)
+#WARN($00001846, "@00001846")
 //P: 000018BC
 #JMP($000018BC)
 #WRITE(PTR, $0007E364)
@@ -154,7 +157,7 @@ Find File UpÅ{Down/\nSelect LeftÅ{Right/Confirm Åõ/Cancel Å~
 <$00>
 
 
-#WARN($000018FC, "@000018FC)
+#WARN($000018FC, "@000018FC")
 //P: 000018C0
 #JMP($000018C0)
 #WLB(PTR1, $00029650)
@@ -167,7 +170,7 @@ trash2
 <$00>
 
 
-#WARN($000018FC, "@000018FC)
+#WARN($000018FC, "@000018FC")
 //P: 000018C4
 #JMP($000018C4)
 #WLB(PTR1, $00029660)
@@ -184,7 +187,7 @@ trash3
 <$00>
 
 
-#WARN($000018FC, "@000018FC)
+#WARN($000018FC, "@000018FC")
 //P: 000018C8
 #JMP($000018C8)
 #WLB(PTR1, $00029670)
@@ -197,7 +200,7 @@ trash4
 <$00>
 
 
-#WARN($000018FC, "@000018FC)
+#WARN($000018FC, "@000018FC")
 //P: 000018CC
 #JMP($000018CC)
 #WLB(PTR1, $0000F320)
@@ -222,7 +225,7 @@ trash5
 <$00>
 
 
-#WARN($000018FC, "@000018FC)
+#WARN($000018FC, "@000018FC")
 //P: 00001AB8
 #JMP($00001AB8)
 #WLB(PTR1, $0001EDF8)
@@ -234,7 +237,7 @@ trash5
 <$00>
 
 
-#WARN($00001AD5, "@00001AD5)
+#WARN($00001AD5, "@00001AD5")
 //P: 00001AF8
 #JMP($00001AF8)
 #WLB(PTR1, $0001E81C)
@@ -246,7 +249,7 @@ trash5
 <$00>
 
 
-#WARN($00001B13, "@00001B13)
+#WARN($00001B13, "@00001B13")
 //P: 00001B14
 #JMP($00001B14)
 #WLB(PTR1, $0001E86C)
@@ -258,7 +261,7 @@ Load Puzzle Data
 <$00>
 
 
-#WARN($00001B27, "@00001B27)
+#WARN($00001B27, "@00001B27")
 //P: 00001B44
 #JMP($00001B44)
 #WLB(PTR1, $0001E8E4)
@@ -270,7 +273,7 @@ Copy Puzzle
 <$00>
 
 
-#WARN($00001B4F, "@00001B4F)
+#WARN($00001B4F, "@00001B4F")
 //P: 00001B50
 #JMP($00001B50)
 #WLB(PTR1, $0001E918)
@@ -282,7 +285,7 @@ Play Puzzle
 <$00>
 
 
-#WARN($00001B5B, "@00001B5B)
+#WARN($00001B5B, "@00001B5B")
 //P: 00001B5C
 #JMP($00001B5C)
 #WLB(PTR1, $0001E94C)
@@ -294,7 +297,7 @@ Create Puzzle
 <$00>
 
 
-#WARN($00001B67, "@00001B67)
+#WARN($00001B67, "@00001B67")
 //P: 00001B68
 #JMP($00001B68)
 #WRITE(PTR, $0007E3DC)
@@ -303,7 +306,7 @@ Create new puzzle data?
 <$00>
 
 
-#WARN($00001B98, "@00001B98)
+#WARN($00001B98, "@00001B98")
 //P: 00001B98
 #JMP($00001B98)
 #WRITE(PTR, $0007E3D8)
@@ -312,7 +315,7 @@ Overwrite puzzle data?
 <$00>
 
 
-#WARN($00001BC4, "@00001BC4)
+#WARN($00001BC4, "@00001BC4")
 //P: 00001BC4
 #JMP($00001BC4)
 #WRITE(PTR, $0007E3D4)
@@ -321,7 +324,7 @@ Loading failed! Reconnect\nmemory card and try again.
 <$00>
 
 
-#WARN($00001BFE, "@00001BFE)
+#WARN($00001BFE, "@00001BFE")
 //P: 00001C00
 #JMP($00001C00)
 #WRITE(PTR, $0007E3D0)
@@ -330,7 +333,7 @@ Saving failed! Reconnect\nmemory card and try again.
 <$00>
 
 
-#WARN($00001C3A, "@00001C3A)
+#WARN($00001C3A, "@00001C3A")
 //P: 00001C3C
 #JMP($00001C3C)
 #WRITE(PTR, $0007E3CC)
@@ -339,7 +342,7 @@ Insufficient blocks. 1 block\nrequired for puzzle data.
 <$00>
 
 
-#WARN($00001C7E, "@00001C7E)
+#WARN($00001C7E, "@00001C7E")
 //P: 00001C80
 #JMP($00001C80)
 #WRITE(PTR, $0007E3C8)
@@ -348,7 +351,7 @@ Open puzzle data?
 <$00>
 
 
-#WARN($00001CB2, "@00001CB2)
+#WARN($00001CB2, "@00001CB2")
 //P: 00001CB4
 #JMP($00001CB4)
 #WRITE(PTR, $0007E3C4)
@@ -357,7 +360,7 @@ Restart from this file?
 <$00>
 
 
-#WARN($00001CE8, "@00001CE8)
+#WARN($00001CE8, "@00001CE8")
 //P: 00001CE8
 #JMP($00001CE8)
 #WRITE(PTR, $0007E3C0)
@@ -366,7 +369,7 @@ Save on a new file?
 <$00>
 
 
-#WARN($00001D14, "@00001D14)
+#WARN($00001D14, "@00001D14")
 //P: 00001D14
 #JMP($00001D14)
 #WRITE(PTR, $0007E3BC)
@@ -375,7 +378,7 @@ Overwrite this file?
 <$00>
 
 
-#WARN($00001D3E, "@00001D3E)
+#WARN($00001D3E, "@00001D3E")
 //P: 00001D40
 #JMP($00001D40)
 #WRITE(PTR, $0007E3B8)
@@ -384,7 +387,7 @@ Unsaved data will be lost.
 <$00>
 
 
-#WARN($00001D74, "@00001D74)
+#WARN($00001D74, "@00001D74")
 //P: 00001D74
 #JMP($00001D74)
 #WRITE(PTR, $0007E3B4)
@@ -393,7 +396,7 @@ Clear data not saved.\nAre you sure you want to exit?
 <$00>
 
 
-#WARN($00001DA8, "@00001DA8)
+#WARN($00001DA8, "@00001DA8")
 //P: 00001DA8
 #JMP($00001DA8)
 #WRITE(PTR, $0007E3B0)
@@ -402,7 +405,7 @@ Memory card not initializied.\nInitialize memory card?
 <$00>
 
 
-#WARN($00001DE0, "@00001DE0)
+#WARN($00001DE0, "@00001DE0")
 //P: 00001DE0
 #JMP($00001DE0)
 #WRITE(PTR, $0007E3AC)
@@ -411,7 +414,7 @@ Loading failed!\nReconnect memory card.
 <$00>
 
 
-#WARN($00001E1A, "@00001E1A)
+#WARN($00001E1A, "@00001E1A")
 //P: 00001E1C
 #JMP($00001E1C)
 #WRITE(PTR, $0007E3A8)
@@ -420,7 +423,7 @@ Saving failed!\nReconnect memory card.
 <$00>
 
 
-#WARN($00001E56, "@00001E56)
+#WARN($00001E56, "@00001E56")
 //P: 00001E58
 #JMP($00001E58)
 #WRITE(PTR, $0007E3A4)
@@ -429,7 +432,7 @@ No files found.\nInsert a different memory card.
 <$00>
 
 
-#WARN($00001E9C, "@00001E9C)
+#WARN($00001E9C, "@00001E9C")
 //P: 00001E9C
 #JMP($00001E9C)
 #WRITE(PTR, $0007E3A0)
@@ -438,7 +441,7 @@ Insufficient blocks.\nInsert a different memory card.
 <$00>
 
 
-#WARN($00001EDC, "@00001EDC)
+#WARN($00001EDC, "@00001EDC")
 //P: 00001EDC
 #JMP($00001EDC)
 #WRITE(PTR, $0007E39C)
@@ -447,7 +450,7 @@ Formatting failed!\nReconnect memory card.
 <$00>
 
 
-#WARN($00001F1C, "@00001F1C)
+#WARN($00001F1C, "@00001F1C")
 //P: 00001F1C
 #JMP($00001F1C)
 #WRITE(PTR, $0007E398)
@@ -456,7 +459,7 @@ Access denied!\nReconnect memory card.
 <$00>
 
 
-#WARN($00001F58, "@00001F58)
+#WARN($00001F58, "@00001F58")
 //P: 00001F58
 #JMP($00001F58)
 #WRITE(PTR, $0007E394)
@@ -465,7 +468,7 @@ No memory card found\nin Slot 1.
 <$00>
 
 
-#WARN($00001F8A, "@00001F8A)
+#WARN($00001F8A, "@00001F8A")
 //P: 00001F8C
 #JMP($00001F8C)
 #WRITE(PTR, $0007E390)
@@ -474,7 +477,7 @@ Replaying scene.\nPlease wait a moment.
 <$00>
 
 
-#WARN($00001FBC, "@00001FBC)
+#WARN($00001FBC, "@00001FBC")
 //P: 00001FBC
 #JMP($00001FBC)
 #WRITE(PTR, $0007E38C)
@@ -483,7 +486,7 @@ Checking data, please wait.\nDo not remove memory card!
 <$00>
 
 
-#WARN($00002000, "@00002000)
+#WARN($00002000, "@00002000")
 //P: 00002000
 #JMP($00002000)
 #WRITE(PTR, $0007E388)
@@ -492,7 +495,7 @@ Retrieving data, please wait.\nDo not remove memory card!
 <$00>
 
 
-#WARN($00002046, "@00002046)
+#WARN($00002046, "@00002046")
 //P: 00002048
 #JMP($00002048)
 #WRITE(PTR, $0007E384)
@@ -501,7 +504,7 @@ Recording data, please wait.\nDo not remove memory card!
 <$00>
 
 
-#WARN($0000208C, "@0000208C)
+#WARN($0000208C, "@0000208C")
 //P: 0000208C
 #JMP($0000208C)
 #WRITE(PTR, $0007E380)
@@ -510,7 +513,7 @@ Initializing, please wait.\nDo not remove memory card!
 <$00>
 
 
-#WARN($000020D0, "@000020D0)
+#WARN($000020D0, "@000020D0")
 //P: 000020D0
 #JMP($000020D0)
 #WRITE(PTR, $0007E37C)
@@ -519,7 +522,7 @@ Checking, please wait.\nDo not remove memory card!
 <$00>
 
 
-#WARN($00002112, "@00002112)
+#WARN($00002112, "@00002112")
 //P: 00002114
 #JMP($00002114)
 #WLB(PTR1, $0001EF54)
@@ -531,7 +534,7 @@ Create New
 <$00>
 
 
-#WARN($0000211D, "@0000211D)
+#WARN($0000211D, "@0000211D")
 //P: 00002120
 #JMP($00002120)
 #WRITE(PTR, $0007E414)
@@ -540,7 +543,7 @@ Puzzles Created:
 <$00>
 
 
-#WARN($0000212B, "@0000212B)
+#WARN($0000212B, "@0000212B")
 //P: 0000212C
 #JMP($0000212C)
 #WRITE(PTR, $0007E40C)
@@ -549,7 +552,7 @@ Copied:
 <$00>
 
 
-#WARN($00002137, "@00002137)
+#WARN($00002137, "@00002137")
 //P: 00002138
 #JMP($00002138)
 #WRITE(PTR, $0007E408)
@@ -558,7 +561,7 @@ Copying this puzzle: Next Åõ
 <$00>
 
 
-#WARN($00002159, "@00002159)
+#WARN($00002159, "@00002159")
 //P: 00002143
 #JMP($00002143)
 #WLB(PTR1, $00010C8C)
@@ -571,7 +574,7 @@ trash6
 <$00>
 
 
-#WARN($00002159, "@00002159)
+#WARN($00002159, "@00002159")
 //P: 0000215C
 #JMP($0000215C)
 #WRITE(PTR, $0007E404)
@@ -580,7 +583,7 @@ Copied:
 <$00>
 
 
-#WARN($00002167, "@00002167)
+#WARN($00002167, "@00002167")
 //P: 0000222C
 #JMP($0000222C)
 #WLB(PTR1, $00020CE8)
@@ -592,7 +595,7 @@ Addie's Present Puzzle DataÅ@%SPuzzles Created
 <$00>
 
 
-#WARN($00002259, "@00002259)
+#WARN($00002259, "@00002259")
 //P: 00002478
 #JMP($00002478)
 #WLB(PTR1, $00024094)
@@ -604,7 +607,7 @@ We can't solve puzzles\nwithout a Loglock!
 <$00>
 
 
-#WARN($0000249E, "@0000249E)
+#WARN($0000249E, "@0000249E")
 //P: 000024A0
 #JMP($000024A0)
 #WLB(PTR1, $00024190)
@@ -616,7 +619,7 @@ Let's see this puzzle...
 <$00>
 
 
-#WARN($000024B5, "@000024B5)
+#WARN($000024B5, "@000024B5")
 //P: 00003240
 #JMP($00003240)
 #WRITE(PTR, $0008817C)
@@ -625,7 +628,7 @@ Press SELECT to view TIPS.
 <$00>
 
 
-#WARN($0000325F, "@0000325F)
+#WARN($0000325F, "@0000325F")
 //P: 00003260
 #JMP($00003260)
 #WRITE(PTR, $00088178)
@@ -634,7 +637,7 @@ Fixed: Ring 5, Slip: Ring 3
 <$00>
 
 
-#WARN($0000327F, "@0000327F)
+#WARN($0000327F, "@0000327F")
 //P: 00003280
 #JMP($00003280)
 #WRITE(PTR, $00088174)
@@ -643,7 +646,7 @@ In this demo, M is a Bonus,\nand N is a Bomb.
 <$00>
 
 
-#WARN($000032A3, "@000032A3)
+#WARN($000032A3, "@000032A3")
 //P: 000032A4
 #JMP($000032A4)
 #WRITE(PTR, $00088170)
@@ -652,7 +655,7 @@ Demo: Remove Ring 2 and press Å¢ on Ring 1.
 <$00>
 
 
-#WARN($000032C5, "@000032C5)
+#WARN($000032C5, "@000032C5")
 //P: 000032C8
 #JMP($000032C8)
 #WRITE(PTR, $0008816C)
@@ -661,7 +664,7 @@ Demo: Press Å¢ on Ring 1.
 <$00>
 
 
-#WARN($000032DD, "@000032DD)
+#WARN($000032DD, "@000032DD")
 //P: 000032E0
 #JMP($000032E0)
 #WRITE(PTR, $00088168)
@@ -670,7 +673,7 @@ Demo: Press Å† on Ring 1,\nthen slide.
 <$00>
 
 
-#WARN($000032FF, "@000032FF)
+#WARN($000032FF, "@000032FF")
 //P: 00003300
 #JMP($00003300)
 #WRITE(PTR, $00088164)
@@ -679,7 +682,7 @@ Demo: Press Å† on Ring 4.
 <$00>
 
 
-#WARN($00003315, "@00003315)
+#WARN($00003315, "@00003315")
 //P: 00003318
 #JMP($00003318)
 #WRITE(PTR, $00088160)
@@ -688,7 +691,7 @@ Demo: Press Å¢ on Ring 2,\nthen slide.
 <$00>
 
 
-#WARN($00003337, "@00003337)
+#WARN($00003337, "@00003337")
 //P: 00003338
 #JMP($00003338)
 #WRITE(PTR, $0008815C)
@@ -697,7 +700,7 @@ Demo: Press R1 on Ring 4.
 <$00>
 
 
-#WARN($0000334F, "@0000334F)
+#WARN($0000334F, "@0000334F")
 //P: 00003350
 #JMP($00003350)
 #WRITE(PTR, $00088158)
@@ -706,7 +709,7 @@ Demo: Press R1 on Ring 3.
 <$00>
 
 
-#WARN($00003367, "@00003367)
+#WARN($00003367, "@00003367")
 //P: 00003368
 #JMP($00003368)
 #WRITE(PTR, $00088154)
@@ -715,7 +718,7 @@ Demo: Remove Ring 2, then\nslide under Ring 1.
 <$00>
 
 
-#WARN($00003389, "@00003389)
+#WARN($00003389, "@00003389")
 //P: 0000338C
 #JMP($0000338C)
 #WRITE(PTR, $00088150)
@@ -724,7 +727,7 @@ Demo: Press Åõ in order of\nRing 1, 2, then 1 again.
 <$00>
 
 
-#WARN($000033AD, "@000033AD)
+#WARN($000033AD, "@000033AD")
 //P: 000033B0
 #JMP($000033B0)
 #WRITE(PTR, $0008814C)
@@ -733,7 +736,7 @@ Demo: In Ring 1, press the\nD-Pad DOWN. (HEÅ®IF)
 <$00>
 
 
-#WARN($000033D3, "@000033D3)
+#WARN($000033D3, "@000033D3")
 //P: 000033D4
 #JMP($000033D4)
 #WRITE(PTR, $00088148)
@@ -742,7 +745,7 @@ Press START and QUIT to exit.
 <$00>
 
 
-#WARN($000033F5, "@000033F5)
+#WARN($000033F5, "@000033F5")
 //P: 00003434
 #JMP($00003434)
 #WLB(PTR1, $00031C6C)
@@ -754,7 +757,7 @@ Solves puzzles with your move count\nBELOW the Record! (SELECT: Demo)
 <$00>
 
 
-#WARN($0000346A, "@0000346A)
+#WARN($0000346A, "@0000346A")
 //P: 0000348C
 #JMP($0000348C)
 #WLB(PTR1, $00031CD4)
@@ -766,7 +769,7 @@ REDO: Replicate the last move.
 <$00>
 
 
-#WARN($000034A9, "@000034A9)
+#WARN($000034A9, "@000034A9")
 //P: 000034F8
 #JMP($000034F8)
 #WLB(PTR1, $00005CAC)
@@ -778,7 +781,7 @@ Total score will not\nbe restored.
 <$00>
 
 
-#WARN($00003517, "@00003517)
+#WARN($00003517, "@00003517")
 //P: 00003584
 #JMP($00003584)
 #WLB(PTR1, $00032EB8)
@@ -790,7 +793,7 @@ Try again! Practice until\nyou beat the record!
 <$00>
 
 
-#WARN($000035BA, "@000035BA)
+#WARN($000035BA, "@000035BA")
 //P: 000035C8
 #JMP($000035C8)
 #WRITE(PTR, $000881CC)
@@ -799,7 +802,7 @@ Rotate 90Åã Left
 <$00>
 
 
-#WARN($000035D5, "@000035D5)
+#WARN($000035D5, "@000035D5")
 //P: 000035D8
 #JMP($000035D8)
 #WRITE(PTR, $000881C8)
@@ -808,7 +811,7 @@ Rotate 180Åã
 <$00>
 
 
-#WARN($000035E5, "@000035E5)
+#WARN($000035E5, "@000035E5")
 //P: 000035E8
 #JMP($000035E8)
 #WRITE(PTR, $000881C4)
@@ -817,7 +820,7 @@ Rotate 90Åã Right
 <$00>
 
 
-#WARN($000035F5, "@000035F5)
+#WARN($000035F5, "@000035F5")
 //P: 0000362C
 #JMP($0000362C)
 #WLB(PTR1, $00033A70)
@@ -829,7 +832,7 @@ COMMAND%SLVLÅy%SÅz
 <$00>
 
 
-#WARN($00003643, "@00003643)
+#WARN($00003643, "@00003643")
 //P: 000036B0
 #JMP($000036B0)
 #WRITE(PTR, $00088220)
@@ -837,7 +840,7 @@ COMMAND%SLVLÅy%SÅz
 <$00>
 
 
-#WARN($000036E2, "@000036E2)
+#WARN($000036E2, "@000036E2")
 //P: 000036E4
 #JMP($000036E4)
 #WRITE(PTR, $0008821C)
@@ -845,7 +848,7 @@ COMMAND%SLVLÅy%SÅz
 <$00>
 
 
-#WARN($0000371E, "@0000371E)
+#WARN($0000371E, "@0000371E")
 //P: 00003720
 #JMP($00003720)
 #WRITE(PTR, $00088218)
@@ -853,7 +856,7 @@ COMMAND%SLVLÅy%SÅz
 <$00>
 
 
-#WARN($00003760, "@00003760)
+#WARN($00003760, "@00003760")
 //P: 00003760
 #JMP($00003760)
 #WRITE(PTR, $00088214)
@@ -861,7 +864,7 @@ COMMAND%SLVLÅy%SÅz
 <$00>
 
 
-#WARN($00003792, "@00003792)
+#WARN($00003792, "@00003792")
 //P: 00003794
 #JMP($00003794)
 #WRITE(PTR, $00088210)
@@ -869,7 +872,7 @@ COMMAND%SLVLÅy%SÅz
 <$00>
 
 
-#WARN($000037C2, "@000037C2)
+#WARN($000037C2, "@000037C2")
 //P: 000037C4
 #JMP($000037C4)
 #WRITE(PTR, $0008820C)
@@ -877,7 +880,7 @@ COMMAND%SLVLÅy%SÅz
 <$00>
 
 
-#WARN($000037F8, "@000037F8)
+#WARN($000037F8, "@000037F8")
 //P: 000037F8
 #JMP($000037F8)
 #WRITE(PTR, $00088208)
@@ -885,7 +888,7 @@ COMMAND%SLVLÅy%SÅz
 <$00>
 
 
-#WARN($00003832, "@00003832)
+#WARN($00003832, "@00003832")
 //P: 00003821
 #JMP($00003821)
 #WLB(PTR1, $00060E74)
@@ -897,7 +900,7 @@ Slow and steady!
 <$00>
 
 
-#WARN($00003832, "@00003832)
+#WARN($00003832, "@00003832")
 //P: 00003834
 #JMP($00003834)
 #WRITE(PTR, $00088204)
@@ -906,7 +909,7 @@ Bombs will reduce your\ncurrent score.
 <$00>
 
 
-#WARN($0000386A, "@0000386A)
+#WARN($0000386A, "@0000386A")
 //P: 0000386C
 #JMP($0000386C)
 #WRITE(PTR, $00088200)
@@ -915,7 +918,7 @@ Score-doubling bonuses\ndisappear when you over-qualify.
 <$00>
 
 
-#WARN($000038AA, "@000038AA)
+#WARN($000038AA, "@000038AA")
 //P: 000038AC
 #JMP($000038AC)
 #WRITE(PTR, $000881FC)
@@ -924,7 +927,7 @@ Don't overthink\ndifficult puzzles.
 <$00>
 
 
-#WARN($000038D2, "@000038D2)
+#WARN($000038D2, "@000038D2")
 //P: 000038D4
 #JMP($000038D4)
 #WRITE(PTR, $000881F8)
@@ -934,7 +937,7 @@ easier it is to get careless.
 <$00>
 
 
-#WARN($000038ED, "@000038ED)
+#WARN($000038ED, "@000038ED")
 //P: 000038F0
 #JMP($000038F0)
 #WRITE(PTR, $000881F4)
@@ -943,7 +946,7 @@ Sliding blue rings is a great way\nto stay out of trouble!
 <$00>
 
 
-#WARN($0000391C, "@0000391C)
+#WARN($0000391C, "@0000391C")
 //P: 0000391C
 #JMP($0000391C)
 #WRITE(PTR, $000881F0)
@@ -952,7 +955,7 @@ If a red ring can't be\nremoved, it may be a hint!
 <$00>
 
 
-#WARN($0000393E, "@0000393E)
+#WARN($0000393E, "@0000393E")
 //P: 00003940
 #JMP($00003940)
 #WRITE(PTR, $000881EC)
@@ -961,7 +964,7 @@ Remove a ring. Then, a coin.\nLetter adjustment made easy!
 <$00>
 
 
-#WARN($00003972, "@00003972)
+#WARN($00003972, "@00003972")
 //P: 00003974
 #JMP($00003974)
 #WRITE(PTR, $000881E8)
@@ -970,7 +973,7 @@ Tips for beating the qualifier\nare kept in the Users' Guide.
 <$00>
 
 
-#WARN($000039A0, "@000039A0)
+#WARN($000039A0, "@000039A0")
 //P: 000039A0
 #JMP($000039A0)
 #WRITE(PTR, $000881E4)
@@ -979,7 +982,7 @@ Try undoing moves\nwith the Å~ button.
 <$00>
 
 
-#WARN($000039C0, "@000039C0)
+#WARN($000039C0, "@000039C0")
 //P: 000039C0
 #JMP($000039C0)
 #WRITE(PTR, $000881E0)
@@ -988,7 +991,7 @@ Restart puzzles to beat the\nrecord through trial and error.
 <$00>
 
 
-#WARN($000039FA, "@000039FA)
+#WARN($000039FA, "@000039FA")
 //P: 000039FC
 #JMP($000039FC)
 #WRITE(PTR, $000881DC)
@@ -997,7 +1000,7 @@ There is no reward for\nover-qualifying.
 <$00>
 
 
-#WARN($00003A1B, "@00003A1B)
+#WARN($00003A1B, "@00003A1B")
 //P: 00003A1C
 #JMP($00003A1C)
 #WRITE(PTR, $000881D8)
@@ -1006,7 +1009,7 @@ Matching symbols are\nconvenient shortcuts.
 <$00>
 
 
-#WARN($00003A31, "@00003A31)
+#WARN($00003A31, "@00003A31")
 //P: 00003A34
 #JMP($00003A34)
 #WRITE(PTR, $00088258)
@@ -1015,7 +1018,7 @@ The secrets to solving puzzles\nare randomly selected in-game.
 <$00>
 
 
-#WARN($00003A7A, "@00003A7A)
+#WARN($00003A7A, "@00003A7A")
 //P: 00003A7C
 #JMP($00003A7C)
 #WRITE(PTR, $00088254)
@@ -1024,7 +1027,7 @@ Try sliding, rotating, mirroring\nand exchanging each ring!
 <$00>
 
 
-#WARN($00003AC0, "@00003AC0)
+#WARN($00003AC0, "@00003AC0")
 //P: 00003AC0
 #JMP($00003AC0)
 #WRITE(PTR, $00088250)
@@ -1033,7 +1036,7 @@ D-PAD Left+Right:\nView Addie's reaction.
 <$00>
 
 
-#WARN($00003AF2, "@00003AF2)
+#WARN($00003AF2, "@00003AF2")
 //P: 00003AF4
 #JMP($00003AF4)
 #WRITE(PTR, $00088248)
@@ -1042,7 +1045,7 @@ Coins set beside eachother\nin the center will link.
 <$00>
 
 
-#WARN($00003B20, "@00003B20)
+#WARN($00003B20, "@00003B20")
 //P: 00003B20
 #JMP($00003B20)
 #WRITE(PTR, $0008823C)
@@ -1052,7 +1055,7 @@ Unassigned symbols won't change\neven when you slide a ring.
 <$00>
 
 
-#WARN($00003B4C, "@00003B4C)
+#WARN($00003B4C, "@00003B4C")
 //P: 00003B4C
 #JMP($00003B4C)
 #WRITE(PTR, $00088238)
@@ -1062,7 +1065,7 @@ Even after an exchange, the\ncenter row maintains ABC order.
 <$00>
 
 
-#WARN($00003B8A, "@00003B8A)
+#WARN($00003B8A, "@00003B8A")
 //P: 00003B8C
 #JMP($00003B8C)
 #WRITE(PTR, $00088234)
@@ -1071,7 +1074,7 @@ Even after an exchange, the\ncenter row maintains ABC order.
 <$00>
 
 
-#WARN($00003BB6, "@00003BB6)
+#WARN($00003BB6, "@00003BB6")
 //P: 00003BB8
 #JMP($00003BB8)
 #WRITE(PTR, $00088230)
@@ -1081,7 +1084,7 @@ You can adjust linked rings\nvia removal("Exchange").
 <$00>
 
 
-#WARN($00003BDE, "@00003BDE)
+#WARN($00003BDE, "@00003BDE")
 //P: 00003BE0
 #JMP($00003BE0)
 #WRITE(PTR, $0008822C)
@@ -1090,7 +1093,7 @@ You can adjust linked rings\nvia removal("Exchange").
 <$00>
 
 
-#WARN($00003BFE, "@00003BFE)
+#WARN($00003BFE, "@00003BFE")
 //P: 00003C00
 #JMP($00003C00)
 #WRITE(PTR, $00088228)
@@ -1099,7 +1102,7 @@ D-Pad Up+Down:\nSlides a ring.
 <$00>
 
 
-#WARN($00003C2A, "@00003C2A)
+#WARN($00003C2A, "@00003C2A")
 //P: 00003C2C
 #JMP($00003C2C)
 #WRITE(PTR, $00088224)
@@ -1108,7 +1111,7 @@ D-Pad Up+Down:\nSlides a ring.
 <$00>
 
 
-#WARN($00003C60, "@00003C60)
+#WARN($00003C60, "@00003C60")
 //P: 00005324
 #JMP($00005324)
 #WLB(PTR1, $00059BAC)
@@ -1120,7 +1123,7 @@ D-Pad Up+Down:\nSlides a ring.
 <$00>
 
 
-#WARN($00005339, "@00005339)
+#WARN($00005339, "@00005339")
 //P: 0000538C
 #JMP($0000538C)
 #WRITE(PTR, $00092758)
@@ -1129,7 +1132,7 @@ D-Pad Up+Down:\nSlides a ring.
 <$00>
 
 
-#WARN($000053DD, "@000053DD)
+#WARN($000053DD, "@000053DD")
 //P: 000053E0
 #JMP($000053E0)
 #WRITE(PTR, $0009274C)
@@ -1138,7 +1141,7 @@ D-Pad Up+Down:\nSlides a ring.
 <$00>
 
 
-#WARN($0000541B, "@0000541B)
+#WARN($0000541B, "@0000541B")
 //P: 000935EC
 #JMP($000935EC)
 #WRITE(PTR, $0007E410)
@@ -1147,7 +1150,7 @@ Puzzle
 <$00>
 
 
-#WARN($000935F1, "@000935F1)
+#WARN($000935F1, "@000935F1")
 //P: 0009371C
 #JMP($0009371C)
 #WRITE(PTR, $000881B8)
@@ -1156,7 +1159,7 @@ Puzzle
 <$00>
 
 
-#WARN($0009371F, "@0009371F)
+#WARN($0009371F, "@0009371F")
 //P: 00093720
 #JMP($00093720)
 #WRITE(PTR, $000881B4)
@@ -1165,7 +1168,7 @@ Puzzle
 <$00>
 
 
-#WARN($00093723, "@00093723)
+#WARN($00093723, "@00093723")
 //P: 00093724
 #JMP($00093724)
 #WRITE(PTR, $000881B0)
@@ -1174,7 +1177,7 @@ L1
 <$00>
 
 
-#WARN($00093729, "@00093729)
+#WARN($00093729, "@00093729")
 //P: 0009372C
 #JMP($0009372C)
 #WRITE(PTR, $000881AC)
@@ -1183,7 +1186,7 @@ L1
 <$00>
 
 
-#WARN($0009372F, "@0009372F)
+#WARN($0009372F, "@0009372F")
 //P: 00093730
 #JMP($00093730)
 #WRITE(PTR, $000881A8)
@@ -1192,7 +1195,7 @@ R1
 <$00>
 
 
-#WARN($00093735, "@00093735)
+#WARN($00093735, "@00093735")
 //P: 00093738
 #JMP($00093738)
 #WRITE(PTR, $000881A4)
@@ -1201,7 +1204,7 @@ Down
 <$00>
 
 
-#WARN($0009373B, "@0009373B)
+#WARN($0009373B, "@0009373B")
 //P: 0009373C
 #JMP($0009373C)
 #WRITE(PTR, $000881A0)
@@ -1210,7 +1213,7 @@ Up
 <$00>
 
 
-#WARN($0009373F, "@0009373F)
+#WARN($0009373F, "@0009373F")
 //P: 00093740
 #JMP($00093740)
 #WRITE(PTR, $000881D4)
@@ -1219,7 +1222,7 @@ Exchange
 <$00>
 
 
-#WARN($00093745, "@00093745)
+#WARN($00093745, "@00093745")
 //P: 00093748
 #JMP($00093748)
 #WRITE(PTR, $000881D0)
@@ -1228,7 +1231,7 @@ Mirror
 <$00>
 
 
-#WARN($0009374F, "@0009374F)
+#WARN($0009374F, "@0009374F")
 //P: 00093750
 #JMP($00093750)
 #WRITE(PTR, $000881C0)
@@ -1237,7 +1240,7 @@ Redo
 <$00>
 
 
-#WARN($00093757, "@00093757)
+#WARN($00093757, "@00093757")
 //P: 00093758
 #JMP($00093758)
 #WRITE(PTR, $000881BC)
@@ -1246,4 +1249,4 @@ Undo
 <$00>
 
 
-#WARN($0009375F, "@0009375F)
+#WARN($0009375F, "@0009375F")
