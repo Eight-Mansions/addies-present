@@ -7,6 +7,8 @@
 #VAR(PTR1, CUSTOMPOINTER)
 #CREATEPTR(PTR1, "LINEAR", -2147547136, 32)
 
+#STRINGALIGN(2)
+
 //P: 00000888
 #JMP($00000888)
 #WLB(PTR1, $00006D18)
@@ -297,18 +299,18 @@ Create Puzzle
 <$00>
 
 
-#WARN($00001B67, "@00001B67")
+//#WARN($00001B67, "@00001B67")
 //P: 00001B68
-#JMP($00001B68)
+//#JMP($00001B68)
 #WRITE(PTR, $0007E3DC)
 //新規に問題データを作成します。\nよろしいですか？
 Create new puzzle data?
 <$00>
 
 
-#WARN($00001B98, "@00001B98")
+//#WARN($00001B98, "@00001B98")
 //P: 00001B98
-#JMP($00001B98)
+//#JMP($00001B98)
 #WRITE(PTR, $0007E3D8)
 //問題データを上書きします。\nよろしいですか？
 Overwrite puzzle data?
@@ -396,12 +398,12 @@ Clear data not saved.\nAre you sure you want to exit?
 <$00>
 
 
-#WARN($00001DA8, "@00001DA8")
+//#WARN($00001DA8, "@00001DA8")
 //P: 00001DA8
-#JMP($00001DA8)
+//#JMP($00001DA8)
 #WRITE(PTR, $0007E3B0)
 //メモリーカードが初期化されて\nいません。初期化しますか？
-Memory card not initializied.\nInitialize memory card?
+Memory card not formatted.\nFormat memory card?
 <$00>
 
 
@@ -534,7 +536,7 @@ Create New
 <$00>
 
 
-#WARN($0000211D, "@0000211D")
+#WARN($0000211F, "@0000211F")
 //P: 00002120
 #JMP($00002120)
 #WRITE(PTR, $0007E414)
@@ -543,36 +545,22 @@ Puzzles Created:
 <$00>
 
 
-#WARN($0000212B, "@0000212B")
+//#WARN($0000212B, "@0000212B")
 //P: 0000212C
-#JMP($0000212C)
+//#JMP($0000212C)
 #WRITE(PTR, $0007E40C)
 //コピー先：
 Copied:
 <$00>
 
 
-#WARN($00002137, "@00002137")
+//#WARN($00002137, "@00002137")
 //P: 00002138
-#JMP($00002138)
+//#JMP($00002138)
 #WRITE(PTR, $0007E408)
 //この問題をコピーします：○…次へ
 Copying this puzzle: Next ○
 <$00>
-
-
-#WARN($00002159, "@00002159")
-//P: 00002143
-#JMP($00002143)
-#WLB(PTR1, $00010C8C)
-#WHB(PTR1, $00010C8D)
-#WBB(PTR1, $00010C90)
-#WUB(PTR1, $00010C91)
-//Rピーします：○…次へ
-//trash
-trash6
-<$00>
-
 
 #WARN($00002159, "@00002159")
 //P: 0000215C
@@ -590,12 +578,12 @@ Copied:
 #WHB(PTR1, $00020CE9)
 #WBB(PTR1, $00020CEC)
 #WUB(PTR1, $00020CED)
-//アディのおくりもの　自作問題データ　%S問作成
-Addie's Present Puzzle Data　%SPuzzles Created
+//アディのおくりもの　自作問題データ　%s問作成
+Addie's Present Puzzle Data　%sPuzzles Created
 <$00>
 
 
-#WARN($00002259, "@00002259")
+#WARN($0000225B, "@0000225B")
 //P: 00002478
 #JMP($00002478)
 #WLB(PTR1, $00024094)
@@ -607,9 +595,9 @@ We can't solve puzzles\nwithout a Loglock!
 <$00>
 
 
-#WARN($0000249E, "@0000249E")
+//#WARN($0000249E, "@0000249E")
 //P: 000024A0
-#JMP($000024A0)
+//#JMP($000024A0)
 #WLB(PTR1, $00024190)
 #WHB(PTR1, $00024191)
 #WBB(PTR1, $00024194)
@@ -628,97 +616,97 @@ Press SELECT to view TIPS.
 <$00>
 
 
-#WARN($0000325F, "@0000325F")
+//#WARN($0000325F, "@0000325F")
 //P: 00003260
-#JMP($00003260)
+//#JMP($00003260)
 #WRITE(PTR, $00088178)
 //固定：５列目　スリップ：３列目
 Fixed: Ring 5, Slip: Ring 3
 <$00>
 
 
-#WARN($0000327F, "@0000327F")
+//#WARN($0000327F, "@0000327F")
 //P: 00003280
-#JMP($00003280)
+//#JMP($00003280)
 #WRITE(PTR, $00088174)
 //この例題ではボーナスはＭ、ボムはＮ
 In this demo, M is a Bonus,\nand N is a Bomb.
 <$00>
 
 
-#WARN($000032A3, "@000032A3")
+//#WARN($000032A3, "@000032A3")
 //P: 000032A4
-#JMP($000032A4)
+//#JMP($000032A4)
 #WRITE(PTR, $00088170)
 //例．２列目を外し１列目で△ボタン
 Demo: Remove Ring 2 and press △ on Ring 1. 
 <$00>
 
 
-#WARN($000032C5, "@000032C5")
+//#WARN($000032C5, "@000032C5")
 //P: 000032C8
-#JMP($000032C8)
+//#JMP($000032C8)
 #WRITE(PTR, $0008816C)
 //例．１列目で△ボタン
 Demo: Press △ on Ring 1.
 <$00>
 
 
-#WARN($000032DD, "@000032DD")
+//#WARN($000032DD, "@000032DD")
 //P: 000032E0
-#JMP($000032E0)
+//#JMP($000032E0)
 #WRITE(PTR, $00088168)
 //例．１列目で□ボタン、スライド
 Demo: Press □ on Ring 1,\nthen slide.
 <$00>
 
 
-#WARN($000032FF, "@000032FF")
+//#WARN($000032FF, "@000032FF")
 //P: 00003300
-#JMP($00003300)
+//#JMP($00003300)
 #WRITE(PTR, $00088164)
 //例．４列目で□ボタン
 Demo: Press □ on Ring 4.
 <$00>
 
 
-#WARN($00003315, "@00003315")
+//#WARN($00003315, "@00003315")
 //P: 00003318
-#JMP($00003318)
+//#JMP($00003318)
 #WRITE(PTR, $00088160)
 //例．２列目で△ボタン、スライド
 Demo: Press △ on Ring 2,\nthen slide.
 <$00>
 
 
-#WARN($00003337, "@00003337")
+//#WARN($00003337, "@00003337")
 //P: 00003338
-#JMP($00003338)
+//#JMP($00003338)
 #WRITE(PTR, $0008815C)
 //例．４列目でＲ１ボタン
 Demo: Press R1 on Ring 4.
 <$00>
 
 
-#WARN($0000334F, "@0000334F")
+//#WARN($0000334F, "@0000334F")
 //P: 00003350
-#JMP($00003350)
+//#JMP($00003350)
 #WRITE(PTR, $00088158)
 //例．３列目でＲ１ボタン
 Demo: Press R1 on Ring 3.
 <$00>
 
 
-#WARN($00003367, "@00003367")
+//#WARN($00003367, "@00003367")
 //P: 00003368
-#JMP($00003368)
+//#JMP($00003368)
 #WRITE(PTR, $00088154)
 //例．２列目を外し１列目でスライド
 Demo: Remove Ring 2, then\nslide under Ring 1.
 <$00>
 
 
-#WARN($00003389, "@00003389")
+//#WARN($00003389, "@00003389")
 //P: 0000338C
 #JMP($0000338C)
 #WRITE(PTR, $00088150)
@@ -727,18 +715,18 @@ Demo: Press ○ in order of\nRing 1, 2, then 1 again.
 <$00>
 
 
-#WARN($000033AD, "@000033AD")
+//#WARN($000033AD, "@000033AD")
 //P: 000033B0
-#JMP($000033B0)
+//#JMP($000033B0)
 #WRITE(PTR, $0008814C)
 //例．１列目で方向キー下　ＨＥ→ＩＦ
 Demo: In Ring 1, press the\nD-Pad DOWN. (HE→IF)
 <$00>
 
 
-#WARN($000033D3, "@000033D3")
+//#WARN($000033D3, "@000033D3")
 //P: 000033D4
-#JMP($000033D4)
+//#JMP($000033D4)
 #WRITE(PTR, $00088148)
 //スタートボタンからＱＵＩＴで終了
 Press START and QUIT to exit.
@@ -769,7 +757,7 @@ REDO: Replicate the last move.
 <$00>
 
 
-#WARN($000034A9, "@000034A9")
+#WARN($000034AB, "@000034AB")
 //P: 000034F8
 #JMP($000034F8)
 #WLB(PTR1, $00005CAC)
@@ -795,32 +783,32 @@ Try again! Practice until\nyou beat the record!
 
 #WARN($000035BA, "@000035BA")
 //P: 000035C8
-#JMP($000035C8)
+#JMP($000035C6)
 #WRITE(PTR, $000881CC)
 //左９０°回転
 Rotate 90° Left
 <$00>
 
 
-#WARN($000035D5, "@000035D5")
+//#WARN($000035D5, "@000035D5")
 //P: 000035D8
-#JMP($000035D8)
+//#JMP($000035D8)
 #WRITE(PTR, $000881C8)
 //１８０°回転
 Rotate 180°
 <$00>
 
 
-#WARN($000035E5, "@000035E5")
+//#WARN($000035E5, "@000035E5")
 //P: 000035E8
-#JMP($000035E8)
+//#JMP($000035E8)
 #WRITE(PTR, $000881C4)
 //右９０°回転
 Rotate 90° Right
 <$00>
 
 
-#WARN($000035F5, "@000035F5")
+#WARN($000035F7, "@000035F7")
 //P: 0000362C
 #JMP($0000362C)
 #WLB(PTR1, $00033A70)
@@ -900,7 +888,7 @@ Slow and steady!
 <$00>
 
 
-#WARN($00003832, "@00003832")
+#WARN($00003833, "@00003833")
 //P: 00003834
 #JMP($00003834)
 #WRITE(PTR, $00088204)
@@ -909,27 +897,27 @@ Bombs will reduce your\ncurrent score.
 <$00>
 
 
-#WARN($0000386A, "@0000386A")
+//#WARN($0000386A, "@0000386A")
 //P: 0000386C
-#JMP($0000386C)
+//#JMP($0000386C)
 #WRITE(PTR, $00088200)
 //ボーナスはスコアを倍にするが\nクオリファイを超えると無効になる
 Score-doubling bonuses\ndisappear when you over-qualify.
 <$00>
 
 
-#WARN($000038AA, "@000038AA")
+//#WARN($000038AA, "@000038AA")
 //P: 000038AC
-#JMP($000038AC)
+//#JMP($000038AC)
 #WRITE(PTR, $000881FC)
 //難しい問題で無理をするな\n急がばまわれ
 Don't overthink\ndifficult puzzles.
 <$00>
 
 
-#WARN($000038D2, "@000038D2")
+//#WARN($000038D2, "@000038D2")
 //P: 000038D4
-#JMP($000038D4)
+//#JMP($000038D4)
 #WRITE(PTR, $000881F8)
 //簡単な問題ほど気を抜くな
 The easier the puzzle, the\n
@@ -937,117 +925,117 @@ easier it is to get careless.
 <$00>
 
 
-#WARN($000038ED, "@000038ED")
+//#WARN($000038ED, "@000038ED")
 //P: 000038F0
-#JMP($000038F0)
+//#JMP($000038F0)
 #WRITE(PTR, $000881F4)
 //すべってしまう青いリングは\n大きな助けになる
 Sliding blue rings is a great way\nto stay out of trouble!
 <$00>
 
 
-#WARN($0000391C, "@0000391C")
+//#WARN($0000391C, "@0000391C")
 //P: 0000391C
-#JMP($0000391C)
+//#JMP($0000391C)
 #WRITE(PTR, $000881F0)
 //外せない赤いリングは\nヒントと思え
 If a red ring can't be\nremoved, it may be a hint!
 <$00>
 
 
-#WARN($0000393E, "@0000393E")
+//#WARN($0000393E, "@0000393E")
 //P: 00003940
-#JMP($00003940)
+//#JMP($00003940)
 #WRITE(PTR, $000881EC)
 //一番端を残してコインを外すと\n文字の調節が楽になる
 Remove a ring. Then, a coin.\nLetter adjustment made easy!
 <$00>
 
 
-#WARN($00003972, "@00003972")
+//#WARN($00003972, "@00003972")
 //P: 00003974
-#JMP($00003974)
+//#JMP($00003974)
 #WRITE(PTR, $000881E8)
 //クオリファイ以下の好手は\n説明書に保存される
 Tips for beating the qualifier\nare kept in the Users' Guide.
 <$00>
 
 
-#WARN($000039A0, "@000039A0")
+//#WARN($000039A0, "@000039A0")
 //P: 000039A0
-#JMP($000039A0)
+//#JMP($000039A0)
 #WRITE(PTR, $000881E4)
 //ＵＮＤＯは×ボタンで\n活用すべし
 Try undoing moves\nwith the × button.
 <$00>
 
 
-#WARN($000039C0, "@000039C0")
+//#WARN($000039C0, "@000039C0")
 //P: 000039C0
-#JMP($000039C0)
+//#JMP($000039C0)
 #WRITE(PTR, $000881E0)
 //試行錯誤・ＲＥＳＴＡＲＴの先に\nレコードにつながる道がある
 Restart puzzles to beat the\nrecord through trial and error.
 <$00>
 
 
-#WARN($000039FA, "@000039FA")
+//#WARN($000039FA, "@000039FA")
 //P: 000039FC
-#JMP($000039FC)
+///#JMP($000039FC)
 #WRITE(PTR, $000881DC)
 //クオリファイ超過には一利もなし
 There is no reward for\nover-qualifying.
 <$00>
 
 
-#WARN($00003A1B, "@00003A1B")
+//#WARN($00003A1B, "@00003A1B")
 //P: 00003A1C
-#JMP($00003A1C)
+//#JMP($00003A1C)
 #WRITE(PTR, $000881D8)
 //同じ記号は便利な近道
 Matching symbols are\nconvenient shortcuts.
 <$00>
 
 
-#WARN($00003A31, "@00003A31")
+//#WARN($00003A31, "@00003A31")
 //P: 00003A34
-#JMP($00003A34)
+//#JMP($00003A34)
 #WRITE(PTR, $00088258)
 //ログロックを華麗に解くための秘訣で\nゲーム中ではランダムに選択されます
 The secrets to solving puzzles\nare randomly selected in-game.
 <$00>
 
 
-#WARN($00003A7A, "@00003A7A")
+//#WARN($00003A7A, "@00003A7A")
 //P: 00003A7C
-#JMP($00003A7C)
+//#JMP($00003A7C)
 #WRITE(PTR, $00088254)
 //スライド、回転、鏡文字、交換など\nそれぞれのリングで試してみましょう
 Try sliding, rotating, mirroring\nand exchanging each ring! 
 <$00>
 
 
-#WARN($00003AC0, "@00003AC0")
+//#WARN($00003AC0, "@00003AC0")
 //P: 00003AC0
-#JMP($00003AC0)
+//#JMP($00003AC0)
 #WRITE(PTR, $00088250)
 //方向キーの左・右で\nアディの反応を確かめてください
 D-PAD Left+Right:\nView Addie's reaction.
 <$00>
 
 
-#WARN($00003AF2, "@00003AF2")
+//#WARN($00003AF2, "@00003AF2")
 //P: 00003AF4
-#JMP($00003AF4)
+//#JMP($00003AF4)
 #WRITE(PTR, $00088248)
 //中央横列で隣り合っている\nコインは連動します
 Coins set beside eachother\nin the center will link.
 <$00>
 
 
-#WARN($00003B20, "@00003B20")
+//#WARN($00003B20, "@00003B20")
 //P: 00003B20
-#JMP($00003B20)
+//#JMP($00003B20)
 #WRITE(PTR, $0008823C)
 #WRITE(PTR, $00088244)
 //成立しない記号は\nスライドしても変化しません
@@ -1055,9 +1043,9 @@ Unassigned symbols won't change\neven when you slide a ring.
 <$00>
 
 
-#WARN($00003B4C, "@00003B4C")
+//#WARN($00003B4C, "@00003B4C")
 //P: 00003B4C
-#JMP($00003B4C)
+//#JMP($00003B4C)
 #WRITE(PTR, $00088238)
 #WRITE(PTR, $00088240)
 //変化後も中央横列を基準にして\nアルファベットの順番が保たれます
@@ -1065,18 +1053,18 @@ Even after an exchange, the\ncenter row maintains ABC order.
 <$00>
 
 
-#WARN($00003B8A, "@00003B8A")
+//#WARN($00003B8A, "@00003B8A")
 //P: 00003B8C
-#JMP($00003B8C)
+//#JMP($00003B8C)
 #WRITE(PTR, $00088234)
 //△・Ｒ１・Ｌ１ボタンで\nコインを回転します
 △+R1+L1:\nRotates a coin.
 <$00>
 
 
-#WARN($00003BB6, "@00003BB6")
+//#WARN($00003BB6, "@00003BB6")
 //P: 00003BB8
-#JMP($00003BB8)
+//#JMP($00003BB8)
 #WRITE(PTR, $00088230)
 #WRITE(PTR, $0008824C)
 //リングを外すことで\n連動を調節できます
@@ -1084,27 +1072,27 @@ You can adjust linked rings\nvia removal("Exchange").
 <$00>
 
 
-#WARN($00003BDE, "@00003BDE")
+//#WARN($00003BDE, "@00003BDE")
 //P: 00003BE0
-#JMP($00003BE0)
+//#JMP($00003BE0)
 #WRITE(PTR, $0008822C)
 //○ボタンで\nリングを交換します
 ○ボタン:\nRemoves or "Exchanges" a ring.
 <$00>
 
 
-#WARN($00003BFE, "@00003BFE")
+//#WARN($00003BFE, "@00003BFE")
 //P: 00003C00
-#JMP($00003C00)
+//#JMP($00003C00)
 #WRITE(PTR, $00088228)
 //方向キーの上・下で\nリングはスライドします
 D-Pad Up+Down:\nSlides a ring.
 <$00>
 
 
-#WARN($00003C2A, "@00003C2A")
+//#WARN($00003C2A, "@00003C2A")
 //P: 00003C2C
-#JMP($00003C2C)
+//#JMP($00003C2C)
 #WRITE(PTR, $00088224)
 //ＲＥＳＴＡＲＴを選択すると\n問題が初期状態に戻ります
 "Restart" puts the puzzle\nback in its original state.
@@ -1150,7 +1138,7 @@ Puzzle
 <$00>
 
 
-#WARN($000935F1, "@000935F1")
+#WARN($000935F3, "@000935F3")
 //P: 0009371C
 #JMP($0009371C)
 #WRITE(PTR, $000881B8)
@@ -1159,90 +1147,90 @@ Puzzle
 <$00>
 
 
-#WARN($0009371F, "@0009371F")
+//#WARN($0009371F, "@0009371F")
 //P: 00093720
-#JMP($00093720)
+//#JMP($00093720)
 #WRITE(PTR, $000881B4)
 //□
 □
 <$00>
 
 
-#WARN($00093723, "@00093723")
+//#WARN($00093723, "@00093723")
 //P: 00093724
-#JMP($00093724)
+//#JMP($00093724)
 #WRITE(PTR, $000881B0)
 //Ｌ１
 L1
 <$00>
 
 
-#WARN($00093729, "@00093729")
+//#WARN($00093729, "@00093729")
 //P: 0009372C
-#JMP($0009372C)
+//#JMP($0009372C)
 #WRITE(PTR, $000881AC)
 //△
 △
 <$00>
 
 
-#WARN($0009372F, "@0009372F")
+//#WARN($0009372F, "@0009372F")
 //P: 00093730
-#JMP($00093730)
+//#JMP($00093730)
 #WRITE(PTR, $000881A8)
 //Ｒ１
 R1
 <$00>
 
 
-#WARN($00093735, "@00093735")
+//#WARN($00093735, "@00093735")
 //P: 00093738
-#JMP($00093738)
+//#JMP($00093738)
 #WRITE(PTR, $000881A4)
 //下
 Down
 <$00>
 
 
-#WARN($0009373B, "@0009373B")
+//#WARN($0009373B, "@0009373B")
 //P: 0009373C
-#JMP($0009373C)
+//#JMP($0009373C)
 #WRITE(PTR, $000881A0)
 //上
 Up
 <$00>
 
 
-#WARN($0009373F, "@0009373F")
+//#WARN($0009373F, "@0009373F")
 //P: 00093740
-#JMP($00093740)
+//#JMP($00093740)
 #WRITE(PTR, $000881D4)
 //交換
 Exchange
 <$00>
 
 
-#WARN($00093745, "@00093745")
+//#WARN($00093745, "@00093745")
 //P: 00093748
-#JMP($00093748)
+//#JMP($00093748)
 #WRITE(PTR, $000881D0)
 //鏡文字
 Mirror
 <$00>
 
 
-#WARN($0009374F, "@0009374F")
+//#WARN($0009374F, "@0009374F")
 //P: 00093750
-#JMP($00093750)
+//#JMP($00093750)
 #WRITE(PTR, $000881C0)
 //後候補
 Redo
 <$00>
 
 
-#WARN($00093757, "@00093757")
+//#WARN($00093757, "@00093757")
 //P: 00093758
-#JMP($00093758)
+//#JMP($00093758)
 #WRITE(PTR, $000881BC)
 //前候補
 Undo
