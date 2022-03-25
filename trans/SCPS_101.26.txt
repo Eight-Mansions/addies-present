@@ -1118,7 +1118,7 @@ Press START and QUIT to exit.
 //#WARN($000033F5, "@000033F5")
 //P: 00003434
 #JMP($00003434)
-//#WLB(PTR1, $00031C6C)
+#WLB(PTR1, $00031C6C)
 #WHB(PTR1, $00031C6D)
 #WBB(PTR1, $00031C70)
 #WUB(PTR1, $00031C71)
@@ -1128,15 +1128,15 @@ Solves puzzles with your move count\nBELOW the Record! (SELECT: Demo)
 
 
 //#WARN($0000346A, "@0000346A")
-//P: 000034F8
-//#JMP($000034F8)
-#WLB(PTR1, $00005CAC)
-#WHB(PTR1, $00005CAD)
-#WBB(PTR1, $00005CB0)
-#WUB(PTR1, $00005CB1)
-//れたトータルスコアは戻りません
-Total score will not\nbe restored.
-<$00>
+// //P: 000034F8
+// //#JMP($000034F8)
+// #WLB(PTR1, $00005CAC)
+// #WHB(PTR1, $00005CAD)
+// #WBB(PTR1, $00005CB0)
+// #WUB(PTR1, $00005CB1)
+// //れたトータルスコアは戻りません
+// Total score will not\nbe restored.
+// <$00>
 
 
 //#WARN($00003517, "@00003517")
