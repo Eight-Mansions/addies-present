@@ -4,13 +4,13 @@ Atlas 1.11 by Klarth
 Parsing summary: 1 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 133 msecs
+Insertion summary: 141 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
 | Total
 |   Start: Line 6  File Position $24A20
-|   End: Line 881  File Position $25679
+|   End: Line 883  File Position $25679
 +------------------------------------------------------------------------------
 | Script size 3161
 | Bytes Inserted 3161
@@ -22,19 +22,20 @@ Insertion - 0 error(s), 0 warning(s)
 |   WBB: 37
 |   WHB: 37
 |   WLB: 37
+|   STRINGALIGN: 1
 |
 | Pointer Listing
 |   General Pointers Written: 262
 +------------------------------------------------------------------------------
 
-Execution time: 139 msecs
+Execution time: 147 msecs
 orig\CHAP0\WORLD2.DLR 
 Atlas 1.11 by Klarth
 
 Parsing summary: 0 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 130 msecs
+Insertion summary: 144 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -57,14 +58,14 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 88
 +------------------------------------------------------------------------------
 
-Execution time: 135 msecs
+Execution time: 150 msecs
 orig\CHAP0\WORLD3.DLR 
 Atlas 1.11 by Klarth
 
 Parsing summary: 0 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 129 msecs
+Insertion summary: 137 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -86,14 +87,14 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 12
 +------------------------------------------------------------------------------
 
-Execution time: 137 msecs
+Execution time: 143 msecs
 orig\CHAP0\WORLD5.DLR 
 Atlas 1.11 by Klarth
 
 Parsing summary: 0 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 138 msecs
+Insertion summary: 140 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -111,14 +112,14 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 5
 +------------------------------------------------------------------------------
 
-Execution time: 143 msecs
+Execution time: 145 msecs
 orig\CHAP1\WORLD1.DLR 
 Atlas 1.11 by Klarth
 
 Parsing summary: 1 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 136 msecs
+Insertion summary: 142 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -141,14 +142,14 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 259
 +------------------------------------------------------------------------------
 
-Execution time: 143 msecs
+Execution time: 149 msecs
 orig\CHAP1\WORLD2.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 1 msecs
+Parsing summary: 0 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 136 msecs
+Insertion summary: 146 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -171,14 +172,14 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 122
 +------------------------------------------------------------------------------
 
-Execution time: 142 msecs
+Execution time: 152 msecs
 orig\CHAP1\WORLD3.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 2 msecs
+Parsing summary: 1 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 135 msecs
+Insertion summary: 144 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -201,14 +202,14 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 652
 +------------------------------------------------------------------------------
 
-Execution time: 146 msecs
+Execution time: 154 msecs
 orig\CHAP1\WORLD4.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 1 msecs
+Parsing summary: 0 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 130 msecs
+Insertion summary: 135 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -230,14 +231,14 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 80
 +------------------------------------------------------------------------------
 
-Execution time: 139 msecs
+Execution time: 143 msecs
 orig\CHAP1\WORLD5.DLR 
 Atlas 1.11 by Klarth
 
 Parsing summary: 1 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 136 msecs
+Insertion summary: 143 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -260,14 +261,14 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 409
 +------------------------------------------------------------------------------
 
-Execution time: 142 msecs
+Execution time: 149 msecs
 orig\CHAP2\WORLD1.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 3 msecs
+Parsing summary: 2 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 134 msecs
+Insertion summary: 145 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -290,14 +291,14 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 954
 +------------------------------------------------------------------------------
 
-Execution time: 143 msecs
+Execution time: 153 msecs
 orig\CHAP2\WORLD2.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 2 msecs
+Parsing summary: 1 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 139 msecs
+Insertion summary: 135 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -320,14 +321,14 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 483
 +------------------------------------------------------------------------------
 
-Execution time: 146 msecs
+Execution time: 141 msecs
 orig\CHAP2\WORLD3.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 2 msecs
+Parsing summary: 1 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 138 msecs
+Insertion summary: 153 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -350,14 +351,14 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 401
 +------------------------------------------------------------------------------
 
-Execution time: 145 msecs
+Execution time: 160 msecs
 orig\CHAP2\WORLD4.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 2 msecs
+Parsing summary: 1 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 139 msecs
+Insertion summary: 149 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -380,14 +381,14 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 586
 +------------------------------------------------------------------------------
 
-Execution time: 147 msecs
+Execution time: 156 msecs
 orig\CHAP2\WORLD5.DLR 
 Atlas 1.11 by Klarth
 
 Parsing summary: 1 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 135 msecs
+Insertion summary: 146 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -410,14 +411,14 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 412
 +------------------------------------------------------------------------------
 
-Execution time: 142 msecs
+Execution time: 152 msecs
 orig\CHAP2\WORLD6.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 0 msecs
+Parsing summary: 1 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 127 msecs
+Insertion summary: 146 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -440,14 +441,14 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 151
 +------------------------------------------------------------------------------
 
-Execution time: 132 msecs
+Execution time: 152 msecs
 orig\CHAP2\WORLD7.DLR 
 Atlas 1.11 by Klarth
 
-Parsing summary: 0 msecs
+Parsing summary: 1 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 130 msecs
+Insertion summary: 132 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -470,14 +471,14 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 27
 +------------------------------------------------------------------------------
 
-Execution time: 135 msecs
+Execution time: 138 msecs
 orig\CHAP2\WORLD8.DLR 
 Atlas 1.11 by Klarth
 
 Parsing summary: 0 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 130 msecs
+Insertion summary: 131 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -500,14 +501,14 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 23
 +------------------------------------------------------------------------------
 
-Execution time: 135 msecs
+Execution time: 136 msecs
 orig\CHAP2\WORLD9.DLR 
 Atlas 1.11 by Klarth
 
 Parsing summary: 0 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 144 msecs
+Insertion summary: 130 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -530,14 +531,14 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 23
 +------------------------------------------------------------------------------
 
-Execution time: 150 msecs
+Execution time: 135 msecs
 orig\CHAP3\WORLD1.DLR 
 Atlas 1.11 by Klarth
 
 Parsing summary: 1 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 150 msecs
+Insertion summary: 144 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -560,14 +561,14 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 500
 +------------------------------------------------------------------------------
 
-Execution time: 158 msecs
+Execution time: 151 msecs
 orig\CHAP3\WORLD2.DLR 
 Atlas 1.11 by Klarth
 
 Parsing summary: 1 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 139 msecs
+Insertion summary: 149 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -590,14 +591,14 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 411
 +------------------------------------------------------------------------------
 
-Execution time: 145 msecs
+Execution time: 155 msecs
 orig\CHAP3\WORLD3.DLR 
 Atlas 1.11 by Klarth
 
 Parsing summary: 2 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 130 msecs
+Insertion summary: 144 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -620,14 +621,14 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 484
 +------------------------------------------------------------------------------
 
-Execution time: 138 msecs
+Execution time: 152 msecs
 orig\CHAP3\WORLD4.DLR 
 Atlas 1.11 by Klarth
 
 Parsing summary: 1 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 128 msecs
+Insertion summary: 152 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -650,14 +651,14 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 279
 +------------------------------------------------------------------------------
 
-Execution time: 134 msecs
+Execution time: 159 msecs
 orig\CHAP3\WORLD5.DLR 
 Atlas 1.11 by Klarth
 
 Parsing summary: 1 msecs
 Parsing - 0 error(s), 0 warning(s)
 
-Insertion summary: 129 msecs
+Insertion summary: 135 msecs
 Insertion - 0 error(s), 0 warning(s)
 
 +------------------------------------------------------------------------------
@@ -680,4 +681,4 @@ Insertion - 0 error(s), 0 warning(s)
 |   General Pointers Written: 296
 +------------------------------------------------------------------------------
 
-Execution time: 136 msecs
+Execution time: 142 msecs

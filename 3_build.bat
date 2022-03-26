@@ -5,7 +5,6 @@ del exe_error.txt
 del exe\SCPS_101.26
 copy exe\orig\SCPS_101.26 exe\SCPS_101.26
 tools\armips.exe code\addies-assembly.asm
-SCPS_101.26.txt
 tools\atlas exe\SCPS_101.26 trans\SCPS_101.26.txt >> exe_error.txt
 
 del  graphics\DATA.CTS
