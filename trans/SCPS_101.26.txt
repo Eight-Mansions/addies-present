@@ -75,23 +75,6 @@ Designate audio output.
 Designate auto or manual\ntext progression.
 <$00>
 
-
-#WARN($00000A7A, "@00000A7A")
-//P: 00000A4C
-#JMP($00000A4C)
-#WLB(PTR1, $00023C98)
-#WHB(PTR1, $00023C99)
-#WBB(PTR1, $00023C9C)
-#WUB(PTR1, $00023C9D)
-#WLB(PTR1, $0002435C)
-#WHB(PTR1, $0002435D)
-#WBB(PTR1, $00024360)
-#WUB(PTR1, $00024361)
-//表示を自動で進め\nるか手動送りするか選びます。
-Designate auto or manual\ndemonstrations.
-<$00>
-
-
 #WARN($00000A7A, "@00000A7A")
 //P: 00000A7C
 #JMP($00000A7C)
