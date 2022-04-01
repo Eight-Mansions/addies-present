@@ -9,483 +9,6 @@
 
 #STRINGALIGN(2)
 
-//P: 00000888
-#JMP($00000888)
-#WLB(PTR1, $00006D18)
-#WHB(PTR1, $00006D19)
-#WBB(PTR1, $00006D1C)
-#WUB(PTR1, $00006D1D)
-//○…問題再挑戦／□…説明書呼出／\nスタートボタン…メニュー
-Retry ○/Users' Guide □/\nMenu START
-<$00>
-
-
-#WARN($000008C2, "@000008C2")
-//P: 0000090C
-#JMP($0000090C)
-#WLB(PTR1, $00008938)
-#WHB(PTR1, $00008939)
-#WBB(PTR1, $0000893C)
-#WUB(PTR1, $0000893D)
-//前回のつづき。\n挙動は保証できません
-<$00>
-
-
-#WARN($00000930, "@00000930")
-//P: 00000978
-#JMP($00000978)
-#WRITE(PTR, $00074F04)
-//振動機能を利用するかどうか選びま\nす。
-Turn vibration on/off.
-<$00>
-
-
-#WARN($0000099E, "@0000099E")
-//P: 000009A0
-#JMP($000009A0)
-#WRITE(PTR, $00074F00)
-//自動でＡＮＡＬＯＧモードにするか\n手動で変更するか選びます。
-Designate auto or manual\nswitch to Analog Mode.
-<$00>
-
-
-#WARN($000009DC, "@000009DC")
-//P: 000009DC
-#JMP($000009DC)
-#WRITE(PTR, $00074EFC)
-//主音量を調節します。０にすると無\n音になります。
-Adjust game volume.\n("0"= No audio)
-<$00>
-
-
-#WARN($00000A0C, "@00000A0C")
-//P: 00000A0C
-#JMP($00000A0C)
-#WRITE(PTR, $00074EF8)
-//音の出力方式をステレオかモノラル\nから選びます。
-Designate audio output.
-<$00>
-
-
-#WARN($00000A3C, "@00000A3C")
-//P: 00000A3C
-#JMP($00000A3C)
-#WRITE(PTR, $00074EF4)
-//メッセージなどの表示を自動で進め\nるか手動送りするか選びます。
-Designate auto or manual\ntext progression.
-<$00>
-
-#WARN($00000A7A, "@00000A7A")
-//P: 00000A7C
-#JMP($00000A7C)
-#WRITE(PTR, $00074EF0)
-//画面位置を調整します。○…決定／\n×…キャンセル／△…初期設定
-Screen adjust: Confirm ○/\nCancel ×/Default △
-<$00>
-
-
-#WARN($00000ABA, "@00000ABA")
-//P: 00000B08
-#JMP($00000B08)
-#WLB(PTR1, $0009274E)
-#WHB(PTR1, $0009274F)
-#WBB(PTR1, $00092752)
-#WUB(PTR1, $00092753)
-//…走る／○…調べる／スタ\nートボタン…メニュー
-Move D-Pad＋×/Talk ○/\nMenu START
-<$00>
-
-
-#WARN($00000B36, "@00000B36")
-//P: 00001804
-#JMP($00001804)
-#WLB(PTR1, $0001AF78)
-#WHB(PTR1, $0001AF79)
-#WBB(PTR1, $0001AF7C)
-#WUB(PTR1, $0001AF7D)
-//セーブなんてしている場合じゃない\nでしょ！！　ＦＲＯＭ　ＡＤＤＩＥ
-"Now is NOT the time to\nbe saving!" (From Addie)
-<$00>
-
-
-#WARN($00001846, "@00001846")
-//P: 000018BC
-#JMP($000018BC)
-#WRITE(PTR, $0007E364)
-//上・下…ファイル選択／左・右…Ｙ\nＥＳ・ＮＯ／○…決定／×…戻る
-Find File Up＋Down/\nSelect Left＋Right/Confirm ○/Cancel ×
-<$00>
-
-
-#WARN($000018FC, "@000018FC")
-//P: 00001AB8
-#JMP($00001AB8)
-#WLB(PTR1, $0001EDF8)
-#WHB(PTR1, $0001EDF9)
-#WBB(PTR1, $0001EDFC)
-#WUB(PTR1, $0001EDFD)
-//ＮＯ．%S【破損したファイル】
-ＮＯ．%S FILE CORRUPTED.
-<$00>
-
-
-#WARN($00001AD5, "@00001AD5")
-//P: 00001AF8
-#JMP($00001AF8)
-#WLB(PTR1, $0001E81C)
-#WHB(PTR1, $0001E81D)
-#WBB(PTR1, $0001E820)
-#WUB(PTR1, $0001E821)
-//　　問題データをセーブ　＊
-　　Save Puzzle Data　＊
-<$00>
-
-
-#WARN($00001B13, "@00001B13")
-//P: 00001B14
-#JMP($00001B14)
-#WLB(PTR1, $0001E86C)
-#WHB(PTR1, $0001E86D)
-#WBB(PTR1, $0001E870)
-#WUB(PTR1, $0001E871)
-//問題データをロード
-Load Puzzle Data
-<$00>
-
-
-#WARN($00001B27, "@00001B27")
-//P: 00001B44
-#JMP($00001B44)
-#WLB(PTR1, $0001E8E4)
-#WHB(PTR1, $0001E8E5)
-#WBB(PTR1, $0001E8E8)
-#WUB(PTR1, $0001E8E9)
-//問題を写す
-Copy Puzzle
-<$00>
-
-
-#WARN($00001B4F, "@00001B4F")
-//P: 00001B50
-#JMP($00001B50)
-#WLB(PTR1, $0001E918)
-#WHB(PTR1, $0001E919)
-#WBB(PTR1, $0001E91C)
-#WUB(PTR1, $0001E91D)
-//問題で遊ぶ
-Play Puzzle
-<$00>
-
-
-#WARN($00001B5B, "@00001B5B")
-//P: 00001B5C
-#JMP($00001B5C)
-#WLB(PTR1, $0001E94C)
-#WHB(PTR1, $0001E94D)
-#WBB(PTR1, $0001E950)
-#WUB(PTR1, $0001E951)
-//問題を作る
-Create Puzzle
-<$00>
-
-
-//#WARN($00001B67, "@00001B67")
-//P: 00001B68
-//#JMP($00001B68)
-#WRITE(PTR, $0007E3DC)
-//新規に問題データを作成します。\nよろしいですか？
-Create new puzzle data?
-<$00>
-
-
-//#WARN($00001B98, "@00001B98")
-//P: 00001B98
-//#JMP($00001B98)
-#WRITE(PTR, $0007E3D8)
-//問題データを上書きします。\nよろしいですか？
-Overwrite puzzle data?
-<$00>
-
-
-#WARN($00001BC4, "@00001BC4")
-//P: 00001BC4
-#JMP($00001BC4)
-#WRITE(PTR, $0007E3D4)
-//ロードに失敗しています。\n再接続してロードし直して下さい。
-Loading failed! Reconnect\nmemory card and try again.
-<$00>
-
-
-#WARN($00001BFE, "@00001BFE")
-//P: 00001C00
-#JMP($00001C00)
-#WRITE(PTR, $0007E3D0)
-//セーブに失敗しています。\n再接続してセーブし直して下さい。
-Saving failed! Reconnect\nmemory card and try again.
-<$00>
-
-
-#WARN($00001C3A, "@00001C3A")
-//P: 00001C3C
-#JMP($00001C3C)
-#WRITE(PTR, $0007E3CC)
-//空きブロックが不足しています。\n問題の保存には１ブロック必要です。
-Insufficient blocks. 1 block\nrequired for puzzle data.
-<$00>
-
-
-#WARN($00001C7E, "@00001C7E")
-//P: 00001C80
-#JMP($00001C80)
-#WRITE(PTR, $0007E3C8)
-//問題データの読み込みを行います。\nよろしいですか？
-Open puzzle data?
-<$00>
-
-
-#WARN($00001CB2, "@00001CB2")
-//P: 00001CB4
-#JMP($00001CB4)
-#WRITE(PTR, $0007E3C4)
-//このファイルでゲームを再開します。\nよろしいですか？
-Restart from this file?
-<$00>
-
-
-#WARN($00001CE8, "@00001CE8")
-//P: 00001CE8
-#JMP($00001CE8)
-#WRITE(PTR, $0007E3C0)
-//新規ファイルに記録します。\nよろしいですか？
-Save on a new file?
-<$00>
-
-
-#WARN($00001D14, "@00001D14")
-//P: 00001D14
-#JMP($00001D14)
-#WRITE(PTR, $0007E3BC)
-//ファイルを上書きします。\nよろしいですか？
-Overwrite this file?
-<$00>
-
-
-#WARN($00001D3E, "@00001D3E")
-//P: 00001D40
-#JMP($00001D40)
-#WRITE(PTR, $0007E3B8)
-//このまま閉じると修正は失われます。\nよろしいですか？
-Unsaved data will be lost.
-<$00>
-
-
-#WARN($00001D74, "@00001D74")
-//P: 00001D74
-#JMP($00001D74)
-#WRITE(PTR, $0007E3B4)
-//クリアデータは保存されません。\nこのまま閉じますか？
-Clear data not saved.\nAre you sure you want to exit?
-<$00>
-
-
-//#WARN($00001DA8, "@00001DA8")
-//P: 00001DA8
-//#JMP($00001DA8)
-#WRITE(PTR, $0007E3B0)
-//メモリーカードが初期化されて\nいません。初期化しますか？
-Memory card not formatted.\nFormat memory card?
-<$00>
-
-
-#WARN($00001DE0, "@00001DE0")
-//P: 00001DE0
-#JMP($00001DE0)
-#WRITE(PTR, $0007E3AC)
-//ロードに失敗しました。\nメモリーカードを再接続して下さい。
-Loading failed!\nReconnect memory card.
-<$00>
-
-
-#WARN($00001E1A, "@00001E1A")
-//P: 00001E1C
-#JMP($00001E1C)
-#WRITE(PTR, $0007E3A8)
-//セーブに失敗しました。\nメモリーカードを再接続して下さい。
-Saving failed!\nReconnect memory card.
-<$00>
-
-
-#WARN($00001E56, "@00001E56")
-//P: 00001E58
-#JMP($00001E58)
-#WRITE(PTR, $0007E3A4)
-//ロードできるファイルがありません。\nメモリーカードを交換して下さい。
-No files found.\nInsert a different memory card.
-<$00>
-
-
-#WARN($00001E9C, "@00001E9C")
-//P: 00001E9C
-#JMP($00001E9C)
-#WRITE(PTR, $0007E3A0)
-//空きブロックが不足しています。\nメモリーカードを交換して下さい。
-Insufficient blocks.\nInsert a different memory card.
-<$00>
-
-
-#WARN($00001EDC, "@00001EDC")
-//P: 00001EDC
-#JMP($00001EDC)
-#WRITE(PTR, $0007E39C)
-//フォーマットに失敗しました。\nメモリーカードを再接続して下さい。
-Formatting failed!\nReconnect memory card.
-<$00>
-
-
-#WARN($00001F1C, "@00001F1C")
-//P: 00001F1C
-#JMP($00001F1C)
-#WRITE(PTR, $0007E398)
-//アクセスに失敗しました。\nメモリーカードを再接続して下さい。
-Access denied!\nReconnect memory card.
-<$00>
-
-
-#WARN($00001F58, "@00001F58")
-//P: 00001F58
-#JMP($00001F58)
-#WRITE(PTR, $0007E394)
-//スロット１にメモリーカードが\n接続されていません。
-No memory card found\nin Slot 1.
-<$00>
-
-
-#WARN($00001F8A, "@00001F8A")
-//P: 00001F8C
-#JMP($00001F8C)
-#WRITE(PTR, $0007E390)
-//シーンを再現しています。\nしばらくお待ち下さい…
-Replaying scene.\nPlease wait a moment.
-<$00>
-
-
-#WARN($00001FBC, "@00001FBC")
-//P: 00001FBC
-#JMP($00001FBC)
-#WRITE(PTR, $0007E38C)
-//読み込んでいます。お待ち下さい…\nメモリーカードを抜かないで下さい。
-Checking data, please wait.\nDo not remove memory card!
-<$00>
-
-
-#WARN($00002000, "@00002000")
-//P: 00002000
-#JMP($00002000)
-#WRITE(PTR, $0007E388)
-//記録準備しています。お待ち下さい…\nメモリーカードを抜かないで下さい。
-Retrieving data, please wait.\nDo not remove memory card!
-<$00>
-
-
-#WARN($00002046, "@00002046")
-//P: 00002048
-#JMP($00002048)
-#WRITE(PTR, $0007E384)
-//書き込んでいます。お待ち下さい…\nメモリーカードを抜かないで下さい。
-Recording data, please wait.\nDo not remove memory card!
-<$00>
-
-
-#WARN($0000208C, "@0000208C")
-//P: 0000208C
-#JMP($0000208C)
-#WRITE(PTR, $0007E380)
-//初期化しています。お待ち下さい…\nメモリーカードを抜かないで下さい。
-Initializing, please wait.\nDo not remove memory card!
-<$00>
-
-
-#WARN($000020D0, "@000020D0")
-//P: 000020D0
-#JMP($000020D0)
-#WRITE(PTR, $0007E37C)
-//認識しています。お待ち下さい…\nメモリーカードを抜かないで下さい。
-Checking, please wait.\nDo not remove memory card!
-<$00>
-
-
-#WARN($00002112, "@00002112")
-//P: 00002114
-#JMP($00002114)
-#WLB(PTR1, $0001EF54)
-#WHB(PTR1, $0001EF55)
-#WBB(PTR1, $0001EF58)
-#WUB(PTR1, $0001EF59)
-//新規作成
-Create New
-<$00>
-
-
-#WARN($0000211F, "@0000211F")
-//P: 00002120
-#JMP($00002120)
-#WRITE(PTR, $0007E414)
-//自作問題：
-Puzzles Created:
-<$00>
-
-
-//#WARN($0000212B, "@0000212B")
-//P: 0000212C
-//#JMP($0000212C)
-#WRITE(PTR, $0007E40C)
-//コピー先：
-Copied:
-<$00>
-
-
-//#WARN($00002137, "@00002137")
-//P: 00002138
-//#JMP($00002138)
-#WRITE(PTR, $0007E408)
-//この問題をコピーします：○…次へ
-Copying this puzzle: Next ○
-<$00>
-
-#WARN($00002159, "@00002159")
-//P: 0000215C
-#JMP($0000215C)
-#WRITE(PTR, $0007E404)
-//コピー元：
-Copied:
-<$00>
-
-
-#WARN($00002167, "@00002167")
-//P: 0000222C
-#JMP($0000222C)
-#WLB(PTR1, $00020CE8)
-#WHB(PTR1, $00020CE9)
-#WBB(PTR1, $00020CEC)
-#WUB(PTR1, $00020CED)
-//アディのおくりもの　自作問題データ　%s問作成
-Addie's Present Puzzle Data　%sPuzzles Created
-<$00>
-
-
-#WARN($0000225B, "@0000225B")
-//P: 00002478
-#JMP($00002478)
-#WLB(PTR1, $00024094)
-#WHB(PTR1, $00024095)
-#WBB(PTR1, $00024098)
-#WUB(PTR1, $00024099)
-//ログロックがなくちゃ\n問題はできないわ
-We can't solve puzzles\nwithout a Loglock!
-<$00>
-
-
-#WARN($000024B5, "@$000024B5")
 //P: 00003240
 #JMP($00003240)
 #WRITE(PTR, $0008817C)
@@ -499,7 +22,7 @@ Press SELECT to view TIPS.
 //#JMP($00003260)
 #WRITE(PTR, $00088178)
 //固定：５列目　スリップ：３列目
-Fixed: Ring 5, Slip: Ring 3
+Fixed: Ring 5\nSlip: Ring 3
 <$00>
 
 
@@ -508,7 +31,7 @@ Fixed: Ring 5, Slip: Ring 3
 //#JMP($00003280)
 #WRITE(PTR, $00088174)
 //この例題ではボーナスはＭ、ボムはＮ
-In this demo, M is a Bonus,\nand N is a Bomb.
+In this demo, "M" is a Bonus,\nand "N" is a Bomb.
 <$00>
 
 
@@ -517,7 +40,7 @@ In this demo, M is a Bonus,\nand N is a Bomb.
 //#JMP($000032A4)
 #WRITE(PTR, $00088170)
 //例．２列目を外し１列目で△ボタン
-Demo: Remove Ring 2 and press △ on Ring 1. 
+Demo: Remove Ring 2. Then, press\nthe △ Button on Ring 1. 
 <$00>
 
 
@@ -526,7 +49,7 @@ Demo: Remove Ring 2 and press △ on Ring 1.
 //#JMP($000032C8)
 #WRITE(PTR, $0008816C)
 //例．１列目で△ボタン
-Demo: Press △ on Ring 1.
+Demo: Press the △ Button\non Ring 1.
 <$00>
 
 
@@ -535,7 +58,7 @@ Demo: Press △ on Ring 1.
 //#JMP($000032E0)
 #WRITE(PTR, $00088168)
 //例．１列目で□ボタン、スライド
-Demo: Press □ on Ring 1,\nthen slide.
+Demo: Press the □ Button\non Ring 1, then slide.
 <$00>
 
 
@@ -544,7 +67,7 @@ Demo: Press □ on Ring 1,\nthen slide.
 //#JMP($00003300)
 #WRITE(PTR, $00088164)
 //例．４列目で□ボタン
-Demo: Press □ on Ring 4.
+Demo: Press the □ Button\non Ring 4.
 <$00>
 
 
@@ -586,10 +109,10 @@ Demo: Remove Ring 2, then\nslide under Ring 1.
 
 //#WARN($00003389, "@00003389")
 //P: 0000338C
-#JMP($0000338C)
+//#JMP($0000338C)
 #WRITE(PTR, $00088150)
 //例．１、２、１列目で順に○ボタン
-Demo: Press ○ in order of\nRing 1, 2, then 1 again.
+Demo: Press the ○ Button on\nRing 1, 2, then 1 again.
 <$00>
 
 
@@ -598,13 +121,58 @@ Demo: Press ○ in order of\nRing 1, 2, then 1 again.
 //#JMP($000033B0)
 #WRITE(PTR, $0008814C)
 //例．１列目で方向キー下　ＨＥ→ＩＦ
-Demo: In Ring 1, press the\nD-Pad DOWN. (HE→IF)
+Demo: On Ring 1, press the\nD-Pad DOWN. (HE→IF)
 <$00>
 
 
-#WARN($000033F5, "@$000033F5")
+//#WARN($000033D3, "@000033D3")
+//P: 000033D4
+//#JMP($000033D4)
+#WRITE(PTR, $00088148)
+//スタートボタンからＱＵＩＴで終了
+Press START then "QUIT" to exit.
+<$00>
+
+
+//#WARN($000033F5, "@000033F5")
+//P: 000033F8
+//#JMP($000033F8)
+#WLB(PTR1, $00031C60)
+#WHB(PTR1, $00031C61)
+#WBB(PTR1, $00031C68)
+#WUB(PTR1, $00031C69)
+//解答例：指示にあわせて解いて下さい\n（セレクトボタンで戻る）
+Follow along to solve the puzzle.\n(Press SELECT to go back.)
+<$00>
+
+
+//#WARN($00003434, "@00003434")
+//P: 00003434
+//#JMP($00003434)
+#WLB(PTR1, $00031C6C)
+#WHB(PTR1, $00031C6D)
+#WBB(PTR1, $00031C70)
+#WUB(PTR1, $00031C71)
+//レコード以下で解いて下さい\n（セレクトボタンで解答例）
+Try to beat the record.\n(Press SELECT for the answer.)
+<$00>
+
+
+//#WARN($0000346A, "@0000346A")
+//P: 0000346C
+//#JMP($0000346C)
+#WLB(PTR1, $00031CC8)
+#WHB(PTR1, $00031CC9)
+#WBB(PTR1, $00031CD0)
+#WUB(PTR1, $00031CD1)
+//ＲＥＤＯ：弊社の最短手を再現
+REDO: Replicate the last move.
+<$00>
+
+
+//#WARN($00003489, "@00003489")
 //P: 0000348C
-#JMP($0000348C)
+//#JMP($0000348C)
 #WLB(PTR1, $00031CD4)
 #WHB(PTR1, $00031CD5)
 #WBB(PTR1, $00031CD8)
@@ -614,9 +182,73 @@ REDO: Replicate the last move.
 <$00>
 
 
-#WARN($000034AB, "@000034AB")
+//#WARN($000034A9, "@000034A9")
+//P: 000034AC
+//#JMP($000034AC)
+#WLB(PTR1, $00031D50)
+#WHB(PTR1, $00031D51)
+#WBB(PTR1, $00031D58)
+#WUB(PTR1, $00031D59)
+//最短手の再現は初期状態からのみ可能
+A redo is only possible for\nthe last move undone.
+<$00>
+
+
+//#WARN($000034CF, "@000034CF")
+//P: 000034D0
+//#JMP($000034D0)
+#WLB(PTR1, $00031D64)
+#WHB(PTR1, $00031D65)
+#WBB(PTR1, $00031D6C)
+#WUB(PTR1, $00031D6D)
+//ＵＮＤＯ…取消／ＲＥＤＯ…やり直し
+Undo / Redo
+<$00>
+
+
+//#WARN($000034F3, "@000034F3")
+//P: 000034F4
+//#JMP($000034F4)
+#WLB(PTR1, $000325E4)
+#WHB(PTR1, $000325E5)
+#WBB(PTR1, $000325EC)
+#WUB(PTR1, $000325ED)
+#WLB(PTR1, $00032D3C)
+#WHB(PTR1, $00032D3D)
+#WBB(PTR1, $00032D44)
+#WUB(PTR1, $00032D45)
+//失われたトータルスコアは戻りません
+Total score will not\nbe restored.
+<$00>
+
+
+//#WARN($00003517, "@00003517")
+//P: 00003518
+//#JMP($00003518)
+#WLB(PTR1, $00032E7C)
+#WHB(PTR1, $00032E7D)
+#WBB(PTR1, $00032E84)
+#WUB(PTR1, $00032E85)
+//これが弊社の最短手です\n次は一人で解いてみましょう
+This is our record.\nGive it a try on your own.
+<$00>
+
+
+//#WARN($0000354A, "@0000354A")
+//P: 0000354C
+//#JMP($0000354C)
+#WLB(PTR1, $00032EA8)
+#WHB(PTR1, $00032EA9)
+#WBB(PTR1, $00032EB0)
+#WUB(PTR1, $00032EB1)
+//この練習問題は卒業です\n次の問題にチャレンジしましょう
+You've completed the exercise.\nLet's take on the next!
+<$00>
+
+
+//#WARN($00003582, "@00003582")
 //P: 00003584
-#JMP($00003584)
+//#JMP($00003584)
 #WLB(PTR1, $00032EB8)
 #WHB(PTR1, $00032EB9)
 #WBB(PTR1, $00032EBC)
@@ -626,9 +258,21 @@ Try again! Practice until\nyou beat the record!
 <$00>
 
 
-#WARN($000035BA, "@000035BA")
+//#WARN($000035BA, "@000035BA")
+//P: 000035BC
+//#JMP($000035BC)
+#WLB(PTR1, $00033134)
+#WHB(PTR1, $00033135)
+#WBB(PTR1, $0003313C)
+#WUB(PTR1, $0003313D)
+//moze////
+moze////
+<$00>
+
+
+//#WARN($000035C5, "@000035C5")
 //P: 000035C8
-#JMP($000035C6)
+//#JMP($000035C8)
 #WRITE(PTR, $000881CC)
 //左９０°回転
 Rotate 90° Left
@@ -653,77 +297,132 @@ Rotate 90° Right
 <$00>
 
 
-#WARN($000035F7, "@000035F7")
+//#WARN($000035F5, "@000035F5")
+//P: 000035F8
+//#JMP($000035F8)
+#WLB(PTR1, $000339C0)
+#WHB(PTR1, $000339C1)
+#WBB(PTR1, $000339C8)
+#WUB(PTR1, $000339C9)
+//%s%s手目は、左から%s列目で\n
+s%s is %s rings from the left.\n
+<$00>
+
+
+//#WARN($00003614, "@00003614")
+//P: 00003614
+//#JMP($00003614)
+#WLB(PTR1, $00033A60)
+#WHB(PTR1, $00033A61)
+#WBB(PTR1, $00033A6C)
+#WUB(PTR1, $00033A6D)
+//【%s】を押して【%s】
+Press 【%s】 to 【%s】!
+<$00>
+
+
+//#WARN($00003629, "@00003629")
 //P: 0000362C
-#JMP($0000362C)
+//#JMP($0000362C)
 #WLB(PTR1, $00033A70)
 #WHB(PTR1, $00033A71)
 #WBB(PTR1, $00033A74)
 #WUB(PTR1, $00033A75)
-//コマンド%S段目の【%S】
+//コマンド%s段目の【%s】
 COMMAND%SLVL【%S】
 <$00>
 
 
-#WARN($00003643, "@00003643")
-// //P: 000036B0
-// #JMP($000036B0)
-// #WRITE(PTR, $00088220)
-// //正解に同じ文字がある場合は\n揃えて一緒に調整すべし
-// <$00>
+//#WARN($00003643, "@00003643")
+//P: 00003644
+//#JMP($00003644)
+#WLB(PTR1, $00033CC4)
+#WHB(PTR1, $00033CC5)
+#WBB(PTR1, $00033CCC)
+#WUB(PTR1, $00033CCD)
+//カーソルの位置が違います\nまずは例の通りに解いてみましょう
+The cursor has moved.\nLet's follow the example.
+<$00>
 
 
-// #WARN($000036E2, "@000036E2")
-// //P: 000036E4
-// #JMP($000036E4)
-// #WRITE(PTR, $0008821C)
-// //熟考したいときにはＬ２ボタンで\nアルファベット一覧表を表示
-// <$00>
+//#WARN($0000367E, "@0000367E")
+//P: 00003680
+//#JMP($00003680)
+#WLB(PTR1, $00033E00)
+#WHB(PTR1, $00033E01)
+#WBB(PTR1, $00033E08)
+#WUB(PTR1, $00033E09)
+//操作が違います\nまずは例の通りに解いてみましょう
+This move is different.\nLet's follow the example.
+<$00>
 
 
-// #WARN($0000371E, "@0000371E")
-// //P: 00003720
-// #JMP($00003720)
-// #WRITE(PTR, $00088218)
-// //ノンビリ気分でやりたいときには\nＲ２ボタンでコマンド入力モードに
-// <$00>
+//#WARN($000036B0, "@000036B0")
+//P: 000036B0
+//#JMP($000036B0)
+#WRITE(PTR, $00088220)
+//正解に同じ文字がある場合は\n揃えて一緒に調整すべし
+Letters should be lined up\nto match the Target Word. 
+<$00>
 
 
-// #WARN($00003760, "@00003760")
-// //P: 00003760
-// #JMP($00003760)
-// #WRITE(PTR, $00088214)
-// //説明書に保存された好手は\nＲＥＤＯでリプレイできる
-// <$00>
+//#WARN($000036E2, "@000036E2")
+//P: 000036E4
+//#JMP($000036E4)
+#WRITE(PTR, $0008821C)
+//熟考したいときにはＬ２ボタンで\nアルファベット一覧表を表示
+For a refresher, press L2\nfor the alphabet table.
+<$00>
 
 
-// #WARN($00003792, "@00003792")
-// //P: 00003794
-// #JMP($00003794)
-// #WRITE(PTR, $00088210)
-// //難しい問題に出会ったら\nＱＵＩＴしてすぐセーブ
-// <$00>
+//#WARN($0000371E, "@0000371E")
+//P: 00003720
+//#JMP($00003720)
+#WRITE(PTR, $00088218)
+//ノンビリ気分でやりたいときには\nＲ２ボタンでコマンド入力モードに
+For a relaxed approach, \npress R2 to change inputs.
+<$00>
 
 
-// #WARN($000037C2, "@000037C2")
-// //P: 000037C4
-// #JMP($000037C4)
-// #WRITE(PTR, $0008820C)
-// //ボムやボーナスを探すには\nカーソル移動でアディを確認
-// <$00>
+//#WARN($00003760, "@00003760")
+//P: 00003760
+//#JMP($00003760)
+#WRITE(PTR, $00088214)
+//説明書に保存された好手は\nＲＥＤＯでリプレイできる
+Solved puzzles are stored in\nthe Users' Manual for replay.
+<$00>
 
 
-// #WARN($000037F8, "@000037F8")
-// //P: 000037F8
-// #JMP($000037F8)
-// #WRITE(PTR, $00088208)
-// //早くボーナスを引いたときほど\nボムを踏まないように注意せよ
-// <$00>
+//#WARN($00003792, "@00003792")
+//P: 00003794
+//#JMP($00003794)
+#WRITE(PTR, $00088210)
+//難しい問題に出会ったら\nＱＵＩＴしてすぐセーブ
+If you find a tricky problem,\nQUIT and SAVE first!
+<$00>
 
 
-#WARN($00003832, "@00003832")
+//#WARN($000037C2, "@000037C2")
+//P: 000037C4
+//#JMP($000037C4)
+#WRITE(PTR, $0008820C)
+//ボムやボーナスを探すには\nカーソル移動でアディを確認
+If the cursor passes a Bomb\nor a Bonus Coin, watch Addie!
+<$00>
+
+
+//#WARN($000037F8, "@000037F8")
+//P: 000037F8
+//#JMP($000037F8)
+#WRITE(PTR, $00088208)
+//早くボーナスを引いたときほど\nボムを踏まないように注意せよ
+Don't trip Bonus Coins too early,\nand avoid Bomb Coins!
+<$00>
+
+
+//#WARN($00003832, "@00003832")
 //P: 00003834
-#JMP($00003834)
+//#JMP($00003834)
 #WRITE(PTR, $00088204)
 //ボムはその時のスコアの分だけ\nトータルを減らしてしまう
 Bombs will reduce your\ncurrent score.
@@ -735,7 +434,7 @@ Bombs will reduce your\ncurrent score.
 //#JMP($0000386C)
 #WRITE(PTR, $00088200)
 //ボーナスはスコアを倍にするが\nクオリファイを超えると無効になる
-Score-doubling bonuses\ndisappear when you over-qualify.
+Score bonuses disappear if\nyou breach the Qualify Score.
 <$00>
 
 
@@ -753,8 +452,7 @@ Don't overthink\ndifficult puzzles.
 //#JMP($000038D4)
 #WRITE(PTR, $000881F8)
 //簡単な問題ほど気を抜くな
-The easier the puzzle, the\n
-easier it is to get careless.
+The easier the puzzle, the\neasier it is to get careless.
 <$00>
 
 
@@ -790,7 +488,7 @@ Remove a ring. Then, a coin.\nLetter adjustment made easy!
 //#JMP($00003974)
 #WRITE(PTR, $000881E8)
 //クオリファイ以下の好手は\n説明書に保存される
-Tips for beating the qualifier\nare kept in the Users' Guide.
+Tips for meeting the Qualify\nScore are in the Users' Manual.
 <$00>
 
 
@@ -799,7 +497,7 @@ Tips for beating the qualifier\nare kept in the Users' Guide.
 //#JMP($000039A0)
 #WRITE(PTR, $000881E4)
 //ＵＮＤＯは×ボタンで\n活用すべし
-Try undoing moves\nwith the × button.
+Try undoing moves\nwith the × Button.
 <$00>
 
 
@@ -814,10 +512,10 @@ Restart puzzles to beat the\nrecord through trial and error.
 
 //#WARN($000039FA, "@000039FA")
 //P: 000039FC
-///#JMP($000039FC)
+//#JMP($000039FC)
 #WRITE(PTR, $000881DC)
 //クオリファイ超過には一利もなし
-There is no reward for\nover-qualifying.
+There is no reward for\nbreaching the Qualify Score.
 <$00>
 
 
@@ -853,7 +551,7 @@ Try sliding, rotating, mirroring\nand exchanging each ring!
 //#JMP($00003AC0)
 #WRITE(PTR, $00088250)
 //方向キーの左・右で\nアディの反応を確かめてください
-D-PAD Left+Right:\nView Addie's reaction.
+D-Pad LEFT+RIGHT:\nView Addie's reaction.
 <$00>
 
 
@@ -862,7 +560,7 @@ D-PAD Left+Right:\nView Addie's reaction.
 //#JMP($00003AF4)
 #WRITE(PTR, $00088248)
 //中央横列で隣り合っている\nコインは連動します
-Coins set beside eachother\nin the center will link.
+Coins beside each other in\nthe central row will link.
 <$00>
 
 
@@ -872,17 +570,23 @@ Coins set beside eachother\nin the center will link.
 #WRITE(PTR, $0008823C)
 #WRITE(PTR, $00088244)
 //成立しない記号は\nスライドしても変化しません
-Unassigned symbols won't change\neven when you slide a ring.
+Non-alphabet symbols won't change\neven when you slide a ring.
 <$00>
 
 
 //#WARN($00003B4C, "@00003B4C")
+#WARN($00003C60, "@00003C60")
+
+
+////!!! Extra Space !!!
+#JMP($00088F00)
+
 //P: 00003B4C
 //#JMP($00003B4C)
 #WRITE(PTR, $00088238)
 #WRITE(PTR, $00088240)
 //変化後も中央横列を基準にして\nアルファベットの順番が保たれます
-Even after an exchange, the\ncenter row maintains ABC order.
+Even after an exchange, the\ncentral row maintains ABC order.
 <$00>
 
 
@@ -910,212 +614,16 @@ You can adjust linked rings\nvia removal("Exchange").
 //#JMP($00003BE0)
 #WRITE(PTR, $0008822C)
 //○ボタンで\nリングを交換します
-○ボタン:\nRemoves or "Exchanges" a ring.
+○:\nRemoves or exchanges a ring.
 <$00>
 
 
-#WARN($00003C60, "@00003C60")
-//P: 00005324
-#JMP($00005324)
-#WLB(PTR1, $00059BAC)
-#WHB(PTR1, $00059BAD)
-#WBB(PTR1, $00059BB0)
-#WUB(PTR1, $00059BB1)
-//〇一二三四五六七八九
-0123456789
-<$00>
-
-
-#WARN($00005339, "@00005339")
-//P: 0000538C
-#JMP($0000538C)
-#WRITE(PTR, $00092758)
-//     SOFTWARE TERMINATED\nCONSOLE MAY HAVE BEEN MODIFIED\n     CALL 1-888-780-7690
-//Bad Boy! Whatcha gon' whatcha gonna doooo?
-<$00>
-
-
-#WARN($000053DD, "@000053DD")
-//P: 000053E0
-#JMP($000053E0)
-#WRITE(PTR, $0009274C)
-//強制終了しました。\n本体が改造されている\nおそれがあります。
-\nSOFTWARE TERMINATED.\nCONSOLE MAY HAVE BEEN MODIFIED.
-<$00>
-
-
-#WARN($0000541B, "@0000541B")
-//P: 000935EC
-#JMP($000935EC)
-#WRITE(PTR, $0007E410)
-//問題
-Puzzle
-<$00>
-
-
-#WARN($000935F3, "@000935F3")
-//P: 0009371C
-#JMP($0009371C)
-#WRITE(PTR, $000881B8)
-//○
-○
-<$00>
-
-
-//#WARN($0009371F, "@0009371F")
-//P: 00093720
-//#JMP($00093720)
-#WRITE(PTR, $000881B4)
-//□
-□
-<$00>
-
-
-//#WARN($00093723, "@00093723")
-//P: 00093724
-//#JMP($00093724)
-#WRITE(PTR, $000881B0)
-//Ｌ１
-L1
-<$00>
-
-
-//#WARN($00093729, "@00093729")
-//P: 0009372C
-//#JMP($0009372C)
-#WRITE(PTR, $000881AC)
-//△
-△
-<$00>
-
-
-//#WARN($0009372F, "@0009372F")
-//P: 00093730
-//#JMP($00093730)
-#WRITE(PTR, $000881A8)
-//Ｒ１
-R1
-<$00>
-
-
-//#WARN($00093735, "@00093735")
-//P: 00093738
-//#JMP($00093738)
-#WRITE(PTR, $000881A4)
-//下
-Down
-<$00>
-
-
-//#WARN($0009373B, "@0009373B")
-//P: 0009373C
-//#JMP($0009373C)
-#WRITE(PTR, $000881A0)
-//上
-Up
-<$00>
-
-
-//#WARN($0009373F, "@0009373F")
-//P: 00093740
-//#JMP($00093740)
-#WRITE(PTR, $000881D4)
-//交換
-Exchange
-<$00>
-
-
-//#WARN($00093745, "@00093745")
-//P: 00093748
-//#JMP($00093748)
-#WRITE(PTR, $000881D0)
-//鏡文字
-Mirror
-<$00>
-
-
-//#WARN($0009374F, "@0009374F")
-//P: 00093750
-//#JMP($00093750)
-#WRITE(PTR, $000881C0)
-//後候補
-Redo
-<$00>
-
-
-//#WARN($00093757, "@00093757")
-//P: 00093758
-//#JMP($00093758)
-#WRITE(PTR, $000881BC)
-//前候補
-Undo
-<$00>
-
-////!!! Extra Space !!!
-#JMP($00088F00)
-
-//P: 00000930
-//#JMP($00000930)
-#WLB(PTR1, $00008940)
-#WHB(PTR1, $00008941)
-#WBB(PTR1, $00008944)
-#WUB(PTR1, $00008945)
-//前回のあらまし。\nこのデータは古いです
-Summary from last time.\n(This data is out-of-date.)
-<$00>
-
-
-//#WARN($00000956, "@00000956")
-//P: 000024A0
-//#JMP($000024A0)
-#WLB(PTR1, $00024190)
-#WHB(PTR1, $00024191)
-#WBB(PTR1, $00024194)
-#WUB(PTR1, $00024195)
-//たしか、この問題は…
-Let's see this puzzle...
-<$00>
-
-
-//#WARN($000024B5, "@000024B5")
-//P: 000033D4
-//#JMP($000033D4)
-#WRITE(PTR, $00088148)
-//スタートボタンからＱＵＩＴで終了
-Press START and QUIT to exit.
-<$00>
-
-
-//#WARN($000033F5, "@000033F5")
-//P: 00003434
-#JMP($00003434)
-#WLB(PTR1, $00031C6C)
-#WHB(PTR1, $00031C6D)
-#WBB(PTR1, $00031C70)
-#WUB(PTR1, $00031C71)
-//レコード以下で解いて下さい\n（セレクトボタンで解答例）
-Solves puzzles with your move count\nBELOW the Record! (SELECT: Demo)
-<$00>
-
-
-//#WARN($0000346A, "@0000346A")
-// //P: 000034F8
-// //#JMP($000034F8)
-// #WLB(PTR1, $00005CAC)
-// #WHB(PTR1, $00005CAD)
-// #WBB(PTR1, $00005CB0)
-// #WUB(PTR1, $00005CB1)
-// //れたトータルスコアは戻りません
-// Total score will not\nbe restored.
-// <$00>
-
-
-//#WARN($00003517, "@00003517")
+//#WARN($00003BFE, "@00003BFE")
 //P: 00003C00
 //#JMP($00003C00)
 #WRITE(PTR, $00088228)
 //方向キーの上・下で\nリングはスライドします
-D-Pad Up+Down:\nSlides a ring.
+D-Pad UP+DOWN:\nSlides a ring.
 <$00>
 
 
@@ -1124,10 +632,5 @@ D-Pad Up+Down:\nSlides a ring.
 //#JMP($00003C2C)
 #WRITE(PTR, $00088224)
 //ＲＥＳＴＡＲＴを選択すると\n問題が初期状態に戻ります
-"Restart" puts the puzzle\nback in its original state.
+"RESTART" puts the puzzle\nback in its original state.
 <$00>
-
-
-//#WARN($00003C60, "@00003C60")
-
-#WARN($00089200, "@$00089200")
