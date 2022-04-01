@@ -7,50 +7,47 @@
 
 //P: 00001AB8
 #JMP($00001AB8)
-#WLB(PTR1, $0001EDF0)
-#WHB(PTR1, $0001EDF1)
-#WBB(PTR1, $0001EDFC)
-#WUB(PTR1, $0001EDFD)
-#WLB(PTR1, $00020EC0)
-#WHB(PTR1, $00020EC1)
-#WBB(PTR1, $00020EC8)
-#WUB(PTR1, $00020EC9)
+#WBB(PTR1, $0001EDF0)
+#WUB(PTR1, $0001EDF1)
+#WLB(PTR1, $0001EDFC)
+#WHB(PTR1, $0001EDFD)
+#WBB(PTR1, $00020EC0)
+#WUB(PTR1, $00020EC1)
+#WLB(PTR1, $00020EC8)
+#WHB(PTR1, $00020EC9)
 //Ｎｏ．%s【破損したファイル】
-ＮＯ．%S FILE CORRUPTED.
 <$00>
 
 
 #WARN($00001AD5, "@00001AD5")
 //P: 00001AF8
 #JMP($00001AF8)
-#WLB(PTR1, $0001E81C)
-#WHB(PTR1, $0001E81D)
-#WBB(PTR1, $0001E820)
-#WUB(PTR1, $0001E821)
+#WBB(PTR1, $0001E81C)
+#WUB(PTR1, $0001E81D)
+#WLB(PTR1, $0001E820)
+#WHB(PTR1, $0001E821)
 //　　問題データをセーブ　＊
-　　Save Puzzle Data　＊
 <$00>
 
 
 #WARN($00001B13, "@00001B13")
 //P: 00001B14
 #JMP($00001B14)
-#WLB(PTR1, $0001E86C)
-#WHB(PTR1, $0001E86D)
-#WBB(PTR1, $0001E870)
-#WUB(PTR1, $0001E871)
+#WBB(PTR1, $0001E86C)
+#WUB(PTR1, $0001E86D)
+#WLB(PTR1, $0001E870)
+#WHB(PTR1, $0001E871)
 //問題データをロード
-Load Puzzle Data
 <$00>
 
 
 #WARN($00001B27, "@00001B27")
 //P: 00001B28
 #JMP($00001B28)
-#WLB(PTR1, $0001E8D0)
-#WHB(PTR1, $0001E8D1)
-#WBB(PTR1, $0001E8D8)
-#WUB(PTR1, $0001E8D9)
+#WBB(PTR1, $0001E8D0)
+#WUB(PTR1, $0001E8D1)
+#WLB(PTR1, $0001E8D8)
+#WHB(PTR1, $0001E8D9)
 //　　問題データをセーブ　%s
 <$00>
 
@@ -58,36 +55,33 @@ Load Puzzle Data
 #WARN($00001B43, "@00001B43")
 //P: 00001B44
 #JMP($00001B44)
-#WLB(PTR1, $0001E8E4)
-#WHB(PTR1, $0001E8E5)
-#WBB(PTR1, $0001E8E8)
-#WUB(PTR1, $0001E8E9)
+#WBB(PTR1, $0001E8E4)
+#WUB(PTR1, $0001E8E5)
+#WLB(PTR1, $0001E8E8)
+#WHB(PTR1, $0001E8E9)
 //問題を写す
-Copy Puzzle
 <$00>
 
 
 #WARN($00001B4F, "@00001B4F")
 //P: 00001B50
 #JMP($00001B50)
-#WLB(PTR1, $0001E918)
-#WHB(PTR1, $0001E919)
-#WBB(PTR1, $0001E91C)
-#WUB(PTR1, $0001E91D)
+#WBB(PTR1, $0001E918)
+#WUB(PTR1, $0001E919)
+#WLB(PTR1, $0001E91C)
+#WHB(PTR1, $0001E91D)
 //問題で遊ぶ
-Play Puzzle
 <$00>
 
 
 #WARN($00001B5B, "@00001B5B")
 //P: 00001B5C
 #JMP($00001B5C)
-#WLB(PTR1, $0001E94C)
-#WHB(PTR1, $0001E94D)
-#WBB(PTR1, $0001E950)
-#WUB(PTR1, $0001E951)
+#WBB(PTR1, $0001E94C)
+#WUB(PTR1, $0001E94D)
+#WLB(PTR1, $0001E950)
+#WHB(PTR1, $0001E951)
 //問題を作る
-Create Puzzle
 <$00>
 
 
@@ -96,7 +90,6 @@ Create Puzzle
 #JMP($00001B68)
 #WRITE(PTR, $0007E3DC)
 //新規に問題データを作成します。\nよろしいですか？
-Create new puzzle data?
 <$00>
 
 
@@ -105,7 +98,6 @@ Create new puzzle data?
 #JMP($00001B98)
 #WRITE(PTR, $0007E3D8)
 //問題データを上書きします。\nよろしいですか？
-Overwrite puzzle data?
 <$00>
 
 
@@ -114,7 +106,6 @@ Overwrite puzzle data?
 #JMP($00001BC4)
 #WRITE(PTR, $0007E3D4)
 //ロードに失敗しています。\n再接続してロードし直して下さい。
-Loading failed! Reconnect\nmemory card and try again.
 <$00>
 
 
@@ -123,7 +114,6 @@ Loading failed! Reconnect\nmemory card and try again.
 #JMP($00001C00)
 #WRITE(PTR, $0007E3D0)
 //セーブに失敗しています。\n再接続してセーブし直して下さい。
-Saving failed! Reconnect\nmemory card and try again.
 <$00>
 
 
@@ -132,7 +122,6 @@ Saving failed! Reconnect\nmemory card and try again.
 #JMP($00001C3C)
 #WRITE(PTR, $0007E3CC)
 //空きブロックが不足しています。\n問題の保存には１ブロック必要です。
-Insufficient blocks. 1 block\nrequired for puzzle data.
 <$00>
 
 
@@ -141,7 +130,6 @@ Insufficient blocks. 1 block\nrequired for puzzle data.
 #JMP($00001C80)
 #WRITE(PTR, $0007E3C8)
 //問題データの読み込みを行います。\nよろしいですか？
-Open puzzle data?
 <$00>
 
 
@@ -150,7 +138,6 @@ Open puzzle data?
 #JMP($00001CB4)
 #WRITE(PTR, $0007E3C4)
 //このファイルでゲームを再開します。\nよろしいですか？
-Restart from this file?
 <$00>
 
 
@@ -159,7 +146,6 @@ Restart from this file?
 #JMP($00001CE8)
 #WRITE(PTR, $0007E3C0)
 //新規ファイルに記録します。\nよろしいですか？
-Save on a new file?
 <$00>
 
 
@@ -168,7 +154,6 @@ Save on a new file?
 #JMP($00001D14)
 #WRITE(PTR, $0007E3BC)
 //ファイルを上書きします。\nよろしいですか？
-Overwrite this file?
 <$00>
 
 
@@ -177,7 +162,6 @@ Overwrite this file?
 #JMP($00001D40)
 #WRITE(PTR, $0007E3B8)
 //このまま閉じると修正は失われます。\nよろしいですか？
-Unsaved data will be lost.
 <$00>
 
 
@@ -186,7 +170,6 @@ Unsaved data will be lost.
 #JMP($00001D74)
 #WRITE(PTR, $0007E3B4)
 //クリアデータは保存されません。\nこのまま閉じますか？
-Clear data not saved.\nAre you sure you want to exit?
 <$00>
 
 
@@ -195,7 +178,6 @@ Clear data not saved.\nAre you sure you want to exit?
 #JMP($00001DA8)
 #WRITE(PTR, $0007E3B0)
 //メモリーカードが初期化されて\nいません。初期化しますか？
-Memory card not formatted.\nFormat memory card?
 <$00>
 
 
@@ -204,7 +186,6 @@ Memory card not formatted.\nFormat memory card?
 #JMP($00001DE0)
 #WRITE(PTR, $0007E3AC)
 //ロードに失敗しました。\nメモリーカードを再接続して下さい。
-Loading failed!\nReconnect memory card.
 <$00>
 
 
@@ -213,7 +194,6 @@ Loading failed!\nReconnect memory card.
 #JMP($00001E1C)
 #WRITE(PTR, $0007E3A8)
 //セーブに失敗しました。\nメモリーカードを再接続して下さい。
-Saving failed!\nReconnect memory card.
 <$00>
 
 
@@ -222,7 +202,6 @@ Saving failed!\nReconnect memory card.
 #JMP($00001E58)
 #WRITE(PTR, $0007E3A4)
 //ロードできるファイルがありません。\nメモリーカードを交換して下さい。
-No files found.\nInsert a different memory card.
 <$00>
 
 
@@ -231,7 +210,6 @@ No files found.\nInsert a different memory card.
 #JMP($00001E9C)
 #WRITE(PTR, $0007E3A0)
 //空きブロックが不足しています。\nメモリーカードを交換して下さい。
-Insufficient blocks.\nInsert a different memory card.
 <$00>
 
 
@@ -240,7 +218,6 @@ Insufficient blocks.\nInsert a different memory card.
 #JMP($00001EDC)
 #WRITE(PTR, $0007E39C)
 //フォーマットに失敗しました。\nメモリーカードを再接続して下さい。
-Formatting failed!\nReconnect memory card.
 <$00>
 
 
@@ -249,7 +226,6 @@ Formatting failed!\nReconnect memory card.
 #JMP($00001F1C)
 #WRITE(PTR, $0007E398)
 //アクセスに失敗しました。\nメモリーカードを再接続して下さい。
-Access denied!\nReconnect memory card.
 <$00>
 
 
@@ -258,7 +234,6 @@ Access denied!\nReconnect memory card.
 #JMP($00001F58)
 #WRITE(PTR, $0007E394)
 //スロット１にメモリーカードが\n接続されていません。
-No memory card found\nin Slot 1.
 <$00>
 
 
@@ -267,7 +242,6 @@ No memory card found\nin Slot 1.
 #JMP($00001F8C)
 #WRITE(PTR, $0007E390)
 //シーンを再現しています。\nしばらくお待ち下さい…
-Replaying scene.\nPlease wait a moment.
 <$00>
 
 
@@ -276,7 +250,6 @@ Replaying scene.\nPlease wait a moment.
 #JMP($00001FBC)
 #WRITE(PTR, $0007E38C)
 //読み込んでいます。お待ち下さい…\nメモリーカードを抜かないで下さい。
-Checking data, please wait.\nDo not remove memory card!
 <$00>
 
 
@@ -285,7 +258,6 @@ Checking data, please wait.\nDo not remove memory card!
 #JMP($00002000)
 #WRITE(PTR, $0007E388)
 //記録準備しています。お待ち下さい…\nメモリーカードを抜かないで下さい。
-Retrieving data, please wait.\nDo not remove memory card!
 <$00>
 
 
@@ -294,7 +266,6 @@ Retrieving data, please wait.\nDo not remove memory card!
 #JMP($00002048)
 #WRITE(PTR, $0007E384)
 //書き込んでいます。お待ち下さい…\nメモリーカードを抜かないで下さい。
-Recording data, please wait.\nDo not remove memory card!
 <$00>
 
 
@@ -303,7 +274,6 @@ Recording data, please wait.\nDo not remove memory card!
 #JMP($0000208C)
 #WRITE(PTR, $0007E380)
 //初期化しています。お待ち下さい…\nメモリーカードを抜かないで下さい。
-Initializing, please wait.\nDo not remove memory card!
 <$00>
 
 
@@ -312,28 +282,25 @@ Initializing, please wait.\nDo not remove memory card!
 #JMP($000020D0)
 #WRITE(PTR, $0007E37C)
 //認識しています。お待ち下さい…\nメモリーカードを抜かないで下さい。
-Checking, please wait.\nDo not remove memory card!
 <$00>
 
 
 #WARN($00002112, "@00002112")
 //P: 00002114
 #JMP($00002114)
-#WLB(PTR1, $0001EF54)
-#WHB(PTR1, $0001EF55)
-#WBB(PTR1, $0001EF58)
-#WUB(PTR1, $0001EF59)
+#WBB(PTR1, $0001EF54)
+#WUB(PTR1, $0001EF55)
+#WLB(PTR1, $0001EF58)
+#WHB(PTR1, $0001EF59)
 //新規作成
-Create New
 <$00>
 
 
-#WARN($0000211F, "@0000211F")
+#WARN($0000211D, "@0000211D")
 //P: 00002120
 #JMP($00002120)
 #WRITE(PTR, $0007E414)
 //自作問題：
-Puzzles Created:
 <$00>
 
 
@@ -342,7 +309,6 @@ Puzzles Created:
 #JMP($0000212C)
 #WRITE(PTR, $0007E40C)
 //コピー先：
-Copied:
 <$00>
 
 
@@ -351,7 +317,6 @@ Copied:
 #JMP($00002138)
 #WRITE(PTR, $0007E408)
 //この問題をコピーします：○…次へ
-Copying this puzzle: Next ○
 <$00>
 
 
@@ -360,17 +325,16 @@ Copying this puzzle: Next ○
 #JMP($0000215C)
 #WRITE(PTR, $0007E404)
 //コピー元：
-Copied:
 <$00>
 
 
 #WARN($00002167, "@00002167")
 //P: 00002168
 #JMP($00002168)
-#WLB(PTR1, $0001F7AC)
-#WHB(PTR1, $0001F7AD)
-#WBB(PTR1, $0001F7B0)
-#WUB(PTR1, $0001F7B1)
+#WBB(PTR1, $0001F7AC)
+#WUB(PTR1, $0001F7AD)
+#WLB(PTR1, $0001F7B0)
+#WHB(PTR1, $0001F7B1)
 //%s%s%s\n\nＲＥＣＯＲＤ：%s　【%s】%s
 <$00>
 
@@ -378,10 +342,10 @@ Copied:
 #WARN($0000218B, "@0000218B")
 //P: 0000218C
 #JMP($0000218C)
-#WLB(PTR1, $0001F8BC)
-#WHB(PTR1, $0001F8BD)
-#WBB(PTR1, $0001F8C4)
-#WUB(PTR1, $0001F8C5)
+#WBB(PTR1, $0001F8BC)
+#WUB(PTR1, $0001F8BD)
+#WLB(PTR1, $0001F8C4)
+#WHB(PTR1, $0001F8C5)
 //\n問題データが破損しています\nロードできません
 <$00>
 

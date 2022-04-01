@@ -137,10 +137,10 @@ Press START then "QUIT" to exit.
 //#WARN($000033F5, "@000033F5")
 //P: 000033F8
 //#JMP($000033F8)
-#WLB(PTR1, $00031C60)
-#WHB(PTR1, $00031C61)
-#WBB(PTR1, $00031C68)
-#WUB(PTR1, $00031C69)
+#WBB(PTR1, $00031C60)
+#WUB(PTR1, $00031C61)
+#WLB(PTR1, $00031C68)
+#WHB(PTR1, $00031C69)
 //解答例：指示にあわせて解いて下さい\n（セレクトボタンで戻る）
 Follow along to solve the puzzle.\n(Press SELECT to go back.)
 <$00>
@@ -149,10 +149,10 @@ Follow along to solve the puzzle.\n(Press SELECT to go back.)
 //#WARN($00003434, "@00003434")
 //P: 00003434
 //#JMP($00003434)
-#WLB(PTR1, $00031C6C)
-#WHB(PTR1, $00031C6D)
-#WBB(PTR1, $00031C70)
-#WUB(PTR1, $00031C71)
+#WBB(PTR1, $00031C6C)
+#WUB(PTR1, $00031C6D)
+#WLB(PTR1, $00031C70)
+#WHB(PTR1, $00031C71)
 //レコード以下で解いて下さい\n（セレクトボタンで解答例）
 Try to beat the record.\n(Press SELECT for the answer.)
 <$00>
@@ -161,10 +161,10 @@ Try to beat the record.\n(Press SELECT for the answer.)
 //#WARN($0000346A, "@0000346A")
 //P: 0000346C
 //#JMP($0000346C)
-#WLB(PTR1, $00031CC8)
-#WHB(PTR1, $00031CC9)
-#WBB(PTR1, $00031CD0)
-#WUB(PTR1, $00031CD1)
+#WBB(PTR1, $00031CC8)
+#WUB(PTR1, $00031CC9)
+#WLB(PTR1, $00031CD0)
+#WHB(PTR1, $00031CD1)
 //ＲＥＤＯ：弊社の最短手を再現
 REDO: Replicate the last move.
 <$00>
@@ -173,10 +173,10 @@ REDO: Replicate the last move.
 //#WARN($00003489, "@00003489")
 //P: 0000348C
 //#JMP($0000348C)
-#WLB(PTR1, $00031CD4)
-#WHB(PTR1, $00031CD5)
-#WBB(PTR1, $00031CD8)
-#WUB(PTR1, $00031CD9)
+#WBB(PTR1, $00031CD4)
+#WUB(PTR1, $00031CD5)
+#WLB(PTR1, $00031CD8)
+#WHB(PTR1, $00031CD9)
 //ＲＥＤＯ：現在の最短手を再現
 REDO: Replicate the last move.
 <$00>
@@ -185,10 +185,10 @@ REDO: Replicate the last move.
 //#WARN($000034A9, "@000034A9")
 //P: 000034AC
 //#JMP($000034AC)
-#WLB(PTR1, $00031D50)
-#WHB(PTR1, $00031D51)
-#WBB(PTR1, $00031D58)
-#WUB(PTR1, $00031D59)
+#WBB(PTR1, $00031D50)
+#WUB(PTR1, $00031D51)
+#WLB(PTR1, $00031D58)
+#WHB(PTR1, $00031D59)
 //最短手の再現は初期状態からのみ可能
 A redo is only possible for\nthe last move undone.
 <$00>
@@ -197,10 +197,10 @@ A redo is only possible for\nthe last move undone.
 //#WARN($000034CF, "@000034CF")
 //P: 000034D0
 //#JMP($000034D0)
-#WLB(PTR1, $00031D64)
-#WHB(PTR1, $00031D65)
-#WBB(PTR1, $00031D6C)
-#WUB(PTR1, $00031D6D)
+#WBB(PTR1, $00031D64)
+#WUB(PTR1, $00031D65)
+#WLB(PTR1, $00031D6C)
+#WHB(PTR1, $00031D6D)
 //ＵＮＤＯ…取消／ＲＥＤＯ…やり直し
 Undo / Redo
 <$00>
@@ -209,14 +209,14 @@ Undo / Redo
 //#WARN($000034F3, "@000034F3")
 //P: 000034F4
 //#JMP($000034F4)
-#WLB(PTR1, $000325E4)
-#WHB(PTR1, $000325E5)
-#WBB(PTR1, $000325EC)
-#WUB(PTR1, $000325ED)
-#WLB(PTR1, $00032D3C)
-#WHB(PTR1, $00032D3D)
-#WBB(PTR1, $00032D44)
-#WUB(PTR1, $00032D45)
+#WBB(PTR1, $000325E4)
+#WUB(PTR1, $000325E5)
+#WLB(PTR1, $000325EC)
+#WHB(PTR1, $000325ED)
+#WBB(PTR1, $00032D3C)
+#WUB(PTR1, $00032D3D)
+#WLB(PTR1, $00032D44)
+#WHB(PTR1, $00032D45)
 //失われたトータルスコアは戻りません
 Total score will not\nbe restored.
 <$00>
@@ -225,10 +225,10 @@ Total score will not\nbe restored.
 //#WARN($00003517, "@00003517")
 //P: 00003518
 //#JMP($00003518)
-#WLB(PTR1, $00032E7C)
-#WHB(PTR1, $00032E7D)
-#WBB(PTR1, $00032E84)
-#WUB(PTR1, $00032E85)
+#WBB(PTR1, $00032E7C)
+#WUB(PTR1, $00032E7D)
+#WLB(PTR1, $00032E84)
+#WHB(PTR1, $00032E85)
 //これが弊社の最短手です\n次は一人で解いてみましょう
 This is our record.\nGive it a try on your own.
 <$00>
@@ -237,10 +237,10 @@ This is our record.\nGive it a try on your own.
 //#WARN($0000354A, "@0000354A")
 //P: 0000354C
 //#JMP($0000354C)
-#WLB(PTR1, $00032EA8)
-#WHB(PTR1, $00032EA9)
-#WBB(PTR1, $00032EB0)
-#WUB(PTR1, $00032EB1)
+#WBB(PTR1, $00032EA8)
+#WUB(PTR1, $00032EA9)
+#WLB(PTR1, $00032EB0)
+#WHB(PTR1, $00032EB1)
 //この練習問題は卒業です\n次の問題にチャレンジしましょう
 You've completed the exercise.\nLet's take on the next!
 <$00>
@@ -249,10 +249,10 @@ You've completed the exercise.\nLet's take on the next!
 //#WARN($00003582, "@00003582")
 //P: 00003584
 //#JMP($00003584)
-#WLB(PTR1, $00032EB8)
-#WHB(PTR1, $00032EB9)
-#WBB(PTR1, $00032EBC)
-#WUB(PTR1, $00032EBD)
+#WBB(PTR1, $00032EB8)
+#WUB(PTR1, $00032EB9)
+#WLB(PTR1, $00032EBC)
+#WHB(PTR1, $00032EBD)
 //レコードクリアまで練習しましょう\nもう一度チャレンジ！
 Try again! Practice until\nyou beat the record!
 <$00>
@@ -261,10 +261,10 @@ Try again! Practice until\nyou beat the record!
 //#WARN($000035BA, "@000035BA")
 //P: 000035BC
 //#JMP($000035BC)
-#WLB(PTR1, $00033134)
-#WHB(PTR1, $00033135)
-#WBB(PTR1, $0003313C)
-#WUB(PTR1, $0003313D)
+#WBB(PTR1, $00033134)
+#WUB(PTR1, $00033135)
+#WLB(PTR1, $0003313C)
+#WHB(PTR1, $0003313D)
 //moze////
 moze////
 <$00>
@@ -300,10 +300,10 @@ Rotate 90° Right
 //#WARN($000035F5, "@000035F5")
 //P: 000035F8
 //#JMP($000035F8)
-#WLB(PTR1, $000339C0)
-#WHB(PTR1, $000339C1)
-#WBB(PTR1, $000339C8)
-#WUB(PTR1, $000339C9)
+#WBB(PTR1, $000339C0)
+#WUB(PTR1, $000339C1)
+#WLB(PTR1, $000339C8)
+#WHB(PTR1, $000339C9)
 //%s%s手目は、左から%s列目で\n
 s%s is %s rings from the left.\n
 <$00>
@@ -312,10 +312,10 @@ s%s is %s rings from the left.\n
 //#WARN($00003614, "@00003614")
 //P: 00003614
 //#JMP($00003614)
-#WLB(PTR1, $00033A60)
-#WHB(PTR1, $00033A61)
-#WBB(PTR1, $00033A6C)
-#WUB(PTR1, $00033A6D)
+#WBB(PTR1, $00033A60)
+#WUB(PTR1, $00033A61)
+#WLB(PTR1, $00033A6C)
+#WHB(PTR1, $00033A6D)
 //【%s】を押して【%s】
 Press 【%s】 to 【%s】!
 <$00>
@@ -324,10 +324,10 @@ Press 【%s】 to 【%s】!
 //#WARN($00003629, "@00003629")
 //P: 0000362C
 //#JMP($0000362C)
-#WLB(PTR1, $00033A70)
-#WHB(PTR1, $00033A71)
-#WBB(PTR1, $00033A74)
-#WUB(PTR1, $00033A75)
+#WBB(PTR1, $00033A70)
+#WUB(PTR1, $00033A71)
+#WLB(PTR1, $00033A74)
+#WHB(PTR1, $00033A75)
 //コマンド%s段目の【%s】
 COMMAND%SLVL【%S】
 <$00>
@@ -336,10 +336,10 @@ COMMAND%SLVL【%S】
 //#WARN($00003643, "@00003643")
 //P: 00003644
 //#JMP($00003644)
-#WLB(PTR1, $00033CC4)
-#WHB(PTR1, $00033CC5)
-#WBB(PTR1, $00033CCC)
-#WUB(PTR1, $00033CCD)
+#WBB(PTR1, $00033CC4)
+#WUB(PTR1, $00033CC5)
+#WLB(PTR1, $00033CCC)
+#WHB(PTR1, $00033CCD)
 //カーソルの位置が違います\nまずは例の通りに解いてみましょう
 The cursor has moved.\nLet's follow the example.
 <$00>
@@ -348,10 +348,10 @@ The cursor has moved.\nLet's follow the example.
 //#WARN($0000367E, "@0000367E")
 //P: 00003680
 //#JMP($00003680)
-#WLB(PTR1, $00033E00)
-#WHB(PTR1, $00033E01)
-#WBB(PTR1, $00033E08)
-#WUB(PTR1, $00033E09)
+#WBB(PTR1, $00033E00)
+#WUB(PTR1, $00033E01)
+#WLB(PTR1, $00033E08)
+#WHB(PTR1, $00033E09)
 //操作が違います\nまずは例の通りに解いてみましょう
 This move is different.\nLet's follow the example.
 <$00>
