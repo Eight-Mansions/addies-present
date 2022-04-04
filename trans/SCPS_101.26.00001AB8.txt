@@ -16,6 +16,7 @@
 #WLB(PTR1, $00020EC8)
 #WHB(PTR1, $00020EC9)
 //Ｎｏ．%s【破損したファイル】
+ＮＯ．%S (FILE CORRUPTED.)
 <$00>
 
 
@@ -27,6 +28,7 @@
 #WLB(PTR1, $0001E820)
 #WHB(PTR1, $0001E821)
 //　　問題データをセーブ　＊
+　　Save Puzzle Data　＊
 <$00>
 
 
@@ -38,6 +40,7 @@
 #WLB(PTR1, $0001E870)
 #WHB(PTR1, $0001E871)
 //問題データをロード
+Load Puzzle Data
 <$00>
 
 
@@ -49,6 +52,7 @@
 #WLB(PTR1, $0001E8D8)
 #WHB(PTR1, $0001E8D9)
 //　　問題データをセーブ　%s
+　　Save Puzzle Data　%s
 <$00>
 
 
@@ -60,6 +64,7 @@
 #WLB(PTR1, $0001E8E8)
 #WHB(PTR1, $0001E8E9)
 //問題を写す
+Copy Puzzle
 <$00>
 
 
@@ -71,6 +76,7 @@
 #WLB(PTR1, $0001E91C)
 #WHB(PTR1, $0001E91D)
 //問題で遊ぶ
+Play Puzzle
 <$00>
 
 
@@ -154,7 +160,7 @@ Restart from this file?
 #JMP($00001CE8)
 #WRITE(PTR, $0007E3C0)
 //新規ファイルに記録します。\nよろしいですか？
-Save on a new file?
+Save to new file?
 <$00>
 
 
@@ -298,7 +304,7 @@ Recording data, please wait.\nDo not remove memory card!
 #JMP($0000208C)
 #WRITE(PTR, $0007E380)
 //初期化しています。お待ち下さい…\nメモリーカードを抜かないで下さい。
-Initializing, please wait.\nDo not remove memory card!
+Formatting, please wait.\nDo not remove memory card!
 <$00>
 
 
@@ -367,6 +373,7 @@ Copied:
 #WLB(PTR1, $0001F7B0)
 #WHB(PTR1, $0001F7B1)
 //%s%s%s\n\nＲＥＣＯＲＤ：%s　【%s】%s
+%s%s%s\n\nRECORD:%s　【%s】%s
 <$00>
 
 
@@ -378,9 +385,8 @@ Copied:
 #WLB(PTR1, $0001F8C4)
 #WHB(PTR1, $0001F8C5)
 //\n問題データが破損しています\nロードできません
+\nPuzzle Data is corrupted.\nUnable to load Puzzle Data.
 <$00>
 
 
 #WARN($000021B9, "@000021B9")
-
-#WARN($000021BC, "WARNME")

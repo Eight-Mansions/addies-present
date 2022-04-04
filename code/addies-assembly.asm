@@ -9,7 +9,7 @@
 	
 .org 0x80043224
 	;80043224 : ADDIU   800abc2e (a0), 800b0000 (v0), bc43 (48195),
-	addiu a0, v0, 0xbc48	; This is where it stores after the "0a" or newline.  It's hard coded... why?
+	addiu a0, v0, 0xbc4e	; This is where it stores after the "0a" or newline.  It's hard coded... why?
 
 .org 0x8005f880
 	j loadLetter
