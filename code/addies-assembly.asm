@@ -3,7 +3,14 @@
 
 .org 0x8004b9f8
 	nop		; Don't clear my good space
+
+.org 0x8005f9c4
+	nop		; Don't track the letter count here... we'll do it
 	
+.org 0x80043224
+	;80043224 : ADDIU   800abc2e (a0), 800b0000 (v0), bc43 (48195),
+	addiu a0, v0, 0xbc48	; This is where it stores after the "0a" or newline.  It's hard coded... why?
+
 .org 0x8005f880
 	j loadLetter
 
@@ -68,7 +75,7 @@ get_sentence_width_for_second_line:
 	
 loadLetter:
 	lbu    v0, 0(s2)
-	nop
+	addiu s3, s3, 1 
 	andi v1, v0, 0xFF
 	beq v1, t1, is_09 ; 0x09 is set to t1 when we jump to this code
     nop

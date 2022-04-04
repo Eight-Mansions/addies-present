@@ -305,7 +305,7 @@ Rotate 90‹ Right
 #WLB(PTR1, $000339C8)
 #WHB(PTR1, $000339C9)
 //%s%sè–Ú‚ÍA¶‚©‚ç%s—ñ–Ú‚Å\n
-s%s is %s rings from the left.\n
+%s%s is %s rings from the left.\n
 <$00>
 
 
@@ -317,7 +317,7 @@ s%s is %s rings from the left.\n
 #WLB(PTR1, $00033A6C)
 #WHB(PTR1, $00033A6D)
 //y%sz‚ğ‰Ÿ‚µ‚Äy%sz
-Press y%sz to y%sz!
+\nPress y%sz to y%sz!
 <$00>
 
 
