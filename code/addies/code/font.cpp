@@ -97,6 +97,27 @@ const u8 widths[] = {
 	0x0F // ~
 };
 
+u32 GetLetter(u8* text, u8* stackey)
+{
+	u32 increaseBy = 0;
+
+	u32 letter = text[0];
+	if (letter < 0x80 && letter >= 20)
+	{
+		letter += 0x823f;
+	}
+	else
+	{
+		letter = letter << 8 | text[1] & 0xFF;
+		increaseBy++;
+	}
+
+	stackey[0] = letter >> 8;
+	stackey[1] = letter & 0xFF;
+
+	return increaseBy;
+}
+
 int GetLetterWidth(const u32 letter)
 {
 	if (letter >= 0x10 && letter <= 80)

@@ -10,9 +10,15 @@
 .org 0x80043224
 	;80043224 : ADDIU   800abc2e (a0), 800b0000 (v0), bc43 (48195),
 	addiu a0, v0, 0xbc4e	; This is where it stores after the "0a" or newline.  It's hard coded... why?
+	
+.org 0x8005f970
+	jal LoadLetter
+	nop
+	
+.org 0x8005f984
+	;8005f984 a3a20011: sb     $v0(000000a4), 0x0011(sp)([807ff951] = 48)
+	nop	; I'm taking care of this in loadLetter
 
-.org 0x8005f880
-	j loadLetter
 
 .org 0x8005f9bc
 	;ADDU    0000001e (s0), 0000001e (s0), 0000000f (s5),
@@ -73,38 +79,17 @@ get_sentence_width_for_second_line:
 	j 0x8005f9c4
 	addu s0, r0, v0 ; It expects the length of the line in t1
 	
-loadLetter:
-	lbu    v0, 0(s2)
-	addiu s3, s3, 1 
-	andi v1, v0, 0xFF
-	beq v1, t1, is_09 ; 0x09 is set to t1 when we jump to this code
-    nop
-	addiu v0, r0, 0x0A
-	bne v1, v0, not_newline
-	addu a0, s6, r0
-	j 0x8005f8a0 ; Run newline code
-not_newline:
-	nop
-	sltiu  v0, v1, 0x0080
-	beq v0, r0, sjis
-	nop
-	addiu v1, v1, 0x823f
-	addu v0, r0, v1
-	srl v1, v1, 0x08
-	b done
-	sb v1, 0x10(sp)
-sjis:
-	addiu s3, s3, 1 ; Checks against length.  Increase again for SJIS
-	addiu s2, s2, 1 ; Increase again for SJIS
-	sb v1, 0x10(sp) ; Store regardless if "ascii" or sjis
-	lb v0, 0(s2)
-	;sb v0, 0x11(sp) ; This will execute when we jump back
-done:
-	j 0x8005f97c
-	nop
-is_09: ; I have NO IDEA what this is
-	j 0x8005f964
-	sb v0, 0x10(sp)
+	
+LoadLetter:
+	addu a0, r0, s2
+	jal GetLetter
+	addiu a1, sp, 0x10
+	
+	addu s2, s2, v0
+	addu s3, s3, v0
+	addu a0, r0, s6
+	j 0x8005f980
+	addiu a1, sp, 0x10
 
 cur_width:
 	.dw 0

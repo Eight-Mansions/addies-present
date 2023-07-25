@@ -10,6 +10,8 @@ extern "C" {
 	int GetSentenceWidth(const char* text, int length);
 
 	int GetYForCentering(const char* text, u32 length);
+
+	u32 GetLetter(u8* text, u8* stackey);
 }
 
 #endif

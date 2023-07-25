@@ -1,6 +1,12 @@
 del cd\addie_1.bin
 copy cd\orig\addie_1.bin cd\addie_1.bin
 
+pushd code\addies
+pmake -e RELMODE=DEBUG clean
+mkdir Debug
+pmake -e RELMODE=DEBUG -e OUTFILE=main -e OPTIMIZE=2
+popd
+
 del exe_error.txt
 del exe\SCPS_101.26
 copy exe\orig\SCPS_101.26 exe\SCPS_101.26
