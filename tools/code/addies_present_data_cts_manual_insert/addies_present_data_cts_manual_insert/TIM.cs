@@ -30,7 +30,7 @@ namespace timmer
         RECT crect;     /* CLUT rectangle on frame buffer */
         uint ccount;    /* number of cluts */
         ushort[] cdata; /* clut data */
-        List<int[]> colors;
+        List<int[]> acolors;
         List<CLOSEST> ccolors = new List<CLOSEST>();
         uint psize;     /* length of entire pixel block including psize */
         RECT prect;     /* texture image rectangle on frame buffer */
@@ -65,10 +65,10 @@ namespace timmer
             this.cdata = cdata;
             this.pdata = pdata;
 
-            colors = new List<int[]>();
+            acolors = new List<int[]>();
             for (int i = 0; i < cdata.Length; i++)
             {
-                colors.Add(ColorToArray(GetColor(cdata[i])));
+                acolors.Add(ColorToArray(RGBAToColor(cdata[i])));
             }
         }
 
@@ -169,39 +169,59 @@ namespace timmer
             return pdata;
         }
 
+        int GetIndexOfTransparentColor()
+        {
+            for (int i = 0; i < acolors.Count; i++)
+            {
+                if (acolors[i][3] == 0)
+                {
+                    return i;
+                }
+            }
+
+            return -1;
+        }
+
         int GetClosestColor(int[] targetColor)
         {
             for (int i = 0; i < ccolors.Count; i++)
             {
-                if (ccolors[i].icolor == ConvertColor(ArrayToColor(targetColor)))
+                if (ccolors[i].icolor == ColorToRGBA(ArrayToColor(targetColor)))
                 {
                     return ccolors[i].ccolor;
                 }
             }
            
             int closestColorIdx = 0;
-            double minDistance = GetRgbDistance(colors[0], targetColor);
-
-            for(int i = 0; i < colors.Count; i++)
+            if (targetColor[3] != 0)
             {
-                double distance = GetRgbDistance(colors[i], targetColor);
-                if (distance < minDistance)
+                double minDistance = GetRGBDistance(acolors[0], targetColor);
+
+                for (int i = 0; i < acolors.Count; i++)
                 {
-                    minDistance = distance;
-                    closestColorIdx = i;
+                    double distance = GetRGBDistance(acolors[i], targetColor);
+                    if (distance < minDistance)
+                    {
+                        minDistance = distance;
+                        closestColorIdx = i;
+                    }
                 }
+            }
+            else
+            {
+                closestColorIdx = GetIndexOfTransparentColor();
             }
 
             ccolors.Add(new CLOSEST()
             {
-                icolor = ConvertColor(ArrayToColor(targetColor)),
+                icolor = ColorToRGBA(ArrayToColor(targetColor)),
                 ccolor = closestColorIdx
             });
 
             return closestColorIdx;
         }
 
-        double GetRgbDistance(int[] color1, int[] color2)
+        double GetRGBDistance(int[] color1, int[] color2)
         {
             double sumSquared = 0;
             for (int i = 0; i < 3; i++)
@@ -243,7 +263,7 @@ namespace timmer
             return Color.FromArgb(c[3], c[0], c[1], c[2]);
         }
 
-        Color GetColor(int c)
+        Color RGBAToColor(int c)
         {
             int r = (c & 0x1f) << 3;
             int g = ((c & 0x3e0) >> 5) << 3;
@@ -253,7 +273,7 @@ namespace timmer
             return Color.FromArgb(a, r, g, b);
         }
 
-        ushort ConvertColor(Color color)
+        ushort ColorToRGBA(Color color)
         {
             int r = color.R >> 3;
             int g = color.G >> 3;
@@ -286,10 +306,10 @@ namespace timmer
                     {
                         pixel = pdata[pidx++];
                         ushort c = cdata[(i * 16) + (pixel & 0x0F)];
-                        image.SetPixel(x, y, GetColor(c));
+                        image.SetPixel(x, y, RGBAToColor(c));
 
                         c = cdata[(i * 16) + (pixel >> 4)];
-                        image.SetPixel(x + 1, y, GetColor(c));
+                        image.SetPixel(x + 1, y, RGBAToColor(c));
                     }
                 }
                 images.Add(image);
@@ -310,7 +330,7 @@ namespace timmer
                     {
                         byte pixel = pdata[pidx++];
                         ushort c = cdata[(i * 256) + pixel];
-                        image.SetPixel(x, y, GetColor(c));
+                        image.SetPixel(x, y, RGBAToColor(c));
                     }
                 }
                 images.Add(image);
@@ -342,7 +362,7 @@ namespace timmer
                 {
                     ushort pixel = pdata[pidx++];
                     pixel |= (ushort)(pdata[pidx++] << 8);
-                    image.SetPixel(x, y, GetColor(pixel));
+                    image.SetPixel(x, y, RGBAToColor(pixel));
                 }
             }
 
