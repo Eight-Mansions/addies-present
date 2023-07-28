@@ -14,7 +14,7 @@ tools\armips.exe code\addies-assembly.asm
 tools\atlas exe\SCPS_101.26 trans\SCPS_101.26.txt >> exe_error.txt
 
 del graphics\DATA.CTS
-tools\addies_present_data_cts_manual_insert graphics\orig\DATA.CTS  graphics\DATA.CTS graphics\data_cts
+tools\addies_present_data_cts_manual_insert.exe graphics\orig\DATA.CTS graphics\DATA.CTS graphics\DATA_CTS
 
 tools\addie_font_insert.exe graphics\font\uppercase.bin graphics\font\upper.tbl 8260 9D graphics\DATA.CTS
 tools\addie_font_insert.exe graphics\font\lowercase.bin graphics\font\lower.tbl 8281 B7 graphics\DATA.CTS
