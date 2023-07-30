@@ -841,8 +841,8 @@ You're acting strange today.
 <$00>
 
 // PTR : 00000C88
-#WLB(PTR2, $0000C67C)
-#WHB(PTR2, $0000C67D)
+#WLB(PTR2, $0000C680)
+#WHB(PTR2, $0000C681)
 #WBB(PTR2, $0000C678)
 #WUB(PTR2, $0000C679)
 //ÅcÇøÇÂÇ¡Ç∆ÇµÇ®ÇÍÇƒÇ´ÇΩÇ©Ç‡
