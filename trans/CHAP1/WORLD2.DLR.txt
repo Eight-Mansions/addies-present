@@ -62,7 +62,7 @@ Were you talking\nto me?
 
 // PTR : 000006E0
 #WRITE(PTR, $00000930)
-女の子に声をかけて\nもらえるのは光栄だけど
+//女の子に声をかけて\nもらえるのは光栄だけど
 I'm flattered a\ngirl would stop by.
 <$00>
 
@@ -319,8 +319,8 @@ There's no rush today.
 <$00>
 
 // PTR : 000002F0
-#WLB(PTR1, $00002BB0)
-#WHB(PTR1, $00002BB1)
+#WLB(PTR1, $00002BB4)
+#WHB(PTR1, $00002BB5)
 #WBB(PTR1, $00002BAC)
 #WUB(PTR1, $00002BAD)
 //僕ら、出会ったばかりだよ。アディ
@@ -341,7 +341,7 @@ Why were you trapped\nin that cage?
 #WHB(PTR1, $00002C01)
 #WBB(PTR1, $00002BFC)
 #WUB(PTR1, $00002BFD)
-意地悪な人にね、無理矢理だよ
+//意地悪な人にね、無理矢理だよ
 A certain buzzkill\nthrew me in there.
 <$00>
 
