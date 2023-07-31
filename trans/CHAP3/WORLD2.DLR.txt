@@ -916,10 +916,10 @@ There are right\nand left wings.
 <$00>
 
 // PTR : 000018D8
-#WLB(PTR2, $00009DB0)
-#WHB(PTR2, $00009DB1)
-#WBB(PTR2, $00009DAC)
-#WUB(PTR2, $00009DAD)
+#WLB(PTR1, $00009DB4)
+#WHB(PTR1, $00009DB5)
+#WBB(PTR1, $00009DAC)
+#WUB(PTR1, $00009DAD)
 //言っておくけど、ジョーカがどちらに\n行ったかなんて知らないわよ
 But who knows\nwhich one Joka's in!
 <$00>

@@ -138,16 +138,6 @@ On hold for right now.
 I need to find Eliza.
 <$00>
 
-// PTR : 00000660
-#WRITE(PTR, $000006C0)
-#WRITE(PTR, $000006C4)
-#WRITE(PTR, $000006C8)
-#WRITE(PTR, $0000089C)
-#WRITE(PTR, $000008A0)
-#WRITE(PTR, $000008A4)
-　
-<$00>
-
 // PTR : 00000820
 #WRITE(PTR, $000008A8)
 //わかった\nイライザ、だな
@@ -564,19 +554,19 @@ It might pay to\nhelp the Laundry Bros.
 <$00>
 
 // PTR : 0000093C
-#WLB(PTR2, $00005A00)
-#WHB(PTR2, $00005A01)
-#WBB(PTR2, $000059FC)
-#WUB(PTR2, $000059FD)
+#WLB(PTR1, $00005A04)
+#WHB(PTR1, $00005A05)
+#WBB(PTR1, $000059FC)
+#WUB(PTR1, $000059FD)
 //冷やかしはゴメンだ\n出ていきな
 Sorry for loitering.\nI'll go.
 <$00>
 
 // PTR : 0000095C
-#WLB(PTR2, $00005AC4)
-#WHB(PTR2, $00005AC5)
-#WBB(PTR2, $00005AC0)
-#WUB(PTR2, $00005AC1)
+#WLB(PTR1, $00005AC8)
+#WHB(PTR1, $00005AC9)
+#WBB(PTR1, $00005AC0)
+#WUB(PTR1, $00005AC1)
 //まかせときなって！
 Leave it to us!
 <$00>
@@ -609,10 +599,10 @@ We saw Joka!\nHe was leaving town!
 <$00>
 
 // PTR : 000009FC
-#WLB(PTR2, $00005C48)
-#WHB(PTR2, $00005C49)
-#WBB(PTR2, $00005C44)
-#WUB(PTR2, $00005C45)
+#WLB(PTR1, $00005C4C)
+#WHB(PTR1, $00005C4D)
+#WBB(PTR1, $00005C44)
+#WUB(PTR1, $00005C45)
 //…あなたは何をやってるの？
 What are you doing?
 <$00>
@@ -627,19 +617,19 @@ The road of the laundryman\nis indeed a long one.
 <$00>
 
 // PTR : 00000A3C
-#WLB(PTR2, $00005CF0)
-#WHB(PTR2, $00005CF1)
-#WBB(PTR2, $00005CEC)
-#WUB(PTR2, $00005CED)
+#WLB(PTR1, $00005CF4)
+#WHB(PTR1, $00005CF5)
+#WBB(PTR1, $00005CEC)
+#WUB(PTR1, $00005CED)
 //…ところで、\nリノはどこへ行ったんだろうな…
 Hey, any idea\nwhere Reno went?
 <$00>
 
 // PTR : 00000A68
-#WLB(PTR2, $00005D84)
-#WHB(PTR2, $00005D85)
-#WBB(PTR2, $00005D80)
-#WUB(PTR2, $00005D81)
+#WLB(PTR1, $00005D88)
+#WHB(PTR1, $00005D89)
+#WBB(PTR1, $00005D80)
+#WUB(PTR1, $00005D81)
 //悪いね、あねご\n今のところイケているネタはないよ
 Sorry, Addie-o.\nNo news yet.
 <$00>
@@ -852,46 +842,46 @@ I'll bet Den\nknows something.
 <$00>
 
 // PTR : 00000F5C
-#WLB(PTR2, $00007860)
-#WHB(PTR2, $00007861)
-#WBB(PTR2, $0000785C)
-#WUB(PTR2, $0000785D)
+#WLB(PTR1, $00007864)
+#WHB(PTR1, $00007865)
+#WBB(PTR1, $0000785C)
+#WUB(PTR1, $0000785D)
 //俺たちにも…\nまたチャンスをくれよな
 Come on...\nGive us another chance!
 <$00>
 
 // PTR : 00001124
-#WLB(PTR2, $000084C4)
-#WHB(PTR2, $000084C5)
-#WBB(PTR2, $000084C0)
-#WUB(PTR2, $000084C1)
+#WLB(PTR1, $000084C8)
+#WHB(PTR1, $000084C9)
+#WBB(PTR1, $000084C0)
+#WUB(PTR1, $000084C1)
 //石けん
 Soap
 <$00>
 
 // PTR : 000011D8
-#WLB(PTR2, $000087CC)
-#WHB(PTR2, $000087CD)
-#WBB(PTR2, $000087C8)
-#WUB(PTR2, $000087C9)
+#WLB(PTR1, $000087D0)
+#WHB(PTR1, $000087D1)
+#WBB(PTR1, $000087C8)
+#WUB(PTR1, $000087C9)
 //シーツ
 Sheet
 <$00>
 
 // PTR : 00001334
-#WLB(PTR2, $00008FD4)
-#WHB(PTR2, $00008FD5)
-#WBB(PTR2, $00008FD0)
-#WUB(PTR2, $00008FD1)
+#WLB(PTR1, $00008FD8)
+#WHB(PTR1, $00008FD9)
+#WBB(PTR1, $00008FD0)
+#WUB(PTR1, $00008FD1)
 //おむつ
 Diaper
 <$00>
 
 // PTR : 000014B4
-#WLB(PTR2, $000097BC)
-#WHB(PTR2, $000097BD)
-#WBB(PTR2, $000097B8)
-#WUB(PTR2, $000097B9)
+#WLB(PTR1, $000097C0)
+#WHB(PTR1, $000097C1)
+#WBB(PTR1, $000097B8)
+#WUB(PTR1, $000097B9)
 //マント
 Mantle
 <$00>
@@ -1005,14 +995,6 @@ Wino's holding fort at\nthe laundromat. Must be tough.
 #WUB(PTR2, $0000A9AD)
 //ランドリー・奥
 Laundromat
-<$00>
-
-// PTR : 00001B54
-#WLB(PTR2, $0000B934)
-#WHB(PTR2, $0000B935)
-#WBB(PTR2, $0000B930)
-#WUB(PTR2, $0000B931)
-・
 <$00>
 
 // PTR : 00001BC4

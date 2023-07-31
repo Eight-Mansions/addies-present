@@ -876,14 +876,6 @@ Don't blame these weaklings\ntoo hard now, Addie.
 Left Wing Writing Room
 <$00>
 
-// PTR : 00001910
-#WLB(PTR2, $0000D560)
-#WHB(PTR2, $0000D561)
-#WBB(PTR2, $0000D55C)
-#WUB(PTR2, $0000D55D)
-・
-<$00>
-
 // PTR : 0000197C
 #WLB(PTR2, $0000D8D0)
 #WHB(PTR2, $0000D8D1)
@@ -939,10 +931,10 @@ Weird. It won't open.
 <$00>
 
 // PTR : 00001B14
-#WLB(PTR2, $0000F0B0)
-#WHB(PTR2, $0000F0B1)
-#WBB(PTR2, $0000F0AC)
-#WUB(PTR2, $0000F0AD)
+#WLB(PTR1, $0000F0B4)
+#WHB(PTR1, $0000F0B5)
+#WBB(PTR1, $0000F0AC)
+#WUB(PTR1, $0000F0AD)
 //スパンコール
 Spangle
 <$00>
@@ -1025,10 +1017,10 @@ I want this\ndoor opened.
 <$00>
 
 // PTR : 00001CF0
-#WLB(PTR2, $0000FA18)
-#WHB(PTR2, $0000FA19)
-#WBB(PTR2, $0000FA14)
-#WUB(PTR2, $0000FA15)
+#WLB(PTR1, $0000FA1C)
+#WHB(PTR1, $0000FA1D)
+#WBB(PTR1, $0000FA14)
+#WUB(PTR1, $0000FA15)
 //まだなのかしら？
 Are you not done?
 <$00>

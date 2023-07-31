@@ -228,10 +228,10 @@ so maybe head\nback to the bar.
 <$00>
 
 // PTR : 000005C4
-#WLB(PTR2, $00001F04)
-#WHB(PTR2, $00001F05)
-#WBB(PTR2, $00001F00)
-#WUB(PTR2, $00001F01)
+#WLB(PTR1, $00001F08)
+#WHB(PTR1, $00001F09)
+#WBB(PTR1, $00001F00)
+#WUB(PTR1, $00001F01)
 //ïûÇ™Ç≈Ç´ÇÈÇ‹Ç≈\nè≠Çµë“Ç¬Ç±Ç∆Ç…ÅB
 It'll still be a wait\nbefore the clothes are done.
 <$00>

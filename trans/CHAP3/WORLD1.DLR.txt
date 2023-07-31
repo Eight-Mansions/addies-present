@@ -1281,19 +1281,11 @@ It's sort of deserted.
 This is the terrace cafe.
 <$00>
 
-// PTR : 00002300
-#WLB(PTR2, $0000EE2C)
-#WHB(PTR2, $0000EE2D)
-#WBB(PTR2, $0000EE28)
-#WUB(PTR2, $0000EE29)
-ÅE
-<$00>
-
 // PTR : 00002664
-#WLB(PTR2, $0000F5DC)
-#WHB(PTR2, $0000F5DD)
-#WBB(PTR2, $0000F5D8)
-#WUB(PTR2, $0000F5D9)
+#WLB(PTR1, $0000F5E0)
+#WHB(PTR1, $0000F5E1)
+#WBB(PTR1, $0000F5D8)
+#WUB(PTR1, $0000F5D9)
 //Ç‚ÇÈãCÇ…Ç»Ç¡ÇƒÇ≠ÇÍÇΩÇÃÇ©ÇµÇÁÅH
 Are you inspired now?
 <$00>

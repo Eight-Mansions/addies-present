@@ -683,14 +683,14 @@ I don't understand\nthem fully either.
 <$00>
 
 // PTR : 0000232C
-#WLB(PTR2, $0000A820)
-#WHB(PTR2, $0000A821)
-#WBB(PTR2, $0000A81C)
-#WUB(PTR2, $0000A81D)
-#WLB(PTR2, $0000DB34)
-#WHB(PTR2, $0000DB35)
-#WBB(PTR2, $0000DB30)
-#WUB(PTR2, $0000DB31)
+#WLB(PTR1, $0000A824)
+#WHB(PTR1, $0000A825)
+#WBB(PTR1, $0000A81C)
+#WUB(PTR1, $0000A81D)
+#WLB(PTR1, $0000DB38)
+#WHB(PTR1, $0000DB39)
+#WBB(PTR1, $0000DB30)
+#WUB(PTR1, $0000DB31)
 //äXÇÕè‡òOÇÃå¸Ç±Ç§ë§ÇæÇÊÅBëÅÇ≠çsÇ±Ç§
 The town's just across.\nLet's hurry.
 <$00>
@@ -780,10 +780,10 @@ Bell Tower Basement
 <$00>
 
 // PTR : 0000221C
-#WLB(PTR2, $00012000)
-#WHB(PTR2, $00012001)
-#WBB(PTR2, $00011FFC)
-#WUB(PTR2, $00011FFD)
+#WLB(PTR1, $00012004)
+#WHB(PTR1, $00012005)
+#WBB(PTR1, $00011FFC)
+#WUB(PTR1, $00011FFD)
 //à√Ç≠ÇƒêÊÇ™ÇÊÇ≠å©Ç¶Ç»Ç¢ÇÌÅc
 It's dark.\nI can't see too well.
 <$00>

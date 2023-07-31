@@ -446,16 +446,6 @@ A laundromat's\nbound to have buttons.
 I'm back, but...
 <$00>
 
-// PTR : 00001540
-#WRITE(PTR, $00001618)
-#WRITE(PTR, $0000161C)
-#WRITE(PTR, $00001620)
-#WRITE(PTR, $0000181C)
-#WRITE(PTR, $00001820)
-#WRITE(PTR, $00001824)
-　
-<$00>
-
 // PTR : 00001700
 #WRITE(PTR, $00001828)
 //なんだって？　しばらく先？
@@ -881,19 +871,12 @@ When Pia has\neverything she needs,
 she works very quickly!
 <$00>
 
-// PTR : 00001160
-#WLB(PTR2, $00006F28)
-#WHB(PTR2, $00006F29)
-#WBB(PTR2, $00006F24)
-#WUB(PTR2, $00006F25)
-・
-<$00>
 
 // PTR : 00001470
-#WLB(PTR2, $00007980)
-#WHB(PTR2, $00007981)
-#WBB(PTR2, $0000797C)
-#WUB(PTR2, $0000797D)
+#WLB(PTR1, $00007984)
+#WHB(PTR1, $00007985)
+#WBB(PTR1, $0000797C)
+#WUB(PTR1, $0000797D)
 //糸巻き
 Bobbin
 <$00>

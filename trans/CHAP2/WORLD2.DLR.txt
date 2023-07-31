@@ -430,14 +430,6 @@ Oh dear...
 You'll be fine.\nI'm only sayin'.
 <$00>
 
-// PTR : 00001D9C
-#WRITE(PTR, $00001DC4)
-#WRITE(PTR, $00001DC8)
-#WRITE(PTR, $00001DCC)
-#WRITE(PTR, $00001DD8)
-　
-<$00>
-
 // PTR : 00001E38
 #WRITE(PTR, $00001F24)
 //あ、アディのあねご
@@ -732,8 +724,8 @@ All I know is,\nin Copper Town...
 <$00>
 
 // PTR : 0000041C
-#WLB(PTR1, $00004858)
-#WHB(PTR1, $00004859)
+#WLB(PTR1, $0000485C)
+#WHB(PTR1, $0000485D)
 #WBB(PTR1, $00004854)
 #WUB(PTR1, $00004855)
 //歩き回って疲れちゃったな\n美術館で涼んでいかない？
@@ -741,8 +733,8 @@ It's getting hot. Let's\ncool off in the museum.
 <$00>
 
 // PTR : 0000046C
-#WLB(PTR1, $00004B4C)
-#WHB(PTR1, $00004B4D)
+#WLB(PTR1, $00004B50)
+#WHB(PTR1, $00004B51)
 #WBB(PTR1, $00004B48)
 #WUB(PTR1, $00004B49)
 //ここは行き止まりさ。もう戻ろうよ
@@ -750,12 +742,12 @@ A dead end.\nLet's go back.
 <$00>
 
 // PTR : 00000450
-#WLB(PTR1, $00004A10)
-#WHB(PTR1, $00004A11)
+#WLB(PTR1, $00004A14)
+#WHB(PTR1, $00004A15)
 #WBB(PTR1, $00004A0C)
 #WUB(PTR1, $00004A0D)
-#WLB(PTR1, $0001173C)
-#WHB(PTR1, $0001173D)
+#WLB(PTR1, $00011740)
+#WHB(PTR1, $00011741)
 #WBB(PTR1, $00011738)
 #WUB(PTR1, $00011739)
 //もうこの辺は街のはずれだよ
@@ -1291,14 +1283,14 @@ But that's an\nuphill struggle.
 <$00>
 
 // PTR : 00000490
-#WLB(PTR2, $00004C60)
-#WHB(PTR2, $00004C61)
-#WBB(PTR2, $00004C5C)
-#WUB(PTR2, $00004C5D)
-#WLB(PTR2, $00011854)
-#WHB(PTR2, $00011855)
-#WBB(PTR2, $00011850)
-#WUB(PTR2, $00011851)
+#WLB(PTR1, $00004C64)
+#WHB(PTR1, $00004C65)
+#WBB(PTR1, $00004C5C)
+#WUB(PTR1, $00004C5D)
+#WLB(PTR1, $00011858)
+#WHB(PTR1, $00011859)
+#WBB(PTR1, $00011850)
+#WUB(PTR1, $00011851)
 //大通りのほうに戻りたいな
 I'd like to get\nback to Main Street.
 <$00>
