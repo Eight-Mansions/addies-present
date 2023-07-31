@@ -93,6 +93,8 @@ namespace addies_present_data_cts_manual_insert
                 if (File.Exists(entry.outdir + "\\" + entry.filename + ".png"))
                 {
                     cts.BaseStream.Seek(entry.actualOffset * 0x800, SeekOrigin.Begin);
+                 
+                    // Insert left image
                     ushort width = 146;
                     ushort height = 193;
                     ushort[] cdata = new ushort[0x100];
@@ -106,6 +108,24 @@ namespace addies_present_data_cts_manual_insert
 
                     TIM tim = new TIM(1, 1, width, height, cdata, pdata);
                     tim.ImportImage(entry.outdir + "\\" + entry.filename + ".png");
+
+                    outcts.BaseStream.Seek(curPos, SeekOrigin.Begin);
+                    outcts.Write(tim.GetPixelData());
+
+                    cts.ReadUInt16();
+
+                    // Insert right image
+                    cdata = new ushort[0x100];
+                    for (int i = 0; i < cdata.Length; i++)
+                    {
+                        cdata[i] = cts.ReadUInt16();
+                    }
+
+                    curPos = cts.BaseStream.Position;
+                    pdata = cts.ReadBytes(0x6E12);
+
+                    tim = new TIM(1, 1, width, height, cdata, pdata);
+                    tim.ImportImage(entry.outdir + "\\" + entry.filename + ".R.png");
 
                     outcts.BaseStream.Seek(curPos, SeekOrigin.Begin);
                     outcts.Write(tim.GetPixelData());

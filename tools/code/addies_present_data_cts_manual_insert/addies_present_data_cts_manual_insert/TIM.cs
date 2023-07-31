@@ -124,6 +124,7 @@ namespace timmer
                 for (int i = 0; i < cdata.Length; i++)
                 {
                     cdata[i] = aTim.ReadUInt16();
+                    acolors.Add(ColorToArray(RGBAToColor(cdata[i])));
                 }
             }
 
@@ -159,8 +160,6 @@ namespace timmer
                 truepsize = (uint)((prect.w * prect.h) * 3);
             }
 
-            Console.WriteLine("Warning psize != truepsize!");
-
             pdata = aTim.ReadBytes((int)truepsize);
         }
 
@@ -182,6 +181,7 @@ namespace timmer
             return -1;
         }
 
+        // Thanks Hilltop for helping me with code!
         int GetClosestColor(int[] targetColor)
         {
             for (int i = 0; i < ccolors.Count; i++)
