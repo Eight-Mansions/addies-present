@@ -93,31 +93,31 @@ I'll show you!
 
 // PTR : 00000A0C
 #WRITE(PTR, $00000A88)
-よ、最近よくうろついてる嬢ちゃん
+//よ、最近よくうろついてる嬢ちゃん
 Yo, you've been loitering here\na lot lately, young lady.
 <$00>
 
 // PTR : 00000A30
 #WRITE(PTR, $00000A8C)
-男でも探してんのかい？
+//男でも探してんのかい？
 Ya searching for a man perhaps?
 <$00>
 
 // PTR : 00000A48
 #WRITE(PTR, $00000A90)
-うるさいわね！
+//うるさいわね！
 Ugh, buzz off!
 <$00>
 
 // PTR : 00000A58
 #WRITE(PTR, $00000A94)
-おっ、図星だねぇ？
+//おっ、図星だねぇ？
 Oh-ho, was I right?
 <$00>
 
 // PTR : 00000A6C
 #WRITE(PTR, $00000A98)
-嫌われたねぇ、ケッケッケッ
+//嫌われたねぇ、ケッケッケッ
 Aww, she hates me.\nHehehe.
 <$00>
 
