@@ -1779,7 +1779,7 @@ Why do so many of these\nneed fixing all the time?
 #WHB(PTR1, $0001751D)
 #WBB(PTR1, $00017514)
 #WUB(PTR1, $00017515)
-•Â‚Ü‚Á‚Ä‚é‚í‚Ë
+//•Â‚Ü‚Á‚Ä‚é‚í‚Ë
 It's closed.
 <$00>
 

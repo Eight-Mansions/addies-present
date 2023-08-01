@@ -583,7 +583,7 @@ If you value\nyour life,
 // PTR : 00002618
 #WRITE(PTR, $000026AC)
 //洗濯物をよこすんだね
-you'll cough up\nyourlaundry.
+you'll cough up\nyour laundry.
 <$00>
 
 // PTR : 00002630
@@ -600,7 +600,7 @@ My...laundry?
 
 // PTR : 0000264C
 #WRITE(PTR, $000026B8)
-なあ、汚れてるんだろ？\nはっきりしろよ！
+//なあ、汚れてるんだろ？\nはっきりしろよ！
 Yeah, your clothes\nare clearly dirty!
 <$00>
 

@@ -250,7 +250,7 @@ Hmph!
 
 // PTR : 000015B0
 #WRITE(PTR, $00001904)
-するとお前さんは、
+//するとお前さんは、
 If you were there with him,
 <$00>
 
