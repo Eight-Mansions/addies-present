@@ -2533,3 +2533,46 @@ but they've been doing\nsurprisingly well, regardless.
 Rather, I should be careful\nnot to overwater them.
 <$00>
 
+// PTR
+#JMP($000001E4)
+"Cow"
+<$00>
+
+// PTR
+#JMP($00000200)
+"Cat"
+<$00>
+
+// PTR
+#JMP($00000358)
+"Cow"
+<$00>
+
+// PTR
+#JMP($00000374)
+"Cow"
+<$00>
+
+#JMP($00000B80)
+Rope
+<$00>
+
+#JMP($00000B94)
+Rose
+<$00>
+
+#JMP($0000198C)
+Bucket
+<$00>
+
+#JMP($000019A8)
+Barrel
+<$00>
+
+#JMP($00002854)
+Toilet
+<$00>
+
+//#JMP($00002868)
+//Spring
+//<$00>
