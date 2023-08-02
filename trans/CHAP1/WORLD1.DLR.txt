@@ -787,3 +787,12 @@ Bell Tower Basement
 //ˆÃ‚­‚Äæ‚ª‚æ‚­Œ©‚¦‚È‚¢‚íc
 It's dark.\nI can't see too well.
 <$00>
+
+// PTR : 0000221C
+#WLB(PTR1, $000089D8)
+#WHB(PTR1, $000089D9)
+#WBB(PTR1, $0000883C)
+#WUB(PTR1, $0000883D)
+//‹C•ª‚ª—Ž‚¿’…‚­‚Æ‚±‚ë‚¾‚í
+‹C•ª‚ª—Ž‚¿’…‚­‚Æ‚±‚ë‚¾‚í
+<$00>
