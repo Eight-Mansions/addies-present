@@ -1520,3 +1520,41 @@ The girl named Eliza\nstrongly resembles Emmy.
 Funny enough, she's also\nJoka's little sister!
 <$00>
 
+// PTR : 00001258
+#WLB(PTR1, $00015410)
+#WHB(PTR1, $00015411)
+#WBB(PTR1, $00015408)
+#WUB(PTR1, $00015409)
+#WLB(PTR1, $00015410)
+#WHB(PTR1, $00015411)
+#WBB(PTR1, $00015408)
+#WUB(PTR1, $00015409)
+//喫茶テラス\nご利用ください
+喫茶テラス\nご利用ください
+<$00>
+
+// PTR : 00000DB0
+#WLB(PTR1, $00015144)
+#WHB(PTR1, $00015145)
+#WBB(PTR1, $0001513C)
+#WUB(PTR1, $0001513D)
+#WLB(PTR1, $00015144)
+#WHB(PTR1, $00015145)
+#WBB(PTR1, $0001513C)
+#WUB(PTR1, $0001513D)
+//美術館入口\nこの先右手
+美術館入口\nこの先右手
+<$00>
+
+// PTR : 000007C4
+#WLB(PTR1, $00014C9C)
+#WHB(PTR1, $00014C9D)
+#WBB(PTR1, $00014C94)
+#WUB(PTR1, $00014C95)
+#WLB(PTR1, $00014C9C)
+#WHB(PTR1, $00014C9D)
+#WBB(PTR1, $00014C94)
+#WUB(PTR1, $00014C95)
+//←：美術館入口　美術館裏口：→\n↓：図書館
+←：美術館入口　美術館裏口：→\n↓：図書館
+<$00>

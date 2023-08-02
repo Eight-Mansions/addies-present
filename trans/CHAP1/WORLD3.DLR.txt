@@ -1855,3 +1855,16 @@ It's a fine place for catching  fresh air.
 //登るな！\n＊私有地＊
 "Private Property\nNo Trespassing!"
 <$00>
+
+// PTR : 00000DB4
+#WLB(PTR1, $00015A00)
+#WHB(PTR1, $00015A01)
+#WBB(PTR1, $000159F8)
+#WUB(PTR1, $000159F9)
+#WLB(PTR1, $00015A00)
+#WHB(PTR1, $00015A01)
+#WBB(PTR1, $000159F8)
+#WUB(PTR1, $000159F9)
+//←：岬の街　↑：墓地
+←：岬の街　↑：墓地
+<$00>
