@@ -1088,15 +1088,6 @@ Wooo!\nIt's working!
 
 #VAR(PTR3, CUSTOMPOINTER)
 #CREATEPTR(PTR3, "LINEAR", -2148367224, 32)
-// PTR : 00001940
-#WLB(PTR3, $00003514)
-#WHB(PTR3, $00003515)
-#WBB(PTR3, $00003510)
-#WUB(PTR3, $00003511)
-//を見てくる！
-, check it out!
-<$00>
-
 // PTR : 00001810
 #WLB(PTR3, $0000A408)
 #WHB(PTR3, $0000A409)
@@ -1109,21 +1100,3 @@ Wooo!\nIt's working!
 //ここだけの話、ランドリーを\n直してくれてほんとに助かったよ
 You really helped\nus out here.
 <$00>
-
-// PTR : 00001924
-#WLB(PTR3, $00006D8C)
-#WHB(PTR3, $00006D8D)
-#WBB(PTR3, $00006D88)
-#WUB(PTR3, $00006D89)
-#WLB(PTR3, $0000A94C)
-#WHB(PTR3, $0000A94D)
-#WBB(PTR3, $0000A948)
-#WUB(PTR3, $0000A949)
-#WLB(PTR3, $0000D1C4)
-#WHB(PTR3, $0000D1C5)
-#WBB(PTR3, $0000D1C0)
-#WUB(PTR3, $0000D1C1)
-//ントだ！動いた！
-There! It's moving!
-<$00>
-
