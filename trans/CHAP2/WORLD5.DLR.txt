@@ -121,13 +121,13 @@ The musical instruments\nall around the bar.
 // PTR : 0000068C
 #WRITE(PTR, $000007A0)
 ステージも楽屋もこの通りよ
-I want you to\nuse the Loglock
+I want you to\nuse the Loglock.
 <$00>
 
 // PTR : 000006A8
 #WRITE(PTR, $000007A4)
 //これを、ログロックで\n直してほしいの
-and return the objects\nin this room to normal.
+Turn the objects in\nthis room back to normal.
 <$00>
 
 // PTR : 000006CC
@@ -139,7 +139,7 @@ This is a lot of stuff.
 // PTR : 000006E0
 #WRITE(PTR, $000007AC)
 //全部直さなくてもいいけど、
-You don't have to\nfix everything,
+You don't have\nto fix everything,
 <$00>
 
 // PTR : 000006FC
@@ -364,7 +364,7 @@ For my birthday,\nof course.
 // PTR : 00000D68
 #WRITE(PTR, $00000EAC)
 //私は、ジョーカを探しに…
-I've been looking for Joka...
+I've been looking for Joka.
 <$00>
 
 // PTR : 00000D84
@@ -449,7 +449,7 @@ I'm back, but...
 // PTR : 00001700
 #WRITE(PTR, $00001828)
 //なんだって？　しばらく先？
-What?\nThere's a holdup?!
+What? There's a holdup?!
 <$00>
 
 // PTR : 0000171C
@@ -467,13 +467,13 @@ I've got a concert soon.
 // PTR : 00001758
 #WRITE(PTR, $00001834)
 //うーん…マスター\nなにかいらないものはない？
-Then can I help\nwith cleanup?
+Can I help\nwith cleanup?
 <$00>
 
 // PTR : 00001784
 #WRITE(PTR, $00001838)
 //いらないもの？　なんでまた
-Cleanup?\nWell, I guess.
+Cleanup?\nUhm, I guess.
 <$00>
 
 // PTR : 000017A0
@@ -552,7 +552,7 @@ Eliza, can I borrow\nyour library card?
 // PTR : 00001CEC
 #WRITE(PTR, $00001D84)
 //いやよ、なくされたら大変
-And lose it?\nNo way!
+And lose it?\nAs if!
 <$00>
 
 // PTR : 00001D08
@@ -636,13 +636,13 @@ Go to the tailor at\nthe end of the alley.
 // PTR : 00002188
 #WRITE(PTR, $000021E4)
 //注文してある服をとってくるんだ
-Speak to Pia and\npick up my commission.
+Speak to Pia and\npick up my clothes.
 <$00>
 
 // PTR : 000021A8
 #WRITE(PTR, $000021E8)
 //いいか、服だ。たのんだぞ
-Fetch my clothes,\nand I'll talk.
+It's a commission.\nFetch it,and I'll talk.
 <$00>
 
 // PTR : 0000239C
@@ -666,7 +666,7 @@ Oh, sorry!\nI came to ask about...
 // PTR : 000023F4
 #WRITE(PTR, $0000246C)
 //おれは今、忙しいんだ\nこうるさい小娘のおかげでな
-I've had enough fussy\ngirls for one day.
+I've heard enough fussy\ngirls for one day.
 <$00>
 
 // PTR : 00002424
@@ -859,7 +859,7 @@ It's almost showtime!
 #WBB(PTR2, $000064B4)
 #WUB(PTR2, $000064B5)
 ボタンを手に入れたら
-When Pia has\neverything she needs,
+When Pia has materials,
 <$00>
 
 // PTR : 00000B38
@@ -986,7 +986,7 @@ What on earth\nare you doing?
 #WBB(PTR2, $00008A64)
 #WUB(PTR2, $00008A65)
 //まただめなんて…
-Still no good...
+Still no good.
 <$00>
 
 // PTR : 00001934

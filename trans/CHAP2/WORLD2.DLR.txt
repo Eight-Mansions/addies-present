@@ -39,7 +39,7 @@ Oh, just this worm.\nWanna see?
 // PTR : 00000724
 #WRITE(PTR, $00000748)
 //え！　ミミズ？
-Oh! Okay?
+A worm, but no line?
 //worm - line
 <$00>
 
@@ -88,7 +88,7 @@ I just want to talk.
 // PTR : 00000B1C
 #WRITE(PTR, $00000BA0)
 //私を紹介してくれない？
-Could you\nintroduce me?
+Could you introduce me?
 <$00>
 
 // PTR : 00000B34
@@ -130,13 +130,13 @@ Hang on, I heard\nJoka was around here!
 // PTR : 00000C40
 #WRITE(PTR, $00000CB4)
 //こっちには来てないよ！
-No, haven't seen him,\nbut I've gotta run.
+Nope, haven't seen him.\nBut I've gotta run...
 <$00>
 
 // PTR : 00000C58
 #WRITE(PTR, $00000CB8)
 //今、人手が足りなくて\nてんてこまいなんだよ！　じゃ！
-We've got loads of\nwork to do. Ciao!
+Got loads of work to do.\nCiao!
 <$00>
 
 // PTR : 00000C8C
@@ -184,13 +184,13 @@ Me? Nah.
 // PTR : 00000F30
 #WRITE(PTR, $00001134)
 //それよりも…
-But really, Addie?
+But seriously, Addie?
 <$00>
 
 // PTR : 00000F40
 #WRITE(PTR, $00001138)
 //あのズーじいさんと\n仲良くしてるんだってね？
-Are you really friends\nwith Zoo now?
+You're working wit Zoo,h\nof all people?
 <$00>
 
 // PTR : 00000F6C
@@ -202,7 +202,7 @@ Why do you care?
 // PTR : 00000F84
 #WRITE(PTR, $00001140)
 //まあね
-Guess I don't.
+...Guess I don't.
 <$00>
 
 // PTR : 00000F94
@@ -226,13 +226,13 @@ The music box that\nturns the world back.
 // PTR : 00001008
 #WRITE(PTR, $00001154)
 //どういうこ…
-The end of the...
+To the end of the...
 <$00>
 
 // PTR : 00001018
 #WRITE(PTR, $00001158)
 //ちょっと！なにやってるのよ！？
-Hold on!\nWhat are doing?!
+Hold on!\nWhat are you doing?!
 <$00>
 
 // PTR : 00001038
@@ -250,13 +250,13 @@ Can't you tell?
 // PTR : 00001078
 #WRITE(PTR, $00001164)
 //だから見たくないのっ！
-Not if I'm/nnot looking!
+Not if I'm not looking!
 <$00>
 
 // PTR : 00001090
 #WRITE(PTR, $00001168)
 //どうしてそこで脱ぐのよ？！
-Are you really doing\nthat out here?!
+Still, you're doing\nthat out HERE?!
 <$00>
 
 // PTR : 000010AC
@@ -274,13 +274,13 @@ I change quick.
 // PTR : 000010D4
 #WRITE(PTR, $00001174)
 //まったく…
-Ick, boys...
+Ick! Boys...
 <$00>
 
 // PTR : 000010E0
 #WRITE(PTR, $00001178)
 //どういう神経してるのよ…
-They never have\nany shame.
+They have no shame.
 <$00>
 
 // PTR : 000010FC
@@ -336,7 +336,7 @@ Nope! (Chomp!)
 // PTR : 00001844
 #WRITE(PTR, $000018E8)
 //あなたが今食べてるのは、なに？
-What are you\neating? Cookies?
+What are you eating?\nCookies?
 <$00>
 
 // PTR : 00001864
@@ -367,7 +367,7 @@ Ugh, fine...\nBon appetit!
 // PTR : 00001968
 #WRITE(PTR, $00001990)
 //勘弁してくれない？
-Will you ever\nforgive me?
+Can you ever forgive me?
 <$00>
 
 // PTR : 0000197C
@@ -457,7 +457,7 @@ That's what I promised\nmy big brother.
 // PTR : 00001EB4
 #WRITE(PTR, $00001F34)
 //どうしよう、おれ…\n今晩も晩メシ抜きかも
-What'll I do if\nnight falls before then?
+What'll I do if night\nfalls before I find any?
 <$00>
 
 // PTR : 00001EDC
@@ -499,19 +499,19 @@ Sure!
 // PTR : 00002060
 #WRITE(PTR, $000020B8)
 //でも…おれのおやつ…
-But...my snack...
+But... my snack...
 <$00>
 
 // PTR : 00002078
 #WRITE(PTR, $000020BC)
 //いいから、早く行きなさいよ
-It's okay.\nJust hurry.
+It's okay, just hurry!
 <$00>
 
 // PTR : 00002094
 #WRITE(PTR, $000020C0)
 //うん、ありがとう、あねご
-Yeah.\nThanks, Addy-o.
+Yeah. Thanks, Addy-o.
 <$00>
 
 // PTR : 000022DC
@@ -529,7 +529,7 @@ Mr. Meow is missing!
 // PTR : 00002310
 #WRITE(PTR, $000023E4)
 //ミュウって、…猫の名前？
-Is Mr. Meow...\na cat's name?
+Is Mr. Meow...\nIs that a cat's name?
 <$00>
 
 // PTR : 0000232C
@@ -547,7 +547,7 @@ What does it\nlook like?
 // PTR : 00002368
 #WRITE(PTR, $000023F0)
 //真っ白な猫なの\nきっと今ごろ、おなかすかせてるわ…
-White, like snow.\nHe must be so hungry...
+White, like snow.\nHe must be sooo hungry.
 <$00>
 
 // PTR : 0000239C
@@ -577,13 +577,13 @@ Who, me?
 // PTR : 00002604
 #WRITE(PTR, $000026A8)
 //命が惜しければ…
-If you value\nyour life,
+If you value your life,
 <$00>
 
 // PTR : 00002618
 #WRITE(PTR, $000026AC)
 //洗濯物をよこすんだね
-you'll cough up\nyour laundry.
+you'll cough up\nyour laundry!
 <$00>
 
 // PTR : 00002630
@@ -595,7 +595,7 @@ Hold on!
 // PTR : 00002638
 #WRITE(PTR, $000026B4)
 //せんたく…もの？
-My...laundry?
+My... laundry?
 <$00>
 
 // PTR : 0000264C
@@ -613,13 +613,13 @@ Yeah, your clothes\nare clearly dirty!
 // PTR : 0000268C
 #WRITE(PTR, $000026C0)
 //それなら、いいよ…
-Well, okay...
+Oh. Okay
 <$00>
 
 // PTR : 00002280
 #WRITE(PTR, $0002467C)
 //あの、わたしに何か用？
-Uh, can I help you?
+So... can I help you?
 <$00>
 
 // PTR : 00002268
@@ -751,7 +751,7 @@ A dead end.\nLet's go back.
 #WBB(PTR1, $00011738)
 #WUB(PTR1, $00011739)
 //もうこの辺は街のはずれだよ
-This is the\nedge of town.
+This is the edge of town.
 <$00>
 
 #VAR(PTR2, CUSTOMPOINTER)
@@ -924,7 +924,7 @@ Wino said he\nhadn't seen Joka.
 #WBB(PTR2, $00008E9C)
 #WUB(PTR2, $00008E9D)
 //ランドリーの方に行ったのは\n間違いないみたいだけど…
-But I swore he was\nheaded that way...
+But I swore he was\nheaded their way...
 <$00>
 
 // PTR : 00000D3C
@@ -1207,7 +1207,7 @@ Joka told Addie\nabout the music box.
 #WBB(PTR2, $0000D440)
 #WUB(PTR2, $0000D441)
 //ランドリー・前
-Laundromat Front
+Laundromat
 <$00>
 
 // PTR : 00001CA0
@@ -1350,7 +1350,7 @@ Let's go, Mr. Meow!
 #WBB(PTR2, $00012560)
 #WUB(PTR2, $00012561)
 //あーあ、もう少しだったのに…
-Aww, just\na little more...
+Aww, just a little more...
 <$00>
 
 // PTR : 00002500
@@ -1431,7 +1431,7 @@ Someone's resting easy.
 #WBB(PTR2, $00016A3C)
 #WUB(PTR2, $00016A3D)
 //何だか追いかけるのに\n疲れちゃったな…
-Chasing everyone\naround is exhausting!
+Chasing people around\nis exhausting!
 <$00>
 
 // PTR : 00000924
@@ -1482,7 +1482,7 @@ Addie-o!
 #WBB(PTR1, $00016710)
 #WUB(PTR1, $00016711)
 //←：岬の滝　大通り：→
-←：岬の滝　大通り：→
+←：Cape Wash　Main Street：→
 <$00>
 
 // PTR : 00002298
@@ -1495,5 +1495,5 @@ Addie-o!
 #WBB(PTR1, $00017A4C)
 #WUB(PTR1, $00017A4D)
 //←：裏通り　↑：岬の滝\n↓：大通り
-←：裏通り　↑：岬の滝\n↓：大通り
+←：Backstreet　↑：Cape Wash\n↓：Main Street
 <$00>

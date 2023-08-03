@@ -45,7 +45,7 @@ Sorry you had\nto see that.
 // PTR : 00000414
 #WRITE(PTR, $00000440)
 //何か用かい？　客人
-What'll it be, ma'am?
+What'll it be,\nma'am?
 <$00>
 
 // PTR : 00000490
@@ -129,7 +129,7 @@ Heya, Addie!\nHow's the Joka hunt?
 // PTR : 000007DC
 #WRITE(PTR, $00000894)
 //ジョーカはもういいわ\n別の人をさがして
-On hold for right now.
+On hold for now.
 <$00>
 
 // PTR : 00000804
@@ -141,7 +141,7 @@ I need to find Eliza.
 // PTR : 00000820
 #WRITE(PTR, $000008A8)
 //わかった\nイライザ、だな
-I see.\nEliza, huh.
+I see. Eliza, eh?
 <$00>
 
 // PTR : 00000838
@@ -295,13 +295,13 @@ It's okay.\nDen will definitely know!
 // PTR : 00001560
 #WRITE(PTR, $00001654)
 //どうして、初めから\nそうしなかったの？
-Why didn't you\nask him sooner?
+Why didn't you\nask him first?
 <$00>
 
 // PTR : 00001588
 #WRITE(PTR, $00001658)
 //頼ってばかりじゃ\n一人前になれないだろ？
-Kids have to learn\nself-reliance, no?
+Us kids have to learn\nself-reliance.
 <$00>
 
 // PTR : 000015B0
@@ -313,13 +313,13 @@ This was URGENT, Wino!
 // PTR : 000015D4
 #WRITE(PTR, $00001660)
 //え？　急ぎなの？　そういうことは\n前もって言ってくれないと
-Ack! It was? Why didn't\nyou say so sooner?
+Ack! It was? Why didn't\nYOU say so first?
 <$00>
 
 // PTR : 00001610
 #WRITE(PTR, $00001664)
 //…もういいわ、自分で直接\nデンのところに行くから
-Whatever, I'll go\nlook for Den now.
+Whatever, I'll go\nask this "Den".
 <$00>
 
 // PTR : 00001904
@@ -522,7 +522,7 @@ Addie met three siblings\ndedicated to laundry.
 #WBB(PTR2, $00005138)
 #WUB(PTR2, $00005139)
 //ポンプを直したお礼に\nジョーカを探してもらうことに。
-If the pump's fixed, maybe\nwe can look for Joka together.
+If I fix the pump, we\ncan work to find Joka!
 <$00>
 
 // PTR : 00000750
@@ -540,8 +540,7 @@ The trio's looking for Joka.\nWhy not take a break?
 #WBB(PTR2, $00005838)
 #WUB(PTR2, $00005839)
 //イライザ探しを頼むかわりに\n洗濯物を直すことに。
-I should wait before
-nfinding Eliza.
+I should help before\nfinding Eliza.
 <$00>
 
 // PTR : 00000910
@@ -613,7 +612,7 @@ What are you doing?
 #WBB(PTR2, $00005CE4)
 #WUB(PTR2, $00005CE5)
 //プロの洗濯屋の\n道のりはけわしいねぇ
-The road of the laundryman\nis indeed a long one.
+The way of the laundryman\nis indeed a long one.
 <$00>
 
 // PTR : 00000A3C
@@ -631,7 +630,7 @@ Hey, any idea\nwhere Reno went?
 #WBB(PTR1, $00005D80)
 #WUB(PTR1, $00005D81)
 //悪いね、あねご\n今のところイケているネタはないよ
-Sorry, Addie-o.\nNo news yet.
+Sorry, Addie-o.\nNo leads yet.
 <$00>
 
 // PTR : 00000AB8
@@ -676,7 +675,7 @@ Oh, you know...
 #WBB(PTR2, $000060A8)
 #WUB(PTR2, $000060A9)
 //デンにことづけして\n教えてくれたじゃない
-For pointing\nme to Den.
+For pointing me to Den.
 <$00>
 
 // PTR : 00000B64
@@ -766,7 +765,7 @@ Next time you have\nlaundry, come to us!
 #WBB(PTR2, $00006DEC)
 #WUB(PTR2, $00006DED)
 //ランドリー・入口
-Laundromat Entrance
+Laundromat
 <$00>
 
 // PTR : 00000E40
@@ -784,7 +783,7 @@ Well?
 #WBB(PTR2, $00007554)
 #WUB(PTR2, $00007555)
 //結論から言うと
-What I was\ngetting at...
+What I was getting at...
 <$00>
 
 // PTR : 00000E5C
@@ -793,7 +792,7 @@ What I was\ngetting at...
 #WBB(PTR2, $000075D8)
 #WUB(PTR2, $000075D9)
 //洗うことに関してのエキスパート\nわが洗濯屋組合の力をもってしても
-...despite our expertise\nin digging up dirt,
+Despite our expertise\nin digging up dirt,
 <$00>
 
 // PTR : 00000E9C
@@ -847,7 +846,7 @@ I'll bet Den\nknows something.
 #WBB(PTR1, $0000785C)
 #WUB(PTR1, $0000785D)
 //俺たちにも…\nまたチャンスをくれよな
-Come on...\nGive us another chance!
+Come on, don't\nleave us hanging!
 <$00>
 
 // PTR : 00001124
@@ -901,7 +900,7 @@ With Eliza missing,\nAddie went to see Den.
 #WBB(PTR2, $00009F94)
 #WUB(PTR2, $00009F95)
 //最初からデンのところに\n行けばよかったわ
-I should have asked Den\nfrom the start...
+I should have asked Den\nfrom the start!
 <$00>
 
 // PTR : 00000F80
@@ -985,7 +984,7 @@ They might have\nnews on Joka.
 #WBB(PTR2, $0000A418)
 #WUB(PTR2, $0000A419)
 //家長の威厳をたもつのは\n意外に大変なんだ
-Wino's holding fort at\nthe laundromat. Must be tough.
+Wino's holding fort at\nthe laundromat.
 <$00>
 
 // PTR : 00001874
@@ -1057,7 +1056,7 @@ Woo! I can finally\nget the machinery going.
 #WBB(PTR2, $0000C840)
 #WUB(PTR2, $0000C841)
 //でも、全然わかんない！\nどうしよう！
-But how do I\nget it to stop?!
+But how do I\nget it to stop?
 <$00>
 
 // PTR : 00001EC0
@@ -1075,7 +1074,7 @@ What am I doing?!
 #WBB(PTR2, $0000D218)
 #WUB(PTR2, $0000D219)
 //ランドリー・下
-Laundromat Dock
+Laundromat
 <$00>
 
 // PTR : 00001ED4

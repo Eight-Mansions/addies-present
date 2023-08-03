@@ -75,7 +75,7 @@ I'm sorry, Pia.\nHe only had velvet.
 // PTR : 00000338
 #WRITE(PTR, $00000370)
 //ええっ？\nそれじゃあ服は作れないわよ
-He said that?\nThen how will I finish?
+He said that?\nHow ever will I finish?
 <$00>
 
 // PTR : 0000035C
@@ -128,7 +128,7 @@ Go play outside\nwhile I finish up.
 #WBB(PTR1, $00000F18)
 #WUB(PTR1, $00000F19)
 //服の完成のために\n材料を取りに行くよう頼まれた。
-We need more materials\nto finish the clothes..
+We need more materials\nto finish the clothes.
 <$00>
 
 // PTR : 00000224
@@ -233,7 +233,7 @@ so maybe head\nback to the bar.
 #WBB(PTR1, $00001F00)
 #WUB(PTR1, $00001F01)
 //服ができるまで\n少し待つことに。
-It'll still be a wait\nbefore the clothes are done.
+It'll still be a wait\nbefore these are done.
 <$00>
 
 // PTR : 000005E4
@@ -242,7 +242,7 @@ It'll still be a wait\nbefore the clothes are done.
 #WBB(PTR2, $00001F8C)
 #WUB(PTR2, $00001F8D)
 //まだできないのかしら…
-I still can't,\ncan I...
+I still can't, can I...
 <$00>
 
 // PTR : 000005FC
@@ -386,7 +386,7 @@ Oh! And give him\nmy regards!
 #WBB(PTR2, $000030A4)
 #WUB(PTR2, $000030A5)
 //仕立屋内・入口
-Tailor Front
+Tailor Shop
 <$00>
 
 // PTR : 000007C4
@@ -404,7 +404,7 @@ With clothes in hand,\nAddie left for the bar.
 #WBB(PTR2, $00003594)
 #WUB(PTR2, $00003595)
 //いったい、\n誰の服なのかしら？
-Oh? And whose are these?!
+Oh? And whose are these?
 <$00>
 
 // PTR : 0000084C
@@ -413,6 +413,6 @@ Oh? And whose are these?!
 #WBB(PTR2, $000039C4)
 #WUB(PTR2, $000039C5)
 //仕立屋内・奥
-Tailor Rear
+Tailor Shop
 <$00>
 
