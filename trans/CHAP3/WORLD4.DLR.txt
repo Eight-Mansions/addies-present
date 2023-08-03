@@ -118,7 +118,7 @@ But a bucket would\ncover his eyes too!
 // PTR : 00000D88
 #WRITE(PTR, $00000DC0)
 //…穴があいてるんです
-He slit an\neyehole into his.
+He slit an eyehole\ninto his.
 <$00>
 
 // PTR : 00000DA0
@@ -148,7 +148,7 @@ Because you're\nwearing a bucket?
 // PTR : 00000EC0
 #WRITE(PTR, $00000F04)
 //そんなことを質問するために\nわざわざここまで来たのかね？
-Is that al you\ncame to discuss?
+Is that all you\ncame to discuss?
 <$00>
 
 // PTR : 00000FCC
@@ -166,31 +166,31 @@ He led you here.
 // PTR : 00001014
 #WRITE(PTR, $00001194)
 //私は彼が望む知識を\n分け与えただけだ
-I only told him\nwhat he wanted to know.
+I simply gave him the\nknowledge he sought.
 <$00>
 
 // PTR : 00001038
 #WRITE(PTR, $00001198)
 //それをどう行使しようが、
-How he chose to\nuse that knowledge
+How the boy used it,\nright or wrong,
 <$00>
 
 // PTR : 00001054
 #WRITE(PTR, $0000119C)
 //私には関係ない
-is not up to me.
+was not up to me.
 <$00>
 
 // PTR : 00001064
 #WRITE(PTR, $000011A0)
 //でも、あなたが…！
-B-But...he...!
+But... he...!
 <$00>
 
 // PTR : 00001078
 #WRITE(PTR, $000011A4)
 //とりとめのない思いを\n私にぶつけるな
-Arguing about the past\nwill do nothing to change it.
+Arguing about the past\nwon't work to change it.
 <$00>
 
 // PTR : 0000109C
@@ -286,7 +286,7 @@ I only need my\nsight to read.
 // PTR : 000015D0
 #WRITE(PTR, $0000177C)
 //ここから見えるのは\nインクの黒と紙の白のみ
-This lets me focus/nonly on the pages,
+This lets me focus/non only the pages,
 <$00>
 
 // PTR : 000015FC
@@ -376,7 +376,7 @@ Sadly, the one thing\nyou asked for is gone.
 // PTR : 000018DC
 #WRITE(PTR, $0000190C)
 //…さあ、もう行くがいい
-Sorry.\nYou should probably go soon.
+Sorry.\nYou should probably go.
 <$00>
 
 #VAR(PTR1, CUSTOMPOINTER)
@@ -470,7 +470,7 @@ Aww, I can tell\nyou're upset now.
 #WBB(PTR2, $000037D0)
 #WUB(PTR2, $000037D1)
 //君の心を読んでなかったのに…
-I wasn't reading your mind.
+I wasn't reading\nyour mind.
 <$00>
 
 // PTR : 000005A0
@@ -479,7 +479,7 @@ I wasn't reading your mind.
 #WBB(PTR2, $0000387C)
 #WUB(PTR2, $0000387D)
 //人の心を読むのって、
-But even then,\nwhat if...
+But even if I were...
 <$00>
 
 // PTR : 000005B8
@@ -488,7 +488,7 @@ But even then,\nwhat if...
 #WBB(PTR2, $00003888)
 #WUB(PTR2, $00003889)
 //ひょっとして\nあんまり、意味ないのかな…
-mind reading\nWASN'T so bad?
+Is mind reading so bad?
 <$00>
 
 // PTR : 000005F8
@@ -497,7 +497,7 @@ mind reading\nWASN'T so bad?
 #WBB(PTR2, $00003D60)
 #WUB(PTR2, $00003D61)
 //右棟・回廊
-Right Hall Corridor
+Right Hall
 <$00>
 
 // PTR : 00000644
@@ -524,7 +524,7 @@ Promoted?
 #WBB(PTR2, $00004274)
 #WUB(PTR2, $00004275)
 //昇進したら\n個室がもらえるんだけど、
-If I get promoted,\nI get my OWN bathroom stall!
+If I get promoted, I get\nmy own bathroom stall!
 <$00>
 
 // PTR : 000006A0
@@ -551,7 +551,7 @@ So, like I said,\nDON'T bug me!
 #WBB(PTR2, $00004570)
 #WUB(PTR2, $00004571)
 //…図書館では静かにするもんだよ？
-Libraries are meant\nto be QUIET!
+Libraries were made\nfor peace and QUIET!
 <$00>
 
 // PTR : 00000728
@@ -569,7 +569,7 @@ What to read,\nwhat to read...
 #WBB(PTR2, $000045DC)
 #WUB(PTR2, $000045DD)
 //『無極電磁理論の実際』…
-"Theory and Application of\nThermo-Magneto Hydro Dynamics"
+"Theories of Thermo-Magneto\nHydro Dynamics"
 <$00>
 
 // PTR : 0000075C
@@ -609,7 +609,7 @@ Haaaah.
 #WBB(PTR2, $0000533C)
 #WUB(PTR2, $0000533D)
 //右棟・書棚
-Right Hall Bookshelves
+Right Hall
 <$00>
 
 // PTR : 00000834
@@ -618,7 +618,7 @@ Right Hall Bookshelves
 #WBB(PTR2, $000063E8)
 #WUB(PTR2, $000063E9)
 //右棟・思索室前
-Right Hall Quiet Room
+Right Hall
 <$00>
 
 // PTR : 00000864
@@ -636,7 +636,7 @@ It's just like when\nJoka was here last time.
 #WBB(PTR2, $000067B4)
 #WUB(PTR2, $000067B5)
 //だいたい、ジョーカは\n人に迷惑かけすぎなのよ！
-A prank like this is\nnot good for people.
+What does he think\nthis is, a prank?
 //swan to book
 <$00>
 
@@ -698,7 +698,7 @@ It's an animal?
 #WBB(PTR2, $000080B8)
 #WUB(PTR2, $000080B9)
 //右棟・思索室
-Right Hall Quiet Room
+Right Hall
 <$00>
 
 // PTR : 00000B58
@@ -741,7 +741,7 @@ Only staff are allowed\nbeyond this point.
 #WBB(PTR2, $00008D48)
 #WUB(PTR2, $00008D49)
 //右棟・通用路
-Right Hall Passage
+Right Hall
 <$00>
 
 // PTR : 00000BC0
@@ -750,7 +750,7 @@ Right Hall Passage
 #WBB(PTR2, $000093BC)
 #WUB(PTR2, $000093BD)
 //館長室・前
-Head Librarian's Office Front
+Head Office
 <$00>
 
 // PTR : 00000DE4
@@ -777,7 +777,7 @@ Do you need to\nsee the head again?
 #WBB(PTR2, $0000A144)
 #WUB(PTR2, $0000A145)
 //館長室・扉
-Head Librarian's Office Door
+Head Office
 <$00>
 
 // PTR : 00000F18
@@ -815,7 +815,7 @@ A tomb? In the place\nwhere I woke up?
 #WBB(PTR2, $0000BFB4)
 #WUB(PTR2, $0000BFB5)
 //館長室
-Head Librarian's Office
+Head Office
 <$00>
 
 // PTR : 000019BC
@@ -824,6 +824,6 @@ Head Librarian's Office
 #WBB(PTR2, $0000C4CC)
 #WUB(PTR2, $0000C4CD)
 //右棟・裏口
-Right Hall/Backdoor
+Right Hall
 <$00>
 

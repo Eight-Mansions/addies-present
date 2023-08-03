@@ -161,7 +161,7 @@ Oh, you know.\nWith the Loglock!
 // PTR : 000014A4
 #WRITE(PTR, $000018C8)
 //何してるの？ジョーカ
-What are you doing, Joka?
+What are you doing,\nJoka?
 <$00>
 
 // PTR : 000014BC
@@ -251,7 +251,7 @@ Hmph!
 // PTR : 000015B0
 #WRITE(PTR, $00001904)
 //するとお前さんは、
-If you were there with him,
+If you were on the scene,
 <$00>
 
 // PTR : 000015C4
@@ -263,19 +263,19 @@ and you helped him escape,
 // PTR : 000015E4
 #WRITE(PTR, $0000190C)
 //奴とはなんの関係もないと\n言いはるんじゃな？
-how are you not in\ncahoots with him?!
+how are you not\nhis sidekick?!
 <$00>
 
 // PTR : 00001610
 #WRITE(PTR, $00001910)
 //ん～、関係あるような…
-Yes, you MUST be\nconnected somehow!
+You two MUST be\nin cahoots!
 <$00>
 
 // PTR : 00001628
 #WRITE(PTR, $00001914)
 //関係ないような…
-You must be...
+You must be.
 <$00>
 
 // PTR : 0000163C
@@ -317,7 +317,7 @@ Who could do such a thing?!
 // PTR : 000016EC
 #WRITE(PTR, $00001930)
 //いったい何者なんじゃ？
-Who would help such a boy?!
+Who would help him?!
 <$00>
 
 // PTR : 00001704
@@ -335,7 +335,7 @@ That was RHETORICAL!
 // PTR : 00001734
 #WRITE(PTR, $0000193C)
 //まぁいい\nアディ…
-...Fine, Addie.\nTell me...
+...Fine, Addie.\nTell me.
 <$00>
 
 // PTR : 00001748
@@ -353,13 +353,13 @@ Did you help him\nescape the bell tower?
 // PTR : 00001788
 #WRITE(PTR, $00001948)
 //ならば、わしに協力せい
-I see. Maybe you\ncan help me.
+I see. Very well.
 <$00>
 
 // PTR : 000017A0
 #WRITE(PTR, $0000194C)
 //わが一族に代々つたわる
-Reclaim my precious heirlooms:
+You can help me reclaim\nmy precious heirlooms:
 <$00>
 
 // PTR : 000017B8
@@ -407,13 +407,13 @@ Anyways!
 // PTR : 0000185C
 #WRITE(PTR, $0000196C)
 //一刻も早くあ奴を見つけるんじゃ
-You're to find the boy
+First, you find the boy.
 <$00>
 
 // PTR : 0000187C
 #WRITE(PTR, $00001970)
 //そして見つけしだい\nすぐに知らせてくれぃ
-and report back the\nvery second you do!
+Then, report back\nto me ASAP!
 <$00>
 
 // PTR : 000018A4
@@ -472,7 +472,7 @@ I must look\nlike a sucker.
 // PTR : 0000065C
 #WRITE(PTR, $00025648)
 //いいのよ、ごまかさなくても
-Yeah, but that's okay.
+Yes, but that's fine.
 <$00>
 
 // PTR : 00000640
@@ -532,7 +532,7 @@ Let's be off, shall we?
 // PTR : 00000530
 #WRITE(PTR, $00025674)
 //奥に進みましょ
-We'll head\nout the back.
+We'll head out the back.
 <$00>
 
 #VAR(PTR1, CUSTOMPOINTER)
@@ -597,7 +597,7 @@ Oh, HA-HA.
 #WBB(PTR1, $00003CD4)
 #WUB(PTR1, $00003CD5)
 //イライザに美術館を\n案内してもらうアディ。
-Addie follows Eliza\nthrough the museum.
+Addie followed Eliza\nthrough the museum.
 <$00>
 
 // PTR : 00000398
@@ -606,7 +606,7 @@ Addie follows Eliza\nthrough the museum.
 #WBB(PTR1, $00003DA4)
 #WUB(PTR1, $00003DA5)
 //ちょっと強引なところも\nエミィに似てる気がするわ
-Eliza, like Emmy,\nis quite pushy.
+Eliza and Emmy are so pushy!
 <$00>
 
 // PTR : 000003C8
@@ -680,7 +680,7 @@ Do you recognize\nthis piece?
 #WBB(PTR2, $00005628)
 #WUB(PTR2, $00005629)
 //美術館・彫刻展示室
-Museum Sculpture Exhibit
+Museum
 <$00>
 
 // PTR : 0000081C
@@ -725,7 +725,7 @@ Just a little more, okay?
 #WBB(PTR2, $00006EC0)
 #WUB(PTR2, $00006EC1)
 //落書きは困るが、なかなかいい絵だね
-Graffiti is illegal,\nbut your art is lovely!
+For illegal graffiti,\nyour art is lovely!
 <$00>
 
 // PTR : 00000928
@@ -806,7 +806,7 @@ What's this?
 #WBB(PTR2, $000099F0)
 #WUB(PTR2, $000099F1)
 //ほう、よく見える
-Wow, this is\nmuch better!
+Wow, this is much better!
 <$00>
 
 // PTR : 00000F90
@@ -851,7 +851,7 @@ Ah, there we go.
 #WBB(PTR2, $00009AF8)
 #WUB(PTR2, $00009AF9)
 //その気持ちだけでも嬉しいよ\nありがとう
-The feeling alone is\nnice, thank you.
+It's the thought that\ncounts, thank you.
 <$00>
 
 // PTR : 00000D28
@@ -877,7 +877,7 @@ The feeling alone is\nnice, thank you.
 #WBB(PTR2, $0000A71C)
 #WUB(PTR2, $0000A71D)
 //美術館・絵画展示室
-Museum Painting Gallery
+Museum
 <$00>
 
 // PTR : 00001188
@@ -886,7 +886,7 @@ Museum Painting Gallery
 #WBB(PTR2, $0000AD44)
 #WUB(PTR2, $0000AD45)
 //へえ…面白いのね
-Wow, isn't that\nsomething!
+Why, isn't that\nsomething!
 <$00>
 
 // PTR : 0000119C
@@ -949,7 +949,7 @@ It's so grimey here.
 #WBB(PTR2, $0000B51C)
 #WUB(PTR2, $0000B51D)
 //ジョーカを探すことを条件に、\nズーはアディを解放する。
-Zoo lets Addie go in\nexchange for her help.
+In exchange for her help,\nZoo let Addie go.
 <$00>
 
 // PTR : 00001290
@@ -958,7 +958,7 @@ Zoo lets Addie go in\nexchange for her help.
 #WBB(PTR2, $0000B5E0)
 #WUB(PTR2, $0000B5E1)
 //たぶん、ジョーカは街の中よね
-Maybe Addie can find\nJoka somewhere in town.
+Maybe I'll find Joka\nback in Cape Town.
 <$00>
 
 // PTR : 00001380
@@ -967,7 +967,7 @@ Maybe Addie can find\nJoka somewhere in town.
 #WBB(PTR2, $0000BD48)
 #WUB(PTR2, $0000BD49)
 //早くしないと\nお茶のおいしい時間が過ぎちゃうわ
-If we're not fast,\nwe'll miss tea time!
+If we don't hurry,\nwe'll miss tea time!
 <$00>
 
 // PTR : 00002218
@@ -985,7 +985,7 @@ Museum Storage
 #WBB(PTR2, $0000F734)
 #WUB(PTR2, $0000F735)
 //さあ、早く片づけてみせて
-Let's take care\nof this quickly!
+Let's get this over with!
 <$00>
 
 // PTR : 000021D8
@@ -1003,7 +1003,7 @@ Nope, no more\nsilver gears here.
 #WBB(PTR2, $00008A38)
 #WUB(PTR2, $00008A39)
 //あんな絵、大したことないよ
-あんな絵、大したことないよ
+Some pieces are nothing\nto write home about.
 <$00>
 
 // PTR : 0000040C

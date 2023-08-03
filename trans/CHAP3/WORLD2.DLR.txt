@@ -57,7 +57,7 @@ Excuse me, did a boy\nin a hat pass by here?
 // PTR : 000006CC
 #WRITE(PTR, $000006FC)
 //ええ、ずっと前に\n退館なさいました
-Yes, but he left\na while ago.
+Yes. He left a while ago.
 <$00>
 
 // PTR : 000006F0
@@ -69,49 +69,49 @@ Oh.
 // PTR : 000008E4
 #WRITE(PTR, $00000B5C)
 //結局逃げられちゃったわね
-So, Joka did get away.
+So, Joka did get away...
 <$00>
 
 // PTR : 00000900
 #WRITE(PTR, $00000B60)
 //兄さん、逃げ足だけは速いから…
-But that couldn't\nbe helped.
+He is a slippery one.
 <$00>
 
 // PTR : 00000920
 #WRITE(PTR, $00000B64)
 //あなたが…
-Yes it could've!
+Yeah. Too slippery!
 <$00>
 
 // PTR : 0000092C
 #WRITE(PTR, $00000B68)
 //あなたも手伝ってくれれば…
-YOU could have helped.
+Maybe if you didn't\nencourage it...
 <$00>
 
 // PTR : 00000948
 #WRITE(PTR, $00000B6C)
 //ちょっと待ってよ\n兄さんに逃げられたからって
-Now, hold on!\nHE'S the one who ran,
+Now, hold on!\nDon't you blame me.
 <$00>
 
 // PTR : 00000974
 #WRITE(PTR, $00000B70)
 //…私のせいにするのは\nやめてほしいわ
-so don't you\ngo blaming me.
+HE's the one who ran!
 <$00>
 
 // PTR : 00000998
 #WRITE(PTR, $00000B74)
 //でも、手伝ってくれるって…
-You should have helped!
+You should've stopped him!
 <$00>
 
 // PTR : 000009B4
 #WRITE(PTR, $00000B78)
 //あなた、ちょっと\nあつかましいんじゃない？
-Hmph, someone's\nawfully bold.
+Hmph, someone's bold.
 <$00>
 
 // PTR : 000009E0
@@ -129,13 +129,13 @@ You've no right to\ntake this out on me.
 // PTR : 00000A2C
 #WRITE(PTR, $00000B84)
 //でも、あの部屋から\n逃がさなければ…
-If only you tried\nto stop Joka too,
+I just think,\nif you stopped him,
 <$00>
 
 // PTR : 00000A50
 #WRITE(PTR, $00000B88)
 //捕まえることもできたのに…
-I might've caught him.
+things wouldn've\ngotten better already.
 <$00>
 
 // PTR : 00000A6C
@@ -147,31 +147,31 @@ Well! Perhaps I'd better\nstay out of your way.
 // PTR : 00000A98
 #WRITE(PTR, $00000B90)
 //え！そういうわけじゃ…
-What?!\nNo, I didn't mean...
+What?!\nNo, I didn't mean...!
 <$00>
 
 // PTR : 00000AB0
 #WRITE(PTR, $00000B94)
 //不愉快な思いをしてまで\n協力するつもりはないわ
-I wouldn't want to\nmake matters worse!
+I sure wouldn't want\nto make matters worse!
 <$00>
 
 // PTR : 00000AE0
 #WRITE(PTR, $00000B98)
 //あ…、ごめんなさい…
-No, Eliza. I'm sorry.
+Wait, Eliza. I'm sorry!
 <$00>
 
 // PTR : 00000AF8
 #WRITE(PTR, $00000B9C)
 //…わかってくれればいいの\n素直なあなたは、とっても好きよ
-...It's fine. I just wish\nyou'd think better of me.
+...It's fine, but I wish\nyou'd think better of me.
 <$00>
 
 // PTR : 00000B30
 #WRITE(PTR, $00000BA0)
 //…あなたに好かれても\nちっともうれしくないわ
-I do, Eliza.\nI'm just upset.
+I do, Eliza.\nI'm only frustrated.
 <$00>
 
 // PTR : 00000EE8
@@ -214,13 +214,13 @@ Thank you, dear.
 // PTR : 00001000
 #WRITE(PTR, $00001078)
 //この子もいっしょに入るわよ
-And she'll be my\nplus-one.
+She's my plus-one today.
 <$00>
 
 // PTR : 0000101C
 #WRITE(PTR, $0000107C)
 //会員規約第４７条９項にて\n一名の同伴が認められます
-According to Article 47,\nP. 9 of our Terms of Membership...
+According to Article 47,\nP. 9 of our rule book...
 <$00>
 
 // PTR : 00001050
@@ -258,7 +258,7 @@ The head librarian\nmade an exception.
 // PTR : 000012CC
 #WRITE(PTR, $00001308)
 //本がたくさん…
-So many books.
+So many books...
 <$00>
 
 // PTR : 000012DC
@@ -270,7 +270,7 @@ Duh, it's a library.
 // PTR : 000012F8
 #WRITE(PTR, $00001310)
 //さ、行くわよ
-Let's look.
+Let's look around.
 <$00>
 
 // PTR : 0000172C
@@ -314,7 +314,7 @@ Well! Perhaps I'd better\nstay out of your way.
 #WBB(PTR1, $0000359C)
 #WUB(PTR1, $0000359D)
 //ジョーカを追いかけたが\n図書館に入れないアディ。
-Addie chased Joka, but\ncouldn't enter the library.
+Joka fled to the library,\nbut Addie needed a card.
 <$00>
 
 // PTR : 00000430
@@ -323,7 +323,7 @@ Addie chased Joka, but\ncouldn't enter the library.
 #WBB(PTR1, $00003640)
 #WUB(PTR1, $00003641)
 //イライザの居場所さえ分かれば…
-Maybe Eliza could help...
+Can Eliza get me inside?
 <$00>
 
 // PTR : 00000450
@@ -424,7 +424,7 @@ Let's enter the library.
 #WBB(PTR2, $00003D4C)
 #WUB(PTR2, $00003D4D)
 //図書館・入口
-Library Entrance
+Library
 <$00>
 
 // PTR : 00000780
@@ -460,7 +460,7 @@ The head librarian\nsounds mean.
 #WBB(PTR2, $000047AC)
 #WUB(PTR2, $000047AD)
 //それは分からないけど\n変わり者なのは確からしいわよ
-I don't know about that,\nbut he IS odd.
+I don't know about that,\nbut he IS peculiar.
 <$00>
 
 // PTR : 00000838
@@ -469,7 +469,7 @@ I don't know about that,\nbut he IS odd.
 #WBB(PTR2, $000047F8)
 #WUB(PTR2, $000047F9)
 //さあ、喋ってないで先に進みましょ\nジョーカを探しに来たんでしょ
-We're here for business,\nright? For Joka?
+We're here for business,\naren't we? For Joka?
 <$00>
 
 // PTR : 00000F84
@@ -487,7 +487,7 @@ Wait, what?!
 #WBB(PTR2, $0000565C)
 #WUB(PTR2, $0000565D)
 //お持ちでないのですね
-You don't have one,\ndo you?
+You don't have one,\ndo you.
 <$00>
 
 // PTR : 00000F98
@@ -593,7 +593,7 @@ Addie followed Eliza\ninto the library.
 #WBB(PTR2, $00006610)
 #WUB(PTR2, $00006611)
 //あと少しでジョーカを\nつかまえられると思ったのに
-If only we found\nJoka soon...
+I hope we find Joka soon.
 <$00>
 
 // PTR : 0000123C
@@ -738,7 +738,7 @@ Eliza, do fireflies\nfreak you out?
 #WBB(PTR2, $00007C58)
 #WUB(PTR2, $00007C59)
 //そんなわけないでしょ！　早く\n何とかしないと承知しないわよ
-N-Not at all!\nWe're just in a hurry.
+Not at all!\nWe're just in a hurry.
 <$00>
 
 // PTR : 000014BC
@@ -747,7 +747,7 @@ N-Not at all!\nWe're just in a hurry.
 #WBB(PTR2, $00007D48)
 #WUB(PTR2, $00007D49)
 //大きなホタルって\n気持ち悪いのね…
-Mmmm, a giant firefly\nis pretty gross.
+Hmmm. A giant firefly\nis pretty gross.
 <$00>
 
 // PTR : 000014E0
@@ -809,7 +809,7 @@ I can't leave on my own.
 #WBB(PTR2, $000082D0)
 #WUB(PTR2, $000082D1)
 //イライザがいないと入れないし…
-Not without Eliza.
+Not without Eliza!
 <$00>
 
 // PTR : 000014F0
@@ -877,7 +877,7 @@ Back to reception?\nOkay, thanks!
 #WBB(PTR2, $00009958)
 #WUB(PTR2, $00009959)
 //恐いけど…\nだんだん腹が立ってきたわ
-This is creepy. It's\nputting me on edge.
+This is creepy.\nIt's putting me on edge.
 <$00>
 
 // PTR : 00001854
@@ -903,7 +903,7 @@ Don't step there!\nI can't read the time!
 #WBB(PTR2, $00009B70)
 #WUB(PTR2, $00009B71)
 //だから、踏むなっつってんだろ！
-Y-YOU STOP THAT!
+YOU STOP THAT!
 <$00>
 
 // PTR : 000018BC
@@ -952,7 +952,7 @@ If I want to catch him,\nI'd better thing fast.
 #WBB(PTR2, $0000A014)
 #WUB(PTR2, $0000A015)
 //…でも、影はぜったいに\n踏まないでネ
-but also, DON'T\ndo that again!
+but DON'T do that again!
 <$00>
 
 // PTR : 000019B8
@@ -979,7 +979,7 @@ It's a sundial.
 #WBB(PTR2, $0000A148)
 #WUB(PTR2, $0000A149)
 //…この影で時間を読むのが、\n僕の役目なの
-I can read the shadows\nand tell you the time.
+I can read its shadows\nand tell you the time.
 <$00>
 
 // PTR : 00001A24
@@ -1046,7 +1046,7 @@ Joka went\nto reception.
 #WBB(PTR2, $0000B070)
 #WUB(PTR2, $0000B071)
 //図書館・三叉路
-Library Tri-cross
+Library Junction
 <$00>
 
 // PTR : 00000618
@@ -1068,6 +1068,6 @@ Let's go soon.
 #WBB(PTR2, $0000CA88)
 #WUB(PTR2, $0000CA89)
 //もう、いないわよ？
-It's gone now, see?
+It's gone now. See?
 <$00>
 

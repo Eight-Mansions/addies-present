@@ -15,13 +15,13 @@ Say, mister?
 // PTR : 00000788
 #WRITE(PTR, $00000830)
 //私は眠っておりませんよ！
-I SAID I WASN'T\nSLEEPING!
+I SAID I WASN'T SLEEPING!
 <$00>
 
 // PTR : 000007A4
 #WRITE(PTR, $00000834)
 //本の読みすぎで、\nうたた寝なんてしてませんよ！
-With so many books to\nread, I can't take a nap!
+With so many books to\nread, I can't afford a nap!
 <$00>
 
 // PTR : 000007D4
@@ -118,7 +118,7 @@ Oh! I'll use this!
 // PTR : 00001330
 #WRITE(PTR, $00001408)
 //…あー、\nまだ名前を言ってなかったな
-Oh! I forgot to\nintroduce myself.
+Ah, I forgot to\nintroduce myself.
 <$00>
 
 // PTR : 00001354
@@ -142,7 +142,7 @@ Addie!
 // PTR : 000013A8
 #WRITE(PTR, $00001418)
 //そう、アディだ！なあ、アディ、\n特別室は廊下に出て右の方だ
-Okay, Addie, the vault is\ndown the hall to the right.
+Okay, Addie, the vault's\ndown the hall to the right.
 <$00>
 
 // PTR : 000013E4
@@ -154,7 +154,7 @@ Get that vault key back\nfrom the boy at once!
 // PTR : 00001474
 #WRITE(PTR, $000015F0)
 //あんた…、俺に聞きたい\nことがありそうだな
-You...want to ask me\nsomething, don't you.
+You... want to ask me\nsomething, don't you.
 <$00>
 
 // PTR : 000014A0
@@ -184,13 +184,13 @@ You thought this was\na choice? To what end?!
 // PTR : 00001540
 #WRITE(PTR, $00001604)
 //…ひょっとして、出られないとか？
-Can you not climb out?
+Can't you climb out?
 <$00>
 
 // PTR : 00001564
 #WRITE(PTR, $00001608)
 //あっ、いつでも出られるぜ！\n今は就業中だから、ダメだけどな
-I could at any time,\njust not on my shift.
+I could if I could,\nbut I can't on my shift.
 <$00>
 
 // PTR : 000015A0
@@ -202,13 +202,13 @@ Seriously?
 // PTR : 000015AC
 #WRITE(PTR, $00001610)
 //…規則だからな
-I did say it\nwas a rule.
+I did say it was a rule.
 <$00>
 
 // PTR : 000015BC
 #WRITE(PTR, $00001614)
 //そんなことはいいから、\n早く鍵を取り返してきてくれ！
-Will that answer suffice?\nNow, go get that key!
+Does that answer suffice?\nNow, go get that key!
 <$00>
 
 // PTR : 00001814
@@ -286,7 +286,7 @@ Why are you running?
 // PTR : 00001EE4
 #WRITE(PTR, $00001F2C)
 //君が追いかけるから
-Because you're\nchasing me!
+Because you're chasing!
 <$00>
 
 // PTR : 00001EF8
@@ -295,7 +295,7 @@ Because you're\nchasing me!
 They seem close.
 <$00>
 //どうして、こんなのか
-//What is this thing?
+What is this thing?
 //bat - map
 
 #VAR(PTR1, CUSTOMPOINTER)
@@ -342,7 +342,7 @@ SNAIL
 #WBB(PTR1, $000040C8)
 #WUB(PTR1, $000040C9)
 //ここは右棟の閲覧室よ。静かにね
-Quite, please. The right hall\nis a place for reading.
+Quiet, please. This right\nhall is for reading.
 <$00>
 
 // PTR : 00000380
@@ -445,7 +445,7 @@ Should I make\na run for it?
 #WBB(PTR2, $000054AC)
 #WUB(PTR2, $000054AD)
 //左棟・書棚
-Left Hall Bookshelves
+Left Hall
 <$00>
 
 // PTR : 000005C4
@@ -494,7 +494,7 @@ Security's that-a way.
 #WBB(PTR2, $00006194)
 #WUB(PTR2, $00006195)
 //左棟・職員エリア
-Left Hall Staff Area
+Left Hall
 <$00>
 
 // PTR : 00000678
@@ -521,7 +521,7 @@ Does Joka know\nyou're after him?
 #WBB(PTR2, $00006968)
 #WUB(PTR2, $00006969)
 //まあ、奥まで調べれば、ジョーカが\nいるかいないかは分かるわね
-The more you look, the\nmore likely you'll find.
+The more you look,\nthe more you find.
 <$00>
 
 // PTR : 00000720
@@ -538,7 +538,7 @@ Now, let's\nhead deeper in.
 #WHB(PTR2, $00006E95)
 #WBB(PTR2, $00006E90)
 #WUB(PTR2, $00006E91)
-Ｚｚｚ…
+Zzz…
 <$00>
 
 // PTR : 0000087C
@@ -547,7 +547,7 @@ Now, let's\nhead deeper in.
 #WBB(PTR2, $00007534)
 #WUB(PTR2, $00007535)
 //左棟・警備員詰所
-Left Hall Security Post
+Left Hall
 <$00>
 
 // PTR : 00000918
@@ -565,7 +565,7 @@ What's going on?!
 #WBB(PTR2, $00007A58)
 #WUB(PTR2, $00007A59)
 //…もう、急いでるのに！
-I don't have\ntime for this!
+I don't have time\nfor this!
 <$00>
 
 // PTR : 00000948
@@ -663,7 +663,7 @@ Really?
 #WBB(PTR2, $00008380)
 #WUB(PTR2, $00008381)
 //じゃあ、しようがない\n待ち続けるか…
-Well, guess I'll\nkeep waiting.
+Guess I'll keep waiting.
 <$00>
 
 // PTR : 00000AEC
@@ -681,7 +681,7 @@ And now, my other\nwriter ran off.
 #WBB(PTR2, $00008410)
 #WUB(PTR2, $00008411)
 //向かいの先生が\n逃げちゃってね…
-My other writer\nran off.
+My other writer ran off.
 <$00>
 
 // PTR : 00000B14
@@ -734,7 +734,7 @@ Waiting on people\nisn't fun.
 #WBB(PTR2, $00008FE4)
 #WUB(PTR2, $00008FE5)
 //左棟・執筆室前
-Left Wing Writing Room Front
+Writing Room
 <$00>
 
 // PTR : 00000CC8
@@ -743,7 +743,7 @@ Left Wing Writing Room Front
 #WBB(PTR2, $0000956C)
 #WUB(PTR2, $0000956D)
 //出来の悪い人間ほど\nいいわけが多いわよね
-Less work nets more\nexcuses, am I right?
+Less work, more excuses,\nas it goes.
 <$00>
 
 // PTR : 00000D40
@@ -788,7 +788,7 @@ ZIP IT!
 #WBB(PTR2, $0000976C)
 #WUB(PTR2, $0000976D)
 //こんなところで\n執筆なんかできるかー！
-Can we really write here?!
+Did someone write here?!
 <$00>
 
 // PTR : 00000E3C
@@ -860,7 +860,7 @@ One of our writers\nmust've gotten away.
 #WBB(PTR2, $0000C4B8)
 #WUB(PTR2, $0000C4B9)
 //アディもあんまり、こういう\n弱い人を責めちゃだめよ
-Don't blame these weaklings\ntoo hard now, Addie.
+Don't blame people\ntoo harshly now, Addie.
 <$00>
 
 // PTR : 00000E5C
@@ -873,7 +873,7 @@ Don't blame these weaklings\ntoo hard now, Addie.
 #WBB(PTR2, $0000CC4C)
 #WUB(PTR2, $0000CC4D)
 //左棟・執筆室
-Left Wing Writing Room
+Writing Room
 <$00>
 
 // PTR : 0000197C
@@ -900,7 +900,7 @@ I have to catch\nhim quickly!
 #WBB(PTR2, $0000E0F0)
 #WUB(PTR2, $0000E0F1)
 //左棟・通用路
-Left Wing Passage
+Left Wing
 <$00>
 
 // PTR : 000019F4
@@ -977,7 +977,7 @@ You'd make for\na good thief.
 #WBB(PTR2, $0000F5A8)
 #WUB(PTR2, $0000F5A9)
 //あれ、開かない？
-Aww, why won't\nyou open?
+Aww, why won't you open?
 <$00>
 
 // PTR : 00001C2C
@@ -1013,7 +1013,7 @@ I've heard your request.\nWill you hear mine?
 #WBB(PTR2, $0000F99C)
 #WUB(PTR2, $0000F99D)
 //この扉を開けてほしいの
-I want this\ndoor opened.
+I want this door opened.
 <$00>
 
 // PTR : 00001CF0
@@ -1057,7 +1057,7 @@ Great! Now we're in!
 #WBB(PTR2, $0000FCC4)
 #WUB(PTR2, $0000FCC5)
 //もう少しのところで\nジョーカを取り逃したアディ。
-Joka narrowly\ngot away.
+Joka narrowly got away.
 <$00>
 
 // PTR : 00001BD4
@@ -1079,7 +1079,7 @@ You must'nt get\ntoo far behind.
 #WBB(PTR2, $0001074C)
 #WUB(PTR2, $0001074D)
 //特別室・前
-Suite Front
+Suite
 <$00>
 
 // PTR : 0000247C
@@ -1151,7 +1151,7 @@ Well, whatever.\nI can play along.
 #WBB(PTR2, $00011E40)
 #WUB(PTR2, $00011E41)
 //人が親切で言って\nあげてるのに…
-That's what nice\ngirls do, after all.
+That's what nice girls do,\nafter all.
 <$00>
 
 // PTR : 00002584
@@ -1169,7 +1169,7 @@ Suite
 #WBB(PTR2, $00012EA8)
 #WUB(PTR2, $00012EA9)
 //左棟・裏口
-Left Wing Backdoor
+Left Wing
 <$00>
 
 // PTR : 000004FC
