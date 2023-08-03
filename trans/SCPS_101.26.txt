@@ -13,7 +13,7 @@
 #JMP($00003240)
 #WRITE(PTR, $0008817C)
 //セレクトボタンでＴＩＰＳを表示
-Press SELECT to view TIPS.
+SELECT: View available TIPS
 <$00>
 
 
@@ -22,7 +22,7 @@ Press SELECT to view TIPS.
 //#JMP($00003260)
 #WRITE(PTR, $00088178)
 //固定：５列目　スリップ：３列目
-Fixed: Ring 5\nSlip: Ring 3
+Break=Ring 5. Slip=Ring 3
 <$00>
 
 
@@ -31,7 +31,7 @@ Fixed: Ring 5\nSlip: Ring 3
 //#JMP($00003280)
 #WRITE(PTR, $00088174)
 //この例題ではボーナスはＭ、ボムはＮ
-In this demo, "M" is a Bonus,\nand "N" is a Bomb.
+"M"=Bonus. "N"=Bomb.
 <$00>
 
 
@@ -40,7 +40,7 @@ In this demo, "M" is a Bonus,\nand "N" is a Bomb.
 //#JMP($000032A4)
 #WRITE(PTR, $00088170)
 //例．２列目を外し１列目で△ボタン
-Demo: Remove Ring 2. Then, press\nthe △ Button on Ring 1. 
+Remove Ring 2. Flip Ring 1. 
 <$00>
 
 
@@ -49,7 +49,7 @@ Demo: Remove Ring 2. Then, press\nthe △ Button on Ring 1.
 //#JMP($000032C8)
 #WRITE(PTR, $0008816C)
 //例．１列目で△ボタン
-Demo: Press the △ Button\non Ring 1.
+Flip Ring 1.
 <$00>
 
 
@@ -58,7 +58,7 @@ Demo: Press the △ Button\non Ring 1.
 //#JMP($000032E0)
 #WRITE(PTR, $00088168)
 //例．１列目で□ボタン、スライド
-Demo: Press the □ Button\non Ring 1, then slide.
+Mirror Ring 1. Slide.
 <$00>
 
 
@@ -67,7 +67,7 @@ Demo: Press the □ Button\non Ring 1, then slide.
 //#JMP($00003300)
 #WRITE(PTR, $00088164)
 //例．４列目で□ボタン
-Demo: Press the □ Button\non Ring 4.
+Mirror Ring 4.
 <$00>
 
 
@@ -76,7 +76,7 @@ Demo: Press the □ Button\non Ring 4.
 //#JMP($00003318)
 #WRITE(PTR, $00088160)
 //例．２列目で△ボタン、スライド
-Demo: Press △ on Ring 2,\nthen slide.
+Flip Ring 2. Slide.
 <$00>
 
 
@@ -85,7 +85,7 @@ Demo: Press △ on Ring 2,\nthen slide.
 //#JMP($00003338)
 #WRITE(PTR, $0008815C)
 //例．４列目でＲ１ボタン
-Demo: Press R1 on Ring 4.
+Rotate Ring 4 +90°.
 <$00>
 
 
@@ -94,7 +94,7 @@ Demo: Press R1 on Ring 4.
 //#JMP($00003350)
 #WRITE(PTR, $00088158)
 //例．３列目でＲ１ボタン
-Demo: Press R1 on Ring 3.
+Rotate Ring 3 +90°.
 <$00>
 
 
@@ -103,7 +103,7 @@ Demo: Press R1 on Ring 3.
 //#JMP($00003368)
 #WRITE(PTR, $00088154)
 //例．２列目を外し１列目でスライド
-Demo: Remove Ring 2, then\nslide under Ring 1.
+Remove Ring 2. Slide Ring 1.
 <$00>
 
 
@@ -112,7 +112,7 @@ Demo: Remove Ring 2, then\nslide under Ring 1.
 //#JMP($0000338C)
 #WRITE(PTR, $00088150)
 //例．１、２、１列目で順に○ボタン
-Demo: Press the ○ Button on\nRing 1, 2, then 1 again.
+Remove Ring 1. Exchange Ring 2.
 <$00>
 
 
@@ -121,7 +121,7 @@ Demo: Press the ○ Button on\nRing 1, 2, then 1 again.
 //#JMP($000033B0)
 #WRITE(PTR, $0008814C)
 //例．１列目で方向キー下　ＨＥ→ＩＦ
-Demo: On Ring 1, press the\nD-Pad DOWN. (HE→IF)
+Slide Ring 1 DOWN. (HE→IF)
 <$00>
 
 
@@ -130,7 +130,7 @@ Demo: On Ring 1, press the\nD-Pad DOWN. (HE→IF)
 //#JMP($000033D4)
 #WRITE(PTR, $00088148)
 //スタートボタンからＱＵＩＴで終了
-Press START then "QUIT" to exit.
+START: RESTART OR QUIT
 <$00>
 
 
@@ -142,7 +142,7 @@ Press START then "QUIT" to exit.
 #WLB(PTR1, $00031C68)
 #WHB(PTR1, $00031C69)
 //解答例：指示にあわせて解いて下さい\n（セレクトボタンで戻る）
-Follow along to solve the puzzle.\n(Press SELECT to go back.)
+Follow the demonstration.\n(SELECT: Back)
 <$00>
 
 
@@ -154,7 +154,7 @@ Follow along to solve the puzzle.\n(Press SELECT to go back.)
 #WLB(PTR1, $00031C70)
 #WHB(PTR1, $00031C71)
 //レコード以下で解いて下さい\n（セレクトボタンで解答例）
-Try to beat the record.\n(Press SELECT for the answer.)
+Beat the Club Record!\n(Select: Show solution)
 <$00>
 
 
@@ -166,7 +166,7 @@ Try to beat the record.\n(Press SELECT for the answer.)
 #WLB(PTR1, $00031CD0)
 #WHB(PTR1, $00031CD1)
 //ＲＥＤＯ：弊社の最短手を再現
-REDO: Replicate the last move.
+REDO: Repeat your last move
 <$00>
 
 
@@ -178,7 +178,7 @@ REDO: Replicate the last move.
 #WLB(PTR1, $00031CD8)
 #WHB(PTR1, $00031CD9)
 //ＲＥＤＯ：現在の最短手を再現
-REDO: Replicate the last move.
+REDO: Repeat your last move
 <$00>
 
 
@@ -190,7 +190,7 @@ REDO: Replicate the last move.
 #WLB(PTR1, $00031D58)
 #WHB(PTR1, $00031D59)
 //最短手の再現は初期状態からのみ可能
-A redo is only possible for\nthe last move undone.
+You can only redo\nyour last undone move.
 <$00>
 
 
@@ -218,7 +218,7 @@ Undo / Redo
 #WLB(PTR1, $00032D44)
 #WHB(PTR1, $00032D45)
 //失われたトータルスコアは戻りません
-Total score will not\nbe restored.
+Total Scores won't restore.
 <$00>
 
 
@@ -230,7 +230,7 @@ Total score will not\nbe restored.
 #WLB(PTR1, $00032E84)
 #WHB(PTR1, $00032E85)
 //これが弊社の最短手です\n次は一人で解いてみましょう
-This is our record.\nGive it a try on your own.
+This is our Club Record.\nSee if you can beat it!
 <$00>
 
 
@@ -242,7 +242,7 @@ This is our record.\nGive it a try on your own.
 #WLB(PTR1, $00032EB0)
 #WHB(PTR1, $00032EB1)
 //この練習問題は卒業です\n次の問題にチャレンジしましょう
-You've completed the exercise.\nLet's take on the next!
+Exercise complete!\nNow, take on the next!
 <$00>
 
 
@@ -275,7 +275,7 @@ moze////
 //#JMP($000035C8)
 #WRITE(PTR, $000881CC)
 //左９０°回転
-Rotate 90° Left
+Rotate -90°
 <$00>
 
 
@@ -293,7 +293,7 @@ Rotate 180°
 //#JMP($000035E8)
 #WRITE(PTR, $000881C4)
 //右９０°回転
-Rotate 90° Right
+Rotate +90°
 <$00>
 
 
@@ -305,7 +305,7 @@ Rotate 90° Right
 #WLB(PTR1, $000339C8)
 #WHB(PTR1, $000339C9)
 //%s%s手目は、左から%s列目で\n
-%s%s. Select ring %s (from the left).\n
+%s%s. Select Ring %s.\n
 <$00>
 
 
@@ -317,7 +317,7 @@ Rotate 90° Right
 #WLB(PTR1, $00033A6C)
 #WHB(PTR1, $00033A6D)
 //【%s】を押して【%s】
-Press 【%s】 to 【%s】!
+【%s】: 【%s】!
 <$00>
 
 
@@ -329,7 +329,7 @@ Press 【%s】 to 【%s】!
 #WLB(PTR1, $00033A74)
 #WHB(PTR1, $00033A75)
 //コマンド%s段目の【%s】
-COMMAND%SLVL【%S】
+Command%SLVL【%S】
 <$00>
 
 
@@ -341,7 +341,7 @@ COMMAND%SLVL【%S】
 #WLB(PTR1, $00033CCC)
 #WHB(PTR1, $00033CCD)
 //カーソルの位置が違います\nまずは例の通りに解いてみましょう
-The cursor has moved.\nLet's follow the example.
+Follow the demonstration.
 <$00>
 
 
@@ -353,7 +353,7 @@ The cursor has moved.\nLet's follow the example.
 #WLB(PTR1, $00033E08)
 #WHB(PTR1, $00033E09)
 //操作が違います\nまずは例の通りに解いてみましょう
-This move is different.\nLet's follow the example.
+Follow the demonstration.
 <$00>
 
 
@@ -362,7 +362,7 @@ This move is different.\nLet's follow the example.
 //#JMP($000036B0)
 #WRITE(PTR, $00088220)
 //正解に同じ文字がある場合は\n揃えて一緒に調整すべし
-Letters should be lined up\nto match the Target Word. 
+Find letters from the\nTarget Word and align them. 
 <$00>
 
 
@@ -371,7 +371,7 @@ Letters should be lined up\nto match the Target Word.
 //#JMP($000036E4)
 #WRITE(PTR, $0008821C)
 //熟考したいときにはＬ２ボタンで\nアルファベット一覧表を表示
-For a refresher, press L2\nfor the alphabet table.
+L2: Review alphabet
 <$00>
 
 
@@ -380,7 +380,7 @@ For a refresher, press L2\nfor the alphabet table.
 //#JMP($00003720)
 #WRITE(PTR, $00088218)
 //ノンビリ気分でやりたいときには\nＲ２ボタンでコマンド入力モードに
-For a relaxed approach, \npress R2 to change inputs.
+R2: Review command list
 <$00>
 
 
@@ -389,7 +389,7 @@ For a relaxed approach, \npress R2 to change inputs.
 //#JMP($00003760)
 #WRITE(PTR, $00088214)
 //説明書に保存された好手は\nＲＥＤＯでリプレイできる
-Solved puzzles are stored in\nthe Users' Manual for replay.
+Solved puzzles are stored\nin the Users' Manual.
 <$00>
 
 
@@ -398,7 +398,7 @@ Solved puzzles are stored in\nthe Users' Manual for replay.
 //#JMP($00003794)
 #WRITE(PTR, $00088210)
 //難しい問題に出会ったら\nＱＵＩＴしてすぐセーブ
-If you find a tricky problem,\nQUIT and SAVE first!
+If a puzzle looks hard,\nexit and save first!
 <$00>
 
 
@@ -407,7 +407,7 @@ If you find a tricky problem,\nQUIT and SAVE first!
 //#JMP($000037C4)
 #WRITE(PTR, $0008820C)
 //ボムやボーナスを探すには\nカーソル移動でアディを確認
-If the cursor passes a Bomb\nor a Bonus Coin, watch Addie!
+If you pass a Bonus or\na Bomb, Addie will react.
 <$00>
 
 
@@ -416,7 +416,7 @@ If the cursor passes a Bomb\nor a Bonus Coin, watch Addie!
 //#JMP($000037F8)
 #WRITE(PTR, $00088208)
 //早くボーナスを引いたときほど\nボムを踏まないように注意せよ
-Don't trip Bonus Coins too early,\nand avoid Bomb Coins!
+Don't trip Bonuses early.\nAlso, try to avoid Bombs!
 <$00>
 
 
@@ -425,7 +425,7 @@ Don't trip Bonus Coins too early,\nand avoid Bomb Coins!
 //#JMP($00003834)
 #WRITE(PTR, $00088204)
 //ボムはその時のスコアの分だけ\nトータルを減らしてしまう
-Bombs will reduce your\ncurrent score.
+Bombs will hurt your score!
 <$00>
 
 
@@ -434,7 +434,7 @@ Bombs will reduce your\ncurrent score.
 //#JMP($0000386C)
 #WRITE(PTR, $00088200)
 //ボーナスはスコアを倍にするが\nクオリファイを超えると無効になる
-Score bonuses disappear if\nyou breach the Qualify Score.
+Crossing the Baseline\nwill erase your Bonuses.
 <$00>
 
 
@@ -443,7 +443,7 @@ Score bonuses disappear if\nyou breach the Qualify Score.
 //#JMP($000038AC)
 #WRITE(PTR, $000881FC)
 //難しい問題で無理をするな\n急がばまわれ
-Don't overthink\ndifficult puzzles.
+Don't overthink\n"difficult"-looking words.
 <$00>
 
 
@@ -452,7 +452,7 @@ Don't overthink\ndifficult puzzles.
 //#JMP($000038D4)
 #WRITE(PTR, $000881F8)
 //簡単な問題ほど気を抜くな
-The easier the puzzle, the\neasier it is to get careless.
+Don't get careless in the\nface of an "easy" word.
 <$00>
 
 
@@ -461,7 +461,7 @@ The easier the puzzle, the\neasier it is to get careless.
 //#JMP($000038F0)
 #WRITE(PTR, $000881F4)
 //すべってしまう青いリングは\n大きな助けになる
-Sliding blue rings is a great way\nto stay out of trouble!
+Blue rings are harmless\nto slide in a pinch.
 <$00>
 
 
@@ -470,7 +470,7 @@ Sliding blue rings is a great way\nto stay out of trouble!
 //#JMP($0000391C)
 #WRITE(PTR, $000881F0)
 //外せない赤いリングは\nヒントと思え
-If a red ring can't be\nremoved, it may be a hint!
+Try to view red rings\nas free hints instead.
 <$00>
 
 
@@ -479,7 +479,7 @@ If a red ring can't be\nremoved, it may be a hint!
 //#JMP($00003940)
 #WRITE(PTR, $000881EC)
 //一番端を残してコインを外すと\n文字の調節が楽になる
-Remove a ring. Then, a coin.\nLetter adjustment made easy!
+Removing certain coins\ncan have dramatic effects!
 <$00>
 
 
@@ -488,7 +488,7 @@ Remove a ring. Then, a coin.\nLetter adjustment made easy!
 //#JMP($00003974)
 #WRITE(PTR, $000881E8)
 //クオリファイ以下の好手は\n説明書に保存される
-Tips for meeting the Qualify\nScore are in the Users' Manual.
+Read about the Baseline\nin the Users' Manual.
 <$00>
 
 
@@ -497,7 +497,7 @@ Tips for meeting the Qualify\nScore are in the Users' Manual.
 //#JMP($000039A0)
 #WRITE(PTR, $000881E4)
 //ＵＮＤＯは×ボタンで\n活用すべし
-Try undoing moves\nwith the × Button.
+× Button: Undo a move
 <$00>
 
 
@@ -506,7 +506,7 @@ Try undoing moves\nwith the × Button.
 //#JMP($000039C0)
 #WRITE(PTR, $000881E0)
 //試行錯誤・ＲＥＳＴＡＲＴの先に\nレコードにつながる道がある
-Restart puzzles to beat the\nrecord through trial and error.
+Restart puzzles to\nchallenge the Club Record!
 <$00>
 
 
@@ -515,7 +515,7 @@ Restart puzzles to beat the\nrecord through trial and error.
 //#JMP($000039FC)
 #WRITE(PTR, $000881DC)
 //クオリファイ超過には一利もなし
-There is no reward for\nbreaching the Qualify Score.
+Don't breach the Baseline.
 <$00>
 
 
@@ -524,7 +524,7 @@ There is no reward for\nbreaching the Qualify Score.
 //#JMP($00003A1C)
 #WRITE(PTR, $000881D8)
 //同じ記号は便利な近道
-Matching symbols are\nconvenient shortcuts.
+Matching coins are handy!
 <$00>
 
 
@@ -533,7 +533,7 @@ Matching symbols are\nconvenient shortcuts.
 //#JMP($00003A34)
 #WRITE(PTR, $00088258)
 //ログロックを華麗に解くための秘訣で\nゲーム中ではランダムに選択されます
-The secrets to solving puzzles\nare randomly selected in-game.
+Some secrets to success\ncan trigger at random.
 <$00>
 
 
@@ -542,7 +542,7 @@ The secrets to solving puzzles\nare randomly selected in-game.
 //#JMP($00003A7C)
 #WRITE(PTR, $00088254)
 //スライド、回転、鏡文字、交換など\nそれぞれのリングで試してみましょう
-Try sliding, rotating, mirroring\nand exchanging each ring! 
+Slide, mirror, rotate\nand exchange each ring!
 <$00>
 
 
@@ -551,7 +551,7 @@ Try sliding, rotating, mirroring\nand exchanging each ring!
 //#JMP($00003AC0)
 #WRITE(PTR, $00088250)
 //方向キーの左・右で\nアディの反応を確かめてください
-D-Pad LEFT+RIGHT:\nView Addie's reaction.
+D-Pad LEFT+RIGHT:\nView Addie's reaction
 <$00>
 
 
@@ -560,7 +560,7 @@ D-Pad LEFT+RIGHT:\nView Addie's reaction.
 //#JMP($00003AF4)
 #WRITE(PTR, $00088248)
 //中央横列で隣り合っている\nコインは連動します
-Coins beside each other in\nthe central row will link.
+Coins on the central row\nwill behave as linked.
 <$00>
 
 
@@ -570,7 +570,7 @@ Coins beside each other in\nthe central row will link.
 #WRITE(PTR, $0008823C)
 #WRITE(PTR, $00088244)
 //成立しない記号は\nスライドしても変化しません
-Non-alphabet symbols won't change\neven when you slide a ring.
+Odd coins won't change\nwhen rings are slid.
 <$00>
 
 
@@ -590,7 +590,7 @@ Non-alphabet symbols won't change\neven when you slide a ring.
 #WLB(PTR1, $00020EC8)
 #WHB(PTR1, $00020EC9)
 //Ｎｏ．%s【破損したファイル】
-ＮＯ．%S (FILE CORRUPTED.)
+No.%S (FILE CORRUPTED.)
 <$00>
 
 
@@ -689,7 +689,7 @@ Overwrite puzzle data?
 //#JMP($00001BC4)
 #WRITE(PTR, $0007E3D4)
 //ロードに失敗しています。\n再接続してロードし直して下さい。
-Loading failed! Reconnect\nmemory card and try again.
+Loading failed!\nReinsert memory card.
 <$00>
 
 
@@ -698,7 +698,7 @@ Loading failed! Reconnect\nmemory card and try again.
 //#JMP($00001C00)
 #WRITE(PTR, $0007E3D0)
 //セーブに失敗しています。\n再接続してセーブし直して下さい。
-Saving failed! Reconnect\nmemory card and try again.
+Saving failed!\nReinsert memory card.
 <$00>
 
 
@@ -707,7 +707,7 @@ Saving failed! Reconnect\nmemory card and try again.
 //#JMP($00001C3C)
 #WRITE(PTR, $0007E3CC)
 //空きブロックが不足しています。\n問題の保存には１ブロック必要です。
-Insufficient blocks. 1 block\nrequired for puzzle data.
+Insufficient blocks.\nPuzzle Data=1 block.
 <$00>
 
 
@@ -752,7 +752,7 @@ Overwrite this file?
 //#JMP($00001D40)
 #WRITE(PTR, $0007E3B8)
 //このまま閉じると修正は失われます。\nよろしいですか？
-Unsaved data will be lost.
+Unsaved data will be lost.\nContinue?
 <$00>
 
 
@@ -761,7 +761,7 @@ Unsaved data will be lost.
 //#JMP($00001D74)
 #WRITE(PTR, $0007E3B4)
 //クリアデータは保存されません。\nこのまま閉じますか？
-Clear data not saved.\nAre you sure you want to exit?
+Clear data not saved.\nContinue?
 <$00>
 
 
@@ -779,7 +779,7 @@ Memory card not formatted.\nFormat memory card?
 //#JMP($00001DE0)
 #WRITE(PTR, $0007E3AC)
 //ロードに失敗しました。\nメモリーカードを再接続して下さい。
-Loading failed!\nReconnect memory card.
+Loading failed!\nReinsert memory card.
 <$00>
 
 
@@ -788,7 +788,7 @@ Loading failed!\nReconnect memory card.
 //#JMP($00001E1C)
 #WRITE(PTR, $0007E3A8)
 //セーブに失敗しました。\nメモリーカードを再接続して下さい。
-Saving failed!\nReconnect memory card.
+Saving failed!\nReinsert memory card.
 <$00>
 
 
@@ -797,7 +797,7 @@ Saving failed!\nReconnect memory card.
 //#JMP($00001E58)
 #WRITE(PTR, $0007E3A4)
 //ロードできるファイルがありません。\nメモリーカードを交換して下さい。
-No files found.\nInsert a different memory card.
+Data not found.\nInsert new memory card.
 <$00>
 
 
@@ -806,7 +806,7 @@ No files found.\nInsert a different memory card.
 //#JMP($00001E9C)
 #WRITE(PTR, $0007E3A0)
 //空きブロックが不足しています。\nメモリーカードを交換して下さい。
-Insufficient blocks.\nInsert a different memory card.
+Insufficient blocks.\nInsert new memory card.
 <$00>
 
 
@@ -815,7 +815,7 @@ Insufficient blocks.\nInsert a different memory card.
 //#JMP($00001EDC)
 #WRITE(PTR, $0007E39C)
 //フォーマットに失敗しました。\nメモリーカードを再接続して下さい。
-Formatting failed!\nReconnect memory card.
+Formatting failed!\nReinsert memory card.
 <$00>
 
 
@@ -824,7 +824,7 @@ Formatting failed!\nReconnect memory card.
 //#JMP($00001F1C)
 #WRITE(PTR, $0007E398)
 //アクセスに失敗しました。\nメモリーカードを再接続して下さい。
-Access denied!\nReconnect memory card.
+Access denied!\nReinsert memory card.
 <$00>
 
 
@@ -851,7 +851,7 @@ Replaying scene.\nPlease wait a moment.
 //#JMP($00001FBC)
 #WRITE(PTR, $0007E38C)
 //読み込んでいます。お待ち下さい…\nメモリーカードを抜かないで下さい。
-Checking data, please wait.\nDo not remove memory card!
+Checking data. Please wait.\nDo not remove memory card!
 <$00>
 
 
@@ -860,7 +860,7 @@ Checking data, please wait.\nDo not remove memory card!
 //#JMP($00002000)
 #WRITE(PTR, $0007E388)
 //記録準備しています。お待ち下さい…\nメモリーカードを抜かないで下さい。
-Retrieving data, please wait.\nDo not remove memory card!
+Loading data. Please wait.\nDo not remove memory card!
 <$00>
 
 
@@ -869,7 +869,7 @@ Retrieving data, please wait.\nDo not remove memory card!
 //#JMP($00002048)
 #WRITE(PTR, $0007E384)
 //書き込んでいます。お待ち下さい…\nメモリーカードを抜かないで下さい。
-Recording data, please wait.\nDo not remove memory card!
+Saving data. Please wait.\nDo not remove memory card!
 <$00>
 
 
@@ -878,7 +878,7 @@ Recording data, please wait.\nDo not remove memory card!
 //#JMP($0000208C)
 #WRITE(PTR, $0007E380)
 //初期化しています。お待ち下さい…\nメモリーカードを抜かないで下さい。
-Formatting, please wait.\nDo not remove memory card!
+Formatting. Please wait.\nDo not remove memory card!
 <$00>
 
 
@@ -887,7 +887,7 @@ Formatting, please wait.\nDo not remove memory card!
 //#JMP($000020D0)
 #WRITE(PTR, $0007E37C)
 //認識しています。お待ち下さい…\nメモリーカードを抜かないで下さい。
-Checking, please wait.\nDo not remove memory card!
+Checking. Please wait.\nDo not remove memory card!
 <$00>
 
 
@@ -926,7 +926,7 @@ Copied:
 //#JMP($00002138)
 #WRITE(PTR, $0007E408)
 //この問題をコピーします：○…次へ
-Copying this puzzle: Next ○
+Copy puzzle?
 <$00>
 
 
@@ -947,7 +947,7 @@ Copied:
 #WLB(PTR1, $0001F7B0)
 #WHB(PTR1, $0001F7B1)
 //%s%s%s\n\nＲＥＣＯＲＤ：%s　【%s】%s
-%s%s%s\n\nRECORD:%s　【%s】%s
+%s%s%s\n\nRECORD: %s　【%s】%s
 <$00>
 
 
@@ -959,7 +959,7 @@ Copied:
 #WLB(PTR1, $0001F8C4)
 #WHB(PTR1, $0001F8C5)
 //\n問題データが破損しています\nロードできません
-\nPuzzle Data is corrupted.\nUnable to load Puzzle Data.
+\nPuzzle Data corrupted.\nUnable to load Puzzle Data.
 <$00>
 
 
@@ -1010,7 +1010,7 @@ Mirror
 #WRITE(PTR, $00088238)
 #WRITE(PTR, $00088240)
 //変化後も中央横列を基準にして\nアルファベットの順番が保たれます
-Even after an exchange, the\ncentral row maintains ABC order.
+After this, the central\nrow upholds ABC order.
 <$00>
 
 
@@ -1019,7 +1019,7 @@ Even after an exchange, the\ncentral row maintains ABC order.
 //#JMP($00003B8C)
 #WRITE(PTR, $00088234)
 //△・Ｒ１・Ｌ１ボタンで\nコインを回転します
-△+R1+L1:\nRotates a coin.
+△+R1+L1:\nRotates a coin
 <$00>
 
 
@@ -1029,7 +1029,7 @@ Even after an exchange, the\ncentral row maintains ABC order.
 #WRITE(PTR, $00088230)
 #WRITE(PTR, $0008824C)
 //リングを外すことで\n連動を調節できます
-You can adjust linked rings\nvia removal("Exchange").
+Control linked rings by\nremoving and exchanging.
 <$00>
 
 
@@ -1038,7 +1038,7 @@ You can adjust linked rings\nvia removal("Exchange").
 //#JMP($00003BE0)
 #WRITE(PTR, $0008822C)
 //○ボタンで\nリングを交換します
-○:\nRemoves or exchanges a ring.
+○ Button: Removes or\nexchanges a ring
 <$00>
 
 
@@ -1047,7 +1047,7 @@ You can adjust linked rings\nvia removal("Exchange").
 //#JMP($00003C00)
 #WRITE(PTR, $00088228)
 //方向キーの上・下で\nリングはスライドします
-D-Pad UP+DOWN:\nSlides a ring.
+D-Pad UP+DOWN:\nSlides a ring
 <$00>
 
 
@@ -1056,7 +1056,7 @@ D-Pad UP+DOWN:\nSlides a ring.
 //#JMP($00003C2C)
 #WRITE(PTR, $00088224)
 //ＲＥＳＴＡＲＴを選択すると\n問題が初期状態に戻ります
-"RESTART" puts the puzzle\nback in its original state.
+Restart to reset a puzzle\nto their original state.
 <$00>
 
 
