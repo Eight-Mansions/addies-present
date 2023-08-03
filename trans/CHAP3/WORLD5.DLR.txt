@@ -263,7 +263,7 @@ and you helped him escape,
 // PTR : 000015E4
 #WRITE(PTR, $0000190C)
 //奴とはなんの関係もないと\n言いはるんじゃな？
-how are you not\nhis sidekick?!
+How are you not\nhis sidekick?!
 <$00>
 
 // PTR : 00001610
@@ -1012,7 +1012,7 @@ Some pieces are nothing\nto write home about.
 #WBB(PTR1, $00003EAC)
 #WUB(PTR1, $00003EAD)
 //受付でうろうろしても\nしょうがないよ
-受付でうろうろしても\nしょうがないよ
+Not sure how loitering\nby reception will help. 
 <$00>
 
 // PTR : 00000770
@@ -1021,7 +1021,7 @@ Some pieces are nothing\nto write home about.
 #WBB(PTR1, $00004DDC)
 #WUB(PTR1, $00004DDD)
 //こんな変なのは\nどうでもいいよ
-こんな変なのは\nどうでもいいよ
+I don't mind things\nbeing so odd.
 <$00>
 
 
@@ -1031,7 +1031,7 @@ Some pieces are nothing\nto write home about.
 #WBB(PTR1, $000059D8)
 #WUB(PTR1, $000059D9)
 //まあ、ゆっくりするのも\nいいんだけどね
-まあ、ゆっくりするのも\nいいんだけどね
+Well, slow and steady\ndoes win the race.
 <$00>
 
 // PTR : 00000948
@@ -1040,5 +1040,5 @@ Some pieces are nothing\nto write home about.
 #WBB(PTR1, $00006F5C)
 #WUB(PTR1, $00006F5D)
 //うーん…\nこの部屋じゃないのかな
-うーん…\nこの部屋じゃないのかな
+Hrrm... This isn't\nthe room, is it.
 <$00>
