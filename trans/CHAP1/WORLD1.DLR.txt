@@ -33,7 +33,7 @@ I need to talk to you!
 // PTR : 00000DC4
 #WRITE(PTR, $00000F50)
 //…登っておいでよ
-Well, come on up!
+Sure, come on up...
 <$00>
 
 // PTR : 00000DD8
@@ -45,7 +45,7 @@ If you can!
 // PTR : 00000DEC
 #WRITE(PTR, $00000F58)
 //わかったわ
-You asked for it.
+Heh. You asked for it!
 <$00>
 
 // PTR : 00000DF8
@@ -57,7 +57,7 @@ Hold this for me!
 // PTR : 00000E04
 #WRITE(PTR, $00000F60)
 //え、ちょっと…
-Woah, wait up!
+Woah, hold on!
 <$00>
 
 // PTR : 00000E14
@@ -69,13 +69,13 @@ This is my first time\ngetting this view.
 // PTR : 00000E34
 #WRITE(PTR, $00000F68)
 //…で、話って？
-Yeah? Do you...\nstill want to talk?
+So, was there something\nyou wanted to talk about?
 <$00>
 
 // PTR : 00000E44
 #WRITE(PTR, $00000F6C)
 //動いたよ、オルゴール
-I do! It's about\nthe music box.
+Actually, yes!\nIt's about the music box.
 <$00>
 
 // PTR : 00000E5C
@@ -93,7 +93,7 @@ See, Moze?
 // PTR : 00000E74
 #WRITE(PTR, $00000F78)
 //…壊れたものは、直せばいいのよ
-Anything "broken"\ncan still be fixed.
+Anything "broken" can\nbe "fixed".
 <$00>
 
 // PTR : 00000E9C
@@ -105,13 +105,13 @@ What was THAT for?!
 // PTR : 00000EB0
 #WRITE(PTR, $00000F84)
 //ねえモーゼ、あなた子供のくせに
-You're a kid!\nYou're flexible!
+Aww, be flexible.\nYou're still a kid!
 <$00>
 
 // PTR : 00000ED0
 #WRITE(PTR, $00000F88)
 //大人のわがままに負けちゃうの？
-Or have you succumbed to\nrigid adult life already?
+Well, unless you WANT to\nbe a stuffy grown-up.
 <$00>
 
 // PTR : 00000EF0
@@ -141,19 +141,19 @@ Take good care\nof my hat.
 // PTR : 00001778
 #WRITE(PTR, $00001954)
 //モーゼ兄さんなら
-If you're looking\nfor Moze...
+If you're looking\nfor Moze,
 <$00>
 
 // PTR : 0000178C
 #WRITE(PTR, $00001958)
 //もう行っちゃったわよ
-He's already gone.
+he's already gone.
 <$00>
 
 // PTR : 000017A4
 #WRITE(PTR, $0000195C)
 //これを返そうと思って…
-I wanted to\nreturn this.
+I wanted to return this.
 <$00>
 
 // PTR : 000017BC
@@ -165,19 +165,19 @@ Did my brother\ngive that to you?
 // PTR : 000017E0
 #WRITE(PTR, $00001964)
 //わたしは受け取れないわ
-Then I can't accept.
+Then, I can't accept it.
 <$00>
 
 // PTR : 000017F8
 #WRITE(PTR, $00001968)
 //それに、うちにはもう…
-Besides, our home...
+Besides...
 <$00>
 
 // PTR : 00001810
 #WRITE(PTR, $0000196C)
 //…もう、いらないものだから
-...doesn't need it\nanymore.
+It doesn't mean anything\nto my family anymore.
 <$00>
 
 // PTR : 0000182C
@@ -189,13 +189,13 @@ Addie.
 // PTR : 00001834
 #WRITE(PTR, $00001974)
 //正直に言うとね…
-If I'm being honest,
+I'll be honest.
 <$00>
 
 // PTR : 00001848
 #WRITE(PTR, $00001978)
 //あなたなら兄さんを\n引き止められるかもって
-if I thought anyone\ncould get him to stay,
+If anyone could've\nconvinced Moze to stay,
 <$00>
 
 // PTR : 00001874
@@ -207,25 +207,25 @@ it would've been you.
 // PTR : 00001888
 #WRITE(PTR, $00001980)
 //だって…！
-How could I?!
+Me?!
 <$00>
 
 // PTR : 00001894
 #WRITE(PTR, $00001984)
 //別に責めてるんじゃないの
-I'm not blaming you.
+You did nothing wrong.
 <$00>
 
 // PTR : 000018B0
 #WRITE(PTR, $00001988)
 //思っていたよりもあなたは、
-You're just more adult...
+You're just... grown up.
 <$00>
 
 // PTR : 000018CC
 #WRITE(PTR, $0000198C)
 //大人だったんだな、って…
-...than I once thought.
+More than I thought,\nanyways.
 <$00>
 
 // PTR : 000018E8
@@ -243,7 +243,7 @@ were so reasonable.
 // PTR : 00001918
 #WRITE(PTR, $00001998)
 //都合がよすぎるわね
-Or should I say,\n"too realistic".
+Or should I say,\n"realistic".
 <$00>
 
 // PTR : 0000192C
@@ -255,7 +255,7 @@ Or should I say,\n"too realistic".
 // PTR : 0000193C
 #WRITE(PTR, $000019A0)
 //…また、遊びに来てね
-...Come over sometime.
+Come over some time.
 <$00>
 
 // PTR : 00001F98
@@ -267,13 +267,13 @@ Let's see here...
 // PTR : 00001FAC
 #WRITE(PTR, $00001FD4)
 //椅子…？
-This looks\nlike a chair.
+This looks like a chair.
 <$00>
 
 // PTR : 00001FB8
 #WRITE(PTR, $00001FD8)
 //にしても、大げさだけど
-An awfully large one.
+An awfully large one!
 <$00>
 
 // PTR : 0000204C
@@ -285,7 +285,7 @@ Hmm?
 // PTR : 00002054
 #WRITE(PTR, $000020A8)
 //なにか書いてあるわ…
-Something's written here.
+It says something here.
 <$00>
 
 // PTR : 000003A8
@@ -315,13 +315,13 @@ It wants me to\nenter a name?
 // PTR : 00002108
 #WRITE(PTR, $00002148)
 //『訣別』…\nお別れ、って意味かしら
-"Departed"...\n As in, "left".
+"Departed", as in,\n"gone away forever".
 <$00>
 
 // PTR : 0000212C
 #WRITE(PTR, $0000214C)
 //…お別れする人の名前…
-The name of someone\nwho left me.
+Who can I say left me?
 <$00>
 
 // PTR : 0000244C
@@ -339,7 +339,7 @@ I don't see her.
 // PTR : 0000246C
 #WRITE(PTR, $0000248C)
 //でも、きっとこの先ね
-She must be\nup ahead.
+She must be up ahead.
 <$00>
 
 // PTR : 0000252C
@@ -357,7 +357,7 @@ Emmy?
 // PTR : 00002548
 #WRITE(PTR, $0000255C)
 //誰かいるわ
-Someone's\nup there.
+Someone's up there.
 <$00>
 
 // PTR : 00000E94
@@ -412,13 +412,13 @@ Who's Eliza?
 // PTR : 000026F8
 #WRITE(PTR, $00002734)
 //僕の知り合いさ
-Someone I know.
+A girl I know.
 <$00>
 
 // PTR : 00002708
 #WRITE(PTR, $00002738)
 //そう。じゃあ違うわね
-Ah, well,\nthat's different.
+Ah, so I was wrong.
 <$00>
 
 #VAR(PTR1, CUSTOMPOINTER)
@@ -429,7 +429,7 @@ Ah, well,\nthat's different.
 #WBB(PTR1, $00004C6C)
 #WUB(PTR1, $00004C6D)
 //次の画面で、クリアデータを\nセーブして下さい
-Save GAME CLEAR data\non the next screen.
+Save completion data\non the next screen.
 <$00>
 
 // PTR : 00000350
@@ -438,7 +438,7 @@ Save GAME CLEAR data\non the next screen.
 #WBB(PTR1, $00004C78)
 #WUB(PTR1, $00004C79)
 //セーブされなかった場合\nクリアデータは失われます
-If not saved,\nprogress will be lost.
+Unsaved progress\nwill be lost.
 <$00>
 
 // PTR : 000003F0
@@ -447,7 +447,7 @@ If not saved,\nprogress will be lost.
 #WBB(PTR1, $00005154)
 #WUB(PTR1, $00005155)
 //目を覚ましたアディ。\nそこは見慣れない風景。
-Addie woke up\nin a mysterious place.
+Addie woke up\nin a strange place.
 <$00>
 
 // PTR : 0000041C
@@ -456,7 +456,7 @@ Addie woke up\nin a mysterious place.
 #WBB(PTR1, $00005228)
 #WUB(PTR1, $00005229)
 //…ここ、どこかしら？
-...Where am I?
+Where am I?
 <$00>
 
 // PTR : 00000434
@@ -465,7 +465,7 @@ Addie woke up\nin a mysterious place.
 #WBB(PTR1, $000052D4)
 #WUB(PTR1, $000052D5)
 //そう、ここが
-This is it.
+Ah, this is it.
 <$00>
 
 // PTR : 00000444
@@ -483,7 +483,7 @@ The place I woke up.
 #WBB(PTR1, $000053CC)
 #WUB(PTR1, $000053CD)
 //導かれるままに\n始まりの墓を訪れたアディ。
-As if led there,\nAddie found a tomb.
+As if led by her hand,\nAddie found a tomb.
 <$00>
 
 #VAR(PTR2, CUSTOMPOINTER)
@@ -507,7 +507,7 @@ Let's head back to town.\nI'll give you the tour!
 #WBB(PTR2, $000055D4)
 #WUB(PTR2, $000055D5)
 //ここは、ただの古いお墓さ
-This is an old tomb.
+Here lies an old tomb.
 <$00>
 
 // PTR : 00002004
@@ -525,7 +525,7 @@ Only, its sadness\nfeels fresh.
 #WBB(PTR2, $00008EA4)
 #WUB(PTR2, $00008EA5)
 //ケツベツ、かぁ…
-"Departed," huh.
+"Departed", huh.
 <$00>
 
 // PTR : 00002170
@@ -562,7 +562,7 @@ What should I do?
 #WBB(PTR2, $00009030)
 #WUB(PTR2, $00009031)
 //やだ…\nなんだか、こわいわ
-It's funny.\nI'm...scared.
+Am I... scared?\nHow funny.
 <$00>
 
 // PTR : 000022A4
@@ -589,7 +589,7 @@ Oh! Emmy!
 #WBB(PTR2, $0000A5D0)
 #WUB(PTR2, $0000A5D1)
 //エミィに似た少女が現れる。\nその少女を追うアディ。
-Addie followed a girl\nwho resembled Emmy.
+Addie followed a most\nfamiliar girl.
 <$00>
 
 // PTR : 000022F4
@@ -598,7 +598,7 @@ Addie followed a girl\nwho resembled Emmy.
 #WBB(PTR2, $0000A688)
 #WUB(PTR2, $0000A689)
 //さっきの女の子、たしかに\nエミィだったと思うんだけど…
-That girl\nhas to be Emmy!
+Could that girl I just\nsaw truly be Emmy?
 <$00>
 
 // PTR : 00002370
@@ -607,7 +607,7 @@ That girl\nhas to be Emmy!
 #WBB(PTR2, $0000A780)
 #WUB(PTR2, $0000A781)
 //ところで\nきみ、どこから来たの？
-By the way,\nwhere are you from?
+Where are you from,\nby the way?
 <$00>
 
 // PTR : 00002390
@@ -616,7 +616,7 @@ By the way,\nwhere are you from?
 #WBB(PTR2, $0000A794)
 #WUB(PTR2, $0000A795)
 //さあ、何と言ったらいいのか…
-How should I put this...
+No offense, but...
 <$00>
 
 // PTR : 000023B0
@@ -625,7 +625,7 @@ How should I put this...
 #WBB(PTR2, $0000A7CC)
 #WUB(PTR2, $0000A7CD)
 //迷子なのかい、きみ
-You sound, uh, lost.
+You look pretty lost.
 <$00>
 
 // PTR : 000023C4
@@ -634,7 +634,7 @@ You sound, uh, lost.
 #WBB(PTR2, $0000AFAC)
 #WUB(PTR2, $0000AFAD)
 //始まりの墓・入口
-Tomb Entrance
+Tomb
 <$00>
 
 // PTR : 000023D8
@@ -652,7 +652,7 @@ Emmy, wait!
 #WBB(PTR2, $0000C818)
 #WUB(PTR2, $0000C819)
 //聞こえないの、待ってってば！
-Can she not hear me?\nEmmy!
+Did she not hear me?\nEmmy!
 <$00>
 
 // PTR : 0000249C
@@ -670,7 +670,7 @@ You see, Loglocks...
 #WBB(PTR2, $0000DA98)
 #WUB(PTR2, $0000DA99)
 //何かの配列や組み合わせを\nどうにかするものらしいんだ
-Decode and reassemble\nwhatever they say.
+break down and reassemble\nmore than just words.
 <$00>
 
 // PTR : 000024EC
@@ -679,7 +679,7 @@ Decode and reassemble\nwhatever they say.
 #WBB(PTR2, $0000DAC8)
 #WUB(PTR2, $0000DAC9)
 //僕もよく知らないんだけどね
-I don't understand\nthem fully either.
+I don't understand\nit either.
 <$00>
 
 // PTR : 0000232C
@@ -692,7 +692,7 @@ I don't understand\nthem fully either.
 #WBB(PTR1, $0000DB30)
 #WUB(PTR1, $0000DB31)
 //街は鐘楼の向こう側だよ。早く行こう
-The town's just across.\nLet's hurry.
+Our town's just across.\nLet's hurry.
 <$00>
 
 // PTR : 00002350
@@ -705,7 +705,7 @@ The town's just across.\nLet's hurry.
 #WBB(PTR2, $0000DB68)
 #WUB(PTR2, $0000DB69)
 //この辺りに面白いものはないよ
-There's nothing\ninteresting here.
+I see nothing of note.
 <$00>
 
 // PTR : 000023F4
@@ -731,7 +731,7 @@ Path Area
 #WBB(PTR2, $0000F100)
 #WUB(PTR2, $0000F101)
 //エミィを見失ったアディは\nとらわれの少年を遠くに望む。
-After she lost Emmy,\nAddie found a boy in a cage.
+After losing Emmy, Addie\nfound a boy in a cage.
 <$00>
 
 // PTR : 000025BC
@@ -740,7 +740,7 @@ After she lost Emmy,\nAddie found a boy in a cage.
 #WBB(PTR2, $0000F1C0)
 #WUB(PTR2, $0000F1C1)
 //あの人、\nなんで閉じこめられてるのかしら
-How'd he get there?
+How'd he get in there?
 <$00>
 
 // PTR : 00002758
@@ -758,7 +758,7 @@ Path
 #WBB(PTR2, $00010580)
 #WUB(PTR2, $00010581)
 //ねえ、どうして\n鳥かごが鐘になっちゃったの？
-How'd you get locked\nin that cage anyways?
+How'd you get locked\nin that cage, anyways?
 <$00>
 
 // PTR : 000027C4
@@ -767,7 +767,7 @@ How'd you get locked\nin that cage anyways?
 #WBB(PTR2, $0001058C)
 #WUB(PTR2, $0001058D)
 //え？　ログロックって\nそういうもんじゃないの？
-Hm? You know what\nLoglocks do, right?
+"How"? You know what\nLoglocks do, don't you?
 <$00>
 
 // PTR : 0000280C
@@ -785,7 +785,7 @@ Bell Tower Basement
 #WBB(PTR1, $00011FFC)
 #WUB(PTR1, $00011FFD)
 //暗くて先がよく見えないわ…
-It's dark.\nI can't see too well.
+It's too dark to see.
 <$00>
 
 // PTR : 0000221C
@@ -794,5 +794,5 @@ It's dark.\nI can't see too well.
 #WBB(PTR1, $0000883C)
 #WUB(PTR1, $0000883D)
 //気分が落ち着くところだわ
-気分が落ち着くところだわ
+Let me catch my breath.
 <$00>

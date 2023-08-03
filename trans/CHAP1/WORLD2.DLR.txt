@@ -9,13 +9,13 @@
 // PTR : 000003DC
 #WRITE(PTR, $00000434)
 //どういうことなの、これ？
-Uhm, where\nare we going?
+Uhm, where are we going?
 <$00>
 
 // PTR : 000003F8
 #WRITE(PTR, $00000438)
 //歩きながら話してあげるよ
-On a walk around town,\nas a "thank you".
+On a walk around town.\nIt'll be my "thank you".
 <$00>
 
 // PTR : 00000414
@@ -45,31 +45,31 @@ Hello?!
 // PTR : 000006B0
 #WRITE(PTR, $00000924)
 //モーゼ！
-M-O-Z-E!
+M-O-Z-E?
 <$00>
 
 // PTR : 000006BC
 #WRITE(PTR, $00000928)
 //もしかして、
-Sorry...
+Sorry.
 <$00>
 
 // PTR : 000006CC
 #WRITE(PTR, $0000092C)
 //僕に話しかけてる？
-Were you talking\nto me?
+Were you talking to me?
 <$00>
 
 // PTR : 000006E0
 #WRITE(PTR, $00000930)
 //女の子に声をかけて\nもらえるのは光栄だけど
-I'm flattered a\ngirl would stop by.
+I'm flattered a\ngirl would stop by,
 <$00>
 
 // PTR : 0000070C
 #WRITE(PTR, $00000934)
 //残念なことに\n名前が違うよ
-But, uh, Moze's\nnot my name.
+but, uh, I'm not "Moze".
 <$00>
 
 // PTR : 00000728
@@ -105,31 +105,31 @@ Joka?
 // PTR : 00000780
 #WRITE(PTR, $0000094C)
 //驚くぐらいそっくりなの
-But you look\njust like Moze.
+But you look like Moze!
 <$00>
 
 // PTR : 00000798
 #WRITE(PTR, $00000950)
 //私の友達に…あなた
-My...\nfriend, I mean.
+My... friend, I mean.
 <$00>
 
 // PTR : 000007AC
 #WRITE(PTR, $00000954)
 //まあ、\n名前は覚えてくれたみたいだね
-Well, as long as\nyou remember it's me.
+Eh, just don't make that\nmistake twice, okay?
 <$00>
 
 // PTR : 000007D0
 #WRITE(PTR, $00000958)
 //じゃあ、僕は今、忙しいので
-I'm busy right now,\nthough.
+I'm kinda tied up\nright now,
 <$00>
 
 // PTR : 000007EC
 #WRITE(PTR, $0000095C)
 //また、会えるといいね
-I hope I see\nyou again.
+but I hope\nI see you around.
 <$00>
 
 // PTR : 00000804
@@ -147,7 +147,7 @@ Say...
 // PTR : 00000820
 #WRITE(PTR, $00000968)
 //それってもしかして…
-That wouldn't\nbe a...
+That wouldn't be a...
 <$00>
 
 // PTR : 00000838
@@ -171,7 +171,7 @@ It might be too\ncomplex for you.
 // PTR : 00000878
 #WRITE(PTR, $00000978)
 //扱えない代物さ
-It's not for kids.
+They aren't for kids.
 <$00>
 
 // PTR : 00000888
@@ -183,7 +183,7 @@ Did that answer\nyour question?
 // PTR : 0000089C
 #WRITE(PTR, $00000980)
 //君がそこにいると
-Now, stop watching me.
+Now, stop watching me!
 <$00>
 
 // PTR : 000008B0
@@ -238,7 +238,7 @@ What happened?
 // PTR : 00000F74
 #WRITE(PTR, $00001088)
 //どうして…鐘になっちゃったの？
-The cage turned\ninto a bell?
+The cage became a bell?
 <$00>
 
 // PTR : 00000F94
@@ -256,7 +256,7 @@ You're brilliant!
 // PTR : 00000FB0
 #WRITE(PTR, $00001094)
 //僕には全然解けなかったのに！
-I couldn't solve it!
+I never would have\nsolved that!
 <$00>
 
 // PTR : 00000FD0
@@ -274,7 +274,7 @@ I thought I'd never\nget out of there!
 // PTR : 0000100C
 #WRITE(PTR, $000010A0)
 //とにかく、ありがとう！\n君のおかげだよ！
-Thanks!\nI owe you one!
+Thanks! I owe you one!
 <$00>
 
 // PTR : 00001034
@@ -324,7 +324,7 @@ There's no rush today.
 #WBB(PTR1, $00002BAC)
 #WUB(PTR1, $00002BAD)
 //僕ら、出会ったばかりだよ。アディ
-We only just met,\nAddie.
+We only just met, right?
 <$00>
 
 // PTR : 00000314
@@ -351,7 +351,7 @@ A certain buzzkill\nthrew me in there.
 #WBB(PTR1, $00002C34)
 #WUB(PTR1, $00002C35)
 //何も悪いことはしてないのにさ
-It's not like I\ndid anything wrong!
+It wasn't not like I\ndid anything wrong!
 <$00>
 
 // PTR : 00000370
@@ -378,7 +378,7 @@ I'd like to get back\nto town, if possible.
 #WBB(PTR1, $000033C8)
 #WUB(PTR1, $000033C9)
 //鐘楼内部・入口
-Bell Tower Entrance
+Bell Tower
 <$00>
 
 // PTR : 0000044C
@@ -387,7 +387,7 @@ Bell Tower Entrance
 #WBB(PTR1, $00003E0C)
 #WUB(PTR1, $00003E0D)
 //…早くここから立ち去ろうよ
-Let's get out\nof here soon.
+Let's get out of here.
 <$00>
 
 // PTR : 00000468
@@ -396,7 +396,7 @@ Let's get out\nof here soon.
 #WBB(PTR1, $00004524)
 #WUB(PTR1, $00004525)
 //鐘楼内部・下
-Bell Tower Bottom
+Bell Tower
 <$00>
 
 // PTR : 00000478
@@ -405,7 +405,7 @@ Bell Tower Bottom
 #WBB(PTR1, $000048F4)
 #WUB(PTR1, $000048F5)
 //モーゼによく似た少年、\nジョーカと出会うアディ。
-And so, Addie met Joka,\na boy who resembled Moze.
+And so, Addie met Joka,\na boy much like Moze.
 <$00>
 
 #VAR(PTR2, CUSTOMPOINTER)
@@ -425,7 +425,7 @@ Is he really not Moze?\nThey look so alike!
 #WBB(PTR2, $00004B04)
 #WUB(PTR2, $00004B05)
 //ログロックの不思議な力の\nおかげで案内人を得るアディ。
-Thanks to the Loglock,\nAddie found her guide.
+Thanks to the Loglock,\nAddie found a tour guide.
 <$00>
 
 // PTR : 00000570
@@ -434,7 +434,7 @@ Thanks to the Loglock,\nAddie found her guide.
 #WBB(PTR2, $00004BC8)
 #WUB(PTR2, $00004BC9)
 //モーゼ…、じゃなくてジョーカに\nいろいろ聞けば、何かわかるかも…
-It'd help to ask Moze,\nI mean, Joka, for info.
+I should ask Moze,\nI mean, Joka, for help.
 <$00>
 
 // PTR : 000005B0
@@ -443,7 +443,7 @@ It'd help to ask Moze,\nI mean, Joka, for info.
 #WBB(PTR2, $00004CA0)
 #WUB(PTR2, $00004CA1)
 //だから君には無理だってば
-Like I said,\nit's too hard for you!
+See? Told you it's hard!
 <$00>
 
 // PTR : 000014A8
@@ -452,7 +452,7 @@ Like I said,\nit's too hard for you!
 #WBB(PTR2, $000066F8)
 #WUB(PTR2, $000066F9)
 //まだやるの？\n無理だと思うけど
-Trying again?\nI told you it's hard. 
+Trying again?\nWell, I warned you.
 <$00>
 
 // PTR : 00001544
@@ -461,7 +461,7 @@ Trying again?\nI told you it's hard.
 #WBB(PTR2, $00006EB0)
 #WUB(PTR2, $00006EB1)
 //鐘楼内部・上
-Bell Tower Top
+Bell Tower
 <$00>
 
 // PTR : 00001508
@@ -470,6 +470,6 @@ Bell Tower Top
 #WBB(PTR1, $00008098)
 #WUB(PTR1, $00008099)
 //つい、鳴らしてみたくなるわね
-I'd love to give\nthat bell a quick ring.
+I'd love to give\nthat bell a good ring.
 <$00>
 

@@ -15,7 +15,7 @@
 // PTR : 000002F0
 #WRITE(PTR, $0000034C)
 //ÅgääÇÁÇ©Ç»ëÄçÏä¥äoÅh
-"EXTRA-smooth playability!"
+"EXTRA smooth playability!"
 <$00>
 
 // PTR : 00000308
@@ -33,6 +33,6 @@
 // PTR : 00000338
 #WRITE(PTR, $00000358)
 //Åcó~ÇµÇ¢Ç»Ç†
-I want THAT!
+Wow!
 <$00>
 

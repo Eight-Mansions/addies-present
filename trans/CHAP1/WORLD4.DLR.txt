@@ -14,7 +14,7 @@
 #WBB(PTR1, $00001F24)
 #WUB(PTR1, $00001F25)
 //ズーの庵・裏口
-Zoo's House Rear
+Zoo's House
 <$00>
 
 // PTR : 000002CC
@@ -70,7 +70,7 @@ Doorway
 #WBB(PTR2, $000034B4)
 #WUB(PTR2, $000034B5)
 …変な建物
-This building is strange.
+What an odd building.
 <$00>
 
 // PTR : 00000524
@@ -79,7 +79,7 @@ This building is strange.
 #WBB(PTR2, $000034C4)
 #WUB(PTR2, $000034C5)
 //これが管理人室なのかしら
-This must be where\nthe conductor's hall is.
+This must be\nthe conductor's hall.
 <$00>
 
 // PTR : 00000540
@@ -97,7 +97,7 @@ Yep, Joka locked it,
 #WBB(PTR2, $000035D8)
 #WUB(PTR2, $000035D9)
 //しょうがない、やるか
-but I'll LOGLOCK it!
+but I'll... Loglock it!
 //doorway - curtain
 <$00>
 
@@ -133,7 +133,7 @@ All right, in we go.
 #WBB(PTR2, $00003954)
 #WUB(PTR2, $00003955)
 //ほんとにこの先に、ジョーカが…？
-Was that...really Joka?
+Was that... really Joka?
 <$00>
 
 // PTR : 00000584
@@ -168,6 +168,6 @@ If I don't hurry,\nJoka will get away!
 #WBB(PTR2, $0000414C)
 #WUB(PTR2, $0000414D)
 //管理人室・入口
-Conductor's Hall Entrance
+Conductor's Hall
 <$00>
 

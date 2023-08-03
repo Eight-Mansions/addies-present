@@ -86,7 +86,7 @@ Pia's font color.
 #WBB(PTR1, $00000864)
 #WUB(PTR1, $00000865)
 //なんでこんなところで寝ていたの？\n思い出せない…
-Did I fall asleep here?\nI don't remember...
+Did I fall asleep here?\nI don't remember.
 <$00>
 
 // PTR : 0000039C
@@ -95,7 +95,7 @@ Did I fall asleep here?\nI don't remember...
 #WBB(PTR1, $00001B60)
 #WUB(PTR1, $00001B61)
 //…うーん。
-...Oh dear.
+Oh dear, oh dear.
 <$00>
 
 // PTR : 000003A8
@@ -143,7 +143,7 @@ Debug
 #WBB(PTR1, $000042AC)
 #WUB(PTR1, $000042AD)
 //ちょっと早くしてくんないかな？
-Can I go\neven faster?
+Can I go even faster?
 <$00>
 
 #VAR(PTR2, CUSTOMPOINTER)
@@ -163,7 +163,7 @@ Huh?
 #WBB(PTR2, $00002B80)
 #WUB(PTR2, $00002B81)
 //わからないのかい？\n残念、僕にもわからない。
-Don't get it?\nSadly, I don't either.
+Don't get it?\nToo bad I don't either!
 <$00>
 
 // PTR : 00000524
@@ -172,7 +172,7 @@ Don't get it?\nSadly, I don't either.
 #WBB(PTR2, $00002B8C)
 #WUB(PTR2, $00002B8D)
 //どうしてもわからないなら、\n適当にいじるのも手だよ。
-When unsure, it\nnever hurts to play around.
+When unsure, it never\nhurts to fiddle.
 <$00>
 
 // PTR : 000004DC

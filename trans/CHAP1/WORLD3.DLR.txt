@@ -33,13 +33,13 @@ I'm running an\nerrand for Pia.
 // PTR : 00000648
 #WRITE(PTR, $00000720)
 //服の材料って、ここで手に入るの？
-She said you'd\nhave sewing supplies?
+She said you would\nhave sewing supplies.
 <$00>
 
 // PTR : 0000066C
 #WRITE(PTR, $00000724)
 //…まあな
-Let's see.
+Let me see.
 <$00>
 
 // PTR : 00000678
@@ -51,13 +51,13 @@ What all is she\nlooking for?
 // PTR : 000006A0
 #WRITE(PTR, $0000072C)
 //ビロードの布と、ボタンと、糸と…
-Some velvet, a button\nand a bobbin.
+Some velvet, one button\nand one bobbin.
 <$00>
 
 // PTR : 000006C4
 #WRITE(PTR, $00000730)
 //…やはり、どれもなかったな\nあるのは綿の布だけだ
-Hmmm, all I have\nis this cotton.
+I don't have velvet,\nbut I do have cotton.
 <$00>
 
 // PTR : 000006F4
@@ -82,7 +82,7 @@ I think they're away.
 // PTR : 00000CE8
 #WRITE(PTR, $00000D0C)
 //ふーん…どこ行ったんだろ
-Hmm, where'd they go?
+Hmm. Where'd they go?
 <$00>
 
 // PTR : 00000CC4
@@ -113,7 +113,7 @@ Uh-oh!
 // PTR : 00000DF8
 #WRITE(PTR, $00000E74)
 //僕は、そっちは遠慮しておくよ
-I wouldn't,\nif I were you.
+I wouldn't go there,\nif I were you.
 <$00>
 
 // PTR : 00000E18
@@ -125,7 +125,7 @@ Why's that?
 // PTR : 00000E24
 #WRITE(PTR, $00000E7C)
 //僕を捕まえた張本人の家があるんだ
-The person who caged\nme lives down there.
+The old man who caged me\nlives down there.
 <$00>
 
 // PTR : 00000E48
@@ -161,7 +161,7 @@ Why, that little...
 // PTR : 00001088
 #WRITE(PTR, $000012CC)
 //ああ、まだ頭がぐらぐらしとる
-Oww, my head\nis pounding.
+Oww, my head\nis pounding!
 <$00>
 
 // PTR : 000010A8
@@ -179,7 +179,7 @@ That boy, what else?!
 // PTR : 000010DC
 #WRITE(PTR, $000012D8)
 //…というわけじゃ
-...and now we're here.
+...and now, we're here.
 <$00>
 
 // PTR : 000010F0
@@ -191,13 +191,13 @@ I couldn't stop him.
 // PTR : 00001110
 #WRITE(PTR, $000012E0)
 //それでジョーカはどこ行ったの？
-Did you see\nwhere Joka went?
+Did you see which\nway Joka went?
 <$00>
 
 // PTR : 00001130
 #WRITE(PTR, $000012E4)
 //その裏の扉から、\n“管理人室”に向かった
-Through the back door\nto the conductor's hall.
+Through the back door.\nTo the conductor's hall!
 <$00>
 
 // PTR : 00001158
@@ -233,19 +233,19 @@ Why'd you go silent?
 // PTR : 000011DC
 #WRITE(PTR, $000012FC)
 ジョーカをそこに近づけなければ
-If I can reach him,
+If I can stop him,
 <$00>
 
 // PTR : 000011FC
 #WRITE(PTR, $00001300)
 //それで良かったんじゃない？
-won't that be okay?
+it'll be okay, right?
 <$00>
 
 // PTR : 00001218
 #WRITE(PTR, $00001304)
 //そうかもしれんが
-Possibly.
+Only possibly.
 <$00>
 
 // PTR : 0000122C
@@ -263,13 +263,13 @@ Will you take\nthe gears from him?
 // PTR : 00001270
 #WRITE(PTR, $00001310)
 //ジョーカの味方でないという保証が
-How am I to know
+How can I know for sure
 <$00>
 
 // PTR : 00001294
 #WRITE(PTR, $00001314)
 //何ひとつ無いからな
-you're not on\nJoka's side?
+you're not his side?
 <$00>
 
 // PTR : 000012A8
@@ -287,7 +287,7 @@ Addie, is that you?
 // PTR : 00001890
 #WRITE(PTR, $000018DC)
 //どうなった。首尾を聞かせてくれ
-Tell me\nwhat happened.
+Tell me what happened.
 <$00>
 
 // PTR : 000018C0
@@ -305,7 +305,7 @@ Addie.
 // PTR : 00001AC8
 #WRITE(PTR, $00001B18)
 //世界がたとえどうあろうとも\nジョーカは探し出さねばなるまいぞ
-Forget about the world,\nand find Joka.
+Forget about the world.\nGo find Joka!
 <$00>
 
 // PTR : 00001B04
@@ -317,19 +317,19 @@ Sure, whatever.
 // PTR : 00001CAC
 #WRITE(PTR, $00001E34)
 //お前さんには、ジョーカを探して\nもらうことに決まったわけじゃが
-Then it's a deal.\nYou WILL find Joka for me.
+So, we have a deal!\nYOU will apprehend Joka!
 <$00>
 
 // PTR : 00001CEC
 #WRITE(PTR, $00001E38)
 //その前に、確かめなければ\nならんことがある
-But first, I must\nconfirm one thing.
+But first, I have to\nask you something.
 <$00>
 
 // PTR : 00001D18
 #WRITE(PTR, $00001E3C)
 //お前さんは\nログロックを使ったな？
-Did you use\nthe Loglock?
+Did you use the Loglock?
 <$00>
 
 // PTR : 00001D3C
@@ -384,13 +384,13 @@ Well done, girl.\nThe tea's lovely.
 // PTR : 00001F84
 #WRITE(PTR, $00001FE8)
 //お茶が飲みたかっただけじゃない
-You used me to make tea?!
+You used me to make tea?
 <$00>
 
 // PTR : 00001FA4
 #WRITE(PTR, $00001FEC)
 //なにを言うか
-Why, perish\nthe thought!
+Used you?\nPerish the thought!
 <$00>
 
 // PTR : 00001FB4
@@ -450,7 +450,7 @@ Why believe him now?
 // PTR : 000021DC
 #WRITE(PTR, $0000225C)
 //うーん
-I guess.
+Well...
 <$00>
 
 // PTR : 000021E4
@@ -486,7 +486,7 @@ Young lady.
 // PTR : 00002394
 #WRITE(PTR, $00002618)
 //ちゃんとあの小僧を探しとるのか？
-Do you even\nwant to find him?
+Do you truly\nwish to find him?
 <$00>
 
 // PTR : 000023B8
@@ -498,13 +498,13 @@ Of course I do!
 // PTR : 000023C8
 #WRITE(PTR, $00002620)
 そういうズーこそ何をしてるのよ？
-And I could ask\nyou the same!
+And why do you care?
 <$00>
 
 // PTR : 000023EC
 #WRITE(PTR, $00002624)
 //バカモン、わしはずっと必死じゃぞ！
-Me? I told you,\nI MUST find him!
+Me? I told you,\nhe must be found!
 <$00>
 
 // PTR : 00002410
@@ -516,19 +516,19 @@ And the tiny gear, too.
 // PTR : 0000242C
 #WRITE(PTR, $0000262C)
 //必死に思い出そうとしとるわい
-I forgot where it was...
+I forgot where I had it.
 <$00>
 
 // PTR : 0000244C
 #WRITE(PTR, $00002630)
 //え？
-Tiny gear?
+"Tiny" gear?
 <$00>
 
 // PTR : 00002454
 #WRITE(PTR, $00002634)
 //それって、ここにあるんじゃないの？
-As in, not the big one\nJoka stole?
+I thought the gear\nJoka stole was large.
 <$00>
 
 // PTR : 00002478
@@ -546,19 +546,19 @@ is the larger\none of a pair.
 // PTR : 000024AC
 #WRITE(PTR, $00002640)
 //小さい方は…
-But I forgot where
+But its little friend?
 <$00>
 
 // PTR : 000024BC
 #WRITE(PTR, $00002644)
 //どこにしまったか忘れてしまって…
-I put the smaller one.
+I forgot where I put it.
 <$00>
 
 // PTR : 000024E0
 #WRITE(PTR, $00002648)
 //言わなかったか？
-Any ideas?
+Do you have any ideas?
 <$00>
 
 // PTR : 000024F4
@@ -582,37 +582,37 @@ You didn't ask.
 // PTR : 00002550
 #WRITE(PTR, $00002658)
 //…その小さい方の歯車を\nジョーカも探してるはずよね？
-This means you AND Joka\nare after this tiny gear.
+You and Joka are after\nthis one tiny gear.
 <$00>
 
 // PTR : 00002584
 #WRITE(PTR, $0000265C)
 //なら、それを探すのが先じゃない？
-If we find the gear first,\nJoka will come to us!
+If we find it first,\nJoka will come to us!
 <$00>
 
 // PTR : 000025A8
 #WRITE(PTR, $00002660)
 //ほほう、なるほど…
-Oh-ho!\nIngenius...
+Oh-ho! How ingenius...
 <$00>
 
 // PTR : 000025BC
 #WRITE(PTR, $00002664)
 //なるほどじゃないわよっ！
-More like,\n"OBVIOUS!"
+More like, "obvious"!
 <$00>
 
 // PTR : 000025D8
 #WRITE(PTR, $00002668)
 //次に来るまでには…
-By the time\nI come back...
+By the time I get back,
 <$00>
 
 // PTR : 000025EC
 #WRITE(PTR, $0000266C)
 //絶対、思い出しておいてよ！
-You'd better remember\nwhere that gear is!
+you'd better remember\nwhere that tiny gear is!
 <$00>
 
 // PTR : 00002608
@@ -642,19 +642,19 @@ WHAT?!
 // PTR : 00002AF0
 #WRITE(PTR, $00002B60)
 //ねえ、ほんとにオルゴールに\n心当たり、ないの？
-Is there really such\na music box, Zoo?
+Does such a music box\nreally exist, Zoo?
 <$00>
 
 // PTR : 00002B20
 #WRITE(PTR, $00002B64)
 //…考えとるんじゃが
-If I had to wager,
+If I had to wager? No.
 <$00>
 
 // PTR : 00002B34
 #WRITE(PTR, $00002B68)
 //全然、ないのう
-I'd say no.\nIt's impossible.
+It wouldn't possibly.
 <$00>
 
 // PTR : 00002B44
@@ -666,26 +666,26 @@ That doesn't help!
 // PTR : 00002E5C
 #WRITE(PTR, $00002EC8)
 //きたない額ね、何なの？
-Why's this\nframe so dirty?
+Ewwe, what a grimey frame!
 <$00>
 
 // PTR : 00002E98
 #WRITE(PTR, $00002ED0)
 //ちょうどいい、掃除してくれ
-Then clean it\nfor me!
+Don't like it?\nClean it for me.
 <$00>
 
 // PTR : 00002F40
 #WRITE(PTR, $00002F68)
 //何がかいてあるの？
-Of all the nerve...
+Of all the nerve...!
 //grime to frame
 <$00>
 
 // PTR : 00002F54
 #WRITE(PTR, $00002F6C)
 //きれいな絵…
-It's rather pretty.
+It's rather pretty now.
 <$00>
 
 // PTR : 00002F7C
@@ -704,21 +704,21 @@ You can't see\nunder all the grime.
 // PTR : 00002F98
 #WRITE(PTR, $00002FBC)
 //それを掃除してくれ、アディ
-Clean it for me,\nAddie!
+Clean it for me, Addie!
 <$00>
 
 // PTR : 00002EB4
 #WRITE(PTR, $00002ED4)
 #WRITE(PTR, $00002FC0)
 //なんでわたしが…
-Why me...
+Why me?
 <$00>
 
 // PTR : 00002F28
 #WRITE(PTR, $00002F64)
 #WRITE(PTR, $00003000)
 //これできれいになったわ
-There! All clean!
+There. All clean!
 <$00>
 
 // PTR : 00002D0C
@@ -730,7 +730,7 @@ Hey, Zoo?
 // PTR : 00002FDC
 #WRITE(PTR, $00003008)
 //この絵って、何を\nあらわしているの？
-What is this\na picture of?
+What is this picture of?
 <$00>
 
 #VAR(PTR1, CUSTOMPOINTER)
@@ -750,7 +750,7 @@ You can buy all\nsorts of things here.
 #WBB(PTR1, $000047C8)
 #WUB(PTR1, $000047C9)
 //やっぱり『デコログ』を\nチェックしないとね！
-Never hurts to look\nat the decor kits.
+Never hurts to look\nat the Decor Kits.
 <$00>
 
 // PTR : 00000328
@@ -872,7 +872,7 @@ Friends, foes...
 #WBB(PTR2, $0000519C)
 #WUB(PTR2, $0000519D)
 //お前が良い客であれば\nいいのだがな
-I do love a\ngood customer.
+I love a good customer.
 <$00>
 
 // PTR : 000005D0
@@ -917,7 +917,7 @@ Sadly, we have\nno extra fabric.
 #WBB(PTR2, $000055E8)
 #WUB(PTR2, $000055E9)
 //…すまんな
-...Drats.
+Drats.
 <$00>
 
 // PTR : 000007A0
@@ -962,7 +962,7 @@ Always smile on the job.
 #WBB(PTR2, $00005798)
 #WUB(PTR2, $00005799)
 //それができないから\n俺はこうしているんだが…
-I mean, I don't, but...
+I mean, I sure don't,
 <$00>
 
 // PTR : 00000890
@@ -971,7 +971,7 @@ I mean, I don't, but...
 #WBB(PTR2, $000057F4)
 #WUB(PTR2, $000057F5)
 //…お前はきっと\n笑顔の方がいいぞ
-You really should, you know?
+but you really ought to.
 <$00>
 
 // PTR : 000008B0
@@ -980,7 +980,7 @@ You really should, you know?
 #WBB(PTR2, $00005878)
 #WUB(PTR2, $00005879)
 //さみしい顔だと\n客が寄りつかんぞ
-It stings to see\ncustomers frowning.
+Frowning customers\nare bad for my heart.
 <$00>
 
 // PTR : 000008E8
@@ -989,7 +989,7 @@ It stings to see\ncustomers frowning.
 #WBB(PTR2, $00005914)
 #WUB(PTR2, $00005915)
 //お前ほどのコレクターは\nそうはいないぞ？
-Ah, you're a collector,\naren't you?
+Tell me, stranger.\nAre you a collector?
 <$00>
 
 // PTR : 00000910
@@ -998,7 +998,7 @@ Ah, you're a collector,\naren't you?
 #WBB(PTR2, $000059D8)
 #WUB(PTR2, $000059D9)
 //デコログが欲しいのか？
-Do you like decor kits?
+Do you like Decor Kits?
 <$00>
 
 // PTR : 00000928
@@ -1007,7 +1007,7 @@ Do you like decor kits?
 #WBB(PTR2, $00005A5C)
 #WUB(PTR2, $00005A5D)
 //デコログを買う
-Buy decor kits
+Buy Decor Kits
 <$00>
 
 // PTR : 00000938
@@ -1025,7 +1025,7 @@ Nothing
 #WBB(PTR2, $0000659C)
 #WUB(PTR2, $0000659D)
 //…まあ、詳しいことは\nデコログのページを読んでくれ
-For more information,\nread the Users' Guide.
+For more information,\nread the Users' Manual.
 <$00>
 
 // PTR : 000009C4
@@ -1034,7 +1034,7 @@ For more information,\nread the Users' Guide.
 #WBB(PTR2, $000065A8)
 #WUB(PTR2, $000065A9)
 //このページがカタログになっている\nさて、ここから商談だが…
-This page has a catalog.\nLook and see...
+It comes with a catalog.\nTake a look.
 <$00>
 
 // PTR : 00000A00
@@ -1052,7 +1052,7 @@ Let's talk business.
 #WBB(PTR2, $00006684)
 #WUB(PTR2, $00006685)
 //そのデコログを買うんだな？\nはい…○／いいえ…×
-Purchase decor kit?\nYes ○/No ×
+Purchase Decor Kit?\nYes: ○/No: ×
 <$00>
 
 // PTR : 00000A74
@@ -1061,7 +1061,7 @@ Purchase decor kit?\nYes ○/No ×
 #WBB(PTR2, $0000668C)
 #WUB(PTR2, $0000668D)
 //苦しくなるがそれでもいいのか？\nはい…○／いいえ…×
-Are you sure?\nYes ○/No ×
+Are you sure?\nYes: ○/No: ×
 <$00>
 
 // PTR : 00000AA8
@@ -1070,7 +1070,7 @@ Are you sure?\nYes ○/No ×
 #WBB(PTR2, $00006694)
 #WUB(PTR2, $00006695)
 //よし、待ってろ
-I'll be waiting.
+See you around.
 <$00>
 
 // PTR : 00000AB8
@@ -1079,7 +1079,7 @@ I'll be waiting.
 #WBB(PTR2, $0000669C)
 #WUB(PTR2, $0000669D)
 //さわって確かめるんだな
-Select and confirm.
+Take your pick.
 <$00>
 
 // PTR : 00000AD0
@@ -1088,7 +1088,7 @@ Select and confirm.
 #WBB(PTR2, $000066A4)
 #WUB(PTR2, $000066A5)
 //他に欲しいものがあるか？\nはい…○／いいえ…×
-Anything else?\nYes ○/No ×
+Anything else?\nYes: ○/No: ×
 <$00>
 
 // PTR : 000008D0
@@ -1101,7 +1101,7 @@ Anything else?\nYes ○/No ×
 #WBB(PTR2, $000066AC)
 #WUB(PTR2, $000066AD)
 //もうデコログは品切れだ
-That decor kit is sold out.
+That Kit is sold out.
 <$00>
 
 // PTR : 00000B40
@@ -1110,7 +1110,7 @@ That decor kit is sold out.
 #WBB(PTR2, $0000674C)
 #WUB(PTR2, $0000674D)
 //どのデコログが欲しいんだ？\nＴＯＴＡＬ：＊＊＊＊
-Select a decor kit.\nTOTAL:＊＊＊＊
+Choose your Decor Kit.\nTOTAL: ＊＊＊＊
 <$00>
 
 // PTR : 00000A34
@@ -1159,7 +1159,7 @@ The head said to go\nwhere I first woke up.
 #WBB(PTR2, $000079B0)
 #WUB(PTR2, $000079B1)
 //とにかく、そのログロックは\n貸しといてあげるからさ
-Let me lend\nyou my Loglock.
+Here. Borrow my Loglock.
 <$00>
 
 // PTR : 00000C98
@@ -1177,7 +1177,7 @@ Just in case!
 #WBB(PTR2, $00007F80)
 #WUB(PTR2, $00007F81)
 //あいつとは顔をあわせたくないんだ
-I'd like to avoid him.
+I'd prefer to avoid him.
 <$00>
 
 // PTR : 00000D7C
@@ -1231,7 +1231,7 @@ Road to Zoo's House
 #WBB(PTR2, $000094A4)
 #WUB(PTR2, $000094A5)
 //探せっていわれても…
-Whether I look\nfor Joka or not...
+Whether I look\nfor Joka or not,
 <$00>
 
 // PTR : 00000F5C
@@ -1240,7 +1240,7 @@ Whether I look\nfor Joka or not...
 #WBB(PTR2, $00009510)
 #WUB(PTR2, $00009511)
 //とりあえず\n街に行くしかないわよね
-...I'd better\nget back to town.
+I'd better\nget back to town.
 <$00>
 
 // PTR : 00000F80
@@ -1249,7 +1249,7 @@ Whether I look\nfor Joka or not...
 #WBB(PTR2, $000097F4)
 #WUB(PTR2, $000097F5)
 //まったく…
-Geez Louise.
+Geez Louise!
 <$00>
 
 // PTR : 00000F8C
@@ -1285,7 +1285,7 @@ Zoo told Addie about\nthe conductor's hall.
 #WBB(PTR2, $0000AA40)
 #WUB(PTR2, $0000AA41)
 //…どうしてもっとはやく\n教えてくれなかったのかしら
-Why didn't he mention\nthis sooner?
+Why didn't he explain\nhimself sooner?
 <$00>
 
 // PTR : 00001854
@@ -1294,7 +1294,7 @@ Why didn't he mention\nthis sooner?
 #WBB(PTR2, $0000B11C)
 #WUB(PTR2, $0000B11D)
 //ズーの庵・前
-Zoo's House Front
+Zoo's House
 <$00>
 
 // PTR : 00001880
@@ -1312,7 +1312,7 @@ Addie, is that you?
 #WBB(PTR2, $0000B3D0)
 #WUB(PTR2, $0000B3D1)
 //どうなった。首尾を聞かせてくれ
-Tell me what\nhappened.
+Tell me what happened.
 <$00>
 
 // PTR : 000018F0
@@ -1339,7 +1339,7 @@ Here, come closer.
 #WBB(PTR2, $0000C024)
 #WUB(PTR2, $0000C025)
 //ジョーカは、管理人室に向かった
-Joka went to the\nconductor's hall.
+Joka escaped to\nthe conductor's hall.
 <$00>
 
 // PTR : 00001944
@@ -1348,7 +1348,7 @@ Joka went to the\nconductor's hall.
 #WBB(PTR2, $0000C034)
 #WUB(PTR2, $0000C035)
 //歯車の刺さった奇妙な木の\n扉の中にある
-It's through the\nstrange, wooden door.
+It's through\nthe strange, wooden door.
 <$00>
 
 // PTR : 0000196C
@@ -1357,7 +1357,7 @@ It's through the\nstrange, wooden door.
 #WBB(PTR2, $0000C098)
 #WUB(PTR2, $0000C099)
 //お前さんには、悪いことをした
-I'm sorry I\nput this on you.
+I'm sorry I placed\nthis burden on you.
 <$00>
 
 // PTR : 0000198C
@@ -1366,7 +1366,7 @@ I'm sorry I\nput this on you.
 #WBB(PTR2, $0000C0A8)
 #WUB(PTR2, $0000C0A9)
 //だが、この世界を守らねばならぬ\nわしの苦労も察してくれい
-But please, understand that\nI do this for the world.
+But please, understand.\nI did this for the world.
 <$00>
 
 // PTR : 000019C4
@@ -1375,7 +1375,7 @@ But please, understand that\nI do this for the world.
 #WBB(PTR2, $0000C104)
 #WUB(PTR2, $0000C105)
 //管理人室はその扉を出て\n草原を抜けた先の崖のそばじゃ
-The conductor's hall is\nthrough the door on the cliff.
+The conductor's hall is\nthrough the backdoor.
 <$00>
 
 // PTR : 00001A50
@@ -1384,7 +1384,7 @@ The conductor's hall is\nthrough the door on the cliff.
 #WBB(PTR2, $0000C194)
 #WUB(PTR2, $0000C195)
 //それはそうと、アディ\nちと、頼まれてくれんか
-Can you clean\nthat up, Addie?
+Addie, would you mind\ncleaning that for me?
 <$00>
 
 // PTR : 00001A7C
@@ -1393,7 +1393,7 @@ Can you clean\nthat up, Addie?
 #WBB(PTR2, $0000C1A4)
 #WUB(PTR2, $0000C1A5)
 //どうにもそこの額縁の汚れが\n気になってな…
-The grime on that\nframe is a bother.
+The grime on that\nframe is an eyesore.
 <$00>
 
 // PTR : 00001B34
@@ -1402,7 +1402,7 @@ The grime on that\nframe is a bother.
 #WBB(PTR2, $0000CCE4)
 #WUB(PTR2, $0000CCE5)
 //ズーの庵・入口
-Zoo's House Entrance
+Zoo's House
 <$00>
 
 // PTR : 00001E84
@@ -1411,7 +1411,7 @@ Zoo's House Entrance
 #WBB(PTR2, $0000D164)
 #WUB(PTR2, $0000D165)
 //ほう。まったくの\n馬鹿ではないのじゃな
-Ah-ha! So, you're not\na complete dullard.
+Ah-ha! So, you weren't\nborn yesterday!
 <$00>
 
 // PTR : 00001F20
@@ -1433,7 +1433,7 @@ Not bad, not bad!
 #WBB(PTR2, $0000D1EC)
 #WUB(PTR2, $0000D1ED)
 //では、次はこれじゃ
-This one's next.
+Try this one next.
 // map to cup
 // ink to tea
 <$00>
@@ -1444,7 +1444,7 @@ This one's next.
 #WBB(PTR2, $0000D674)
 #WUB(PTR2, $0000D675)
 こんな簡単な問題も解けんのか
-Can you solve\nthis simple puzzle?
+Can you solve this?
 <$00>
 
 // PTR : 00001EE0
@@ -1516,7 +1516,7 @@ Fearing the future\nonce again.
 #WBB(PTR2, $0000DC54)
 #WUB(PTR2, $0000DC55)
 //この世界の概観図じゃよ。世界は
-That's a general\nview of our world.
+That's a general view\nof our world.
 <$00>
 
 // PTR : 00002038
@@ -1529,7 +1529,7 @@ That's a general\nview of our world.
 #WBB(PTR2, $0000DC60)
 #WUB(PTR2, $0000DC61)
 //円盤から成り立っているのじゃ
-You can see that\nit's made up of discs.
+You can see that it\nis made up of discs.
 <$00>
 
 // PTR : 00002058
@@ -1547,7 +1547,7 @@ Well, now.
 #WBB(PTR2, $0000DE2C)
 #WUB(PTR2, $0000DE2D)
 //その扉は、お前らごときが\nさわっていいものではない！
-That door's not\nfor you lot!
+That door ISN'T\nfor you lot!
 <$00>
 
 // PTR : 00002098
@@ -1583,7 +1583,7 @@ After speaking to Zoo,\nAddie retraced her steps.
 #WBB(PTR2, $0000FB00)
 #WUB(PTR2, $0000FB01)
 //ズーに報告するも\n途方に暮れるアディ。
-After giving her report\nto Zoo, Addie felt lost.
+After reporting to Zoo,\nAddie felt lost.
 <$00>
 
 // PTR : 00002ABC
@@ -1628,7 +1628,7 @@ Go. Have fun.
 #WBB(PTR2, $00010580)
 #WUB(PTR2, $00010581)
 //たまには…遊びに来てもいいぞ？
-Do...stop by again\nto say, "Hello," okay?
+And... feel free to stop\nin for a "Hello".
 <$00>
 
 // PTR : 00002C2C
@@ -1637,7 +1637,7 @@ Do...stop by again\nto say, "Hello," okay?
 #WBB(PTR2, $00010694)
 #WUB(PTR2, $00010695)
 //おお…アディか
-Addie...\nIs that you?
+Addie, is that you?
 <$00>
 
 // PTR : 00002C3C
@@ -1646,7 +1646,7 @@ Addie...\nIs that you?
 #WBB(PTR2, $000106A4)
 #WUB(PTR2, $000106A5)
 //茶でも飲んでいくか？
-Care for tea?
+Would you care for tea?
 <$00>
 
 // PTR : 00002C54
@@ -1694,7 +1694,7 @@ Hmm.
 #WBB(PTR2, $00011260)
 #WUB(PTR2, $00011261)
 //この絵、世界が円盤だってこと\nあらわしてるのよね
-That illustration portrays\nthe world as a disc.
+That drawing portrays\nthe world as a disc.
 <$00>
 
 // PTR : 00002CEC
@@ -1729,7 +1729,7 @@ Hey, Zoo?
 #WBB(PTR2, $00012D60)
 #WUB(PTR2, $00012D61)
 //この絵って、何を\nあらわしているの？
-What is this\na picture of?
+What is this picture of?
 <$00>
 
 // PTR : 00003030
@@ -1786,7 +1786,7 @@ DON'T TOUCH THAT!
 #WBB(PTR1, $00013A8C)
 #WUB(PTR1, $00013A8D)
 //さわってはならんぞ！
-LEAVE THAT ALONE!
+LEAVE IT ALONE!
 <$00>
 
 // PTR : 00003110
@@ -1817,7 +1817,7 @@ Locked Door
 #WBB(PTR1, $00015E3C)
 #WUB(PTR1, $00015E3D)
 //きれいな海…なんにもないけど
-The sea is so pretty.\nNot a hair out of place.
+The sea is breathtaking.\nNot a hair out of place!
 <$00>
 
 // PTR : 00001A38
@@ -1835,7 +1835,7 @@ Should I help clean?
 #WBB(PTR1, $000168E8)
 #WUB(PTR1, $000168E9)
 //ホコリっぽい…
-So much grime...
+So much grime!
 <$00>
 
 // PTR : 00000944
@@ -1844,7 +1844,7 @@ So much grime...
 #WBB(PTR1, $00005AD8)
 #WUB(PTR1, $00005AD9)
 //ほう、目ざといな\nそいつは“デコログ”といって…
-It's a fine place for catching  fresh air.
+Decor Kit collectors\nare pretty sharp.
 <$00>
 
 // PTR : 00000F00
@@ -1866,5 +1866,5 @@ It's a fine place for catching  fresh air.
 #WBB(PTR1, $000159F8)
 #WUB(PTR1, $000159F9)
 //←：岬の街　↑：墓地
-←：岬の街　↑：墓地
+←：Cape Town　↑：Cemetary
 <$00>
