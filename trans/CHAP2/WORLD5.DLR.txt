@@ -1254,13 +1254,3 @@ The tailor shop is\nin the alley.
 //ƒY[‚Ì‰Æ‚Ì•û‚É\n“¦‚°‚Ä‚¢‚Á‚½‚İ‚½‚¢‚æI
 Maybe he left\nfor Zoo's house!
 <$00>
-
-// PTR : 000005A4
-#WLB(PTR3, $0000DB7C)
-#WHB(PTR3, $0000DB7D)
-#WBB(PTR3, $0000DB78)
-#WUB(PTR3, $0000DB79)
-//‚Á‚Ä\n‚¢‚Á‚½‚¢‚Ç‚±‚©‚µ‚ç
-I mean, who knows?
-<$00>
-
