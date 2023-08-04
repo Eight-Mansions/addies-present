@@ -263,7 +263,7 @@ and you helped him escape,
 // PTR : 000015E4
 #WRITE(PTR, $0000190C)
 //“z‚Æ‚Í‚È‚ñ‚ÌŠÖŒW‚à‚È‚¢‚Æ\nŒ¾‚¢‚Í‚é‚ñ‚¶‚á‚ÈH
-How are you not\nhis sidekick?!
+how are you not\nhis sidekick?!
 <$00>
 
 // PTR : 00001610
