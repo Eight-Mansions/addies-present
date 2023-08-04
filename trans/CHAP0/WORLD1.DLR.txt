@@ -565,7 +565,7 @@ Whew.
 #WBB(PTR1, $000043D8)
 #WUB(PTR1, $000043D9)
 //エミィが帰った後。\n机の上に転がるプレゼント。
-Addie eyed the Loglock on\nher desk as Emmy left.
+After Emmy went home,\nAddie eyed the Loglock.
 <$00>
 
 // PTR : 000003D4
@@ -574,7 +574,7 @@ Addie eyed the Loglock on\nher desk as Emmy left.
 #WBB(PTR1, $000044B8)
 #WUB(PTR1, $000044B9)
 //エミィがプレゼントをくれるなんて…
-It's a gift from Emmy.
+Emmy's gift is on my desk.
 <$00>
 
 // PTR : 00000410

@@ -516,7 +516,7 @@ Here lies an old tomb.
 #WBB(PTR2, $000089E4)
 #WUB(PTR2, $000089E5)
 //‚Å‚àc‚È‚ñ‚¾‚©\n”ß‚µ‚¢Š´‚¶‚à‚·‚é‚í‚Ë
-Only, its sadness\nfeels fresh.
+In a way, its sadness\nfeels fresh.
 <$00>
 
 // PTR : 0000215C
@@ -722,7 +722,7 @@ I see nothing of note.
 #WBB(PTR2, $0000E6AC)
 #WUB(PTR2, $0000E6AD)
 //“»‚Ö‘±‚­“¹
-Path Area
+Path
 <$00>
 
 // PTR : 00002584
@@ -794,5 +794,5 @@ It's too dark to see.
 #WBB(PTR1, $0000883C)
 #WUB(PTR1, $0000883D)
 //‹C•ª‚ª—‚¿’…‚­‚Æ‚±‚ë‚¾‚í
-Let me catch my breath.
+This place has a lonely\nair to it.
 <$00>

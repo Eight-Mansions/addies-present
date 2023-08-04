@@ -355,7 +355,7 @@ Quiet, please. This right\nhall is for reading.
 #WBB(PTR1, $00004740)
 #WUB(PTR1, $00004741)
 //左棟・回廊
-Left Hall Corridor
+Left Hall
 <$00>
 
 // PTR : 00000430
@@ -734,7 +734,7 @@ Waiting on people\nisn't fun.
 #WBB(PTR2, $00008FE4)
 #WUB(PTR2, $00008FE5)
 //左棟・執筆室前
-Writing Room
+Left Hall
 <$00>
 
 // PTR : 00000CC8
@@ -873,7 +873,7 @@ Don't blame people\ntoo harshly now, Addie.
 #WBB(PTR2, $0000CC4C)
 #WUB(PTR2, $0000CC4D)
 //左棟・執筆室
-Writing Room
+Left Hall
 <$00>
 
 // PTR : 0000197C
@@ -900,7 +900,7 @@ I have to catch\nhim quickly!
 #WBB(PTR2, $0000E0F0)
 #WUB(PTR2, $0000E0F1)
 //左棟・通用路
-Left Wing
+Left Hall
 <$00>
 
 // PTR : 000019F4
@@ -1169,7 +1169,7 @@ Suite
 #WBB(PTR2, $00012EA8)
 #WUB(PTR2, $00012EA9)
 //左棟・裏口
-Left Wing
+Left Hall
 <$00>
 
 // PTR : 000004FC

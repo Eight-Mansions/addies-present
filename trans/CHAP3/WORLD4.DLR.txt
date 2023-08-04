@@ -214,7 +214,7 @@ I'm sorry I bothered you.
 // PTR : 000010F0
 #WRITE(PTR, $000011B4)
 //äXÇÃÇÕÇ∏ÇÍÇ…ÅA\nñºÇ‡Ç»Ç¢ïÊÇ™Ç†ÇÈ
-There's a nameless\ntomb outside of town.
+There's a nameless tomb\non the edge of town.
 <$00>
 
 // PTR : 00001110

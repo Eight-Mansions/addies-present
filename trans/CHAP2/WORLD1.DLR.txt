@@ -1812,7 +1812,7 @@ It never hurts\nto ask for help.
 #WBB(PTR2, $0001511C)
 #WUB(PTR2, $0001511D)
 //‘å’Ê‚èEò‚ÌO³˜H
-Main Street Junction
+Main Street
 <$00>
 
 // PTR : 0000070C

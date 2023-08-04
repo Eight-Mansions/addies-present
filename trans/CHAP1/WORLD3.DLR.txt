@@ -1213,7 +1213,7 @@ Go that way alone.
 #WBB(PTR2, $00008BCC)
 #WUB(PTR2, $00008BCD)
 //街への三叉路
-City Path Tri-cross
+Path
 <$00>
 
 // PTR : 00000F14
@@ -1222,7 +1222,7 @@ City Path Tri-cross
 #WBB(PTR2, $000092B0)
 #WUB(PTR2, $000092B1)
 //ズーの庵へ続く道
-Road to Zoo's House
+Path
 <$00>
 
 // PTR : 00000F44
@@ -1853,7 +1853,7 @@ Decor Kit collectors\nare pretty sharp.
 #WBB(PTR1, $00015BFC)
 #WUB(PTR1, $00015BFD)
 //登るな！\n＊私有地＊
-"Private Property\nNo Trespassing!"
+"Private Property!\nNo Trespassing!"
 <$00>
 
 // PTR : 00000DB4

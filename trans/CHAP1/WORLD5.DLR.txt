@@ -758,7 +758,7 @@ A palm tree standee.
 #WBB(PTR2, $00008250)
 #WUB(PTR2, $00008251)
 //“º”Â‚ÌŠXEà˜O
-Copper Bell Tower
+Copper Town
 <$00>
 
 // PTR : 00000718
@@ -848,7 +848,7 @@ I may have to borrow\nsomething of Joka's.
 #WBB(PTR2, $0000AAB4)
 #WUB(PTR2, $0000AAB5)
 //“º”Â‚ÌŠXE‘å’Ê‚è
-Copper Main Street
+Copper Town
 <$00>
 
 // PTR : 00000E90
@@ -875,7 +875,7 @@ We're so high up.
 #WBB(PTR2, $0000B4A8)
 #WUB(PTR2, $0000B4A9)
 //“º”Â‚ÌŠXE–¦‚Ìæ
-Copper Cape Path
+Copper Town
 <$00>
 
 // PTR : 00000F84

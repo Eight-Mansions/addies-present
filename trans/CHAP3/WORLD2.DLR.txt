@@ -602,7 +602,7 @@ I hope we find Joka soon.
 #WBB(PTR2, $00006C48)
 #WUB(PTR2, $00006C49)
 //図書館・受付
-Library Reception
+Library
 <$00>
 
 // PTR : 00001320
@@ -822,7 +822,7 @@ Not without Eliza!
 #WBB(PTR2, $00008AAC)
 #WUB(PTR2, $00008AAD)
 //図書館・一般エリア
-Library General Area
+Library
 <$00>
 
 // PTR : 000017B8
@@ -1046,7 +1046,7 @@ Joka went\nto reception.
 #WBB(PTR2, $0000B070)
 #WUB(PTR2, $0000B071)
 //図書館・三叉路
-Library Junction
+Library
 <$00>
 
 // PTR : 00000618

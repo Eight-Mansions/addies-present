@@ -955,7 +955,7 @@ Which way?
 #WBB(PTR2, $00008B04)
 #WUB(PTR2, $00008B05)
 //美術館前の三叉路
-Museum Tri-cross
+Museum
 <$00>
 
 // PTR : 000006DC
@@ -1305,7 +1305,7 @@ It's okay, just...\nnot much to do here.
 #WBB(PTR2, $000100DC)
 #WUB(PTR2, $000100DD)
 //美術館・テラス
-Museum Terrace
+Cafe Terrace
 <$00>
 
 // PTR : 00002818
@@ -1556,5 +1556,5 @@ Funny enough, she's also\nJoka's little sister!
 #WBB(PTR1, $00014C94)
 #WUB(PTR1, $00014C95)
 //←：美術館入口　美術館裏口：→\n↓：図書館
-←：Museum,　Back entrance：→\n↓：Library
+←： Museum,　Back Entrance： →\n↓： Library
 <$00>

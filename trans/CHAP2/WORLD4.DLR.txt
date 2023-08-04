@@ -1297,7 +1297,7 @@ My hearing isn't\nso sharp these days.
 #WBB(PTR2, $0000CD24)
 #WUB(PTR2, $0000CD25)
 //裏通り・三叉路
-Alley Junction
+Alley
 <$00>
 
 // PTR : 000016A0
@@ -1400,7 +1400,7 @@ Laughs
 #WBB(PTR2, $0000F65C)
 #WUB(PTR2, $0000F65D)
 //じゃあ、いいよ\nジャマしたね
-Well then,\nsorry to bother you.
+Well, then,\nsorry to bother you.
 <$00>
 
 // PTR : 00002300
@@ -1481,7 +1481,7 @@ Maybe they're out.
 #WBB(PTR2, $00010904)
 #WUB(PTR2, $00010905)
 //仕立屋入口
-Tailor
+Tailor Shop
 <$00>
 
 // PTR : 000024B0
@@ -1801,7 +1801,7 @@ It's closed.
 #WBB(PTR1, $000168D8)
 #WUB(PTR1, $000168D9)
 //関係者以外の立ち入りを禁止します\n＊図書館館長＊
-Authorized personnel only!\n＊Head Librarian＊
+"Authorized personnel only!\n-Head Librarian"
 <$00>
 
 // PTR : 00001198
@@ -1814,7 +1814,7 @@ Authorized personnel only!\n＊Head Librarian＊
 #WBB(PTR1, $00016D9C)
 #WUB(PTR1, $00016D9D)
 //↑：大通り\n←：渡し場跡地　袋小路：→
-↑：Main Street\n←：Closed Ferry Landing　Cul de sac：→
+↑： Main Street\n←： Closed Harbour,　Corner： →
 <$00>
 
 // PTR : 00002254
@@ -1827,5 +1827,5 @@ Authorized personnel only!\n＊Head Librarian＊
 #WBB(PTR1, $000174C8)
 #WUB(PTR1, $000174C9)
 //あなただけの１着をお仕立てします\n＊仕立屋ピア＊
-Tailored as you wish!\n＊Dressmaker Pia＊
+"Tailored as you wish!\n-Dressmaker Pia"
 <$00>

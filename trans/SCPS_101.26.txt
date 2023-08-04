@@ -305,7 +305,7 @@ Rotate +90°
 #WLB(PTR1, $000339C8)
 #WHB(PTR1, $000339C9)
 //%s%s手目は、左から%s列目で\n
-%s%s. Select Ring %s.\n
+%s%s. Look at Ring %s.\n
 <$00>
 
 
@@ -362,7 +362,7 @@ Follow the demonstration.
 //#JMP($000036B0)
 #WRITE(PTR, $00088220)
 //正解に同じ文字がある場合は\n揃えて一緒に調整すべし
-Find letters from the\nTarget Word and align them. 
+Lead Target Word letters\nto the central row.
 <$00>
 
 
@@ -551,7 +551,7 @@ Slide, mirror, rotate\nand exchange each ring!
 //#JMP($00003AC0)
 #WRITE(PTR, $00088250)
 //方向キーの左・右で\nアディの反応を確かめてください
-D-Pad LEFT+RIGHT:\nView Addie's reaction
+D-Pad LEFT or RIGHT:\nView Addie's reaction
 <$00>
 
 
@@ -899,7 +899,7 @@ Checking. Please wait.\nDo not remove memory card!
 #WLB(PTR1, $0001EF58)
 #WHB(PTR1, $0001EF59)
 //新規作成
-Create New
+New File
 <$00>
 
 
@@ -1019,7 +1019,7 @@ After this, the central\nrow upholds ABC order.
 //#JMP($00003B8C)
 #WRITE(PTR, $00088234)
 //△・Ｒ１・Ｌ１ボタンで\nコインを回転します
-△+R1+L1:\nRotates a coin
+△, R1 or L1:\nRotates a coin
 <$00>
 
 
@@ -1047,7 +1047,7 @@ Control linked rings by\nremoving and exchanging.
 //#JMP($00003C00)
 #WRITE(PTR, $00088228)
 //方向キーの上・下で\nリングはスライドします
-D-Pad UP+DOWN:\nSlides a ring
+D-Pad UP or DOWN:\nSlides a ring
 <$00>
 
 
@@ -1056,7 +1056,7 @@ D-Pad UP+DOWN:\nSlides a ring
 //#JMP($00003C2C)
 #WRITE(PTR, $00088224)
 //ＲＥＳＴＡＲＴを選択すると\n問題が初期状態に戻ります
-Restart to reset a puzzle\nto their original state.
+Restart to reset a puzzle\nto its original state.
 <$00>
 
 
