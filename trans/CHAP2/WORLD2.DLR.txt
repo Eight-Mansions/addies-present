@@ -613,7 +613,7 @@ Yeah, your clothes\nare clearly dirty!
 // PTR : 0000268C
 #WRITE(PTR, $000026C0)
 //それなら、いいよ…
-Oh. Okay
+Oh. Okay.
 <$00>
 
 // PTR : 00002280
@@ -675,7 +675,7 @@ Where'd those boys go?
 #WBB(PTR1, $00003E70)
 #WUB(PTR1, $00003E71)
 //アディは不審な\n少年に尾行される。
-Addie was followed\nby a suspicious boy.
+Addie tailed\nthe suspicious boy.
 <$00>
 
 // PTR : 00000338
