@@ -939,7 +939,7 @@ My brothers are\nlooking for Joka.
 #WBB(PTR2, $0000A15C)
 #WUB(PTR2, $0000A15D)
 //今ごろは、裏通りあたりを\nあたってるんじゃないか
-Maybe check the\nalley and ask them.
+Maybe check the back\nalleys and ask them.
 <$00>
 
 // PTR : 00001754
@@ -966,7 +966,7 @@ Head of the family.\nGotta hold the fort.
 #WBB(PTR2, $0000A2E4)
 #WUB(PTR2, $0000A2E5)
 //ランドリーでウィノに話を聞き\nリノとジノを探しに裏通りへ。
-Reno and Geno are\nout in the alley.
+Reno and Geno are\nout in the alleys.
 <$00>
 
 // PTR : 000017EC
@@ -1088,20 +1088,7 @@ Wooo!\nIt's working!
 
 #VAR(PTR3, CUSTOMPOINTER)
 #CREATEPTR(PTR3, "LINEAR", -2148367224, 32)
-// PTR : 00001940
-#WLB(PTR3, $00003514)
-#WHB(PTR3, $00003515)
-#WBB(PTR3, $00003510)
-#WUB(PTR3, $00003511)
-//を見てくる！
-, check it out!
-<$00>
-
 // PTR : 00001810
-#WLB(PTR3, $0000A408)
-#WHB(PTR3, $0000A409)
-#WBB(PTR3, $0000A404)
-#WUB(PTR3, $0000A405)
 #WLB(PTR3, $0000A40C)
 #WHB(PTR3, $0000A40D)
 #WBB(PTR3, $0000A408)
@@ -1109,21 +1096,3 @@ Wooo!\nIt's working!
 //ここだけの話、ランドリーを\n直してくれてほんとに助かったよ
 You really helped\nus out here.
 <$00>
-
-// PTR : 00001924
-#WLB(PTR3, $00006D8C)
-#WHB(PTR3, $00006D8D)
-#WBB(PTR3, $00006D88)
-#WUB(PTR3, $00006D89)
-#WLB(PTR3, $0000A94C)
-#WHB(PTR3, $0000A94D)
-#WBB(PTR3, $0000A948)
-#WUB(PTR3, $0000A949)
-#WLB(PTR3, $0000D1C4)
-#WHB(PTR3, $0000D1C5)
-#WBB(PTR3, $0000D1C0)
-#WUB(PTR3, $0000D1C1)
-//ントだ！動いた！
-There! It's moving!
-<$00>
-
