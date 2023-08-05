@@ -50,7 +50,7 @@ Beyond the locked door\nwas a wide field.
 #WBB(PTR1, $00002B78)
 #WUB(PTR1, $00002B79)
 //ä«óùêlé∫Ç÷ë±Ç≠ëêå¥
-Conductor's Hall Field
+Zoo's House
 <$00>
 
 #VAR(PTR2, CUSTOMPOINTER)

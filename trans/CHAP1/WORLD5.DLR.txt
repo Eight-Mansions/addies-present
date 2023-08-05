@@ -948,7 +948,7 @@ Please, Addie.
 #WBB(PTR2, $0000CAB8)
 #WUB(PTR2, $0000CAB9)
 //ジョーカは最深部で\nアディを待っていた。
-Joka waited for Addie\nin the gramophone core.
+Joka waited for Addie\nin the music box core.
 <$00>
 
 // PTR : 000010AC

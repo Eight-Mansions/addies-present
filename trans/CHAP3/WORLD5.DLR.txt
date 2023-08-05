@@ -579,7 +579,7 @@ Yes, but why\nare we here?
 #WBB(PTR1, $000039C8)
 #WUB(PTR1, $000039C9)
 //ã≥Ç¶ÇƒÇ†Ç∞Ç»Ç¢
-Not telling!
+Why would I say?
 <$00>
 
 // PTR : 00000360
@@ -588,7 +588,7 @@ Not telling!
 #WBB(PTR1, $00003C48)
 #WUB(PTR1, $00003C49)
 //ÅcèÁíkÇÊ
-Oh, HA-HA.
+Come now, I'm teasing!
 <$00>
 
 // PTR : 0000036C

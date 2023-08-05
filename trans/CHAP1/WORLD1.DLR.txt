@@ -776,7 +776,7 @@ How'd you get locked\nin that cage, anyways?
 #WBB(PTR2, $00010F38)
 #WUB(PTR2, $00010F39)
 //è‡òOâ∫
-Bell Tower Basement
+Bell Tower
 <$00>
 
 // PTR : 0000221C
