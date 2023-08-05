@@ -263,25 +263,25 @@ and you helped him escape,
 // PTR : 000015E4
 #WRITE(PTR, $0000190C)
 //ìzÇ∆ÇÕÇ»ÇÒÇÃä÷åWÇ‡Ç»Ç¢Ç∆\nåæÇ¢ÇÕÇÈÇÒÇ∂Ç·Ç»ÅH
-how are you not\nhis sidekick?!
+how are you not\close with him?!
 <$00>
 
 // PTR : 00001610
 #WRITE(PTR, $00001910)
 //ÇÒÅ`ÅAä÷åWÇ†ÇÈÇÊÇ§Ç»Åc
-You two MUST be\nin cahoots!
+Err, that would\nlook suspicious...
 <$00>
 
 // PTR : 00001628
 #WRITE(PTR, $00001914)
 //ä÷åWÇ»Ç¢ÇÊÇ§Ç»Åc
-You must be.
+But we aren't like that!
 <$00>
 
 // PTR : 0000163C
 #WRITE(PTR, $00001918)
 //ÇÕÇ¡Ç´ÇËÇπÇÒÇ©ÇüÇ¡ÅI
-I'm certain of it!
+But you ARE!
 <$00>
 
 // PTR : 00001654
@@ -305,7 +305,7 @@ First the laundromat,\nthen the library...
 // PTR : 000016B8
 #WRITE(PTR, $00001928)
 //è≠ÇµÇÕê√Ç©Ç…Ç»Ç¡ÇΩñÓêÊÇ…Åc
-Thing's were finally\nsettling down too!
+Things were finally\nsettling down too!
 <$00>
 
 // PTR : 000016D4
