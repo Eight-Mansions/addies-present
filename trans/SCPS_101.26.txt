@@ -580,7 +580,7 @@ Odd coins won't change\nwhen rings are slid.
 //!!! Second Block
 
 //P: 00001AB8
-#JMP($00001AB8)
+#JMP($00001AF8)
 #WBB(PTR1, $0001EDF0)
 #WUB(PTR1, $0001EDF1)
 #WLB(PTR1, $0001EDFC)
