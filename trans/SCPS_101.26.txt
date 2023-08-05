@@ -130,7 +130,7 @@ Slide Ring 1 DOWN. (HE→IF)
 //#JMP($000033D4)
 #WRITE(PTR, $00088148)
 //スタートボタンからＱＵＩＴで終了
-START: RESTART OR QUIT
+START: RESTART or QUIT
 <$00>
 
 
@@ -230,7 +230,7 @@ Total Scores won't restore.
 #WLB(PTR1, $00032E84)
 #WHB(PTR1, $00032E85)
 //これが弊社の最短手です\n次は一人で解いてみましょう
-This is our Club Record.\nSee if you can beat it!
+Next time, let's beat\nthe Club Record.
 <$00>
 
 
@@ -242,7 +242,7 @@ This is our Club Record.\nSee if you can beat it!
 #WLB(PTR1, $00032EB0)
 #WHB(PTR1, $00032EB1)
 //この練習問題は卒業です\n次の問題にチャレンジしましょう
-Exercise complete!\nNow, take on the next!
+Well done!\nNow, try another!
 <$00>
 
 
@@ -305,7 +305,8 @@ Rotate +90°
 #WLB(PTR1, $000339C8)
 #WHB(PTR1, $000339C9)
 //%s%s手目は、左から%s列目で\n
-%s%s. Look at Ring %s.\n
+//Look at
+%s%s. On Ring %s,\n
 <$00>
 
 
@@ -317,7 +318,7 @@ Rotate +90°
 #WLB(PTR1, $00033A6C)
 #WHB(PTR1, $00033A6D)
 //【%s】を押して【%s】
-【%s】: 【%s】!
+press 【%s】 to 【%s】!
 <$00>
 
 
@@ -341,7 +342,7 @@ Command%SLVL【%S】
 #WLB(PTR1, $00033CCC)
 #WHB(PTR1, $00033CCD)
 //カーソルの位置が違います\nまずは例の通りに解いてみましょう
-Follow the demonstration.
+Wrong ring selected.\nTry again.
 <$00>
 
 
@@ -353,7 +354,7 @@ Follow the demonstration.
 #WLB(PTR1, $00033E08)
 #WHB(PTR1, $00033E09)
 //操作が違います\nまずは例の通りに解いてみましょう
-Follow the demonstration.
+Wrong move selected.\nTry again.
 <$00>
 
 
@@ -380,7 +381,7 @@ L2: Review alphabet
 //#JMP($00003720)
 #WRITE(PTR, $00088218)
 //ノンビリ気分でやりたいときには\nＲ２ボタンでコマンド入力モードに
-R2: Review command list
+R2: Review Move List
 <$00>
 
 
@@ -580,7 +581,7 @@ Odd coins won't change\nwhen rings are slid.
 //!!! Second Block
 
 //P: 00001AB8
-#JMP($00001AF8)
+#JMP($00001AB8)
 #WBB(PTR1, $0001EDF0)
 #WUB(PTR1, $0001EDF1)
 #WLB(PTR1, $0001EDFC)
@@ -970,7 +971,7 @@ Copied:
 #JMP($00093738)
 #WRITE(PTR, $000881A4)
 //下
-Down
+DOWN
 <$00>
 
 
@@ -979,7 +980,7 @@ Down
 //#JMP($0009373C)
 #WRITE(PTR, $000881A0)
 //上
-Up
+UP
 <$00>
 
 

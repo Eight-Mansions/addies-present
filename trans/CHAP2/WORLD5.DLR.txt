@@ -120,7 +120,7 @@ The musical instruments\nall around the bar.
 
 // PTR : 0000068C
 #WRITE(PTR, $000007A0)
-ステージも楽屋もこの通りよ
+//ステージも楽屋もこの通りよ
 I want you to\nuse the Loglock.
 <$00>
 
@@ -249,7 +249,7 @@ You didn't notice?\nJoka just walked out.
 
 // PTR : 00000A18
 #WRITE(PTR, $00000A70)
-やっぱり気づいてなかったわね
+//やっぱり気づいてなかったわね
 He left with\na silver gear.
 <$00>
 
@@ -503,7 +503,7 @@ One man's trash,\nanother man's treasure.
 
 // PTR : 000019C8
 #WRITE(PTR, $00001AB8)
-マスター、男と女の関係、って\nなにか覚えがある？
+//マスター、男と女の関係、って\nなにか覚えがある？
 How serious is your\nrelationship with Pia?
 <$00>
 
@@ -527,7 +527,7 @@ Of course they did...
 
 // PTR : 00001A4C
 #WRITE(PTR, $00001AC8)
-どこからそんな話が\n出てきたのか知らんが
+//どこからそんな話が\n出てきたのか知らんが
 I don't know where\nReno get's those ideas,
 <$00>
 
@@ -858,7 +858,7 @@ It's almost showtime!
 #WHB(PTR2, $000064B9)
 #WBB(PTR2, $000064B4)
 #WUB(PTR2, $000064B5)
-ボタンを手に入れたら
+//ボタンを手に入れたら
 When Pia has materials,
 <$00>
 

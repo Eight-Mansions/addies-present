@@ -573,7 +573,8 @@ I don't have time\nfor this!
 #WHB(PTR2, $00007AD9)
 #WBB(PTR2, $00007AD4)
 #WUB(PTR2, $00007AD5)
-‚a‚`‚s
+//‚a‚`‚s
+BAT
 <$00>
 
 // PTR : 00000970

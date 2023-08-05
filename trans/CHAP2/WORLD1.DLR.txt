@@ -501,19 +501,19 @@ So, you'll stay here?\nGreat!
 
 // PTR : 0000203C
 #WRITE(PTR, $00002078)
-あっ、こら、じゃまするなって…
+//あっ、こら、じゃまするなって…
 Ah, now it's a problem...
 <$00>
 
 // PTR : 0000205C
 #WRITE(PTR, $0000207C)
-…あっ、開かない！
+//…あっ、開かない！
 Ugh, it won't open!
 <$00>
 
 // PTR : 00002070
 #WRITE(PTR, $00002080)
-わー！
+//わー！
 Waugh!
 <$00>
 
@@ -580,8 +580,8 @@ Hey, young lady!\nHow's about a kiwi?
 
 // PTR : 00003168
 #WRITE(PTR, $000031D8)
-\nあれ、このゴツゴツしてるの…、
-\nJeepers...\nIts skin feels weird!
+//あれ、このゴツゴツしてるの…、
+Jeepers...\nIts skin feels weird!
 <$00>
 
 // PTR : 00003188
@@ -592,25 +592,25 @@ Now, this one might be\nhard like a bomb, but...
 
 // PTR : 000031BC
 #WRITE(PTR, $000031E0)
-これ…、爆弾じゃない！
+//これ…、爆弾じゃない！
 Wait a sec...\nThis one IS a bomb!
 <$00>
 
 // PTR : 00003234
 #WRITE(PTR, $00003298)
-ふぅ、何でこんなものが\n混じってるんだ？
+//ふぅ、何でこんなものが\n混じってるんだ？
 How did THAT thing\nget in the batch?
 <$00>
 
 // PTR : 0000325C
 #WRITE(PTR, $0000329C)
-それは、こっちのセリフよ
+//それは、こっちのセリフよ
 You're askin' me?
 <$00>
 
 // PTR : 00003278
 #WRITE(PTR, $000032A0)
-とにかくありがとよ、嬢ちゃん！
+//とにかくありがとよ、嬢ちゃん！
 Either way, thank you!
 <$00>
 
@@ -622,7 +622,7 @@ Welcome, young lady!\nWould you fancy an apple?
 
 // PTR : 00003768
 #WRITE(PTR, $000037D8)
-…ずいぶん、硬そうなリンゴね
+//…ずいぶん、硬そうなリンゴね
 ...This is one hard apple.
 <$00>
 
@@ -1261,7 +1261,7 @@ The bar is back there.
 #WHB(PTR2, $0000E895)
 #WBB(PTR2, $0000E890)
 #WUB(PTR2, $0000E891)
-まあ、頼む
+//まあ、頼む
 Well, counting on you.
 <$00>
 
@@ -1788,9 +1788,8 @@ I don't know how\nI feel about this.
 #WHB(PTR2, $000143DD)
 #WBB(PTR2, $000143D8)
 #WUB(PTR2, $000143D9)
-アディは不審な\n少年に尾行される。
+//アディは不審な\n少年に尾行される。
 Addie tailed\nthe suspicious boy.
-
 <$00>
 
 // PTR : 000028E8
@@ -2269,7 +2268,7 @@ Sparkly, golden corn!\nWhat do you think?
 #WHB(PTR2, $000188C5)
 #WBB(PTR2, $000188C0)
 #WUB(PTR2, $000188C1)
-これ…、黄金よ！
+//これ…、黄金よ！
 I think it's real gold.
 <$00>
 
@@ -2341,7 +2340,7 @@ Tsk.
 #WHB(PTR2, $0001A069)
 #WBB(PTR2, $0001A064)
 #WUB(PTR2, $0001A065)
-大通り
+//大通り
 Main Street
 <$00>
 
@@ -2543,7 +2542,7 @@ If anything, I don't\nwant to overwater them.
 #WBB(PTR1, $0001F990)
 #WUB(PTR1, $0001F991)
 //←：図書館　↑：岬の滝\n↓：大通り
-←：Library　↑：Cape Wash\n↓：Main Street
+←：Library　↑：Waterfall\n↓：Main Street
 <$00>
 
 // PTR : 00002E38

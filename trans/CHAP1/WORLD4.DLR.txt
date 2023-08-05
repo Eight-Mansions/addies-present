@@ -69,7 +69,7 @@ Doorway
 #WHB(PTR2, $000034B9)
 #WBB(PTR2, $000034B4)
 #WUB(PTR2, $000034B5)
-c•Ï‚ÈŒš•¨
+//c•Ï‚ÈŒš•¨
 What an odd building.
 <$00>
 

@@ -286,7 +286,7 @@ I'll bet you're needed\nat the bar.
 #WHB(PTR2, $00002141)
 #WBB(PTR2, $0000213C)
 #WUB(PTR2, $0000213D)
-まあまあ、息を切らして
+//まあまあ、息を切らして
 Oh dear,\nyou're out of breath!
 <$00>
 
@@ -394,7 +394,7 @@ Tailor Shop
 #WHB(PTR2, $000034D1)
 #WBB(PTR2, $000034CC)
 #WUB(PTR2, $000034CD)
-完成した服を持って\nバーへ向かうアディ。
+//完成した服を持って\nバーへ向かうアディ。
 With clothes in hand,\nAddie left for the bar.
 <$00>
 

@@ -557,7 +557,7 @@ You may not enter\nwithout a library card.
 #WHB(PTR2, $00006141)
 #WBB(PTR2, $0000613C)
 #WUB(PTR2, $0000613D)
-ちょっと！受付が先よ
+//ちょっと！受付が先よ
 Wait!\nReception first, please.
 <$00>
 
@@ -764,6 +764,7 @@ FIREFLY
 #WHB(PTR2, $00007F05)
 #WBB(PTR2, $00007F00)
 #WUB(PTR2, $00007F01)
+//!!!
 !!!
 <$00>
 

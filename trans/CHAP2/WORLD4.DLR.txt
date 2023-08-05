@@ -130,7 +130,7 @@ How you doin', kid?
 // PTR : 00000B10
 #WRITE(PTR, $00000B98)
 //あなた、あの二人と知り合い？
-Those boys just now.\nYou know them?
+Those boys just now,\nyou know them?
 <$00>
 
 // PTR : 00000B30
@@ -183,19 +183,19 @@ Hehe! Yep. Doesn't\nmean I wanna!
 
 // PTR : 00000DF8
 #WRITE(PTR, $00000EC8)
-えっ！？
+//えっ！？
 What the...
 <$00>
 
 // PTR : 00000E04
 #WRITE(PTR, $00000ECC)
-こ、これどっから持ってきた？
+//こ、これどっから持ってきた？
 Where did this come from?
 <$00>
 
 // PTR : 00000E24
 #WRITE(PTR, $00000ED0)
-あなたの家からに\n決まってるじゃない
+//あなたの家からに\n決まってるじゃない
 From your house,\nof course.
 <$00>
 
@@ -675,7 +675,7 @@ Ahh, you found out.
 
 // PTR : 00002CD8
 #WRITE(PTR, $00002D6C)
-まったく、悪いことの\nできねえ連中だな、あいつらは
+//まったく、悪いことの\nできねえ連中だな、あいつらは
 Man, those guys couldn't\nsneak if they tried.
 <$00>
 
@@ -811,7 +811,7 @@ Why?
 // PTR : 000030D0
 #WRITE(PTR, $00003108)
 //ま、いずれわかるさ
-You'll learn someday.
+You'll find out someday.
 <$00>
 
 #VAR(PTR1, CUSTOMPOINTER)
@@ -954,7 +954,7 @@ Those kids are\n"the Laundry Bros."
 #WHB(PTR2, $00007899)
 #WBB(PTR2, $00007894)
 #WUB(PTR2, $00007895)
-ジョーカを探している\nジノと出会ったアディ。
+//ジョーカを探している\nジノと出会ったアディ。
 Addie ran into Gino,\nwho was looking for Joka.
 <$00>
 
@@ -1099,7 +1099,7 @@ If ya wanna know more,\ngo find me a comb.
 #WBB(PTR2, $0000ABC4)
 #WUB(PTR2, $0000ABC5)
 //ひとつめの頼まれごとを済ませ\n男の元へ行ったアディ。
-Addie returned to the\nman who asked her a favor.
+Addie returned to\nman who needed a favor.
 <$00>
 
 // PTR : 00000FA4
@@ -1126,7 +1126,7 @@ There should be a nifty\nbracelet at my place.
 #WBB(PTR2, $0000B1DC)
 #WUB(PTR2, $0000B1DD)
 //ようやく男から\n子供たちのことを聞いた。
-He finally spilled\nthe beans on the kids.
+He finally spilled the\nbeans on the kids.
 <$00>
 
 // PTR : 0000116C
@@ -1233,7 +1233,7 @@ I can talk normal-like.\nHard without them dentures.
 #WHB(PTR2, $0000BD75)
 #WBB(PTR2, $0000BD70)
 #WUB(PTR2, $0000BD71)
-そのことには礼を\n言っておくが、ところで…
+//そのことには礼を\n言っておくが、ところで…
 You should have said\nsomething earlier.
 <$00>
 
@@ -1359,7 +1359,7 @@ Let's track\nwhere we've been.
 #WHB(PTR2, $0000F5CD)
 #WBB(PTR2, $0000F5C8)
 #WUB(PTR2, $0000F5C9)
-なあ、あんたを女と見込んで\n聞くんだけどさ
+//なあ、あんたを女と見込んで\n聞くんだけどさ
 Hey, I wanted to ask you\nsomething. As a girl.
 <$00>
 
@@ -1368,7 +1368,7 @@ Hey, I wanted to ask you\nsomething. As a girl.
 #WHB(PTR2, $0000F5DD)
 #WBB(PTR2, $0000F5D8)
 #WUB(PTR2, $0000F5D9)
-…笑わないって約束する？
+//…笑わないって約束する？
 Promise you won't laugh?
 <$00>
 
@@ -1390,8 +1390,8 @@ Okay
 #WHB(PTR2, $0000F63D)
 #WBB(PTR2, $0000F638)
 #WUB(PTR2, $0000F639)
-笑う
-Laughs
+//笑う
+Haha!
 <$00>
 
 // PTR : 000022E4
@@ -1689,7 +1689,7 @@ After speaking to Den,\nAddie left to find Eliza.
 #WHB(PTR2, $000134F9)
 #WBB(PTR2, $000134F4)
 #WUB(PTR2, $000134F5)
-…ああ、ひもじい
+//…ああ、ひもじい
 Ugh, I'm starving.
 <$00>
 
@@ -1814,7 +1814,7 @@ It's closed.
 #WBB(PTR1, $00016D9C)
 #WUB(PTR1, $00016D9D)
 //↑：大通り\n←：渡し場跡地　袋小路：→
-↑： Main Street\n←： Closed Harbour,　Corner： →
+↑：Main Street\n←：Closed Harbour,　Corner：→
 <$00>
 
 // PTR : 00002254

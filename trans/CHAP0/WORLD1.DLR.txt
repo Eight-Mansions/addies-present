@@ -9,7 +9,7 @@
 // PTR : 0000030C
 #WRITE(PTR, $0000034C)
 //めずらしいわね\nあなたが遊びに来るなんて
-What a surprise, Emmy!\nIt's rare you stop by.
+This is nice, Emmy!\nYou don't come in often.
 <$00>
 
 // PTR : 00000334
@@ -69,7 +69,7 @@ I'm surprised, is all.
 // PTR : 00000740
 #WRITE(PTR, $00000794)
 //…ねぇ、あがってもいい？
-So, you do like it!
+Good. Mind if I step in?
 <$00>
 
 // PTR : 0000075C
@@ -81,7 +81,7 @@ Huh?
 // PTR : 00000764
 #WRITE(PTR, $0000079C)
 //ああ、いいわよ
-I love it! Thank you!
+Yes! Of course!
 <$00>
 
 // PTR : 00000ADC
@@ -375,7 +375,7 @@ Oh! "Rotate" does\nsomething else.
 #WRITE(PTR, $00001E0C)
 #WRITE(PTR, $00001E84)
 //なぁんだ、簡単じゃない\nどんどん進んじゃおう
-That was tricky!\nLet's move on.
+That was something!\nLet's move on.
 <$00>
 
 // PTR : 00001BD0
@@ -404,7 +404,7 @@ Let's try it again!
 #WRITE(PTR, $00001E8C)
 #WRITE(PTR, $00001EE4)
 //ちょっと難しかったかも…
-These can be tricky.
+That felt tricky.
 <$00>
 
 // PTR : 00001C00
@@ -462,7 +462,7 @@ Is something the matter?
 // PTR : 00002140
 #WRITE(PTR, $0000216C)
 //別に、あなたに\n話すようなことじゃないわ
-If there were, Addie,\nwhy would I tell you?
+If there were, Addie,\nwhy would I say?
 <$00>
 
 // PTR : 000021A4
@@ -516,7 +516,7 @@ Wow, you're cooking at home?
 // PTR : 0000230C
 #WRITE(PTR, $00002358)
 //…母さんがもう、引っ越したから
-That's right. Mom moved already.
+...Mom already moved out.
 <$00>
 
 // PTR : 00000344
@@ -530,13 +530,13 @@ That's right. Mom moved already.
 // PTR : 0000232C
 #WRITE(PTR, $00002360)
 //…そうなんだ
-Oh, right.
+Oh. Right.
 <$00>
 
 // PTR : 0000233C
 #WRITE(PTR, $00002364)
 //下まで送るわ
-Here, I'll walk you out!
+Here, I'll walk you out.
 <$00>
 
 #VAR(PTR1, CUSTOMPOINTER)
@@ -547,7 +547,7 @@ Here, I'll walk you out!
 #WBB(PTR1, $000040AC)
 #WUB(PTR1, $000040AD)
 //じゃあ、また明日
-See you tomorrow!
+See you tomorrow...
 <$00>
 
 // PTR : 0000039C
@@ -657,7 +657,7 @@ but could you wait\nuntil after I leave?
 #WBB(PTR2, $00006180)
 #WUB(PTR2, $00006181)
 //あ、エミィに本を返さなきゃ
-Ah! I have books\nto return to Emmy.
+Ah! I had books\nto return to Emmy.
 <$00>
 
 // PTR : 00000CC0
@@ -666,7 +666,7 @@ Ah! I have books\nto return to Emmy.
 #WBB(PTR2, $0000620C)
 #WUB(PTR2, $0000620D)
 //…明日でいいか
-I'll return them\ntomorrow.
+I'll see her tomorrow.
 <$00>
 
 // PTR : 00000CD0
@@ -783,7 +783,7 @@ Where's that\nUsers' Manual...
 #WBB(PTR2, $00009CC0)
 #WUB(PTR2, $00009CC1)
 //それ、結構よくできたパズルよ
-What a neat puzzle!
+The Loglock's a fine toy,
 <$00>
 
 // PTR : 0000202C
@@ -792,7 +792,7 @@ What a neat puzzle!
 #WBB(PTR2, $00009CCC)
 #WUB(PTR2, $00009CCD)
 //私はもう飽きちゃったけど
-I feel worn out already!
+even if I've grown past it.
 <$00>
 
 // PTR : 00002048
@@ -819,7 +819,7 @@ I'm still here, you know.
 #WBB(PTR2, $0000A6F4)
 #WUB(PTR2, $0000A6F5)
 //アディの部屋・机
-Addie's Desk
+Addie's Room
 <$00>
 
 // PTR : 00002258

@@ -404,13 +404,13 @@ What do you want?
 // PTR : 00001D38
 #WRITE(PTR, $00001DB4)
 //この機械、なおしてあげるわ
-I heard your\nmachines broke.
+I heard your\nmachine broke.
 <$00>
 
 // PTR : 00001D54
 #WRITE(PTR, $00001DB8)
 //…なんだって？
-And what of it?
+Yeah, what of it?
 <$00>
 
 // PTR : 00001D64

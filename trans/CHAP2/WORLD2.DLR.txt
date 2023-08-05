@@ -636,7 +636,7 @@ What for?
 
 // PTR : 00002248
 #WRITE(PTR, $00024688)
-何なのよ！
+//何なのよ！
 What do you want?!
 <$00>
 
@@ -824,7 +824,7 @@ I never meant\nto do you wrong,
 #WHB(PTR2, $000068D9)
 #WBB(PTR2, $000068D4)
 #WUB(PTR2, $000068D5)
-釣り糸の無い釣り竿って\nただの棒だよな…
+//釣り糸の無い釣り竿って\nただの棒だよな…
 but a rod without bait\nis just a stick!
 <$00>
 
@@ -888,7 +888,7 @@ Phew...
 #WBB(PTR2, $000078B0)
 #WUB(PTR2, $000078B1)
 //どこかでちょっと休もうかな
-I should take\na break somewhere
+I should take\na break somewhere.
 <$00>
 
 // PTR : 00000A68
@@ -1440,7 +1440,7 @@ Chasing people around\nis exhausting!
 #WBB(PTR2, $00016B24)
 #WUB(PTR2, $00016B25)
 //あ！魚？
-Ah! Fish!
+Are those fish I see?
 <$00>
 
 // PTR : 000004AC
@@ -1453,7 +1453,7 @@ Ah! Fish!
 #WBB(PTR1, $00016710)
 #WUB(PTR1, $00016711)
 //←：岬の滝　大通り：→
-←： Cape Wash,　Main Street： →
+←：Waterfall,　Main Street：→
 <$00>
 
 // PTR : 00002298
@@ -1466,5 +1466,5 @@ Ah! Fish!
 #WBB(PTR1, $00017A4C)
 #WUB(PTR1, $00017A4D)
 //←：裏通り　↑：岬の滝\n↓：大通り
-←：Alley,　↑：Cape Wash\n↓：Main Street
+←：Alley,　↑：Waterfall\n↓：Main Street
 <$00>

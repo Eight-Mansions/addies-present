@@ -455,7 +455,7 @@ What?
 // PTR : 00002550
 #WRITE(PTR, $00002874)
 やっぱり君の方が、僕より上手だ
-You were always one step\nahead of me.
+You were always one\nstep ahead of me.
 <$00>
 
 // PTR : 00002570
@@ -550,7 +550,7 @@ One last thing.
 
 // PTR : 000026E4
 #WRITE(PTR, $000028B4)
-もし、オルゴールの部品が\n足りていたとして
+//もし、オルゴールの部品が\n足りていたとして
 If you had all the parts\nand fixed the box,
 <$00>
 
@@ -991,7 +991,7 @@ JOKA
 #WHB(PTR2, $0000E685)
 #WBB(PTR2, $0000E680)
 #WUB(PTR2, $0000E681)
-・
+-
 <$00>
 
 // PTR : 00000FE8
@@ -1008,7 +1008,7 @@ JOKA
 #WBB(PTR2, $00010250)
 #WUB(PTR2, $00010251)
 //オンバン中枢
-Gramophone Core
+Core
 <$00>
 
 // PTR : 00000648

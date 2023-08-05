@@ -258,7 +258,7 @@ I'm not following you\nbecause I want to!
 // PTR : 00001678
 #WRITE(PTR, $00001900)
 //キライだから追いかけてるの？
-What, you don't like me?
+What, don't like me?
 <$00>
 
 // PTR : 00001698
@@ -432,7 +432,7 @@ What do you mean, "it"?
 // PTR : 000020D4
 #WRITE(PTR, $00002184)
 //ジョーカに返せなかったから…
-I mean, if you\ncouldn't give,
+I mean, if you\ncouldn't give back,
 <$00>
 
 // PTR : 000020F4
@@ -1556,5 +1556,5 @@ Funny enough, she's also\nJoka's little sister!
 #WBB(PTR1, $00014C94)
 #WUB(PTR1, $00014C95)
 //←：美術館入口　美術館裏口：→\n↓：図書館
-←： Museum,　Back Entrance： →\n↓： Library
+←：Museum,　Back Entrance：→\n↓：Library
 <$00>

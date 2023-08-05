@@ -493,7 +493,7 @@ As if led by her hand,\nAddie found a tomb.
 #WHB(PTR2, $0000559D)
 #WBB(PTR2, $00005598)
 #WUB(PTR2, $00005599)
-何もないよ。さ、戻ろう\n街を案内してあげるよ
+//何もないよ。さ、戻ろう\n街を案内してあげるよ
 Let's head back to town.\nI'll give you the tour!
 <$00>
 

@@ -184,7 +184,7 @@ That boy, what else?!
 
 // PTR : 000010F0
 #WRITE(PTR, $000012DC)
-それ、自分でやったんじゃない
+//それ、自分でやったんじゃない
 I couldn't stop him.
 <$00>
 
@@ -396,7 +396,7 @@ Used you?\nPerish the thought!
 // PTR : 00001FB4
 #WRITE(PTR, $00001FF0)
 //さあ、ジョーカのやつを\n探しに行ってくるんじゃ
-But do be a doll\nand go find Joka.
+But do be a doll,\nand go find Joka.
 <$00>
 
 // PTR : 0000211C
@@ -497,7 +497,7 @@ Of course I do!
 
 // PTR : 000023C8
 #WRITE(PTR, $00002620)
-そういうズーこそ何をしてるのよ？
+//そういうズーこそ何をしてるのよ？
 And why do you care?
 <$00>
 
@@ -1110,7 +1110,7 @@ That Kit is sold out.
 #WBB(PTR2, $0000674C)
 #WUB(PTR2, $0000674D)
 //どのデコログが欲しいんだ？\nＴＯＴＡＬ：＊＊＊＊
-Choose your Decor Kit.\nTOTAL: ＊＊＊＊
+Choose your Decor Kit.\nTotal Score: ＊＊＊＊
 <$00>
 
 // PTR : 00000A34
