@@ -1077,3 +1077,78 @@ Slide Down
 //前候補
 Slide Up
 <$00>
+
+
+
+#JMP($00000978)
+// Pos : 00000978
+#WRITE(PTR, $00074F04)
+//振動機能を利用するかどうか選びま\nす。
+Turn vibration\n
+ON or OFF.
+<$00>
+
+// Pos : 000009A0
+#WRITE(PTR, $00074F00)
+//自動でＡＮＡＬＯＧモードにするか\n手動で変更するか選びます。
+Switch Analog Mode to AUTO or MANUAL.
+<$00>
+
+// Pos : 000009DC
+#WRITE(PTR, $00074EFC)
+//主音量を調節します。０にすると無\n音になります。
+Adjust game volume. ("0"=No audio)
+<$00>
+
+// Pos : 00000A0C
+#WRITE(PTR, $00074EF8)
+//音の出力方式をステレオかモノラル\nから選びます。
+Designate audio output.
+<$00>
+
+// Pos : 00000A3C
+#WRITE(PTR, $00074EF4)
+//メッセージなどの表示を自動で進め\nるか手動送りするか選びます。
+Set scenes to play(AUTO) or wait for you(STEP).
+<$00>
+
+
+// Pos : 00000A7C
+#WRITE(PTR, $00074EF0)
+//画面位置を調整します。○…決定／\n×…キャンセル／△…初期設定
+Screen adjust: ○: Confirm, ×: Cancel, △: Default
+<$00>
+
+
+
+#JMP($000018BC)
+// Pos : 000018BC
+#WRITE(PTR, $0007E364)
+//上・下…ファイル選択／左・右…Ｙｅｓ・Ｎｏ／○…決定／×…戻る
+D-pad: Select file o: Confirm, ×: Cancel
+<$00>
+
+
+
+#JMP($00093730)
+// Pos : 00093730
+#WRITE(PTR, $000881A8)
+//Ｒ１
+R1
+<$00>
+
+#JMP($00093724)
+// Pos : 00093724
+#WRITE(PTR, $000881B0)
+//Ｌ１
+L1
+<$00>
+
+
+
+#JMP($000053E0)
+// Pos : 000053E0
+#WRITE(PTR, $0009274C)
+//強制終了しました。\n本体が改造されている\nおそれがあります。
+Data tamper detected!\nForcing termination...
+<$00>
