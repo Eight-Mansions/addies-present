@@ -222,19 +222,19 @@ Having a brother\ndoes that to you.
 // PTR : 000015BC
 #WRITE(PTR, $000018E8)
 //妹の私がいた方が心強いでしょう？
-They makes you\nage quickly?
+Siblings make a girl\ngrow up fast.
 <$00>
 
 // PTR : 000015E0
 #WRITE(PTR, $000018EC)
 //…まだカンチガイしてるみたいね
-That's not what I meant,
+That's not what I meant.
 <$00>
 
 // PTR : 00001600
 #WRITE(PTR, $000018F0)
 //はっきりさせておきたいんだけど…
-but I'll explain.
+If you let me explain...
 <$00>
 
 // PTR : 00001624
@@ -1513,7 +1513,7 @@ The girl named Eliza\nstrongly resembled Emmy.
 #WBB(PTR2, $00013DA8)
 #WUB(PTR2, $00013DA9)
 //ジョーカの妹だなんて、\nますますエミィそっくり！
-Funny enough, she's also\nJoka's little sister!
+Funnily enough, she's also\nJoka's little sister!
 <$00>
 
 // PTR : 00001258
@@ -1549,5 +1549,5 @@ Funny enough, she's also\nJoka's little sister!
 #WBB(PTR1, $000074D0)
 #WUB(PTR1, $000074D1)
 //うるさいおばさんだと\n思ってるでしょ？
-うるさいおばさんだと\n思ってるでしょ？
+You must think\nI'm a fussy old hen.
 <$00>

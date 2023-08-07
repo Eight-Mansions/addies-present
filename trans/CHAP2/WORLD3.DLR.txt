@@ -259,7 +259,7 @@ Uhm, uh, this search\nmight be a wash.
 // PTR : 000013B8
 #WRITE(PTR, $000013E4)
 //…もっときちんと洗ってこい
-But I'll keep running!
+We've gotta\nkeep it running!
 <$00>
 
 // PTR : 000014F0
@@ -1103,6 +1103,7 @@ You really helped\nus out here.
 #WBB(PTR1, $0000DF30)
 #WUB(PTR1, $0000DF31)
 //無断使用禁止！\n＊ボス＊
+"Don't wash without\npermission! -The Boss"
 <$00>
 
 // PTR : 0000059C

@@ -299,7 +299,7 @@ Addie.
 // PTR : 0000153C
 #WRITE(PTR, $000017F8)
 君のログロックの力で
-Use your Logock.
+Use your Loglock.
 <$00>
 
 // PTR : 00001554

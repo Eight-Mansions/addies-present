@@ -594,7 +594,7 @@ If we find it first,\nJoka will come to us!
 // PTR : 000025A8
 #WRITE(PTR, $00002660)
 //ÇŸÇŸÇ§ÅAÇ»ÇÈÇŸÇ«Åc
-Oh-ho! How ingenius...
+Oh-ho! How ingenious...
 <$00>
 
 // PTR : 000025BC

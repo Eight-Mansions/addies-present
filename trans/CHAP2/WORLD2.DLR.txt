@@ -1475,7 +1475,7 @@ Are those fish I see?
 #WBB(PTR1, $000175FC)
 #WUB(PTR1, $000175FD)
 //ごみは持ち帰りましょう\n＊観光協会＊
-ごみは持ち帰りましょう\n＊観光協会＊
+"Don't litter!\n-Tourism Association"
 <$00>
 
 // PTR : 00001C84
@@ -1484,5 +1484,5 @@ Are those fish I see?
 #WBB(PTR1, $000172FC)
 #WUB(PTR1, $000172FD)
 //↑名勝・岬の滝\n＊観光協会＊
-↑名勝・岬の滝\n＊観光協会＊
+"↑Hotspot ahead!\n-Tourism Association"
 <$00>

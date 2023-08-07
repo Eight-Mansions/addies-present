@@ -1494,7 +1494,7 @@ Even if I was open,\nkids aren't allowed in.
 #WBB(PTR2, $00010610)
 #WUB(PTR2, $00010611)
 //…まだ開いてないわね
-We're not open yet.
+It's not open yet.
 <$00>
 
 // PTR : 00001FF4
@@ -2296,7 +2296,7 @@ Here, it's corn!
 #WBB(PTR2, $000189B4)
 #WUB(PTR2, $000189B5)
 //おじさん別に、黄金でもよかった…
-I'm sorry it wasn't\ngold, old man...
+I'm sorry it wasn't\nreal gold...
 <$00>
 
 // PTR : 0000365C
@@ -2569,7 +2569,7 @@ This place smells awful.
 #WBB(PTR2, $00004F3C)
 #WUB(PTR2, $00004F3D)
 //とにかく、いろいろ見て回ろう
-とにかく、いろいろ見て回ろう
+Let's look around.
 <$00>
 
 // PTR : 00000D5C
@@ -2578,7 +2578,7 @@ This place smells awful.
 #WBB(PTR2, $000097D8)
 #WUB(PTR2, $000097D9)
 //きっとそのうち\n手品もマスターしてみせるよ
-きっとそのうち\n手品もマスターしてみせるよ
+I'll master a trick\nor two someday.
 <$00>
 
 // PTR : 00000598
@@ -2587,5 +2587,5 @@ This place smells awful.
 #WBB(PTR2, $00006A00)
 #WUB(PTR2, $00006A01)
 //やっと見つけたわよ！
-やっと見つけたわよ！
+I finally found it!
 <$00>

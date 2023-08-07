@@ -306,7 +306,7 @@ Rotate +90‹
 #WHB(PTR1, $000339C9)
 //%s%sè–Ú‚ÍA¶‚©‚ç%s—ñ–Ú‚Å\n
 //Look at
-%s%s. On Ring %s,\n
+%s%s. On Ring %s,
 <$00>
 
 
@@ -1112,12 +1112,21 @@ Designate audio output.
 Set scenes to play(AUTO) or wait for you(STEP).
 <$00>
 
-
 // Pos : 00000A7C
 #WRITE(PTR, $00074EF0)
 //‰æ–ÊˆÊ’u‚ğ’²®‚µ‚Ü‚·B›cŒˆ’è^\n~cƒLƒƒƒ“ƒZƒ‹^¢c‰Šúİ’è
 Screen adjust: ›: Confirm, ~: Cancel, ¢: Default
 <$00>
+
+//P: 00000A7C
+#WLB(PTR, $00006D18)
+#WHB(PTR, $00006D19)
+#WBB(PTR, $00006D1C)
+#WUB(PTR, $00006D1D)
+//›c–â‘èÄ’§í^ cà–¾‘ŒÄo^\nƒXƒ^[ƒgƒ{ƒ^ƒ“ÿƒƒjƒ…[
+›: Retry,  : Users' Manual, START: Menu
+<$00>
+
 
 
 

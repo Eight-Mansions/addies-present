@@ -1840,6 +1840,7 @@ It's closed.
 #WBB(PTR1, $000168D8)
 #WUB(PTR1, $000168D9)
 //関係者以外の立ち入りを禁止します\n＊図書館館長＊
+"Authorized personnel only!\n-Head Librarian"
 <$00>
 
 // PTR : 00002254
@@ -1848,6 +1849,7 @@ It's closed.
 #WBB(PTR1, $000174C8)
 #WUB(PTR1, $000174C9)
 //あなただけの１着をお仕立てします\n＊仕立屋ピア＊
+"Tailored as you wish!\n-Dressmaker Pia"
 <$00>
 
 // PTR : 00000F84
@@ -1856,7 +1858,7 @@ It's closed.
 #WBB(PTR1, $0000AC6C)
 #WUB(PTR1, $0000AC6C)
 //もう一つあるなんて、ずるいわ
-もう一つあるなんて、ずるいわ
+Another one? How sneaky!
 <$00>
 
 // PTR : 000025F4
@@ -1865,7 +1867,7 @@ It's closed.
 #WBB(PTR1, $00011F34)
 #WUB(PTR1, $00011F35)
 //もう一回
-もう一回
+One more time?
 <$00>
 
 // PTR : 00002978
@@ -1874,7 +1876,7 @@ It's closed.
 #WBB(PTR1, $00012BCC)
 #WUB(PTR1, $00012BCD)
 //もうちょっとだけ\n待っててね
-もうちょっとだけ\n待っててね
+Wait just a little\nlonger, okay?
 <$00>
 
 // PTR : 00002B54
@@ -1883,5 +1885,5 @@ It's closed.
 #WBB(PTR1, $00013464)
 #WUB(PTR1, $00013465)
 //飲み屋って…\nバーのことよね
-飲み屋って…\nバーのことよね
+So, the bar is...\nwell, a bar.
 <$00>

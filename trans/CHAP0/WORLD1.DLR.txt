@@ -69,7 +69,7 @@ I'm surprised, is all.
 // PTR : 00000740
 #WRITE(PTR, $00000794)
 //…ねぇ、あがってもいい？
-Good. Mind if I step in?
+Mind if I step in?
 <$00>
 
 // PTR : 0000075C
@@ -321,7 +321,7 @@ Oh, Moze...
 // PTR : 00001B34
 #WRITE(PTR, $00001C80)
 //まずは練習問題から
-Let's tinker, first.
+Let's practice, first.
 <$00>
 
 // PTR : 00000CEC
@@ -333,7 +333,7 @@ It wouldn't hurt to get\na feel for this.
 // PTR : 00001B48
 #WRITE(PTR, $00001C88)
 //じゃあ、これから…
-Well, then!
+Well, here goes...
 //自動車 to ネコ, Car to Cat
 <$00>
 
@@ -547,7 +547,7 @@ Here, I'll walk you out.
 #WBB(PTR1, $000040AC)
 #WUB(PTR1, $000040AD)
 //じゃあ、また明日
-See you tomorrow...
+See you tomorrow.
 <$00>
 
 // PTR : 0000039C
@@ -666,7 +666,7 @@ Ah! I had books\nto return to Emmy.
 #WBB(PTR2, $0000620C)
 #WUB(PTR2, $0000620D)
 //…明日でいいか
-I'll see her tomorrow.
+I'll visit Emmy tomorrow.
 <$00>
 
 // PTR : 00000CD0
