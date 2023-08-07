@@ -1542,3 +1542,12 @@ Funny enough, she's also\nJoka's little sister!
 //←：美術館入口　美術館裏口：→\n↓：図書館
 ←：Museum,　Back Entrance：→\n↓：Library
 <$00>
+
+// PTR : 00000A6C
+#WLB(PTR1, $000076CC)
+#WHB(PTR1, $000076CD)
+#WBB(PTR1, $000074D0)
+#WUB(PTR1, $000074D1)
+//うるさいおばさんだと\n思ってるでしょ？
+うるさいおばさんだと\n思ってるでしょ？
+<$00>

@@ -1042,3 +1042,12 @@ Well, slow and steady\ndoes win the race.
 //‚¤[‚ñc\n‚±‚Ì•”‰®‚¶‚á‚È‚¢‚Ì‚©‚È
 Hrrm... This isn't\nthe room, is it.
 <$00>
+
+// PTR : 000003F0
+#WLB(PTR1, $00003EA8)
+#WHB(PTR1, $00003EA9)
+#WBB(PTR1, $00003E70)
+#WUB(PTR1, $00003E71)
+//‰œ‚Ì•û‚ª‚¨‚à‚µ‚ë‚¢‚ñ‚¾‚æ
+‰œ‚Ì•û‚ª‚¨‚à‚µ‚ë‚¢‚ñ‚¾‚æ
+<$00>
