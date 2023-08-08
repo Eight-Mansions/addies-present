@@ -1078,7 +1078,6 @@ It's gone now. See?
 #WBB(PTR1, $0000C5B4)
 #WUB(PTR1, $0000C5B5)
 //『健康増進３月号』
-//『健康増進 ３月号』
 "Plus Health\nMarch Issue"
 <$00>
 
