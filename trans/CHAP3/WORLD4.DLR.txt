@@ -914,7 +914,7 @@ Right Hall
 #WBB(PTR1, $0000EB84)
 #WUB(PTR1, $0000EB85)
 //『ある科学者の伝記』
-『ある科学者の伝記』
+"The Happenings of\nOne Scientist"
 <$00>
 
 // PTR : 00000A44
@@ -923,5 +923,5 @@ Right Hall
 #WBB(PTR1, $0000EB38)
 #WUB(PTR1, $0000EB39)
 //『本当にあったいいはなし』
-『本当にあったいいはなし』
+"The Myth That\nReally Was"
 <$00>

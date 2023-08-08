@@ -1466,7 +1466,7 @@ Are those fish I see?
 #WBB(PTR1, $00017A4C)
 #WUB(PTR1, $00017A4D)
 //←：裏通り　↑：岬の滝\n↓：大通り
-←：Alley,　↑：Waterfall\n↓：Main Street
+←：Alley　↑：Waterfall\n↓：Main Street
 <$00>
 
 // PTR : 00002130
