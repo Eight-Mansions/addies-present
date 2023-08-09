@@ -190,7 +190,7 @@ Can't you climb out?
 // PTR : 00001564
 #WRITE(PTR, $00001608)
 //あっ、いつでも出られるぜ！\n今は就業中だから、ダメだけどな
-I could if I could,\nbut I can't on my shift.
+I would if I could,\nbut I can't on my shift.
 <$00>
 
 // PTR : 000015A0
@@ -538,7 +538,7 @@ Now, let's\nhead deeper in.
 #WHB(PTR2, $00006E95)
 #WBB(PTR2, $00006E90)
 #WUB(PTR2, $00006E91)
-Zzz…
+Zzz...
 <$00>
 
 // PTR : 0000087C
@@ -583,7 +583,7 @@ BAT
 #WBB(PTR2, $00007E3C)
 #WUB(PTR2, $00007E3D)
 //締め切り間近になると、\nいっつもこれだ！
-This always happens\nbefore his deadlines!
+He always does this when\na deadline approaches!
 <$00>
 
 // PTR : 00000998
@@ -628,7 +628,7 @@ No
 #WBB(PTR2, $00007FEC)
 #WUB(PTR2, $00007FED)
 //そんなところに隠れてるのか…
-Back there?\nOh, he would...
+Hiding, is he?\nOh, he would!
 <$00>
 
 // PTR : 00000A24
@@ -892,7 +892,7 @@ Joka cut off\nAddie's progress.
 #WBB(PTR2, $0000D98C)
 #WUB(PTR2, $0000D98D)
 //早く追いかけなきゃ…
-I have to catch\nhim quickly!
+I have to catch him!
 <$00>
 
 // PTR : 000019E4
@@ -1071,7 +1071,7 @@ Joka narrowly got away.
 #WBB(PTR2, $0000FD6C)
 #WUB(PTR2, $0000FD6D)
 //まだ、そう遠くへは\n行ってないはずだわ
-You must'nt get\ntoo far behind.
+I can't lose\nhim again!
 <$00>
 
 // PTR : 00001D38

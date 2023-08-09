@@ -135,7 +135,7 @@ I just think,\nif you stopped him,
 // PTR : 00000A50
 #WRITE(PTR, $00000B88)
 //捕まえることもできたのに…
-things wouldn've\ngotten better already.
+this predicament would've\nbeen resolved by now.
 <$00>
 
 // PTR : 00000A6C
@@ -153,7 +153,7 @@ What?!\nNo, I didn't mean...!
 // PTR : 00000AB0
 #WRITE(PTR, $00000B94)
 //不愉快な思いをしてまで\n協力するつもりはないわ
-I sure wouldn't want\nto make matters worse!
+I sure wouldn't want\nto make your day worse!
 <$00>
 
 // PTR : 00000AE0
@@ -505,7 +505,7 @@ You don't have one,\ndo you.
 #WBB(PTR2, $00005B48)
 #WUB(PTR2, $00005B49)
 //広い図書館の中で\nいろんなものに出会う。
-This library is huge,\nand full of wild things.
+There's so much to\nexplore in the library.
 <$00>
 
 // PTR : 000010C8
@@ -514,7 +514,7 @@ This library is huge,\nand full of wild things.
 #WBB(PTR2, $00005C14)
 #WUB(PTR2, $00005C15)
 //変なところ…\nジョーカはどこかしら
-Where is Joka in\nthis strange place?
+Where could Joka\nbe hiding?
 <$00>
 
 // PTR : 00000ECC

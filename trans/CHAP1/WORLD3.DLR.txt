@@ -232,8 +232,8 @@ Why'd you go silent?
 
 // PTR : 000011DC
 #WRITE(PTR, $000012FC)
-ジョーカをそこに近づけなければ
-If I can stop him,
+//ジョーカをそこに近づけなければ
+If I can stop Joka,
 <$00>
 
 // PTR : 000011FC
@@ -1110,7 +1110,7 @@ That Kit is sold out.
 #WBB(PTR2, $0000674C)
 #WUB(PTR2, $0000674D)
 //どのデコログが欲しいんだ？\nＴＯＴＡＬ：＊＊＊＊
-Choose your Decor Kit.\nTotal Score: ＊＊＊＊
+Choose your Decor Kit.\nTotal Score:＊＊＊＊
 <$00>
 
 // PTR : 00000A34

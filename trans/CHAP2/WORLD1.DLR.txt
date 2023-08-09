@@ -63,7 +63,7 @@ I heard word from\nthe Laundry Bros.
 // PTR : 00000654
 #WRITE(PTR, $0000069C)
 //あの子たちに、お礼言っといて
-Don't thank me.\nThank the Laundry Bros.
+Thank the Laundry Bros.\nfor me!
 <$00>
 
 // PTR : 00000674
@@ -629,13 +629,13 @@ Welcome, young lady!\nWould you fancy an apple?
 // PTR : 00003788
 #WRITE(PTR, $000037DC)
 //たまに石が混ざってんだ…\nなんつってな！冗談だ、冗談！
-Yeah, sometimes rocks\nget in, and... kidding!
+Eh, sometimes I pick a\nfew rocks by mistake.
 <$00>
 
 // PTR : 000037C0
 #WRITE(PTR, $000037E0)
 //…混ざってるわよ？
-They don't get mixed in?
+But... rocks don't\ncome from trees.
 <$00>
 
 // PTR : 00003848
@@ -997,7 +997,7 @@ Addie ran into Joka\nupon her return.
 #WBB(PTR2, $000073B0)
 #WUB(PTR2, $000073B1)
 //デンの情報を頼りに\nバーへ向かうアディ。
-With Den's reliable intel,\nAddie made for the bar.
+With Den's trusty intel,\nAddie made for the bar.
 <$00>
 
 // PTR : 000006EC

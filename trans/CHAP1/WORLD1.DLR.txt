@@ -327,7 +327,7 @@ Who can I say left me?
 // PTR : 0000244C
 #WRITE(PTR, $00002484)
 //Ç†ÇÍÅc
-Emmy?
+Hmmm...
 <$00>
 
 // PTR : 00002454
@@ -758,7 +758,7 @@ Path
 #WBB(PTR2, $00010580)
 #WUB(PTR2, $00010581)
 //ÇÀÇ¶ÅAÇ«Ç§ÇµÇƒ\níπÇ©Ç≤Ç™è‡Ç…Ç»Ç¡ÇøÇ·Ç¡ÇΩÇÃÅH
-How'd you get locked\nin that cage, anyways?
+How does a boy get locked\nin a cage, anyways?
 <$00>
 
 // PTR : 000027C4

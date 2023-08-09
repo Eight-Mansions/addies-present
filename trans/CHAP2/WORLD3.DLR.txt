@@ -439,7 +439,7 @@ Deal. You want to try?\nBe my guest.
 #WBB(PTR1, $00002EA0)
 #WUB(PTR1, $00002EA1)
 //ね、あねご\n今のところイケているネタはないよ
-No news yet, Addie-o.
+No updates on Joka yet.\nSorry.
 <$00>
 
 // PTR : 000002E4

@@ -190,7 +190,7 @@ But seriously, Addie?
 // PTR : 00000F40
 #WRITE(PTR, $00001138)
 //あのズーじいさんと\n仲良くしてるんだってね？
-You're working wit Zoo,h\nof all people?
+You're working with Zoo,\nof all people?
 <$00>
 
 // PTR : 00000F6C
@@ -226,7 +226,7 @@ The music box that\nturns the world back.
 // PTR : 00001008
 #WRITE(PTR, $00001154)
 //どういうこ…
-To the end of the...
+Like in Zoo's drawing...?
 <$00>
 
 // PTR : 00001018
@@ -816,7 +816,7 @@ Oh, earthworm...
 #WBB(PTR2, $0000687C)
 #WUB(PTR2, $0000687D)
 //やっぱり触りたくないわ…
-I never meant\nto do you wrong,
+It's not easy,\nbeing a worm.
 <$00>
 
 // PTR : 0000087C
@@ -825,7 +825,7 @@ I never meant\nto do you wrong,
 #WBB(PTR2, $000068D4)
 #WUB(PTR2, $000068D5)
 //釣り糸の無い釣り竿って\nただの棒だよな…
-but a rod without bait\nis just a stick!
+Still, a rod without bait\nis just a stick!
 <$00>
 
 // PTR : 000008A4

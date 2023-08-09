@@ -636,13 +636,13 @@ Go to the tailor shop\nat the end of the alley.
 // PTR : 00002188
 #WRITE(PTR, $000021E4)
 //注文してある服をとってくるんだ
-Speak to Pia and\npick up my clothes.
+Speak to Pia and\nask about my commission.
 <$00>
 
 // PTR : 000021A8
 #WRITE(PTR, $000021E8)
 //いいか、服だ。たのんだぞ
-It's a commission.\nFetch it,and I'll talk.
+It's for outfit.\nFetch it, and I'll talk.
 <$00>
 
 // PTR : 0000239C
@@ -832,7 +832,7 @@ The tailor shop is\nin the alley.
 #WBB(PTR2, $000063AC)
 #WUB(PTR2, $000063AD)
 //早く行って、とってきてくれ
-Hurry! Go fetch!
+It's time to go fetch!
 <$00>
 
 // PTR : 00000AF4
@@ -1161,7 +1161,7 @@ Oh! Yes, the clothes!
 #WBB(PTR2, $0000A4BC)
 #WUB(PTR2, $0000A4BD)
 //おかしなものに変わった\n楽器を直すことに。
-Can those strange objects\nturn back into instruments?
+Can I return the\ninstruments to normal?
 <$00>
 
 // PTR : 00001B54
@@ -1174,7 +1174,7 @@ Can those strange objects\nturn back into instruments?
 #WBB(PTR2, $0000A590)
 #WUB(PTR2, $0000A591)
 //うーん、いくつなおせば\n演奏ができるのかしら
-What music we get to play\ndepends on the it!
+The instruments we fix\nwill affect the band's music.
 <$00>
 
 // PTR : 00001FB4
