@@ -1239,18 +1239,3 @@ Still wandering?
 //仕立屋は裏通りだぞ
 The tailor shop is\nin the alley.
 <$00>
-
-#VAR(PTR3, CUSTOMPOINTER)
-#CREATEPTR(PTR3, "LINEAR", -2148367224, 32)
-// PTR : 000008D8
-#WLB(PTR3, $00003BE4)
-#WHB(PTR3, $00003BE5)
-#WBB(PTR3, $00003BE0)
-#WUB(PTR3, $00003BE1)
-#WLB(PTR3, $00005CA0)
-#WHB(PTR3, $00005CA1)
-#WBB(PTR3, $00005C9C)
-#WUB(PTR3, $00005C9D)
-//ズーの家の方に\n逃げていったみたいよ！
-Maybe he left\nfor Zoo's house!
-<$00>

@@ -866,15 +866,3 @@ I doubt Moze would\nstop by so late.
 //やっぱり、寝る前にちょっと…
 Almost time for bed, huh.
 <$00>
-
-#VAR(PTR3, CUSTOMPOINTER)
-#CREATEPTR(PTR3, "LINEAR", -2148236152, 32)
-// PTR : 00000FD0
-#WLB(PTR3, $0000389C)
-#WHB(PTR3, $0000389D)
-#WBB(PTR3, $00003898)
-#WUB(PTR3, $00003899)
-//きりじゃ、かわいそうだからね…
-It's a shame\nI have to stop.
-<$00>
-
