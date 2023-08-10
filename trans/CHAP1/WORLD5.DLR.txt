@@ -286,7 +286,7 @@ What are you saying?
 
 // PTR : 00001508
 #WRITE(PTR, $000017F0)
-君の助けが必要だから\nここで待ってたんだ
+//君の助けが必要だから\nここで待ってたんだ
 I waited here because\nI needed your help.
 <$00>
 
@@ -298,7 +298,7 @@ Addie.
 
 // PTR : 0000153C
 #WRITE(PTR, $000017F8)
-君のログロックの力で
+//君のログロックの力で
 Use your Loglock.
 <$00>
 
@@ -960,38 +960,12 @@ Joka waited for Addie\nin the music box core.
 Joka wants to be a gear.
 <$00>
 
-// PTR : 000010D4
-#WLB(PTR2, $0000CC38)
-#WHB(PTR2, $0000CC39)
-#WBB(PTR2, $0000CC34)
-#WUB(PTR2, $0000CC35)
-//ジョーカがいなくなっても\n街は変わりなかった。
-The town didn't change\nafter Joka departed.
-<$00>
-
-// PTR : 00001104
-#WLB(PTR2, $0000CD14)
-#WHB(PTR2, $0000CD15)
-#WBB(PTR2, $0000CD10)
-#WUB(PTR2, $0000CD11)
-//そうだ…\n図書館の館長に会わなきゃ…
-I have to see\nthe head librarian.
-<$00>
-
 // PTR : 00001128
 #WLB(PTR2, $0000CD8C)
 #WHB(PTR2, $0000CD8D)
 #WBB(PTR2, $0000CD88)
 #WUB(PTR2, $0000CD89)
 JOKA
-<$00>
-
-// PTR : 00002DCC
-#WLB(PTR2, $0000E684)
-#WHB(PTR2, $0000E685)
-#WBB(PTR2, $0000E680)
-#WUB(PTR2, $0000E681)
--
 <$00>
 
 // PTR : 00000FE8
