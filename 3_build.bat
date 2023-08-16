@@ -17,6 +17,7 @@ del graphics\DATA.CTS
 tools\addies_present_data_cts_manual_insert.exe graphics\orig\DATA.CTS graphics\DATA.CTS graphics\DATA_CTS
 
 tools\addies_present_font_insert.exe graphics\DATA.CTS graphics\font\font.bmp
+tools\timmer.exe graphics\DATA.CTS graphics\DATA_CTS\CTN_TAG\DATA\SYS\TITLE.LET.R.png 287a814 288402c
 
 tools\psx-mode2.exe cd\addie_1.bin /DATA.CTS graphics\DATA.CTS
 tools\psx-mode2.exe cd\addie_1.bin /SCPS_101.26 exe\SCPS_101.26
