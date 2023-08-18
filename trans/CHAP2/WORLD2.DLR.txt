@@ -1486,3 +1486,13 @@ Are those fish I see?
 //↑名勝・岬の滝\n＊観光協会＊
 "↑Hotspot ahead!\n-Tourism Association"
 <$00>
+
+// PTR : 00001B5C
+#WLB(PTR1, $0000C714)
+#WHB(PTR1, $0000C715)
+#WBB(PTR1, $0000C6E0)
+#WUB(PTR1, $0000C6E1)
+//早くズーに知らせないと！
+早くズーに知らせないと！
+<$00>
+
