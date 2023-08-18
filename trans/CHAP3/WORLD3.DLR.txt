@@ -668,21 +668,12 @@ Guess I'll keep waiting.
 <$00>
 
 // PTR : 00000AEC
-#WLB(PTR2, $00008408)
-#WHB(PTR2, $00008409)
-#WBB(PTR2, $00008404)
-#WUB(PTR2, $00008405)
+#WLB(PTR1, $0000840C)
+#WHB(PTR1, $0000840D)
+#WBB(PTR1, $00008404)
+#WUB(PTR1, $00008405)
 //¡“x‚ÍŒü‚©‚¢‚Ìæ¶‚ª\n“¦‚°‚¿‚á‚Á‚Ä‚Ëc
 And now, my other\nwriter ran off.
-<$00>
-
-// PTR : 00000B44
-#WLB(PTR2, $00008414)
-#WHB(PTR2, $00008415)
-#WBB(PTR2, $00008410)
-#WUB(PTR2, $00008411)
-//Œü‚©‚¢‚Ìæ¶‚ª\n“¦‚°‚¿‚á‚Á‚Ä‚Ëc
-My other writer ran off.
 <$00>
 
 // PTR : 00000B14
