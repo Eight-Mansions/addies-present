@@ -191,7 +191,7 @@ What's up, Addie?
 
 // PTR : 00001370
 #WRITE(PTR, $000013A8)
-ここにいたのね…イライザ
+//ここにいたのね…イライザ
 Oh! Is that you, Eliza?
 <$00>
 

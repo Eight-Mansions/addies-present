@@ -454,7 +454,7 @@ What?
 
 // PTR : 00002550
 #WRITE(PTR, $00002874)
-やっぱり君の方が、僕より上手だ
+//やっぱり君の方が、僕より上手だ
 You were always one\nstep ahead of me.
 <$00>
 
