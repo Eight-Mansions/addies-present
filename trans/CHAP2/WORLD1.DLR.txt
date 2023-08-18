@@ -647,7 +647,7 @@ This is a perfectly\nnormal apple. Yup!
 // PTR : 00003864
 #WRITE(PTR, $000038CC)
 //こいつぁ参った！\nそれは嬢ちゃんにやるよ！
-I can't win!/nPlease, just take it!
+I can't win!\nPlease, just take it!
 <$00>
 
 // PTR : 00003890
@@ -2588,4 +2588,13 @@ I'll master a trick\nor two someday.
 #WUB(PTR2, $00006A01)
 //やっと見つけたわよ！
 I finally found it!
+<$00>
+
+// PTR : 000037F4
+#WLB(PTR2, $00018EA0)
+#WHB(PTR2, $00018EA1)
+#WBB(PTR2, $00018CE8)
+#WUB(PTR2, $00018CE9)
+//よう、嬢ちゃんかい！
+よう、嬢ちゃんかい！
 <$00>

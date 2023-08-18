@@ -1887,3 +1887,12 @@ Wait just a little\nlonger, okay?
 //飲み屋って…\nバーのことよね
 So, the bar is...\nwell, a bar.
 <$00>
+
+// PTR : 00002BD0
+#WLB(PTR1, $0001357C)
+#WHB(PTR1, $0001357D)
+#WBB(PTR1, $00013514)
+#WUB(PTR1, $00013515)
+//あのドーナツ…\n食ったことのある味だったな
+あのドーナツ…\n食ったことのある味だったな
+<$00>

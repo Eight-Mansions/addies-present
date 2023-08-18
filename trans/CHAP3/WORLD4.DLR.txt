@@ -15,7 +15,7 @@ The area up ahead\nis for readers,
 // PTR : 00000318
 #WRITE(PTR, $0000040C)
 //ちなみに向こう側の棟は、\n“書く人”のための場所さ
-and the opposite building/nis for writers.
+and the opposite building\nis for writers.
 <$00>
 
 // PTR : 00000310
@@ -286,7 +286,7 @@ I only need my\nsight to read.
 // PTR : 000015D0
 #WRITE(PTR, $0000177C)
 //ここから見えるのは\nインクの黒と紙の白のみ
-This lets me focus/non only the pages,
+This lets me focus\non only the pages,
 <$00>
 
 // PTR : 000015FC
