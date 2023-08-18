@@ -162,3 +162,11 @@ If I don't hurry,\nJoka will get away!
 Conductor's Hall
 <$00>
 
+// PTR : 00000314
+#WLB(PTR2, $0000226C)
+#WHB(PTR2, $0000226D)
+#WBB(PTR2, $00002254)
+#WUB(PTR2, $00002255)
+//管理人室ってところに\n行かなきゃ
+管理人室ってところに\n行かなきゃ
+<$00>
