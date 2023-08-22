@@ -154,19 +154,19 @@ Is that all you\ncame to discuss?
 // PTR : 00000FCC
 #WRITE(PTR, $0000118C)
 //…そうか、あの少年は\n歯車になったか
-Ah, this is about\nthe boy with the gears.
+Ah, this is about the\nboy who became a gear.
 <$00>
 
 // PTR : 00000FF0
 #WRITE(PTR, $00001190)
 //あなたに、そそのかされた通りにね
-He led you here.
+You gave him the idea to.
 <$00>
 
 // PTR : 00001014
 #WRITE(PTR, $00001194)
 //私は彼が望む知識を\n分け与えただけだ
-I simply gave him the\nknowledge he sought.
+All I gave him was the\nknowledge he sought.
 <$00>
 
 // PTR : 00001038
@@ -178,7 +178,7 @@ How the boy used it,\nright or wrong,
 // PTR : 00001054
 #WRITE(PTR, $0000119C)
 //私には関係ない
-was not up to me.
+does not reflect on me.
 <$00>
 
 // PTR : 00001064

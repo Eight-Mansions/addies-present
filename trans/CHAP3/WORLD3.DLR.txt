@@ -1192,7 +1192,7 @@ Eek!
 #WBB(PTR1, $0001436C)
 #WUB(PTR1, $0001436D)
 //『地理図表 第４版』
-"Charting Geography,\n4th Edition."
+"Charting Geography,\n4th Edition"
 <$00>
 
 // PTR : 000004E8
@@ -1219,7 +1219,7 @@ Silence is golden.\nPlease walk quietly.
 #WBB(PTR1, $00007E28)
 #WUB(PTR1, $00007E29)
 //また、逃げた！
-また、逃げた！
+He got away again!
 <$00>
 
 // PTR : 00000CF0
@@ -1228,7 +1228,7 @@ Silence is golden.\nPlease walk quietly.
 #WBB(PTR1, $000152A8)
 #WUB(PTR1, $000152A9)
 //『完全読書マニュアル』
-『完全読書マニュアル』
+"The Perfect\nReaders' Guide"
 <$00>
 
 
@@ -1238,7 +1238,7 @@ Silence is golden.\nPlease walk quietly.
 #WBB(PTR1, $000152F4)
 #WUB(PTR1, $000152F5)
 //『レポートの書き方』
-『レポートの書き方』
+"Effective Essay Writing"
 <$00>
 
 // PTR : 00000D20
@@ -1247,7 +1247,7 @@ Silence is golden.\nPlease walk quietly.
 #WBB(PTR1, $00015340)
 #WUB(PTR1, $00015341)
 //『あなたにも小説が書ける！』
-『あなたにも小説が書ける！』
+"You Can Write\na Novel Too!"
 <$00>
 
 // PTR : 000017FC
@@ -1256,7 +1256,7 @@ Silence is golden.\nPlease walk quietly.
 #WBB(PTR1, $00015AD0)
 #WUB(PTR1, $00015AD1)
 //『ヴァイオリンの世界』
-『ヴァイオリンの世界』
+"The World of Violins"
 <$00>
 
 // PTR : 000017DC
@@ -1265,7 +1265,7 @@ Silence is golden.\nPlease walk quietly.
 #WBB(PTR1, $00015A38)
 #WUB(PTR1, $00015A39)
 //『楽典』
-『楽典』
+"Musical Grammar"
 <$00>
 
 // PTR : 000017E8
@@ -1274,7 +1274,7 @@ Silence is golden.\nPlease walk quietly.
 #WBB(PTR1, $00015A84)
 #WUB(PTR1, $00015A85)
 //『ハーモニカ入門』
-『ハーモニカ入門』
+"A Beginner’s Guide\nto the Harmonica"
 <$00>
 
 // PTR : 000017E8
@@ -1283,7 +1283,7 @@ Silence is golden.\nPlease walk quietly.
 #WBB(PTR1, $00015A84)
 #WUB(PTR1, $00015A85)
 //『ハーモニカ入門』
-『ハーモニカ入門』
+"A Beginner’s Guide\nto the Harmonica"
 <$00>
 
 // PTR : 0000170C
@@ -1292,7 +1292,7 @@ Silence is golden.\nPlease walk quietly.
 #WBB(PTR1, $0001572C)
 #WUB(PTR1, $0001572D)
 //『天気・天候の違い』
-『天気・天候の違い』
+"Weather or Whether?"
 <$00>
 
 // PTR : 00001724
@@ -1301,7 +1301,7 @@ Silence is golden.\nPlease walk quietly.
 #WBB(PTR1, $00015778)
 #WUB(PTR1, $00015779)
 //『ガーデニングのすすめ』
-『ガーデニングのすすめ』
+"Tips and Tricks\nfor Your Garden"
 <$00>
 
 // PTR : 000016FC
@@ -1310,7 +1310,7 @@ Silence is golden.\nPlease walk quietly.
 #WBB(PTR1, $000156E0)
 #WUB(PTR1, $000156E1)
 //『熱帯の動物』
-『熱帯の動物』
+"Tropical Animals"
 <$00>
 
 // PTR : 00001640
@@ -1319,7 +1319,7 @@ Silence is golden.\nPlease walk quietly.
 #WBB(PTR1, $0000B514)
 #WUB(PTR1, $0000B514)
 //…特別室は廊下に出て“右”だ
-…特別室は廊下に出て“右”だ
+The suite is down\nthe right hall.
 <$00>
 
 // PTR : 00001A44
@@ -1328,7 +1328,7 @@ Silence is golden.\nPlease walk quietly.
 #WBB(PTR1, $0000EAFC)
 #WUB(PTR1, $0000EAFD)
 //ここから先は立ち入り禁止です
-ここから先は立ち入り禁止です
+There's no entry beyond\nthis point.
 <$00>
 
 // PTR : 00002448
@@ -1337,7 +1337,7 @@ Silence is golden.\nPlease walk quietly.
 #WBB(PTR1, $000165D0)
 #WUB(PTR1, $000165D1)
 //『ぬべり飴・初版』
-『ぬべり飴・初版』
+"Sugar Sculpting,\n1st Edition"
 <$00>
 
 // PTR : 0000242C
@@ -1346,7 +1346,7 @@ Silence is golden.\nPlease walk quietly.
 #WBB(PTR1, $00016584)
 #WUB(PTR1, $00016585)
 //『中期フィグニ主義の瓦解』
-『中期フィグニ主義の瓦解』
+"The Fall of Medieval\nFigurae"
 <$00>
 
 // PTR : 0000245C
@@ -1355,7 +1355,7 @@ Silence is golden.\nPlease walk quietly.
 #WBB(PTR1, $0001661C)
 #WUB(PTR1, $0001661D)
 //『禁書・狂僧カサランダマス』
-『禁書・狂僧カサランダマス』
+"The Forbidden Prophecies\nof Cazrandamus"
 <$00>
 
 // PTR : 00001680
@@ -1364,5 +1364,5 @@ Silence is golden.\nPlease walk quietly.
 #WBB(PTR1, $0000B8B8)
 #WUB(PTR1, $0000B8B9)
 //うわー、またやっちまった\n助けてくれ！
-うわー、またやっちまった\n助けてくれ！
+Gah, I'm stuck again!\nGet me out of here!
 <$00>

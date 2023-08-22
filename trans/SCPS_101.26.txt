@@ -306,7 +306,7 @@ Rotate +90°
 #WHB(PTR1, $000339C9)
 //%s%s手目は、左から%s列目で\n
 //Look at
-%s%s. On Ring %s,
+%s%s. On Ring %s,\n
 <$00>
 
 
@@ -639,7 +639,7 @@ Load Puzzle Data
 #WLB(PTR1, $0001E8E8)
 #WHB(PTR1, $0001E8E9)
 //問題を写す
-Copy Puzzle
+Copy
 <$00>
 
 
@@ -651,7 +651,7 @@ Copy Puzzle
 #WLB(PTR1, $0001E91C)
 #WHB(PTR1, $0001E91D)
 //問題で遊ぶ
-Play Puzzle
+Play
 <$00>
 
 
@@ -663,7 +663,7 @@ Play Puzzle
 #WLB(PTR1, $0001E950)
 #WHB(PTR1, $0001E951)
 //問題を作る
-Create Puzzle
+Create
 <$00>
 
 
@@ -672,7 +672,7 @@ Create Puzzle
 //#JMP($00001B68)
 #WRITE(PTR, $0007E3DC)
 //新規に問題データを作成します。\nよろしいですか？
-Create new puzzle data?
+Create new Puzzle Data?
 <$00>
 
 
@@ -681,7 +681,7 @@ Create new puzzle data?
 //#JMP($00001B98)
 #WRITE(PTR, $0007E3D8)
 //問題データを上書きします。\nよろしいですか？
-Overwrite puzzle data?
+Overwrite Puzzle Data?
 <$00>
 
 
@@ -717,7 +717,7 @@ Insufficient blocks.\nPuzzle Data=1 block.
 //#JMP($00001C80)
 #WRITE(PTR, $0007E3C8)
 //問題データの読み込みを行います。\nよろしいですか？
-Open puzzle data?
+Open Puzzle Data?
 <$00>
 
 
@@ -909,7 +909,7 @@ New File
 //#JMP($00002120)
 #WRITE(PTR, $0007E414)
 //自作問題：
-Puzzles Created:
+Puzzles:
 <$00>
 
 
@@ -948,7 +948,7 @@ Copied:
 #WLB(PTR1, $0001F7B0)
 #WHB(PTR1, $0001F7B1)
 //%s%s%s\n\nＲＥＣＯＲＤ：%s　【%s】%s
-%s%s%s\n\nRECORD: %s　【%s】%s
+%s%s%s\n\nRecord: %s　【%s】%s
 <$00>
 
 
@@ -1084,8 +1084,7 @@ Slide Up
 // Pos : 00000978
 #WRITE(PTR, $00074F04)
 //振動機能を利用するかどうか選びま\nす。
-Turn vibration\n
-ON or OFF.
+Switch vibration ON or OFF.
 <$00>
 
 // Pos : 000009A0

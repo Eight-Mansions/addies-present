@@ -1246,5 +1246,5 @@ The tailor shop is\nin the alley.
 #WBB(PTR1, $00005C9C)
 #WUB(PTR1, $00005C9D)
 //ズーの家の方に\n逃げていったみたいよ！
-ズーの家の方に\n逃げていったみたいよ！
+It looks like he ran\ntowards Zoo's house!
 <$00>

@@ -17,7 +17,11 @@ del graphics\DATA.CTS
 tools\addies_present_data_cts_manual_insert.exe graphics\orig\DATA.CTS graphics\DATA.CTS graphics\DATA_CTS
 
 tools\addies_present_font_insert.exe graphics\DATA.CTS graphics\font\font.bmp
-tools\timmer.exe graphics\DATA.CTS graphics\DATA_CTS\CTN_TAG\DATA\SYS\TITLE.LET.R.png 287a814 288402c
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\TITLE.LET.R.png -p 0x288402c -c 0x287a814 -b 8
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\RECORDQUALIFY.png -p 0x26a7834 -c 0x26A7808 -b 4
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\TOTALSCORE.png -p 0x26a7ca0 -c 0x26A7808 -b  4
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\MOVEMENU.png -p 0x26a9944 -c 0x26A7808 -b 4
+
 
 tools\psx-mode2.exe cd\addie_1.bin /DATA.CTS graphics\DATA.CTS
 tools\psx-mode2.exe cd\addie_1.bin /SCPS_101.26 exe\SCPS_101.26

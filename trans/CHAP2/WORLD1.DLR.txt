@@ -2596,7 +2596,7 @@ I finally found it!
 #WBB(PTR2, $00018CE8)
 #WUB(PTR2, $00018CE9)
 //よう、嬢ちゃんかい！
-よう、嬢ちゃんかい！
+Hey, young lady!
 <$00>
 
 // PTR : 00001788
@@ -2605,6 +2605,6 @@ I finally found it!
 #WBB(PTR2, $0000E6A0)
 #WUB(PTR2, $0000E6A1)
 //…追っかけなくてもいいのか？
-…追っかけなくてもいいのか？
+Aren't you going\nafter that kid?
 <$00>
 

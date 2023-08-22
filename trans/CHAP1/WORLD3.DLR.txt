@@ -1875,7 +1875,7 @@ Decor Kit collectors\nare pretty sharp.
 #WBB(PTR1, $0000ED20)
 #WUB(PTR1, $0000ED21)
 //また手がかりなしだわ
-また手がかりなしだわ
+Stuck again...
 <$00>
 
 // PTR : 000007B4
@@ -1884,5 +1884,5 @@ Decor Kit collectors\nare pretty sharp.
 #WBB(PTR1, $0000564C)
 #WUB(PTR1, $0000564D)
 //後で返品はきかないぞ？
-後で返品はきかないぞ？
+Can it be returned later?
 <$00>

@@ -168,5 +168,5 @@ Conductor's Hall
 #WBB(PTR2, $00002254)
 #WUB(PTR2, $00002255)
 //管理人室ってところに\n行かなきゃ
-管理人室ってところに\n行かなきゃ
+I have to go to the\nconductor's hall.
 <$00>

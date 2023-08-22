@@ -1894,5 +1894,5 @@ So, the bar is...\nwell, a bar.
 #WBB(PTR1, $00013514)
 #WUB(PTR1, $00013515)
 //あのドーナツ…\n食ったことのある味だったな
-あのドーナツ…\n食ったことのある味だったな
+That donut tasted...\noddly familiar.
 <$00>

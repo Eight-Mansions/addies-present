@@ -1493,6 +1493,6 @@ Are those fish I see?
 #WBB(PTR1, $0000C6E0)
 #WUB(PTR1, $0000C6E1)
 //早くズーに知らせないと！
-早くズーに知らせないと！
+I have to tell Zoo!
 <$00>
 
