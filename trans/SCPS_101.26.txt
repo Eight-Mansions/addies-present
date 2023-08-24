@@ -306,7 +306,7 @@ Rotate +90‹
 #WHB(PTR1, $000339C9)
 //%s%sè–Ú‚ÍA¶‚©‚ç%s—ñ–Ú‚Å\n
 //Look at
-%s%s. On Ring %s,\n
+%s%s. Select Ring %s (from the left).\n
 <$00>
 
 
@@ -318,7 +318,7 @@ Rotate +90‹
 #WLB(PTR1, $00033A6C)
 #WHB(PTR1, $00033A6D)
 //y%sz‚ğ‰Ÿ‚µ‚Äy%sz
-press y%sz to y%sz!
+Press "%s" to "%s"!
 <$00>
 
 
