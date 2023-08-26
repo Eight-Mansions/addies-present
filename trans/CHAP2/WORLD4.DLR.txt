@@ -1903,6 +1903,7 @@ That donut tasted...\noddly familiar.
 #WBB(PTR1, $0000B958)
 #WUB(PTR1, $0000B959)
 //財布
+Purse
 <$00>
 
 // PTR : 00001488
@@ -1911,6 +1912,7 @@ That donut tasted...\noddly familiar.
 #WBB(PTR1, $0000B9C0)
 #WUB(PTR1, $0000B9C1)
 //入れ歯
+Tooth
 <$00>
 
 // PTR : 000027EC
@@ -1919,6 +1921,7 @@ That donut tasted...\noddly familiar.
 #WBB(PTR1, $00012A30)
 #WUB(PTR1, $00012A31)
 //宝石
+Jewel
 <$00>
 
 // PTR : 00002800
@@ -1927,4 +1930,5 @@ That donut tasted...\noddly familiar.
 #WBB(PTR1, $00012A94)
 #WUB(PTR1, $00012A95)
 //ドーナツ
+Donut
 <$00>

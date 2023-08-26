@@ -333,7 +333,8 @@ This can't be good.\nWhat can I do?!
 #WHB(PTR1, $00003FAD)
 #WBB(PTR1, $00003FA8)
 #WUB(PTR1, $00003FA9)
-SNAIL
+//SNAIL
+Snail
 <$00>
 
 // PTR : 000003C8
@@ -472,7 +473,8 @@ Out of my way!
 #WHB(PTR2, $000059A9)
 #WBB(PTR2, $000059A4)
 #WUB(PTR2, $000059A5)
-SPIDER
+//SPIDER
+Spider
 <$00>
 
 // PTR : 00000610
@@ -1373,6 +1375,7 @@ Gah, I'm stuck again!\nGet me out of here!
 #WBB(PTR1, $0000B0D0)
 #WUB(PTR1, $0000B0D1)
 //本
+Book
 <$00>
 
 // PTR : 000012E8
@@ -1381,6 +1384,7 @@ Gah, I'm stuck again!\nGet me out of here!
 #WBB(PTR1, $0000B138)
 #WUB(PTR1, $0000B139)
 //ジャッキ
+Jack
 <$00>
 
 // PTR : 00000F2C
@@ -1389,6 +1393,7 @@ Gah, I'm stuck again!\nGet me out of here!
 #WBB(PTR1, $000095D0)
 #WUB(PTR1, $000095D1)
 //腕時計
+Watch
 <$00>
 
 // PTR : 00000F40
@@ -1397,6 +1402,7 @@ Gah, I'm stuck again!\nGet me out of here!
 #WBB(PTR1, $0000964C)
 #WUB(PTR1, $0000964D)
 //眼鏡
+Glass
 <$00>
 
 // PTR : 00001160
@@ -1405,6 +1411,7 @@ Gah, I'm stuck again!\nGet me out of here!
 #WBB(PTR1, $0000AB20)
 #WUB(PTR1, $0000AB21)
 //柵
+Stile
 <$00>
 
 // PTR : 00001170
@@ -1413,4 +1420,5 @@ Gah, I'm stuck again!\nGet me out of here!
 #WBB(PTR1, $0000AB88)
 #WUB(PTR1, $0000AB89)
 //イーゼル
+Easel
 <$00>

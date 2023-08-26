@@ -2614,6 +2614,7 @@ Aren't you going\nafter that kid?
 #WBB(PTR1, $00009834)
 #WUB(PTR1, $00009835)
 //ロープ
+Rope
 <$00>
 
 // PTR : 00000B94
@@ -2622,6 +2623,7 @@ Aren't you going\nafter that kid?
 #WBB(PTR1, $000098B0)
 #WUB(PTR1, $000098B1)
 //バラ
+Rose
 <$00>
 
 // PTR : 00002C44
@@ -2630,6 +2632,7 @@ Aren't you going\nafter that kid?
 #WBB(PTR1, $000168F8)
 #WUB(PTR1, $000168F9)
 //レモン
+Lemon
 <$00>
 
 // PTR : 00002C58
@@ -2638,6 +2641,7 @@ Aren't you going\nafter that kid?
 #WBB(PTR1, $00016974)
 #WUB(PTR1, $00016975)
 //メロン
+Melon
 <$00>
 
 // PTR : 00002F70
@@ -2646,6 +2650,7 @@ Aren't you going\nafter that kid?
 #WBB(PTR1, $00017224)
 #WUB(PTR1, $00017225)
 //はまぐり
+Clam
 <$00>
 
 // PTR : 00002F88
@@ -2654,6 +2659,7 @@ Aren't you going\nafter that kid?
 #WBB(PTR1, $0001729C)
 #WUB(PTR1, $0001729D)
 //梅
+Plum
 <$00>
 
 // PTR : 00003100
@@ -2662,6 +2668,7 @@ Aren't you going\nafter that kid?
 #WBB(PTR1, $000177D4)
 #WUB(PTR1, $000177D5)
 //爆弾
+Bomb
 <$00>
 
 // PTR : 00003114
@@ -2670,6 +2677,7 @@ Aren't you going\nafter that kid?
 #WBB(PTR1, $0001783C)
 #WUB(PTR1, $0001783D)
 //キウイ
+Kiwi
 <$00>
 
 // PTR : 000033A4
@@ -2678,6 +2686,7 @@ Aren't you going\nafter that kid?
 #WBB(PTR1, $00018040)
 #WUB(PTR1, $00018041)
 //卵
+Egg
 <$00>
 
 // PTR : 000033B4
@@ -2686,6 +2695,7 @@ Aren't you going\nafter that kid?
 #WBB(PTR1, $000180A8)
 #WUB(PTR1, $000180A9)
 //イチジク
+Fig
 <$00>
 
 // PTR : 0000352C
@@ -2694,6 +2704,7 @@ Aren't you going\nafter that kid?
 #WBB(PTR1, $000185C4)
 #WUB(PTR1, $000185C5)
 //金
+Gold
 <$00>
 
 
@@ -2703,6 +2714,7 @@ Aren't you going\nafter that kid?
 #WBB(PTR1, $0001862C)
 #WUB(PTR1, $0001862D)
 //トウモロコシ
+Corn
 <$00>
 
 // PTR : 00003704
@@ -2711,6 +2723,7 @@ Aren't you going\nafter that kid?
 #WBB(PTR1, $00018B48)
 #WUB(PTR1, $00018B49)
 //石
+Stone
 <$00>
 
 // PTR : 00003714
@@ -2719,4 +2732,5 @@ Aren't you going\nafter that kid?
 #WBB(PTR1, $00018BB0)
 #WUB(PTR1, $00018BB1)
 //リンゴ
+Apple
 <$00>

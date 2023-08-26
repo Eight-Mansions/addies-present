@@ -1893,6 +1893,7 @@ Can it be returned later?
 #WBB(PTR1, $000117F4)
 #WUB(PTR1, $000117F5)
 //ÉzÉRÉä
+Grime
 <$00>
 
 // PTR : 00002DF8
@@ -1901,4 +1902,5 @@ Can it be returned later?
 #WBB(PTR1, $00011870)
 #WUB(PTR1, $00011871)
 //äzâè
+Frame
 <$00>

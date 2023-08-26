@@ -1558,6 +1558,7 @@ You must think\nI'm a fussy old hen.
 #WBB(PTR1, $0000B874)
 #WUB(PTR1, $0000B875)
 //äLäk
+Shell
 <$00>
 
 // PTR : 000011EC
@@ -1566,6 +1567,7 @@ You must think\nI'm a fussy old hen.
 #WBB(PTR1, $0000B8DC)
 #WUB(PTR1, $0000B8DD)
 //ÉtÉãÅ[Ég
+Flute
 <$00>
 
 // PTR : 00002500
@@ -1574,6 +1576,7 @@ You must think\nI'm a fussy old hen.
 #WBB(PTR1, $0000F2D4)
 #WUB(PTR1, $0000F2D5)
 //è¨ê‡
+Novel
 <$00>
 
 // PTR : 00002514
@@ -1582,6 +1585,7 @@ You must think\nI'm a fussy old hen.
 #WBB(PTR1, $0000F33C)
 #WUB(PTR1, $0000F33D)
 //ãYã»
+Drama
 <$00>
 
 // PTR : 00003190
@@ -1590,6 +1594,7 @@ You must think\nI'm a fussy old hen.
 #WBB(PTR1, $00011FAC)
 #WUB(PTR1, $00011FAD)
 //ótÇ¡Çœ
+Leaf
 <$00>
 
 // PTR : 000031A4
@@ -1598,4 +1603,5 @@ You must think\nI'm a fussy old hen.
 #WBB(PTR1, $00012028)
 #WUB(PTR1, $00012029)
 //ãõ
+Fish
 <$00>

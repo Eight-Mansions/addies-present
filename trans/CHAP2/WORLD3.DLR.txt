@@ -1110,6 +1110,7 @@ You really helped\nus out here.
 #WBB(PTR1, $00008450)
 #WUB(PTR1, $00008451)
 //石炭
+Coal
 <$00>
 
 // PTR : 00001124
@@ -1118,6 +1119,7 @@ You really helped\nus out here.
 #WBB(PTR1, $000084C0)
 #WUB(PTR1, $000084C1)
 //石けん
+Soap
 <$00>
 
 // PTR : 000011C0
@@ -1126,6 +1128,7 @@ You really helped\nus out here.
 #WBB(PTR1, $00008748)
 #WUB(PTR1, $00008749)
 //クレープ
+Crepe
 <$00>
 
 // PTR : 000011D8
@@ -1134,4 +1137,5 @@ You really helped\nus out here.
 #WBB(PTR1, $000087C8)
 #WUB(PTR1, $000087C9)
 //シーツ
+Sheet
 <$00>

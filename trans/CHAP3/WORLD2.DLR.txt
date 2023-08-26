@@ -756,7 +756,7 @@ Hmmm. A giant firefly\nis pretty gross.
 #WBB(PTR2, $00007DA0)
 #WUB(PTR2, $00007DA1)
 //‚e‚h‚q‚d‚e‚q‚x
-FIREFLY
+Firefly
 <$00>
 
 // PTR : 00001504

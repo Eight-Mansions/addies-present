@@ -1502,6 +1502,7 @@ I have to tell Zoo!
 #WBB(PTR1, $00005E0C)
 #WUB(PTR1, $00005E0D)
 //ミミズ
+Worm
 <$00>
 
 // PTR : 0000061C
@@ -1510,6 +1511,7 @@ I have to tell Zoo!
 #WBB(PTR1, $00005E88)
 #WUB(PTR1, $00005E89)
 //釣り糸
+Line
 <$00>
 
 // PTR : 00002004
@@ -1518,6 +1520,7 @@ I have to tell Zoo!
 #WBB(PTR1, $0000F7CC)
 #WUB(PTR1, $0000F7CD)
 //タルト
+Tarte
 <$00>
 
 // PTR : 00002018
@@ -1526,4 +1529,5 @@ I have to tell Zoo!
 #WBB(PTR1, $0000F848)
 #WUB(PTR1, $0000F849)
 //ジーパン
+Denim
 <$00>
