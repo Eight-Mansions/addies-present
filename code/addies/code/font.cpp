@@ -93,8 +93,8 @@ const u8 widths[] = {
 	0x04, // '
 	0x06, // (
 	0x06, // )
-	0x0F, // *
-	0x0F // ~
+	0x0B, // +
+
 };
 
 u32 GetLetter(u8* text, u8* stackey)
