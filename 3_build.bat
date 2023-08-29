@@ -17,10 +17,48 @@ del graphics\DATA.CTS
 tools\addies_present_data_cts_manual_insert.exe graphics\orig\DATA.CTS graphics\DATA.CTS graphics\DATA_CTS
 
 tools\addies_present_font_insert.exe graphics\DATA.CTS graphics\font\font.bmp
+
 tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\TITLE.LET.R.png -p 0x288402c -c 0x287a814 -b 8
+
 tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO00_RECORDQUALIFY.png -p 0x26a7834 -c 0x26A7808 -b 4
 tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO00_TOTALSCORE.png -p 0x26a7ca0 -c 0x26A7808 -b  4
 tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO00_MOVEMENU.png -p 0x26a9944 -c 0x26A7808 -b 4
+
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO01_RECORDQUALIFYING.png -p 0x26B4834 -c 0x26B4808 -b 4
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO01_TOTALSCORE.png -p 0x26B4ca0 -c 0x26B4808 -b 4
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO01_MOVEMENU.png -p 0x26B6944 -c 0x26B4808 -b 4
+
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO02_RECORDQUALIFYING.png -p 0x26C1834 -c 0x26C1808 -b 4
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO02_TOTALSCORE.png -p 0x26C1CA0 -c 0x26C1808 -b 4
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO02_MOVEMENU.png -p 0x26C3944 -c 0x26C1808 -b 4
+
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO03_RECORDQUALIFYING.png -p 0x26CE834 -c 0x26CE808 -b 4
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO03_TOTALSCORE.png -p 0x26CECA0 -c 0x26CE808 -b 4
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO03_MOVEMENU.png -p 0x26D0944 -c 0x26CE808 -b 4
+
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO04_RECORDQUALIFYING.png -p 0x26DB834 -c 0x26DB808 -b 4
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO04_TOTALSCORE.png -p 0x26DBCA0 -c 0x26DB808 -b 4
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO04_MOVEMENU.png -p 0x26DD944 -c 0x26DB808 -b 4
+
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO05_RECORDQUALIFYING.png -p 0x26E8834 -c 0x26E8808 -b 4
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO05_TOTALSCORE.png -p 0x26E8CA0 -c 0x26E8808 -b 4
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO05_MOVEMENU.png -p 0x26EA944 -c 0x26E8808 -b 4
+
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO06_RECORDQUALIFYING.png -p 0x26F5834 -c 0x26F5808 -b 4
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO06_TOTALSCORE.png -p 0x26F5ca0 -c 0x26F5808 -b 4
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO06_MOVEMENU.png -p 0x26F7944 -c 0x26F5808 -b 4
+
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO07_RECORDQUALIFYING.png -p 0x2702834 -c 0x2702808 -b 4
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO07_TOTALSCORE.png -p 0x2702ca0 -c 0x2702808 -b 4
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO07_MOVEMENU.png -p 0x2704944 -c 0x2702808 -b 4
+
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO08_RECORDQUALIFYING.png -p 0x270F834 -c 0x270F808 -b 4
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO08_TOTALSCORE.png -p 0x270Fca0 -c 0x270F808 -b 4
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO08_MOVEMENU.png -p 0x2711944 -c 0x270F808 -b 4
+
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO09_RECORDQUALIFYING.png -p 0x271C834 -c 0x271C808 -b 4
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO09_TOTALSCORE.png -p 0x271CCa0 -c 0x271C808 -b 4
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO09_MOVEMENU.png -p 0x271E944 -c 0x271C808 -b 4
 
 
 tools\psx-mode2.exe cd\addie_1.bin /DATA.CTS graphics\DATA.CTS
