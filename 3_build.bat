@@ -82,7 +82,10 @@ tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\D
 
 tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO15_RECORDQUALIFYING.png -p 0x276A834 -c 0x276A808 -b 4
 tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO15_TOTALSCORE.png -p 0x276ACA0 -c 0x276A808 -b 4
-tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO15_MOVEMENU.png -p 0x276C944 -c 0x276A808
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\DECO15_MOVEMENU.png -p 0x276C944 -c 0x276A808 -b 4
+
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\bought1.png -p 0x92E474 -c 0xAC2014 -b 8
+tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\bought2.png -p 0x92E040 -c 0xAC2014 -b 8
 
 tools\psx-mode2.exe cd\addie_1.bin /DATA.CTS graphics\DATA.CTS
 tools\psx-mode2.exe cd\addie_1.bin /SCPS_101.26 exe\SCPS_101.26
