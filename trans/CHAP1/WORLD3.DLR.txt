@@ -1132,7 +1132,7 @@ Window shopping?
 #WBB(PTR2, $0000689C)
 #WUB(PTR2, $0000689D)
 //‚»‚¢‚Â‚Æ’‡—Ç‚­‚µ‚Ä‚â‚Á‚Ä‚­‚ê
-All's well that ends well.
+Have fun with your Loglock.
 <$00>
 
 // PTR : 00000BFC
