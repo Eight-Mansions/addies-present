@@ -170,3 +170,12 @@ Conductor's Hall
 //管理人室ってところに\n行かなきゃ
 I have to go to the\nconductor's hall.
 <$00>
+
+// PTR : 00000500
+#WLB(PTR1, $00003350)
+#WHB(PTR1, $00003351)
+#WBB(PTR1, $00003344)
+#WUB(PTR1, $00003345)
+//カーテン
+Curtain
+<$00>
