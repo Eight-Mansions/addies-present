@@ -416,3 +416,9 @@ Huh? Whose dress is this?
 Tailor Shop
 <$00>
 
+#JMP($00000810)
+// PTR : 00000810
+//ƒƒ}ƒ“ƒX
+Romance
+<$00>
+
