@@ -1099,32 +1099,32 @@ Watch
 Glass
 <$00>
 
-#JMP($000009EC)
 // PTR :000009EC
+#JMP($000009EC)
 //キャンバス
 Canvas
 <$00>
 
-#JMP($00001060)
 // PTR :00001060
+#JMP($00001060)
 //モノクロ
 Monochro
 <$00>
 
-#JMP($000009D0)
 // PTR : 000009D0
+#JMP($000009D0)
 //風景画
 Scenic
 <$00>
 
-#JMP($00001044)
 // PTR : 00001044
+#JMP($00001044)
 //カラフル
 Colorful
 <$00>
 
-#JMP($00000ADC)
 // PTR : 00000ADC
+#JMP($00000ADC)
 //フロンティア
 Frontier
 <$00>
