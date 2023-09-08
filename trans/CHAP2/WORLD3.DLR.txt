@@ -1164,3 +1164,20 @@ Gingko
 Boaster
 <$00>
 
+// PTR : 00000CDC
+#JMP($00000CDC)
+//ê≥íº
+Honesty
+<$00>
+
+// PTR : 00001EF8
+#JMP($00001EF8)
+//ìwóÕ
+Efforts
+<$00>
+
+// PTR : 00001F14
+#JMP($00001F14)
+//ê¨å˜
+Success
+<$00>

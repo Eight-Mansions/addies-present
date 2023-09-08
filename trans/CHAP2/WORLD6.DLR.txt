@@ -422,3 +422,8 @@ Tailor Shop
 Romance
 <$00>
 
+// PTR : 00000810
+#JMP($00000810)
+//—F’B
+Friends
+<$00>
