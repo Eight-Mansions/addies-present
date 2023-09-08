@@ -473,8 +473,9 @@ Bell Tower
 I'd love to give\nthat bell a good ring.
 <$00>
 
-// PTR :00000504
-#JMP($00000504)
+// PTR : 000004E8
+#JMP($000004E8)
 //’¹‚©‚²
 Cage
 <$00>
+

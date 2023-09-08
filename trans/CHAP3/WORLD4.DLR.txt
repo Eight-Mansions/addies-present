@@ -926,19 +926,19 @@ Right Hall
 "The Myth That\nReally Was"
 <$00>
 
-// PTR :00000908
+// PTR : 00000908
 #JMP($00000908)
 //カエル
 Frog
 <$00>
 
-// PTR :000009F4
+// PTR : 000009F4
 #JMP($000009F4)
 //カラス
 Crow
 <$00>
 
-// PTR :00000AA8
+// PTR : 00000AA8
 #JMP($00000AA8)
 //白鳥
 Swan

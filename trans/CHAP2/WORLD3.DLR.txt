@@ -1158,8 +1158,8 @@ Kettle
 Gingko
 <$00>
 
-// PTR :00000CDC
-#JMP($00000CDC)
+// PTR : 00000CC0
+#JMP($00000CC0)
 //ƒzƒ‰‚«
 Boaster
 <$00>
