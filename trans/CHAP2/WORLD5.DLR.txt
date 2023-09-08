@@ -1248,3 +1248,12 @@ The tailor shop is\nin the alley.
 //ズーの家の方に\n逃げていったみたいよ！
 It looks like he ran\ntowards Zoo's house!
 <$00>
+
+// PTR : 0000145C
+#WLB(PTR1, $00007918)
+#WHB(PTR1, $00007919)
+#WBB(PTR1, $0000790C)
+#WUB(PTR1, $0000790D)
+//ビン
+Bottle
+<$00>
