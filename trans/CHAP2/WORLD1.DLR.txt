@@ -2753,3 +2753,10 @@ Toilet
 //êÚ
 Spring
 <$00>
+
+#JMP($000019A8)
+// PTR :000019A8
+//ÉoÉPÉc
+Bucket
+<$00>
+

@@ -1157,3 +1157,10 @@ Kettle
 //イチョウ
 Gingko
 <$00>
+
+#JMP($00000CDC)
+// PTR :00000CDC
+//ホラ吹き
+Boaster
+<$00>
+
