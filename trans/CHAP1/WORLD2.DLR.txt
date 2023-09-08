@@ -479,3 +479,20 @@ I'd love to give\nthat bell a good ring.
 Cage
 <$00>
 
+// PTR : 00000504
+#JMP($00000504)
+//è‡
+Bell
+<$00>
+
+// PTR : 000014CC
+#JMP($000014CC)
+//èoâÔÇ¢
+Contact
+<$00>
+
+// PTR : 000014E8
+#JMP($000014E8)
+//ï ÇÍ
+Divorce
+<$00>
