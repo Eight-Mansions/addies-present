@@ -1618,3 +1618,38 @@ Canvas
 Broom
 <$00>
 
+// PTR : 00001208
+#JMP($00001208)
+//ä≈î¬
+Fascia
+<$00>
+
+// PTR : 00000AC4
+#JMP($00000AC4)
+//ÉwÉr
+Snake
+<$00>
+
+// PTR : 00000C5C
+#JMP($00000C5C)
+//ó±éq
+Particle
+<$00>
+
+// PTR : 00000C78
+#JMP($00000C78)
+//ñ≥å¿
+Infinity
+<$00>
+
+// PTR : 0000325C
+#JMP($0000325C)
+//ìG
+Opponent
+<$00>
+
+// PTR : 00003278
+#JMP($00003278)
+//êeóF
+Sidekick
+<$00>

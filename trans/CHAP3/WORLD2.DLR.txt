@@ -1099,3 +1099,51 @@ It's gone now. See?
 //『月刊 よいこのボランティア』
 "The Monthly Kids Club"
 <$00>
+
+// PTR : 00024EEC
+#JMP($00024EEC)
+//ホタル
+Firefly
+<$00>
+
+// PTR : 00024F08
+#JMP($00024F08)
+//雑誌
+Journal
+<$00>
+
+// PTR : 00024F4C
+#JMP($00024F4C)
+//オバケ
+Specter
+<$00>
+
+// PTR : 00024F68
+#JMP($00024F68)
+//日時計
+Sundial
+<$00>
+
+// PTR : 00001198
+#JMP($00001198)
+//停止
+Stoppage
+<$00>
+
+// PTR : 000011B4
+#JMP($000011B4)
+//前進
+Progress
+<$00>
+
+// PTR : 0000191C
+#JMP($0000191C)
+//暗闇
+Darkness
+<$00>
+
+// PTR : 00001938
+#JMP($00001938)
+//日光
+Sunshine
+<$00>

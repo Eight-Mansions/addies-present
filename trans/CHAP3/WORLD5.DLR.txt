@@ -1129,3 +1129,21 @@ Colorful
 Frontier
 <$00>
 
+// PTR : 00000ADC
+#JMP($00000ADC)
+//âFíà
+Universe
+<$00>
+
+// PTR : 000007B0
+#JMP($000007B0)
+//é∏óˆ
+Lovelorn
+<$00>
+
+// PTR : 000007CC
+#JMP($000007CC)
+//évÇ¢èo
+Memories
+<$00>
+
