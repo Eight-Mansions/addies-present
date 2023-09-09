@@ -5,7 +5,7 @@
 // PTR : 00931238
 #JMP($00931238)
 //ａｂ
-ab
+ ab
 <$00>
 
 // PTR : 00931254
@@ -17,7 +17,7 @@ ba
 // PTR : 00931278
 #JMP($00931278)
 //ａｂｃ
-abc
+ abc
 <$00>
 
 // PTR : 00931294
@@ -29,7 +29,7 @@ cab
 // PTR : 009312B8
 #JMP($009312B8)
 //ａ
-a
+ a
 <$00>
 
 // PTR : 009312D4
@@ -41,7 +41,7 @@ b
 // PTR : 009312F8
 #JMP($009312F8)
 //ａ
-a
+ a
 <$00>
 
 // PTR : 00931314
@@ -53,7 +53,7 @@ x
 // PTR : 00931338
 #JMP($00931338)
 //ｂｄｈｊｍ
-bdhjm
+ bdhjm
 <$00>
 
 // PTR : 00931354
@@ -65,7 +65,7 @@ qpyrw
 // PTR : 00931378
 #JMP($00931378)
 //ｅｊｌｎｕ
-ejlnu
+ ejlnu
 <$00>
 
 // PTR : 00931394
@@ -77,7 +77,7 @@ mlrzc
 // PTR : 009313B8
 #JMP($009313B8)
 //ｃｅｌｍｎｒ
-celmnr
+ celmnr
 <$00>
 
 // PTR : 009313D4
@@ -89,7 +89,7 @@ uwjezl
 // PTR : 009313F8
 #JMP($009313F8)
 //ｏｘｑｏｍ
-oxqom
+ oxqom
 <$00>
 
 // PTR : 00931414
@@ -101,7 +101,7 @@ oxbow
 // PTR : 00931438
 #JMP($00931438)
 //ｂｊｐｓ
-bjps
+ bjps
 <$00>
 
 // PTR : 00931454
@@ -113,7 +113,7 @@ dlqz
 // PTR : 00931478
 #JMP($00931478)
 //少し
-Jot
+ Jot
 <$00>
 
 // PTR : 00931494
@@ -125,7 +125,7 @@ Lot
 // PTR : 009314B8
 #JMP($009314B8)
 //自動車
-Car
+ Car
 <$00>
 
 // PTR : 009314D4
@@ -137,7 +137,7 @@ Cat
 // PTR : 009314F8
 #JMP($009314F8)
 //自動車
-Car
+ Car
 <$00>
 
 // PTR : 00931514
@@ -149,7 +149,7 @@ Bat
 // PTR : 00931538
 #JMP($00931538)
 //あご
-Jaw
+ Jaw
 <$00>
 
 // PTR : 00931554
@@ -161,7 +161,7 @@ Jam
 // PTR : 00931578
 #JMP($00931578)
 //牡羊
-Ram
+ Ram
 <$00>
 
 // PTR : 00931594
@@ -173,7 +173,7 @@ Law
 // PTR : 009315B8
 #JMP($009315B8)
 //シカ
-Deer
+ Deer
 <$00>
 
 // PTR : 009315D4
@@ -185,7 +185,7 @@ Beer
 // PTR : 009315F8
 #JMP($009315F8)
 //ぞうきん
-Mop
+ Mop
 <$00>
 
 // PTR : 00931614
@@ -197,7 +197,7 @@ Ash
 // PTR : 00931638
 #JMP($00931638)
 //岩
-Rock
+ Rock
 <$00>
 
 // PTR : 00931654
@@ -209,7 +209,7 @@ Lock
 // PTR : 00931678
 #JMP($00931678)
 //鯉
-Carp
+ Carp
 <$00>
 
 // PTR : 00931694
@@ -221,7 +221,7 @@ Cart
 // PTR : 009316B8
 #JMP($009316B8)
 //ボム
-Bomb
+ Bomb
 <$00>
 
 // PTR : 009316D4
@@ -233,7 +233,7 @@ Ouch
 // PTR : 009316F8
 #JMP($009316F8)
 //ボーナス
-Bonus
+ Bonus
 <$00>
 
 // PTR : 00931714
@@ -245,7 +245,7 @@ Happy
 // PTR : 00931738
 #JMP($00931738)
 //コイン
-Coin
+ Coin
 <$00>
 
 // PTR : 00931754
@@ -257,7 +257,7 @@ Ring
 // PTR : 00931778
 #JMP($00931778)
 //固定
-Fix
+ Fix
 <$00>
 
 // PTR : 00931794
@@ -269,7 +269,7 @@ Bet
 // PTR : 009317B8
 #JMP($009317B8)
 //スリップ
-Slip
+ Slip
 <$00>
 
 // PTR : 009317D4
@@ -281,7 +281,7 @@ Trip
 // PTR : 009317F8
 #JMP($009317F8)
 //リング
-Ring
+ Ring
 <$00>
 
 // PTR : 00931814
@@ -293,7 +293,7 @@ Coin
 // PTR : 00931838
 #JMP($00931838)
 //干し草
-Hay
+ Hay
 <$00>
 
 // PTR : 00931854
@@ -305,7 +305,7 @@ Bus
 // PTR : 00931878
 #JMP($00931878)
 //桶
-Tub
+ Tub
 <$00>
 
 // PTR : 00931894
@@ -317,7 +317,7 @@ Den
 // PTR : 009318B8
 #JMP($009318B8)
 //鳥かご
-Cage
+ Cage
 <$00>
 
 // PTR : 009318D4
@@ -329,7 +329,7 @@ Bell
 // PTR : 009318F8
 #JMP($009318F8)
 //東
-East
+ East
 <$00>
 
 // PTR : 00931914
@@ -341,7 +341,7 @@ West
 // PTR : 00931938
 #JMP($00931938)
 //南
-South
+ South
 <$00>
 
 // PTR : 00931954
@@ -353,7 +353,7 @@ North
 // PTR : 00931978
 #JMP($00931978)
 //良い
-Good
+ Good
 <$00>
 
 // PTR : 00931994
@@ -362,34 +362,10 @@ Good
 Best
 <$00>
 
-// PTR : 009319B8
-#JMP($009319B8)
-//初期状態
-初期状態
-<$00>
-
-// PTR : 009319D4
-#JMP($009319D4)
-//問題正解
-問題正解
-<$00>
-
-// PTR : 009319F8
-#JMP($009319F8)
-//初期状態
-初期状態
-<$00>
-
-// PTR : 00931A14
-#JMP($00931A14)
-//問題正解
-問題正解
-<$00>
-
 // PTR : 00931A38
 #JMP($00931A38)
 //鳥かご
-Cage
+ Cage
 <$00>
 
 // PTR : 00931A54
@@ -401,7 +377,7 @@ Bell
 // PTR : 00931A78
 #JMP($00931A78)
 //牛
-Cow
+ Cow
 <$00>
 
 // PTR : 00931A94
@@ -413,7 +389,7 @@ Cat
 // PTR : 00931AB8
 #JMP($00931AB8)
 //フォーク
-Fork
+ Fork
 <$00>
 
 // PTR : 00931AD4
@@ -425,7 +401,7 @@ Comb
 // PTR : 00931AF8
 #JMP($00931AF8)
 //ドーナツ
-Donut
+ Donut
 <$00>
 
 // PTR : 00931B14
@@ -437,7 +413,7 @@ Jewel
 // PTR : 00931B38
 #JMP($00931B38)
 //スロットマシーン
-Slot
+ Slot
 <$00>
 
 // PTR : 00931B54
@@ -449,7 +425,7 @@ Pump
 // PTR : 00931B78
 #JMP($00931B78)
 //綿の布
-Cotton
+ Cotton
 <$00>
 
 // PTR : 00931B94
@@ -461,7 +437,7 @@ Velvet
 // PTR : 00931BB8
 #JMP($00931BB8)
 //ビン
-Bottle
+ Bottle
 <$00>
 
 // PTR : 00931BD4
@@ -473,7 +449,7 @@ Bobbin
 // PTR : 00931BF8
 #JMP($00931BF8)
 //クッキー
-Cookie
+ Cookie
 <$00>
 
 // PTR : 00931C14
@@ -485,7 +461,7 @@ Button
 // PTR : 00931C38
 #JMP($00931C38)
 //石炭
-Coal
+ Coal
 <$00>
 
 // PTR : 00931C54
@@ -497,7 +473,7 @@ Soap
 // PTR : 00931C78
 #JMP($00931C78)
 //クレープ
-Crepe
+ Crepe
 <$00>
 
 // PTR : 00931C94
@@ -509,7 +485,7 @@ Sheet
 // PTR : 00931CB8
 #JMP($00931CB8)
 //やかん
-Kettle
+ Kettle
 <$00>
 
 // PTR : 00931CD4
@@ -521,7 +497,7 @@ Diaper
 // PTR : 00931CF8
 #JMP($00931CF8)
 //イチョウ
-Ginkgo
+ Ginkgo
 <$00>
 
 // PTR : 00931D14
@@ -533,7 +509,7 @@ Mantle
 // PTR : 00931D38
 #JMP($00931D38)
 //コウモリ
-Bat
+ Bat
 <$00>
 
 // PTR : 00931D54
@@ -545,7 +521,7 @@ Map
 // PTR : 00931D78
 #JMP($00931D78)
 //クモ
-Spider
+ Spider
 <$00>
 
 // PTR : 00931D94
@@ -557,7 +533,7 @@ Report
 // PTR : 00931DB8
 #JMP($00931DB8)
 //カタツムリ
-Snail
+ Snail
 <$00>
 
 // PTR : 00931DD4
@@ -569,7 +545,7 @@ Novel
 // PTR : 00931DF8
 #JMP($00931DF8)
 //ホタル
-Firefly
+ Firefly
 <$00>
 
 // PTR : 00931E14
@@ -581,7 +557,7 @@ Journal
 // PTR : 00931E38
 #JMP($00931E38)
 //スパンコール
-Spangle
+ Spangle
 <$00>
 
 // PTR : 00931E54
@@ -593,7 +569,7 @@ Keyhole
 // PTR : 00931E78
 #JMP($00931E78)
 //カエル
-Frog
+ Frog
 <$00>
 
 // PTR : 00931E94
@@ -605,7 +581,7 @@ Book
 // PTR : 00931EB8
 #JMP($00931EB8)
 //カラス
-Crow
+ Crow
 <$00>
 
 // PTR : 00931ED4
@@ -617,7 +593,7 @@ Book
 // PTR : 00931EF8
 #JMP($00931EF8)
 //白鳥
-Swan
+ Swan
 <$00>
 
 // PTR : 00931F14
@@ -629,7 +605,7 @@ Book
 // PTR : 00931F38
 #JMP($00931F38)
 //メロン
-Melon
+ Melon
 <$00>
 
 // PTR : 00931F54
@@ -641,7 +617,7 @@ Viola
 // PTR : 00931F78
 #JMP($00931F78)
 //机
-Desk
+ Desk
 <$00>
 
 // PTR : 00931F94
@@ -653,7 +629,7 @@ Bass
 // PTR : 00931FB8
 #JMP($00931FB8)
 //ストーブ
-Stove
+ Stove
 <$00>
 
 // PTR : 00931FD4
@@ -665,7 +641,7 @@ Piano
 // PTR : 00931FF8
 #JMP($00931FF8)
 //便器
-Bowl
+ Bowl
 <$00>
 
 // PTR : 00932014
@@ -677,7 +653,7 @@ Drum
 // PTR : 00932038
 #JMP($00932038)
 //タンス
-Chest
+ Chest
 <$00>
 
 // PTR : 00932054
@@ -689,7 +665,7 @@ Cello
 // PTR : 00932078
 #JMP($00932078)
 //サボテン
-Cactus
+ Cactus
 <$00>
 
 // PTR : 00932094
@@ -701,7 +677,7 @@ Guitar
 // PTR : 009320B8
 #JMP($009320B8)
 //パパイヤ
-Papaya
+ Papaya
 <$00>
 
 // PTR : 009320D4
@@ -713,7 +689,7 @@ Violin
 // PTR : 009320F8
 #JMP($009320F8)
 //ヤマイモ
-Yam
+ Yam
 <$00>
 
 // PTR : 00932114
@@ -725,7 +701,7 @@ Sax
 // PTR : 00932138
 #JMP($00932138)
 //猫
-Cat
+ Cat
 <$00>
 
 // PTR : 00932154
@@ -737,7 +713,7 @@ Cow
 // PTR : 00932178
 #JMP($00932178)
 //ペン
-Pen
+ Pen
 <$00>
 
 // PTR : 00932194
@@ -749,7 +725,7 @@ Pot
 // PTR : 009321B8
 #JMP($009321B8)
 //地図
-Map
+ Map
 <$00>
 
 // PTR : 009321D4
@@ -761,7 +737,7 @@ Cup
 // PTR : 009321F8
 #JMP($009321F8)
 //インク
-Ink
+ Ink
 <$00>
 
 // PTR : 00932214
@@ -773,7 +749,7 @@ Tea
 // PTR : 00932238
 #JMP($00932238)
 //キャンバス
-Canvas
+ Canvas
 <$00>
 
 // PTR : 00932254
@@ -785,7 +761,7 @@ Scenic
 // PTR : 00932278
 #JMP($00932278)
 //門戸
-Doorway
+ Doorway
 <$00>
 
 // PTR : 00932294
@@ -797,7 +773,7 @@ Curtain
 // PTR : 009322B8
 #JMP($009322B8)
 //ミミズ
-Worm
+ Worm
 <$00>
 
 // PTR : 009322D4
@@ -809,7 +785,7 @@ Line
 // PTR : 009322F8
 #JMP($009322F8)
 //財布
-Purse
+ Purse
 <$00>
 
 // PTR : 00932314
@@ -821,7 +797,7 @@ Tooth
 // PTR : 00932338
 #JMP($00932338)
 //柵
-Stile
+ Stile
 <$00>
 
 // PTR : 00932354
@@ -833,7 +809,7 @@ Easel
 // PTR : 00932378
 #JMP($00932378)
 //小説
-Novel
+ Novel
 <$00>
 
 // PTR : 00932394
@@ -845,7 +821,7 @@ Drama
 // PTR : 009323B8
 #JMP($009323B8)
 //腕時計
-Watch
+ Watch
 <$00>
 
 // PTR : 009323D4
@@ -857,7 +833,7 @@ Glass
 // PTR : 009323F8
 #JMP($009323F8)
 //貝殻
-Shell
+ Shell
 <$00>
 
 // PTR : 00932414
@@ -869,7 +845,7 @@ Flute
 // PTR : 00932438
 #JMP($00932438)
 //看板
-Fascia
+ Fascia
 <$00>
 
 // PTR : 00932454
@@ -881,7 +857,7 @@ Canvas
 // PTR : 00932478
 #JMP($00932478)
 //キャンディ
-Candy
+ Candy
 <$00>
 
 // PTR : 00932494
@@ -893,7 +869,7 @@ Match
 // PTR : 009324B8
 #JMP($009324B8)
 //ホコリ
-Grime
+ Grime
 <$00>
 
 // PTR : 009324D4
@@ -905,7 +881,7 @@ Frame
 // PTR : 009324F8
 #JMP($009324F8)
 //タルト
-Tarte
+ Tarte
 <$00>
 
 // PTR : 00932514
@@ -917,7 +893,7 @@ Denim
 // PTR : 00932538
 #JMP($00932538)
 //ロープ
-Rope
+ Rope
 <$00>
 
 // PTR : 00932554
@@ -929,7 +905,7 @@ Rose
 // PTR : 00932578
 #JMP($00932578)
 //レモン
-Lemon
+ Lemon
 <$00>
 
 // PTR : 00932594
@@ -941,7 +917,7 @@ Melon
 // PTR : 009325B8
 #JMP($009325B8)
 //爆弾
-Bomb
+ Bomb
 <$00>
 
 // PTR : 009325D4
@@ -953,7 +929,7 @@ Kiwi
 // PTR : 009325F8
 #JMP($009325F8)
 //石
-Stone
+ Stone
 <$00>
 
 // PTR : 00932614
@@ -965,7 +941,7 @@ Apple
 // PTR : 00932638
 #JMP($00932638)
 //ヘビ
-Snake
+ Snake
 <$00>
 
 // PTR : 00932654
@@ -977,7 +953,7 @@ Broom
 // PTR : 00932678
 #JMP($00932678)
 //バケツ
-Bucket
+ Bucket
 <$00>
 
 // PTR : 00932694
@@ -989,7 +965,7 @@ Barrel
 // PTR : 009326B8
 #JMP($009326B8)
 //靴
-Shoe
+ Shoe
 <$00>
 
 // PTR : 009326D4
@@ -1001,7 +977,7 @@ Clog
 // PTR : 009326F8
 #JMP($009326F8)
 //ジョーカ
-Joka
+ Joka
 <$00>
 
 // PTR : 00932714
@@ -1013,7 +989,7 @@ Gear
 // PTR : 00932738
 #JMP($00932738)
 //宝石
-Jewel
+ Jewel
 <$00>
 
 // PTR : 00932754
@@ -1025,7 +1001,7 @@ Donut
 // PTR : 00932778
 #JMP($00932778)
 //トイレ
-Toilet
+ Toilet
 <$00>
 
 // PTR : 00932794
@@ -1037,7 +1013,7 @@ Spring
 // PTR : 009327B8
 #JMP($009327B8)
 //葉っぱ
-Leaf
+ Leaf
 <$00>
 
 // PTR : 009327D4
@@ -1049,7 +1025,7 @@ Fish
 // PTR : 009327F8
 #JMP($009327F8)
 //卵
-Egg
+ Egg
 <$00>
 
 // PTR : 00932814
@@ -1061,7 +1037,7 @@ Fig
 // PTR : 00932838
 #JMP($00932838)
 //はまぐり
-Clam
+ Clam
 <$00>
 
 // PTR : 00932854
@@ -1073,7 +1049,7 @@ Plum
 // PTR : 00932878
 #JMP($00932878)
 //金
-Gold
+ Gold
 <$00>
 
 // PTR : 00932894
@@ -1085,7 +1061,7 @@ Corn
 // PTR : 009328B8
 #JMP($009328B8)
 //オバケ
-Specter
+ Specter
 <$00>
 
 // PTR : 009328D4
@@ -1097,7 +1073,7 @@ Sundial
 // PTR : 009328F8
 #JMP($009328F8)
 //本
-Book
+ Book
 <$00>
 
 // PTR : 00932914
@@ -1109,7 +1085,7 @@ Jack
 // PTR : 00932938
 #JMP($00932938)
 //ライター
-Lighter
+ Lighter
 <$00>
 
 // PTR : 00932954
@@ -1121,7 +1097,7 @@ Firefly
 // PTR : 00932978
 #JMP($00932978)
 //ネクタイ
-Necktie
+ Necktie
 <$00>
 
 // PTR : 00932994
@@ -1130,34 +1106,11 @@ Necktie
 Parasol
 <$00>
 
-// PTR : 009329B8
-#JMP($009329B8)
-//ａ
-A
-<$00>
-
-// PTR : 009329D4
-#JMP($009329D4)
-//ｘ
-X
-<$00>
-
-// PTR : 009329F8
-#JMP($009329F8)
-//ａ
-A
-<$00>
-
-// PTR : 00932A14
-#JMP($00932A14)
-//ｘ
-X
-<$00>
 
 // PTR : 00932A38
 #JMP($00932A38)
 //死
-Death
+ Death
 <$00>
 
 // PTR : 00932A54
@@ -1169,7 +1122,7 @@ Birth
 // PTR : 00932A78
 #JMP($00932A78)
 //モノクロ
-Monochro
+ Monochro
 <$00>
 
 // PTR : 00932A94
@@ -1181,7 +1134,7 @@ Colorful
 // PTR : 00932AB8
 #JMP($00932AB8)
 //臆病者
-Chicken
+ Chicken
 <$00>
 
 // PTR : 00932AD4
@@ -1193,7 +1146,7 @@ Courage
 // PTR : 00932AF8
 #JMP($00932AF8)
 //出会い
-Contact
+ Contact
 <$00>
 
 // PTR : 00932B14
@@ -1205,7 +1158,7 @@ Divorce
 // PTR : 00932B38
 #JMP($00932B38)
 //隷属
-Slavery
+ Slavery
 <$00>
 
 // PTR : 00932B54
@@ -1217,7 +1170,7 @@ Freedom
 // PTR : 00932B78
 #JMP($00932B78)
 //宇宙
-Universe
+ Universe
 <$00>
 
 // PTR : 00932B94
@@ -1229,7 +1182,7 @@ Frontier
 // PTR : 00932BB8
 #JMP($00932BB8)
 //不協和音
-Discord
+ Discord
 <$00>
 
 // PTR : 00932BD4
@@ -1241,7 +1194,7 @@ Harmony
 // PTR : 00932BF8
 #JMP($00932BF8)
 //ホラ吹き
-Boaster
+ Boaster
 <$00>
 
 // PTR : 00932C14
@@ -1253,7 +1206,7 @@ Honesty
 // PTR : 00932C38
 #JMP($00932C38)
 //粒子
-Particle
+ Particle
 <$00>
 
 // PTR : 00932C54
@@ -1265,7 +1218,7 @@ Infinity
 // PTR : 00932C78
 #JMP($00932C78)
 //少女
-Girl
+ Girl
 <$00>
 
 // PTR : 00932C94
@@ -1277,7 +1230,7 @@ Lady
 // PTR : 00932CB8
 #JMP($00932CB8)
 //猿
-Ape
+ Ape
 <$00>
 
 // PTR : 00932CD4
@@ -1289,7 +1242,7 @@ Man
 // PTR : 00932CF8
 #JMP($00932CF8)
 //失恋
-Lovelorn
+ Lovelorn
 <$00>
 
 // PTR : 00932D14
@@ -1301,7 +1254,7 @@ Memories
 // PTR : 00932D38
 #JMP($00932D38)
 //没落
-Bankrupt
+ Bankrupt
 <$00>
 
 // PTR : 00932D54
@@ -1313,7 +1266,7 @@ Opulence
 // PTR : 00932D78
 #JMP($00932D78)
 //混沌
-Chaos
+ Chaos
 <$00>
 
 // PTR : 00932D94
@@ -1325,7 +1278,7 @@ Peace
 // PTR : 00932DB8
 #JMP($00932DB8)
 //停止
-Stoppage
+ Stoppage
 <$00>
 
 // PTR : 00932DD4
@@ -1337,7 +1290,7 @@ Progress
 // PTR : 00932DF8
 #JMP($00932DF8)
 //不信
-Unbelief
+ Unbelief
 <$00>
 
 // PTR : 00932E14
@@ -1349,7 +1302,7 @@ Reliance
 // PTR : 00932E38
 #JMP($00932E38)
 //絶望
-Despair
+ Despair
 <$00>
 
 // PTR : 00932E54
@@ -1361,7 +1314,7 @@ Relieve
 // PTR : 00932E78
 #JMP($00932E78)
 //友達
-Friends
+ Friends
 <$00>
 
 // PTR : 00932E94
@@ -1373,7 +1326,7 @@ Romance
 // PTR : 00932EB8
 #JMP($00932EB8)
 //争い
-Struggle
+ Struggle
 <$00>
 
 // PTR : 00932ED4
@@ -1385,7 +1338,7 @@ Showdown
 // PTR : 00932EF8
 #JMP($00932EF8)
 //敵
-Opponent
+ Opponent
 <$00>
 
 // PTR : 00932F14
@@ -1397,7 +1350,7 @@ Sidekick
 // PTR : 00932F38
 #JMP($00932F38)
 //行きづまり
-Deadlock
+ Deadlock
 <$00>
 
 // PTR : 00932F54
@@ -1409,7 +1362,7 @@ Solution
 // PTR : 00932F78
 #JMP($00932F78)
 //努力
-Efforts
+ Efforts
 <$00>
 
 // PTR : 00932F94
@@ -1421,7 +1374,7 @@ Success
 // PTR : 00932FB8
 #JMP($00932FB8)
 //暗闇
-Darkness
+ Darkness
 <$00>
 
 // PTR : 00932FD4
@@ -1433,7 +1386,7 @@ Sunshine
 // PTR : 00932FF8
 #JMP($00932FF8)
 //１９９９
-iqqq
+ iqqq
 <$00>
 
 // PTR : 00933014
