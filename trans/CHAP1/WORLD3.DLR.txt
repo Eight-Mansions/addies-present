@@ -1447,14 +1447,6 @@ Try this one next.
 Can you solve this?
 <$00>
 
-// PTR : 00001EE0
-#WLB(PTR2, $0000D6CC)
-#WHB(PTR2, $0000D6CD)
-#WBB(PTR2, $0000D6C8)
-#WUB(PTR2, $0000D6C9)
-PEN
-<$00>
-
 // PTR : 00001F38
 #WLB(PTR2, $0000D7B0)
 #WHB(PTR2, $0000D7B1)
@@ -1462,14 +1454,6 @@ PEN
 #WUB(PTR2, $0000D7AD)
 //だめじゃだめじゃ
 Oh dear, oh dear.
-<$00>
-
-// PTR : 00001F4C
-#WLB(PTR2, $0000D804)
-#WHB(PTR2, $0000D805)
-#WBB(PTR2, $0000D800)
-#WUB(PTR2, $0000D801)
-MAP
 <$00>
 
 // PTR : 00002004
@@ -1984,5 +1968,17 @@ Struggle
 #JMP($00003090)
 //決着
 Showdown
+<$00>
+
+// PTR : 00024538
+#JMP($00024538)
+//地図
+Map
+<$00>
+
+// PTR : 00024554
+#JMP($00024554)
+//カップ
+Cup
 <$00>
 

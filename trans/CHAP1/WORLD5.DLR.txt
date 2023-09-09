@@ -1146,3 +1146,16 @@ Firefly
 //パラソル
 Parasol
 <$00>
+
+// PTR : 0001FD80
+#JMP($0001FD80)
+//ジョーカ
+Joka
+<$00>
+
+// PTR : 0001FD9C
+#JMP($0001FD9C)
+//歯車
+Gear
+<$00>
+
