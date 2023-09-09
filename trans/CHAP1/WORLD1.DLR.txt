@@ -796,3 +796,15 @@ It's too dark to see.
 //‹C•ª‚ª—‚¿’…‚­‚Æ‚±‚ë‚¾‚í
 This place has a lonely\nair to it.
 <$00>
+
+// PTR : 00001F4C
+#JMP($00001F4C)
+//€
+Death
+<$00>
+
+// PTR : 00001F69
+#JMP($00001F69)
+//’a¶
+Birth
+<$00>
