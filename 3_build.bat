@@ -87,6 +87,8 @@ tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\D
 tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\bought1.png -p 0x92E474 -c 0xAC2014 -b 8
 tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\bought2.png -p 0x92E040 -c 0xAC2014 -b 8
 
+tools\atlas graphics\DATA.CTS trans\DEKILOG.BIN.txt >> data_error.txt
+
 tools\psx-mode2.exe cd\addie_1.bin /DATA.CTS graphics\DATA.CTS
 tools\psx-mode2.exe cd\addie_1.bin /SCPS_101.26 exe\SCPS_101.26
 
