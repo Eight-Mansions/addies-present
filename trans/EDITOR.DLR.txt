@@ -1,0 +1,100 @@
+#VAR(Table, TABLE)
+#ADDTBL("sjis.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", -2148236152, 32)
+#JMP(-1)
+
+// PTR : 00000000
+#WRITE(PTR, $00022984)
+//方向キー左・右…問題選択／○…写\nす／×…戻る
+D-Pad LEFT or RIGHT: Copy puzzle (△: Search)
+<$00>
+
+
+// PTR : 00000030
+#WRITE(PTR, $00022980)
+//方向キー左・右…問題選択／○…遊\nぶ／△…未作成頭出し／×…戻る
+D-Pad LEFT or RIGHT: Select a puzzle to play 
+<$00>
+
+
+// PTR : 00000070
+#WRITE(PTR, $0002297C)
+//方向キー左・右…問題選択／○…作\nる／△…未作成頭出し／×…戻る
+D-Pad LEFT or RIGHT: Edit puzzle (△: Search)
+<$00>
+
+
+// PTR : 0000011C
+#WLB(PTR1, $00000740)
+#WHB(PTR1, $00000741)
+#WBB(PTR1, $0000073C)
+#WUB(PTR1, $0000073D)
+//【自作問題】\n　Ｎｏ．%s
+ Construct\n　  No.%s
+<$00>
+
+
+// PTR : 00000134
+#WLB(PTR1, $0000079C)
+#WHB(PTR1, $0000079D)
+#WBB(PTR1, $00000794)
+#WUB(PTR1, $00000795)
+//更新済\n更新中
+New\nEdit
+<$00>
+
+
+// PTR : 00000144
+#WLB(PTR1, $00000940)
+#WHB(PTR1, $00000941)
+#WBB(PTR1, $00000934)
+#WUB(PTR1, $00000935)
+//【問題タイトル】\n
+Title\n
+<$00>
+
+// PTR : 00000178
+#WLB(PTR1, $000011C4)
+#WHB(PTR1, $000011C5)
+#WBB(PTR1, $000011C0)
+#WUB(PTR1, $000011C1)
+//この問題を初めの状態に戻しますか？\nはい…○／いいえ…×
+Reset puzzle to its original state? o: Restart, x: Cancel
+<$00>
+
+
+// PTR : 000001B0
+#WLB(PTR1, $00001218)
+#WHB(PTR1, $00001219)
+#WBB(PTR1, $00001214)
+#WUB(PTR1, $00001215)
+//初期状態と解答が同じ場合\n問題作成を終了できません
+Puzzle not valid if Start/nand Target Words match!
+<$00>
+
+
+// PTR : 0000039C
+#WLB(PTR1, $00003794)
+#WHB(PTR1, $00003795)
+#WBB(PTR1, $00003790)
+#WUB(PTR1, $00003791)
+#WLB(PTR1, $00003FA0)
+#WHB(PTR1, $00003FA1)
+#WBB(PTR1, $00003F9C)
+#WUB(PTR1, $00003F9D)
+//レコードホルダーの名前を刻めます\n英字にならない記号は・になります
+Enter a name for the Record Holder!
+<$00>
+
+
+// PTR : 000003EC
+#WLB(PTR1, $000043F4)
+#WHB(PTR1, $000043F5)
+#WBB(PTR1, $000043F0)
+#WUB(PTR1, $000043F1)
+//”でよろしいですか？\nはい…○／いいえ…×
+Use this name? o: Confirm, x: Cancel
+<$00>
+

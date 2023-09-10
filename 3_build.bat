@@ -118,3 +118,5 @@ tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP3/WORLD2.DLR ins\CHAP3\WORLD2.
 tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP3/WORLD3.DLR ins\CHAP3\WORLD3.DLR
 tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP3/WORLD4.DLR ins\CHAP3\WORLD4.DLR
 tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP3/WORLD5.DLR ins\CHAP3\WORLD5.DLR
+
+tools\psx-mode2.exe cd\addie_1.bin /DLR/EDITOR.DLR ins\EDITOR.DLR
