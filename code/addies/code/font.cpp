@@ -96,6 +96,8 @@ const u8 widths[] = {
 	0x0B, // +
 	0x0B, // =
 	0x0B, // /
+	0x0D, // triangle
+	0x0D, // square
 
 };
 
