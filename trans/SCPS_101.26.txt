@@ -909,7 +909,7 @@ New File
 //#JMP($00002120)
 #WRITE(PTR, $0007E414)
 //©ì–â‘èF
-Puzzles:
+Puzzle:
 <$00>
 
 
@@ -1170,3 +1170,18 @@ Data tamper detected!\nForcing termination...
 
 #JMP($00093614)
 <$81><$40>
+
+#JMP($000935EC)
+//–â‘è
+P
+<$00>
+
+#JMP($000935F4)
+//XV
+Edit
+<$00>
+
+#JMP($0007E418)
+//‚ÉƒRƒs[‚µ‚Ü‚·F›ÿÀs
+: "Copy?" (O Confirm)
+<$00>

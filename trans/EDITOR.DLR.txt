@@ -8,21 +8,21 @@
 // PTR : 00000000
 #WRITE(PTR, $00022984)
 //方向キー左・右…問題選択／○…写\nす／×…戻る
-D-Pad LEFT or RIGHT: Copy puzzle (△: Search)
+D-Pad LEFT or RIGHT:\nCopy puzzle (△: Search)
 <$00>
 
 
 // PTR : 00000030
 #WRITE(PTR, $00022980)
 //方向キー左・右…問題選択／○…遊\nぶ／△…未作成頭出し／×…戻る
-D-Pad LEFT or RIGHT: Select a puzzle to play 
+D-Pad LEFT or RIGHT:\nSelect a puzzle to play 
 <$00>
 
 
 // PTR : 00000070
 #WRITE(PTR, $0002297C)
 //方向キー左・右…問題選択／○…作\nる／△…未作成頭出し／×…戻る
-D-Pad LEFT or RIGHT: Edit puzzle (△: Search)
+D-Pad LEFT or RIGHT:\nEdit puzzle (△: Search)
 <$00>
 
 
@@ -61,7 +61,7 @@ Title\n
 #WBB(PTR1, $000011C0)
 #WUB(PTR1, $000011C1)
 //この問題を初めの状態に戻しますか？\nはい…○／いいえ…×
-Reset puzzle to its original state? o: Restart, x: Cancel
+Reset puzzle to its original state?\nO: Restart, X: Cancel
 <$00>
 
 
@@ -71,7 +71,7 @@ Reset puzzle to its original state? o: Restart, x: Cancel
 #WBB(PTR1, $00001214)
 #WUB(PTR1, $00001215)
 //初期状態と解答が同じ場合\n問題作成を終了できません
-Puzzle not valid if Start/nand Target Words match!
+Puzzle not valid if Start\nand Target Words match!
 <$00>
 
 
