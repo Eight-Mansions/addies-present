@@ -450,7 +450,7 @@ I've always wanted one!
 // PTR : 00001FC0
 #WRITE(PTR, $00001FE4)
 //à–¾‘‚ª‚È‚¢‚ÆA‚Ü‚¾•sˆÀ‚Ë
-These instructions sure\nare elaborate.
+I'd better read the\nLoglock Users' Manual.
 <$00>
 
 // PTR : 00002124
@@ -774,7 +774,7 @@ Hmph. Perhaps a time-out\nwill help.
 #WBB(PTR2, $00009BB4)
 #WUB(PTR2, $00009BB5)
 //à–¾‘‚Í‚Ç‚±‚¾‚Á‚¯c
-Where's that\nUsers' Manual...
+I'd better find the\nLoglock Users' Manual.
 <$00>
 
 // PTR : 0000200C

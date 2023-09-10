@@ -9,7 +9,7 @@
 // PTR : 000003B0
 #WRITE(PTR, $000003C4)
 //Ç±Ç±Åc
-This place...
+How strange...
 <$00>
 
 // PTR : 000003B8
