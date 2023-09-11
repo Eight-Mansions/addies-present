@@ -1128,7 +1128,7 @@ Soap
 #WBB(PTR1, $00008748)
 #WUB(PTR1, $00008749)
 //クレープ
-Crepe
+ Crepe
 <$00>
 
 // PTR : 000011D8
@@ -1161,7 +1161,7 @@ Gingko
 // PTR : 00000CC0
 #JMP($00000CC0)
 //ホラ吹き
-Boaster
+ Boaster
 <$00>
 
 // PTR : 00000CDC
@@ -1173,7 +1173,7 @@ Honesty
 // PTR : 00001EF8
 #JMP($00001EF8)
 //努力
-Efforts
+ Efforts
 <$00>
 
 // PTR : 00001F14

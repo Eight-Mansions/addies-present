@@ -425,5 +425,5 @@ Romance
 // PTR : 00000810
 #JMP($00000810)
 //—F’B
-Friends
+ Friends
 <$00>

@@ -488,7 +488,7 @@ Bell
 // PTR : 000014CC
 #JMP($000014CC)
 //èoâÔÇ¢
-Contact
+ Contact
 <$00>
 
 // PTR : 000014E8

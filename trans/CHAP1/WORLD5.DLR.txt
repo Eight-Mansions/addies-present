@@ -691,14 +691,6 @@ Good. Now, where am I?
 This won't help me...
 <$00>
 
-// PTR : 000005F8
-#WLB(PTR2, $000069B8)
-#WHB(PTR2, $000069B9)
-#WBB(PTR2, $000069B4)
-#WUB(PTR2, $000069B5)
-LIGHTER
-<$00>
-
 // PTR : 00000618
 #WLB(PTR2, $00006B18)
 #WHB(PTR2, $00006B19)
@@ -803,7 +795,7 @@ Joka's necktie?
 #WBB(PTR1, $000096C0)
 #WUB(PTR1, $000096C1)
 //ネクタイ
-Necktie
+ Necktie
 <$00>
 
 // PTR : 00000D80
@@ -1126,7 +1118,7 @@ It may be best to meet\nwith the head librarian.
 #WBB(PTR1, $000061F4)
 #WUB(PTR1, $000061F5)
 //ライター
-Lighter
+ Lighter
 <$00>
 
 // PTR : 000004A0
@@ -1135,7 +1127,7 @@ Lighter
 #WBB(PTR1, $0000626C)
 #WUB(PTR1, $0000626D)
 //ホタル
-Firefly
+ Firefly
 <$00>
 
 // PTR : 00000CD8

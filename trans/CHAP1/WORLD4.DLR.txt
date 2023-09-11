@@ -52,7 +52,7 @@ Zoo's House
 #WBB(PTR2, $000032E0)
 #WUB(PTR2, $000032E1)
 //–åŒË
-Doorway
+ Doorway
 <$00>
 
 // PTR : 00000518

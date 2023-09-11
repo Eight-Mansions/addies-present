@@ -1067,9 +1067,8 @@ Still need something?
 #WBB(PTR1, $0000AB20)
 #WUB(PTR1, $0000AB21)
 //çÚ
-Stile
+ Stile
 <$00>
-
 
 // PTR : 00001170
 #WLB(PTR1, $0000AB94)
@@ -1086,7 +1085,7 @@ Easel
 #WBB(PTR1, $000095D0)
 #WUB(PTR1, $000095D1)
 //òréûåv
-Watch
+ Watch
 <$00>
 
 

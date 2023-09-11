@@ -1261,7 +1261,7 @@ Bottle
 // PTR : 00001B84
 #JMP($00001B84)
 //メロン
-Melon
+ Melon
 <$00>
 
 // PTR : 00001BA0
@@ -1279,7 +1279,7 @@ Bass
 // PTR : 00002218
 #JMP($00002218)
 //ストーブ
-Stove
+ Stove
 <$00>
 
 // PTR : 00002234
@@ -1303,7 +1303,7 @@ Drum
 // PTR : 000022C0
 #JMP($000022C0)
 //タンス
-Chest
+ Chest
 <$00>
 
 // PTR : 000022DC
@@ -1339,7 +1339,7 @@ Violin
 // PTR : 0000253C
 #JMP($0000253C)
 //ヤマイモ
-Yam
+ Yam
 <$00>
 
 // PTR : 00002558
@@ -1351,7 +1351,7 @@ Sax
 // PTR : 00001F1C
 #JMP($00001F1C)
 //不協和音
-Discord
+ Discord
 <$00>
 
 // PTR : 00001C00

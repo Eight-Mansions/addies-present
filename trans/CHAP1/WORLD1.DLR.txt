@@ -705,7 +705,7 @@ Our town's just across.\nLet's hurry.
 #WBB(PTR2, $0000DB68)
 #WUB(PTR2, $0000DB69)
 //‚±‚Ì•Ó‚è‚É–Ê”’‚¢‚à‚Ì‚Í‚È‚¢‚æ
-I see nothing of note.
+Look around! There's\nnothing fun around here!
 <$00>
 
 // PTR : 000023F4
@@ -800,7 +800,7 @@ This place has a lonely\nair to it.
 // PTR : 00001F4C
 #JMP($00001F4C)
 //Ž€
-Death
+ Death
 <$00>
 
 // PTR : 00001F69

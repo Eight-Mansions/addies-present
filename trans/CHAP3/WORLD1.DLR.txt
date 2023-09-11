@@ -1558,7 +1558,7 @@ You must think\nI'm a fussy old hen.
 #WBB(PTR1, $0000B874)
 #WUB(PTR1, $0000B875)
 //ŠLŠk
-Shell
+ Shell
 <$00>
 
 // PTR : 000011EC
@@ -1627,7 +1627,7 @@ Fascia
 // PTR : 00000AC4
 #JMP($00000AC4)
 //ƒwƒr
-Snake
+ Snake
 <$00>
 
 // PTR : 00000C5C

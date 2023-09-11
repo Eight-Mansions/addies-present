@@ -1672,7 +1672,7 @@ No combs here.
 #WBB(PTR1, $00012A30)
 #WUB(PTR1, $00012A31)
 //宝石
-Jewel
+ Jewel
 <$00>
 
 // PTR : 00002B24
@@ -1903,7 +1903,7 @@ That donut tasted...\noddly familiar.
 #WBB(PTR1, $0000B958)
 #WUB(PTR1, $0000B959)
 //財布
-Purse
+ Purse
 <$00>
 
 // PTR : 00001488
@@ -1915,22 +1915,13 @@ Purse
 Tooth
 <$00>
 
-// PTR : 000027EC
-#WLB(PTR1, $00012A38)
-#WHB(PTR1, $00012A39)
-#WBB(PTR1, $00012A30)
-#WUB(PTR1, $00012A31)
-//宝石
-Jewel
-<$00>
-
 // PTR : 00002800
 #WLB(PTR1, $00012AA0)
 #WHB(PTR1, $00012AA1)
 #WBB(PTR1, $00012A94)
 #WUB(PTR1, $00012A95)
 //ドーナツ
-Donut
+ Donut
 <$00>
 
 // PTR : 00002604
@@ -1948,7 +1939,7 @@ Comb
 // PTR : 00023AAC
 #JMP($00023AAC)
 //キャンディ
-Candy
+ Candy
 <$00>
 
 // PTR : 00023AC8
@@ -1966,7 +1957,7 @@ Deadlock
 // PTR : 00000594
 #JMP($00000594)
 //臆病者
-Chicken
+ Chicken
 <$00>
 
 // PTR : 000005B0
