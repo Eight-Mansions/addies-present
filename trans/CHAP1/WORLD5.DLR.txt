@@ -1099,6 +1099,10 @@ Is this the way down?
 #WHB(PTR1, $0000CC39)
 #WBB(PTR1, $0000CC34)
 #WUB(PTR1, $0000CC35)
+#SWLB(PTR1, $0000CBF0)
+#SWHB(PTR1, $0000CBF1)
+#SWBB(PTR1, $0000CBEC)
+#SWUB(PTR1, $0000CBED)
 //ジョーカがいなくなっても\n街は変わりなかった。
 The town hadn't changed,\neven with Joka gone.
 <$00>
@@ -1108,6 +1112,10 @@ The town hadn't changed,\neven with Joka gone.
 #WHB(PTR1, $0000CD15)
 #WBB(PTR1, $0000CD10)
 #WUB(PTR1, $0000CD11)
+#SWLB(PTR1, $0000CBF8)
+#SWHB(PTR1, $0000CBF9)
+#SWBB(PTR1, $0000CBF4)
+#SWUB(PTR1, $0000CBF5)
 //そうだ…\n図書館の館長に会わなきゃ…
 It may be best to meet\nwith the head librarian.
 <$00>
