@@ -16,4 +16,15 @@
 	;A tomb? In the place\nwhere I woke up?
 	addiu v0, v1, 0x30
 
+
+.org 0x800BAC74
+	;
+	;
+	addiu a0, v0, 0x10
+
+.org 0x800C3020
+	;
+	;
+	addiu a0, v0, 0x10
+
 .close

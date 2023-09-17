@@ -28,4 +28,9 @@
 	;MISSING
 	addiu v0, v1, 0x20
 
+.org 0x800BD794
+	;変なところ…\nジョーカはどこかしら
+	;Where could Joka\nbe hiding?
+	addiu a0, v0, 0x20
+
 .close
