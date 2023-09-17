@@ -29,4 +29,8 @@
 	;MISSING
 	addiu v0, v1, 0x20
 
+	;街の外にあるのが\nムッシューの店ね
+	;Monsieur's shop is\nright outside town.
+	addiu a0, v0, 0x30
+
 .close
