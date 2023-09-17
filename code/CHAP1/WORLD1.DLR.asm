@@ -11,4 +11,9 @@
 	;Addie woke up\nin a strange place.
 	addiu v0, v1, 0x30
 
+.org 0x800C6D40
+	;あの人、\nなんで閉じこめられてるのかしら
+	;How'd he get in there?
+	addiu a0, v0, 0x20
+
 .close
