@@ -21,4 +21,24 @@
 	;But I swore he was\nheaded their way...
 	addiu a0, v0, 0x30
 
+.org 0x800BBA04
+	;アディは不審な\n少年に尾行される。
+	;Addie tailed\nthe suspicious boy.
+	addiu v0, a0, 0x30
+
+.org 0x800BBA5C
+	;アディは不審な\n少年に尾行される。
+	;Addie tailed\nthe suspicious boy.
+	addiu v0, a0, 0x30
+
+.org 0x800C41CC
+	;ジョーカからオルゴールの\n話を聞いたアディ。
+	;Joka told Addie\nabout the music box.
+	addiu v0, a0, 0x30
+
+.org 0x800C4224
+	;ジョーカからオルゴールの\n話を聞いたアディ。
+	;Joka told Addie\nabout the music box.
+	addiu v0, a0, 0x30
+
 .close

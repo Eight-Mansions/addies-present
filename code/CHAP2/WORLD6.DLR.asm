@@ -42,4 +42,14 @@
 	;Maybe the barkeeper\ncan help.
 	addiu a0, v0, 0x30
 
+.org 0x800BB060
+	;完成した服を持って\nバーへ向かうアディ。
+	;With clothes in hand,\nAddie left for the bar.
+	addiu v0, a0, 0x30
+
+.org 0x800BB0B8
+	;完成した服を持って\nバーへ向かうアディ。
+	;With clothes in hand,\nAddie left for the bar.
+	addiu v0, a0, 0x30
+
 .close

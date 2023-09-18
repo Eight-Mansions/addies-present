@@ -42,4 +42,44 @@
 	;The instruments we fix\nwill affect the band's music.
 	addiu a0, v0, 0x30 ; Line is 0x35 long but there is a 0x12 byte load after the loop
 
+.org 0x800BC8C8
+	;バーに行くと\nマスターに用事を頼まれる。
+	;Upon entering the bar,\nthe barkeep had a favor.
+	addiu v0, a0, 0x30
+
+.org 0x800BC920
+	;バーに行くと\nマスターに用事を頼まれる。
+	;Upon entering the bar,\nthe barkeep had a favor.
+	addiu v0, a0, 0x30
+
+.org 0x800C0C90
+	;おかしなものに変わった\n楽器を直すことに。
+	;Can I return the\ninstruments to normal?
+	addiu v0, a0, 0x30
+
+.org 0x800C0CE8
+	;おかしなものに変わった\n楽器を直すことに。
+	;Can I return the\ninstruments to normal?
+	addiu v0, a0, 0x30
+
+.org 0x800C1904
+	;アディはイライザと一緒に\n図書館へ行くことに。
+	;Addie went with Eliza\nto the library.
+	addiu v0, a0, 0x30
+
+.org 0x800C195C
+	;アディはイライザと一緒に\n図書館へ行くことに。
+	;Addie went with Eliza\nto the library.
+	addiu v0, a0, 0x30
+
+.org 0x800C2050
+	;おかしなものに変わった\n楽器を直すことに。
+	;Can I return the\ninstruments to normal?
+	addiu v0, a0, 0x30
+
+.org 0x800C20A8
+	;おかしなものに変わった\n楽器を直すことに。
+	;Can I return the\ninstruments to normal?
+	addiu v0, a0, 0x30
+
 .close

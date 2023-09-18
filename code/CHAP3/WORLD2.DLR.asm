@@ -17,4 +17,24 @@
 	;Where could Joka\nbe hiding?
 	addiu a0, v0, 0x20
 
+.org 0x800BD6DC
+	;広い図書館の中で\nいろんなものに出会う。
+	;There's so much to\nexplore in the library.
+	addiu v0, a0, 0x30
+
+.org 0x800BD734
+	;広い図書館の中で\nいろんなものに出会う。
+	;There's so much to\nexplore in the library.
+	addiu v0, a0, 0x30
+
+.org 0x800BE0E4
+	;図書館前で\nイライザと別れたアディ。
+	;Addie followed Eliza\ninto the library.
+	addiu v0, a0, 0x30
+
+.org 0x800BE13C
+	;図書館前で\nイライザと別れたアディ。
+	;Addie followed Eliza\ninto the library.
+	addiu v0, a0, 0x30
+
 .close

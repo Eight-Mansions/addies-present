@@ -21,4 +21,14 @@
 	;The trio's looking for Joka.\nWhy not take a break?
 	addiu a0, v0, 0x40
 
+.org 0x800BC6F0
+	;洗濯物にこだわる\n３人の子供たちに出会う。
+	;Addie met three siblings\ndedicated to laundry.
+	addiu v0, a0, 0x30
+
+.org 0x800BC748
+	;洗濯物にこだわる\n３人の子供たちに出会う。
+	;Addie met three siblings\ndedicated to laundry.
+	addiu v0, a0, 0x30
+
 .close

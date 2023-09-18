@@ -21,4 +21,14 @@
 	;Could that girl I just\nsaw truly be Emmy?
 	addiu a0, v0, 0x30
 
+.org 0x800BCF60
+	;導かれるままに\n始まりの墓を訪れたアディ。
+	;As if led by her hand,\nAddie found a tomb.
+	addiu v0, a0, 0x30
+
+.org 0x800BCFB8
+	;導かれるままに\n始まりの墓を訪れたアディ。
+	;As if led by her hand,\nAddie found a tomb.
+	addiu v0, a0, 0x30
+
 .close
