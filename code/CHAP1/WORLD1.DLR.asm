@@ -31,4 +31,14 @@
 	;As if led by her hand,\nAddie found a tomb.
 	addiu v0, a0, 0x30
 
+.org 0x800C2164
+	;エミィに似た少女が現れる。\nその少女を追うアディ。
+	;Addie followed a most\nfamiliar girl.
+	addiu v0, a0, 0x30
+
+.org 0x800C21BC
+	;エミィに似た少女が現れる。\nその少女を追うアディ。
+	;Addie followed a most\nfamiliar girl.
+	addiu v0, a0, 0x30
+
 .close

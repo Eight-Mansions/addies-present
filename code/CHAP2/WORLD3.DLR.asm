@@ -31,4 +31,14 @@
 	;Addie met three siblings\ndedicated to laundry.
 	addiu v0, a0, 0x30
 
+.org 0x800BCCCC
+	;ポンプを直したお礼に\nジョーカを探してもらうことに。
+	;If I fix the pump, we\ncan work to find Joka!
+	addiu v0, a0, 0x30
+
+.org 0x800BCD24
+	;ポンプを直したお礼に\nジョーカを探してもらうことに。
+	;If I fix the pump, we\ncan work to find Joka!
+	addiu v0, a0, 0x30
+
 .close

@@ -41,4 +41,34 @@
 	;Joka told Addie\nabout the music box.
 	addiu v0, a0, 0x30
 
+.org 0x800BC0A4
+	;川に流されていくジョーカを\nアディは再び追いかける。
+	;Addie followed Joka\ndown the river.
+	addiu v0, a0, 0x30
+
+.org 0x800BC0FC
+	;川に流されていくジョーカを\nアディは再び追いかける。
+	;Addie followed Joka\ndown the river.
+	addiu v0, a0, 0x30
+
+.org 0x800C0978
+	;ジョーカなんて見かけていない\nと、ウィノは告げた。
+	;Wino said he\nhadn't seen Joka.
+	addiu v0, a0, 0x30
+
+.org 0x800C09D0
+	;ジョーカなんて見かけていない\nと、ウィノは告げた。
+	;Wino said he\nhadn't seen Joka.
+	addiu v0, a0, 0x30
+
+.org 0x800C2448
+	;ランドリーでボタンを手に入れ\n材料が全部そろった。
+	;With that button,\nwe have all the materials.
+	addiu v0, a0, 0x30
+
+.org 0x800C24A0
+	;ランドリーでボタンを手に入れ\n材料が全部そろった。
+	;With that button,\nwe have all the materials.
+	addiu v0, a0, 0x30
+
 .close

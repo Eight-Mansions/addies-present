@@ -56,4 +56,24 @@
 	;After speaking to Den,\nAddie left to find Eliza.
 	addiu v0, a0, 0x30 ; Line length is 0x31 and it loads another 16 bytes after
 
+.org 0x800C2124
+	;子供たちのことを知っている\n怪しい男に出会った。
+	;Addie met a strange man\nwho knew about the kids.
+	addiu v0, a0, 0x40
+
+.org 0x800C217C
+	;子供たちのことを知っている\n怪しい男に出会った。
+	;Addie met a strange man\nwho knew about the kids.
+	addiu v0, a0, 0x40
+
+.org 0x800C2758
+	;ひとつめの頼まれごとを済ませ\n男の元へ行ったアディ。
+	;Addie returned to\nman who needed a favor.
+	addiu v0, a0, 0x30
+
+.org 0x800C27B0
+	;ひとつめの頼まれごとを済ませ\n男の元へ行ったアディ。
+	;Addie returned to\nman who needed a favor.
+	addiu v0, a0, 0x30
+
 .close
