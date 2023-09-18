@@ -4,35 +4,11 @@
 .org 0x800C2E28
 	;あの子たちの力に\nなってあげられないかしら…
 	;I wonder if I can\nhelp the Laundry Bros.
-	addiu v0, v1, 0x30
-
-.org 0x800C241C
-	;
-	;
-	addiu a0, v0, 0x10
-
-.org 0x800C3084
-	;
-	;
-	addiu a0, v0, 0x10
+	addiu v0, v1, 0x20 ; Line is 0x29 but this has a 0x12 byte load after the loop
 
 .org 0x800C340C
 	;えーと…\nバーってどこだったかしら
 	;Um... And just\nwhere is the bar?
-	addiu a0, v0, 0x30
-
-.org 0x800CA8A4
-	;
-	;
-	addiu a0, v0, 0x10
-
-.org 0x800CB74C
-	;
-	;
-	addiu a0, v0, 0x10
-
-.org 0x800CBBF0
-	;MISSING
-	addiu a0, v0, 0x20
+	addiu a0, v0, 0x20 ; Line is 0x21 but this has a 0x04 byte load after the loop
 
 .close
