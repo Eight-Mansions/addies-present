@@ -37,4 +37,9 @@
 	;Monsieur's shop is\nright outside town.
 	addiu a0, v0, 0x30
 
+.org 0x800B95F4
+	;もう、マスターのところくらい\n自分で行けばいいのに
+	;Maybe the barkeeper\ncan help.
+	addiu a0, v0, 0x30
+
 .close

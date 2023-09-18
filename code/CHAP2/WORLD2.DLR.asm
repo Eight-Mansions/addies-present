@@ -11,4 +11,14 @@
 	;Addie was stopped\nby a strange duo.
 	addiu v0, v1, 0x20 ; Line is 0x24 but it has an extra load after for 0x08 more bytes
 
+.org 0x800BC150
+	;急いで川のそばを探せば\nジョーカを捕まえられるわ！
+	;If we search near water,\nwe might find him!
+	addiu a0, v0, 0x30
+
+.org 0x800C0A1C
+	;ランドリーの方に行ったのは\n間違いないみたいだけど…
+	;But I swore he was\nheaded their way...
+	addiu a0, v0, 0x30
+
 .close

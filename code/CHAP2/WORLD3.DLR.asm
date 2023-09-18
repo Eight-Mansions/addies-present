@@ -16,4 +16,9 @@
 	;They might have\nnews on Joka.
 	addiu a0, v0, 0x20
 
+.org 0x800BCD78
+	;ジョーカはあの子たちが\n探してるし…どこかで休憩しよう
+	;The trio's looking for Joka.\nWhy not take a break?
+	addiu a0, v0, 0x40
+
 .close

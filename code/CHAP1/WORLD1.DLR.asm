@@ -16,4 +16,9 @@
 	;How'd he get in there?
 	addiu a0, v0, 0x20
 
+.org 0x800C2208
+	;さっきの女の子、たしかに\nエミィだったと思うんだけど…
+	;Could that girl I just\nsaw truly be Emmy?
+	addiu a0, v0, 0x30
+
 .close
