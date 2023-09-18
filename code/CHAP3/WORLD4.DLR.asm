@@ -8,23 +8,13 @@
 	addiu v0, v1, 0x30
 
 .org 0x800C2200
-	;MISSING
-	addiu v0, v1, 0x20
+	;バケットヘッドから\n話を聞いたアディ。
+	;Addie spoke with\nMr. Buckethead.
+	addiu v0, v1, 0x30
 
 .org 0x800C2258
 	;お墓って…あたしが目覚めた\nあの場所のこと？
 	;A tomb? In the place\nwhere I woke up?
-	addiu v0, v1, 0x30
-
-
-.org 0x800BAC74
-	;
-	;
-	addiu a0, v0, 0x10
-
-.org 0x800C3020
-	;
-	;
-	addiu a0, v0, 0x10
+	addiu v0, v1, 0x20 ; line is 0x26 long but loads 12 bytes after the loop
 
 .close

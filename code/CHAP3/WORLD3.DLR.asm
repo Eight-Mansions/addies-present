@@ -12,15 +12,6 @@
 	;I can't lose\nhim again!
 	addiu v0, v1, 0x20
 
-.org 0x800C8E10
-	;MISSING
-	addiu v0, v1, 0x20
-
-.org 0x800C3208
-	;
-	;
-	addiu a0, v0, 0x10
-
 .org 0x800C78EC
 	;まだ、そう遠くへは\n行ってないはずだわ
 	;I can't lose\nhim again!
