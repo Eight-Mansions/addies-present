@@ -37,4 +37,14 @@
 	;Addie followed Eliza\ninto the library.
 	addiu v0, a0, 0x30
 
+.org 0x800BB12C
+	;ジョーカを追いかけたが\n図書館に入れないアディ。
+	;Joka fled to the library,\nbut Addie needed a card.
+	addiu v0, v1, 0x40
+
+.org 0x800BB184
+	;ジョーカを追いかけたが\n図書館に入れないアディ。
+	;Joka fled to the library,\nbut Addie needed a card.
+	addiu v0, v1, 0x40
+
 .close
