@@ -75,5 +75,10 @@
 	;ひとつめの頼まれごとを済ませ\n男の元へ行ったアディ。
 	;Addie returned to\nman who needed a favor.
 	addiu v0, a0, 0x30
+	
+.org 0x800C21BC
+	;たのみごと聞いたら\nちゃんと教えてくれるのかしら…
+	;If I do as he asks,\nmaybe he'll talk...
+	addiu a0, v0, 0x30
 
 .close

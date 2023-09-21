@@ -25,5 +25,10 @@
 	;ログロックの不思議な力の\nおかげで案内人を得るアディ。
 	;Thanks to the Loglock,\nAddie found a tour guide.
 	addiu v0, a0, 0x30
+	
+.org 0x800BC520
+	;ほんとうに、別人なのかしら？\n気持ち悪いぐらいよく似てるわ
+	;Is he really not Moze?\nThey look so alike!
+	addiu a0, v0, 0x30
 
 .close

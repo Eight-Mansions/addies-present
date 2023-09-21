@@ -40,5 +40,10 @@
 	;エミィに似た少女が現れる。\nその少女を追うアディ。
 	;Addie followed a most\nfamiliar girl.
 	addiu v0, a0, 0x30
+	
+.org 0x800C2208
+	;さっきの女の子、たしかに\nエミィだったと思うんだけど…
+	;Could that girl I just\nsaw truly be Emmy?
+	addiu a0, v0, 0x30
 
 .close
