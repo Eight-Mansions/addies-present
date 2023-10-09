@@ -95,3 +95,101 @@ cur_width:
 	.dw 0
 	
 .close
+
+.open "ins\CHAP1\WORLD4.DLR",0x800B7B78
+
+	.org 0x800b9de4
+		la a0, 0x800b7e8c
+		la a1, 0x800a3848
+		
+		jal StringCopy
+		nop
+		
+		j 0x800b9e2c
+		nop
+.close
+
+.open "ins\CHAP2\WORLD1.DLR",0x800B7B78
+
+	.org 0x800beff8
+		la a0, 0x800b8264
+		la a1, 0x800a3848
+		
+		jal StringCopy
+		nop
+		
+		j 0x800bf040
+		nop
+.close
+
+.open "ins\CHAP2\WORLD2.DLR",0x800B7B78
+
+	.org 0x800c24f0
+		la a0, 0x800b9318
+		la a1, 0x800a3848
+		
+		jal StringCopy
+		nop
+		
+		j 0x800c252c
+		nop
+.close
+
+.open "ins\CHAP2\WORLD4.DLR",0x800B7B78
+
+	.org 0x800cb018
+		la a0, 0x800ba6cc
+		la a1, 0x800a3848
+		
+		jal StringCopy
+		nop
+		
+		j 0x800cb05c
+		nop
+.close
+
+.open "ins\CHAP2\WORLD6.DLR",0x800B7B78
+
+	.org 0x800b92bc
+		la a0, 0x800b7f20
+		la a1, 0x800a3848
+		
+		jal StringCopy
+		nop
+		
+		j 0x800b930c
+		nop
+		
+	.org 0x800b9a80
+		la a0, 0x800b813c
+		addiu a1, s1, 0x386
+		
+		jal StringCopy
+		nop
+		
+		j 0x800b9b04
+		nop
+		
+	.org 0x800b92bc
+		la a0, 0x800b7e60
+		la a1, 0x800a3848
+		
+		jal StringCopy
+		nop
+		
+		j 0x800b8ee0
+		nop
+.close
+
+.open "ins\CHAP3\WORLD5.DLR",0x800B7B78
+
+	.org 0x800c3154
+		la a0, 0x800b8e08
+		la a1, 0x800a3848
+		
+		jal StringCopy
+		nop
+		
+		j 0x800c31a4
+		nop
+.close

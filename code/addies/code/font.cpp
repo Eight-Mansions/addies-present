@@ -170,3 +170,15 @@ int GetYForCentering(const char* text, u32 length)
 
 	return (int)((256 >> 1) - (textwidth >> 1)); // 256 is the width of text box texture
 }
+
+void StringCopy(char* source, char* dest)
+{
+	int idx = 0;
+	while (true)
+	{
+		dest[idx] = source[idx];
+		if (source[idx] == 0)
+			break;
+		idx++;
+	}
+}

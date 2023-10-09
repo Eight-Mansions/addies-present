@@ -12,6 +12,8 @@ extern "C" {
 	int GetYForCentering(const char* text, u32 length);
 
 	u32 GetLetter(u8* text, u8* stackey);
+
+	void StringCopy(char* source, char* dest);
 }
 
 #endif
