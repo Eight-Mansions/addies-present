@@ -1520,7 +1520,7 @@ Line
 #WBB(PTR1, $0000F7CC)
 #WUB(PTR1, $0000F7CD)
 //É^ÉãÉg
- Tarte
+Tarte
 <$00>
 
 // PTR : 00002018
@@ -1566,7 +1566,7 @@ Lady
 // PTR : 000020F4
 #JMP($000020F4)
 //ê‚ñ]
- Despair
+Despair
 <$00>
 
 // PTR : 00002110

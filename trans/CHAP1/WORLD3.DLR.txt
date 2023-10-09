@@ -899,7 +899,7 @@ Let's look carefully.
 #WBB(PTR2, $0000522C)
 #WUB(PTR2, $0000522D)
 //返品は許さんがな
-We don't do returns.
+I don't accept returns.
 <$00>
 
 // PTR : 00000778
@@ -935,7 +935,7 @@ Will cotton work?
 #WBB(PTR2, $000056BC)
 #WUB(PTR2, $000056BD)
 //返品はきかないんだ\n無理することはない
-I don't do returns,\nso pace is key.
+I don't accept returns,\nso shop mindfully.
 <$00>
 
 // PTR : 00000808
@@ -1465,6 +1465,14 @@ Oh dear, oh dear.
 Now then...
 <$00>
 
+// PTR : 00002010
+#WLB(PTR2, $0000D940)
+#WHB(PTR2, $0000D941)
+#WBB(PTR2, $0000D93C)
+#WUB(PTR2, $0000D93D)
+INK
+<$00>
+
 // PTR : 00001EFC
 #WLB(PTR2, $0000D740)
 #WHB(PTR2, $0000D741)
@@ -1869,7 +1877,7 @@ Can it be returned later?
 #WBB(PTR1, $000117F4)
 #WUB(PTR1, $000117F5)
 //ホコリ
- Grime
+Grime
 <$00>
 
 // PTR : 00002DF8
@@ -1893,7 +1901,7 @@ Velvet
 // PTR : 000244D8
 #JMP($000244D8)
 //ペン
- Pen
+Pen
 <$00>
 
 // PTR : 000244F4
@@ -1905,7 +1913,7 @@ Pot
 // PTR : 000245A4
 #JMP($000245A4)
 //インク
- Ink
+Ink
 <$00>
 
 // PTR : 000245C0
@@ -1965,7 +1973,7 @@ Showdown
 // PTR : 00024538
 #JMP($00024538)
 //地図
- Map
+Map
 <$00>
 
 // PTR : 00024554

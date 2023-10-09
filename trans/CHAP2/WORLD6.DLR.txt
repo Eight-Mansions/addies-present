@@ -191,7 +191,7 @@ I need more buttons\nfor Pia's commission.
 #WBB(PTR1, $00001A74)
 #WUB(PTR1, $00001A75)
 //もう、マスターのところくらい\n自分で行けばいいのに
-Maybe the barkeeper\ncan help.
+Maybe the barkeep\ncan help.
 <$00>
 
 #VAR(PTR2, CUSTOMPOINTER)
@@ -404,7 +404,7 @@ With clothes in hand,\nAddie left for the bar.
 #WBB(PTR2, $00003594)
 #WUB(PTR2, $00003595)
 //いったい、\n誰の服なのかしら？
-Huh? Whose dress is this?
+A dress?\nWho is this for?
 <$00>
 
 // PTR : 0000084C
@@ -425,5 +425,5 @@ Romance
 // PTR : 00000810
 #JMP($00000810)
 //友達
- Friends
+Friends
 <$00>

@@ -881,6 +881,15 @@ Back to reception?\nOkay, thanks!
 This is creepy.\nIt's putting me on edge.
 <$00>
 
+// PTR : 00001854
+#WLB(PTR2, $000099EC)
+#WHB(PTR2, $000099ED)
+#WBB(PTR2, $000099E8)
+#WUB(PTR2, $000099E9)
+//SPECTER
+Specter
+<$00>
+
 // PTR : 00001874
 #WLB(PTR2, $00009B40)
 #WHB(PTR2, $00009B41)
@@ -927,7 +936,7 @@ But who knows\nwhich one Joka's in!
 #WBB(PTR2, $00009DE4)
 #WUB(PTR2, $00009DE5)
 //ジョーカを追いかけるのなら\n早く行ったほうがいいんじゃない？
-If I want to catch him,\nI'd better thing fast.
+If I want to catch him,\nI'd better think fast.
 <$00>
 
 // PTR : 00001958
@@ -1107,7 +1116,7 @@ Journal
 // PTR : 00024F4C
 #JMP($00024F4C)
 //オバケ
- Specter
+Specter
 <$00>
 
 // PTR : 00024F68

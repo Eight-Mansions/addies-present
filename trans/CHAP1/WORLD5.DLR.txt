@@ -691,6 +691,15 @@ Good. Now, where am I?
 This won't help me...
 <$00>
 
+// PTR : 000005F8
+#WLB(PTR2, $000069B8)
+#WHB(PTR2, $000069B9)
+#WBB(PTR2, $000069B4)
+#WUB(PTR2, $000069B5)
+//LIGHTER
+lighter
+<$00>
+
 // PTR : 00000618
 #WLB(PTR2, $00006B18)
 #WHB(PTR2, $00006B19)
@@ -795,7 +804,7 @@ Joka's necktie?
 #WBB(PTR1, $000096C0)
 #WUB(PTR1, $000096C1)
 //ネクタイ
- Necktie
+Necktie
 <$00>
 
 // PTR : 00000D80
@@ -957,7 +966,8 @@ Joka wants to be a gear.
 #WHB(PTR2, $0000CD8D)
 #WBB(PTR2, $0000CD88)
 #WUB(PTR2, $0000CD89)
-JOKA
+//JOKA
+Joka
 <$00>
 
 // PTR : 00000FE8
@@ -1099,10 +1109,6 @@ Is this the way down?
 #WHB(PTR1, $0000CC39)
 #WBB(PTR1, $0000CC34)
 #WUB(PTR1, $0000CC35)
-#SWLB(PTR1, $0000CBF0)
-#SWHB(PTR1, $0000CBF1)
-#SWBB(PTR1, $0000CBEC)
-#SWUB(PTR1, $0000CBED)
 //ジョーカがいなくなっても\n街は変わりなかった。
 The town hadn't changed,\neven with Joka gone.
 <$00>
@@ -1112,10 +1118,6 @@ The town hadn't changed,\neven with Joka gone.
 #WHB(PTR1, $0000CD15)
 #WBB(PTR1, $0000CD10)
 #WUB(PTR1, $0000CD11)
-#SWLB(PTR1, $0000CBF8)
-#SWHB(PTR1, $0000CBF9)
-#SWBB(PTR1, $0000CBF4)
-#SWUB(PTR1, $0000CBF5)
 //そうだ…\n図書館の館長に会わなきゃ…
 It may be best to meet\nwith the head librarian.
 <$00>
@@ -1126,7 +1128,7 @@ It may be best to meet\nwith the head librarian.
 #WBB(PTR1, $000061F4)
 #WUB(PTR1, $000061F5)
 //ライター
- Lighter
+Lighter
 <$00>
 
 // PTR : 000004A0
@@ -1135,7 +1137,7 @@ It may be best to meet\nwith the head librarian.
 #WBB(PTR1, $0000626C)
 #WUB(PTR1, $0000626D)
 //ホタル
- Firefly
+Firefly
 <$00>
 
 // PTR : 00000CD8

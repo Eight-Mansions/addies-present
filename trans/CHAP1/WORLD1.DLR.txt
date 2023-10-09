@@ -800,7 +800,7 @@ This place has a lonely\nair to it.
 // PTR : 00001F4C
 #JMP($00001F4C)
 //Ž€
- Death
+Death
 <$00>
 
 // PTR : 00001F69

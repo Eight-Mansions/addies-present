@@ -1424,7 +1424,7 @@ It's dangerous in there.
 #WBB(PTR2, $0000FDAC)
 #WUB(PTR2, $0000FDAD)
 //結局、バーに\nジョーカはいなかった。
-In the end, Joka wasn't in the bar.
+In the end, Joka\nwasn't in the bar.
 <$00>
 
 // PTR : 00001F68
@@ -2632,7 +2632,7 @@ Rose
 #WBB(PTR1, $000168F8)
 #WUB(PTR1, $000168F9)
 //レモン
- Lemon
+Lemon
 <$00>
 
 // PTR : 00002C58
@@ -2641,7 +2641,7 @@ Rose
 #WBB(PTR1, $00016974)
 #WUB(PTR1, $00016975)
 //メロン
- Melon
+Melon
 <$00>
 
 // PTR : 00002F70
@@ -2686,7 +2686,7 @@ Kiwi
 #WBB(PTR1, $00018040)
 #WUB(PTR1, $00018041)
 //卵
- Egg
+Egg
 <$00>
 
 // PTR : 000033B4
@@ -2723,7 +2723,7 @@ Corn
 #WBB(PTR1, $00018B48)
 #WUB(PTR1, $00018B49)
 //石
- Stone
+Stone
 <$00>
 
 // PTR : 00003714
@@ -2769,7 +2769,7 @@ Clog
 // PTR : 000001E4
 #JMP($000001E4)
 //牛
- Cow
+Cow
 <$00>
 
 // PTR : 00000200
@@ -2781,7 +2781,7 @@ Cat
 // PTR : 00000358
 #JMP($00000358)
 //猫
- Cat
+Cat
 <$00>
 
 // PTR : 00000374

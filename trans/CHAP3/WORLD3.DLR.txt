@@ -328,6 +328,15 @@ Enough with the bugs!
 This can't be good.\nWhat can I do?!
 <$00>
 
+// PTR : 00000374
+#WLB(PTR1, $00003FAC)
+#WHB(PTR1, $00003FAD)
+#WBB(PTR1, $00003FA8)
+#WUB(PTR1, $00003FA9)
+//SNAIL
+Snail
+<$00>
+
 // PTR : 000003C8
 #WLB(PTR1, $000040CC)
 #WHB(PTR1, $000040CD)
@@ -567,7 +576,7 @@ I don't have time\nfor this!
 #WBB(PTR2, $00007AD4)
 #WUB(PTR2, $00007AD5)
 //ＢＡＴ
-BAT
+Bat
 <$00>
 
 // PTR : 00000970
@@ -921,7 +930,7 @@ Weird. It won't open.
 #WBB(PTR1, $0000F0AC)
 #WUB(PTR1, $0000F0AD)
 //スパンコール
- Spangle
+Spangle
 <$00>
 
 // PTR : 00001B60
@@ -1267,7 +1276,7 @@ He got away again!
 #WBB(PTR1, $00015A84)
 #WUB(PTR1, $00015A85)
 //『ハーモニカ入門』
-"A Beginner’s Guide\nto the Harmonica"
+"A Beginner's Guide\nto the Harmonica"
 <$00>
 
 // PTR : 000017E8
@@ -1276,7 +1285,7 @@ He got away again!
 #WBB(PTR1, $00015A84)
 #WUB(PTR1, $00015A85)
 //『ハーモニカ入門』
-"A Beginner’s Guide\nto the Harmonica"
+"A Beginner's Guide\nto the Harmonica"
 <$00>
 
 // PTR : 0000170C
@@ -1396,6 +1405,15 @@ Watch
 Glass
 <$00>
 
+// PTR : 00001160
+#WLB(PTR1, $0000AB2C)
+#WHB(PTR1, $0000AB2D)
+#WBB(PTR1, $0000AB20)
+#WUB(PTR1, $0000AB21)
+//柵
+Stile
+<$00>
+
 // PTR : 00001170
 #WLB(PTR1, $0000AB94)
 #WHB(PTR1, $0000AB95)
@@ -1417,7 +1435,7 @@ Keyhole
 // PTR : 00024A28
 #JMP($00024A28)
 //コウモリ
- Bat
+Bat
 <$00>
 
 // PTR : 00024A44
@@ -1435,7 +1453,7 @@ Report
 // PTR : 0002489C
 #JMP($0002489C)
 //カタツムリ
- Snail
+Snail
 <$00>
 
 // PTR : 000248FC
@@ -1453,7 +1471,7 @@ Novel
 // PTR : 000016C0
 #JMP($000016C0)
 //隷属
- Slavery
+Slavery
 <$00>
 
 // PTR : 000016DC
@@ -1465,7 +1483,7 @@ Freedom
 // PTR : 000023F0
 #JMP($000023F0)
 //混沌
- Chaos
+Chaos
 <$00>
 
 // PTR : 0000240C
