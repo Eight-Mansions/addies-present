@@ -886,8 +886,7 @@ This is creepy.\nIt's putting me on edge.
 #WHB(PTR2, $000099ED)
 #WBB(PTR2, $000099E8)
 #WUB(PTR2, $000099E9)
-//SPECTER
-Specter
+SPECTER
 <$00>
 
 // PTR : 00001874
@@ -936,7 +935,7 @@ But who knows\nwhich one Joka's in!
 #WBB(PTR2, $00009DE4)
 #WUB(PTR2, $00009DE5)
 //ジョーカを追いかけるのなら\n早く行ったほうがいいんじゃない？
-If I want to catch him,\nI'd better think fast.
+If I want to catch him,\nI'd better thing fast.
 <$00>
 
 // PTR : 00001958

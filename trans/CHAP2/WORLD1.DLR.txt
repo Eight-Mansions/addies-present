@@ -1424,7 +1424,7 @@ It's dangerous in there.
 #WBB(PTR2, $0000FDAC)
 #WUB(PTR2, $0000FDAD)
 //結局、バーに\nジョーカはいなかった。
-In the end, Joka\nwasn't in the bar.
+In the end, Joka wasn't in the bar.
 <$00>
 
 // PTR : 00001F68

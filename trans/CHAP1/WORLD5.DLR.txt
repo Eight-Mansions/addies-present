@@ -696,8 +696,7 @@ This won't help me...
 #WHB(PTR2, $000069B9)
 #WBB(PTR2, $000069B4)
 #WUB(PTR2, $000069B5)
-//LIGHTER
-lighter
+LIGHTER
 <$00>
 
 // PTR : 00000618
@@ -966,8 +965,7 @@ Joka wants to be a gear.
 #WHB(PTR2, $0000CD8D)
 #WBB(PTR2, $0000CD88)
 #WUB(PTR2, $0000CD89)
-//JOKA
-Joka
+JOKA
 <$00>
 
 // PTR : 00000FE8

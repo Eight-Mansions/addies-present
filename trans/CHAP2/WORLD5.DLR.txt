@@ -642,7 +642,7 @@ Speak to Pia and\nask about my commission.
 // PTR : 000021A8
 #WRITE(PTR, $000021E8)
 //いいか、服だ。たのんだぞ
-It's for a new outfit.\nFetch it, and I'll talk.
+It's for outfit.\nFetch it, and I'll talk.
 <$00>
 
 // PTR : 0000239C
@@ -1094,7 +1094,7 @@ Addie went with Eliza\nto the library.
 #WBB(PTR2, $00009E54)
 #WUB(PTR2, $00009E55)
 //とにかく、これで\n図書館へ入れるわね
-I should be able to\nexplore the library now!
+This way, you can get\ninto the library.
 <$00>
 
 // PTR : 00001E10
@@ -1103,7 +1103,7 @@ I should be able to\nexplore the library now!
 #WBB(PTR2, $00009ED4)
 #WUB(PTR2, $00009ED5)
 //追いかけなくてもいいの？
-I need an escort\nto help me get in?
+I need to be escorted?
 <$00>
 
 // PTR : 00001E2C
