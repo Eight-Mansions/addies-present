@@ -14,6 +14,8 @@ extern "C" {
 	u32 GetLetter(u8* text, u8* stackey);
 
 	void StringCopy(char* source, char* dest);
+
+	u32 GetPropperPuzzleLength(const char* text);
 }
 
 #endif

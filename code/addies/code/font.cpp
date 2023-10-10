@@ -182,3 +182,19 @@ void StringCopy(char* source, char* dest)
 		idx++;
 	}
 }
+
+u32 GetPropperPuzzleLength(const char* text)
+{
+	int cnt = 0;
+	while (true)
+	{
+		if (text[cnt] == 0)
+			break;
+		cnt++;
+	}
+
+	if (cnt % 2 != 0)
+		cnt++;
+
+	return cnt;
+}

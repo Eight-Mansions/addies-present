@@ -33,6 +33,9 @@
 	
 .org 0x8005f8ec
 	j get_sentence_width_for_second_line
+	
+.org 0x800499d8	; Make puzzle length always divisble by 2
+	jal GetPropperPuzzleLength
 
 .org 0x80098000
 	.importobj "code\addies\obj\font.obj"
