@@ -1666,15 +1666,6 @@ I doubt he uses these.
 No combs here.
 <$00>
 
-// PTR : 000027EC
-#WLB(PTR1, $00012A38)
-#WHB(PTR1, $00012A39)
-#WBB(PTR1, $00012A30)
-#WUB(PTR1, $00012A31)
-//宝石
-Jewel
-<$00>
-
 // PTR : 00002B24
 #WLB(PTR2, $000133C0)
 #WHB(PTR2, $000133C1)
@@ -1981,3 +1972,14 @@ Courage
 Solution
 <$00>
 
+// PTR : 000026F4
+#JMP($000026F4)
+//宝石
+Jewel
+<$00>
+
+// PTR : 000026D8
+#JMP($000026D8)
+//ドーナツ
+Donut
+<$00>

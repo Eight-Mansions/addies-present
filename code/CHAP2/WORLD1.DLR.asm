@@ -75,5 +75,35 @@
 	;イライザと別れた後\nリノに出会ったアディ。
 	;After leaving Eliza,\nAddie ran into Reno.
 	addiu v0, a0, 0x30
+	
+.org 0x800cb7e8
+	;泉
+	;Spring
+	lw t0, 0x0(t3)
+	lw t1, 0x0(t3)
+	lw t2, 0x0(t3)
+	sw t0, 0xB0(sp)
+	sw t1, 0xB4(sp)
+	sw t2, 0xB8(sp)
+
+.org 0x800cee24
+	;梅
+	;Plum
+	lw t0, 0x0(t3)
+	lw t1, 0x0(t3)
+	lw t2, 0x0(t3)
+	sw t0, 0xB0(sp)
+	sw t1, 0xB4(sp)
+	sw t2, 0xB8(sp)
+	
+.org 0x800cee24
+	;金
+	;Gold
+	lw t0, 0x0(t3)
+	lw t1, 0x0(t3)
+	lw t2, 0x0(t3)
+	sw t0, 0x94(sp)
+	sw t1, 0x98(sp)
+	sw t2, 0x9C(sp)
 
 .close
