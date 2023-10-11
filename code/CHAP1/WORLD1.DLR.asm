@@ -45,5 +45,16 @@
 	;さっきの女の子、たしかに\nエミィだったと思うんだけど…
 	;Could that girl I just\nsaw truly be Emmy?
 	addiu a0, v0, 0x30
+	
+.org 0x800c8abc
+	;鐘楼下
+	;Bell Tower
+    lw t1, 0x0(t4)
+    lw t2, 0x4(t4)
+    sw t1, 0x0(t3)
+    sw t2, 0x4(t3)
+    lw t1, 0x8(t4)
+    nop
+    sw t1, 0x8(t3)
 
 .close

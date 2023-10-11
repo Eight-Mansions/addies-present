@@ -80,5 +80,16 @@
 	;ランドリーの方に行ったのは\n間違いないみたいだけど…
 	;But I swore he was\nheaded their way...
 	addiu a0, v0, 0x30
+	
+.org 0x800c84e8
+	;岬の先
+	;Outskirts
+    lw t4, 0x0(t7)
+    lw t5, 0x4(t7)
+    sw t4, 0x0(t6)
+    sw t5, 0x4(t6)
+    lw t4, 0x8(t7)
+    nop
+    sw t4, 0x8(t6)
 
 .close

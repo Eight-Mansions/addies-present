@@ -98,6 +98,16 @@ const u8 widths[] = {
 	0x0B, // /
 	0x0D, // triangle
 	0x0D, // square
+	0x0A, // 0
+	0x05, // 1
+	0x0A, // 2
+	0x0B, // 3
+	0x0b, // 4
+	0x0A, // 5
+	0x0A, // 6
+	0x0A, // 7
+	0x0B, // 8
+	0x0A, // 9
 
 };
 
@@ -129,7 +139,7 @@ int GetLetterWidth(const u32 letter)
 		u32 idx = letter - 0x10;
 		return widths[idx];
 	}
-	else if (letter >= 0x824F && letter <= 0x82AA)
+	else if (letter >= 0x824F && letter <= 0x82B4)
 	{
 		u32 idx = letter - 0x824F;
 		return widths[idx];

@@ -99,6 +99,23 @@ cur_width:
 	
 .close
 
+.open "ins\CHAP1\WORLD3.DLR",0x800B7B78
+	.org 0x800bee28
+		;露店
+		;Street Stall
+		la a0, 0x800b8774
+		la a1, 0x800a4580
+		
+		jal StringCopy
+		nop
+		
+		nop
+		nop
+		la a0, 0x800b877c
+		clear a1
+		jal 0x8001f548
+.close
+
 .open "ins\CHAP1\WORLD4.DLR",0x800B7B78
 
 	.org 0x800b9de4
@@ -127,82 +144,116 @@ cur_width:
 
 .open "ins\CHAP2\WORLD2.DLR",0x800B7B78
 
-	.org 0x800c24f0
-		la a0, 0x800b9318
-		la a1, 0x800a3848
-		
-		jal StringCopy
-		nop
-		
-		j 0x800c252c
-		nop
+.org 0x800c24f0
+	la a0, 0x800b9318
+	la a1, 0x800a3848
+	
+	jal StringCopy
+	nop
+	
+	j 0x800c252c
+	nop
+	
+.org 0x800beafc
+	;対岸
+	;Riverbank	
+	la a0, 0x800b84b0
+	la a1, 0x800a4580
+	
+	jal StringCopy
+	nop	
+	
+	nop
+	nop
+	la a0, 0x800b8060
+	clear a1
+	jal 0x8001f548
+	
 .close
 
 .open "ins\CHAP2\WORLD4.DLR",0x800B7B78
 
-	.org 0x800cb018
-		la a0, 0x800ba6cc
-		la a1, 0x800a3848
-		
-		jal StringCopy
-		nop
-		
-		j 0x800cb05c
-		nop
+.org 0x800cb018
+	la a0, 0x800ba6cc
+	la a1, 0x800a3848
 	
-	.org 0x800c27fc
-		la a0, 0x800b8afc
-		la a1, 0x800a3848
-		
-		jal StringCopy
-		nop
-		
-		j 0x800c2850
-		nop
+	jal StringCopy
+	nop
+	
+	j 0x800cb05c
+	nop
+
+.org 0x800c27fc
+	la a0, 0x800b8afc
+	la a1, 0x800a3848
+	
+	jal StringCopy
+	nop
+	
+	j 0x800c2850
+	nop
+	
+.org 0x800c536c
+	;裏道
+	;Backroad
+	la a0, 0x800b9218
+	la a1, 0x800a4580
+	
+	jal StringCopy
+	nop	
+	
+	nop
+	nop
+	la a0, 0x800b7f14
+	clear a1
+	jal 0x8001f548
+	
 .close
 
 .open "ins\CHAP2\WORLD6.DLR",0x800B7B78
 
-	.org 0x800b92bc
-		la a0, 0x800b7f20
-		la a1, 0x800a3848
-		
-		jal StringCopy
-		nop
-		
-		j 0x800b930c
-		nop
-		
-	.org 0x800b9a80
-		la a0, 0x800b813c
-		addiu a1, s1, 0x386
-		
-		jal StringCopy
-		nop
-		
-		j 0x800b9b04
-		nop
-		
-	.org 0x800b92bc
-		la a0, 0x800b7e60
-		la a1, 0x800a3848
-		
-		jal StringCopy
-		nop
-		
-		j 0x800b8ee0
-		nop
+.org 0x800b92bc
+	la a0, 0x800b7f20
+	la a1, 0x800a3848
+	
+	jal StringCopy
+	nop
+	
+	j 0x800b930c
+	nop
+	
+.org 0x800b9a80
+	la a0, 0x800b813c
+	addiu a1, s1, 0x386
+	
+	jal StringCopy
+	nop
+	
+	j 0x800b9b04
+	nop
+	
+.org 0x800b92bc
+	la a0, 0x800b7e60
+	la a1, 0x800a3848
+	
+	jal StringCopy
+	nop
+	
+	j 0x800b8ee0
+	nop
+
 .close
 
 .open "ins\CHAP3\WORLD5.DLR",0x800B7B78
 
-	.org 0x800c3154
-		la a0, 0x800b8e08
-		la a1, 0x800a3848
-		
-		jal StringCopy
-		nop
-		
-		j 0x800c31a4
-		nop
+.org 0x800c3154
+	la a0, 0x800b8e08
+	la a1, 0x800a3848
+	
+	jal StringCopy
+	nop
+	
+	j 0x800c31a4
+	nop
+
 .close

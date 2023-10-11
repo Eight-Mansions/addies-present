@@ -1147,3 +1147,12 @@ Darkness
 //“úŒõ
 Sunshine
 <$00>
+
+// PTR : 000011D4
+#WLB(PTR1, $0000C284)
+#WHB(PTR1, $0000C285)
+#WBB(PTR1, $0000C27C)
+#WUB(PTR1, $0000C27D)
+//•Ô‹pŠúŒÀ‚Í€ç‚¹‚æ\n–}‘ŠÙŠÙ’·–
+"Remember your book return dates\n-Head Librarian"
+<$00>
