@@ -2,6 +2,8 @@ del error.txt
 del /q /s ins\*
 xcopy /s orig\* ins
 
+tools\addies_present_text_insertion.exe trans sjis.tbl
+
 tools\armips.exe code\CHAP1\WORLD1.DLR.asm
 tools\armips.exe code\CHAP1\WORLD2.DLR.asm
 tools\armips.exe code\CHAP1\WORLD3.DLR.asm
@@ -21,5 +23,3 @@ tools\armips.exe code\CHAP3\WORLD2.DLR.asm
 tools\armips.exe code\CHAP3\WORLD3.DLR.asm
 tools\armips.exe code\CHAP3\WORLD4.DLR.asm
 tools\armips.exe code\CHAP3\WORLD5.DLR.asm
-
-tools\addies_present_text_insertion.exe trans sjis.tbl
