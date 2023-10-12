@@ -195,7 +195,7 @@ cur_width:
 	
 .org 0x800c536c
 	;裏道
-	;Backroad
+	;Back Road
 	la a0, 0x800b9218
 	la a1, 0x800a4580
 	

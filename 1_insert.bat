@@ -2,6 +2,19 @@ del error.txt
 del /q /s ins\*
 xcopy /s orig\* ins
 
+
+pushd code\addies
+pmake -e RELMODE=DEBUG clean
+mkdir Debug
+pmake -e RELMODE=DEBUG -e OUTFILE=main -e OPTIMIZE=2
+popd
+
+del exe_error.txt
+del exe\SCPS_101.26
+copy exe\orig\SCPS_101.26 exe\SCPS_101.26
+tools\armips.exe code\addies-assembly.asm
+tools\atlas exe\SCPS_101.26 trans\SCPS_101.26.txt >> exe_error.txt
+
 tools\addies_present_text_insertion.exe trans sjis.tbl
 
 tools\armips.exe code\CHAP1\WORLD1.DLR.asm

@@ -621,7 +621,7 @@ This is the\nLoglock Users' Manual!
 #WBB(PTR2, $00005E3C)
 #WUB(PTR2, $00005E3D)
 //Ç†Ç†ÅAÇªÇÍÅH
-What's this?
+Oh, that?
 <$00>
 
 // PTR : 00000C20

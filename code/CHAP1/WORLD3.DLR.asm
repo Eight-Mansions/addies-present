@@ -50,5 +50,35 @@
 	;ズーに報告するも\n途方に暮れるアディ。
 	;After reporting to Zoo,\nAddie felt lost.
 	addiu v0, a0, 0x30
+	
+.org 0x800c2ca0
+	;ズーの庵・前
+	;Zoo's House
+	lw t2, 0x0(t5)
+    lw t3, 0x4(t5)
+    sw t2, 0x0(t4)
+    sw t3, 0x4(t4)
+    lw t2, 0x8(t5)
+    lw t3, 0xc(t5)
+    sw t2, 0x8(t4)
+    sw t3, 0xc(t4)
+
+.org 0x800c4868
+	;ズーの庵・入口
+	;Zoo's House
+    lw t1, 0x0(t4)
+    lw t2, 0x4(t4)
+    sw t1, 0x0(t3)
+    sw t2, 0x4(t3)
+    lw t1, 0x8(t4)
+    lw t2, 0xc(t4)
+    sw t1, 0x8(t3)
+    sw t2, 0xc(t3)
+    lw t1, 0x10(t4)
+    nop
+    sw t1, 0x10(t3)
+
+
+
 
 .close

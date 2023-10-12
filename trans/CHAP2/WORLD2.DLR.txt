@@ -838,10 +838,10 @@ I hope you're having fun,\ndangling your last.
 <$00>
 
 // PTR : 00000938
-#WLB(PTR2, $00006F98)
-#WHB(PTR2, $00006F99)
-#WBB(PTR2, $00006F94)
-#WUB(PTR2, $00006F95)
+#WLB(PTR2, $00006F88)
+#WHB(PTR2, $00006F89)
+#WBB(PTR2, $00006F84)
+#WUB(PTR2, $00006F85)
 //‘ÎŠÝ
 Riverbank
 <$00>

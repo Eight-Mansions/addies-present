@@ -1,18 +1,6 @@
 del cd\addie_1.bin
 copy cd\orig\addie_1.bin cd\addie_1.bin
 
-pushd code\addies
-pmake -e RELMODE=DEBUG clean
-mkdir Debug
-pmake -e RELMODE=DEBUG -e OUTFILE=main -e OPTIMIZE=2
-popd
-
-del exe_error.txt
-del exe\SCPS_101.26
-copy exe\orig\SCPS_101.26 exe\SCPS_101.26
-tools\armips.exe code\addies-assembly.asm
-tools\atlas exe\SCPS_101.26 trans\SCPS_101.26.txt >> exe_error.txt
-
 del graphics\DATA.CTS
 tools\addies_present_data_cts_manual_insert.exe graphics\orig\DATA.CTS graphics\DATA.CTS graphics\DATA_CTS
 

@@ -1185,3 +1185,7 @@ Edit
 //‚ÉƒRƒs[‚µ‚Ü‚·F›ÿÀs
 : "Copy?" (O Confirm)
 <$00>
+
+#JMP($00000ABC)
+//ˆÚ“®{~c‘–‚é^›c’²‚×‚é^ c\nà–¾‘^ƒXƒ^[ƒgƒ{ƒ^ƒ“cƒƒjƒ…[
+D-pad+X: Run,  : Users' Manual

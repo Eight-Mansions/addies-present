@@ -1136,10 +1136,10 @@ Have fun with your Loglock.
 <$00>
 
 // PTR : 00000BFC
-#WLB(PTR2, $000072C4)
-#WHB(PTR2, $000072C5)
-#WBB(PTR2, $000072C0)
-#WUB(PTR2, $000072C1)
+#WLB(PTR2, $000072B4)
+#WHB(PTR2, $000072B5)
+#WBB(PTR2, $000072B0)
+#WUB(PTR2, $000072B1)
 //露店
 Street Stall
 <$00>
@@ -1294,7 +1294,7 @@ Why didn't he explain\nhimself sooner?
 #WBB(PTR2, $0000B11C)
 #WUB(PTR2, $0000B11D)
 //ズーの庵・前
-Zoo's House
+Zoo's House^
 <$00>
 
 // PTR : 00001880
@@ -1402,7 +1402,7 @@ The grime on that\nframe is an eyesore.
 #WBB(PTR2, $0000CCE4)
 #WUB(PTR2, $0000CCE5)
 //ズーの庵・入口
-Zoo's House
+Zoo's House^
 <$00>
 
 // PTR : 00001E84
