@@ -390,7 +390,7 @@ R2: Review Move List
 //#JMP($00003760)
 #WRITE(PTR, $00088214)
 //à–¾‘‚É•Û‘¶‚³‚ê‚½Dè‚Í\n‚q‚d‚c‚n‚ÅƒŠƒvƒŒƒC‚Å‚«‚é
-Solved puzzles are stored\nin the Users' Manual.
+Solved puzzles are stored\nin the Users Manual.
 <$00>
 
 
@@ -489,7 +489,7 @@ Removing certain coins\ncan have dramatic effects!
 //#JMP($00003974)
 #WRITE(PTR, $000881E8)
 //ƒNƒIƒŠƒtƒ@ƒCˆÈ‰º‚ÌDè‚Í\nà–¾‘‚É•Û‘¶‚³‚ê‚é
-Read about the Baseline\nin the Users' Manual.
+Read about the Baseline\nin the Users Manual.
 <$00>
 
 
@@ -498,7 +498,7 @@ Read about the Baseline\nin the Users' Manual.
 //#JMP($000039A0)
 #WRITE(PTR, $000881E4)
 //‚t‚m‚c‚n‚Í~ƒ{ƒ^ƒ“‚Å\nŠˆ—p‚·‚×‚µ
-~ Button: Undo a move
+X Button: Undo a move
 <$00>
 
 
@@ -1039,7 +1039,7 @@ Control linked rings by\nremoving and exchanging.
 //#JMP($00003BE0)
 #WRITE(PTR, $0008822C)
 //›ƒ{ƒ^ƒ“‚Å\nƒŠƒ“ƒO‚ğŒğŠ·‚µ‚Ü‚·
-› Button: Removes or\nexchanges a ring
+O Button: Removes or\nexchanges a ring
 <$00>
 
 
@@ -1090,13 +1090,13 @@ Switch vibration ON or OFF.
 // Pos : 000009A0
 #WRITE(PTR, $00074F00)
 //©“®‚Å‚`‚m‚`‚k‚n‚fƒ‚[ƒh‚É‚·‚é‚©\nè“®‚Å•ÏX‚·‚é‚©‘I‚Ñ‚Ü‚·B
-Switch Analog Mode to AUTO or MANUAL.
+Switch Analog Mode to\nAUTO or MANUAL.
 <$00>
 
 // Pos : 000009DC
 #WRITE(PTR, $00074EFC)
 //å‰¹—Ê‚ğ’²ß‚µ‚Ü‚·B‚O‚É‚·‚é‚Æ–³\n‰¹‚É‚È‚è‚Ü‚·B
-Adjust game volume. ("0"=No audio)
+Adjust game volume\n("0"=No audio)
 <$00>
 
 // Pos : 00000A0C
@@ -1108,13 +1108,13 @@ Designate audio output.
 // Pos : 00000A3C
 #WRITE(PTR, $00074EF4)
 //ƒƒbƒZ[ƒW‚È‚Ç‚Ì•\¦‚ğ©“®‚Åi‚ß\n‚é‚©è“®‘—‚è‚·‚é‚©‘I‚Ñ‚Ü‚·B
-Set scenes to play(AUTO) or wait for you(STEP).
+Set scenes to play(AUTO)\nor wait for you(STEP).
 <$00>
 
 // Pos : 00000A7C
 #WRITE(PTR, $00074EF0)
 //‰æ–ÊˆÊ’u‚ğ’²®‚µ‚Ü‚·B›cŒˆ’è^\n~cƒLƒƒƒ“ƒZƒ‹^¢c‰Šúİ’è
-Screen adjust: ›: Confirm, ~: Cancel, ¢: Default
+Screen adjust: O: Confirm,\nX: Cancel, ¢: Default
 <$00>
 
 //P: 00000A7C
@@ -1123,7 +1123,7 @@ Screen adjust: ›: Confirm, ~: Cancel, ¢: Default
 #WBB(PTR, $00006D1C)
 #WUB(PTR, $00006D1D)
 //›c–â‘èÄ’§í^ cà–¾‘ŒÄo^\nƒXƒ^[ƒgƒ{ƒ^ƒ“ÿƒƒjƒ…[
-›: Retry,  : Users' Manual, START: Menu
+O: Retry,  : Users Manual, START: Menu
 <$00>
 
 
@@ -1133,7 +1133,7 @@ Screen adjust: ›: Confirm, ~: Cancel, ¢: Default
 // Pos : 000018BC
 #WRITE(PTR, $0007E364)
 //ãE‰ºcƒtƒ@ƒCƒ‹‘I‘ğ^¶E‰Ec‚x‚…‚“E‚m‚^›cŒˆ’è^~c–ß‚é
-D-pad: Select file o: Confirm, ~: Cancel
+D-pad: Select file o: Confirm, X: Cancel
 <$00>
 
 
@@ -1188,4 +1188,4 @@ Edit
 
 #JMP($00000ABC)
 //ˆÚ“®{~c‘–‚é^›c’²‚×‚é^ c\nà–¾‘^ƒXƒ^[ƒgƒ{ƒ^ƒ“cƒƒjƒ…[
-D-pad+X: Run,  : Users' Manual
+D-pad+X: Run,  : Users Manual

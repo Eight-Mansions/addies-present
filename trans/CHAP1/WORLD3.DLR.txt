@@ -1025,7 +1025,7 @@ Nothing
 #WBB(PTR2, $0000659C)
 #WUB(PTR2, $0000659D)
 //…まあ、詳しいことは\nデコログのページを読んでくれ
-For more information,\nread the Users' Manual.
+For more information,\nread the Users Manual.
 <$00>
 
 // PTR : 000009C4
