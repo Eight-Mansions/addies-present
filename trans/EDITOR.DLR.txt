@@ -85,7 +85,7 @@ Puzzle not valid if Start\nand Target Words match!
 #WBB(PTR1, $00003F9C)
 #WUB(PTR1, $00003F9D)
 //レコードホルダーの名前を刻めます\n英字にならない記号は・になります
-Enter a name for the Record Holder!
+New Record!\nEnter your initials!
 <$00>
 
 
@@ -95,6 +95,6 @@ Enter a name for the Record Holder!
 #WBB(PTR1, $000043F0)
 #WUB(PTR1, $000043F1)
 //”でよろしいですか？\nはい…○／いいえ…×
-Use this name? o: Confirm, x: Cancel
+ ”?\nO: Confirm, X: Cancel
 <$00>
 
