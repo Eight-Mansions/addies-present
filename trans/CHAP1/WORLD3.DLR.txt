@@ -1722,7 +1722,7 @@ What is this picture of?
 #WBB(PTR2, $000134BC)
 #WUB(PTR2, $000134BD)
 //ÉYÅ[ÇÃà¡ÅEê¢äEê}
-Zoo's Map
+Zoo's Map^
 <$00>
 
 // PTR : 0000222C
@@ -1792,7 +1792,7 @@ NEVER open that door!
 #WBB(PTR2, $00014670)
 #WUB(PTR2, $00014671)
 //äJÇ©Ç∏ÇÃî‡
-Locked Door
+Locked Door^
 <$00>
 
 // PTR : 000017C0
@@ -1982,3 +1982,20 @@ Map
 Cup
 <$00>
 
+// PTR : 00001EE0
+#JMP($00001EE0)
+//ÇoÇdÇm
+Pen
+<$00>
+
+// PTR : 00002010
+#JMP($00002010)
+//ÇhÇmÇj
+Ink
+<$00>
+
+// PTR : 00001F4C
+#JMP($00001F4C)
+//ÇlÇ`Ço
+Map
+<$00>

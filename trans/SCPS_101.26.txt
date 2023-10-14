@@ -1118,12 +1118,9 @@ Screen adjust: O: Confirm,\nX: Cancel, ¢: Default
 <$00>
 
 //P: 00000A7C
-#WLB(PTR, $00006D18)
-#WHB(PTR, $00006D19)
-#WBB(PTR, $00006D1C)
-#WUB(PTR, $00006D1D)
+#JMP($00000888)
 //›c–â‘èÄ’§í^ cà–¾‘ŒÄo^\nƒXƒ^[ƒgƒ{ƒ^ƒ“ÿƒƒjƒ…[
-O: Retry,  : Users' Manual, START: Menu
+O: Retry,  : Users' Manual,\nSTART: Menu
 <$00>
 
 

@@ -79,6 +79,7 @@ tools\timmer insert -i graphics\DATA.CTS -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\b
 
 tools\timmer insert -i ins\BGMCHANG.DLR -o graphics\BGMCHANG_DLR\BGMCHANG.DLR.0003.0001C9A4.png -t 0x1C9A4
 
+del data_error.txt
 tools\atlas graphics\DATA.CTS trans\DEKILOG.BIN.txt >> data_error.txt
 
 tools\psx-mode2.exe cd\addie_1.bin /DATA.CTS graphics\DATA.CTS

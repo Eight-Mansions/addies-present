@@ -78,7 +78,37 @@
     nop
     sw t1, 0x10(t3)
 
+.org 0x800c524c
+	;ＰＥＮ
+	;Pen
+    lw t0, 0x0(t3)
+    lw t1, 0x4(t3)
+    sw t0, 0x0(t2)
+    sw t1 ,0x4(t2)
+    lw t0 ,0x8(t3)
+    nop
+    sw t0, 0x8(t2)
 
+.org 0x800c5384
+	;ＭＡＰ
+	;Map
+    lw t0, 0x0(t3)
+    lw t1, 0x4(t3)
+    sw t0, 0x0(t2)
+    sh t1, 0x4(t2)
+    lw t0, 0x8(t3)
+    nop
+    sw t0, 0x8(t2)
 
-
+.org 0x800c54c0
+	;ＩＮＫ
+	;Ink
+    lw t0, 0x0(t3)
+    lw t1, 0x4(t3)
+    sw t0, 0x0(t2)
+    sh t1, 0x4(t2)
+    lw t0, 0x8(t3)
+    nop
+    sw t0, 0x8(t2)
+	
 .close
