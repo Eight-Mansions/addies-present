@@ -1,6 +1,8 @@
 del cd\addie_1.bin
 copy cd\orig\addie_1.bin cd\addie_1.bin
 
+tools\timmer insert -i graphics\DATA_CTS\CTN_TAG\DATA\SYS\CONGRATU.LET -o graphics\DATA_CTS\CTN_TAG\DATA\SYS\CONGRATU.png -p 0x14 -b 16
+
 del graphics\DATA.CTS
 tools\addies_present_data_cts_manual_insert.exe graphics\orig\DATA.CTS graphics\DATA.CTS graphics\DATA_CTS
 
@@ -110,3 +112,4 @@ tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP3/WORLD4.DLR ins\CHAP3\WORLD4.
 tools\psx-mode2.exe cd\addie_1.bin /DLR/IMAGE/CHAP3/WORLD5.DLR ins\CHAP3\WORLD5.DLR
 
 tools\psx-mode2.exe cd\addie_1.bin /DLR/EDITOR.DLR ins\EDITOR.DLR
+tools\psx-mode2.exe cd\addie_1.bin /DLR/BGMCHANG.DLR ins\BGMCHANG.DLR
