@@ -1985,17 +1985,17 @@ Cup
 // PTR : 00001EE0
 #JMP($00001EE0)
 //‚o‚d‚m
-Pen
+Pen^
 <$00>
 
 // PTR : 00002010
 #JMP($00002010)
 //‚h‚m‚j
-Ink
+Ink^
 <$00>
 
 // PTR : 00001F4C
 #JMP($00001F4C)
 //‚l‚`‚o
-Map
+Map^
 <$00>
