@@ -356,7 +356,7 @@ Quiet, please. This right\nhall is for reading.
 #WBB(PTR1, $00004740)
 #WUB(PTR1, $00004741)
 //左棟・回廊
-Left Hall
+Left Hall^
 <$00>
 
 // PTR : 00000430
@@ -446,7 +446,7 @@ Should I make\na run for it?
 #WBB(PTR2, $000054AC)
 #WUB(PTR2, $000054AD)
 //左棟・書棚
-Left Hall
+Left Hall^
 <$00>
 
 // PTR : 000005C4
@@ -496,7 +496,7 @@ Security's that-a way.
 #WBB(PTR2, $00006194)
 #WUB(PTR2, $00006195)
 //左棟・職員エリア
-Left Hall
+Left Hall^
 <$00>
 
 // PTR : 00000678
@@ -549,7 +549,7 @@ Zzz...
 #WBB(PTR2, $00007534)
 #WUB(PTR2, $00007535)
 //左棟・警備員詰所
-Left Hall
+Left Hall^
 <$00>
 
 // PTR : 00000918
@@ -728,7 +728,7 @@ Waiting on people\nisn't fun.
 #WBB(PTR2, $00008FE4)
 #WUB(PTR2, $00008FE5)
 //左棟・執筆室前
-Left Hall
+Left Hall^
 <$00>
 
 // PTR : 00000CC8
@@ -867,7 +867,7 @@ Don't blame people\ntoo harshly now, Addie.
 #WBB(PTR2, $0000CC4C)
 #WUB(PTR2, $0000CC4D)
 //左棟・執筆室
-Left Hall
+Left Hall^
 <$00>
 
 // PTR : 0000197C
@@ -894,7 +894,7 @@ I have to catch him!
 #WBB(PTR2, $0000E0F0)
 #WUB(PTR2, $0000E0F1)
 //左棟・通用路
-Left Hall
+Left Hall^
 <$00>
 
 // PTR : 000019F4
@@ -1163,7 +1163,7 @@ Suite
 #WBB(PTR2, $00012EA8)
 #WUB(PTR2, $00012EA9)
 //左棟・裏口
-Left Hall
+Left Hall^
 <$00>
 
 // PTR : 000004FC

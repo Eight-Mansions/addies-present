@@ -829,7 +829,7 @@ This road connects the\nlibrary to the museum.
 #WBB(PTR2, $00005EA4)
 #WUB(PTR2, $00005EA5)
 //}‘ŠÙE‘O
-Library
+Library^
 <$00>
 
 // PTR : 000006F0

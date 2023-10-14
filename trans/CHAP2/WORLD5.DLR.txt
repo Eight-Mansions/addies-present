@@ -1183,7 +1183,7 @@ The instruments we fix\nwill affect the band's music.
 #WBB(PTR2, $0000B238)
 #WUB(PTR2, $0000B239)
 //バー・客席
-Bar
+Bar^
 <$00>
 
 // PTR : 0000203C
@@ -1201,7 +1201,7 @@ Mr. Barkeep,\nare you here?
 #WBB(PTR2, $0000D678)
 #WUB(PTR2, $0000D679)
 //バー・ステージ
-Bar
+Bar^
 <$00>
 
 // PTR : 000025C0
@@ -1210,7 +1210,7 @@ Bar
 #WBB(PTR2, $0000EEE0)
 #WUB(PTR2, $0000EEE1)
 //バー・楽屋
-Bar
+Bar^
 <$00>
 
 // PTR : 000025CC

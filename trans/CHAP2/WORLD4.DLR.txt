@@ -1027,7 +1027,7 @@ The alley's around here.\nI'd like to get back.
 #WBB(PTR2, $0000920C)
 #WUB(PTR2, $0000920D)
 //}‘ŠÙE— Œû
-Library
+Library^
 <$00>
 
 // PTR : 00000AD0

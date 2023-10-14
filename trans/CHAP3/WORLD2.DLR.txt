@@ -424,7 +424,7 @@ Let's enter the library.
 #WBB(PTR2, $00003D4C)
 #WUB(PTR2, $00003D4D)
 //図書館・入口
-Library
+Library^
 <$00>
 
 // PTR : 00000780
@@ -602,7 +602,7 @@ I hope we find Joka soon.
 #WBB(PTR2, $00006C48)
 #WUB(PTR2, $00006C49)
 //図書館・受付
-Library
+Library^
 <$00>
 
 // PTR : 00001320
@@ -823,7 +823,7 @@ Not without Eliza!
 #WBB(PTR2, $00008AAC)
 #WUB(PTR2, $00008AAD)
 //図書館・一般エリア
-Library
+Library^
 <$00>
 
 // PTR : 000017B8
@@ -1047,7 +1047,7 @@ Joka went\nto reception.
 #WBB(PTR2, $0000B070)
 #WUB(PTR2, $0000B071)
 //図書館・三叉路
-Library
+Library^
 <$00>
 
 // PTR : 00000618

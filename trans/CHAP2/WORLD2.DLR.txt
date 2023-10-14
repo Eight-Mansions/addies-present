@@ -1252,7 +1252,7 @@ Try again?
 #WBB(PTR2, $00010964)
 #WUB(PTR2, $00010965)
 //–¦‚Ìæ
-Outskirts
+Outskirts^
 <$00>
 
 // PTR : 000021AC
