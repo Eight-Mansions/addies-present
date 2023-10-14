@@ -263,7 +263,7 @@ and you helped him escape,
 // PTR : 000015E4
 #WRITE(PTR, $0000190C)
 //ìzÇ∆ÇÕÇ»ÇÒÇÃä÷åWÇ‡Ç»Ç¢Ç∆\nåæÇ¢ÇÕÇÈÇÒÇ∂Ç·Ç»ÅH
-how are you not\close with him?!
+how are you not\nclose with him?!
 <$00>
 
 // PTR : 00001610
