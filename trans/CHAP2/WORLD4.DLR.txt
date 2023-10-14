@@ -1481,7 +1481,7 @@ Maybe they're out.
 #WBB(PTR2, $00010904)
 #WUB(PTR2, $00010905)
 //Žd—§‰®“üŒû
-Tailor Shop
+Tailor Shop^
 <$00>
 
 // PTR : 000024B0

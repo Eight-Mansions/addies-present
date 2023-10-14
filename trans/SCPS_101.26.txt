@@ -390,7 +390,7 @@ R2: Review Move List
 //#JMP($00003760)
 #WRITE(PTR, $00088214)
 //à–¾‘‚É•Û‘¶‚³‚ê‚½Dè‚Í\n‚q‚d‚c‚n‚ÅƒŠƒvƒŒƒC‚Å‚«‚é
-Solved puzzles are stored\nin the Users Manual.
+Solved puzzles are stored\nin the Users' Manual.
 <$00>
 
 
@@ -489,7 +489,7 @@ Removing certain coins\ncan have dramatic effects!
 //#JMP($00003974)
 #WRITE(PTR, $000881E8)
 //ƒNƒIƒŠƒtƒ@ƒCˆÈ‰º‚ÌDè‚Í\nà–¾‘‚É•Û‘¶‚³‚ê‚é
-Read about the Baseline\nin the Users Manual.
+Read about the Baseline\nin the Users' Manual.
 <$00>
 
 
@@ -1123,7 +1123,7 @@ Screen adjust: O: Confirm,\nX: Cancel, ¢: Default
 #WBB(PTR, $00006D1C)
 #WUB(PTR, $00006D1D)
 //›c–â‘èÄ’§í^ cà–¾‘ŒÄo^\nƒXƒ^[ƒgƒ{ƒ^ƒ“ÿƒƒjƒ…[
-O: Retry,  : Users Manual, START: Menu
+O: Retry,  : Users' Manual, START: Menu
 <$00>
 
 
@@ -1188,4 +1188,4 @@ Edit
 
 #JMP($00000ABC)
 //ˆÚ“®{~c‘–‚é^›c’²‚×‚é^ c\nà–¾‘^ƒXƒ^[ƒgƒ{ƒ^ƒ“cƒƒjƒ…[
-D-pad+X: Run,  : Users Manual
+D-pad+X: Run,  : Users' Manual

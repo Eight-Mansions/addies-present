@@ -117,7 +117,7 @@ I'll keep this handy,\nin case I get lost.
 // PTR : 00000B74
 #WRITE(PTR, $00000BB8)
 //（□ボタンで説明書を\n呼び出すことができます）
-(Open the Users Manual\nwith the □ Button.)
+(Open the Users' Manual\nwith the □ Button.)
 <$00>
 
 // PTR : 00000F10
@@ -450,7 +450,7 @@ I've always wanted one!
 // PTR : 00001FC0
 #WRITE(PTR, $00001FE4)
 //説明書がないと、まだ不安ね
-I'd better read the\nLoglock Users Manual.
+I'd better read the\nLoglock Users' Manual.
 <$00>
 
 // PTR : 00002124
@@ -612,7 +612,7 @@ of Addie's 9th birthday.
 #WBB(PTR2, $00005A68)
 #WUB(PTR2, $00005A69)
 //これがログロックの説明書ね
-This is the\nLoglock Users Manual!
+This is the\nLoglock Users' Manual!
 <$00>
 
 // PTR : 00000C10
@@ -630,7 +630,7 @@ Oh, that?
 #WBB(PTR2, $00005E48)
 #WUB(PTR2, $00005E49)
 //ログロックの説明書よ
-This is the\nLoglock Users Manual!
+That's the\nLoglock Users' Manual!
 <$00>
 
 // PTR : 00000C38
@@ -774,7 +774,7 @@ Hmph. Perhaps a time-out\nwill help.
 #WBB(PTR2, $00009BB4)
 #WUB(PTR2, $00009BB5)
 //説明書はどこだっけ…
-I'd better find the\nLoglock Users Manual.
+I'd better find the\nLoglock Users' Manual.
 <$00>
 
 // PTR : 0000200C

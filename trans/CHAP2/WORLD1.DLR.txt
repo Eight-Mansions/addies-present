@@ -979,7 +979,7 @@ Even if it's\nnot upset, I...
 #WBB(PTR2, $00005CFC)
 #WUB(PTR2, $00005CFD)
 //岬の街・入口
-Cape Town
+Cape Town^
 <$00>
 
 // PTR : 0000056C
@@ -1015,7 +1015,7 @@ I should ask if\nthe barkeep knows anything.
 #WBB(PTR2, $00007CC0)
 #WUB(PTR2, $00007CC1)
 //円形広場・前
-Plaza
+Plaza^
 <$00>
 
 // PTR : 00000924
@@ -1208,7 +1208,7 @@ Come see us\nnext time!
 #WBB(PTR2, $0000BD60)
 #WUB(PTR2, $0000BD61)
 //円形広場
-Plaza
+Plaza^
 <$00>
 
 // PTR : 00001284
@@ -1521,7 +1521,7 @@ Stop interrupting us.
 #WBB(PTR2, $00011728)
 #WUB(PTR2, $00011729)
 //バー・入口
-Bar
+Bar^
 <$00>
 
 // PTR : 00002304

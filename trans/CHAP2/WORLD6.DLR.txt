@@ -386,7 +386,7 @@ Oh! And give him\nmy regards!
 #WBB(PTR2, $000030A4)
 #WUB(PTR2, $000030A5)
 //仕立屋内・入口
-Tailor Shop
+Tailor Shop^
 <$00>
 
 // PTR : 000007C4
@@ -413,7 +413,7 @@ Huh? Whose dress is this?
 #WBB(PTR2, $000039C4)
 #WUB(PTR2, $000039C5)
 //仕立屋内・奥
-Tailor Shop
+Tailor Shop^
 <$00>
 
 // PTR : 0000082C
