@@ -1465,14 +1465,6 @@ Oh dear, oh dear.
 Now then...
 <$00>
 
-// PTR : 00002010
-#WLB(PTR2, $0000D940)
-#WHB(PTR2, $0000D941)
-#WBB(PTR2, $0000D93C)
-#WUB(PTR2, $0000D93D)
-INK
-<$00>
-
 // PTR : 00001EFC
 #WLB(PTR2, $0000D740)
 #WHB(PTR2, $0000D741)
@@ -1980,22 +1972,4 @@ Map
 #JMP($00024554)
 //ƒJƒbƒv
 Cup
-<$00>
-
-// PTR : 00001EE0
-#JMP($00001EE0)
-//‚o‚d‚m
-Pen^
-<$00>
-
-// PTR : 00002010
-#JMP($00002010)
-//‚h‚m‚j
-Ink^
-<$00>
-
-// PTR : 00001F4C
-#JMP($00001F4C)
-//‚l‚`‚o
-Map^
 <$00>
