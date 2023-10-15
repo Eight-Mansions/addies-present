@@ -182,16 +182,6 @@ cur_width:
 	
 	j 0x800cb05c
 	nop
-
-.org 0x800c27fc
-	la a0, 0x800b8afc
-	la a1, 0x800a3848
-	
-	jal StringCopy
-	nop
-	
-	j 0x800c2850
-	nop
 	
 .org 0x800c536c
 	;裏道

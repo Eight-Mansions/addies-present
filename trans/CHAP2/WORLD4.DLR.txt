@@ -1099,7 +1099,7 @@ If ya wanna know more,\ngo find me a comb.
 #WBB(PTR2, $0000ABC4)
 #WUB(PTR2, $0000ABC5)
 //ひとつめの頼まれごとを済ませ\n男の元へ行ったアディ。
-Addie returned to\nman who needed a favor.
+Addie returned to the\nman who needed a favor.
 <$00>
 
 // PTR : 00000FA4
@@ -1845,9 +1845,9 @@ It's closed.
 
 // PTR : 00000F84
 #WLB(PTR1, $0000AC84)
-#WHB(PTR1, $0000AC84)
+#WHB(PTR1, $0000AC85)
 #WBB(PTR1, $0000AC6C)
-#WUB(PTR1, $0000AC6C)
+#WUB(PTR1, $0000AC6D)
 //もう一つあるなんて、ずるいわ
 Another one? How sneaky!
 <$00>
