@@ -750,15 +750,6 @@ Not at all!\nWe're just in a hurry.
 Hmmm. A giant firefly\nis pretty gross.
 <$00>
 
-// PTR : 000014E0
-#WLB(PTR2, $00007DA4)
-#WHB(PTR2, $00007DA5)
-#WBB(PTR2, $00007DA0)
-#WUB(PTR2, $00007DA1)
-//ÇeÇhÇqÇdÇeÇqÇx
-Firefly
-<$00>
-
 // PTR : 00001504
 #WLB(PTR2, $00007F04)
 #WHB(PTR2, $00007F05)
@@ -879,14 +870,6 @@ Back to reception?\nOkay, thanks!
 #WUB(PTR2, $00009959)
 //ã∞Ç¢ÇØÇ«Åc\nÇæÇÒÇæÇÒï†Ç™óßÇ¡ÇƒÇ´ÇΩÇÌ
 This is creepy.\nIt's putting me on edge.
-<$00>
-
-// PTR : 00001854
-#WLB(PTR2, $000099EC)
-#WHB(PTR2, $000099ED)
-#WBB(PTR2, $000099E8)
-#WUB(PTR2, $000099E9)
-SPECTER
 <$00>
 
 // PTR : 00001874

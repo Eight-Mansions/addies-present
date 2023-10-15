@@ -328,15 +328,6 @@ Enough with the bugs!
 This can't be good.\nWhat can I do?!
 <$00>
 
-// PTR : 00000374
-#WLB(PTR1, $00003FAC)
-#WHB(PTR1, $00003FAD)
-#WBB(PTR1, $00003FA8)
-#WUB(PTR1, $00003FA9)
-//SNAIL
-Snail
-<$00>
-
 // PTR : 000003C8
 #WLB(PTR1, $000040CC)
 #WHB(PTR1, $000040CD)
@@ -468,15 +459,6 @@ You're gross too!
 Out of my way!
 <$00>
 
-// PTR : 000005EC
-#WLB(PTR2, $000059A8)
-#WHB(PTR2, $000059A9)
-#WBB(PTR2, $000059A4)
-#WUB(PTR2, $000059A5)
-//SPIDER
-Spider
-<$00>
-
 // PTR : 00000610
 #WLB(PTR2, $00005AD4)
 #WHB(PTR2, $00005AD5)
@@ -568,15 +550,6 @@ What's going on?!
 #WUB(PTR2, $00007A59)
 //…もう、急いでるのに！
 I don't have time\nfor this!
-<$00>
-
-// PTR : 00000948
-#WLB(PTR2, $00007AD8)
-#WHB(PTR2, $00007AD9)
-#WBB(PTR2, $00007AD4)
-#WUB(PTR2, $00007AD5)
-//ＢＡＴ
-BAT
 <$00>
 
 // PTR : 00000970
@@ -1073,7 +1046,7 @@ I can't lose\nhim again!
 #WBB(PTR2, $0001074C)
 #WUB(PTR2, $0001074D)
 //特別室・前
-Suite
+Suite^
 <$00>
 
 // PTR : 0000247C
@@ -1154,7 +1127,7 @@ That's what nice girls do,\nafter all.
 #WBB(PTR2, $000128E8)
 #WUB(PTR2, $000128E9)
 //特別室
-Suite
+Suite^
 <$00>
 
 // PTR : 000025A8
@@ -1396,6 +1369,25 @@ Jack
 Keyhole
 <$00>
 
+// PTR : 0000175C
+#WLB(PTR1, $0000C230)
+#WHB(PTR1, $0000C231)
+#WBB(PTR1, $0000C220)
+#WUB(PTR1, $0000C221)
+//副館長室
+Office
+<$00>
+
+
+// PTR : 00001248
+#WLB(PTR1, $0000B040)
+#WHB(PTR1, $0000B041)
+#WBB(PTR1, $0000AE84)
+#WUB(PTR1, $0000AE85)
+//早く起こしてくれ！
+Help me up! Quick!
+<$00>
+
 // PTR : 00024A28
 #JMP($00024A28)
 //コウモリ
@@ -1454,13 +1446,4 @@ Chaos
 #JMP($0000240C)
 //平和
 Peace
-<$00>
-
-// PTR : 0000175C
-#WLB(PTR1, $0000C230)
-#WHB(PTR1, $0000C231)
-#WBB(PTR1, $0000C220)
-#WUB(PTR1, $0000C221)
-//副館長室
-Office
 <$00>
