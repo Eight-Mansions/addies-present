@@ -2801,12 +2801,3 @@ Barrel
 //åC
 Shoe
 <$00>
-
-// PTR : 00002B88
-#WLB(PTR1, $000167D4)
-#WHB(PTR1, $000167D5)
-#WBB(PTR1, $000167C0)
-#WUB(PTR1, $000167C1)
-//ÇÊÇ§ÅAèÏÇøÇ·ÇÒ\nç°ÇÕãxåeíÜÇ»ÇÒÇæÇÊ
-Sorry, miss.\nI'm on a work break.
-<$00>
