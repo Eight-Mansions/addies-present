@@ -75,7 +75,10 @@
 	;イライザと別れた後\nリノに出会ったアディ。
 	;After leaving Eliza,\nAddie ran into Reno.
 	addiu v0, a0, 0x30
-	
+
+.org 0x800cb7a0
+	addiu a0,sp,0xb6
+
 .org 0x800cb7e8
 	;泉
 	;Spring
@@ -98,7 +101,10 @@
 	sw t0, 0xB0(sp)
 	sw t1, 0xB4(sp)
 	sw t2, 0xB8(sp)
-	
+
+.org 0x800d0120
+    addiu a0, sp, 0x98
+
 .org 0x800d014c
 	;金
 	;Gold
