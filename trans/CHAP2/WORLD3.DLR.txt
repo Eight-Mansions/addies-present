@@ -1155,7 +1155,7 @@ Kettle
 #WBB(PTR1, $00009738)
 #WUB(PTR1, $00009739)
 //ƒCƒ`ƒ‡ƒE
-Gingko
+Ginkgo
 <$00>
 
 // PTR : 0000059C

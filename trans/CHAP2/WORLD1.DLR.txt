@@ -2579,7 +2579,7 @@ I'll master a trick\nor two someday.
 #WBB(PTR2, $00006A00)
 #WUB(PTR2, $00006A01)
 //Ç‚Ç¡Ç∆å©Ç¬ÇØÇΩÇÌÇÊÅI
-I finally found it!
+I finally found him!
 <$00>
 
 // PTR : 000037F4
@@ -2744,6 +2744,15 @@ Toilet
 #WUB(PTR1, $00013C61)
 //êÚ
 Spring
+<$00>
+
+// PTR : 000018EC
+#WLB(PTR1, $0000EC9C)
+#WHB(PTR1, $0000EC9D)
+#WBB(PTR1, $0000EC68)
+#WUB(PTR1, $0000EC69)
+//Ç‚Ç¡Ç∆å©Ç¬Ç©Ç¡ÇΩÇÌ...
+I've finally caught up.
 <$00>
 
 // PTR : 0000198C

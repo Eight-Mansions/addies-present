@@ -100,51 +100,58 @@ cur_width:
 .close
 
 .open "ins\CHAP1\WORLD3.DLR",0x800B7B78
-	.org 0x800bee28
-		;露店
-		;Street Stall
-		la a0, 0x800b8774
-		la a1, 0x800a4580
-		
-		jal StringCopy
-		nop
-		
-		nop
-		nop
-		la a0, 0x800b877c
-		clear a1
-		jal 0x8001f548
+
+.org 0x800bee28
+	;露店
+	;Street Stall
+	la a0, 0x800b8774
+	la a1, 0x800a4580
+	
+	jal StringCopy
+	nop
+	
+	nop
+	nop
+	la a0, 0x800b877c
+	clear a1
+	jal 0x8001f548
 .close
 
 .open "ins\CHAP1\WORLD4.DLR",0x800B7B78
 
-	.org 0x800b9de4
-		la a0, 0x800b7e8c
-		la a1, 0x800a3848
-		
-		jal StringCopy
-		nop
-		
-		j 0x800b9e2c
-		nop
+.org 0x800b9de4
+	;管理人室ってところに\n行かなきゃ
+	;I have to go to the\nconductor's hall.
+	la a0, 0x800b7e8c
+	la a1, 0x800a3848
+	
+	jal StringCopy
+	nop
+	
+	j 0x800b9e2c
+	nop
 .close
 
 .open "ins\CHAP2\WORLD1.DLR",0x800B7B78
 
-	.org 0x800beff8
-		la a0, 0x800b8264
-		la a1, 0x800a3848
-		
-		jal StringCopy
-		nop
-		
-		j 0x800bf040
-		nop
+.org 0x800beff8
+	;マスターに聞けば\nわかるかしら
+	;I should ask if\nthe barkeep knows anything.
+	la a0, 0x800b8264
+	la a1, 0x800a3848
+	
+	jal StringCopy
+	nop
+	
+	j 0x800bf040
+	nop
 .close
 
 .open "ins\CHAP2\WORLD2.DLR",0x800B7B78
 
 .org 0x800c24f0
+	;ピア、きっと喜ぶわ
+	;Pia will be thrilled!
 	la a0, 0x800b9318
 	la a1, 0x800a3848
 	
@@ -174,6 +181,8 @@ cur_width:
 .open "ins\CHAP2\WORLD4.DLR",0x800B7B78
 
 .org 0x800cb018
+	;飲み屋って…\nバーのことよね
+	;So, the bar is...\nwell, a bar.
 	la a0, 0x800ba6cc
 	la a1, 0x800a3848
 	
@@ -210,12 +219,13 @@ cur_width:
 	j 0x800cc808
 	nop
 	
-	
 .close
 
 .open "ins\CHAP2\WORLD6.DLR",0x800B7B78
 
 .org 0x800b92bc
+	;やだなぁ\nマスター怒らないかしら
+	;I don't want to let\nthe barkeep down!
 	la a0, 0x800b7f20
 	la a1, 0x800a3848
 	
@@ -226,6 +236,8 @@ cur_width:
 	nop
 	
 .org 0x800b9a80
+	;服ができるまで\n少し待つことに。
+	;It'll still be a wait\nbefore these are done.
 	la a0, 0x800b813c
 	addiu a1, s1, 0x386
 	
@@ -235,7 +247,9 @@ cur_width:
 	j 0x800b9b04
 	nop
 	
-.org 0x800b92bc
+.org 0x800b8ea0
+	;やっと服ができたわ
+	;The commission is ready!
 	la a0, 0x800b7e60
 	la a1, 0x800a3848
 	
@@ -250,6 +264,8 @@ cur_width:
 .open "ins\CHAP3\WORLD5.DLR",0x800B7B78
 
 .org 0x800c3154
+	;たぶん、ジョーカは街の中よね
+	;Maybe I'll find Joka\nback in Cape Town.
 	la a0, 0x800b8e08
 	la a1, 0x800a3848
 	

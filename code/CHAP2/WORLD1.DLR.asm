@@ -114,5 +114,12 @@
 	sw t0, 0x94(sp)
 	sw t1, 0x98(sp)
 	sw t2, 0x9C(sp)
-
+	
+.org 0x800c6840
+	;やっと見つかったわ...
+	;I've finally caught up.
+    lw t1,0x14(t3)
+    sw t0,0x10(t2)
+    sw t1,0x14(t2)
+	
 .close

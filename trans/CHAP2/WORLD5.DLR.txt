@@ -1094,7 +1094,7 @@ Addie went with Eliza\nto the library.
 #WBB(PTR2, $00009E54)
 #WUB(PTR2, $00009E55)
 //‚Æ‚É‚©‚­A‚±‚ê‚Å\n}‘ŠÙ‚Ö“ü‚ê‚é‚í‚Ë
-This way, you can get\ninto the library.
+I can enter the\nlibrary now!
 <$00>
 
 // PTR : 00001E10

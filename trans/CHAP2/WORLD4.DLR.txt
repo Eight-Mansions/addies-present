@@ -1867,10 +1867,10 @@ Wait just a little\nlonger, okay?
 <$00>
 
 // PTR : 00002B54
-#WLB(PTR1, $000134A0)
-#WHB(PTR1, $000134A1)
-#WBB(PTR1, $00013464)
-#WUB(PTR1, $00013465)
+#WLB(PTR1, $000134A4)
+#WHB(PTR1, $000134A5)
+#WBB(PTR1, $000134A0)
+#WUB(PTR1, $000134A1)
 //à˘Ç›âÆÇ¡ÇƒÅc\nÉoÅ[ÇÃÇ±Ç∆ÇÊÇÀ
 So, the bar is...\nwell, a bar.
 <$00>
