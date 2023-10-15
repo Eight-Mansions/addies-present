@@ -987,7 +987,7 @@ It's super creepy.
 #WBB(PTR2, $00009528)
 #WUB(PTR2, $00009529)
 //’†‚É“ü‚ñ‚È‚æ
-Don't go in.
+Come on in.
 <$00>
 
 // PTR : 00001650

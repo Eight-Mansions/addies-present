@@ -966,7 +966,7 @@ Head of the family.\nGotta hold the fort.
 #WBB(PTR2, $0000A2E4)
 #WUB(PTR2, $0000A2E5)
 //ランドリーでウィノに話を聞き\nリノとジノを探しに裏通りへ。
-Reno and Geno are\nout in the alleys.
+Reno and Gino are\nout in the alleys.
 <$00>
 
 // PTR : 000017EC

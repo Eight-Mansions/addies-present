@@ -16,4 +16,9 @@
 	;Addie left Eliza behind.\nWhere will she go next?
 	addiu v0, a0, 0x40
 
+.org 0x800cb928
+	;ジョーカの妹だなんて、\nますますエミィそっくり！
+	;Funnily enough, she's also\nJoka's little sister!
+	addiu a0, v0, 0x40
+
 .close

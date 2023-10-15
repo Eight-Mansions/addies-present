@@ -46,5 +46,15 @@
 	;ジョーカを追いかけたが\n図書館に入れないアディ。
 	;Joka fled to the library,\nbut Addie needed a card.
 	addiu v0, v1, 0x40
+	
+.org 0x800BC140
+	;あと少しでジョーカを\nつかまえられると思ったのに
+	;I hope we find Joka soon.
+	addiu a0, v0, 0x30
+
+.org 0x800BE190
+	;あと少しでジョーカを\nつかまえられると思ったのに
+	;I hope we find Joka soon.
+	addiu a0, v0, 0x30
 
 .close
