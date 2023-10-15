@@ -156,7 +156,7 @@ cur_width:
 	
 .org 0x800beafc
 	;対岸
-	;Riverbank	
+	;Riverbank
 	la a0, 0x800b84b0
 	la a1, 0x800a4580
 	
@@ -164,7 +164,7 @@ cur_width:
 	nop	
 	
 	nop
-	nop
+	lui v1, 0x800a
 	la a0, 0x800b8060
 	clear a1
 	jal 0x8001f548
@@ -217,11 +217,9 @@ cur_width:
 	jal StringCopy
 	nop	
 	
+	j 0x800cc808
 	nop
-	nop
-	la a0, 0x800b7f14
-	clear a1
-	jal 0x8001f548
+	
 	
 .close
 
