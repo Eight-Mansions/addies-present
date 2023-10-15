@@ -1857,6 +1857,10 @@ Another one? How sneaky!
 #WHB(PTR1, $0001201D)
 #WBB(PTR1, $00011F34)
 #WUB(PTR1, $00011F35)
+#WLB(PTR1, $00012588)
+#WHB(PTR1, $00012589)
+#WBB(PTR1, $000124A8)
+#WUB(PTR1, $000124A9)
 //‚à‚¤ˆê‰ñ
 One more time?
 <$00>
