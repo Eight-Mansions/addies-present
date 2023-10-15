@@ -1276,7 +1276,7 @@ He got away again!
 #WBB(PTR1, $00015A84)
 #WUB(PTR1, $00015A85)
 //『ハーモニカ入門』
-"A Beginner’s Guide\nto the Harmonica"
+"A Beginner's Guide\nto the Harmonica"
 <$00>
 
 // PTR : 000017E8
@@ -1285,7 +1285,7 @@ He got away again!
 #WBB(PTR1, $00015A84)
 #WUB(PTR1, $00015A85)
 //『ハーモニカ入門』
-"A Beginner’s Guide\nto the Harmonica"
+"A Beginner's Guide\nto the Harmonica"
 <$00>
 
 // PTR : 0000170C
