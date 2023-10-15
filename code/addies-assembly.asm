@@ -208,6 +208,21 @@ cur_width:
 	clear a1
 	jal 0x8001f548
 	
+.org 0x800cc7dc
+	;デンの家
+	;Den's House
+	la a0, 0x800bad44
+	la a1, 0x800a4580
+	
+	jal StringCopy
+	nop	
+	
+	nop
+	nop
+	la a0, 0x800b7f14
+	clear a1
+	jal 0x8001f548
+	
 .close
 
 .open "ins\CHAP2\WORLD6.DLR",0x800B7B78

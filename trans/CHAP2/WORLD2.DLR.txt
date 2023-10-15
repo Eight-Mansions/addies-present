@@ -843,7 +843,7 @@ I hope you're having fun,\ndangling your last.
 #WBB(PTR2, $00006F84)
 #WUB(PTR2, $00006F85)
 //‘ÎŠÝ
-Riverbank
+Riverbank^
 <$00>
 
 // PTR : 000009C4

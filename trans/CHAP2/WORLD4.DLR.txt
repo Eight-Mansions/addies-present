@@ -1297,7 +1297,7 @@ My hearing isn't\nso sharp these days.
 #WBB(PTR2, $0000CD24)
 #WUB(PTR2, $0000CD25)
 //ó†í ÇËÅEéOç≥òH
-Alley
+Alley^
 <$00>
 
 // PTR : 000016A0
@@ -1306,7 +1306,7 @@ Alley
 #WBB(PTR2, $0000D7F4)
 #WUB(PTR2, $0000D7F5)
 //ó†ìπ
-Back Road
+Back Road^
 <$00>
 
 // PTR : 000016A8
@@ -1730,10 +1730,10 @@ I might not look it,\nbut I'm a busy man.
 <$00>
 
 // PTR : 000031CC
-#WLB(PTR2, $00014C6C)
-#WHB(PTR2, $00014C6D)
-#WBB(PTR2, $00014C68)
-#WUB(PTR2, $00014C69)
+#WLB(PTR2, $00014C68)
+#WHB(PTR2, $00014C69)
+#WBB(PTR2, $00014C64)
+#WUB(PTR2, $00014C65)
 //ÉfÉìÇÃâ∆
 Den's House^
 <$00>

@@ -1096,10 +1096,10 @@ Wooo!\nIt's working!
 <$00>
 
 // PTR : 0000059C
-#WLB(PTR1, $00004C30)
-#WHB(PTR1, $00004C31)
-#WBB(PTR1, $00004C04)
-#WUB(PTR1, $00004C05)
+#WLB(PTR1, $0000A40C)
+#WHB(PTR1, $0000A40D)
+#WBB(PTR1, $0000A408)
+#WUB(PTR1, $0000A409)
 //ここだけの話、ランドリーを\n直してくれてほんとに助かったよ
 You really helped\nus out here.
 <$00>
@@ -1198,4 +1198,13 @@ Pump
 #JMP($00001B58)
 //スロットマシーン
 Slot Machine
+<$00>
+
+// PTR : 0000059C
+#WLB(PTR1, $00004C30)
+#WHB(PTR1, $00004C31)
+#WBB(PTR1, $00004C04)
+#WUB(PTR1, $00004C05)
+//この子たち、何者なのかしら？
+Who are these children?
 <$00>
