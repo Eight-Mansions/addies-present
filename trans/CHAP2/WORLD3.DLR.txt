@@ -1158,6 +1158,16 @@ Kettle
 Gingko
 <$00>
 
+// PTR : 0000059C
+#WLB(PTR1, $00004C30)
+#WHB(PTR1, $00004C31)
+#WBB(PTR1, $00004C04)
+#WUB(PTR1, $00004C05)
+//この子たち、何者なのかしら？
+Who are these children?
+<$00>
+
+
 // PTR : 00000CC0
 #JMP($00000CC0)
 //ホラ吹き
@@ -1198,13 +1208,4 @@ Pump
 #JMP($00001B58)
 //スロットマシーン
 Slot Machine
-<$00>
-
-// PTR : 0000059C
-#WLB(PTR1, $00004C30)
-#WHB(PTR1, $00004C31)
-#WBB(PTR1, $00004C04)
-#WUB(PTR1, $00004C05)
-//この子たち、何者なのかしら？
-Who are these children?
 <$00>
