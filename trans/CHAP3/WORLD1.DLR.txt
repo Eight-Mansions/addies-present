@@ -1606,8 +1606,17 @@ Leaf
 Fish
 <$00>
 
-// PTR : 00000EB6
-#JMP($00000EB6)
+// PTR : 00000C38
+#WLB(PTR1, $00007D80)
+#WHB(PTR1, $00007D81)
+#WBB(PTR1, $00007D54)
+#WUB(PTR1, $00007D55)
+//あら、アンタもヘビが好きなの？
+Tell me, do you like snakes too?
+<$00>
+
+// PTR : 00001224
+#JMP($00001224)
 //キャンバス
 Canvas
 <$00>
@@ -1652,13 +1661,4 @@ Opponent
 #JMP($00003278)
 //親友
 Sidekick
-<$00>
-
-// PTR : 00000C38
-#WLB(PTR1, $00007D80)
-#WHB(PTR1, $00007D81)
-#WBB(PTR1, $00007D54)
-#WUB(PTR1, $00007D55)
-//あら、アンタもヘビが好きなの？
-Tell me, do you like snakes too?
 <$00>
