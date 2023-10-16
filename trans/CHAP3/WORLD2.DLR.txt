@@ -1083,6 +1083,15 @@ It's gone now. See?
 "The Monthly Kids Club"
 <$00>
 
+// PTR : 000011D4
+#WLB(PTR1, $0000C284)
+#WHB(PTR1, $0000C285)
+#WBB(PTR1, $0000C27C)
+#WUB(PTR1, $0000C27D)
+//•Ô‹pŠúŒÀ‚Í€ç‚¹‚æ\n–}‘ŠÙŠÙ’·–
+"Remember your book return dates\n-Head Librarian"
+<$00>
+
 // PTR : 00024EEC
 #JMP($00024EEC)
 //ƒzƒ^ƒ‹
@@ -1131,11 +1140,10 @@ Darkness
 Sunshine
 <$00>
 
-// PTR : 000011D4
-#WLB(PTR1, $0000C284)
-#WHB(PTR1, $0000C285)
-#WBB(PTR1, $0000C27C)
-#WUB(PTR1, $0000C27D)
-//•Ô‹pŠúŒÀ‚Í€ç‚¹‚æ\n–}‘ŠÙŠÙ’·–
-"Remember your book return dates\n-Head Librarian"
+// PTR : 000014E0
+#JMP($000014E0)
+//‚e‚h‚q‚d‚e‚q‚x
+‚e‚h‚q‚d‚e‚k‚x
 <$00>
+
+
