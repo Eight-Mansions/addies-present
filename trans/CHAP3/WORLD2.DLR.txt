@@ -639,7 +639,7 @@ A giant firefly?
 #WBB(PTR2, $00007640)
 #WUB(PTR2, $00007641)
 //ÇªÇÃéËÇ…ÇÕèÊÇÁÇ»Ç¢ÇÌÇÊ
-There's no\nswatting that.
+Hmph. No bug of Joka's\nis going to scare me.
 <$00>
 
 // PTR : 00001384
@@ -648,7 +648,7 @@ There's no\nswatting that.
 #WBB(PTR2, $000076BC)
 #WUB(PTR2, $000076BD)
 //Ç∂Ç·Ç†ÅAÇ∏Ç¡Ç∆ÇªÇ§ÇµÇƒÇÈÇÃÅH
-Is that what you usually do?
+Then what was that?
 <$00>
 
 // PTR : 000013A4
@@ -657,7 +657,7 @@ Is that what you usually do?
 #WBB(PTR2, $000076CC)
 #WUB(PTR2, $000076CD)
 //ÅcÇ¢Ç»Ç¢ÇÌÇÀ
-What, gone already?
+...No comment.
 <$00>
 
 // PTR : 000013B4
