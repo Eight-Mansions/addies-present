@@ -121,5 +121,19 @@
     lw t1,0x14(t3)
     sw t0,0x10(t2)
     sw t1,0x14(t2)
-	
+
+.org 0x800d06a4
+	addiu a0,sp,0x9a
+
+.org 0x800d06d0
+	;石
+	;Stone
+	lw t0,0x0(t3)
+    lb t1,0x4(t3)
+    lb t2,0x5(t3)
+    sw t0,0x94(sp)
+    sb t1,0x98(sp)
+    sb t2,0x99(sp)
+
+
 .close

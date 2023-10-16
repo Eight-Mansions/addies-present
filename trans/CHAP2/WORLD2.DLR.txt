@@ -511,7 +511,7 @@ It's okay, just hurry!
 // PTR : 00002094
 #WRITE(PTR, $000020C0)
 //Ç§ÇÒÅAÇ†ÇËÇ™Ç∆Ç§ÅAÇ†ÇÀÇ≤
-Yeah. Thanks, Addy-o.
+Yeah. Thanks, Addie-o.
 <$00>
 
 // PTR : 000022DC
