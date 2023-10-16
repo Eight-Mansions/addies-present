@@ -134,7 +134,7 @@ cur_width:
 
 .open "ins\CHAP2\WORLD1.DLR",0x800B7B78
 
-.org 0x800beff8
+.org 0x800beff0
 	;マスターに聞けば\nわかるかしら
 	;I should ask if\nthe barkeep knows anything.
 	la a0, 0x800b8264
@@ -144,7 +144,7 @@ cur_width:
 	nop
 	
 	j 0x800bf040
-	nop
+	addiu v0, r0, 0x01
 .close
 
 .open "ins\CHAP2\WORLD2.DLR",0x800B7B78

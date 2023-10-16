@@ -1001,10 +1001,10 @@ With Den's trusty intel,\nAddie made for the bar.
 <$00>
 
 // PTR : 000006EC
-#WLB(PTR2, $00007480)
-#WHB(PTR2, $00007481)
-#WBB(PTR2, $0000747C)
-#WUB(PTR2, $0000747D)
+#WLB(PTR2, $0000747C)
+#WHB(PTR2, $0000747D)
+#WBB(PTR2, $00007478)
+#WUB(PTR2, $00007479)
 //マスターに聞けば\nわかるかしら
 I should ask if\nthe barkeep knows anything.
 <$00>
