@@ -953,10 +953,10 @@ In exchange for her help,\nZoo let Addie go.
 <$00>
 
 // PTR : 00001290
-#WLB(PTR2, $0000B5E4)
-#WHB(PTR2, $0000B5E5)
-#WBB(PTR2, $0000B5E0)
-#WUB(PTR2, $0000B5E1)
+#WLB(PTR2, $0000B5E0)
+#WHB(PTR2, $0000B5E1)
+#WBB(PTR2, $0000B5DC)
+#WUB(PTR2, $0000B5DD)
 //たぶん、ジョーカは街の中よね
 Maybe I'll find Joka\nback in Cape Town.
 <$00>

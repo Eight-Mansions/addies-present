@@ -150,10 +150,10 @@ After much walking,\nAddie returned to Pia.
 <$00>
 
 // PTR : 000002E8
-#WLB(PTR1, $00001330)
-#WHB(PTR1, $00001331)
-#WBB(PTR1, $0000132C)
-#WUB(PTR1, $0000132D)
+#WLB(PTR1, $0000132C)
+#WHB(PTR1, $0000132D)
+#WBB(PTR1, $00001328)
+#WUB(PTR1, $00001329)
 //Ç‚Ç¡Ç∆ïûÇ™Ç≈Ç´ÇΩÇÌ
 The commission is ready!
 <$00>
@@ -228,10 +228,10 @@ so maybe head\nback to the bar.
 <$00>
 
 // PTR : 000005C4
-#WLB(PTR1, $00001F08)
-#WHB(PTR1, $00001F09)
-#WBB(PTR1, $00001F00)
-#WUB(PTR1, $00001F01)
+#WLB(PTR1, $00001F0C)
+#WHB(PTR1, $00001F0D)
+#WBB(PTR1, $00001F08)
+#WUB(PTR1, $00001F09)
 //ïûÇ™Ç≈Ç´ÇÈÇ‹Ç≈\nè≠Çµë“Ç¬Ç±Ç∆Ç…ÅB
 It'll still be a wait\nbefore these are done.
 <$00>

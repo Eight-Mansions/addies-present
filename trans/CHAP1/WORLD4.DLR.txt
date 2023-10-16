@@ -163,10 +163,10 @@ Conductor's Hall
 <$00>
 
 // PTR : 00000314
-#WLB(PTR2, $0000226C)
-#WHB(PTR2, $0000226D)
-#WBB(PTR2, $00002254)
-#WUB(PTR2, $00002255)
+#WLB(PTR2, $00002270)
+#WHB(PTR2, $00002271)
+#WBB(PTR2, $0000226C)
+#WUB(PTR2, $0000226D)
 //ä«óùêlé∫Ç¡ÇƒÇ∆Ç±ÇÎÇ…\nçsÇ©Ç»Ç´Ç·
 I have to go to the\nconductor's hall.
 <$00>

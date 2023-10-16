@@ -273,6 +273,6 @@ cur_width:
 	nop
 	
 	j 0x800c31a4
-	nop
+	addiu v0, r0, 0x01
 
 .close
