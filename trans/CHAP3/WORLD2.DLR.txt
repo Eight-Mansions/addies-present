@@ -918,7 +918,7 @@ But who knows\nwhich one Joka's in!
 #WBB(PTR2, $00009DE4)
 #WUB(PTR2, $00009DE5)
 //ジョーカを追いかけるのなら\n早く行ったほうがいいんじゃない？
-If I want to catch him,\nI'd better thing fast.
+If you want to catch him,\nyou'd better think fast.
 <$00>
 
 // PTR : 00001958
