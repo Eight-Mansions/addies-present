@@ -168,10 +168,10 @@ I can't work\nwithout materials.
 <$00>
 
 // PTR : 000003A8
-#WLB(PTR1, $0000174C)
-#WHB(PTR1, $0000174D)
-#WBB(PTR1, $00001748)
-#WUB(PTR1, $00001749)
+#WLB(PTR1, $00001748)
+#WHB(PTR1, $00001749)
+#WBB(PTR1, $00001744)
+#WUB(PTR1, $00001745)
 //やだなぁ\nマスター怒らないかしら
 I don't want to let\nthe barkeep down!
 <$00>

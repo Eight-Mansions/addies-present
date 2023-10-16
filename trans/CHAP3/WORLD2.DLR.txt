@@ -648,7 +648,7 @@ There's no\nswatting that.
 #WBB(PTR2, $000076BC)
 #WUB(PTR2, $000076BD)
 //Ç∂Ç·Ç†ÅAÇ∏Ç¡Ç∆ÇªÇ§ÇµÇƒÇÈÇÃÅH
-What do I usually do?
+Is that what you usually do?
 <$00>
 
 // PTR : 000013A4
@@ -657,7 +657,7 @@ What do I usually do?
 #WBB(PTR2, $000076CC)
 #WUB(PTR2, $000076CD)
 //ÅcÇ¢Ç»Ç¢ÇÌÇÀ
-...No dice.
+What, gone already?
 <$00>
 
 // PTR : 000013B4
