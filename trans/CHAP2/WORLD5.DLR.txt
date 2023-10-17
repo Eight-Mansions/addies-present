@@ -642,7 +642,7 @@ Speak to Pia and\nask about my commission.
 // PTR : 000021A8
 #WRITE(PTR, $000021E8)
 //Ç¢Ç¢Ç©ÅAïûÇæÅBÇΩÇÃÇÒÇæÇº
-It's for outfit.\nFetch it, and I'll talk.
+It's for an outfit.\nFetch it, and I'll talk.
 <$00>
 
 // PTR : 0000239C
