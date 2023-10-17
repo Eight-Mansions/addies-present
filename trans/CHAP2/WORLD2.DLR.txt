@@ -439,7 +439,7 @@ Hey, Addie-o!
 // PTR : 00001E4C
 #WRITE(PTR, $00001F28)
 //どうしたの？　元気ないわね
-What's wrong?\nYou don't look so good.
+What's wrong, Gino?\nYou don't look so good.
 <$00>
 
 // PTR : 00001E68
@@ -463,25 +463,25 @@ What'll I do if night\nfalls before I find any?
 // PTR : 00001EDC
 #WRITE(PTR, $00001F38)
 //ジノ、今日のおやつ、出しなさいよ
-Gino, do you have\nany snacks today?
+I know! Give me\nany snacks you have.
 <$00>
 
 // PTR : 00001F00
 #WRITE(PTR, $00001F3C)
 //え？　え？
-Huh? What?
+What? Why?
 <$00>
 
 // PTR : 00001F0C
 #WRITE(PTR, $00001F40)
 //いいから
-Okay.
+Because!
 <$00>
 
 // PTR : 00001F18
 #WRITE(PTR, $00001F44)
 //あうう…
-Brrr!
+Because!
 <$00>
 
 // PTR : 00002048
