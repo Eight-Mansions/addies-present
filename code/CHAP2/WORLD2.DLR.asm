@@ -91,5 +91,14 @@
     lw t4, 0x8(t7)
     nop
     sw t4, 0x8(t6)
+	
+.org 0x800c251c
+	;ピア、きっと喜ぶわ
+	;Pia will be thrilled!
+	lw t0, 0x10(t3)
+    lw t1, 0x14(t3)
+    sw t0, 0x10(t2)
+    sw t1, 0x14(t2)
 
+	
 .close

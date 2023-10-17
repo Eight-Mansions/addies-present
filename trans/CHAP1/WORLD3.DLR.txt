@@ -1890,6 +1890,15 @@ Frame
 Velvet
 <$00>
 
+// PTR : 000007F4
+#WLB(PTR1, $000056E8)
+#WHB(PTR1, $000056E9)
+#WBB(PTR1, $00005274)
+#WUB(PTR1, $00005275)
+//ÅcÇ®ëOÇÕó«Ç¢ãqÇæÇ»
+You're a nice customer.
+<$00>
+
 // PTR : 000244D8
 #JMP($000244D8)
 //ÉyÉì

@@ -182,7 +182,7 @@ I don't want to let\nthe barkeep down!
 #WBB(PTR1, $000019B8)
 #WUB(PTR1, $000019B9)
 //服を作るために\nあとボタンが必要だ。
-I need more buttons\nfor Pia's commission.
+I still need a button\nfor Pia's commission.
 <$00>
 
 // PTR : 0000046C

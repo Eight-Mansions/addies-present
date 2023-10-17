@@ -1217,7 +1217,7 @@ Fwhowa?
 #WBB(PTR2, $0000BD60)
 #WUB(PTR2, $0000BD61)
 //ん、まともにしゃべれるわい\n入れ歯が無くなって難儀しとったよ
-I can talk normal-like.\nHard without them dentures.
+I can talk normal now!\nIt was hard without dentures.
 <$00>
 
 // PTR : 0000159C
@@ -1226,7 +1226,7 @@ I can talk normal-like.\nHard without them dentures.
 #WBB(PTR2, $0000BD70)
 #WUB(PTR2, $0000BD71)
 //そのことには礼を\n言っておくが、ところで…
-You should have said\nsomething earlier.
+You deserve a little reward!\nNow, where was my...
 <$00>
 
 // PTR : 000015C8
@@ -1235,7 +1235,7 @@ You should have said\nsomething earlier.
 #WBB(PTR2, $0000BDC8)
 #WUB(PTR2, $0000BDC9)
 //…わしの財布は？
-So, about my wallet?
+Ah. Have you seen my purse?
 <$00>
 
 // PTR : 000015DC
@@ -1244,7 +1244,7 @@ So, about my wallet?
 #WBB(PTR2, $0000BDD8)
 #WUB(PTR2, $0000BDD9)
 //さあ…？
-Huh?
+Your... purse?
 <$00>
 
 // PTR : 000015E8
@@ -1262,7 +1262,7 @@ Hwoahou!
 #WBB(PTR2, $0000C02C)
 #WUB(PTR2, $0000C02D)
 //わしの財布…
-My wallet...
+Now, where's my purse...
 <$00>
 
 // PTR : 00001608

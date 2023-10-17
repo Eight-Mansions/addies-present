@@ -82,4 +82,18 @@
 	;Can I return the\ninstruments to normal?
 	addiu v0, a0, 0x30
 
+.org 0x800bf468
+	addiu a0,sp,0x94
+	
+.org 0x800bf494
+	;ビン
+	;Button
+    lwl a3, 0x3(t2)
+    lwr a3, 0x0(t2)
+    lw  t0, 0x4(t2)
+    swl a3, 0x8f(sp)
+    swr a3, 0x8c(sp)
+    sw  t0, 0x90(sp)
+
+
 .close

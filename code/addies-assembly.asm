@@ -148,18 +148,6 @@ cur_width:
 .close
 
 .open "ins\CHAP2\WORLD2.DLR",0x800B7B78
-
-.org 0x800c24f0
-	;ピア、きっと喜ぶわ
-	;Pia will be thrilled!
-	la a0, 0x800b9318
-	la a1, 0x800a3848
-	
-	jal StringCopy
-	nop
-	
-	j 0x800c252c
-	nop
 	
 .org 0x800beafc
 	;対岸
