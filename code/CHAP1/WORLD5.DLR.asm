@@ -24,7 +24,7 @@
     sw t3, 0x10(t5)
 
 .org 0x800bcc50
-	;管理人室・ハシゴ
+	;管理人室・廊下
 	;Conductor's Hall
 	lw t2, 0xc(t4)
     sw t1, 0x8(t3)

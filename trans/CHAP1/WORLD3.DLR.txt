@@ -269,7 +269,7 @@ How can I know for sure
 // PTR : 00001294
 #WRITE(PTR, $00001314)
 //‰½‚Ð‚Æ‚Â–³‚¢‚©‚ç‚È
-that you're not his side?
+that you're not on his side?
 <$00>
 
 // PTR : 000012A8

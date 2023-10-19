@@ -11,8 +11,8 @@
 	;Beyond the locked door\nwas a wide field.
 	addiu v0, a0, 0x30
 	
-.org 0x800bcc50
-	;管理人室・ハシゴ
+.org 0x800bbce4
+	;管理人室・入口
 	;Conductor's Hall
     lw t4, 0xc(t6)
     sw t3, 0x8(t5)
