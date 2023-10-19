@@ -132,6 +132,30 @@ cur_width:
 	nop
 .close
 
+.open "ins\CHAP1\WORLD5.DLR",0x800B7B78
+
+; .org 0x800c47c8
+	; ;ジョーカがいなくなっても\n街は変わりなかった。
+	; ;The town hadn't changed,\neven with Joka gone.
+	; jal StringCopy
+	; nop
+	
+	; j 0x800c4814
+	; nop
+
+.org 0x800c4880
+	;そうだ…\n図書館の館長に会わなきゃ…
+	;It may be best to meet\nwith the head librarian.
+	la a1, 0x800a3848
+	la a0, 0x800b8c7c	
+	
+	jal StringCopy
+	nop
+	
+	j 0x800c48cc
+	addiu v0, r0, 0x01
+.close
+
 .open "ins\CHAP2\WORLD1.DLR",0x800B7B78
 
 .org 0x800beff0
