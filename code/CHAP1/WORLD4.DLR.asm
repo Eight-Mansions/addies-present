@@ -20,6 +20,18 @@
     lw t3, 0x10(t6)
     nop
     sw t3, 0x10(t5)
-
+	
+.org 0x800bae38
+	addiu a0, sp, 0x94
+	
+.org 0x800bae64	
+	;門戸
+	;Doorway
+	lw a3, 0x0(t2)
+	lw t0, 0x4(t2)
+	sw a3, 0x8c(sp)
+	lw a3, 0x08(t2)
+	sw t0, 0x90(sp)
+	sw a3, 0x94(sp)
 
 .close

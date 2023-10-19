@@ -966,7 +966,7 @@ Joka wants to be a gear.
 #WBB(PTR2, $00010250)
 #WUB(PTR2, $00010251)
 //ƒIƒ“ƒoƒ“’†•
-Core^
+Core
 <$00>
 
 // PTR : 00000648
