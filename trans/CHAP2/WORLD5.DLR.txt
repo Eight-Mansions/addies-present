@@ -1103,7 +1103,7 @@ I can enter the\nlibrary now!
 #WBB(PTR2, $00009ED4)
 #WUB(PTR2, $00009ED5)
 //追いかけなくてもいいの？
-I need to be escorted?
+Shouldn't you go after him?
 <$00>
 
 // PTR : 00001E2C
@@ -1130,7 +1130,7 @@ The bar is your oyster.\nGood luck.
 #WBB(PTR2, $0000A234)
 #WUB(PTR2, $0000A235)
 //ドラムは大事だけど\nクラシックにだけは必要ないわ
-Drums are essential\nin classical music.
+Drums aren't so essential\nfor classical music.
 <$00>
 
 // PTR : 00001EF8
@@ -1247,6 +1247,24 @@ The tailor shop is\nin the alley.
 #WUB(PTR1, $00005C9D)
 //ズーの家の方に\n逃げていったみたいよ！
 It looks like he ran\ntowards Zoo's house!
+<$00>
+
+// PTR : 00001ED8
+#WLB(PTR1, $0000A224)
+#WHB(PTR1, $0000A225)
+#WBB(PTR1, $0000A204)
+#WUB(PTR1, $0000A205)
+//どんなジャンルでも\nベースだけは絶対必要よ
+No matter what musical genre\nwe choose, we'll need a bass.
+<$00>
+
+// PTR : 00001ED8
+#WLB(PTR1, $0000A248)
+#WHB(PTR1, $0000A249)
+#WBB(PTR1, $0000A214)
+#WUB(PTR1, $0000A215)
+//ピアノは汎用性が高い楽器よね
+The piano is useful in any scenario.
 <$00>
 
 // PTR : 0000145C

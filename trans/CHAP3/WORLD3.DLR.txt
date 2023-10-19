@@ -1388,6 +1388,15 @@ Office
 Help me up! Quick!
 <$00>
 
+// PTR : 00000E14
+#WLB(PTR1, $000097B4)
+#WHB(PTR1, $000097B5)
+#WBB(PTR1, $00009754)
+#WUB(PTR1, $00009755)
+//『静かに自分を\n見つめ直す旅に出ます』
+"I've gone on a journey\nto find myself."
+<$00>
+
 // PTR : 00024A28
 #JMP($00024A28)
 //コウモリ
