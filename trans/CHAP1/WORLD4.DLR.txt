@@ -179,3 +179,9 @@ I have to go to the\nconductor's hall.
 //カーテン
 Curtain
 <$00>
+
+// PTR : 000002B8
+#JMP($000002B8)
+//ズーの庵・裏口
+Zoo's House^
+<$00>
