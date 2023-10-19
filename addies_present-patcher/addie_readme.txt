@@ -48,23 +48,17 @@ Readme
 Project History:
 
 Firstly, we ask for this project to not be confused
-with the translated originally started by Ashsha and
-shared by CJ Iwakura a few years ago, shown here:
+with the translated originally started by translator
+Aishsha and romhacker Esperknight to be shared by
+internet hype person CJ Iwakura a few years ago,
+shown here:
 https://www.youtube.com/watch?v=fvc3Ux3KgGE
 
-The project was originally started by Ashsha (2012?),
-who later dropped the project and handed it to
-Esper (2016-18?). Esper asked if I'd take a look,
-and I offered instead to translate the entire script
-from scratch.
-
-Although we had worked on this one in earnest those
-few years ago, it hit the backburner in light of
-other projects, so there isn't much to tell.
-
-Esper wanted a break from Linda Cubed Again,
-so we poked at this as of this June or July (2023),
-and... here we are!
+Due to personal reasons, Aishsha had to drop the project
+and return the scripts to Esperknight. Esperknight
+offered the project to Cargodin, who re-translated the
+entire script from scratch, so this project does not
+match the footage above in any way.
 
 
 Content Warnings:
@@ -92,6 +86,13 @@ screen is never consistently dark or dimlit.
 Still, if you have a history with photosensitivity,
 I'd recommend checking out footage online or with
 a friend before diving into it yourself.
+
+The subtitles are timed to the dialogue in the game,
+and are by default set to progress automatically.
+If you'd like to forsake the auto-progression and
+take your time when reading the dialogue, go to the
+Option menu, Visual, Text and change "auto" to "step"
+before starting the game.
 
 If you find something in the game that deserves
 a content warning to better help other people,
