@@ -198,7 +198,7 @@ Oh! Is that you, Eliza?
 // PTR : 0000138C
 #WRITE(PTR, $000013AC)
 //Ç¶ÅHÅcå©ÇƒÇÃÇ∆Ç®ÇËÇÊ
-Why wouldn't I be?
+Why wouldn't it be?
 <$00>
 
 // PTR : 00001564

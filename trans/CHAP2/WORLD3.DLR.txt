@@ -612,7 +612,7 @@ What are you doing?
 #WBB(PTR2, $00005CE4)
 #WUB(PTR2, $00005CE5)
 //ƒvƒ‚Ìô‘ó‰®‚Ì\n“¹‚Ì‚è‚Í‚¯‚í‚µ‚¢‚Ë‚¥
-The way of the laundryman\nis indeed a long one.
+The road of the laundryman\nis indeed a long one.
 <$00>
 
 // PTR : 00000A3C

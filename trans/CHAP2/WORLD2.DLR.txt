@@ -834,7 +834,7 @@ Still, a rod without bait\nis just a stick!
 #WBB(PTR2, $000068FC)
 #WUB(PTR2, $000068FD)
 //’Ş‚è…‚ğ‚½‚ç‚µ‚Ä‚¢‚é‚¾‚¯‚Å\n‚¸‚¢‚Ô‚ñ‚ÆK‚¹‚È‚à‚ñ‚¾‚Ë
-I hope you're having fun,\ndangling your last.
+Perhaps casting the\nline is the fun part.
 <$00>
 
 // PTR : 00000938

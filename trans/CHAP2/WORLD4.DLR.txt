@@ -700,37 +700,37 @@ You're still a kid Addie,\nbut you'll get there.
 // PTR : 00002E04
 #WRITE(PTR, $00002F50)
 //どうした？　しけた面してるな
-What's with\nthe glum look?
+Aww, why the long face?
 <$00>
 
 // PTR : 00002E24
 #WRITE(PTR, $00002F54)
 //ジョーカは見つかったのかい？
-Still can't find Joka?
+Did you find Joka?
 <$00>
 
 // PTR : 00002E44
 #WRITE(PTR, $00002F58)
 //こらしめてやったか？
-Were you yelled at?
+...I suppose he\ngot his punishment?
 <$00>
 
 // PTR : 00002E5C
 #WRITE(PTR, $00002F5C)
 //じゃあ、もう\n言うことはないわけだ
-Well, guess we're\ndone chatting then.
+It's okay. You don't\nhave to say anything.
 <$00>
 
 // PTR : 00002E80
 #WRITE(PTR, $00002F60)
 //でも、ジョーカが\n気になることを言ってたの
-But, Joka said something\ninteresting.
+Well, Joka said something\nconcerning.
 <$00>
 
 // PTR : 00002EAC
 #WRITE(PTR, $00002F64)
 //あたしに、図書館の館長に\n会いに行けって
-I went to see\nthe head librarian.
+I think I need to see\nthe head librarian.
 <$00>
 
 // PTR : 00002ED4

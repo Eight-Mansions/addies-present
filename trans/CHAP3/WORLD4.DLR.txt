@@ -750,7 +750,7 @@ Right Hall
 #WBB(PTR2, $000093BC)
 #WUB(PTR2, $000093BD)
 //äŸí∑é∫ÅEëO
-Head Office
+Head Office^
 <$00>
 
 // PTR : 00000DE4
@@ -777,7 +777,7 @@ Do you need to\nsee the head again?
 #WBB(PTR2, $0000A144)
 #WUB(PTR2, $0000A145)
 //äŸí∑é∫ÅEî‡
-Head Office
+Head Office^
 <$00>
 
 // PTR : 00000F18
@@ -815,7 +815,7 @@ A tomb? In the place\nwhere I woke up?
 #WBB(PTR2, $0000BFB4)
 #WUB(PTR2, $0000BFB5)
 //äŸí∑é∫
-Head Office
+Head Office^
 <$00>
 
 // PTR : 000019BC
