@@ -257,19 +257,6 @@ Well done!\nNow, try another!
 Try again! Practice until\nyou beat the record!
 <$00>
 
-
-//#WARN($000035BA, "@000035BA")
-//P: 000035BC
-//#JMP($000035BC)
-#WBB(PTR1, $00033134)
-#WUB(PTR1, $00033135)
-#WLB(PTR1, $0003313C)
-#WHB(PTR1, $0003313D)
-//moze////
-moze////
-<$00>
-
-
 //#WARN($000035C5, "@000035C5")
 //P: 000035C8
 //#JMP($000035C8)
@@ -348,7 +335,7 @@ Wrong ring selected.\nTry again.
 
 //#WARN($0000367E, "@0000367E")
 //P: 00003680
-//#JMP($00003680)
+#JMP($000035D0)
 #WBB(PTR1, $00033E00)
 #WUB(PTR1, $00033E01)
 #WLB(PTR1, $00033E08)
