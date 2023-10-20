@@ -490,13 +490,13 @@ By who? The barkeep?
 // PTR : 00001D98
 #WRITE(PTR, $00001E74)
 //プレゼント？！
-It was a gift?
+Was it a gift?
 <$00>
 
 // PTR : 00001DA8
 #WRITE(PTR, $00001E78)
 //…ぜんぜん想像つかないわ
-...I couldn't guess.
+That's not like him.
 <$00>
 
 // PTR : 00001DC4
@@ -1352,7 +1352,7 @@ Let's track\nwhere we've been.
 #WBB(PTR2, $0000F5C8)
 #WUB(PTR2, $0000F5C9)
 //なあ、あんたを女と見込んで\n聞くんだけどさ
-Hey, I wanted to ask you\nsomething. As a girl.
+Hey, I wanted to ask you\nsomething. Girl to girl.
 <$00>
 
 // PTR : 000022C0
@@ -1374,7 +1374,7 @@ Promise you won't laugh?
 #WBB(PTR2, $0000F62C)
 #WUB(PTR2, $0000F62D)
 //うん
-Okay
+Yes
 <$00>
 
 // PTR : 000022DC
