@@ -54,11 +54,11 @@ if not defined found_track_1 goto :NOPATCHFOUND
 echo FILE "%filename_1%.bin" BINARY>%cuename_1%.cue
 echo   TRACK 01 MODE2/2352>>%cuename_1%.cue
 echo     INDEX 01 00:00:00>>%cuename_1%.cue
-echo FILE "%filename_3%.bin" BINARY>>%cuename_1%.cue
+echo FILE "%filename_2%.bin" BINARY>>%cuename_1%.cue
 echo   TRACK 02 AUDIO>>%cuename_1%.cue
 echo       INDEX 00 00:00:00>>%cuename_1%.cue
 echo       INDEX 01 00:02:00>>%cuename_1%.cue
-echo FILE "%filename_4%.bin" BINARY>>%cuename_1%.cue
+echo FILE "%filename_3%.bin" BINARY>>%cuename_1%.cue
 echo     TRACK 03 AUDIO>>%cuename_1%.cue
 echo       INDEX 00 00:00:00>>%cuename_1%.cue
 echo       INDEX 01 00:02:00>>%cuename_1%.cue
