@@ -19,9 +19,9 @@ Original publisher: Sony Computer Entertainment
 Original release date in Japan: February 3, 2000
 
 
-======================================================
+------------------------------------------------------
 Readme Index
-======================================================
+------------------------------------------------------
 
 1. Folder Contents
 2. About Addie's Present
