@@ -99,6 +99,20 @@ cur_width:
 	
 .close
 
+.open "ins\CHAP1\WORLD1.DLR",0x800B7B78
+
+.org 0x800bd020
+	;これがお墓…\n始まりの、お墓
+	;This tomb...\nI saw it when I first woke up.
+	addu a0, r0, t3
+	addu a1, r0, t2
+	
+	jal StringCopy
+	nop
+	
+	jal 0x800bd05c
+.close
+
 .open "ins\CHAP1\WORLD3.DLR",0x800B7B78
 
 .org 0x800bee28
