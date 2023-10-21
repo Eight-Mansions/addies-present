@@ -1070,7 +1070,7 @@ Are you sure?\nYes: ○/No: X
 #WBB(PTR2, $00006694)
 #WUB(PTR2, $00006695)
 //よし、待ってろ
-Let's try it out.
+Ready to try it out?
 <$00>
 
 // PTR : 00000AB8
@@ -1079,7 +1079,7 @@ Let's try it out.
 #WBB(PTR2, $0000669C)
 #WUB(PTR2, $0000669D)
 //さわって確かめるんだな
-Take your pick.
+All right, one moment...
 <$00>
 
 // PTR : 00000AD0
@@ -1982,3 +1982,16 @@ Map
 //カップ
 Cup
 <$00>
+
+// PTR : 00000B04
+#JMP($00000B04)
+//ハロー
+Hello
+<$00>
+
+// PTR : 00000B20
+#JMP($00000B20)
+//ワールド
+World
+<$00>
+
