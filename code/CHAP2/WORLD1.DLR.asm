@@ -29,12 +29,12 @@
 .org 0x800BEF44
 	;デンの情報を頼りに\nバーへ向かうアディ。
 	;With Den's trusty intel,\nAddie made for the bar.
-	addiu v0, a0, 0x40
+	addiu v0, a0, 0x30
 
 .org 0x800BEF9C
 	;デンの情報を頼りに\nバーへ向かうアディ。
 	;With Den's trusty intel,\nAddie made for the bar.
-	addiu v0, a0, 0x40
+	addiu v0, a0, 0x30
 
 .org 0x800C6754
 	;マスターの話によれば\nイライザはバーの中に。

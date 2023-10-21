@@ -34,12 +34,12 @@
 .org 0x800C646C
 	;ズーに報告を終え\n結局ふりだしに戻った。
 	;After speaking to Zoo,\nAddie retraced her steps.
-	addiu v0, a0, 0x40
+	addiu v0, a0, 0x30
 
 .org 0x800C6864
 	;ズーに報告を終え\n結局ふりだしに戻った。
 	;After speaking to Zoo,\nAddie retraced her steps.
-	addiu v0, a0, 0x40
+	addiu v0, a0, 0x30
 
 .org 0x800C7694
 	;ズーに報告するも\n途方に暮れるアディ。
