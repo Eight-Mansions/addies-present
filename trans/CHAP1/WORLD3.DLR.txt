@@ -1052,7 +1052,7 @@ Let's talk business.
 #WBB(PTR2, $00006684)
 #WUB(PTR2, $00006685)
 //そのデコログを買うんだな？\nはい…○／いいえ…×
-Purchase Decor Kit?\nYes: ○/No: ×
+Purchase Decor Kit?\nYes: ○/No: X
 <$00>
 
 // PTR : 00000A74
@@ -1061,7 +1061,7 @@ Purchase Decor Kit?\nYes: ○/No: ×
 #WBB(PTR2, $0000668C)
 #WUB(PTR2, $0000668D)
 //苦しくなるがそれでもいいのか？\nはい…○／いいえ…×
-Are you sure?\nYes: ○/No: ×
+Are you sure?\nYes: ○/No: X
 <$00>
 
 // PTR : 00000AA8
@@ -1088,7 +1088,7 @@ Take your pick.
 #WBB(PTR2, $000066A4)
 #WUB(PTR2, $000066A5)
 //他に欲しいものがあるか？\nはい…○／いいえ…×
-Anything else?\nYes: ○/No: ×
+Anything else?\nYes: ○/No: X
 <$00>
 
 // PTR : 000008D0
