@@ -1070,7 +1070,7 @@ Are you sure?\nYes: Åõ/No: X
 #WBB(PTR2, $00006694)
 #WUB(PTR2, $00006695)
 //ÇÊÇµÅAë“Ç¡ÇƒÇÎ
-See you around.
+Let's try it out.
 <$00>
 
 // PTR : 00000AB8
